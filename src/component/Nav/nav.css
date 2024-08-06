@@ -1,0 +1,49 @@
+/* Ensure selected link is highlighted */
+.selected {
+  color: #00a986;
+}
+
+/* Highlight nav-item on hover */
+.nav-item:hover {
+  color: #00a986;
+}
+
+/* Basic styles for nav items */
+.nav-item {
+  position: relative;
+  display: inline-block; /* Ensure it takes up space for positioning */
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Positions below the nav-item */
+  left: 0;
+  /* Ensure it accommodates all items */
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it appears above other content */
+  /* Optional: Add padding to the dropdown for spacing */
+  padding: 5px 0;
+}
+
+/* Show dropdown menu on hover */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+/* Dropdown item styling */
+.dropdown-item {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Dropdown item hover effect */
+.dropdown-item:hover {
+  background-color: #f4f4f4;
+}

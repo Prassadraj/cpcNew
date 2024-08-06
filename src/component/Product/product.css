@@ -1,0 +1,54 @@
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.slider-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* Adjust for mobile screens */
+  object-fit: cover;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.slider-button.left {
+  left: 0;
+}
+
+.slider-button.right {
+  right: 0;
+}
+/* Add this to your CSS file (e.g., product.css) */
+/* Add this to your CSS file (e.g., product.css) */
+@media (max-width: 640px) {
+  .no-scroll {
+    overflow: hidden;
+  }
+}
+.ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Number of lines to show before truncation */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5; /* Adjust as needed */
+  max-height: 6em; /* Adjust based on line height and number of lines */
+}

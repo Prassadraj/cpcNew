@@ -1,0 +1,24 @@
+#headline {
+  font-weight: bolder;
+  /* Adjust the spacing between letters */
+  /* word-spacing: 0.1em; */
+}
+.description p {
+  color: #3c4959;
+  margin-top: 34px;
+  font-size: 18px;
+  /* font-family: sans-serif; */
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.buttons {
+  margin-top: 40px;
+  font-family: "Poppins";
+}
+.btn1 {
+  /* border-top-left-radius: 200px;
+  border-top-right-radius: 200px; */
+  border-radius: 200px;
+
+  font-size: 20px;
+}

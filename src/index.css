@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  color: #b5f7e7;
+} */
+body {
+  font-family: "Poppins", sans-serif;
+}
+a:hover {
+  color: #10b981;
+  text-decoration: none;
+}

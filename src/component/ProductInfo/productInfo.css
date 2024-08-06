@@ -1,0 +1,36 @@
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px;
+  height: 5px; /* Make the scrollbar thin */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgb(202, 199, 199); /* Track background color */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Scrollbar handle color */
+  border-radius: 2px; /* Rounded corners for the handle */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Handle color on hover */
+}
+/* productInfo.css */
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #c0bcbc;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
