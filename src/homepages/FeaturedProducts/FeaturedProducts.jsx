@@ -110,20 +110,20 @@ const HorizontalScrollCarousel = ({ cards }) => {
 
 const Card = ({ card }) => {
   return (
-    <div className="mt-2 font-poppins` relative h-[250px] w-[150px] md:h-[400px] md:w-[350px] overflow-hidden bg-light-green rounded-2xl">
+    <div className="mt-2 font-poppins` relative h-[250px] w-[150px] md:h-[400px] md:w-[350px] overflow-hidden  rounded-2xl border-1 border-custom-green">
       <div className="flex justify-center items-center w-full md:mt-10 h-32">
         <img className="md:w-[150px] w-[100px]" src={card.url} alt="" />
       </div>
-      <div className="absolute md:top-60 md:left-10 md:right-10 p-0">
+      <div className="absolute md:top-56 md:left-10 md:right-10 p-0">
         <div className="flex justify-center md:justify-start">
           <p className="md:text-xl font-poppins font-bold ">{card.title}</p>
         </div>
         <p className="text-xs md:text-base line-clamp-3 px-1">{card.content}</p>
       </div>
-      <div className="absolute bottom-3 md:bottom-6 w-full">
+      <div className="absolute lg:bottom-4 md:bottom-6 w-full">
         <div className="flex justify-center items-center">
           <Magnetic>
-            <button className="text-xs w-fit md:w-72 bg-custom-green p-0.5 md:px-3 md:py-2 rounded-lg text-white">
+            <button className="text-xs lg:text-base w-fit md:w-72 border-1 p-0.5 md:px-3 md:py-2 rounded-lg text-custom-green border-custom-green">
               View Product
             </button>
           </Magnetic>
@@ -183,12 +183,5 @@ const featuredCards = [
     content:
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit Culpa non placeat vitae distinctio ",
     id: 4,
-  },
-  {
-    url: image3,
-    title: "Title 5",
-    content:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit Culpa non placeat vitae distinctio ",
-    id: 5,
   },
 ];

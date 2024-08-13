@@ -72,7 +72,7 @@ function Section1() {
             className=" text-2xl md:text-4xl mt-4"
             data-splitting="chars"
           >
-            Medical Laboratory
+            Medical Laboratory Equipment Supplier in India at the
           </p>
           <p
             id="headline"
@@ -84,7 +84,7 @@ function Section1() {
             className=" text-2xl md:text-4xl w-full md:w-[50vw]  "
             data-splitting="chars"
           >
-            Equipment Supplier in India
+            Best Price
           </p>
           <div className="description">
             <p
@@ -94,8 +94,9 @@ function Section1() {
                 WebkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
               }}
             >
-              Discover our top-quality medical laboratory equipment, tailored
-              for hospitals and diagnostic labs across India.
+              Everlife CPC Diagnostics is your trusted partner for high-quality
+              in-vitro diagnostic medical laboratory equipment suppliers in
+              India.
             </p>
           </div>
           <div className="buttons flex gap-1 md:justify-start justify-center">

@@ -71,7 +71,7 @@ function Blog() {
         {data.map((datas, index) => (
           <div
             key={index}
-            className="h-[200px] p-3  bg-light-green w-full max-w-[300px] rounded-lg md:h-[370px] blogBox"
+            className="h-[200px] p-3  border-1 border-custom-green w-full max-w-[300px] rounded-lg md:h-[370px] blogBox"
           >
             <div className="md:m-2">
               <img className="rounded-lg w-full" src={datas.img} alt="" />

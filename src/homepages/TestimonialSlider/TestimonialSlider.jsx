@@ -103,7 +103,7 @@ function TestimonialSlider() {
         {data.map((item, i) => (
           <div
             key={i}
-            className="cardd bg-black/10 gap-1 p-2 md:p-1 lg:p-3 rounded-lg text-gray-500 flex-col flex md:gap-3 font-poppins"
+            className="cardd border-1 border-custom-green gap-1 p-2 md:p-1 lg:p-3 rounded-lg text-gray-500 flex-col flex md:gap-3 font-poppins"
           >
             <div className="flex items-center w-[125px] md:w-[350px] lg:w-[550px] md:gap-2 gap-1 md:p-3">
               <img
@@ -124,7 +124,9 @@ function TestimonialSlider() {
           <p
             key={i}
             className={`w-3 h-3 md:w-5 md:h-5 rounded-full cursor-pointer ${
-              activeSlide === i ? "bg-black/50" : " border-2 border-black/50"
+              activeSlide === i
+                ? "bg-custom-green"
+                : " border-2 border-black/50"
             }`}
             onClick={() => handleDotClick(i)}
           ></p>

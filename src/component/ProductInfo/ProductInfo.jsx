@@ -180,7 +180,17 @@ function ProductInfo() {
   };
   return (
     <div className="product-info text-black overflow-hidden mt-2 font-poppins">
-      <div className=" mb-3 text-xl cursor-pointer  px-5 w-full md:px-5">
+      <div className="hidden mb-3 text-base md:text-xl cursor-pointer  px-5 w-full md:px-5">
+        <span className="">
+          <Link to="/product">Product</Link>
+        </span>
+        <Link to="/product" onClick={() => setSelectedCategory(category)}>
+          <span>/ {category}</span>
+        </Link>
+        <span className="">/ {product.title}</span>
+      </div>
+      {/* mobile */}
+      <div className=" mb-3 text-xl cursor-pointer  px-2 w-full sm:hidden">
         <span className="">
           <Link to="/product">Product</Link>
         </span>
@@ -189,7 +199,7 @@ function ProductInfo() {
         </Link>
         <span>/ {product.title}</span>
       </div>
-      <div className="flex pl-5 gap-5">
+      <div className="flex px-5 gap-5">
         <div
           className={`sm:w-[25%] bg-white border rounded-md shadow-md  p-1 md:py-2 md:px-4 md:sticky top-16 h-[90vh] overflow-y-auto z-10  ${
             open
@@ -259,22 +269,36 @@ function ProductInfo() {
                 />
               ))}
             </div>
-            <div className="w-[60%] h-[60%] flex justify-center">
+            <div className="md:w-[60%] md:h-[60%] flex justify-center">
               <img src={imgUrl} alt="Descriptive text" className="rounded-md" />
             </div>
           </div>
-          <div className=" flex justify-center mt-4">
+          <div className="hidden md:flex justify-center mt-4">
             <div className="w-full flex flex-col text-xl text-justify">
               <p className="font-bold">{product.title}</p>
               <p className="font-medium">Overview:</p>
-              <p className="pr-5">{product.description}</p>
-              <div className="items-center gap-2 text-xl hidden md:flex mt-4">
+              <p className="">{product.description}</p>
+              <div className="items-center gap-2 text-xl hidden md:flex mt-2 ">
                 <p>Share:</p>
                 <FontAwesomeIcon icon={faFacebook} />
                 <FontAwesomeIcon icon={faTwitter} />
                 <FontAwesomeIcon icon={faWhatsapp} />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      {/* mobile */}
+      <div className="sm:hidden flex justify-center mt-4 px-2">
+        <div className="w-full flex flex-col text-base ">
+          <p className="font-bold">{product.title}</p>
+          <p className="font-medium">Overview:</p>
+          <p className="mb-2">{product.description}</p>
+          <div className="items-center gap-2 text-lg hidden md:flex ">
+            <p>Share:</p>
+            <FontAwesomeIcon icon={faFacebook} />
+            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faWhatsapp} />
           </div>
         </div>
       </div>

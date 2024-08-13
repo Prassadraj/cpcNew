@@ -28,7 +28,7 @@ function ZoomEffect() {
 
   return (
     <div
-      className="flex flex-col gap-2 mb-4"
+      className="flex flex-col gap-2 lg:mb-10"
       style={{
         width: "100%",
         height: "100%",
@@ -92,14 +92,14 @@ function ZoomEffect() {
         </div>
         <div className=" flex justify-evenly items-center ">
           <img
-            className="w-[100px] object-cover md:h-[100px] lg:w-[200px] lg:h-[150px]"
+            className="w-[100px] object-cover md:h-[100px] lg:w-[200px] lg:h-[120px]"
             src={pictures[1].src}
             data-aos="zoom-in-up"
             alt=""
           />
 
           <img
-            className="w-[100px] object-cover md:h-[100px] lg:w-[200px] lg:h-[150px] "
+            className="w-[100px] object-cover md:h-[100px] lg:w-[200px] lg:h-[120px] "
             src={pictures[2].src}
             data-aos="zoom-in-up"
             alt=""
