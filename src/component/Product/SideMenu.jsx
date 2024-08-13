@@ -4,7 +4,6 @@ import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 import { CategoryContext } from "../Context/CategoryContext";
 import { ProductDataContext } from "../Context/ProductData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleXmark, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
   const { setSelectedCategory } = useContext(CategoryContext);
@@ -46,7 +45,7 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
                     key={item.id}
                     className="no-underline"
                   >
-                    <p className="font-mont px-4 py-2 text-sm uppercase hover:bg-custom-green hover:text-light-green cursor-pointer">
+                    <p className="font-mont px-4 py-2 capitalize text-sm  hover:bg-custom-green hover:text-light-green cursor-pointer">
                       {item.title}
                     </p>
                   </Link>

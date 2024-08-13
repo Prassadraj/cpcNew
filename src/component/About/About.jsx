@@ -1,7 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 
 import bannerimage from "../../assets/image/banner-image.png";
-
 import sec from "../../assets/image/second-sec-image.png";
 import { SiTicktick } from "react-icons/si";
 import { FaGlobeAsia } from "react-icons/fa";
@@ -21,7 +20,7 @@ import award1 from "../../assets/image/award1.png";
 import award2 from "../../assets/image/award2.png";
 import award3 from "../../assets/image/award3.png";
 import { motion } from "framer-motion";
-
+import CarouselComponent from "../Carousel/Carousel";
 import image1 from "../../assets/image/behnk1.png";
 import image2 from "../../assets/image/asp1.png";
 import image3 from "../../assets/image/buhlmann1.png";
@@ -32,7 +31,6 @@ import image8 from "../../assets/image/yhlo1.png";
 import awards1 from "../../assets/image/awards1.png";
 import mainaward from "../../assets/image/main-awards.png";
 import Footer from "../../homepages/Footer/Footer";
-import Carousel from "../Carousel/Carousel";
 
 const About = () => {
   const text =
@@ -45,12 +43,9 @@ const About = () => {
     slidesToShow: 4,
     autoplaySpeed: 2500,
   };
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   return (
-    <div className="scroll-smooth">
+    <div className="scroll-smooth font-poppins">
       <div className="grid grid-cols-1">
         <div className="">
           <img src={bannerimage} alt="bannerimage" className="mx-auto " />
@@ -77,7 +72,7 @@ const About = () => {
           <button className="bg-maincol text-white p-2 rounded-lg font-semibold shadow-custom-shadow mt-4">
             since-1987
           </button>
-          <h2 className="text-xl mt-4 font-medium leading-normal text-maincol">
+          <h2 className="text-xl mt-4 font-medium leading-normal text-custom-green text-left">
             {text.map((el, i) => (
               <motion.span
                 initial={{ opacity: 0 }}
@@ -125,7 +120,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-12 grid-cols-12  gap-2 bg-gray-200 p-20 animate-fade-up delay-100">
+      <div className="grid md:grid-cols-12 grid-cols-12  gap-2  animate-fade-up delay-100">
         <div className="md:block sm: hidden">
           <div className="md:absolute md:left-2/3 md:mt-24 ">
             <svg
@@ -157,11 +152,11 @@ const About = () => {
           </div>
         </div>
         <div className="md:col-span-12 col-span-12 md:text-center z-20 ">
-          <h2 className="text-maincol font-semibold md:text-3xl text-2xl">
+          <h2 className="text-maincol font-poppins font-semibold md:text-3xl text-2xl">
             Our Belief System
           </h2>{" "}
           <br />
-          <p>
+          <p className="font-poppins">
             We believe in providing high quality diagnostic solutions to our
             believers, <br /> through highest level of customer connect by
             ensuring innovative and <br /> affordable products for an
@@ -199,7 +194,7 @@ const About = () => {
           </div>
 
           <div className="col-span-7 p-4 mt-20">
-            <h2 className="text-maincol font-semibold md:text-3xl text-2xl">
+            <h2 className="text-maincol font-poppins font-semibold md:text-3xl text-2xl">
               Our Core Values
             </h2>
             <p className="ml-2 mt-6 text-justify">
@@ -326,20 +321,20 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-200 md:p-20 p-5 mt-10 animate-fade-up ">
-        <h2 className="text-maincol font-semibold md:text-3xl text-2xl text-center">
+      <div className=" md:p-20 p-5 mt-10 animate-fade-up ">
+        <h2 className="text-maincol font-poppins font-semibold md:text-3xl text-2xl text-center">
           Our Suppliers
         </h2>
         <div className="mt-8">
-          <Carousel images={images} settings={settings} />
+          <CarouselComponent images={images} settings={settings} />
         </div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 -scroll-mt-20 mt-20 ">
-        <h2 className="text-maincol md:text-3xl text-2xl font-semibold ml-4 sm:ml-10">
+        <h2 className="text-maincol md:text-3xl text-2xl font-poppins font-semibold ml-4 sm:ml-10">
           Our Directors
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-5 mt-10">
           <div className="border-solid border-2 border-black p-5 bg-cover bg-no-repeat ">
             <img
               src={md1}
@@ -347,7 +342,9 @@ const About = () => {
               className="w-full h-auto rounded-md drop-shadow-custom-drop-shadow"
             />
             <div className="border-t-4 border-maincol">
-              <h2 className="font-bold text-xl mt-4">R. Panchanath,</h2>
+              <h2 className="font-bold text-left text-black text-xl mt-4">
+                R. Panchanath,
+              </h2>
               <p className="text-maincol text-sm mt-1 font-semibold">
                 Chairman & Managing Director
               </p>
@@ -368,7 +365,9 @@ const About = () => {
               className="w-full h-auto rounded-md"
             />
             <div className="border-t-4 border-maincol">
-              <h2 className="font-bold text-xl mt-4">Raman Gandotra, </h2>
+              <h2 className="font-bold text-left text-black  text-xl mt-4">
+                Raman Gandotra,{" "}
+              </h2>
               <p className="text-maincol text-sm mt-1 font-semibold">
                 Director
               </p>
@@ -389,7 +388,9 @@ const About = () => {
               className="w-full h-auto rounded-md"
             />
             <div className="border-t-4 border-maincol">
-              <h2 className="font-bold text-xl mt-4">Chermayn Chan,</h2>
+              <h2 className="font-bold text-left text-black  text-xl mt-4">
+                Chermayn Chan,
+              </h2>
               <p className="text-maincol text-sm mt-1 font-semibold">
                 Director
               </p>
@@ -410,7 +411,9 @@ const About = () => {
               className="w-full h-auto rounded-md"
             />
             <div className="border-t-4 border-maincol">
-              <h2 className="font-bold text-xl mt-4">Bhuvana Panchanath, </h2>
+              <h2 className="font-bold text-left text-black  text-xl mt-4">
+                Bhuvana Panchanath,{" "}
+              </h2>
               <p className="text-maincol text-sm mt-1 font-semibold">
                 Director
               </p>
@@ -431,7 +434,9 @@ const About = () => {
               className="w-full h-auto rounded-md"
             />
             <div className="border-t-4 border-maincol">
-              <h2 className="font-bold text-xl mt-4">Fabian Chua, </h2>
+              <h2 className="font-bold text-left text-black  text-xl mt-4">
+                Fabian Chua,{" "}
+              </h2>
               <p className="text-maincol text-sm mt-1 font-semibold">
                 Director
               </p>
@@ -448,7 +453,7 @@ const About = () => {
       </div>
 
       <div className="container mx-auto mt-20 px-4 sm:px-6 lg:px-8 animate-fade-up delay-500">
-        <h2 className="text-maincol md:text-3xl text-2xl font-semibold ml-4 sm:ml-10">
+        <h2 className="text-maincol md:text-3xl text-2xl font-poppins font-semibold ml-4 sm:ml-10">
           Key Management Person
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 mt-10">
@@ -459,7 +464,9 @@ const About = () => {
               className="w-full h-auto rounded-md"
             />
             <div className="border-t-4 border-maincol">
-              <h2 className="font-bold text-xl mt-4">Dr. Pramod Kabra, </h2>
+              <h2 className="font-bold text-left text-black  text-xl mt-4">
+                Dr. Pramod Kabra,{" "}
+              </h2>
               <p className="text-maincol text-sm mt-1 font-semibold">CEO</p>
               <p className="mt-2">
                 Dr pramod kabra is a qualified internist (MD, internal
@@ -480,9 +487,9 @@ const About = () => {
   </div>
 </div> */}
 
-      <div className="grid md:grid-cols-12 sm:grid-cols-2  gap-2 mt-10 animate-fade-up delay-200 bg-slate-100 overflow-x-hidden">
+      <div className="grid md:grid-cols-12 sm:grid-cols-2  gap-2 mt-10 animate-fade-up delay-200  overflow-x-hidden">
         <div className="md:col-span-6 col-span-12 md:ml-10 p-3 text-justify">
-          <h2 className="text-maincol md:text-3xl text-2xl font-semibold mt-20 ">
+          <h2 className="text-maincol text-left font-poppins  md:text-3xl text-2xl font-semibold mt-20 ">
             Awards
           </h2>
           <p className="leading-8 mt-4">

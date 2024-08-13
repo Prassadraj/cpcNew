@@ -52,7 +52,7 @@ const products = [
         allover: "This is for fully automatic",
         id: "1",
         image: [magna1, magna2, magna3, magna4],
-        title: "TURBOCHEM MAGNA",
+        title: "Turbochem Magna",
         shortdescription:
           "TURBOCHEM MAGNA FULLY AUTOMATIC BIOCHEMISTRY ANALYZER",
         description:
@@ -76,7 +76,7 @@ const products = [
         allover: "This is for fully automatic",
         id: "2",
         image: [neo1, neo2, neo3, neo4],
-        title: "TURBOCHEM PRIME",
+        title: "Turbochem Prime",
         shortdescription:
           "TURBOCHEM PRIME FULLY AUTOMATIC BIOCHEMISTRY ANALYZER",
         description:
@@ -97,7 +97,7 @@ const products = [
         allover: "This is for fully automatic",
         id: "3",
         image: [plus1, plus2],
-        title: "TURBOCHEM NEO",
+        title: "Turbochem Neo",
         shortdescription: "TURBOCHEM NEO FULLY AUTOMATIC BIOCHEMISTRY ANALYZER",
         description:
           "Ideal for performing basic metabolic panels, liver function tests, and more with reliable outcomes.",
@@ -115,7 +115,7 @@ const products = [
         allover: "This is for Semi automatic",
         id: "4",
         image: [prim1, prim2],
-        title: "TURBOSTAT PLUS",
+        title: "Turbostat Plus",
         shortdescription: "TURBOSTAT PLUS SEMI AUTOMATIC BIOCHEMISTRY ANALYZER",
         description:
           "Commonly used for routine chemistry tests and specific protein analysis with semi-automatic functionality.",
@@ -134,7 +134,7 @@ const products = [
         allover: "Reagents",
         id: "5",
         image: [image1],
-        title: "ichem PRIME",
+        title: "Ichem Prime",
         description:
           "System pack reagents specifically designed for use with the TURBOCHEM PRIME analyzer, ensuring consistent and accurate results.",
         workPrinciple:
@@ -151,7 +151,7 @@ const products = [
         allover: "Reagents",
         id: "6",
         image: [image1],
-        title: "ichem MAGNA",
+        title: "Ichem Magna",
         description:
           "Guaranteed number of tests ensuring zero wastage and consistent quality for the TURBOCHEM MAGNA analyzer.",
         workPrinciple:
@@ -168,7 +168,7 @@ const products = [
         allover: "Reagents",
         id: "7",
         image: [image1],
-        title: "identi Immuno Turbidimetry Reagents",
+        title: "Identi Immuno Turbidimetry Reagents",
         description:
           "Homogenized mixture makes antisera ideal for automation, providing accurate and reliable immuno-turbidimetric results.",
         workPrinciple:
@@ -185,7 +185,7 @@ const products = [
         allover: "Reagents",
         id: "8",
         image: [image1],
-        title: "identi Reagents",
+        title: "Identi Reagents",
         description:
           "High quality reagents manufactured to international standards, suitable for a wide range of biochemical tests.",
         workPrinciple:
@@ -202,7 +202,7 @@ const products = [
         allover: "Reagents",
         id: "9",
         image: [image1],
-        title: "CHEMISTRY CALIBRATOR AND CHEMISTRY CONTROLS",
+        title: "Chemistry Calibrator and Chemistry Controls",
         description:
           "Reconstituted stability of up to 7 days at 2°C – 8°C or 4 weeks at -20°C, ensuring precise calibration and control in biochemical testing.",
         workPrinciple:
@@ -225,8 +225,8 @@ const products = [
         topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
         id: "1",
         image: [ast1],
-        title: "Sensititre™ Standard AST Plates",
-        shortdescription: "Sensititre™ Standard AST Plates",
+        title: "Sensititre™ Standard Ast Plates",
+        shortdescription: "Sensititre™ Standard Ast Plates",
         description:
           "Used for antimicrobial susceptibility testing, providing reliable and accurate results for various microbial strains.",
         workPrinciple:
@@ -268,9 +268,9 @@ const products = [
         topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
         id: "3",
         image: [Automated1],
-        title: "Sensititre™ AIM™ Automated Inoculation Delivery System",
+        title: "Sensititre™ Aim™ Automated Inoculation Delivery System",
         shortdescription:
-          "Sensititre™ AIM™ Automated Inoculation Delivery System",
+          "Sensititre™ Aim™ Automated Inoculation Delivery System",
         description:
           "Automates the inoculation process for antimicrobial susceptibility testing, enhancing accuracy and efficiency.",
         workPrinciple:
@@ -309,8 +309,8 @@ const products = [
         topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
         id: "5",
         image: [Digital1],
-        title: "Sensititre™ Vizion™ Digital MIC Viewing System",
-        shortdescription: "Sensititre™ Vizion™ Digital MIC Viewing System",
+        title: "Sensititre™ Vizion™ Digital Mic Viewing System",
+        shortdescription: "Sensititre™ Vizion™ Digital Mic Viewing System",
         description:
           "Digital system for viewing and interpreting minimum inhibitory concentrations (MICs) in antimicrobial susceptibility testing.",
         workPrinciple:
@@ -331,9 +331,9 @@ const products = [
         id: "6",
         image: [Fluorometric1],
         title:
-          "Sensititre™ OptiRead™ Automated Fluorometric Plate Reading System",
+          "Sensititre™ Optiread™ Automated Fluorometric Plate Reading System",
         shortdescription:
-          "Sensititre™ OptiRead™ Automated Fluorometric Plate Reading System",
+          "Sensititre™ Optiread™ Automated Fluorometric Plate Reading System",
         description:
           "Automated system for reading fluorometric plates, providing quick and accurate results for antimicrobial susceptibility tests.",
         workPrinciple:
@@ -351,8 +351,8 @@ const products = [
         topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
         id: "7",
         image: [System1],
-        title: "Sensititre™ ARIS HiQ™ System for AST",
-        shortdescription: "Sensititre™ ARIS HiQ™ System for AST",
+        title: "Sensititre™ Aris Hiq™ System For Ast",
+        shortdescription: "Sensititre™ Aris Hiq™ System For Ast",
         description:
           "Automated system for antimicrobial susceptibility testing, offering high throughput and reliable results.",
         workPrinciple:
@@ -373,8 +373,8 @@ const products = [
       {
         id: "1",
         image: [ANTIBODY1],
-        title: "identi VTM",
-        shortdescription: "identi VTM",
+        title: "Identi VTM",
+        shortdescription: "Identi VTM",
         description:
           "Viral Transport Medium (VTM) for the collection, transport, and preservation of clinical specimens containing viruses, including SARS-CoV-2.",
         workPrinciple:
@@ -395,8 +395,8 @@ const products = [
       {
         id: "2",
         image: [Affinity1],
-        title: "identi Affinity RNA extraction",
-        shortdescription: "identi Affinity RNA extraction",
+        title: "Identi Affinity RNA Extraction",
+        shortdescription: "Identi Affinity RNA Extraction",
         description:
           "High-efficiency RNA extraction kit designed for reliable and rapid isolation of viral RNA from various clinical samples.",
         workPrinciple:
@@ -415,8 +415,8 @@ const products = [
       {
         id: "3",
         image: [REACTIVE1],
-        title: "ANTIBODY TESTING",
-        shortdescription: "ANTIBODY TESTING",
+        title: "Antibody Testing",
+        shortdescription: "Antibody Testing",
         description:
           "Comprehensive antibody testing solutions for detecting the presence of antibodies against SARS-CoV-2 in patient samples.",
         workPrinciple:
@@ -436,8 +436,8 @@ const products = [
       {
         id: "4",
         image: [FERRITI1],
-        title: "PROCALCITONIN",
-        shortdescription: "PROCALCITONIN",
+        title: "Procalcitonin",
+        shortdescription: "Procalcitonin",
         description:
           "Biomarker assay for the detection of procalcitonin levels, aiding in the diagnosis of bacterial infections and sepsis.",
         workPrinciple:
@@ -457,8 +457,8 @@ const products = [
       {
         id: "5",
         image: [LACTAT1],
-        title: "FERRITIN",
-        shortdescription: "FERRITIN",
+        title: "Ferritin",
+        shortdescription: "Ferritin",
         description:
           "Assay for measuring ferritin levels, useful in the diagnosis and monitoring of iron deficiency and related conditions.",
         workPrinciple:
@@ -478,8 +478,8 @@ const products = [
       {
         id: "6",
         image: [PROCALCITONIN1],
-        title: "LACTATE DEHYDROGENASE (LDH-L)",
-        shortdescription: "LACTATE DEHYDROGENASE (LDH-L)",
+        title: "Lactate Dehydrogenase (LDH-L)",
+        shortdescription: "Lactate Dehydrogenase (LDH-L)",
         description:
           "Enzyme assay for lactate dehydrogenase, a marker of tissue damage and inflammation, including in COVID-19 patients.",
         workPrinciple:
@@ -498,8 +498,8 @@ const products = [
       {
         id: "7",
         image: [identi1],
-        title: "C-REACTIVE PROTEIN (CRP)",
-        shortdescription: "C-REACTIVE PROTEIN (CRP)",
+        title: "C-Reactive Protein (CRP)",
+        shortdescription: "C-Reactive Protein (CRP)",
         description:
           "CRP assay for the detection of inflammation and infection, useful in managing COVID-19 and other inflammatory conditions.",
         workPrinciple:
@@ -524,8 +524,8 @@ const products = [
         topic: "Electrolyte Analyzer",
         id: "1",
         image: [Jokoh1, Jokoh2, Jokoh3],
-        title: "Jokoh EX-D Electrolyte Analyzer",
-        shortdescription: "Jokoh EX-D Electrolyte Analyzer",
+        title: "Jokoh Ex-D Electrolyte Analyzer",
+        shortdescription: "Jokoh Ex-D Electrolyte Analyzer",
         description:
           "Advanced electrolyte analyzer providing precise measurements of various electrolytes in blood samples, essential for clinical diagnostics.",
         workPrinciple:
@@ -552,8 +552,8 @@ const products = [
         allover: "3 Part Differential Hematology Analyzer",
         id: "1",
         image: [PLUS1],
-        title: "DYNACOUNT 3D Haematology Analyzer",
-        shortdescription: "DYNACOUNT 3D Fully Automatic Hematology Analyzer",
+        title: "Dynacount 3D Haematology Analyzer",
+        shortdescription: "Dynacount 3D Fully Automatic Hematology Analyzer",
         description:
           "Fully automatic analyzer offering accurate and detailed blood cell counts with a 3-part differential analysis.",
         workPrinciple:
@@ -575,9 +575,9 @@ const products = [
         allover: "3 Part Differential Hematology Analyzer",
         id: "2",
         image: [Analyzer1, Analyzer2],
-        title: "DYNACOUNT 3D PLUS",
+        title: "Dynacount 3D Plus",
         shortdescription:
-          "DYNACOUNT 3D PLUS Fully Automatic Hematology Analyzer",
+          "Dynacount 3D Plus Fully Automatic Hematology Analyzer",
         description:
           "Enhanced version of the 3D model, providing more detailed and faster blood cell analysis with advanced features.",
         workPrinciple:
@@ -599,8 +599,8 @@ const products = [
         allover: "5 Part Differential Hematology Analyzer",
         id: "3",
         image: [DYNACOUNT1],
-        title: "DYNACOUNT 5D",
-        shortdescription: "DYNACOUNT 5D Fully Automatic Hematology Analyzer",
+        title: "Dynacount 5D",
+        shortdescription: "Dynacount 5D Fully Automatic Hematology Analyzer",
         description:
           "5-part differential analyzer delivering comprehensive blood cell counts, crucial for detailed hematological diagnostics.",
         workPrinciple:
@@ -626,10 +626,10 @@ const products = [
       {
         id: "1",
         image: [image1],
-        title: "PLEXMAT 4",
-        shortdescription: "PLEXMAT 4",
+        title: "Plexmat 4",
+        shortdescription: "Plexmat 4",
         description:
-          "The PLEXMAT 4 is an advanced immunoblot analyzer designed for high throughput and reliable results in various immunological assays.",
+          "The Plexmat 4 is an advanced immunoblot analyzer designed for high throughput and reliable results in various immunological assays.",
         workPrinciple:
           "Utilizes immunoblotting technology to detect and quantify proteins in various samples.",
         advantages:
@@ -648,10 +648,10 @@ const products = [
       {
         id: "2",
         image: [image1],
-        title: "PLEXMAT 8",
-        shortdescription: "PLEXMAT 8",
+        title: "Plexmat 8",
+        shortdescription: "Plexmat 8",
         description:
-          "The PLEXMAT 8 offers enhanced performance and efficiency for immunoblot analysis, suitable for diverse laboratory needs.",
+          "The Plexmat 8 offers enhanced performance and efficiency for immunoblot analysis, suitable for diverse laboratory needs.",
         workPrinciple:
           "Advanced immunoblotting technology with improved performance features.",
         advantages:
@@ -668,10 +668,10 @@ const products = [
       {
         id: "4",
         image: [image1],
-        title: "iFlash 1200",
-        shortdescription: "YHLO IFlash 1200",
+        title: "Iflash 1200",
+        shortdescription: "Yhlo Iflash 1200",
         description:
-          "The iFlash 1200 Chemiluminescence Immunoassay Analyzer delivers precise and rapid results, making it ideal for various diagnostic applications.",
+          "The Iflash 1200 Chemiluminescence Immunoassay Analyzer delivers precise and rapid results, making it ideal for various diagnostic applications.",
         workPrinciple:
           "Uses chemiluminescence technology for accurate immunoassay results.",
         advantages:
@@ -687,10 +687,10 @@ const products = [
       {
         id: "5",
         image: [image1],
-        title: "iFlash 1800",
-        shortdescription: "iFlash 1800",
+        title: "Iflash 1800",
+        shortdescription: "Iflash 1800",
         description:
-          "The iFlash 1800 is a robust Chemiluminescence Immunoassay Analyzer known for its high sensitivity and throughput, perfect for large laboratories.",
+          "The Iflash 1800 is a robust Chemiluminescence Immunoassay Analyzer known for its high sensitivity and throughput, perfect for large laboratories.",
         workPrinciple:
           "Advanced chemiluminescence technology for comprehensive immunoassays.",
         advantages:
@@ -708,10 +708,10 @@ const products = [
       {
         id: "6",
         image: [image1],
-        title: "iFlash 1800",
-        shortdescription: "iFlash 1800",
+        title: "Iflash 1800",
+        shortdescription: "Iflash 1800",
         description:
-          "Another entry for the iFlash 1800, highlighting its continued popularity and reliability in immunoassay diagnostics.",
+          "Another entry for the Iflash 1800, highlighting its continued popularity and reliability in immunoassay diagnostics.",
         workPrinciple:
           "Chemiluminescence-based technology ensuring accurate and rapid immunoassay results.",
         advantages:
@@ -729,10 +729,10 @@ const products = [
       {
         id: "7",
         image: [image1],
-        title: "iFLASH 3000",
-        shortdescription: "iFLASH 3000",
+        title: "Iflash 3000",
+        shortdescription: "Iflash 3000",
         description:
-          "The iFLASH 3000 is a Fully Automated Immunoassay Analyzer that offers extensive testing capabilities and user-friendly operation.",
+          "The Iflash 3000 is a Fully Automated Immunoassay Analyzer that offers extensive testing capabilities and user-friendly operation.",
         workPrinciple:
           "Fully automated system utilizing chemiluminescence for diverse immunoassay testing.",
         advantages:
@@ -751,10 +751,10 @@ const products = [
       {
         id: "8",
         image: [image1],
-        title: "KRYPTOR compact PLUS",
+        title: "Kryptor Compact Plus",
         shortdescription: "Everlife Kryptor Compact Plus",
         description:
-          "The KRYPTOR compact PLUS is an advanced analyzer for immunoassays, known for its precision and reliability in diagnostic testing.",
+          "The Kryptor Compact Plus is an advanced analyzer for immunoassays, known for its precision and reliability in diagnostic testing.",
         workPrinciple:
           "Immunoassay technology for accurate and reliable diagnostic results.",
         advantages:
@@ -773,10 +773,10 @@ const products = [
       {
         id: "9",
         image: [image1],
-        title: "EUROIMMUN Analyzer I-2P",
+        title: "Euroimmun Analyzer I-2P",
         shortdescription: "Everlife Euroimmun Analyzer I-2P",
         description:
-          "The EUROIMMUN Analyzer I-2P offers comprehensive immunoassay automation, enhancing laboratory efficiency and accuracy.",
+          "The Euroimmun Analyzer I-2P offers comprehensive immunoassay automation, enhancing laboratory efficiency and accuracy.",
         workPrinciple:
           "Automated system for performing a wide range of immunoassays.",
         advantages:
@@ -794,10 +794,10 @@ const products = [
       {
         id: "10",
         image: [image1],
-        title: "EUROBlotOne",
-        shortdescription: "EUROBlotOne",
+        title: "Euroblotone",
+        shortdescription: "Euroblotone",
         description:
-          "EUROBlotOne is a fully automated system for immunoblot processing, providing high-quality results with minimal manual intervention.",
+          "Euroblotone is a fully automated system for immunoblot processing, providing high-quality results with minimal manual intervention.",
         workPrinciple:
           "Automated processing for immunoblot assays ensuring high-quality results.",
         advantages:
@@ -816,10 +816,10 @@ const products = [
       {
         id: "11",
         image: [image1],
-        title: "IF Sprinter",
-        shortdescription: "IF Sprinter",
+        title: "If Sprinter",
+        shortdescription: "If Sprinter",
         description:
-          "The IF Sprinter is designed for fully automated immunofluorescence assays, ensuring consistent and accurate diagnostic outcomes.",
+          "The If Sprinter is designed for fully automated immunofluorescence assays, ensuring consistent and accurate diagnostic outcomes.",
         workPrinciple:
           "Automated system for immunofluorescence assays providing accurate results.",
         advantages: "Consistent results with minimal manual intervention.",
@@ -836,10 +836,10 @@ const products = [
       {
         id: "12",
         image: [image1],
-        title: "EUROStar III Plus",
-        shortdescription: "EUROStar III Plus",
+        title: "Eurostar III Plus",
+        shortdescription: "Eurostar III Plus",
         description:
-          "The EUROStar III Plus is a state-of-the-art Fluorescence Immunoassay Analyzer, known for its precision and advanced diagnostic capabilities.",
+          "The Eurostar III Plus is a state-of-the-art Fluorescence Immunoassay Analyzer, known for its precision and advanced diagnostic capabilities.",
         workPrinciple:
           "Uses fluorescence technology for precise immunoassay analysis.",
         advantages:
@@ -847,240 +847,36 @@ const products = [
         benefits:
           "Suitable for detailed and accurate fluorescence immunoassay testing.",
         mainAndCare:
-          "Follow the manufacturer's guidelines for maintenance and calibration.",
-        workServices:
-          "Technical support available for installation and troubleshooting.",
-        productBrochure: "path/to/eurostar-iii-plus-brochure.pdf",
-        detailedSpecification: "Detailed specs available upon request.",
-        offerOrDiscounts: "Check for current promotions with distributor.",
-      },
-      {
-        id: "13",
-        image: [image1],
-        title: "EUROPattern Microscope",
-        shortdescription: "EUROPattern Microscope",
-        description:
-          "The EUROPattern Microscope combines high-resolution imaging with automated analysis, ideal for fluorescence immunoassays.",
-        workPrinciple:
-          "High-resolution imaging combined with automated analysis for immunoassays.",
-        advantages:
-          "Combines high-resolution imaging with automation for improved diagnostics.",
-        benefits:
-          "Perfect for detailed and accurate fluorescence immunoassay analysis.",
-        mainAndCare: "Adhere to maintenance and calibration guidelines.",
-        workServices: "Technical support available for setup and service.",
-        productBrochure: "path/to/europattern-microscope-brochure.pdf",
-        detailedSpecification: "Specifications available upon request.",
-        offerOrDiscounts: "Inquire about current offers with the distributor.",
-      },
-      {
-        id: "14",
-        image: [image1],
-        title: "FluoroMAT 50",
-        shortdescription: "FluoroMAT 50",
-        description:
-          "The FluoroMAT 50 is a versatile Fluorescence Immunoassay Analyzer, offering reliable and rapid diagnostic testing.",
-        workPrinciple:
-          "Utilizes fluorescence technology for rapid and reliable immunoassay results.",
-        advantages: "Versatile and reliable for various diagnostic tests.",
-        benefits:
-          "Efficient for both routine and specialized fluorescence immunoassay testing.",
-        mainAndCare:
-          "Follow manufacturer's maintenance and operational guidelines.",
+          "Follow manufacturer guidelines for maintenance and calibration.",
         workServices:
           "Available technical support for installation and troubleshooting.",
-        productBrochure: "path/to/fluoromat-50-brochure.pdf",
-        detailedSpecification: "Detailed specifications available on request.",
-        offerOrDiscounts:
-          "Check with distributor for current promotions and discounts.",
-      },
-      {
-        id: "15",
-        image: [image1],
-        title: "iFlash 1800 REAGENTS",
-        shortdescription: "iFlash 1800 REAGENTS",
-        description:
-          "Reagents specifically designed for use with the iFlash 1800, ensuring optimal performance and accuracy in immunoassays.",
-        workPrinciple:
-          "High-quality reagents designed for optimal performance with iFlash 1800.",
-        advantages:
-          "Ensures accurate and reliable results when used with the iFlash 1800.",
-        benefits:
-          "Essential for maintaining the performance of the iFlash 1800 analyzer.",
-        mainAndCare:
-          "Store according to manufacturer guidelines; use within recommended timeframe.",
-        workServices:
-          "Technical support available for reagent usage and troubleshooting.",
-        productBrochure: "path/to/iflash-1800-reagents-brochure.pdf",
-        detailedSpecification: "Specifications available upon request.",
-        offerOrDiscounts:
-          "Inquire about current offers and discounts with distributor.",
-      },
-      {
-        id: "16",
-        image: [image1],
-        title: "AUTOIMMUNE & INFECTIOUS DISEASES – IIFT",
-        shortdescription: "AUTOIMMUNE & INFECTIOUS DISEASES – IIFT",
-        description:
-          "A range of reagents for indirect immunofluorescence tests (IIFT), essential for diagnosing autoimmune and infectious diseases.",
-        workPrinciple:
-          "Reagents for performing indirect immunofluorescence tests for disease diagnostics.",
-        advantages:
-          "Essential for accurate diagnosis of autoimmune and infectious diseases.",
-        benefits: "Supports a wide range of diagnostic applications.",
-        mainAndCare:
-          "Store according to manufacturer guidelines; use as directed.",
-        workServices:
-          "Technical support available for reagent usage and troubleshooting.",
-        productBrochure: "path/to/iift-reagents-brochure.pdf",
-        detailedSpecification: "Detailed specifications available on request.",
-        offerOrDiscounts: "Check for current promotions with distributor.",
-      },
-      {
-        id: "17",
-        image: [image1],
-        title: "AUTOIMMUNE & INFECTIOUS DISEASES – ELISA",
-        shortdescription: "AUTOIMMUNE & INFECTIOUS DISEASES – ELISA",
-        description:
-          "ELISA reagents for the detection and diagnosis of autoimmune and infectious diseases, ensuring high sensitivity and specificity.",
-        workPrinciple:
-          "Reagents for enzyme-linked immunosorbent assays (ELISA) to detect diseases.",
-        advantages:
-          "High sensitivity and specificity for accurate disease diagnosis.",
-        benefits: "Ideal for detailed and reliable diagnostic testing.",
-        mainAndCare:
-          "Store according to guidelines; use within recommended timeframe.",
-        workServices:
-          "Technical support available for reagent handling and troubleshooting.",
-        productBrochure: "path/to/elisa-reagents-brochure.pdf",
-        detailedSpecification: "Specifications available upon request.",
-        offerOrDiscounts: "Inquire about current offers with distributor.",
-      },
-      {
-        id: "18",
-        image: [image1],
-        title: "AUTOIMMUNE & INFECTIOUS LIA – EUROLINE",
-        shortdescription: "AUTOIMMUNE & INFECTIOUS LIA – EUROLINE",
-        description:
-          "EUROLINE reagents for line immunoassays, providing accurate and reliable results for autoimmune and infectious disease diagnostics.",
-        workPrinciple:
-          "Reagents for line immunoassays for diagnosing autoimmune and infectious diseases.",
-        advantages: "Provides accurate and reliable diagnostic results.",
-        benefits:
-          "Efficient for detecting a range of autoimmune and infectious conditions.",
-        mainAndCare:
-          "Follow storage and usage guidelines provided by the manufacturer.",
-        workServices:
-          "Technical support available for reagent use and troubleshooting.",
-        productBrochure: "path/to/euroline-reagents-brochure.pdf",
-        detailedSpecification: "Detailed specifications available on request.",
+        productBrochure: "path/to/eurostar-iii-plus-brochure.pdf",
+        detailedSpecification: "Specifications can be provided on request.",
         offerOrDiscounts:
           "Check with distributor for current offers and discounts.",
       },
       {
-        id: "19",
+        id: "13",
         image: [image1],
-        title: "ALLERGY PROFILE",
-        shortdescription: "ALLERGY PROFILE",
+        title: "Hemaquest",
+        shortdescription: "Hemaquest",
         description:
-          "Comprehensive reagents for allergy profiling, aiding in the accurate diagnosis of various allergic conditions.",
-        workPrinciple:
-          "Reagents for comprehensive allergy testing and profiling.",
-        advantages: "Accurate and detailed profiling of allergic conditions.",
-        benefits: "Supports precise diagnosis and management of allergies.",
+          "Hemaquest is designed for advanced hematology testing, providing reliable and accurate results for various blood analysis applications.",
+        workPrinciple: "Advanced technology for accurate hematology testing.",
+        advantages:
+          "Reliable and accurate results for diverse blood analysis needs.",
+        benefits: "Ideal for comprehensive hematology diagnostics.",
         mainAndCare:
-          "Store according to manufacturer's instructions; use as directed.",
-        workServices:
-          "Technical support available for handling and troubleshooting.",
-        productBrochure: "path/to/allergy-profile-brochure.pdf",
-        detailedSpecification: "Specifications available upon request.",
-        offerOrDiscounts: "Inquire about current offers with the distributor.",
-      },
-      {
-        id: "20",
-        image: [image1],
-        title: "BRAHMS BIOMARKERS",
-        shortdescription: "BRAHMS BIOMARKERS",
-        description:
-          "BRAHMS biomarkers for various diagnostic applications, known for their reliability and accuracy in clinical settings.",
-        workPrinciple:
-          "Biomarkers used for various diagnostic purposes, providing reliable results.",
-        advantages: "Reliable and accurate for clinical diagnostics.",
-        benefits:
-          "Supports a range of diagnostic applications with high accuracy.",
-        mainAndCare:
-          "Follow storage and usage guidelines provided by the manufacturer.",
-        workServices:
-          "Technical support available for troubleshooting and service.",
-        productBrochure: "path/to/brahms-biomarkers-brochure.pdf",
+          "Routine maintenance required; adhere to operational guidelines.",
+        workServices: "Technical support available for setup and service.",
+        productBrochure: "path/to/hemaquest-brochure.pdf",
         detailedSpecification:
           "Detailed specifications available upon request.",
-        offerOrDiscounts: "Check for current promotions with distributor.",
-      },
-      {
-        id: "21",
-        image: [image1],
-        title: "BÜHLMANN LABORATORIES",
-        shortdescription: "BÜHLMANN LABORATORIES",
-        description:
-          "A range of diagnostic reagents from BÜHLMANN Laboratories, catering to various immunological and biochemical assays.",
-        workPrinciple:
-          "Reagents for immunological and biochemical assays from BÜHLMANN Laboratories.",
-        advantages:
-          "High quality and reliability for diverse diagnostic applications.",
-        benefits: "Covers a broad range of assays with dependable results.",
-        mainAndCare: "Store and use as per manufacturer guidelines.",
-        workServices:
-          "Available technical support for reagent handling and service.",
-        productBrochure: "path/to/buhlmann-laboratories-brochure.pdf",
-        detailedSpecification: "Specifications available upon request.",
-        offerOrDiscounts: "Inquire about current offers with the distributor.",
-      },
-      {
-        id: "22",
-        image: [image1],
-        title: "SARS – COV 2",
-        shortdescription: "SARS – COV 2",
-        description:
-          "Reagents for the detection of SARS-CoV-2, essential for COVID-19 diagnostic testing and monitoring.",
-        workPrinciple:
-          "Reagents designed for the detection of SARS-CoV-2 in diagnostic tests.",
-        advantages: "Essential for accurate COVID-19 testing and monitoring.",
-        benefits: "Supports reliable detection and diagnosis of SARS-CoV-2.",
-        mainAndCare:
-          "Follow storage and handling guidelines provided by the manufacturer.",
-        workServices:
-          "Technical support available for reagent use and troubleshooting.",
-        productBrochure: "path/to/sars-cov-2-reagents-brochure.pdf",
-        detailedSpecification:
-          "Detailed specifications available upon request.",
-        offerOrDiscounts: "Check for current promotions with distributor.",
-      },
-      {
-        id: "23",
-        image: [image1],
-        title: "iFlash 1200 REAGENTS",
-        shortdescription: "iFlash 1200 REAGENTS",
-        description:
-          "Reagents tailored for the iFlash 1200, ensuring optimal performance in chemiluminescence immunoassays.",
-        workPrinciple:
-          "High-quality reagents designed for use with the iFlash 1200 system.",
-        advantages:
-          "Ensures optimal performance and accuracy in chemiluminescence assays.",
-        benefits:
-          "Essential for maintaining the iFlash 1200's diagnostic accuracy.",
-        mainAndCare:
-          "Store according to manufacturer's guidelines; use within recommended timeframe.",
-        workServices:
-          "Technical support available for reagent handling and usage.",
-        productBrochure: "path/to/iflash-1200-reagents-brochure.pdf",
-        detailedSpecification: "Specifications available upon request.",
         offerOrDiscounts:
-          "Inquire about current offers and discounts with distributor.",
+          "Inquire about current promotions and discounts with distributor.",
       },
     ],
   },
-
   {
     category: "Point of Care",
     items: [
@@ -1088,10 +884,10 @@ const products = [
         topic: "POCT Hormone Analyzer",
         id: "1",
         image: [ichromaII],
-        title: "ichroma™ II",
-        shortdescription: "iChroma 2 POCT Hormone Analyzer",
+        title: "Ichroma™ II",
+        shortdescription: "Ichroma 2 POCT Hormone Analyzer",
         description:
-          "The ichroma™ II is a versatile and reliable POCT hormone analyzer, designed to deliver fast and precise measurements of hormone levels, facilitating effective clinical decision-making.",
+          "The Ichroma™ II is a versatile and reliable POCT hormone analyzer, designed to deliver fast and precise measurements of hormone levels, facilitating effective clinical decision-making.",
         workPrinciple:
           "Utilizes advanced immunoassay technology for accurate hormone measurement.",
         advantages:
@@ -1112,10 +908,10 @@ const products = [
         topic: "POCT Hormone Analyzer",
         id: "2",
         image: [ichromaIII],
-        title: "ichroma™ III",
-        shortdescription: "iChroma 3 POCT Hormone Analyzer",
+        title: "Ichroma™ III",
+        shortdescription: "Ichroma 3 POCT Hormone Analyzer",
         description:
-          "The ichroma™ III is a high-performance point-of-care testing (POCT) hormone analyzer, providing accurate and rapid results for various hormone assays, essential for timely diagnosis and treatment.",
+          "The Ichroma™ III is a high-performance point-of-care testing (POCT) hormone analyzer, providing accurate and rapid results for various hormone assays, essential for timely diagnosis and treatment.",
         workPrinciple:
           "Employs cutting-edge technology for rapid and accurate hormone analysis.",
         advantages:
@@ -1141,10 +937,10 @@ const products = [
         topic: "Sample Sorter",
         id: "1",
         image: [image1],
-        title: "SortPro Sample Sorter",
-        shortdescription: "Fully Automatic 3-Part SortPro Sample Sorter",
+        title: "Sortpro Sample Sorter",
+        shortdescription: "Fully Automatic 3-Part Sortpro Sample Sorter",
         description:
-          "The SortPro Sample Sorter is a fully automatic 3-part sorter, engineered to streamline the pre-analytical phase by efficiently sorting and preparing samples, thereby enhancing laboratory workflow and accuracy.",
+          "The Sortpro Sample Sorter is a fully automatic 3-part sorter, engineered to streamline the pre-analytical phase by efficiently sorting and preparing samples, thereby enhancing laboratory workflow and accuracy.",
         workPrinciple:
           "Automates the sorting and preparation of samples using advanced technology for improved efficiency.",
         advantages:

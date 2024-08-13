@@ -35,7 +35,7 @@ function Footer({ open }) {
           className="flex flex-col items-start mt-16 font-poppins gap-2 col2"
           ref={col2Ref}
         >
-          <h1 className="text-xs md:text-lg  text-custom-green font-poppins">
+          <h1 className="text-xs md:text-lg font-semibold  text-custom-green font-poppins">
             Quick Links
           </h1>
           <Link
@@ -74,7 +74,7 @@ function Footer({ open }) {
           className="flex flex-col items-start mt-16 font-poppins gap-2 col3"
           ref={col3Ref}
         >
-          <h1 className="text-xs md:text-lg text-custom-green font-poppins">
+          <h1 className="text-xs md:text-lg font-semibold text-custom-green font-poppins">
             Products
           </h1>
           <Link
@@ -125,7 +125,7 @@ function Footer({ open }) {
           className="flex flex-col items-start mt-16 font-poppins gap-2 col4"
           ref={col4Ref}
         >
-          <h1 className="text-xs md:text-lg text-custom-green font-poppins">
+          <h1 className="font-semibold text-xs md:text-lg text-custom-green font-poppins">
             Others
           </h1>
           <Link

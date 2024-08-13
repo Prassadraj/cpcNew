@@ -7,6 +7,7 @@ const Carousel = ({ images, settings }) => {
   const defaultSettings = {
     dots: false,
     infinite: true,
+
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -23,7 +24,7 @@ const Carousel = ({ images, settings }) => {
           <img
             src={image}
             alt={`Slide ${index + 1}`}
-            className=" w-full h-full rounded"
+            className=" w-full h-full rounded border-1"
           />
         </div>
       ))}
