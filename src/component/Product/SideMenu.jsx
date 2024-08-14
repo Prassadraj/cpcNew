@@ -4,6 +4,7 @@ import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 import { CategoryContext } from "../Context/CategoryContext";
 import { ProductDataContext } from "../Context/ProductData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
   const { setSelectedCategory } = useContext(CategoryContext);

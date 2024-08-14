@@ -64,6 +64,7 @@ const itrackcon = {
 function Brand() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
+    window.scrollTo(0, 0);
   }, []);
 
   return (
