@@ -8,7 +8,9 @@
   position: relative;
   z-index: 1;
 }
-
+a p {
+  color: white;
+}
 .glassy-effect::before {
   content: "";
   position: absolute;

@@ -16,7 +16,7 @@ function Footer({ open }) {
   const col4Ref = useRef(null);
 
   return (
-    <div className={`h-fit  bg-light-green md:block ${open && "hidden"}`}>
+    <div className={`h-fit  bg-custom-green md:block ${open && "hidden"}`}>
       <div
         className="flex justify-around gap-2
      "
@@ -26,7 +26,7 @@ function Footer({ open }) {
           <div className="glassy-effect-container">
             <img src={logo} alt="Logo" className="md:w-[200px]  w-[50px]" />
           </div>
-          <p className="text-xs md:text-lg md:text-md max-w-xs text-center font-poppins md:font-semibold ">
+          <p className="text-white text-xs md:text-lg md:text-md max-w-xs text-center font-poppins md:font-semibold ">
             Experience personalized medical care from the comfort of your home.
           </p>
         </div>
@@ -35,9 +35,9 @@ function Footer({ open }) {
           className="flex flex-col items-start mt-16 font-poppins gap-2 col2"
           ref={col2Ref}
         >
-          <h1 className="text-xs md:text-lg font-semibold  text-custom-green font-poppins">
+          <p className="text-xs md:text-2xl font-semibold  text-white font-poppins">
             Quick Links
-          </h1>
+          </p>
           <Link
             to="/"
             className="text-xs md:text-lg hover:underline hover:text-black"
@@ -74,9 +74,9 @@ function Footer({ open }) {
           className="flex flex-col items-start mt-16 font-poppins gap-2 col3"
           ref={col3Ref}
         >
-          <h1 className="text-xs md:text-lg font-semibold text-custom-green font-poppins">
+          <p className="text-xs md:text-2xl text-white font-semibold font-poppins">
             Products
-          </h1>
+          </p>
           <Link
             to="/"
             className="text-xs md:text-lg hover:underline hover:text-black"
@@ -125,9 +125,9 @@ function Footer({ open }) {
           className="flex flex-col items-start mt-16 font-poppins gap-2 col4"
           ref={col4Ref}
         >
-          <h1 className="font-semibold text-xs md:text-lg text-custom-green font-poppins">
+          <p className="font-semibold text-xs md:text-2xl text-white font-poppins">
             Others
-          </h1>
+          </p>
           <Link
             to="/"
             className="text-xs md:text-lg hover:underline hover:text-black"
@@ -163,7 +163,7 @@ function Footer({ open }) {
 
       <div className="h-[1px] w-[90%] flex justify-center items-center text-center bg-custom-green mx-auto mt-4"></div>
       <div className="mt-2 flex justify-around  md:justify-between md:mt-4 md:pl-16 md:pr-16">
-        <div className="text-sm md:text-3xl text-custom-green flex gap-2 md:gap-3 lg:gap-3">
+        <div className="text-sm md:text-3xl text-white flex gap-2 md:gap-3 lg:gap-3">
           <Link className="hover:text-sky-600">
             <FontAwesomeIcon icon={faFacebook} />
           </Link>
@@ -173,18 +173,18 @@ function Footer({ open }) {
               icon={faInstagram}
             />
           </Link>
-          <Link>
+          <Link className="hover:text-sky-600">
             <FontAwesomeIcon icon={faLinkedin} />
           </Link>
           <Link>
             <FontAwesomeIcon className="hover:text-red-500" icon={faYoutube} />
           </Link>
         </div>
-        <div className="text-xs md:text-lg font-poppins font-semibold">
+        <div className="text-xs text-white md:text-lg font-poppins font-semibold">
           <p>Everlife CPC 2024 © All Rights Reserved</p>
         </div>
       </div>
-      <p className="text-[1px] md:text-[6px] relative bottom-0 flex justify-center items-center text-name ">
+      <p className="text-[1px] md:text-[6px] relative bottom-0 flex justify-center items-center text-custom-green">
         Prassad Raj
       </p>
     </div>

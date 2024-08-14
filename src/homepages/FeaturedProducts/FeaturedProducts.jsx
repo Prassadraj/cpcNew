@@ -48,7 +48,7 @@ const FeaturedProducts = () => {
   }, []);
 
   return (
-    <div className="">
+    <div className="lg:mb-20">
       <div className="mb-4 flex h-10 items-center md:pl-24 flex-col md:gap-4 heading p-2 text-center">
         <span className="font-semibold text-xl md:text-4xl uppercase  font-poppins text-custom-green">
           Featured Products

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import bannerimage from "../../assets/image/banner-image.png";
 import sec from "../../assets/image/second-sec-image.png";
@@ -43,6 +43,9 @@ const About = () => {
     slidesToShow: 4,
     autoplaySpeed: 2500,
   };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="scroll-smooth font-poppins">

@@ -23,7 +23,7 @@ export default {
       colors: {
         "custom-green": "#10b981",
         "light-green": "#D6FFF5",
-        name: "#b5f7e7",
+        name: "#028a68",
         maincol: "#02a884",
         gcolor: "#ab01ea",
         scolor: "rgba(0, 66, 255, 0.08)",
