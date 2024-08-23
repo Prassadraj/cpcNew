@@ -63,29 +63,28 @@ function Section3() {
             className="w-full md:max-w-xl text-sm md:text-xl"
             data-aos="zoom-in-left"
           >
-            <p className="leading-8 text-justify md:tracking-wider capitalize">
+            <p className="leading-6 text-justify text-sm md:tracking-wider capitalize">
               At Everlife CPC Diagnostics, we pride ourselves on being a
               transformative force in the healthcare industry. As a leading
               provider of medical laboratory equipment and in vitro diagnostic
-              (IVD) solutions,
-              {isExpanded && (
-                <span>
-                  {" "}
-                  we are committed to enhancing healthcare outcomes across South
-                  Asia. With our headquarters in the vibrant city of Chennai and
-                  a sprawling network extending to multiple countries, we are
-                  uniquely positioned to deliver cutting-edge technology and
-                  unparalleled service.
-                </span>
-              )}
+              (IVD) solutions, we are committed to enhancing healthcare outcomes
+              across South Asia. With our headquarters in the vibrant city of
+              Chennai and a sprawling network extending to multiple countries,
+              we are uniquely positioned to deliver cutting-edge technology and
+              unparalleled service. Our journey is defined by an unwavering
+              commitment to excellence and innovation. We collaborate with
+              top-tier partners and leverage the latest advancements in medical
+              science to offer a diverse portfolio of products. Our solutions
+              are designed to meet the unique challenges of modern healthcare,
+              ensuring accuracy, efficiency, and reliability. At Everlife CPC
+              Diagnostics, we don't just supply equipment; we empower healthcare
+              professionals to achieve the extraordinary.
             </p>
           </div>
           <button
             onClick={handleToggle}
             className="text-custom-green mt-4 underline"
-          >
-            {isExpanded ? "Read Less" : "Read More"}
-          </button>
+          ></button>
         </div>
         <div className="relative justify-center items-center hidden md:flex">
           <div className="relative bottom-0 w-[80vw] md:w-[30vw] h-[50vh] rounded-2xl z-10">
@@ -119,12 +118,21 @@ function Section3() {
             className="w-full md:max-w-xl text-sm md:text-xl md:px-4 lg:p-1"
             data-aos="zoom-in-left"
           >
-            <p className="leading-8 text-justify md:tracking-wider">
-              At Everlife CPC Diagnostics, our mission is to revolutionize
-              healthcare by providing advanced laboratory instruments and
-              medical devices. We specialize in the manufacture and distribution
-              of a wide range of products that cater to the intricate needs of
-              clinical diagnostics.
+            <p className="leading-6 text-sm text-justify md:tracking-wider">
+              At Everlife CPC Diagnostics, we are revolutionizing healthcare
+              through advanced laboratory instruments and medical devices. We
+              manufacture and distribute a range of products tailored to the
+              diverse needs of clinical diagnostics, including pre-analytical
+              automation for precise sample management, high-performance
+              hematology analyzers for accurate blood analysis, and
+              comprehensive immunology testing solutions for immune response
+              assessment. Our clinical chemistry systems provide precise
+              biochemical analysis, while our molecular diagnostics tools enable
+              advanced genetic and molecular testing. We also offer essential
+              COVID-19 solutions, such as RTPCR kits and VTM tubes. Our mission
+              is to transform healthcare by delivering innovative, high-quality
+              solutions that support exceptional patient care and contribute to
+              a healthier future.
             </p>
           </div>
         </div>

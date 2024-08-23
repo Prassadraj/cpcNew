@@ -1,8 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
-import image1 from "../../images/featured/product1.png";
-import image2 from "../../images/featured/product2.png";
+import image1 from "../../component/AllDatas/ProductImages/Biochemistry/ichemManga/product1.jpg";
+import image2 from "../../component/AllDatas/ProductImages/Hematology/DYNACOUNT 5D/product1.png";
 import image3 from "../../images/featured/product3.png";
+import image4 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ III/product1.jpg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { gsap } from "gsap";
@@ -112,7 +114,7 @@ const Card = ({ card }) => {
   return (
     <div className="lg:mt-10 font-poppins` relative h-[250px] w-[150px] md:h-[400px] md:w-[350px] overflow-hidden  rounded-2xl border-1 border-custom-green">
       <div className="flex justify-center items-center w-full md:mt-10 h-32">
-        <img className="md:w-[150px] w-[100px]" src={card.url} alt="" />
+        <img className="md:w-[200px] w-[100px]" src={card.url} alt="" />
       </div>
       <div className="absolute md:top-56 md:left-10 md:right-10 p-0">
         <div className="flex justify-center md:justify-start">
@@ -127,7 +129,9 @@ const Card = ({ card }) => {
               className="text-xs lg:text-base w-fit md:w-72 border-1
              p-0.5 md:px-3 md:py-2 rounded-lg text-custom-green border-custom-green"
             >
-              View Product
+              <Link to={`/productinfo/${card.category}/${card.id}`}>
+                View Product
+              </Link>
             </button>
           </Magnetic>
         </div>
@@ -161,30 +165,34 @@ export default FeaturedProducts;
 const featuredCards = [
   {
     url: image1,
-    title: "Title 1",
+    title: "Turbochem Magna",
+    category: "Biochemistry",
     content:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit Culpa non placeat vitae distinctio ",
+      " Experience unparalleled precision in clinical chemistry with Turbochem Magna, designed for accurate and efficient biochemical analysis. ",
     id: 1,
   },
   {
     url: image2,
-    title: "Title 2",
+    title: " Dynacount 5D",
+    category: "Biochemistry",
     content:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit Culpa non placeat vitae distinctio ",
+      "With advanced hematology analysis at your fingertips, the Dynacount 5D offers comprehensive blood profiling with unmatched reliability.",
     id: 2,
   },
   {
     url: image3,
-    title: "Title 3",
+    title: " Dynacount 3D Plus",
+    category: "Biochemistry",
     content:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit Culpa non placeat vitae distinctio ",
+      " The Dynacount 3D Plus delivers precise 3D blood analysis, providing crucial insights for accurate diagnosis and treatment planning.",
     id: 3,
   },
   {
-    url: image1,
-    title: "Title 4",
+    url: image4,
+    title: "Ichroma 3",
+    category: "Biochemistry",
     content:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit Culpa non placeat vitae distinctio ",
+      "Fast and reliable immunoassay testing with Ichroma 3 is ideal for rapid diagnostics and point-of-care applications.",
     id: 4,
   },
 ];

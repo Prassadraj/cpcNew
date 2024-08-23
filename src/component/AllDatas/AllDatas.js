@@ -12,6 +12,7 @@ import plus1 from "../AllDatas/ProductImages/Biochemistry/PLUS/product1.png";
 import plus2 from "../AllDatas/ProductImages/Biochemistry/PLUS/product2.png";
 import prim1 from "../AllDatas/ProductImages/Biochemistry/PRIME/product1.jpg";
 import prim2 from "../AllDatas/ProductImages/Biochemistry/PRIME/product2.jpg";
+import ichemMagna1 from "../AllDatas/ProductImages/Biochemistry/ichemManga/product1.jpg";
 // Clinical Microbiology
 import ast1 from "../AllDatas/ProductImages/Clinical Microbiology/AST plates/product1.jpg";
 import Nephelometer1 from "../AllDatas/ProductImages/Clinical Microbiology/Nephelometer/product1.jpg";
@@ -135,6 +136,7 @@ const products = [
         id: "5",
         image: [image1],
         title: "Ichem Prime",
+        shortdescription: "Reagents Content",
         description:
           "System pack reagents specifically designed for use with the TURBOCHEM PRIME analyzer, ensuring consistent and accurate results.",
         workPrinciple:
@@ -150,7 +152,8 @@ const products = [
       {
         allover: "Reagents",
         id: "6",
-        image: [image1],
+        image: [ichemMagna1],
+        shortdescription: "Ichem Content",
         title: "Ichem Magna",
         description:
           "Guaranteed number of tests ensuring zero wastage and consistent quality for the TURBOCHEM MAGNA analyzer.",

@@ -107,10 +107,10 @@ function New() {
           className="sticky flex flex-col top-24 lg:gap-3 md:gap-2 text-xs md:text-base lg:text-base w-1/2
         font-poppins"
         >
-          <div className="md:px-5 lg:px-20 md:py-2">
+          <div className="md:px-5 lg:px-20 md:py-5">
             <p className="ctn1 ">
               <img src={organisation1} alt="" className="w-16 logo1" />
-              Jeev Diagnostics Pvt. Ltd. is a collaborative venture between
+              Jeev Diagnostics Pvt. Ltd. is a collaborative venture between~~
               Awareness Technology Inc. (USA) and CPC Diagnostics Pvt. Ltd.
               (India), focusing on cutting-edge in vitro clinical chemistry
               reagents.

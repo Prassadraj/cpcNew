@@ -46,7 +46,7 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
                     key={item.id}
                     className="no-underline"
                   >
-                    <p className="font-mont px-4 py-2 capitalize text-sm  hover:bg-custom-green hover:text-light-green cursor-pointer">
+                    <p className="font-mont text-gray-800 px-4 py-2 capitalize text-sm  hover:bg-custom-green hover:text-light-green cursor-pointer">
                       {item.title}
                     </p>
                   </Link>

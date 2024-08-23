@@ -113,7 +113,7 @@ function ProductCategaries() {
                           className="flex flex-col-reverse items-center justify-center pt-4 pb-4 pr-8 pl-8 text-center bg-white rounded-xl gap-2 w-[11vw] border-1 border-custom-green shadow-md shadow-custom-green"
                         >
                           <img width="70px" src={item.image} alt={item.name} />
-                          <p className="text-sm font-semibold font-poppins truncate max-w-[9vw]">
+                          <p className="text-sm text-gray-700 font-semibold font-poppins truncate max-w-[9vw]">
                             {item.name}
                           </p>
                         </div>
@@ -143,7 +143,7 @@ function ProductCategaries() {
                         className="flex flex-col items-center justify-center pt-4 pb-4 pr-8 pl-8 text-center bg-white border-1 border-custom-green shadow-md shadow-custom-green rounded-xl gap-2 w-[11vw]"
                       >
                         <img width="70px" src={item.image} alt={item.name} />
-                        <p className="text-sm font-semibold font-poppins truncate max-w-[9vw]">
+                        <p className="text-sm text-gray-700 font-semibold font-poppins truncate max-w-[9vw]">
                           {item.name}
                         </p>
                       </div>
