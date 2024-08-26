@@ -38,6 +38,29 @@ import PLUS1 from "../AllDatas/ProductImages/Hematology/3D PLUS/product1.png";
 import Analyzer1 from "../AllDatas/ProductImages/Hematology/Analyzer/product1.png";
 import Analyzer2 from "../AllDatas/ProductImages/Hematology/Analyzer/product2.png";
 import DYNACOUNT1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT 5D/product1.png";
+// Immunology;
+import Euroblotone from "../AllDatas/ProductImages/Immunology/Euroblotone/product1.png";
+import Euroimmun from "../AllDatas/ProductImages/Immunology/Euroimmun/product1.png";
+import EuroStar from "../AllDatas/ProductImages/Immunology/EuroStar/product1.png";
+import Iflash12001 from "../AllDatas/ProductImages/Immunology/Iflash1200/product1.jpg";
+import Iflash12002 from "../AllDatas/ProductImages/Immunology/Iflash1200/product2.jpg";
+import Iflash12003 from "../AllDatas/ProductImages/Immunology/Iflash1200/product3.jpg";
+import Iflash12004 from "../AllDatas/ProductImages/Immunology/Iflash1200/product4.jpg";
+import Iflash12005 from "../AllDatas/ProductImages/Immunology/Iflash1200/product5.jpg";
+import Iflash18001 from "../AllDatas/ProductImages/Immunology/Iflash1800/product1.png";
+import Iflash18002 from "../AllDatas/ProductImages/Immunology/Iflash1800/product2.png";
+import Iflash18003 from "../AllDatas/ProductImages/Immunology/Iflash1800/product3.png";
+import Iflash18004 from "../AllDatas/ProductImages/Immunology/Iflash1800/product4.jpg";
+import Iflash18005 from "../AllDatas/ProductImages/Immunology/Iflash1800/product5.jpg";
+import Iflash30001 from "../AllDatas/ProductImages/Immunology/Iflash3000/product1.png";
+import Iflash30002 from "../AllDatas/ProductImages/Immunology/Iflash3000/product2.png";
+import Iflash30003 from "../AllDatas/ProductImages/Immunology/Iflash3000/product3.jpg";
+import Iflash30004 from "../AllDatas/ProductImages/Immunology/Iflash3000/product4.png";
+import IfSprinter from "../AllDatas/ProductImages/Immunology/IfSprinter/product1.png";
+import Kryptor from "../AllDatas/ProductImages/Immunology/Kryptor/product1.jpg";
+import Plexmat4 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.jpg";
+import Plexmat8 from "../AllDatas/ProductImages/Immunology/Plexmat8/product1.jpg";
+
 // Point of Care
 import ichromaII from "../AllDatas/ProductImages/Point of Care/ichroma™ II/product1.jpg";
 import ichromaIII from "../AllDatas/ProductImages/Point of Care/ichroma™ III/product1.jpg";
@@ -628,7 +651,7 @@ const products = [
     items: [
       {
         id: "1",
-        image: [image1],
+        image: [Plexmat4],
         title: "Plexmat 4",
         shortdescription: "Plexmat 4",
         description:
@@ -650,7 +673,7 @@ const products = [
       },
       {
         id: "2",
-        image: [image1],
+        image: [Plexmat8],
         title: "Plexmat 8",
         shortdescription: "Plexmat 8",
         description:
@@ -670,7 +693,13 @@ const products = [
       },
       {
         id: "4",
-        image: [image1],
+        image: [
+          Iflash12001,
+          Iflash12002,
+          Iflash12003,
+          Iflash12004,
+          Iflash12005,
+        ],
         title: "Iflash 1200",
         shortdescription: "Yhlo Iflash 1200",
         description:
@@ -689,7 +718,13 @@ const products = [
       },
       {
         id: "5",
-        image: [image1],
+        image: [
+          Iflash18001,
+          Iflash18002,
+          Iflash18003,
+          Iflash18004,
+          Iflash18005,
+        ],
         title: "Iflash 1800",
         shortdescription: "Iflash 1800",
         description:
@@ -708,30 +743,10 @@ const products = [
         offerOrDiscounts:
           "Inquire about promotions and discounts with distributor.",
       },
-      {
-        id: "6",
-        image: [image1],
-        title: "Iflash 1800",
-        shortdescription: "Iflash 1800",
-        description:
-          "Another entry for the Iflash 1800, highlighting its continued popularity and reliability in immunoassay diagnostics.",
-        workPrinciple:
-          "Chemiluminescence-based technology ensuring accurate and rapid immunoassay results.",
-        advantages:
-          "Proven reliability and high performance in various diagnostic applications.",
-        benefits:
-          "Continues to be a popular choice for large-scale diagnostic labs.",
-        mainAndCare:
-          "Regular maintenance required; follow operational guidelines.",
-        workServices: "Comprehensive support and service options available.",
-        productBrochure: "path/to/iflash-1800-brochure.pdf",
-        detailedSpecification: "Detailed specs available upon request.",
-        offerOrDiscounts:
-          "Check with distributor for current offers and discounts.",
-      },
+
       {
         id: "7",
-        image: [image1],
+        image: [Iflash30001, Iflash30002, Iflash30003, Iflash30004],
         title: "Iflash 3000",
         shortdescription: "Iflash 3000",
         description:
@@ -753,7 +768,7 @@ const products = [
       },
       {
         id: "8",
-        image: [image1],
+        image: [Kryptor],
         title: "Kryptor Compact Plus",
         shortdescription: "Everlife Kryptor Compact Plus",
         description:
@@ -775,7 +790,7 @@ const products = [
       },
       {
         id: "9",
-        image: [image1],
+        image: [Euroimmun],
         title: "Euroimmun Analyzer I-2P",
         shortdescription: "Everlife Euroimmun Analyzer I-2P",
         description:
@@ -796,7 +811,7 @@ const products = [
       },
       {
         id: "10",
-        image: [image1],
+        image: [Euroblotone],
         title: "Euroblotone",
         shortdescription: "Euroblotone",
         description:
@@ -818,7 +833,7 @@ const products = [
       },
       {
         id: "11",
-        image: [image1],
+        image: [IfSprinter],
         title: "If Sprinter",
         shortdescription: "If Sprinter",
         description:
@@ -838,7 +853,7 @@ const products = [
       },
       {
         id: "12",
-        image: [image1],
+        image: [EuroStar],
         title: "Eurostar III Plus",
         shortdescription: "Eurostar III Plus",
         description:
