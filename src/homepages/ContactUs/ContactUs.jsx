@@ -1,8 +1,52 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contactUs.css";
 import video from "../../Video/contact.mp4";
+import axios from "axios";
 
 function ContactUs() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault(); // Prevent default form submission behavior
+
+    try {
+      // Send POST request to server with form data
+      const response = await axios.post(
+        "http://localhost:5000/send-email",
+        formData,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      // Log response status and data for debugging
+      console.log("Response status:", response.status);
+      console.log("Response data:", response.data);
+
+      if (response.status === 200) {
+        alert("Your message has been sent!"); // Show success message
+        setFormData({ name: "", email: "", phone: "", message: "" }); // Clear form data
+      } else {
+        alert("There was an error sending your message. Please try again."); // Show error message
+      }
+    } catch (error) {
+      console.error("Error:", error); // Log error to console
+      alert("There was an error sending your message. Please try again."); // Show error message
+    }
+  };
+
   return (
     <div className="p-4 lg:p-5 lg:h-[100vh] bg-black mb-10 flex justify-center items-center lg:mt-20">
       <div className="lg:h-[85vh] h-auto w-full lg:w-[85vw] bg-light-green rounded-xl relative flex flex-col lg:flex-row overflow-hidden">
@@ -26,36 +70,57 @@ function ContactUs() {
           </p>
         </div>
         <div className="relative z-10 px-2 lg:w-1/2 flex flex-col gap-4 items-center md:mt-10 lg:mt-0">
-          <input
-            type="text"
-            className="w-full lg:w-[30vw] h-[7vh] outline-none text-xl p-3 rounded-lg text-white bg-gray-800"
-            placeholder="Name"
-          />
-          <input
-            type="text"
-            className="w-full lg:w-[30vw] h-[7vh] outline-none text-xl p-3 rounded-lg text-white bg-gray-800"
-            placeholder="Email Address"
-          />
-          <input
-            type="text"
-            className="w-full lg:w-[30vw] h-[7vh] outline-none text-xl p-3 rounded-lg text-white bg-gray-800"
-            placeholder="Phone Number"
-          />
-          <textarea
-            placeholder="Have anything to say..."
-            className="placeholder:text-white h-[20vh] w-full lg:w-[30vw] pt-2 md:text-xl box-border outline-none p-3 rounded-lg text-white bg-transparent"
-          ></textarea>
-          <div className="flex items-center justify-center">
-            <button className="btn-53">
-              <div className="original text-lg">Send</div>
-              <div className="letters text-lg">
-                <span>S</span>
-                <span>e</span>
-                <span>n</span>
-                <span>d</span>
-              </div>
-            </button>
-          </div>
+          <form
+            onSubmit={handleSubmit}
+            className="w-full lg:w-[30vw] flex flex-col gap-4"
+          >
+            <input
+              type="text"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              className="w-full h-[7vh] outline-none text-xl p-3 rounded-lg text-white bg-gray-800"
+              placeholder="Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              className="w-full h-[7vh] outline-none text-xl p-3 rounded-lg text-white bg-gray-800"
+              placeholder="Email Address"
+              required
+            />
+            <input
+              type="text"
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+              className="w-full h-[7vh] outline-none text-xl p-3 rounded-lg text-white bg-gray-800"
+              placeholder="Phone Number"
+              required
+            />
+            <textarea
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              placeholder="Have anything to say..."
+              className="placeholder:text-white h-[20vh] w-full pt-2 md:text-xl box-border outline-none p-3 rounded-lg text-white bg-gray-800"
+              required
+            ></textarea>
+            <div className="flex items-center justify-center">
+              <button type="submit" className="btn-53">
+                <div className="original text-lg">Send</div>
+                <div className="letters text-lg">
+                  <span>S</span>
+                  <span>e</span>
+                  <span>n</span>
+                  <span>d</span>
+                </div>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>

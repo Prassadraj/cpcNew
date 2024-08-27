@@ -516,14 +516,14 @@ function ProductInfo() {
                 >
                   <div
                     key={idx}
-                    className="min-w-[200px] h-80 p-4 flex flex-col items-center border border-gray-300 rounded-md"
+                    className="min-w-[200px] h-72 p-4 flex flex-col items-center border border-gray-300 rounded-md"
                   >
                     <img
                       src={related.image[0]}
                       alt=""
                       className="rounded-md h-40 object-cover w-full"
                     />
-                    <p className="text-center mt-2 line-clamp-3 text-sm md:text-lg">
+                    <p className="text-center text-gray-700 capitalize mt-2 line-clamp-3 text-sm md:text-lg">
                       {related.title}
                     </p>
                   </div>
