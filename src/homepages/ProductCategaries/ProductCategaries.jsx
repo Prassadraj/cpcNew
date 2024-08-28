@@ -94,7 +94,7 @@ function ProductCategaries() {
 
           {/* Right Section */}
           <div className="flex-1 flex relative text-2xl w-full h-screen">
-            <div className="w-[15vw] h-screen flex justify-center">
+            <div className="w-[15vw] h-screen flex justify-center overflow-hidden">
               <div className="flex items-center">
                 <Marquee
                   direction="up"
@@ -124,7 +124,7 @@ function ProductCategaries() {
               </div>
             </div>
 
-            <div className="w-[15vw] h-screen flex justify-center">
+            <div className="w-[15vw] h-screen flex justify-center overflow-hidden">
               <div className="flex items-center">
                 <Marquee
                   direction="down"
