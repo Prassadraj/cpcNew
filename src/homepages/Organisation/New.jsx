@@ -31,7 +31,7 @@ function New() {
 
             onEnter: () =>
               gsap.to([ctnClass, logoClass], {
-                scale: 1.3,
+                scale: 1.1,
                 opacity: 1,
                 duration: 0.5,
                 ease: "power1.inOut",
@@ -45,7 +45,7 @@ function New() {
               }),
             onEnterBack: () =>
               gsap.to([ctnClass, logoClass], {
-                scale: 1.2,
+                scale: 1.1,
                 opacity: 1,
                 duration: 0.5,
                 ease: "power1.inOut",
@@ -79,8 +79,8 @@ function New() {
   return (
     <>
       <Heading />
-      <div className="h-[300vh] md:flex p-2 hidden">
-        <div className="flex flex-col gap-5 items-center justify-center w-1/2 md:px-5">
+      <div className="h-[300vh] md:flex justify-evenly md:px-10 hidden">
+        <div className="flex flex-col gap-5 items-center justify-center w-1/2 ">
           <div className="md:h-full">
             <img
               src="https://www.pagnes.com/wp-content/uploads/2019/06/Reduced-Size-Front-Desk-1080x675.jpg"
@@ -103,8 +103,8 @@ function New() {
             />
           </div>
         </div>
-        <div className="sticky flex h-[100vh] flex-col lg:gap-3 md:gap-2 text-xs md:text-base lg:text-base w-1/2 font-poppins items-center justify-center text-center">
-          <div className="md:px-5 lg:px-20 md:py-5">
+        <div className="sticky flex h-[100vh] md:top-5 lg:top-10 flex-col lg:gap-3 md:gap-2 text-xs md:text-base lg:text-base w-1/2 font-poppins items-center justify-center text-center lg:px-20">
+          <div className="">
             <p className="ctn1 text-left">
               <img src={organisation1} alt="" className="w-16 logo1" />
               Jeev Diagnostics Pvt. Ltd. is a collaborative venture between~~
@@ -113,7 +113,7 @@ function New() {
               reagents.
             </p>
           </div>
-          <div className="md:px-5 lg:px-20">
+          <div className="md:px-5 ">
             <p className="ctn2 text-left">
               <img src={organisation2} alt="" className="w-16 logo2" />
               Sachika, an initiative by CPC Diagnostics Pvt. Ltd., focuses on
@@ -121,7 +121,7 @@ function New() {
               bioscience skills.
             </p>
           </div>
-          <div className="md:px-5 lg:px-20">
+          <div className="md:px-5 ">
             <p className="ctn3 text-left">
               <img src={organisation3} alt="" className="w-16 logo3" />
               CPC’s division for diagnostic instrument manufacturing aims at
