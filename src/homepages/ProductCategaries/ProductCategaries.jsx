@@ -61,8 +61,8 @@ function ProductCategaries() {
           {categoryItems2.map((item) => (
             <Link to="/product" onClick={() => setSelectedCategory(item.name)}>
               <div className="w-full flex flex-col items-center py-1 px-2 border rounded-xl mt-2 shadow-md shadow-custom-green">
-                <img src={item.image} className="w-[20px]" alt={item.name} />
-                <p className="text-xs text-center">{item.name}</p>
+                <img src={item.image} className="w-[25px]" alt={item.name} />
+                <p className="text-xs text-gray-700 text-center">{item.name}</p>
               </div>
             </Link>
           ))}
