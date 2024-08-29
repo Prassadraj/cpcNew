@@ -29,7 +29,7 @@ function ContactUs() {
       window.Email.send(config).then(() => alert("sent"));
     }
   };
-
+  // x
   return (
     <div className="p-4 lg:p-5 lg:h-[100vh] bg-black mb-10 flex justify-center items-center lg:mt-20">
       <div className="lg:h-[85vh] h-auto w-full lg:w-[85vw] bg-light-green rounded-xl relative flex flex-col lg:flex-row overflow-hidden">
