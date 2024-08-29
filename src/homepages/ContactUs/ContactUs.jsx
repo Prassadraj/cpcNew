@@ -15,16 +15,16 @@ function ContactUs() {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-  const config = {
-    SecureToken: "d456f794-9d45-4b2c-b0d1-2251fbec18fc",
-    To: "boggy@yopmail.com",
-    From: formData.email,
-    Subject: formData.message,
-    Body: formData.name,
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevent default form submission behavior
+    const config = {
+      SecureToken: "d456f794-9d45-4b2c-b0d1-2251fbec18fc",
+      To: "boggy@yopmail.com",
+      From: formData.email,
+      Subject: formData.message,
+      Body: formData.name,
+    };
     if (window.Email) {
       window.Email.send(config).then(() => alert("sent"));
     }
