@@ -15,35 +15,18 @@ function ContactUs() {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
+  const config = {
+    SecureToken: "d456f794-9d45-4b2c-b0d1-2251fbec18fc",
+    To: "boggy@yopmail.com",
+    From: formData.email,
+    Subject: formData.message,
+    Body: formData.name,
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevent default form submission behavior
-
-    try {
-      // Send POST request to server with form data
-      const response = await axios.post(
-        "http://localhost:5000/send-email",
-        formData,
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      );
-
-      // Log response status and data for debugging
-      console.log("Response status:", response.status);
-      console.log("Response data:", response.data);
-
-      if (response.status === 200) {
-        alert("Your message has been sent!"); // Show success message
-        setFormData({ name: "", email: "", phone: "", message: "" }); // Clear form data
-      } else {
-        alert("There was an error sending your message. Please try again."); // Show error message
-      }
-    } catch (error) {
-      console.error("Error:", error); // Log error to console
-      alert("There was an error sending your message. Please try again."); // Show error message
+    if (window.Email) {
+      window.Email.send(config).then(() => alert("sent"));
     }
   };
 

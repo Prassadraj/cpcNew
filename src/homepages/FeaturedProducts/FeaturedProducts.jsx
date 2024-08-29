@@ -16,20 +16,7 @@ import { Link } from "react-router-dom";
 const FeaturedProducts = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    gsap.fromTo(
-      ".heading",
-      { opacity: 0, y: "10px" },
-      {
-        opacity: 1,
-        y: "0px",
-        duration: 0.4,
-        delay: 0.2,
-        scrollTrigger: ".heading",
-        stagger: {
-          amount: 1,
-        },
-      }
-    );
+
     gsap.fromTo(
       ".products",
       {
@@ -39,8 +26,8 @@ const FeaturedProducts = () => {
       {
         opacity: 1,
         width: "100%",
-        duration: 1,
-        delay: 1,
+        duration: 0.5,
+
         scrollTrigger: ".products",
         stagger: {
           amount: 1,
@@ -55,12 +42,12 @@ const FeaturedProducts = () => {
         <span className="font-semibold text-xl md:text-4xl uppercase  font-poppins text-custom-green">
           Featured Products
         </span>
-        <p className="md:text-xl heading font-poppins text-gray-500 ">
+        <p className="md:text-xl   font-poppins text-gray-500 ">
           We use only the best quality materials n the market in order to
           provide the best products to our patients.
         </p>
       </div>
-      <div className="hidden md:block">
+      <div className="hidden md:block products">
         <HorizontalScrollCarousel cards={featuredCards} />
       </div>
       {/* Add a mobile-friendly version if needed */}
@@ -94,10 +81,7 @@ const HorizontalScrollCarousel = ({ cards }) => {
   const x = useTransform(scrollYProgress, [0, 1.6], ["1%", "-95%"]);
 
   return (
-    <section
-      ref={targetRef}
-      className="relative h-[70vh] md:h-[300vh] products"
-    >
+    <section ref={targetRef} className="relative h-[70vh] md:h-[300vh] ">
       <div className="sticky top-0 flex md:h-screen items-center overflow-hidden">
         <motion.div style={{ x }} className="flex gap-4 md:gap-8">
           {cards.slice(0, 7).map((card) => (
