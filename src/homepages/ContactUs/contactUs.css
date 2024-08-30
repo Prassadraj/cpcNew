@@ -6,6 +6,15 @@ textarea {
   background-color: transparent;
   border: 1px solid rgb(255, 255, 255); /* Add border style */
 }
+.input-email {
+  color: white; /* Sets text color to white */
+  background-color: transparent; /* Background stays transparent */
+  border: 1px solid white; /* White border */
+}
+
+.input-email::placeholder {
+  color: white; /* White placeholder text */
+}
 
 /* Change placeholder color for input fields and textarea */
 input[type="text"]::placeholder,

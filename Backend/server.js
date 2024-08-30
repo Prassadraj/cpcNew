@@ -1,41 +1,46 @@
+const nodemailer = require("nodemailer");
 const express = require("express");
-const cors = require("cors"); // Ensure CORS is enabled
+const cors = require("cors");
 const app = express();
 
-// Function to simulate sending an email (replace with actual implementation)
-async function sendEmail({ name, email, phone, message }) {
-  // Simulate sending email and return a mock response
-  return new Promise((resolve) => {
-    setTimeout(() => resolve({ response: "Email sent successfully" }), 1000);
-  });
-}
+const PORT = process.env.PORT || 5000;
 
-// Middleware to parse JSON request bodies
+// Middleware
+app.use(cors());
 app.use(express.json());
-app.use(cors()); // Enable CORS for all origins
+
+// Nodemailer transporter
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: "prassadpr111@gmail.com", // Your Gmail address
+    pass: "tfwmacefxxmsnswo", // Your generated app password
+  },
+});
 
 app.post("/send-email", async (req, res) => {
-  const { name, email, phone, message } = req.body;
-
-  // Check if all required fields are present in the JSON data
-  if (!name || !email || !phone || !message) {
-    return res.status(400).json({ error: "Missing required fields" });
-  }
-
+  const { name, phone, message, email } = req.body;
   try {
-    // Call the async function to send the email
-    const info = await sendEmail({ name, email, phone, message });
-
-    console.log("Email sent:", info.response);
-    res.status(200).json({ message: "Email sent successfully" });
+    const info = await transporter.sendMail({
+      from: email, // Sender address
+      to: "prassadpr111@gmail.com", // Your receiving email address
+      subject: "From website", // Subject line
+      text: message, // Plain text body
+      html: `
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Mobile:</strong> ${phone}</p>
+        <p><strong>Message:</strong> ${message}</p>
+      `,
+    });
+    res.status(200).json({ message: "Email sent", messageId: info.messageId });
   } catch (error) {
-    console.error("Error sending email:", error.message || error);
-    res.status(500).json({ error: "Failed to send email" });
+    console.error("Error sending email:", error); // Log error to console
+    res
+      .status(500)
+      .json({ message: "Error sending email", error: error.message });
   }
 });
 
-// Start the server
-const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Server connected on port ${PORT}`);
 });

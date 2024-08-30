@@ -17,6 +17,8 @@ import CSRPolicy from "./component/CSRPolicy/CSRPolicy";
 import SingleBlog from "./component/Blog/SingleBlog";
 import New from "./homepages/Organisation/New";
 import AnimatedCursor from "react-animated-cursor";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const location = useLocation();
@@ -41,7 +43,7 @@ function App() {
 
   return (
     <>
-      <Nav />{" "}
+      <Nav /> <ToastContainer />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route index element={<Home />} />

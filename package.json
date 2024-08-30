@@ -50,6 +50,7 @@
     "react-simple-image-slider": "^2.4.1",
     "react-slick": "^0.30.2",
     "react-spring": "^9.7.3",
+    "react-toastify": "^10.0.5",
     "react-tsparticles": "^2.12.2",
     "react-vertical-timeline-component": "^3.6.0",
     "slick-carousel": "^1.8.1",
