@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Transition from "../Transition/Transition";
 import "./home.css";
 import ZoomEffect from "../ZoomEffect/ZoomEffect";
@@ -16,26 +16,37 @@ import ProductCategaries from "../../homepages/ProductCategaries/ProductCategari
 
 import Section1 from "../../homepages/Section1/Section1";
 import New from "../../homepages/Organisation/New";
+import Loader from "../Loader/Loader";
 
 function Home() {
+  const [load, setLoad] = useState(true);
   useEffect(() => {
     window.scrollTo(0, 0);
+    setTimeout(() => {
+      setLoad(false);
+    }, 500);
   }, []);
   return (
-    <div className="font-poppins ">
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <ProductCategaries />
-      {/* <Organisation /> */}
-      <New />
-      <TestimonialSlider />
-      <FeaturedProducts />
-      <Blog />
-      <ContactUs />
-      <ZoomEffect />
-      <Footer />
-    </div>
+    <>
+      {load ? (
+        <Loader />
+      ) : (
+        <div className="font-poppins ">
+          <Section1 />
+          <Section2 />
+          <Section3 />
+          <ProductCategaries />
+          {/* <Organisation /> */}
+          <New />
+          <TestimonialSlider />
+          <FeaturedProducts />
+          <Blog />
+          <ContactUs />
+          <ZoomEffect />
+          <Footer />
+        </div>
+      )}
+    </>
   );
 }
 
