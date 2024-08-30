@@ -10,6 +10,11 @@ export default {
         mont: ["Montserrat", "serif"],
         lato: ["Lato", "serif"],
       },
+      fontSize: {
+        fontextra: "1rem",
+        fontptag: "0.9rem",
+        fonthtwo: "1.5rem",
+      },
       boxShadow: {
         "custom-shadow": "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
       },

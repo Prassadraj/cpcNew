@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import whatWeDo from "../../images/section2&3/what-we-do 1.png";
 import whoWeAre from "../../images/section2&3/who we are 1.png";
 import Aos from "aos";
+import { Link } from "react-router-dom";
 
 function Section3() {
   gsap.registerPlugin(ScrollTrigger);
@@ -60,26 +61,23 @@ function Section3() {
             </p>
           </div>
           <div
-            className="w-full md:max-w-xl text-sm md:text-xl"
+            className="w-full md:max-w-xl text-sm md:text-xl "
             data-aos="zoom-in-left"
           >
             <p className="leading-6 text-justify text-sm md:tracking-wider capitalize">
-              At Everlife CPC Diagnostics, we pride ourselves on being a
-              transformative force in the healthcare industry. As a leading
-              provider of medical laboratory equipment and in vitro diagnostic
-              (IVD) solutions, we are committed to enhancing healthcare outcomes
-              across South Asia. With our headquarters in the vibrant city of
-              Chennai and a sprawling network extending to multiple countries,
-              we are uniquely positioned to deliver cutting-edge technology and
-              unparalleled service. Our journey is defined by an unwavering
-              commitment to excellence and innovation. We collaborate with
-              top-tier partners and leverage the latest advancements in medical
-              science to offer a diverse portfolio of products. Our solutions
-              are designed to meet the unique challenges of modern healthcare,
-              ensuring accuracy, efficiency, and reliability. At Everlife CPC
-              Diagnostics, we don't just supply equipment; we empower healthcare
-              professionals to achieve the extraordinary.
+              At Everlife CPC Diagnostics, we lead the healthcare industry with
+              our advanced medical laboratory equipment and in-vitro diagnostics
+              (IVD) solutions. Headquartered in Chennai, our reach spans across
+              multiple countries in South Asia, delivering innovation and
+              excellence in every product. With over 37 years of expertise, we
+              specialize in autoimmune diagnostics, manufacturing, and R&D for
+              instruments and reagents. Our extensive network and unwavering
+              commitment to quality empower healthcare professionals to achieve
+              the extraordinary.
             </p>
+            <Link to="/about">
+              <p className="text-custom-green text-sm">read more...</p>
+            </Link>
           </div>
           <button
             onClick={handleToggle}
@@ -119,21 +117,19 @@ function Section3() {
             data-aos="zoom-in-left"
           >
             <p className="leading-6 text-sm text-justify md:tracking-wider">
-              At Everlife CPC Diagnostics, we are revolutionizing healthcare
-              through advanced laboratory instruments and medical devices. We
-              manufacture and distribute a range of products tailored to the
-              diverse needs of clinical diagnostics, including pre-analytical
-              automation for precise sample management, high-performance
-              hematology analyzers for accurate blood analysis, and
-              comprehensive immunology testing solutions for immune response
-              assessment. Our clinical chemistry systems provide precise
-              biochemical analysis, while our molecular diagnostics tools enable
-              advanced genetic and molecular testing. We also offer essential
-              COVID-19 solutions, such as RTPCR kits and VTM tubes. Our mission
-              is to transform healthcare by delivering innovative, high-quality
-              solutions that support exceptional patient care and contribute to
-              a healthier future.
-            </p>
+              We manufacture and supply advanced laboratory instruments and
+              medical devices in India, Sri Lanka and Bangladesh. Our offerings
+              range from pre-analytical automation for precise sample management
+              to high-performance hematology and immunology analyzers. We
+              provide sophisticated clinical chemistry devices and molecular
+              diagnostics tools, essential for personalized medicine. Our
+              mission is to transform healthcare by delivering innovative
+              solutions that enhance patient care and drive diagnostic
+              breakthroughs.
+            </p>{" "}
+            <Link to="/about">
+              <p className="text-custom-green text-sm">read more...</p>
+            </Link>
           </div>
         </div>
       </div>

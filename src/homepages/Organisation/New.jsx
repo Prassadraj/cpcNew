@@ -107,25 +107,25 @@ function New() {
           <div className="">
             <p className="ctn1 text-left">
               <img src={organisation1} alt="" className="w-16 logo1" />
-              Jeev Diagnostics Pvt. Ltd. is a collaborative venture between~~
-              Awareness Technology Inc. (USA) and CPC Diagnostics Pvt. Ltd.
-              (India), focusing on cutting-edge in vitro clinical chemistry
-              reagents.
+              Jeev Diagnostics, a wholly owned subsidiary of Everlife CPC
+              Diagnostics Pvt. Ltd., Chennai, India, manufactures high-quality
+              state-of-the-art in vitro clinical chemistry reagents to cater to
+              clinical laboratories, hospitals, and diagnostic centers.
             </p>
           </div>
           <div className="md:px-5 ">
             <p className="ctn2 text-left">
               <img src={organisation2} alt="" className="w-16 logo2" />
-              Sachika, an initiative by CPC Diagnostics Pvt. Ltd., focuses on
-              life sciences education, empowering clinicians with contemporary
-              bioscience skills.
+              Sachika, an initiative by Everlife CPC Diagnostics Pvt. Ltd.,
+              focuses on life sciences education, empowering clinicians with
+              contemporary bioscience skills.
             </p>
           </div>
           <div className="md:px-5 ">
             <p className="ctn3 text-left">
               <img src={organisation3} alt="" className="w-16 logo3" />
-              CPC’s division for diagnostic instrument manufacturing aims at
-              empowerment, reliability, and innovation in indigenous
+              Everlife CPC’s division for diagnostic instrument manufacturing
+              aims at empowerment, reliability, and innovation in indigenous
               manufacturing practices.
             </p>
           </div>
@@ -138,10 +138,10 @@ function New() {
           <div className="flex flex-col items-start justify-center">
             <img src={organisation1} className=" w-[40px]" alt="" />
             <p className="text-[9px]">
-              Jeev Diagnostics Pvt. Ltd. is a collaborative venture between
-              Awareness Technology Inc. (USA) and CPC Diagnostics Pvt. Ltd.
-              (India), focusing on cutting-edge in vitro clinical chemistry
-              reagents.
+              Jeev Diagnostics, a wholly owned subsidiary of Everlife CPC
+              Diagnostics Pvt. Ltd., Chennai, India, manufactures high-quality
+              state-of-the-art in vitro clinical chemistry reagents to cater to
+              clinical laboratories, hospitals, and diagnostic centers.
             </p>
           </div>
         </div>
@@ -161,8 +161,8 @@ function New() {
           <div className="flex flex-col items-start justify-center">
             <img src={organisation3} className=" w-[40px]" alt="" />
             <p className="text-[9px]">
-              CPC’s division for diagnostic instrument manufacturing aims at
-              empowerment, reliability, and innovation in indigenous
+              Everlife CPC’s division for diagnostic instrument manufacturing
+              aims at empowerment, reliability, and innovation in indigenous
               manufacturing practices.
             </p>
           </div>

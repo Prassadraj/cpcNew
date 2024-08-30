@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Splitting from "splitting";
 import { Link } from "react-router-dom";
-
+import { motion } from "framer-motion";
 function Section1() {
   useEffect(() => {
     Splitting();
@@ -62,10 +62,14 @@ function Section1() {
     <>
       <div className="section1 md:flex md:flex-row grid grid-cols-1 justify-center items-center h-full w-full overflow-hidden font-poppins md:mt-20 overflow-x-hidden">
         <div className="flex-1 md:w-1/2 w-full mt-0 sm:mt-24 sm:ml-4 lg:ml-14 px-2 sm:px-0">
-          <p className="text-2xl mt-3 md:mt-0 md:text-4xl font-bold text-[#56575D]">
-            {" "}
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            className="text-2xl mt-3 md:mt-0 md:text-4xl font-bold text-[#56575D]"
+          >
             Medical Laboratory Equipment Supplier in India at the Best Price
-          </p>
+          </motion.p>
           <div className="description">
             <p
               className="subTitle text-sm md:text-xl w-full md:w-[40vw] text-start"
@@ -75,7 +79,7 @@ function Section1() {
               }}
             >
               Everlife CPC Diagnostics is your trusted partner for high-quality
-              in-vitro diagnostic medical laboratory equipment suppliers in
+              In-vitro diagnostic Medical Laboratory Equipment Suppliers in
               India.
             </p>
           </div>

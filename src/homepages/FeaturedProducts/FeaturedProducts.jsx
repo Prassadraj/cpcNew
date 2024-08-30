@@ -43,8 +43,7 @@ const FeaturedProducts = () => {
           Featured Products
         </span>
         <p className="md:text-xl   font-poppins text-gray-500 ">
-          We use only the best quality materials n the market in order to
-          provide the best products to our patients.
+          Explore Our Best-in-Class Diagnostic Equipment
         </p>
       </div>
       <div className="hidden md:block products">

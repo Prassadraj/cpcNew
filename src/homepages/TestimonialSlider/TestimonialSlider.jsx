@@ -91,8 +91,8 @@ function TestimonialSlider() {
           Testimonials
         </p>
         <p className="md:text-xl w-full text-gray-900 tracking-wide text-center">
-          Our experience with CPC Diagnostics has been exceptional. Their
-          products are reliable, and their support is outstanding.
+          Our commitment to quality and innovation shines through our customers'
+          words.
         </p>
       </div>
 
