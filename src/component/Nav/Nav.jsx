@@ -116,14 +116,7 @@ function Nav() {
               className="text-xl font-semibold py-2 mt-2 flex items-center justify-between"
               onClick={() => toggleDropdown("about")}
             >
-              <p
-                onClick={() => {
-                  setShowMobileMenu(!showMobileMenu);
-                  setIsToggled((e) => !e);
-                }}
-              >
-                About
-              </p>
+              <p>About</p>
               {showDropdown.about ? <FaChevronDown /> : <FaChevronRight />}
             </div>
             {showDropdown.about && (
