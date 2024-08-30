@@ -33,6 +33,7 @@ import awards1 from "../../assets/image/awards1.png";
 import mainaward from "../../assets/image/main-awards.png";
 import Footer from "../../homepages/Footer/Footer";
 import Carousel from "../Carousel/Carousel";
+
 import Loader from "../Loader/Loader";
 
 const About = () => {

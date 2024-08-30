@@ -21,7 +21,7 @@ function ContactUs() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/send-email",
+        "https://cpcnew.onrender.com/send-email",
         formData
       );
       console.log("Success:", response.data);

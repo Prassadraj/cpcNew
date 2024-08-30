@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import sachika from "../../assets/image/sachika-timeline.jpg";
 import frame from "../../assets/image/Frame-md.png";
-import jeev from "../../assets/image/Frame-md.png";
+import jeev from "../../assets/image/jeev.jpg";
 
-import cpc from "../../assets/image/Frame-md.png";
-import itracklogo from "../../assets/image/Frame-md.png";
-import itrack from "../../assets/image/Frame-md.png";
+import cpc from "../../assets/image/cpc-manufacturing.jpg";
+import itracklogo from "../../assets/image/i-track-logo.png";
+import itrack from "../../assets/image/i-track-parallex.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { SiTicktick } from "react-icons/si";
@@ -66,7 +66,7 @@ const itrackcon = {
 function Brand() {
   const [load, setLoad] = useState(true);
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
     window.scrollTo(0, 0);
     setTimeout(() => {
       setLoad(false);
