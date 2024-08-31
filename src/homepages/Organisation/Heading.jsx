@@ -9,13 +9,13 @@ function Heading() {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-center md:h-[30vh] gap-2">
-      <p className="text-lg md:text-3xl text-custom-green font-semibold title1 uppercase">
+    <div className="flex flex-col justify-center items-center tablet:h-[30vh] gap-2">
+      <p className="text-lg tablet:text-3xl text-custom-green font-semibold title1 uppercase">
         Our Sister Organizations
       </p>
       <p
         data-aos="zoom-in-up"
-        className="font-poppins text-sm md:text-xl max-w-xl text-center title2"
+        className="font-poppins text-sm tablet:text-xl max-w-xl text-center title2"
       >
         Explore our network of affiliated companies that enhance healthcare
         globally.

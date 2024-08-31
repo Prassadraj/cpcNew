@@ -53,18 +53,18 @@ function Section3() {
   return (
     <div className="font-poppins">
       {/* Section 3 */}
-      <div className="p-2 md:p-0 section3 flex flex-col md:flex-row justify-evenly items-center md:h-[500px]">
-        <div className="flex flex-col items-start md:px-4 lg:p-1">
+      <div className="p-2 tablet:p-0 section3 flex flex-col tablet:flex-row justify-evenly items-center tablet:h-[500px]">
+        <div className="flex flex-col items-start tablet:px-4 laptop:p-1">
           <div className="mb-3" data-aos="zoom-in-left">
-            <p className="font-bold text-custom-green text-sm md:text-3xl">
+            <p className="font-bold text-custom-green text-sm tablet:text-3xl">
               Who We Are?
             </p>
           </div>
           <div
-            className="w-full md:max-w-xl text-sm md:text-xl "
+            className="w-full tablet:max-w-xl text-sm tablet:text-xl "
             data-aos="zoom-in-left"
           >
-            <p className="leading-6 text-justify text-sm md:tracking-wider capitalize">
+            <p className="leading-6 text-justify text-sm tablet:tracking-wider capitalize">
               At Everlife CPC Diagnostics, we lead the healthcare industry with
               our advanced medical laboratory equipment and in-vitro diagnostics
               (IVD) solutions. Headquartered in Chennai, our reach spans across
@@ -84,8 +84,8 @@ function Section3() {
             className="text-custom-green mt-4 underline"
           ></button>
         </div>
-        <div className="relative justify-center items-center hidden md:flex">
-          <div className="relative bottom-0 w-[80vw] md:w-[30vw] h-[50vh] rounded-2xl z-10">
+        <div className="relative justify-center items-center hidden tablet:flex">
+          <div className="relative bottom-0 w-[80vw] tablet:w-[30vw] h-[50vh] rounded-2xl z-10">
             <img
               src={whoWeAre}
               alt="Who We Are"
@@ -96,9 +96,9 @@ function Section3() {
       </div>
 
       {/* Section 4 */}
-      <div className="p-2 md:p-0 section4 flex flex-col md:flex-row justify-evenly items-center md:h-[500px] md:mb-10">
-        <div className="relative hidden md:flex justify-center items-center">
-          <div className="relative -bottom-10 w-[80vw] md:w-[30vw] h-[50vh] rounded-2xl z-10">
+      <div className="p-2 tablet:p-0 section4 flex flex-col tablet:flex-row justify-evenly items-center tablet:h-[500px] tablet:mb-10">
+        <div className="relative hidden tablet:flex justify-center items-center">
+          <div className="relative -bottom-10 w-[80vw] tablet:w-[30vw] h-[50vh] rounded-2xl z-10">
             <img
               src={whatWeDo}
               alt="What We Do"
@@ -108,15 +108,15 @@ function Section3() {
         </div>
         <div className="flex flex-col items-start">
           <div className="mb-3" data-aos="zoom-in-left">
-            <p className="font-bold text-custom-green text-sm md:text-3xl md:px-4 lg:p-1">
+            <p className="font-bold text-custom-green text-sm tablet:text-3xl tablet:px-4 laptop:p-1">
               What We Do?
             </p>
           </div>
           <div
-            className="w-full md:max-w-xl text-sm md:text-xl md:px-4 lg:p-1"
+            className="w-full tablet:max-w-xl text-sm tablet:text-xl tablet:px-4 laptop:p-1"
             data-aos="zoom-in-left"
           >
-            <p className="leading-6 text-sm text-justify md:tracking-wider">
+            <p className="leading-6 text-sm text-justify tablet:tracking-wider">
               We manufacture and supply advanced laboratory instruments and
               medical devices in India, Sri Lanka and Bangladesh. Our offerings
               range from pre-analytical automation for precise sample management

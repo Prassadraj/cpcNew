@@ -60,19 +60,19 @@ function Section1() {
 
   return (
     <>
-      <div className="section1 md:flex md:flex-row grid grid-cols-1 justify-center items-center h-full w-full overflow-hidden font-poppins md:mt-20 overflow-x-hidden">
-        <div className="flex-1 md:w-1/2 w-full mt-0 sm:mt-24 sm:ml-4 lg:ml-14 px-2 sm:px-0">
+      <div className="section1 tablet:flex tablet:flex-row grid grid-cols-1 justify-center items-center h-screen w-full overflow-hidden font-poppins tablet:mt-10 overflow-x-hidden">
+        <div className="flex-1 tablet:w-1/2 w-full mt-0 sm:mt-24 sm:ml-4 laptop:ml-14 px-2 sm:px-0">
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
-            className="text-2xl mt-3 md:mt-0 md:text-4xl font-bold text-[#56575D]"
+            className="text-2xl mt-3 tablet:mt-0 tablet:text-4xl font-bold text-[#56575D]"
           >
             Medical Laboratory Equipment Supplier in India at the Best Price
           </motion.p>
           <div className="description">
             <p
-              className="subTitle text-sm md:text-xl w-full md:w-[40vw] text-start"
+              className="subTitle text-sm tablet:text-xl w-full tablet:w-[40vw] text-start"
               style={{
                 clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
                 WebkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
@@ -83,17 +83,17 @@ function Section1() {
               India.
             </p>
           </div>
-          <div className="buttons flex gap-1 md:justify-start justify-center">
+          <div className="buttons flex gap-1 tablet:justify-start justify-center">
             <Link to="/product">
               <button
-                className="btn1 w-auto h-auto px-4 py-2 text-sm lg:text-lg whitespace-nowrap"
+                className="btn1 w-auto h-auto px-4 py-2 text-sm laptop:text-lg whitespace-nowrap"
                 style={{ background: "#00A786", color: "white" }}
               >
                 Explore product
               </button>
             </Link>
             <button
-              className="btn1 w-auto h-auto px-4 py-2 text-sm whitespace-nowrap text-[#00A786] hover:bg-[#00a986] hover:text-white lg:text-lg"
+              className="btn1 w-auto h-auto px-4 py-2 text-sm whitespace-nowrap text-[#00A786] hover:bg-[#00a986] hover:text-white laptop:text-lg"
               style={{
                 border: "2px solid #00A786",
               }}
@@ -102,7 +102,7 @@ function Section1() {
             </button>
           </div>
         </div>
-        <div className="flex-1 md:w-1/2 w-full overflow-hidden mt-0 md:mt-0">
+        <div className="flex-1 tablet:w-1/2 w-full overflow-hidden mt-0 tablet:mt-0">
           <div className="animate-bouncing">
             <Slider />
           </div>

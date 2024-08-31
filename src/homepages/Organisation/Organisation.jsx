@@ -63,8 +63,8 @@ const Organisation = () => {
     <>
       <Heading />
       {/* for laptop */}
-      <div className="hidden h-[300vh] md:flex font-poppins mb-20" id="mm">
-        <div className="md:w-[50vw] w-[25vw] flex justify-center items-center flex-col">
+      <div className="hidden h-[300vh] tablet:flex font-poppins mb-20" id="mm">
+        <div className="tablet:w-[50vw] w-[25vw] flex justify-center items-center flex-col">
           {images.map((image, i) => (
             <div
               key={i}
@@ -102,8 +102,8 @@ const Organisation = () => {
                   }
             }
           >
-            <div className="flex gap-2 text-sm md:text-2xl text-custom-green">
-              <p className="bg-transparent border-2 border-solid border-custom-green h-6 w-6  md:h-10 md:w-10 text-center rounded-full flex items-center justify-center">
+            <div className="flex gap-2 text-sm tablet:text-2xl text-custom-green">
+              <p className="bg-transparent border-2 border-solid border-custom-green h-6 w-6  tablet:h-10 tablet:w-10 text-center rounded-full flex items-center justify-center">
                 1
               </p>
               <img
@@ -125,11 +125,11 @@ const Organisation = () => {
                       }
                 }
                 src={organisation1}
-                className="md:w-[70wv] w-[50px]"
+                className="tablet:w-[70wv] w-[50px]"
                 alt=""
               />
             </div>
-            <div className="flex justify-end items-center mt-2 text-xs md:text-lg pr-10">
+            <div className="flex justify-end items-center mt-2 text-xs tablet:text-lg pr-10">
               <p
                 className="max-w-lg min-w-xs text-justify pl-12 "
                 style={
@@ -341,7 +341,7 @@ const Organisation = () => {
         </div>
       </div>
       {/* for mobile */}
-      <div className="md:hidden">
+      <div className="tablet:hidden">
         <div className="grid grid-cols-2 items-center justify-center p-2 gap-4 mb-2">
           <img src={images[0].img} alt="" />
           <div className="flex flex-col items-start justify-center">

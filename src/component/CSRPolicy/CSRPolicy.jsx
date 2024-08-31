@@ -105,7 +105,7 @@ const CSRPolicy = () => {
     </div> */}
 
           <div className="container-fluid bg-slate-100 ">
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-2 md:p-28 p-5">
+            <div className="grid sm:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 xl:grid-cols-3 gap-2 tablet:p-28 p-5">
               <h2 className="text-center text-maincol text-3xl font-semibold p-4">
                 Image Gallery
               </h2>
@@ -132,12 +132,12 @@ const CSRPolicy = () => {
               </div>
             </div>
           </div>
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 -scroll-mt-20 mt-20 ">
+          <div className="container mx-auto px-4 sm:px-6 laptop:px-8 -scroll-mt-20 mt-20 ">
             <h2 className="text-maincol text-3xl font-semibold ml-4 sm:ml-10 text-center">
               {" "}
               Member of the CSR Committee
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mt-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 laptop:grid-cols-3 xl:grid-cols-4 gap-5 mt-10">
               <div className="border-solid border-2 border-black p-5 bg-cover bg-no-repeat ">
                 <img
                   src={md1}
@@ -226,11 +226,11 @@ const CSRPolicy = () => {
             </div>
           </div>
 
-          <div className="container-fluid mx-auto px-4 sm:px-6 lg:px-8 -scroll-mt-20 mt-20 bg-slate-200 p-5">
+          <div className="container-fluid mx-auto px-4 sm:px-6 laptop:px-8 -scroll-mt-20 mt-20 bg-slate-200 p-5">
             <h2 className="text-center text-maincol text-3xl font-semibold mt-4">
               CSR
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5 mt-3 p-10">
+            <div className="grid grid-cols-1 sm:grid-cols-1 laptop:grid-cols-3 xl:grid-cols-3 gap-5 mt-3 p-10">
               <div className="border-2 border-x-green-400 rounded-sm text-center p-5 shadow-custom-shadow cursor-pointer hover:scale-95 hover:transition-all  hover:bg-maincol hover:text-white">
                 <button>CSR Policy</button>
               </div>

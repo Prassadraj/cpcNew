@@ -85,12 +85,12 @@ function TestimonialSlider() {
   };
 
   return (
-    <div className="md:h-[100vh]">
-      <div className="flex justify-center items-center flex-col gap-2 md:p-5">
-        <p className="text-lg md:text-4xl text-custom-green font-semibold headline font-poppins uppercase">
+    <div className="tablet:h-[100vh]">
+      <div className="flex justify-center items-center flex-col gap-2 tablet:p-5">
+        <p className="text-lg tablet:text-4xl text-custom-green font-semibold headline font-poppins uppercase">
           Testimonials
         </p>
-        <p className="md:text-xl w-full text-gray-900 tracking-wide text-center">
+        <p className="tablet:text-xl w-full text-gray-900 tracking-wide text-center">
           Our commitment to quality and innovation shines through our customers'
           words.
         </p>
@@ -98,22 +98,22 @@ function TestimonialSlider() {
 
       <div
         ref={sliderRef}
-        className="custom-scrollbar md:mt-10 md:mx-10 h-[150px] flex md:h-[250px] gap-6 overflow-hidden p-2 smooth-scroll"
+        className="custom-scrollbar tablet:mt-10 tablet:mx-10 h-[150px] flex tablet:h-[250px] gap-6 overflow-hidden p-2 smooth-scroll"
       >
         {data.map((item, i) => (
           <div
             key={i}
-            className="cardd border-1 border-custom-green gap-1 p-2 md:p-1 lg:p-3 rounded-lg text-gray-500 flex-col flex md:gap-3 font-poppins"
+            className="cardd border-1 border-custom-green gap-1 p-2 tablet:p-1 laptop:p-3 rounded-lg text-gray-500 flex-col flex tablet:gap-3 font-poppins"
           >
-            <div className="flex items-center w-[125px] md:w-[350px] lg:w-[550px] md:gap-2 gap-1 md:p-3">
+            <div className="flex items-center w-[125px] tablet:w-[300px] laptop:w-[550px] tablet:gap-2 gap-1 tablet:p-3">
               <img
-                className="w-10 h-10 md:w-20 md:h-20 rounded-full object-cover"
+                className="w-10 h-10 tablet:w-20 tablet:h-20 rounded-full object-cover"
                 src={item.img}
                 alt={item.name}
               />
-              <p className="md:text-xl text-base">{item.name}</p>
+              <p className="tablet:text-xl text-base">{item.name}</p>
             </div>
-            <div className="text-[9px] md:text-lg md:px-3 md:line-clamp-4 lg:line-clamp-none">
+            <div className="text-[9px] tablet:text-base tablet:px-3 tablet:line-clamp-4 laptop:line-clamp-none">
               {item.desc}
             </div>
           </div>
@@ -123,7 +123,7 @@ function TestimonialSlider() {
         {data.map((_, i) => (
           <p
             key={i}
-            className={`w-3 h-3 md:w-5 md:h-5 rounded-full cursor-pointer ${
+            className={`w-3 h-3 tablet:w-5 tablet:h-5 rounded-full cursor-pointer ${
               activeSlide === i
                 ? "bg-custom-green"
                 : " border-2 border-black/50"

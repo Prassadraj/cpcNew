@@ -37,20 +37,20 @@ const FeaturedProducts = () => {
   }, []);
 
   return (
-    <div className="lg:mb-20">
-      <div className="mb-4 flex h-10 items-center md:pl-24 flex-col md:gap-4 heading p-2 text-center">
-        <span className="font-semibold text-xl md:text-4xl uppercase  font-poppins text-custom-green">
+    <div className="laptop:mb-20">
+      <div className="mb-4 flex h-10 items-center tablet:pl-24 flex-col tablet:gap-4 heading p-2 text-center">
+        <span className="font-semibold text-xl tablet:text-4xl uppercase  font-poppins text-custom-green">
           Featured Products
         </span>
-        <p className="md:text-xl   font-poppins text-gray-500 ">
+        <p className="tablet:text-xl   font-poppins text-gray-500 ">
           Explore Our Best-in-Class Diagnostic Equipment
         </p>
       </div>
-      <div className="hidden md:block products">
+      <div className="hidden tablet:block products">
         <HorizontalScrollCarousel cards={featuredCards} />
       </div>
       {/* Add a mobile-friendly version if needed */}
-      <div className="md:hidden px-3 mb-4">
+      <div className="tablet:hidden px-3 mb-4">
         <div className="scrollable-container flex overflow-x-scroll space-x-4 py-4">
           {featuredCards.map((product, i) => (
             <div
@@ -80,9 +80,9 @@ const HorizontalScrollCarousel = ({ cards }) => {
   const x = useTransform(scrollYProgress, [0, 1.6], ["1%", "-95%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[70vh] md:h-[300vh] ">
-      <div className="sticky top-0 flex md:h-screen items-center overflow-hidden">
-        <motion.div style={{ x }} className="flex gap-4 md:gap-8">
+    <section ref={targetRef} className="relative h-[70vh] tablet:h-[300vh] ">
+      <div className="sticky top-0 flex tablet:h-screen items-center overflow-hidden">
+        <motion.div style={{ x }} className="flex gap-4 tablet:gap-8">
           {cards.slice(0, 7).map((card) => (
             <Card card={card} key={card.id} />
           ))}
@@ -95,22 +95,24 @@ const HorizontalScrollCarousel = ({ cards }) => {
 
 const Card = ({ card }) => {
   return (
-    <div className="lg:mt-10 font-poppins` relative h-[250px] w-[150px] md:h-[400px] md:w-[350px] overflow-hidden  rounded-2xl border-1 border-custom-green">
-      <div className="flex justify-center items-center w-full md:mt-10 h-32">
-        <img className="md:w-[200px] w-[100px]" src={card.url} alt="" />
+    <div className="laptop:mt-10 font-poppins` relative h-[250px] w-[150px] tablet:h-[400px] tablet:w-[350px] overflow-hidden  rounded-2xl border-1 border-custom-green">
+      <div className="flex justify-center items-center w-full tablet:mt-10 h-32">
+        <img className="tablet:w-[200px] w-[100px]" src={card.url} alt="" />
       </div>
-      <div className="absolute md:top-56 md:left-10 md:right-10 p-0">
-        <div className="flex justify-center md:justify-start">
-          <p className="md:text-xl font-poppins font-bold ">{card.title}</p>
+      <div className="absolute tablet:top-56 tablet:left-10 tablet:right-10 p-0">
+        <div className="flex justify-center tablet:justify-start">
+          <p className="tablet:text-xl font-poppins font-bold ">{card.title}</p>
         </div>
-        <p className="text-xs md:text-base line-clamp-3 px-1">{card.content}</p>
+        <p className="text-xs tablet:text-base line-clamp-3 px-1">
+          {card.content}
+        </p>
       </div>
-      <div className="absolute lg:bottom-4 md:bottom-6 w-full">
+      <div className="absolute laptop:bottom-4 tablet:bottom-6 w-full">
         <div className="flex justify-center items-center">
           <Magnetic>
             <button
-              className="text-xs lg:text-base w-fit md:w-72 border-1
-             p-0.5 md:px-3 md:py-2 rounded-lg text-custom-green border-custom-green"
+              className="text-xs laptop:text-base w-fit tablet:w-72 border-1
+             p-0.5 tablet:px-3 tablet:py-2 rounded-lg text-custom-green border-custom-green"
             >
               <Link to={`/productinfo/${card.category}/${card.id}`}>
                 View Product
@@ -125,13 +127,13 @@ const Card = ({ card }) => {
 
 const AllProductsCard = () => {
   return (
-    <div className="group relative h-[400px] w-[100px]  md:w-[200px] overflow-hidden flex items-center justify-center">
+    <div className="group relative h-[400px] w-[100px]  tablet:w-[200px] overflow-hidden flex items-center justify-center">
       <div className="absolute inset-0 z-0"></div>
       <div className="absolute inset-0 z-10 flex items-center justify-center">
         <Magnetic>
-          <div className="mr-10 text-xs md:text-xl font-black text-custom-green p-2 rounded-xl cursor-pointer">
+          <div className="mr-10 text-xs tablet:text-xl font-black text-custom-green p-2 rounded-xl cursor-pointer">
             <Link to="/product">
-              <span className="hidden md:block">All Products</span>
+              <span className="hidden tablet:block">All Products</span>
               <span>
                 <FontAwesomeIcon icon={faArrowRight} />
               </span>

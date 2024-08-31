@@ -31,7 +31,7 @@ function Home() {
       {load ? (
         <Loader />
       ) : (
-        <div className="font-poppins ">
+        <div className="font-poppins mobile-overflow-hidden">
           <Section1 />
           <Section2 />
           <Section3 />

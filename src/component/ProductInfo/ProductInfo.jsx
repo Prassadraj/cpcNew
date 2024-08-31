@@ -189,7 +189,7 @@ function ProductInfo() {
         <Loader />
       ) : (
         <div className="product-info text-black overflow-hidden mt-2 font-poppins">
-          <div className="hidden mb-3 text-base md:text-xl cursor-pointer  px-5 w-full md:px-5">
+          <div className="hidden tablet:flex mb-3 text-base md:text-xl cursor-pointer  px-5 w-full md:px-5">
             <span className="">
               <Link to="/product">Product</Link>
             </span>
@@ -199,7 +199,7 @@ function ProductInfo() {
             <span className="">/ {product.title}</span>
           </div>
           {/* mobile */}
-          <div className=" mb-3 text-xl cursor-pointer  px-2 w-full sm:hidden">
+          <div className=" mb-3 text-lg cursor-pointer  px-2 w-full sm:hidden">
             <span className="">
               <Link to="/product">Product</Link>
             </span>
@@ -208,9 +208,18 @@ function ProductInfo() {
             </Link>
             <span>/ {product.title}</span>
           </div>
+          {/* img for mobile */}
+          <div className="laptop:w-[80%] sm:hidden px-10 w-full tablet:w-[70%]  md:h-[60%] flex justify-center">
+            <img
+              src={imgUrl}
+              alt="Descriptive text"
+              className="rounded-md w-full h-full object-cover"
+            />
+          </div>
+          {/* / */}
           <div className="flex px-5 gap-5">
             <div
-              className={`sm:w-[25%] bg-white border rounded-md shadow-md  p-1 md:py-2 md:px-4 md:sticky top-16 h-[90vh] overflow-y-auto z-10  ${
+              className={`sm:w-[25%] bg-white border rounded-md shadow-md  p-1 md:py-2 md:px-4 md:sticky top-0 h-[90vh] overflow-y-auto z-10  ${
                 open
                   ? "fixed top-16 inset-0 w-[80%] h-full overflow-y-auto z-20"
                   : "hidden sm:block"
@@ -260,7 +269,7 @@ function ProductInfo() {
               </div>
             </div>
             <div className="w-[75%]">
-              <div className="flex flex-col md:flex-row items-center justify-start mb-2 md:pr-10 md:gap-4">
+              <div className="flex flex-col md:flex-row items-center tablet:justify-start mb-2  md:gap-4">
                 <div className="hidden md:block w-1/4 md:px-2">
                   {product.image.map((img, idx) => (
                     <img
@@ -279,11 +288,11 @@ function ProductInfo() {
                     />
                   ))}
                 </div>
-                <div className="md:w-[60%] md:h-[60%] flex justify-center">
+                <div className="hidden laptop:w-[80%] w-full tablet:w-[70%]  md:h-[60%] tablet:flex justify-center">
                   <img
                     src={imgUrl}
                     alt="Descriptive text"
-                    className="rounded-md"
+                    className="rounded-md w-full h-full object-cover"
                   />
                 </div>
               </div>
@@ -316,7 +325,6 @@ function ProductInfo() {
               </div>
             </div>
           </div>
-
           <div className="p-5 md:block hidden mb-4">
             <div className="flex justify-around text-lg border p-4">
               {tabs.map((header, index) => (
@@ -372,7 +380,6 @@ function ProductInfo() {
               </div>
             </div>
           </div>
-
           {/* <div className="flex flex-col md:flex-row items-center justify-start gap-5 px-5  mb-2">
         <div className="hidden md:block w-1/4 md:px-5">
           {product.image.map((img, idx) => (

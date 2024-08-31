@@ -10,6 +10,16 @@ export default {
         mont: ["Montserrat", "serif"],
         lato: ["Lato", "serif"],
       },
+      screens: {
+        tablet: "640px",
+        // => @media (min-width: 640px) { ... }
+
+        laptop: "1024px",
+        // => @media (min-width: 1024px) { ... }
+
+        desktop: "1280px",
+        // => @media (min-width: 1280px) { ... }
+      },
       fontSize: {
         fontextra: "1rem",
         fontptag: "0.9rem",

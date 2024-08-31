@@ -89,7 +89,7 @@ function Brand() {
           >
             <u className="underline-offset-8">Sachika</u>
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 mt-10  p-10 gap-5">
+          <div className="grid grid-cols-1 tablet:grid-cols-2 mt-10  p-10 gap-5">
             {/* content 1 */}
 
             <div
@@ -187,7 +187,7 @@ function Brand() {
           >
             <u className="underline-offset-8">Jeev Diagnostics</u>
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 p-10 gap-5">
+          <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5">
             {/* content 1 */}
             <div
               className="text-justify"
@@ -284,7 +284,7 @@ function Brand() {
             >
               <u className="underline-offset-8">CPC manufacturing unit</u>
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 p-10 gap-5  ">
+            <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5  ">
               {/* content 1 */}
               <div
                 className="text-justify"
@@ -410,7 +410,7 @@ function Brand() {
             >
               <img src={itracklogo} alt="" className="w-44 " />
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 p-10 gap-5 ">
+            <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5 ">
               {/* content 1 */}
               <div
                 className="text-justify"

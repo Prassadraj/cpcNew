@@ -75,8 +75,8 @@ function Nav() {
   }, [showMobileMenu]);
 
   return (
-    <div className="px-2 md:flex sticky bg-white top-0 h-fit w-full z-50 items-center justify-between md:pl-3 md:pr-20 shadow-md overflow-visible">
-      <div className="left py-2 flex items-center md:px-10">
+    <div className="md:flex sticky p-2 bg-white top-0 whitespace-nowrap h-fit w-full z-50 items-center justify-around shadow-md overflow-visible">
+      <div className="left flex items-center ">
         <div className="block md:hidden w-fit bg-white">
           <button
             onClick={() => setShowMobileMenu(!showMobileMenu)}
@@ -87,7 +87,7 @@ function Nav() {
         </div>
         <Link to="/">
           <img
-            className="md:w-[140px] md:h-[70px] w-[100px]"
+            className="tablet:w-[140px] tablet:h-[70px] w-[100px]"
             src={logo}
             alt="Logo"
           />
@@ -347,7 +347,7 @@ function Nav() {
 
       {/* Desktop Menu */}
       <div
-        className="md:flex hidden md:gap-14 md:text-[15px] pr-20"
+        className="tablet:flex hidden tablet:space-x-4  laptop:space-x-16 md:text-[15px] "
         style={{ fontWeight: "500" }}
       >
         <div className="nav-item">

@@ -81,29 +81,29 @@ const About = () => {
             <div className="">
               <img src={bannerimage} alt="bannerimage" className="mx-auto " />
             </div>
-            <header className="md:absolute md:top-32 md:ml-20 md:text-white">
-              <h1 className="md:text-6xl md:font-bold md:text-center md:ml-0 text-2xl mt-4 md:text-white lg:text-white xl:text-white">
+            <header className="tablet:absolute tablet:top-32 tablet:ml-20 tablet:text-white">
+              <h1 className="tablet:text-6xl tablet:font-bold tablet:text-center tablet:ml-0 text-2xl mt-4 tablet:text-white laptop:text-white xl:text-white">
                 About us
               </h1>
-              <div className="md:w-40 md:h-1 md:ml-28  md:bg-white bg-white w-40 h-1  mt-2"></div>
-              <p className="mt-2 text-fontextra md:text-left text-center">
+              <div className="tablet:w-40 tablet:h-1 tablet:ml-28  tablet:bg-white bg-white w-40 h-1  mt-2"></div>
+              <p className="mt-2 text-fontextra tablet:text-left text-center">
                 We are a leading Medical Laboratory Equipment <br />{" "}
                 Manufacturer and Supplier.
               </p>
             </header>
           </div>
 
-          <div className="grid md:grid-cols-12 sm:grid-cols-2 md:mt-10 sm:mt-28 animate-fade-up ">
+          <div className="grid tablet:grid-cols-12 sm:grid-cols-2 tablet:mt-10 sm:mt-28 animate-fade-up ">
             <img
               src={sec}
               alt="second section banner image"
-              className=" rounded-tr-[40%] rounded-bl-[40%] rounded-br-[5px] col-span-5 md:h-3/4 md:ml-10 md:mt-5 mt-20 md:w-5/6 h-3/4 "
+              className=" rounded-tr-[40%] rounded-bl-[40%] rounded-br-[5px] col-span-5 tablet:h-3/4 tablet:ml-10 tablet:mt-5 mt-20 tablet:w-5/6 h-3/4 "
             />
             <div className="p-4 col-span-7 ">
               <button className="bg-maincol text-white p-2 rounded-lg font-semibold shadow-custom-shadow mt-4">
                 since-1987
               </button>
-              <h2 className="md:text-2xl lg:text-2xl xl:text-2xl text-xl mt-4 font-medium leading-normal text-maincol text-left">
+              <h2 className="tablet:text-2xl laptop:text-2xl xl:text-2xl text-xl mt-4 font-medium leading-normal text-maincol text-left">
                 {text.map((el, i) => (
                   <motion.span
                     initial={{ opacity: 0 }}
@@ -118,7 +118,7 @@ const About = () => {
                   </motion.span>
                 ))}
               </h2>
-              <div className="md:pl-10 md:pr-10 mt-2 text-justify">
+              <div className="tablet:pl-10 tablet:pr-10 mt-2 text-justify">
                 <p className="text-fontextra">
                   We are dedicated to revolutionizing the healthcare industry
                   through advanced diagnostic solutions and unparalleled
@@ -135,7 +135,7 @@ const About = () => {
                     Comprehensive Solutions for Clinical Diagnostics
                   </h3>
                 </div>
-                <p className="text-fontextra md:pl-12 mt-2 text-justify">
+                <p className="text-fontextra tablet:pl-12 mt-2 text-justify">
                   With a diverse portfolio spanning clinical chemistry,
                   immunology, hematology, and molecular diagnostics, Everlife
                   CPC delivers comprehensive solutions tailored to meet the
@@ -149,7 +149,7 @@ const About = () => {
                     Regional Expertise and Global Reach
                   </h3>
                 </div>
-                <p className="text-fontextra md:pl-12 mt-2 text-justify">
+                <p className="text-fontextra tablet:pl-12 mt-2 text-justify">
                   Operating in 7 countries with over 1,000 employees, we serve
                   more than 17,000 hospitals and labs, ensuring timely and
                   efficient delivery of high-quality products and services
@@ -163,7 +163,7 @@ const About = () => {
                     Robust Partner Network
                   </h3>
                 </div>
-                <p className="text-fontextra md:pl-12 mt-2 text-justify">
+                <p className="text-fontextra tablet:pl-12 mt-2 text-justify">
                   Our extensive network of 470+ channel partners in India
                   enables us to reach a broader audience and provide timely
                   support, ensuring our innovative solutions are accessible to
@@ -177,7 +177,7 @@ const About = () => {
                     Commitment to Quality and Innovation
                   </h3>
                 </div>
-                <p className="text-fontextra md:pl-12 mt-2 text-justify">
+                <p className="text-fontextra tablet:pl-12 mt-2 text-justify">
                   Our advanced manufacturing facilities and dedicated R&D teams
                   are committed to developing innovative products that drive
                   better health outcomes, supported by our award-winning
@@ -187,9 +187,9 @@ const About = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-12 grid-cols-12  gap-2  p-20 animate-fade-up delay-100">
-            <div className="md:block sm: hidden">
-              <div className="md:absolute md:left-2/3 md:mt-24 ">
+          <div className="grid tablet:grid-cols-12 grid-cols-12  gap-2  p-20 animate-fade-up delay-100">
+            <div className="tablet:block sm: hidden">
+              <div className="tablet:absolute tablet:left-2/3 tablet:mt-24 ">
                 <svg
                   width="260"
                   height="265"
@@ -203,7 +203,7 @@ const About = () => {
                   />
                 </svg>
               </div>
-              <div className="md:absolute md:left-3/4 ">
+              <div className="tablet:absolute tablet:left-3/4 ">
                 <svg
                   width="260"
                   height="265"
@@ -218,12 +218,12 @@ const About = () => {
                 </svg>
               </div>
             </div>
-            <div className="md:col-span-12 col-span-12 md:text-center z-20 ">
-              <h2 className="text-maincol font-semibold md:text-3xl text-2xl font-poppins">
+            <div className="tablet:col-span-12 col-span-12 tablet:text-center z-20 ">
+              <h2 className="text-maincol font-semibold tablet:text-3xl text-2xl font-poppins">
                 Our Belief System
               </h2>{" "}
               <br />
-              <p className="text-lg md:pl-40 md:pr-40 text-center">
+              <p className="text-lg tablet:pl-40 tablet:pr-40 text-center">
                 We are committed to delivering high-quality diagnostic solutions
                 with an unwavering focus on innovation and affordability. By
                 fostering strong customer connections and ensuring access to
@@ -232,8 +232,8 @@ const About = () => {
                 Asia.
               </p>
             </div>
-            <div className="md:col-span-6 col-span-12  bg-white text-black p-4 mt-4 z-20 shadow-custom-shadow leading-6">
-              <div className=" md:p-10 sm:p-10 text-justify">
+            <div className="tablet:col-span-6 col-span-12  bg-white text-black p-4 mt-4 z-20 shadow-custom-shadow leading-6">
+              <div className=" tablet:p-10 sm:p-10 text-justify">
                 <div>
                   <FaGlobeAsia size={40} color="#02a884" className="mr-4" />
 
@@ -249,8 +249,8 @@ const About = () => {
               </div>
             </div>
 
-            <div className="md:col-span-6 col-span-12 bg-white text-black p-4 mt-4 md:z-20 shadow-custom-shadow">
-              <div className=" md:p-10 sm:p-10 text-justify">
+            <div className="tablet:col-span-6 col-span-12 bg-white text-black p-4 mt-4 tablet:z-20 shadow-custom-shadow">
+              <div className=" tablet:p-10 sm:p-10 text-justify">
                 <TbTargetArrow size={40} color="#02a884" className="mr-4" />
 
                 <h3 className="font-bold text-lg text-left mt-2 text-maincol">
@@ -264,7 +264,7 @@ const About = () => {
             </div>
           </div>
           <div>
-            <div className="grid md:grid-cols-12 sm:grid-cols-2  gap-2 mt-10 animate-fade-up delay-200">
+            <div className="grid tablet:grid-cols-12 sm:grid-cols-2  gap-2 mt-10 animate-fade-up delay-200">
               <div className="col-span-5 p-4 w-full flex items-center justify-center">
                 <img
                   src={ourvalue}
@@ -274,7 +274,7 @@ const About = () => {
               </div>
 
               <div className="col-span-7 p-4 mt-20">
-                <h3 className="text-maincol font-semibold md:text-3xl text-2xl">
+                <h3 className="text-maincol font-semibold tablet:text-3xl text-2xl">
                   Our Core Values
                 </h3>
                 <p className="ml-2 mt-6 text-justify text-md text-fontextra">
@@ -417,8 +417,8 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className=" md:p-20 p-5 mt-10 animate-fade-up ">
-            <h2 className="text-maincol font-semibold md:text-3xl text-2xl text-center font-poppins">
+          <div className=" tablet:p-20 p-5 mt-10 animate-fade-up ">
+            <h2 className="text-maincol font-semibold tablet:text-3xl text-2xl text-center font-poppins">
               Our Suppliers
             </h2>
             <div className="mt-8">
@@ -426,11 +426,11 @@ const About = () => {
             </div>
           </div>
 
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 -scroll-mt-20 mt-20 ">
-            <h2 className="text-maincol md:text-3xl text-2xl font-semibold ml-4 sm:ml-10 font-poppins">
+          <div className="container mx-auto px-4 sm:px-6 laptop:px-8 -scroll-mt-20 mt-20 ">
+            <h2 className="text-maincol tablet:text-3xl text-2xl font-semibold ml-4 sm:ml-10 font-poppins">
               Our Directors
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 mt-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 laptop:grid-cols-3 xl:grid-cols-3 gap-5 mt-10">
               <div className="border-solid border-2 border-black p-5 bg-cover bg-no-repeat">
                 <img
                   src={md1} // replace with appropriate image path or import
@@ -730,12 +730,12 @@ const About = () => {
             </div>
           </div>
 
-          <div className="container mx-auto mt-20 px-4 sm:px-6 lg:px-8 animate-fade-up delay-500">
-            <h2 className="text-maincol md:text-3xl text-2xl font-semibold ml-4 sm:ml-10 font-poppins">
+          <div className="container mx-auto mt-20 px-4 sm:px-6 laptop:px-8 animate-fade-up delay-500">
+            <h2 className="text-maincol tablet:text-3xl text-2xl font-semibold ml-4 sm:ml-10 font-poppins">
               Key Management Person
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 mt-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 laptop:grid-cols-3 xl:grid-cols-3 gap-5 mt-10">
               <div className="border-solid border-2 border-black p-5 bg-cover bg-no-repeat">
                 <img
                   src={md6} // replace with appropriate image path or import
@@ -815,9 +815,9 @@ const About = () => {
   </div>
 </div> */}
 
-          <div className="grid md:grid-cols-12 sm:grid-cols-2  gap-2 mt-10 animate-fade-up delay-200  overflow-x-hidden">
-            <div className="md:col-span-6 col-span-12 md:ml-10 p-3 text-justify">
-              <h2 className="text-maincol md:text-3xl text-2xl font-semibold mt-20 font-poppins">
+          <div className="grid tablet:grid-cols-12 sm:grid-cols-2  gap-2 mt-10 animate-fade-up delay-200  overflow-x-hidden">
+            <div className="tablet:col-span-6 col-span-12 tablet:ml-10 p-3 text-justify">
+              <h2 className="text-maincol tablet:text-3xl text-2xl font-semibold mt-20 font-poppins">
                 Awards
               </h2>
               <p className="leading-8 mt-4 text-fontextra">
@@ -833,7 +833,7 @@ const About = () => {
               </p>
             </div>
 
-            <div className="md:col-span-6 col-span-12 flex justify-center rotate-6 animate-floating ">
+            <div className="tablet:col-span-6 col-span-12 flex justify-center rotate-6 animate-floating ">
               <img src={mainaward} alt="" />
             </div>
 

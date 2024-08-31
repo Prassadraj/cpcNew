@@ -110,7 +110,7 @@ function SingleBlog() {
         </div>
       </div>
       <div className="grid grid-cols-12 p-10 scroll-smooth transition-all ease-in-out">
-        <div className="col-span-4 md:block lg:block xl:block hidden">
+        <div className="col-span-4 tablet:block laptop:block xl:block hidden">
           <div className="sticky top-10">
             <h2 className="text-maincol font-semibold  text-2xl">
               Share this article
@@ -159,7 +159,7 @@ function SingleBlog() {
           </div>
         </div>
 
-        <div className="md:col-span-8 lg:col-span-8 xl:col-span-8 col-span-12 text-justify leading-8">
+        <div className="tablet:col-span-8 laptop:col-span-8 xl:col-span-8 col-span-12 text-justify leading-8">
           {blog.sections.map((section) => (
             <div key={section.id} id={section.id}>
               <h2 className="text-2xl text-maincol font-semibold mt-10">

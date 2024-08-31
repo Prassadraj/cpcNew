@@ -1,3 +1,9 @@
+@media (max-width: 767px) {
+  /* Adjust max-width according to your breakpoints */
+  .mobile-overflow-hidden {
+    overflow: hidden;
+  }
+}
 #headline {
   font-weight: bolder;
   /* Adjust the spacing between letters */

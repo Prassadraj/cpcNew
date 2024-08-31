@@ -65,7 +65,7 @@ function Product() {
         <Loader />
       ) : (
         <div className="font-poppins bg-gray-100">
-          <header className="sm:block mb-2 md:mb-4">
+          <header className="sm:block mb-2 tablet:mb-4">
             <div className="relative w-full overflow-hidden">
               <div
                 className="flex transition-transform duration-1000"
@@ -103,7 +103,7 @@ function Product() {
               </button>
             </div>
           </header>
-          <section className="px-3 md:px-4 py-2 text-base text-gray-700">
+          <section className="px-3 tablet:px-4 py-2 text-base text-gray-700">
             <div className="mb-2">
               <p>
                 <Link to="/" className="no-underline">
@@ -131,21 +131,21 @@ function Product() {
                 <h1 className="text-2xl font-bold mb-4 text-left text-black">
                   {selectedCategory}
                 </h1>
-                <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+                <div className="grid grid-cols-2 sm:grid-cols-2 laptop:grid-cols-3 gap-4 mb-4">
                   {selectedCategoryItems.map((item) => (
                     <Link
                       to={`/productinfo/${selectedCategory}/${item.id}`}
                       key={item.id}
                       className="no-underline"
                     >
-                      <div className="bg-white border rounded-lg overflow-hidden relative group h-[200px] md:h-[300px]">
+                      <div className="bg-white border rounded-lg overflow-hidden relative group h-[200px] tablet:h-[300px]">
                         <img
                           src={item.image[0]}
                           alt={item.title}
-                          className="w-full md:h-44 object-cover"
+                          className="w-full tablet:h-44 object-cover"
                         />
                         <div className="px-2 py-2 text-gray-600">
-                          <h2 className="text-xs md:text-base md:font-semibold text-gray-600 text-left">
+                          <h2 className="text-xs tablet:text-base tablet:font-semibold text-gray-600 text-left">
                             {item.title}
                           </h2>
                           <p className="text-xs text-gray-600 text-left ellipsis">
@@ -159,11 +159,11 @@ function Product() {
                     </Link>
                   ))}
                 </div>
-                <div className="p-2 md:p-4 bg-gray-200 rounded-md">
-                  <p className="text-left text-sm font-semibold md:text-2xl mb-2">
+                <div className="p-2 tablet:p-4 bg-gray-200 rounded-md">
+                  <p className="text-left text-sm font-semibold tablet:text-2xl mb-2">
                     Short note of {selectedCategory}
                   </p>
-                  <p className="text-sm md:text-lg mb-2 md:text-left">
+                  <p className="text-sm tablet:text-lg mb-2 tablet:text-left">
                     Introducing our state-of-the-art biochemistry analyzer!.
                     Designed with the latest advancements in biochemistry
                     technology, our analyzer boasts a user-friendly interface,
@@ -176,11 +176,11 @@ function Product() {
               Read More
             </p> */}
                 </div>
-                <div className="p-2 md:p-4 bg-gray-200 mt-4 rounded-md">
-                  <p className="text-left text-lg md:text-2xl mb-2">
+                <div className="p-2 tablet:p-4 bg-gray-200 mt-4 rounded-md">
+                  <p className="text-left text-lg tablet:text-2xl mb-2">
                     Why choose us for {selectedCategory} products
                   </p>
-                  <ul className="text-left list-disc list-inside md:text-lg text-sm">
+                  <ul className="text-left list-disc list-inside tablet:text-lg text-sm">
                     <li>Cost effective prices</li>
                     <li>Durable construction</li>
                     <li>Highly performed products</li>
@@ -190,7 +190,7 @@ function Product() {
               </div>
             </div>
           </section>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 mt-4 md:px-10 py-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 laptop:grid-cols-3 gap-2 mt-4 tablet:px-10 py-5">
             <div className="p-4 bg-[#D9D7F1] text-gray-500 rounded-md flex flex-col gap-1">
               <div className="flex gap-2">
                 <div className="flex items-center">

@@ -40,8 +40,8 @@ function ContactUs() {
   };
 
   return (
-    <div className="p-4 lg:p-5 lg:h-[100vh] bg-black mb-10 flex justify-center items-center lg:mt-20">
-      <div className="lg:h-[85vh] h-auto w-full lg:w-[85vw] bg-light-green rounded-xl relative flex flex-col lg:flex-row overflow-hidden">
+    <div className="p-4 laptop:p-5 laptop:h-[100vh] bg-black mb-10 flex justify-center items-center laptop:mt-20">
+      <div className="laptop:h-[85vh] h-auto w-full laptop:w-[85vw] bg-light-green rounded-xl relative flex flex-col laptop:flex-row overflow-hidden">
         <video
           autoPlay
           loop
@@ -52,19 +52,19 @@ function ContactUs() {
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 w-full h-full bg-black opacity-50 z-0 rounded-xl"></div>
-        <div className="relative z-10 md:p-5 lg:w-1/2 flex flex-col justify-center items-start text-center">
-          <p className="font-bold text-white text-lg md:text-3xl z-10 font-poppins">
+        <div className="relative z-10 tablet:p-5 laptop:w-1/2 flex flex-col justify-center items-start text-center">
+          <p className="font-bold text-white text-lg tablet:text-3xl z-10 font-poppins">
             Let's Get in Touch
           </p>
-          <p className="md:text-xl text-white mt-2 mb-2 text-left">
+          <p className="tablet:text-xl text-white mt-2 mb-2 text-left">
             We're here to assist you with any questions or concerns. Reach out
             to us and we'll respond as soon as we can.
           </p>
         </div>
-        <div className="relative z-10 px-2 lg:w-1/2 flex flex-col gap-4 items-center md:mt-10 lg:mt-0">
+        <div className="relative z-10 px-2 laptop:w-1/2 flex flex-col gap-4 items-center tablet:mt-10 laptop:mt-0">
           <form
             onSubmit={handleSubmit}
-            className="w-full lg:w-[30vw] flex flex-col gap-4"
+            className="w-full laptop:w-[30vw] flex flex-col gap-4"
           >
             <input
               type="text"
@@ -99,7 +99,7 @@ function ContactUs() {
               value={formData.message}
               onChange={handleChange}
               placeholder="Have anything to say..."
-              className="placeholder:text-white h-[20vh] w-full pt-2 md:text-xl box-border outline-none p-3 rounded-lg text-white bg-transparent border border-white"
+              className="placeholder:text-white h-[20vh] w-full pt-2 tablet:text-xl box-border outline-none p-3 rounded-lg text-white bg-transparent border border-white"
               required
             ></textarea>
             <div className="flex items-center justify-center">

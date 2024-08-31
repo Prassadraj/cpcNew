@@ -41,7 +41,7 @@ const Slider = () => {
   }, [currentIndex]); // Re-run effect if currentIndex changes
 
   return (
-    <div className="max-w-full h-[300px] md:h-[400px] relative m-auto w-full">
+    <div className="max-w-full h-[300px] tablet:h-[400px] relative m-auto w-full">
       <div
         // style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className="h-full w-full duration-500 bg-center bg-cover rounded-md"

@@ -48,24 +48,24 @@ function Contact() {
             <div className="">
               <img src={contbanner} alt="bannerimage" className="mx-auto" />
             </div>
-            <header className="absolute md:top-24 lg:top-24 xl:top-24 md:ml-20 lg:ml-20 xl:ml-20 md:text-white text-black mt-4">
-              <h1 className="md:text-5xl lg:text-5xl xl:text-5xl text-2xl md:ml-0 ml-14 text-left font-bold ">
+            <header className="absolute tablet:top-24 laptop:top-24 xl:top-24 tablet:ml-20 laptop:ml-20 xl:ml-20 tablet:text-white text-black mt-4">
+              <h1 className="tablet:text-5xl laptop:text-5xl xl:text-5xl text-2xl tablet:ml-0 ml-14 text-left font-bold ">
                 Want to know more?
                 <br />
                 We are here to HELP!!!
               </h1>
-              <div className="md:w-40 lg:w-40 xl:w-40 md:h-1 lg:h-1 xl:h-1 md:ml-0 lg:ml-0 xl:ml-0 md:bg-white lg:bg-white xl:bg-white bg-white w-40 h-1 ml-28 mt-2"></div>
-              <p className="md:text-xl lg:text-xl xl:text-xl text-fontptag md:ml-0 md:text-left md:text-white  md:mt-2 ml-8">
+              <div className="tablet:w-40 laptop:w-40 xl:w-40 tablet:h-1 laptop:h-1 xl:h-1 tablet:ml-0 laptop:ml-0 xl:ml-0 tablet:bg-white laptop:bg-white xl:bg-white bg-white w-40 h-1 ml-28 mt-2"></div>
+              <p className="tablet:text-xl laptop:text-xl xl:text-xl text-fontptag tablet:ml-0 tablet:text-left tablet:text-white  tablet:mt-2 ml-8">
                 Our team is ready to hear from you
               </p>
             </header>
           </div>
           <div className="grid ">
-            <h2 className="text-maincol md:text-4xl lg:text-4xl xl:text-4xl text-3xl text-center font-semibold md:mt-10 mt-40">
+            <h2 className="text-maincol tablet:text-4xl laptop:text-4xl xl:text-4xl text-3xl text-center font-semibold tablet:mt-10 mt-40">
               Get in Touch
             </h2>
             <div className="grid grid-cols-12 gap-4 ">
-              <div className="md:col-span-6 lg:col-span-6 xl:col-span-6 col-span-12 p-4">
+              <div className="tablet:col-span-6 laptop:col-span-6 xl:col-span-6 col-span-12 p-4">
                 <form
                   onSubmit={handleSubmit}
                   className="mt-10 max-w-lg mx-auto"
@@ -134,7 +134,7 @@ function Contact() {
                 </form>
               </div>
 
-              <div className="md:col-span-6 lg:col-span-6 xl:col-span-6 col-span-12 p-2 md:ml-20 xl:ml-20 lg:ml-20">
+              <div className="tablet:col-span-6 laptop:col-span-6 xl:col-span-6 col-span-12 p-2 tablet:ml-20 xl:ml-20 laptop:ml-20">
                 <div className="flex">
                   <img src={callform} alt="call" className="w-auto mt-16" />
                   <div className="mt-16 ml-2">
@@ -179,12 +179,12 @@ function Contact() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 grid-cols-12 mt-16 bg-gray-50 gap-5 p-20">
+          <div className="grid tablet:grid-cols-2 laptop:grid-cols-2 xl:grid-cols-2 grid-cols-12 mt-16 bg-gray-50 gap-5 p-20">
             <div className="">
               <img
                 src={itrack}
                 alt="itrack logo"
-                className="md:w-4/6 lg:w-4/6 xl:w-4/6 w-full"
+                className="tablet:w-4/6 laptop:w-4/6 xl:w-4/6 w-full"
               />
             </div>
             <div className="">
@@ -200,7 +200,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10 bg-gray-200 p-5">
+          <div className="grid sm:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-4 gap-4 mt-10 bg-gray-200 p-5">
             <a
               href="https://maps.app.goo.gl/oEkVRZDJzPhwdo526"
               className="hover:opacity-80 hover:scale-105 transition-all"

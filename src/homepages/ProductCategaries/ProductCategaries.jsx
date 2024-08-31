@@ -44,7 +44,7 @@ function ProductCategaries() {
   return (
     <div>
       {/* mobile */}
-      <div className="mb-4 md:hidden h-fit w-full flex items-center justify-around font-poppins sm:px-4 px-2 gap-10">
+      <div className="mb-4 tablet:hidden h-fit w-full flex items-center justify-around font-poppins sm:px-4 px-2 gap-10">
         <div className="text-2xl font-semibold text-custom-green w-1/2">
           <p> Product</p>
           <p>Categories</p>
@@ -69,7 +69,7 @@ function ProductCategaries() {
         </div>
       </div>
       {/* lap */}
-      <div className="hidden h-[100vh] md:flex justify-center items-center mb-20">
+      <div className="hidden h-[100vh] tablet:flex justify-center items-center mb-20">
         <div className="flex w-full">
           {/* Left Section */}
           <div className="flex flex-col flex-[1.5] gap-3 pl-24 pt-12 mt-32">
@@ -124,12 +124,12 @@ function ProductCategaries() {
               </div>
             </div>
 
-            <div className="w-[15vw] h-screen flex justify-center overflow-hidden">
+            <div className="w-[15vw] h-screen flex justify-center  overflow-hidden">
               <div className="flex items-center">
                 <Marquee
                   direction="down"
                   pauseOnHover
-                  className="flex gap-3"
+                  className="flex gap-3 overflow-hidden"
                   speed={30}
                 >
                   {categoryItems.map((item) => (
@@ -143,8 +143,13 @@ function ProductCategaries() {
                           key={item.name}
                           className="flex flex-col items-center justify-center pt-4 pb-4 pr-8 pl-8 text-center bg-white border-1 border-custom-green shadow-md shadow-custom-green rounded-xl gap-2 w-[11vw]"
                         >
-                          <img width="70px" src={item.image} alt={item.name} />
-                          <p className="text-sm text-gray-700 font-semibold font-poppins truncate max-w-[9vw]">
+                          <img
+                            width="70px"
+                            className=""
+                            src={item.image}
+                            alt={item.name}
+                          />
+                          <p className="laptop:text-sm tablet:text-xs text-gray-700 font-semibold font-poppins truncate max-w-[9vw]">
                             {item.name}
                           </p>
                         </div>

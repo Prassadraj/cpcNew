@@ -39,19 +39,19 @@ function Blog() {
     <div className="scroll-smooth">
       <div className="grid grid-cols-1">
         <img src={banner} alt="bannerimage" className="mx-auto " />
-        <header className="md:absolute md:top-24 md:ml-20 md:text-white sm:text-black">
-          <h1 className="md:text-6xl lg:text-6xl xl:text-6xl text-4xl md:text-left lg:text-left xl:text-left text-center font-bold ">
+        <header className="tablet:absolute tablet:top-24 tablet:ml-20 tablet:text-white sm:text-black">
+          <h1 className="tablet:text-6xl laptop:text-6xl xl:text-6xl text-4xl tablet:text-left laptop:text-left xl:text-left text-center font-bold ">
             Blog
           </h1>
-          <div className="md:w-40 md:h-1 md:ml-0 md:bg-white bg-black w-40 h-1 ml-28 mt-5"></div>
-          <p className="md:text-xl lg:text-xl xl:text-xl md:text-left lg:text-left xl:text-left text-center text-base mt-2">
+          <div className="tablet:w-40 tablet:h-1 tablet:ml-0 tablet:bg-white bg-black w-40 h-1 ml-28 mt-5"></div>
+          <p className="tablet:text-xl laptop:text-xl xl:text-xl tablet:text-left laptop:text-left xl:text-left text-center text-base mt-2">
             We are the leading Medical laboratory
             <br /> Equipment Manufactures
           </p>
         </header>
       </div>
 
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 p-10 ">
+      <div className="grid sm:grid-cols-1 tablet:grid-cols-3 laptop:grid-cols-3 xl:grid-cols-3 gap-4 p-10 ">
         {blogs.map((blog) => (
           <Link
             to={`/blog/${blog.id}`}

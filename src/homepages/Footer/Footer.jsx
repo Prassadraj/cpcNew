@@ -16,7 +16,11 @@ function Footer({ open }) {
   const col4Ref = useRef(null);
 
   return (
-    <div className={`h-fit  bg-custom-green md:block ${open && "hidden"}`}>
+    <div
+      className={`h-fit w-full  bg-custom-green tablet:block ${
+        open && "hidden"
+      }`}
+    >
       <div
         className="flex justify-around gap-2
      "
@@ -384,7 +388,7 @@ function Footer({ open }) {
               </defs>
             </svg>
           </div>
-          <p className="text-white text-xs md:text-lg md:text-md max-w-xs text-center font-poppins md:font-semibold ">
+          <p className="text-white text-xs tablet:text-lg tablet:text-md max-w-xs text-center font-poppins tablet:font-semibold ">
             Experience personalized medical care from the comfort of your home.
           </p>
         </div>
@@ -393,22 +397,22 @@ function Footer({ open }) {
           className="flex flex-col items-start mt-16 font-poppins gap-2 col2"
           ref={col2Ref}
         >
-          <p className="text-xs md:text-2xl font-semibold  text-white font-poppins">
+          <p className="text-xs tablet:text-2xl font-semibold  text-white font-poppins">
             Quick Links
           </p>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>About</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>Contact</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>Career</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>CSR Policy</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>Our Brand</p>
           </Link>
         </div>
@@ -417,28 +421,28 @@ function Footer({ open }) {
           className="flex flex-col items-start mt-16 font-poppins gap-2 col3"
           ref={col3Ref}
         >
-          <p className="text-xs md:text-2xl text-white font-semibold font-poppins">
+          <p className="text-xs tablet:text-2xl text-white font-semibold font-poppins">
             Products
           </p>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>Biochemistry</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>Hematology</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>POC</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>Electrolyte</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>Clinical Microbiology</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>Pre Analytical Automation</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>COVID-19</p>
           </Link>
         </div>
@@ -447,30 +451,30 @@ function Footer({ open }) {
           className="flex flex-col items-start mt-16 font-poppins gap-2 col4"
           ref={col4Ref}
         >
-          <p className="font-semibold text-xs md:text-2xl text-white font-poppins">
+          <p className="font-semibold text-xs tablet:text-2xl text-white font-poppins">
             Others
           </p>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>Help and Support</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>Resources</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>Residential Address</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>Cookie Preferences</p>
           </Link>
-          <Link to="/" className="text-xs md:text-lg  hover:text-black">
+          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>Corporate Address</p>
           </Link>
         </div>
       </div>
 
       <div className="h-[1px] w-[90%] flex justify-center items-center text-center bg-custom-green mx-auto mt-4"></div>
-      <div className="mt-2 flex justify-around  md:justify-between md:mt-4 md:pl-16 md:pr-16">
-        <div className="text-sm md:text-3xl text-white flex gap-2 md:gap-3 lg:gap-3">
+      <div className="mt-2 flex justify-around  tablet:justify-between tablet:mt-4 tablet:pl-16 tablet:pr-16">
+        <div className="text-sm tablet:text-3xl text-white flex gap-2 tablet:gap-3 laptop:gap-3">
           <Link className="hover:text-sky-600">
             <FontAwesomeIcon icon={faFacebook} />
           </Link>
@@ -487,11 +491,11 @@ function Footer({ open }) {
             <FontAwesomeIcon className="hover:text-red-500" icon={faYoutube} />
           </Link>
         </div>
-        <div className="text-xs text-white md:text-lg font-poppins font-semibold">
+        <div className="text-xs text-white tablet:text-lg font-poppins font-semibold">
           <p>Everlife CPC 2024 © All Rights Reserved</p>
         </div>
       </div>
-      <p className="text-[1px] md:text-[6px] relative bottom-0 flex justify-center items-center text-custom-green">
+      <p className="text-[1px] tablet:text-[6px] relative bottom-0 flex justify-center items-center text-custom-green">
         Prassad Raj
       </p>
     </div>
