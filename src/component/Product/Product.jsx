@@ -128,7 +128,7 @@ function Product() {
                 openDropdown={openDropdown}
               />
               <div className="sm:w-[75%] bg-white p-4 text-center overflow-y-auto">
-                <h1 className="text-2xl font-bold mb-4 text-left text-black">
+                <h1 className="text-2xl font-poppins font-bold mb-4 text-left text-black">
                   {selectedCategory}
                 </h1>
                 <div className="grid grid-cols-2 sm:grid-cols-2 laptop:grid-cols-3 gap-4 mb-4">
