@@ -4,10 +4,10 @@ import call from "../../assets/image/call.png";
 import mail from "../../assets/image/mail.png";
 import loc from "../../assets/image/location.png";
 import callin from "../../assets/image/call.png";
-import callform from "../../assets/image/contact-us-banner.png"; ////
-import mailin from "../../assets/image/contact-us-banner.png"; //
-import locin from "../../assets/image/contact-us-banner.png"; //
-import itrack from "../../assets/image/contact-us-banner.png"; //
+import callform from "../../assets/image/callform.png";
+import mailin from "../../assets/image/mailin.png";
+import locin from "../../assets/image/loc.png";
+import itrack from "../../assets/image/i-track-logo.png";
 import Footer from "../../homepages/Footer/Footer";
 import Loader from "../Loader/Loader";
 
@@ -201,296 +201,67 @@ function Contact() {
           </div>
 
           <div className="grid sm:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-4 gap-4 mt-10 bg-gray-200 p-5">
-            <a
-              href="https://maps.app.goo.gl/oEkVRZDJzPhwdo526"
-              className="hover:opacity-80 hover:scale-105 transition-all"
-            >
-              <div className="border-2 border-maincol p-8 rounded-lg text-center text-black">
-                <button className="p-2 bg-maincol rounded-md font-semibold text-white">
-                  Corporate Office 1
-                </button>
-                <div className="flex mt-5">
-                  <div>
-                    <img src={locin} alt="call inner logo" className="w-10" />
+            {Array.from({ length: 8 }, (_, index) => (
+              <>
+                <a
+                  href="https://maps.app.goo.gl/oEkVRZDJzPhwdo526"
+                  className="hover:opacity-80 hover:scale-105 transition-all"
+                >
+                  <div className="border-2 border-maincol p-8 rounded-lg text-center text-black">
+                    <button className="p-2 bg-maincol rounded-md font-semibold text-white">
+                      Corporate Office 1
+                    </button>
+                    <div className="flex mt-5">
+                      <div>
+                        <img
+                          src={locin}
+                          alt="call inner logo"
+                          className="w-10"
+                        />
+                      </div>
+                      <div>
+                        <p className="text-md text-black">
+                          4th floor, Westminster, 108, Dr.Radhakrishnan Salai,
+                          Mylapore – 600004
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex mt-7">
+                      <div>
+                        <img
+                          src={callin}
+                          alt="call inner logo"
+                          className="w-4"
+                        />
+                      </div>
+                      <div>
+                        <p className="text-md  ml-4 text-black">
+                          {" "}
+                          +91 44 24993989
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex mt-7">
+                      <div>
+                        <img
+                          src={mailin}
+                          alt="call inner logo"
+                          className="w-5"
+                        />
+                      </div>
+                      <div>
+                        <p className="text-md  ml-4 text-black">
+                          {" "}
+                          info@cpcdiagnostics.in
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    <p className="text-md text-black">
-                      4th floor, Westminster, 108, Dr.Radhakrishnan Salai,
-                      Mylapore – 600004
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex mt-7">
-                  <div>
-                    <img src={callin} alt="call inner logo" className="w-4" />
-                  </div>
-                  <div>
-                    <p className="text-md  ml-4 text-black"> +91 44 24993989</p>
-                  </div>
-                </div>
-
-                <div className="flex mt-7">
-                  <div>
-                    <img src={mailin} alt="call inner logo" className="w-5" />
-                  </div>
-                  <div>
-                    <p className="text-md  ml-4 text-black">
-                      {" "}
-                      info@cpcdiagnostics.in
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://maps.app.goo.gl/oEkVRZDJzPhwdo526"
-              className="hover:opacity-80 hover:scale-105 transition-all"
-            >
-              <div className="border-2 border-maincol p-8 rounded-lg text-center ">
-                <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
-                  Corporate Office 1
-                </button>
-                <div className="flex mt-5">
-                  <div>
-                    <img src={locin} alt="call inner logo" className="w-10" />
-                  </div>
-                  <div>
-                    <p className="text-md text-black">
-                      4th floor, Westminster, 108, Dr.Radhakrishnan Salai,
-                      Mylapore – 600004
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex mt-7">
-                  <div>
-                    <img src={callin} alt="call inner logo" className="w-4" />
-                  </div>
-                  <div>
-                    <p className="text-md  ml-4 text-black"> +91 44 24993989</p>
-                  </div>
-                </div>
-
-                <div className="flex mt-7">
-                  <div>
-                    <img src={mailin} alt="call inner logo" className="w-5" />
-                  </div>
-                  <div>
-                    <p className="text-md ml-4 text-black">
-                      {" "}
-                      info@cpcdiagnostics.in
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <div className="border-2 border-maincol p-8 rounded-lg text-center ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
-                Corporate Office 1
-              </button>
-              <div className="flex mt-5">
-                <div>
-                  <img src={locin} alt="call inner logo" className="w-10" />
-                </div>
-                <div>
-                  <p className="text-md   ">
-                    4th floor, Westminster, 108, Dr.Radhakrishnan Salai,
-                    Mylapore – 600004
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex mt-7">
-                <div>
-                  <img src={callin} alt="call inner logo" className="w-4" />
-                </div>
-                <div>
-                  <p className="text-md  ml-4"> +91 44 24993989</p>
-                </div>
-              </div>
-
-              <div className="flex mt-7">
-                <div>
-                  <img src={mailin} alt="call inner logo" className="w-5" />
-                </div>
-                <div>
-                  <p className="text-md  ml-4"> info@cpcdiagnostics.in</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="border-2 border-maincol p-8 rounded-lg text-center ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
-                Corporate Office 1
-              </button>
-              <div className="flex mt-5">
-                <div>
-                  <img src={locin} alt="call inner logo" className="w-10" />
-                </div>
-                <div>
-                  <p className="text-md ">
-                    4th floor, Westminster, 108, Dr.Radhakrishnan Salai,
-                    Mylapore – 600004
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex mt-7">
-                <div>
-                  <img src={callin} alt="call inner logo" className="w-4" />
-                </div>
-                <div>
-                  <p className="text-md  ml-4"> +91 44 24993989</p>
-                </div>
-              </div>
-
-              <div className="flex mt-7">
-                <div>
-                  <img src={mailin} alt="call inner logo" className="w-5" />
-                </div>
-                <div>
-                  <p className="text-md  ml-4"> info@cpcdiagnostics.in</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="border-2 border-maincol p-8 rounded-lg text-center ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
-                Corporate Office 1
-              </button>
-              <div className="flex mt-5">
-                <div>
-                  <img src={locin} alt="call inner logo" className="w-10" />
-                </div>
-                <div>
-                  <p className="text-md ">
-                    4th floor, Westminster, 108, Dr.Radhakrishnan Salai,
-                    Mylapore – 600004
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex mt-7">
-                <div>
-                  <img src={callin} alt="call inner logo" className="w-4" />
-                </div>
-                <div>
-                  <p className="text-md  ml-4"> +91 44 24993989</p>
-                </div>
-              </div>
-
-              <div className="flex mt-7">
-                <div>
-                  <img src={mailin} alt="call inner logo" className="w-5" />
-                </div>
-                <div>
-                  <p className="text-md  ml-4"> info@cpcdiagnostics.in</p>
-                </div>
-              </div>
-            </div>
-            <div className="border-2 border-maincol p-8 rounded-lg text-center ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
-                Corporate Office 1
-              </button>
-              <div className="flex mt-5">
-                <div>
-                  <img src={locin} alt="call inner logo" className="w-10" />
-                </div>
-                <div>
-                  <p className="text-md ">
-                    4th floor, Westminster, 108, Dr.Radhakrishnan Salai,
-                    Mylapore – 600004
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex mt-7">
-                <div>
-                  <img src={callin} alt="call inner logo" className="w-4" />
-                </div>
-                <div>
-                  <p className="text-md  ml-4"> +91 44 24993989</p>
-                </div>
-              </div>
-
-              <div className="flex mt-7">
-                <div>
-                  <img src={mailin} alt="call inner logo" className="w-5" />
-                </div>
-                <div>
-                  <p className="text-md  ml-4"> info@cpcdiagnostics.in</p>
-                </div>
-              </div>
-            </div>
-            <div className="border-2 border-maincol p-8 rounded-lg text-center ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
-                Corporate Office 1
-              </button>
-              <div className="flex mt-5">
-                <div>
-                  <img src={locin} alt="call inner logo" className="w-10" />
-                </div>
-                <div>
-                  <p className="text-md ">
-                    4th floor, Westminster, 108, Dr.Radhakrishnan Salai,
-                    Mylapore – 600004
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex mt-7">
-                <div>
-                  <img src={callin} alt="call inner logo" className="w-4" />
-                </div>
-                <div>
-                  <p className="text-md  ml-4"> +91 44 24993989</p>
-                </div>
-              </div>
-
-              <div className="flex mt-7">
-                <div>
-                  <img src={mailin} alt="call inner logo" className="w-5" />
-                </div>
-                <div>
-                  <p className="text-md  ml-4"> info@cpcdiagnostics.in</p>
-                </div>
-              </div>
-            </div>
-            <div className="border-2 border-maincol p-8 rounded-lg text-center ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
-                Corporate Office 1
-              </button>
-              <div className="flex mt-5">
-                <div>
-                  <img src={locin} alt="call inner logo" className="w-10" />
-                </div>
-                <div>
-                  <p className="text-md ">
-                    4th floor, Westminster, 108, Dr.Radhakrishnan Salai,
-                    Mylapore – 600004
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex mt-7">
-                <div>
-                  <img src={callin} alt="call inner logo" className="w-4" />
-                </div>
-                <div>
-                  <p className="text-md  ml-4"> +91 44 24993989</p>
-                </div>
-              </div>
-
-              <div className="flex mt-7">
-                <div>
-                  <img src={mailin} alt="call inner logo" className="w-5" />
-                </div>
-                <div>
-                  <p className="text-md  ml-4"> info@cpcdiagnostics.in</p>
-                </div>
-              </div>
-            </div>
+                </a>
+              </>
+            ))}
           </div>
 
           <div className="mt-20 mb-10 p-2 grid grid-cols-12 w-full shadow-2xl">
