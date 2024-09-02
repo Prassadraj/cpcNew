@@ -817,7 +817,7 @@ const About = () => {
 
           <div className="grid tablet:grid-cols-12 sm:grid-cols-2  gap-2 mt-10 animate-fade-up delay-200  overflow-x-hidden">
             <div className="tablet:col-span-6 col-span-12 tablet:ml-10 p-3 text-justify">
-              <h2 className="text-maincol tablet:text-3xl text-2xl font-semibold mt-20 font-poppins">
+              <h2 className="text-maincol tablet:text-3xl text-2xl font-semibold mt-20 text-left font-poppins">
                 Awards
               </h2>
               <p className="leading-8 mt-4 text-fontextra">
@@ -834,7 +834,7 @@ const About = () => {
             </div>
 
             <div className="tablet:col-span-6 col-span-12 flex justify-center rotate-6 animate-floating ">
-              <img src={mainaward} alt="" />
+              <img src={mainaward} alt="" className="animate-leftRight" />
             </div>
 
             <div className="col-span-12  w-full  mb-4">

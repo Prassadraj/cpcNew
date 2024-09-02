@@ -56,8 +56,13 @@ export default {
           "50%": { transform: "translateY(10px) translateX(10px)" },
         },
         leftRight: {
-          "0%,100%": { transform: "translateY(0px) translateX(-0px)" },
-          "50%": { transform: "translateY(10px) translateX(-10px)" },
+          "0%,100%": {
+            transform: "rotate(10deg) scale(1)",
+          },
+          "50%": {
+            transform:
+              "translateY(10px) rotate(0deg) translateX(-10px) scale(1.1)",
+          },
         },
         rightUp: {
           "0%,100%": { transform: "translateY(0px) translateX(-0px)" },
