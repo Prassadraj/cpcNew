@@ -33,6 +33,9 @@ function Nav() {
       case "/about":
         setSelected("about");
         break;
+      case "/csr":
+        setSelected("csr");
+        break;
       case "/brand":
         setSelected("brand");
         break;
@@ -40,6 +43,9 @@ function Nav() {
         setSelected("product");
         break;
       case "/apply":
+        setSelected("apply");
+        break;
+      case "/whychooseus":
         setSelected("apply");
         break;
       case "/success":
@@ -368,7 +374,7 @@ function Nav() {
         >
           <Link
             className={`cursor-pointer ${
-              selected === "about" ? "selected" : ""
+              selected === "about" || selected === "csr" ? "selected" : ""
             }`}
             to="/about"
           >
