@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import bannerimg from "../../assets/bannerimg.png";
 import Carousel from "./Carousel";
@@ -48,6 +48,9 @@ function WhyChoseUs() {
         "Be part of a team that values innovation, collaboration, and excellence. At CPC Diagnostics, we're not just employees; we're a family working together to make a difference in the world of healthcare.",
     },
   ];
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="text-black poppins">

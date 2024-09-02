@@ -205,7 +205,7 @@ function Contact() {
               href="https://maps.app.goo.gl/oEkVRZDJzPhwdo526"
               className="hover:opacity-80 hover:scale-105 transition-all"
             >
-              <div className="border-2 border-maincol p-8 rounded-lg text-center">
+              <div className="border-2 border-maincol p-8 rounded-lg text-center text-black">
                 <button className="p-2 bg-maincol rounded-md font-semibold text-white">
                   Corporate Office 1
                 </button>
@@ -214,7 +214,7 @@ function Contact() {
                     <img src={locin} alt="call inner logo" className="w-10" />
                   </div>
                   <div>
-                    <p className="text-md ">
+                    <p className="text-md text-black">
                       4th floor, Westminster, 108, Dr.Radhakrishnan Salai,
                       Mylapore – 600004
                     </p>
@@ -226,7 +226,7 @@ function Contact() {
                     <img src={callin} alt="call inner logo" className="w-4" />
                   </div>
                   <div>
-                    <p className="text-md  ml-4"> +91 44 24993989</p>
+                    <p className="text-md  ml-4 text-black"> +91 44 24993989</p>
                   </div>
                 </div>
 
@@ -235,7 +235,10 @@ function Contact() {
                     <img src={mailin} alt="call inner logo" className="w-5" />
                   </div>
                   <div>
-                    <p className="text-md  ml-4"> info@cpcdiagnostics.in</p>
+                    <p className="text-md  ml-4 text-black">
+                      {" "}
+                      info@cpcdiagnostics.in
+                    </p>
                   </div>
                 </div>
               </div>
@@ -253,7 +256,7 @@ function Contact() {
                     <img src={locin} alt="call inner logo" className="w-10" />
                   </div>
                   <div>
-                    <p className="text-md">
+                    <p className="text-md text-black">
                       4th floor, Westminster, 108, Dr.Radhakrishnan Salai,
                       Mylapore – 600004
                     </p>
@@ -265,7 +268,7 @@ function Contact() {
                     <img src={callin} alt="call inner logo" className="w-4" />
                   </div>
                   <div>
-                    <p className="text-md  ml-4"> +91 44 24993989</p>
+                    <p className="text-md  ml-4 text-black"> +91 44 24993989</p>
                   </div>
                 </div>
 
@@ -274,7 +277,10 @@ function Contact() {
                     <img src={mailin} alt="call inner logo" className="w-5" />
                   </div>
                   <div>
-                    <p className="text-md  ml-4"> info@cpcdiagnostics.in</p>
+                    <p className="text-md ml-4 text-black">
+                      {" "}
+                      info@cpcdiagnostics.in
+                    </p>
                   </div>
                 </div>
               </div>
