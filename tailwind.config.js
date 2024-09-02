@@ -55,6 +55,10 @@ export default {
           "0%,100%": { transform: "translateY(0px) translateX(0px)" },
           "50%": { transform: "translateY(10px) translateX(10px)" },
         },
+        leftDown: {
+          "0%,100%": { transform: "translateY(0px) translateX(0px)" },
+          "50%": { transform: "translateY(10px) translateX(-10px)" },
+        },
         leftRight: {
           "0%,100%": {
             transform: "rotate(10deg) scale(1)",
@@ -102,6 +106,8 @@ export default {
         floating: "floating 3s ease-in-out infinite",
         moveUp: "moveUp 5s ease-in-out infinite",
         leftRight: "leftRight 8s ease-in-out infinite",
+
+        leftDown: "rightDown 8s ease-in-out infinite",
         rightDown: "rightDown 8s ease-in-out infinite",
         rightUp: "rightUp 8s ease-in-out infinite",
         leftRightQ: "leftRightQ 4s ease-in-out infinite",

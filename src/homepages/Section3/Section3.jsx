@@ -89,7 +89,7 @@ function Section3() {
             <img
               src={whoWeAre}
               alt="Who We Are"
-              className="animate-leftRight rounded-lg"
+              className="animate-leftDown rounded-lg"
             />
           </div>
         </div>
