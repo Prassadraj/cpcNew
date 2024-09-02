@@ -400,19 +400,31 @@ function Footer({ open }) {
           <p className="text-xs tablet:text-2xl font-semibold  text-white font-poppins">
             Quick Links
           </p>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
+          <Link
+            to="/about"
+            className="text-xs tablet:text-lg  hover:text-black"
+          >
             <p>About</p>
           </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
+          <Link
+            to="/contact"
+            className="text-xs tablet:text-lg  hover:text-black"
+          >
             <p>Contact</p>
           </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
+          <Link
+            to="/apply"
+            className="text-xs tablet:text-lg  hover:text-black"
+          >
             <p>Career</p>
           </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
+          <Link to="/csr" className="text-xs tablet:text-lg  hover:text-black">
             <p>CSR Policy</p>
           </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
+          <Link
+            to="/brand"
+            className="text-xs tablet:text-lg  hover:text-black"
+          >
             <p>Our Brand</p>
           </Link>
         </div>
@@ -424,25 +436,49 @@ function Footer({ open }) {
           <p className="text-xs tablet:text-2xl text-white font-semibold font-poppins">
             Products
           </p>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
+          <Link
+            to="/product"
+            onClick={() => setSelectedCategory("Biochemistry")}
+            className="text-xs tablet:text-lg  hover:text-black"
+          >
             <p>Biochemistry</p>
           </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
+          <Link
+            to="/product"
+            onClick={() => setSelectedCategory("Hematology")}
+            className="text-xs tablet:text-lg  hover:text-black"
+          >
             <p>Hematology</p>
           </Link>
           <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
             <p>POC</p>
           </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
+          <Link
+            to="/product"
+            onClick={() => setSelectedCategory("Electrolyte Analyzer")}
+            className="text-xs tablet:text-lg  hover:text-black"
+          >
             <p>Electrolyte</p>
           </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
+          <Link
+            to="/product"
+            onClick={() => setSelectedCategory("Clinical Microbiology")}
+            className="text-xs tablet:text-lg  hover:text-black"
+          >
             <p>Clinical Microbiology</p>
           </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
+          <Link
+            to="/product"
+            onClick={() => setSelectedCategory("Pre-Analytical Automation")}
+            className="text-xs tablet:text-lg  hover:text-black"
+          >
             <p>Pre Analytical Automation</p>
           </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
+          <Link
+            to="/product"
+            onClick={() => setSelectedCategory("COVID-19")}
+            className="text-xs tablet:text-lg  hover:text-black"
+          >
             <p>COVID-19</p>
           </Link>
         </div>
