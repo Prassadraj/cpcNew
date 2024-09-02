@@ -19,6 +19,7 @@ function Nav() {
   const [showDropdown, setShowDropdown] = useState({
     about: false,
     products: false,
+    apply: false,
   });
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const { setSelectedCategory } = useContext(CategoryContext);
@@ -38,8 +39,8 @@ function Nav() {
       case "/product":
         setSelected("product");
         break;
-      case "/career":
-        setSelected("career");
+      case "/apply":
+        setSelected("apply");
         break;
       case "/success":
         setSelected("success");
@@ -468,15 +469,29 @@ function Nav() {
             </div>
           )}
         </div>
-        <div className="nav-item">
+        <div
+          className="nav-item"
+          onMouseEnter={() => toggleDropdown("apply")}
+          onMouseLeave={() => toggleDropdown("apply")}
+        >
           <Link
             className={`cursor-pointer ${
-              selected === "career" ? "selected" : ""
+              selected === "apply" ? "selected" : ""
             }`}
-            to="/career"
+            to="/apply"
           >
             Career
           </Link>
+          {showDropdown.apply && (
+            <div className="dropdown-menu w-fit mt-0">
+              <Link className="dropdown-item" to="/apply">
+                Apply
+              </Link>
+              <Link className="dropdown-item" to="/whychooseus">
+                WhyChooseUs
+              </Link>
+            </div>
+          )}
         </div>
         <div className="nav-item">
           <Link

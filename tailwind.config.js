@@ -42,6 +42,8 @@ export default {
         maincol: "#02a884",
         gcolor: "#ab01ea",
         scolor: "rgba(0, 66, 255, 0.08)",
+        cpccol: "#01ab86",
+        shade: "#ebeef5",
       },
 
       keyframes: {

@@ -23,7 +23,18 @@ const blogs = [
       {
         id: "ha",
         title: "Hematology Analyzer",
-        content: "Content for Hematology Analyzer...",
+        content: (
+          <>
+            Content for Hematology Analyzer...{" "}
+            <a
+              target="_blank"
+              href="https://google.com"
+              rel="noopener noreferrer"
+            >
+              link
+            </a>
+          </>
+        ),
       },
       {
         id: "hwp",
@@ -91,6 +102,7 @@ function SingleBlog() {
   if (!blog) {
     return <div>Blog not found</div>;
   }
+  const a = <a href="">link</a>;
 
   return (
     <div className="container-fluid">

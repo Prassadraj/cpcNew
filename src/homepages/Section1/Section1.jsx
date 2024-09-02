@@ -60,8 +60,8 @@ function Section1() {
 
   return (
     <>
-      <div className="section1 tablet:flex tablet:flex-row grid grid-cols-1 justify-center items-center h-screen w-full overflow-hidden font-poppins tablet:mt-10 overflow-x-hidden">
-        <div className="flex-1 tablet:w-1/2 w-full mt-0 sm:mt-24 sm:ml-4 laptop:ml-14 px-2 sm:px-0">
+      <div className="section1 tablet:flex tablet:flex-row grid grid-cols-1 justify-center items-center h-screen w-full overflow-hidden font-poppins overflow-x-hidden">
+        <div className="flex-1 tablet:w-1/2 w-full mt-0 sm:ml-4 laptop:ml-14 px-2 sm:px-0">
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}

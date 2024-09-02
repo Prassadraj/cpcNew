@@ -2,6 +2,10 @@ body {
   width: 100%;
   background: white;
   font-family: "Poppins", sans-serif;
+  color: black;
+}
+h2 {
+  color: black;
 }
 
 .blocks-container {

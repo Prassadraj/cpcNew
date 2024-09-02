@@ -19,6 +19,7 @@ import New from "./homepages/Organisation/New";
 import AnimatedCursor from "react-animated-cursor";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import WhyChoseUs from "./component/Career/WhyChooseUs";
 
 function App() {
   const location = useLocation();
@@ -52,8 +53,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/brand" element={<Brand />} />
           <Route path="/product" element={<Product />} />
-          <Route path="/career" element={<Career />} />
+          <Route path="/apply" element={<Career />} />
           <Route path="/success" element={<Success />} />
+          <Route path="/whychooseus" element={<WhyChoseUs />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:id" element={<SingleBlog />} />
           <Route path="/productinfo/:category/:id" element={<ProductInfo />} />
