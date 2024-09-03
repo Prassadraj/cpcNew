@@ -3,6 +3,8 @@ import "./contactUs.css";
 import video from "../../Video/contact.mp4";
 import axios from "axios";
 import { toast } from "react-toastify";
+import { faRocketchat } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function ContactUs() {
   const [formData, setFormData] = useState({
@@ -11,6 +13,7 @@ function ContactUs() {
     phone: "",
     message: "",
   });
+  const [messageLoading, setMessageLoading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -19,13 +22,14 @@ function ContactUs() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setMessageLoading(true);
     try {
       const response = await axios.post(
         "https://cpcnew.onrender.com/send-email",
         formData
       );
       console.log("Success:", response.data);
-
+      setMessageLoading(false);
       toast.success("SuccessFully Message Sent");
       setFormData({
         name: "",
@@ -41,6 +45,14 @@ function ContactUs() {
 
   return (
     <div className="p-4 laptop:p-5 laptop:h-[100vh] bg-black mb-10 flex justify-center items-center laptop:mt-20">
+      {messageLoading && (
+        <div className="fixed top-0 left-0 h-screen w-full bg-black/50 z-50">
+          <div className="flex justify-center items-center h-screen text-xl text-white">
+            <FontAwesomeIcon icon={faRocketchat} /> Sending...
+          </div>
+        </div>
+      )}
+
       <div className="laptop:h-[85vh] h-auto w-full laptop:w-[85vw] bg-light-green rounded-xl relative flex flex-col laptop:flex-row overflow-hidden">
         <video
           autoPlay
