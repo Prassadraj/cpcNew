@@ -7,17 +7,20 @@ import "aos/dist/aos.css";
 import ProductDataProvider from "./component/Context/ProductData.jsx";
 import CategoryProvider from "./component/Context/CategoryContext.jsx";
 import MobileBtn from "./component/Context/MobileContext.jsx";
+import AutomaticCategoryProvider from "./component/Context/AutomaticCategory.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <ProductDataProvider>
     <CategoryProvider>
-      <MobileBtn>
-        <Router>
-          <Routes>
-            <Route path="/*" element={<App />} />
-          </Routes>
-        </Router>
-      </MobileBtn>
+      <AutomaticCategoryProvider>
+        <MobileBtn>
+          <Router>
+            <Routes>
+              <Route path="/*" element={<App />} />
+            </Routes>
+          </Router>
+        </MobileBtn>
+      </AutomaticCategoryProvider>
     </CategoryProvider>
   </ProductDataProvider>
 );

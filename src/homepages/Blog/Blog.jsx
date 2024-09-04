@@ -25,32 +25,21 @@ function Blog() {
 
   const data = [
     {
-      img: "https://d38b044pevnwc9.cloudfront.net/cutout-nuxt/enhancer/3.jpg",
-      care: "self care",
-      title: "Care of Your",
-      desc: "provide the best products to our patients.",
-      author: "Jackson",
+      title: "How To Ensure Effective Result In Haematology Analyzers?",
+      desc: "How to Ensure  Effective Result in Haematology Analyzers In this article, you will be learning to use Hematology...",
+      date: "by admin | Jul 6, 2023",
+    },
+
+    {
+      title:
+        "Basics of 3 part Hematology Analyzer – Every Laboratarians should know",
+      desc: "What is a 3-part differential hematology analyzer 3-part differential hematology analyzer  which analyzes the complete...",
+      date: "by Mohana Priya | Feb 13, 2023",
     },
     {
-      img: "https://d38b044pevnwc9.cloudfront.net/cutout-nuxt/enhancer/3.jpg",
-      care: "self care",
-      title: "Care of Your",
-      desc: "provide the best products to our patients.",
-      author: "Jackson",
-    },
-    {
-      img: "https://d38b044pevnwc9.cloudfront.net/cutout-nuxt/enhancer/3.jpg",
-      care: "self care",
-      title: "Care of Your",
-      desc: "provide the best products to our patients.",
-      author: "Jackson",
-    },
-    {
-      img: "https://d38b044pevnwc9.cloudfront.net/cutout-nuxt/enhancer/3.jpg",
-      care: "self care",
-      title: "Care of Your",
-      desc: "provide the best products to our patients.",
-      author: "Jackson",
+      title: "Microalbuminuria",
+      desc: "The urinary excretion of albumin greater than or equal to 30mg/day is defined as  Microalbuminuria. In a healthy...",
+      date: "by Priyadharshini C | Feb 2, 2023",
     },
   ];
   return (
@@ -67,29 +56,17 @@ function Blog() {
         We use only the best quality materials on the market in order to provide
         the best products to our patients.
       </p>
-      <div className="mt-0 p-1 tablet:mx-10 tablet:my-4 grid laptop:grid-cols-4 gap-4  tablet:gap-4 grid-cols-2 tablet:mb-4">
+      <div className="mt-0 p-1 tablet:mx-10 tablet:my-4 grid tablet:grid-cols-2  laptop:grid-cols-3 gap-4  tablet:gap-4 grid-cols-1 tablet:mb-4">
         {data.map((datas, index) => (
           <div
             key={index}
-            className="h-[200px] p-3  border-1 border-custom-green w-full max-w-[300px] rounded-lg tablet:h-[370px] blogBox"
+            className="h-auto p-3  border-1 border-custom-green w-full max-w-[300px] rounded-lg tablet:h-auto blogBox "
           >
-            <div className="tablet:m-2">
-              <img className="rounded-lg w-full" src={datas.img} alt="" />
+            <div className="tablet:h-28">
+              <p className="text-lg font-semibold">{datas.title}</p>
+              <p className="text-xs font-medium mb-2">{datas.date}</p>
             </div>
-            <div className="flex flex-col justify-start items-start tablet:gap-2 tablet:mt-3 mt-1 gap-0 tablet:m-2">
-              <p className="bg-black p-1 tablet:mt-2 text-white rounded-md text-xs hidden tablet:block">
-                {datas.care}
-              </p>
-              <p className="text-black tablet:mt-2 font-poppins font-semibold text-xs">
-                {datas.title}
-              </p>
-              <p className="tablet:text-lg text-gray-600 w-full text-xs tablet:mt-2">
-                {datas.desc}
-              </p>
-            </div>
-            <div className="flex justify-end sm:mt-0 tablet:mt-3">
-              <p className="tablet:text-lg text-xs">~{datas.author}</p>
-            </div>
+            <p className="text-base">{datas.desc}</p>
           </div>
         ))}
       </div>

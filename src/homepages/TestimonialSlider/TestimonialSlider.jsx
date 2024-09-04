@@ -8,25 +8,39 @@ function TestimonialSlider() {
 
   const data = [
     {
-      img: "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?cs=srgb&dl=pexels-olly-762020.jpg&fm=jpg",
-      name: "Julie",
-      desc: "The quality of service and products we received from CPC Diagnostics is unmatched. Their attention to detail and customer care are exceptional.",
+      img: "",
+      name: (
+        <>
+          <p>Mr.Venkatesh</p>
+          <p className="text-sm">
+            LABORATORY INCHARGE, CSIR - CENTRAL ELECTROCHEMICAL RESEARCH
+            INSTITUTE, KARAIKUDI
+          </p>
+        </>
+      ),
+
+      desc: "For the past ten years, we’ve been using ichem 100 and identi chemical. We are able to provide accurate results by achieving proper internal and external QC values. Reagent stability is also excellent. The itrack service offered by cpc diagnostics is quite useful in finding and resolving any QC-related issues quickly.",
     },
     {
-      img: "https://st4.depositphotos.com/2884373/24534/i/450/depositphotos_245347128-stock-photo-red-haired-sexy-size-woman.jpg",
-      name: "Sophie",
-      desc: "CPC Diagnostics consistently delivers reliable products that meet our needs. Their customer support team is always ready to assist us.",
+      img: "",
+      name: (
+        <>
+          <p>Dr.Vijay mohan</p>
+          <p className="text-sm">Vijaya Medical Centre, Visakhapatnam</p>
+        </>
+      ),
+      desc: "Thanks to CPC Diagnostics for all of the information, installation, and training on the Labtype HLA A, B, and DRB1 SSO Typing assay methods. The detailed explanations to the data analysis part using One Lambda software is very appreciable. We could gain good clarity on the most crucial aspects of these assays. We are happy with all the services and training provided by you.",
     },
-    {
-      img: "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?cs=srgb&dl=pexels-olly-762020.jpg&fm=jpg",
-      name: "Julie",
-      desc: "We are extremely satisfied with the products from CPC Diagnostics. Their innovative solutions have greatly improved our workflow.",
-    },
-    {
-      img: "https://st4.depositphotos.com/2884373/24534/i/450/depositphotos_245347128-stock-photo-red-haired-sexy-size-woman.jpg",
-      name: "Sophie",
-      desc: "CPC Diagnostics offers top-notch products and exceptional customer service. Their dedication to quality is evident in everything they do.",
-    },
+    // {
+    //   img: "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?cs=srgb&dl=pexels-olly-762020.jpg&fm=jpg",
+    //   name: "Julie",
+    //   desc: "We are extremely satisfied with the products from CPC Diagnostics. Their innovative solutions have greatly improved our workflow.",
+    // },
+    // {
+    //   img: "https://st4.depositphotos.com/2884373/24534/i/450/depositphotos_245347128-stock-photo-red-haired-sexy-size-woman.jpg",
+    //   name: "Sophie",
+    //   desc: "CPC Diagnostics offers top-notch products and exceptional customer service. Their dedication to quality is evident in everything they do.",
+    // },
   ];
 
   const [scrollAmount, setScrollAmount] = useState(0);
@@ -98,7 +112,7 @@ function TestimonialSlider() {
 
       <div
         ref={sliderRef}
-        className="custom-scrollbar tablet:mt-10 tablet:mx-10 h-[150px] flex tablet:h-[250px] gap-6 overflow-hidden p-2 smooth-scroll"
+        className="custom-scrollbar tablet:mt-2 tablet:mx-10 h-[150px] flex tablet:h-auto gap-6 overflow-hidden p-2 smooth-scroll"
       >
         {data.map((item, i) => (
           <div
@@ -108,10 +122,16 @@ function TestimonialSlider() {
             <div className="flex items-center w-[125px] tablet:w-[300px] laptop:w-[550px] tablet:gap-2 gap-1 tablet:p-3">
               <img
                 className="w-10 h-10 tablet:w-20 tablet:h-20 rounded-full object-cover"
-                src={item.img}
+                src={
+                  item.img
+                    ? item.img
+                    : "https://cdn-icons-png.flaticon.com/512/149/149071.png"
+                }
                 alt={item.name}
               />
-              <p className="tablet:text-xl text-base">{item.name}</p>
+              <p className="tablet:text-xl text-base font-semibold">
+                {item.name}
+              </p>
             </div>
             <div className="text-[9px] tablet:text-base tablet:px-3 tablet:line-clamp-4 laptop:line-clamp-none">
               {item.desc}

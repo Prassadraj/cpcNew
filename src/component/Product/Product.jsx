@@ -15,6 +15,7 @@ import frame1 from "../../images/products/frame1.png";
 import "./product.css";
 import { faBloggerB } from "@fortawesome/free-brands-svg-icons";
 import Loader from "../Loader/Loader";
+import { AutomaticCategory } from "../Context/AutomaticCategory";
 
 function Product() {
   const { data } = useContext(ProductDataContext);
@@ -24,6 +25,8 @@ function Product() {
   const images = [frame1, frame1, frame1, frame1];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [load, setLoad] = useState(true);
+  const { selectedAutomaticCategory, setSelectedAutomaticCategory } =
+    useContext(AutomaticCategory);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [selectedCategory]);
@@ -128,9 +131,13 @@ function Product() {
                 openDropdown={openDropdown}
               />
               <div className="sm:w-[75%] bg-white p-4 text-center overflow-y-auto">
-                <h1 className="text-2xl font-poppins font-bold mb-4 text-left text-black">
+                <h1 className="text-2xl font-poppins font-bold mb-3 text-left text-black">
                   {selectedCategory}
                 </h1>
+                {/* <p className="text-left cursor-pointer mb-2">
+                  {selectedAutomaticCategory} <span>/Semi</span>{" "}
+                  <span>/Fully Automatic</span>
+                </p> */}
                 <div className="grid grid-cols-2 sm:grid-cols-2 laptop:grid-cols-3 gap-4 mb-4">
                   {selectedCategoryItems.map((item) => (
                     <Link

@@ -73,6 +73,7 @@ const products = [
     items: [
       {
         category: "Biochemistry",
+        section: "Fully Automatic",
         allover: "This is for fully automatic",
         id: "1",
         image: [magna1, magna2, magna3, magna4],
