@@ -13,43 +13,149 @@ import Loader from "../Loader/Loader";
 import Footer from "../../homepages/Footer/Footer";
 
 const content = {
-  heading1: "First-of-its-kind initiative by ECPC",
-  inner1:
-    "Sachika is a first-of-its-kind initiative by ECPC in the medical diagnostics industry to bridge the ‘skill-divide’ for trained manpower. It is an initiative that is meant to empower clinicians through knowledge management. With rigorous testing and post-training certification, it provides clinicians an opportunity to learn and upgrade their skills in modern techniques of the biosciences.",
+  heading1: "Everlife CPC’s Groundbreaking Initiative",
+  inner1: (
+    <>
+      <p>
+        Sachika, a dedicated training facility by Everlife CPC Diagnostics, is a
+        trailblazing initiative aimed at empowering healthcare professionals
+        through hands-on training and advanced knowledge. It is the
+        <b> first-of-its-kind </b> platform in the industry, designed to bridge
+        the gap between theoretical knowledge and practical applications. With a
+        focus on <b> immunofluorescence, automation,</b> and other critical
+        diagnostic techniques, Sachika plays a pivotal role in elevating the
+        standards of laboratory practices across South Asia. By offering
+        world-class infrastructure and training programs, Sachika ensures that
+        professionals are well-equipped to meet the growing demands of modern
+        healthcare.
+      </p>
+    </>
+  ),
 
-  heading2: "Programmes covered at Sachika",
-  inner2:
-    "Hematology, Clinical Biochemistry, Immunodiagnostics, Bio Medical Instrumentation and quality management.",
+  heading2: "Programmes Covered at Sachika",
+  inner2: (
+    <>
+      <ul>
+        <li>
+          <strong>Basic Level Immunofluorescence:</strong> This foundational
+          course provides participants with essential knowledge and skills in
+          immunofluorescence techniques, preparing them for diagnostic accuracy
+          and efficiency.
+        </li>
+        <li>
+          <strong>Advanced Immunofluorescence & Immunology Training:</strong>{" "}
+          For professionals looking to specialize, this advanced course covers
+          cutting-edge immunofluorescence techniques and in-depth training in
+          immunology, allowing participants to handle complex diagnostic
+          challenges.
+        </li>
+        <li>
+          <strong>Clinical Lab Practices & Automation:</strong> Focusing on
+          clinical automation and laboratory best practices, this program equips
+          professionals with the expertise to optimize workflow and improve
+          operational efficiency in labs.
+        </li>
+      </ul>
+    </>
+  ),
 
   heading3: "Exclusive programs",
-  inner3:
-    "Sachika also conducts first of its kind, exclusive programs on Entry Level Automation in Clinical Chemistry, Autoimmune diagnostics based on Immunofluorescence, Pattern Identification, Recombinant Immunoblot and ELISA techniques.",
+  inner3: (
+    <>
+      <p>
+        At Sachika, the exclusive programs stand out for their{" "}
+        <b>high-impact training</b> and <b>widespread reach.</b> In the past
+        year alone,<b>700+ doctors </b> have undergone specialized training in
+        <b> Immunofluorescence,</b> making Sachika a go-to center for hands-on
+        learning. Additionally, <b>over 55</b> webinars were conducted, reaching
+        more than 2,500+ participants in areas like <b>Autoimmunity</b> and
+        <b> COVID-19 </b>management. These exclusive programs ensure that
+        healthcare professionals across the country are well-versed in both
+        traditional and modern diagnostic techniques, empowering them to deliver
+        better patient care.
+      </p>
+    </>
+  ),
 };
 
 const jeevcon = {
   heading1: "Jeev Diagnostics Pvt. Ltd",
-  content1:
-    "Jeev Diagnostics is a wholly owned subsidiary of Everlife CPC Diagnostics Pvt. Ltd., Chennai, India, manufactures high quality state-of-the-art in-vitro clinical chemistry reagents to cater to clinical laboratories, hospitals and diagnostic centres.",
+  content1: (
+    <>
+      Jeev Diagnostics, a wholly owned subsidiary of Everlife CPC Diagnostics
+      Pvt. Ltd., is dedicated to manufacturing high-quality in-vitro clinical
+      chemistry reagents. Operating since <b>2011</b> and headquartered in
+      Chennai, India, Jeev caters to clinical laboratories, hospitals, and
+      diagnostic centers across the region. With a reputation for producing
+      reliable reagents in{" "}
+      <b>
+        Biochemistry, Immunoturbidimetry, Hematology, and Molecular Diagnostics,
+      </b>{" "}
+      Jeev’s products ensure accuracy and quality in critical diagnostic
+      applications.
+    </>
+  ),
 
   heading2: "Fully Automated Instruments",
-  content2:
-    "The clinical chemistry range of world class IVD reagents manufactured by JEEV Diagnostics includes regular packs for semi-automated instruments, as also system packs for fully automated instruments such as Turbochem100, ChemWell and Biolis 50i.",
+  content2: (
+    <>
+      Jeev Diagnostics produces a wide range of <b>IVD reagents </b>compatible
+      with both <b>semi-automated</b> and <b>fully automated instruments.</b>{" "}
+      These reagents support advanced systems like{" "}
+      <b> Turbochem100, ChemWell,</b> and
+      <b> Biolis 50i.</b> With fully automated capabilities, Jeev ensures that
+      laboratories can achieve high-throughput, efficiency, and precision,
+      seamlessly integrating into diagnostic workflows for accurate, consistent
+      results.
+    </>
+  ),
 
   heading3: "Stringent Quality Control",
-  content3: "Production norms are the hall mark of JEEV Diagnostics",
+  content3: (
+    <>
+      <p>
+        Jeev Diagnostics is committed to upholding stringent quality standards
+        across its entire manufacturing process. Each reagent undergoes rigorous
+        testing to meet <b> international quality norms,</b> ensuring reliable
+        and high-performance products. By adhering to strict production
+        protocols, Jeev Diagnostics guarantees that its reagents offer
+        unparalleled consistency and accuracy, empowering healthcare providers
+        to deliver better patient outcomes.
+      </p>
+    </>
+  ),
 };
 
 const cpccon = {
   heading1: "Field of indigenous manufacturing",
   content1:
-    "CPC’s move to bestride the two worlds of instruments and reagents, and its commitment to backward integration, will be a catalyst to conferring higher levels of empowerment, reliability and innovation in the field of indigenous manufacturing.",
+    "Everlife CPC Diagnostics takes pride in its commitment to indigenous manufacturing, bridging the gap between instruments and reagents. By embracing backward integration, CPC ensures empowerment, reliability, and innovation in the field of local manufacturing. This dedication enables CPC to pioneer solutions that meet the specific needs of healthcare diagnostics, fostering trust and quality in every product..",
 
-  heading2: "Popular Models of CPC include:",
-  content2: "PlexMat 4/ 8/16 – Automated Line Immuno Assay processor",
+  heading2:
+    "CPC Manufacturing Unit – Manufacturing Arm of Diagnostic Instruments",
+  content2:
+    "Everlife CPC's manufacturing unit is 100% indigenous, certified with CE and ISO standards. As the manufacturing arm of diagnostic instruments, CPC is known for its stringent quality control measures, ensuring every product meets the highest industry standards. The unit is the first to design and manufacture the revolutionary Hematology Analyzer Xcyte, a testament to CPC's leadership in the field of diagnostics.",
 
-  heading3:
-    "CPC manufacturing unit – Manufacturing arm of diagnostic instruments.",
-  content3: "100% indigenous",
+  heading3: " Popular Models of CPC",
+  content3: (
+    <>
+      <ul>
+        <li>
+          Everlife CPC's dedication to innovation is reflected in its popular
+          product models, including:
+        </li>
+        <li>
+          <strong>PlexMAT 4/8/16:</strong> An Automated Line Immuno Assay
+          processor designed for flexibility and precision.
+        </li>
+        <li>
+          <strong>FluoroMAT 50:</strong> A cutting-edge Automated Indirect
+          Immunofluorescence slide processor, ensuring accuracy and reliability
+          in diagnostic processes.
+        </li>
+      </ul>
+    </>
+  ),
 };
 
 const itrackcon = {
@@ -336,17 +442,8 @@ function Brand() {
                   {cpccon.heading2}
                 </h4>
                 <div className="flex gap-4">
-                  <SiTicktick size={17} color="#02a884" className="mt-7" />
                   <p className="mt-4 leading-7 text-fontextra">
                     {cpccon.content2}
-                  </p>
-                </div>
-                <br />
-                <div className="flex gap-4">
-                  <SiTicktick size={20} color="#02a884" className="mt-4" />
-                  <p className="mt-4 text-fontextra">
-                    FluoroMAT 50 – AutomatedIn direct Immunofluorescence slide
-                    processor
                   </p>
                 </div>
               </div>
@@ -366,25 +463,6 @@ function Brand() {
                   <p className="mt-4 leading-7 text-fontextra">
                     {cpccon.content3}
                   </p>
-                </div>
-                <div className="flex gap-4">
-                  <SiTicktick size={17} color="#02a884" className="mt-6" />
-                  <p className="mt-4 leading-7 text-fontextra">
-                    CE and ISO certified
-                  </p>
-                </div>
-                <div className="flex gap-4">
-                  <SiTicktick size={25} color="#02a884" className="mt-6" />{" "}
-                  <p className="mt-4 leading-7 text-fontextra">
-                    CPC – First to roll out indigenously designed and
-                    manufactured Hematology Analyzer Xcyte.
-                  </p>
-                </div>
-                <div className="flex gap-4">
-                  <SiTicktick size={18} color="#02a884" className="mt-6" />
-                  <p className="mt-4 leading-7 text-fontextra">
-                    Stringent Quality Control
-                  </p>{" "}
                 </div>
               </div>
 
