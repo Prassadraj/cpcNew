@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import {
   FaRegUserCircle,
@@ -8,18 +8,25 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import blogbanner from "../../assets/image/blogbanner.png";
-import blog1 from "../../assets/image/blog1.png";
-import blog2 from "../../assets/image/blog2.png";
-import blog3 from "../../assets/image/blog3.png";
+import blog1 from "../../assets/image/Hematology-analyzer-blog.png";
+import blog2 from "../../assets/image/Difference-Between-3-Part-and-5-Part-Hematology-Analyzer.png";
+import blog3 from "../../assets/image/Biochemistry-Analyzer-Its-working-principle-uses-and-price.jpg";
+import blogcommon from "../../assets/image/Frame-md.png";
+import blog4 from "../../assets/image/red-blood-cells-blood-oxygen-o2-saturation-medical-scientific-concepts-icon-realistic.jpg";
+import blog7 from "../../assets/image/dnynacount-3d-600-px-01-2048x1362.png";
+import blog8 from "../../assets/image/Membrane_740x480.png";
+import blog9 from "../../assets/image/pic.jpg";
+import blog10 from "../../assets/image/woman-patient-receives-thyroid-diagnostics-treatment-thyrotoxicosis-hypothyroidism-ultrasound-diagnostics-endocrine-system-thyroid-768x512.jpg";
+import blog11 from "../../assets/image/medium-shot-woman-looking-through-microscope-768x549.jpg";
 import Footer from "../../homepages/Footer/Footer";
-import Loader from "../Loader/Loader";
 
 const blogs = [
   //this is first blog
   {
     id: 1,
     title: "Hematology Analyzer Machine:Its Working principle, Uses and Price",
-    date: "May 25,2024",
+    admin: "by admin",
+    date: "May 31, 2024",
     image: blog1,
     content: "Full content of the first blog...",
     sections: [
@@ -81,7 +88,8 @@ const blogs = [
   {
     id: 2,
     title: "Difference Between 3 Part and 5 Part Hematology Analyzer",
-    date: "June 10, 2024",
+    admin: "by admin",
+    date: "May 25, 2024",
     image: blog2,
     content: "Full content of the second blog...",
     sections: [
@@ -130,7 +138,8 @@ const blogs = [
   {
     id: 3,
     title: "Biochemistry Analyzer: It's working principle, uses and price",
-    date: "July 15, 2024",
+    admin: "by admin",
+    date: "Feb 27, 2024",
     image: blog3,
     content: "Full content of the third blog...",
     sections: [
@@ -198,8 +207,9 @@ const blogs = [
   {
     id: 4,
     title: "What a Hemo-globin is and Common Types of Blood Disorder?",
-    date: "July 15, 2024",
-    image: blog3,
+    admin: "by admin",
+    date: " Jul 6, 2023",
+    image: blog4,
     content: "Full content of the third blog...",
     sections: [
       {
@@ -243,8 +253,9 @@ const blogs = [
   {
     id: 5,
     title: "An Introduction to a Fully Automated Immunoassay Analyzer",
-    date: "July 15, 2024",
-    image: blog3,
+    admin: "by admin",
+    date: "Jul 6, 2023",
+    image: blogcommon,
     content: "Full content of the third blog...",
     sections: [
       {
@@ -276,15 +287,699 @@ const blogs = [
       },
     ],
   },
+  //this is sixth blog
+  {
+    id: 6,
+    title: "How to Ensure  Effective Result in Haematology Analyzers",
+    admin: "by admin",
+    date: "Jul 6, 2023",
+    image: blogcommon,
+    content: "Full content of the third blog...",
+    sections: [
+      {
+        startcontent:
+          "In this article, you will be learning to use Hematology Analyzers by by reading and understanding a few tips and tricks that could help you inform your patients about the benefit of using Hematology devices in geriatric healthcare.",
+      },
+      {
+        content:
+          "Haematology analyzers are one of the most important pieces of diagnostic equipment that can be used to help diagnose potential health problems. They are used by doctors and other medical professionals when they suspect that a patient may have anemia.  Haematology analyzers test for many different things including red blood cell counts, white blood cells and proteins.",
+      },
+      {
+        content:
+          "Haematology instruments are instruments that analyze blood components and tissues. A haematologist is a medical specialist who deals with blood characteristics. Haematology analyzers are used in hospitals, laboratories and clinical settings to analyze patients’ blood samples. Laboratory technicians can also use hematology analyzers to test blood samples.",
+      },
+      {
+        content:
+          "When it comes to your blood analysis, you want the best results every time. That’s why it’s important to choose an expert when it comes to measuring your hematology analyzers. It’s a daunting task, but there are people who possess the know-how to provide the best service possible.",
+        content1:
+          "Haematology Reagents are commonly used in hospitals and other health service sector to perform analysis of blood. HAEMATOLOGY analyzer is a machine that tests blood samples from patients and its results are useful in diagnosing various types of diseases. Experts recommend using hematology analyzers for getting reliable result because it gives accurate information about the condition of blood.",
+      },
+
+      {
+        content9:
+          "Haematology analyzers are the diagnostic tools that are used to diagnose a number of illnesses in the body. There are several different types of hemoglobin analyzers available in the market. You should select the most reliable one from them depending on your purpose.",
+      },
+      {
+        final: "CPC Diagnostics Pvt Ltd ",
+      },
+    ],
+  },
+  //this is seventh blog
+  {
+    id: 7,
+    title: "What is a 3-part differential hematology analyzer",
+    admin: "by Mohana Priya ",
+    date: "Feb 13, 2023",
+    image: blog7,
+    content: "Full content of the first blog...",
+    sections: [
+      {
+        startcontent: "What is a 3-part differential hematology analyzer",
+        subcontent:
+          "3-part differential hematology analyzer  which analyzes the complete blood count technology wise. ",
+      },
+      {
+        id: "ha",
+        title: "Principle of Measurement ",
+        content: "1 . Impedance Principle for RBC/PLT/WBC Differential ",
+        content1: "2. Colorimetry method  for HGB.",
+      },
+      {
+        id: "hwp",
+        title: "What is Impedance principle",
+        content:
+          "When  blood cells enter the narrow aperture of electrodes which generates the Signal every  time  when  cell passes through, signals are nothing, but the electrodes generate a resistance within the aperture when the cell pass through it which causes an Impedance and these impedances are transferred as a signal and  count to measure the volume of cells.",
+        content1:
+          "Since the WBC lysing agent lyses the Cell membrane of the WBC but not the nucleus, the Monocytes, get into the Mid-cells  along with the Basophil & the Eosinophil.",
+        content2:
+          "The Neutrophils, being polymorphous, have multiple nuclei and show up at the largest size in the Histogram.",
+      },
+
+      {
+        id: "hapin",
+        title: "Output results in 3-Part Hematology Analyzer parameters are:",
+
+        content9: "WBC – Total WBC count , Lymph%/#, Mid %/#, Gran%/#, NLR",
+        content1:
+          "RBC – Total RBC count ,HGB, HCT, MCV MCH, MCHC, RDW-CV, RDW-SD, ",
+        content2:
+          "PLT – Total Platelet count, MPV, PCT, PDW-CV, PDW-SD, P-LCR, P-LCC, PLR",
+      },
+      {
+        id: "hau",
+        title: "Supporting Consumables to run the System",
+        content1:
+          "Two reagents + 1 cleaner play important role to run the 3-Part Analyzer, they are ,",
+        content2:
+          "Diluent – To dilute blood samples, to keep the blood cell in original volume also provides appropriate conductivity to the cells.",
+        content3:
+          "Lyse – Lysing Reagents are used to rupture the RBC to measure Hemoglobin, prepare WBC from whole blood to measure the differentials",
+        content4:
+          "Probe Cleaner – To clean the instrument’s probe or tubes. It can also be used for daily maintenance.",
+      },
+      {
+        final: "CPC Diagnostics Pvt Ltd ",
+      },
+    ],
+  },
+  //this is eighth blog
+  {
+    id: 8,
+    title: "Microalbuminuria",
+    admin: "by Priyadharshini C",
+    date: "Feb 2, 2023",
+    image: blog8,
+    content: "Full content of the first blog...",
+    sections: [
+      {
+        startcontent:
+          "The urinary excretion of albumin greater than or equal to 30mg/day is defined as  Microalbuminuria.",
+        content:
+          "In a healthy person, a minimal amount of albumin constitutes the total protein in the urine. However, most of the albumin is reabsorbed in the proximal convoluted tubules of the Kidney. So less than 1 mg/dL of albumin appears in the urine.",
+        content1:
+          "Any damages or changes in the Glomerular membrane permeability of the Kidneys, glomerular hypertension and lesser tubular resorption leads to increased protein output in the urine.",
+        content2:
+          "The Glomerular Basement Membrane is porous and they are too small to permit the passage of the protein. So, when there is a leak in the glomerular filtration barrier, an increased amount of albumin is secreted into the urine.",
+      },
+      {
+        id: "ha",
+        title: "Signs of Microalbuminuria",
+        content: "There might be no noticeable signs or symptoms.",
+        content1:
+          "When the functioning of the Kidney declines and large amounts of proteins are passing out through the urine – swelling of the hands, feet, abdomen and face (oedema) occurs.",
+        content2:
+          "A permanent kidney damage results if the albuminuria progresses further.",
+      },
+      {
+        id: "hwp",
+        title: "Microalbumin tests are ordered by the doctor when",
+        content:
+          "1. The kidneys are at risk of damage due to cardiovascular disease (CVD)",
+        content1:
+          "2.  There is a need to assess the early sign of diabetic nephropathy Microalbuminuria is not specific for CVD and Diabetes.",
+        content2:
+          "3.  It may also be associated with some immune disorders, abnormalities in some lipids, vigorous exercise, injuries in lower urinary tract, hematuria, dehydration etc.,",
+      },
+      {
+        id: "hau",
+        title: "Diagnosis",
+        content3:
+          "Microalbuminuria is diagnosed based on the laboratory urine tests.",
+        content4:
+          "Albumin excretion in the urine is most commonly tested along with creatinine in case of the Kidney function.",
+        content5:
+          "It is very important that we shouldn’t confuse serum albumin test with urine albumin test as the serum albumin test gives different information about potential health problems than the urine albumin tests.",
+        content6:
+          "Immunoturbidimetry and Immunoassay techniques are used to estimate microalbuminuria.",
+      },
+      {
+        id: "hapin",
+        title: "Everlife CPC’s offering",
+
+        content9:
+          "identi immunoturbidimetry microalbumin tests enable better correlation of test results in the diagnosis of microalbuminuria. identi microalbumin reagent ensures better sensitivity, specificity and linearity.",
+      },
+      {
+        final: "CPC Diagnostics Pvt Ltd ",
+      },
+    ],
+  },
+  //this is ninth blog
+  {
+    id: 9,
+    title: "Allergies",
+    admin: "by Dr. Sabitha Palazhy",
+    date: "Dec 8, 2022",
+    image: blog9,
+    content: "Full content of the first blog...",
+    sections: [
+      {
+        startcontent:
+          "An allergic reaction happens when your body reacts to something that’s normally harmless like pollen, dust or animal fur. Substances that cause allergic reactions are called allergens. Common agents causing allergies include tree/grass pollen, dust mites, certain food items, fur from pets, insect stings, some medicines etc.",
+        content:
+          "Symptoms of an allergic reaction can include: a runny nose or sneezing, pain or tenderness around your cheeks, eyes or forehead, coughing, wheezing or breathlessness, itchy skin or a raised rash (hives), diarrhea, feeling or being sick, swollen eyes, lips, mouth or throat etc. A person can experience a combination of the above symptoms also.",
+      },
+      {
+        id: "ha",
+        title:
+          "Tests to identify the allergen are done in clinics or laboratories.",
+        content:
+          "A skin prick or patch test – where a small amount of the allergen is put on your skin to see if it reacts ",
+        content1:
+          "Blood tests – to check for allergens that may be causing your symptoms. Everlife CPC offers diagnoses for food allergy, inhalation allergy, allergy panels exclusive for children etc. (Euroline) ",
+        content2:
+          "Diet restrictions where you avoid or eat less of a food you are suspected to be allergic to, to see if the symptoms get better.",
+        content3:
+          "Once the allergen is identified, the physician would suggest the following to prevent or control allergies.",
+        content4:
+          "Avoid contact/consumption of substance/food you’re allergic to whenever possible",
+        content5:
+          "Medicines for mild allergic reactions like antihistamines, steroid tablets and steroid creams.",
+        content6:
+          "Immunotherapy for severe allergic reactions – this involves carefully exposing you to small doses of the substance you’re allergic to over time, so your body gradually gets desensitized to it and does not react severely to the allergen anymore.",
+      },
+
+      {
+        final: "CPC Diagnostics Pvt Ltd ",
+      },
+    ],
+  },
+  //this is tenth blog
+  {
+    id: 10,
+    title: "NOVEL TREATMENT MODALITIES FOR LETHAL DISEASES ​",
+    admin: "by Dr. Sabitha Palazhy",
+    date: "Dec 6, 2022",
+    image: blog10,
+    content: "Full content of the first blog...",
+    sections: [
+      {
+        startcontent:
+          "Early diagnosis of medical conditions helps in better prognosis and outcomes. This is certainly true for diseases that gradually worsen over time and debilitate the patient. Scientists are working round the clock to arrive at new diagnostic and therapeutic possibilities using cutting-edge research for diseases that range from Alzheimer’s to Diabetes.",
+        content:
+          "Given below are a few such innovations that may play a critical role in improving the outcomes and may soon be available in the healthcare market.",
+      },
+      {
+        id: "ha",
+        title: "Alzheimer’s",
+        content:
+          "A team of researchers have identified the link between progression of Alzheimer’s and deposits of metallic elements such as copper and iron in the brain tissues. The detection of the metallic deposits through MRI will aid in screening and assessing the disease risk among populations at high risk.",
+      },
+      {
+        id: "hwp",
+        title: "Diabetes",
+        content:
+          "Revolutionary stem cell therapy has been initiated using stem cell derived allogeneic cells that could be used to treat type 1 diabetes. This is designed to accelerate the development of next-generation cell therapy products for various other diseases also.",
+      },
+      {
+        id: "hau",
+        title: "Cancer and Autoimmune diseases",
+        content3:
+          "Antibody treatment is already in use for treating some diseases, such as even Covid-19. Antibody cocktails are being developed for the treatment of patients diagnosed with cancer and serious autoimmune conditions.",
+      },
+      {
+        id: "hapin",
+        title: "Tuberculosis",
+
+        content9:
+          "The bacterial pathogen that causes Tuberculosis thrives on an essential sugar called Trehalose produced by the human body. Research is underway to find if inhibiting Trehalose production in humans can prevent Tuberculosis or obstruct the disease progression.",
+
+        topic2: "Malaria",
+        content11:
+          "Over time, the malarial parasites become resistant to conventional therapy. New drugs are being developed that can optimize the treatment and kill the parasite by administering a single dose.",
+      },
+
+      {
+        final: "CPC Diagnostics Pvt Ltd ",
+      },
+    ],
+  },
+  //this is eleventh blog
+  {
+    id: 11,
+    title: "LAB MEAN​",
+    admin: "by Dr. Sabitha Palazhy",
+    date: "Nov 29, 2022",
+    image: blog11,
+    content: "Full content of the first blog...",
+    sections: [
+      {
+        startcontent:
+          "QC results are used to validate whether an instrument is performing within predetermined specifications so that the laboratory can infer that the patient results released are accurate. ",
+        content:
+          "Labs are encouraged to perform two levels of internal QC as a part of their daily quality checking. NABL and US CLIA regulations recommend each laboratory to establish its own lab mean, rather than going by the range provided by the QC manufacturer.",
+      },
+      {
+        id: "ha",
+        title: "WHY??",
+        content:
+          "Values and limits found on assay sheets often describe the performance observed by a specific method in different laboratories, and may not be applicable to all laboratory conditions and instruments.",
+        content1:
+          "The ranges are likely to be too wide/inaccurate for an individual method in the laboratory. If the control limits are too wide, the lab won’t be able to detect problems in its own laboratory.",
+      },
+      {
+        id: "hwp",
+        title: "HOW??",
+        content:
+          "The rule of thumb is to collect at least 20 measurements over at least 2 weeks or 10 working days, and preferably over at least 4 weeks or 20 working days for picking up all possible variations Calculate Mean and Standard Deviation for the data set (more the number of measurements, the better) Calculate the +/- 2SD, add and subtract 2SD to the mean for arriving at the range (Instrument status should be good, and the same technician who is familiar with the instrument should run the test every day)",
+      },
+
+      {
+        final: "CPC Diagnostics Pvt Ltd ",
+      },
+    ],
+  },
+
+  //this is twelvth blog
+  {
+    id: 12,
+    title: "Introduction to Rheumatoid Factor",
+    admin: "by Priyadharshini C ",
+    date: "Oct 12, 2022",
+    image: blogcommon,
+    content: "Full content of the first blog...",
+    sections: [
+      {
+        startcontent:
+          "Rheumatoid factor (RF) is the auto antibody generated against IgG due to the activation of B cells when the human body is exposed to an antigen. These were first identified in Rheumatoid arthritis and 80% of Rheumatoid arthritis cases are seropositive for RF.",
+        content:
+          "Activation of B cells releases anti IgG (Rheumatoid Factor). RF and IgG complex triggers the entire immune system which attracts Leukocytes and stimulates the release of mediators.",
+        content1:
+          "Thus resulting in the inflammatory damage to the Synovium, small blood vessels and collagen. Finally joint destruction occurs which is permanent. The presence of RF in the blood indicates an autoimmune disease.",
+        content2:
+          "High titre of RF is also observed in certain unrelated diseases such as viral hepatitis, cirrhosis, Sarcoidosis, Lupus, Cancer, Cryoglobulinemia, inflammatory lung disease and Leprosy.",
+      },
+      {
+        id: "ha",
+        title: "When does the RF test be ordered?",
+        content:
+          "The doctor may order RF tests when they suspect any autoimmune conditions.",
+        content1: "When there is symptoms of Rheumatoid arthritis such as",
+        content2: "1. Joint stiffness in the morning,",
+        content3: "2. Fatigue and joint inflammation,",
+        content4: "3. Pain, warmth and swelling etc.",
+      },
+      {
+        id: "hwp",
+        title: "Uses of RF test",
+        content:
+          "The presence / absence, titres and isotopes have important indications in the diagnosis and prognosis of Rheumatoid arthritis.",
+        content1:
+          "Rheumatoid factor level in the serum is useful as a part of making initial diagnosis. But a positive RF test always doesn’t mean that the patient is suffering from Rheumatoid arthritis.",
+        content2:
+          "The results of the tests are taken into account and the diagnosis is determined more importantly with the symptoms and clinical examinations.",
+        content3: "Some of the assay techniques for quantifying RF are:",
+        content4: "1. Immunoturbidimetry assay",
+        content5: "2. Nephelometry",
+        content6: "3. Latex reaction test",
+        content7: "4. Immunoenzymatic test methods ",
+      },
+
+      {
+        content12:
+          "Everlife CPC offers identi Rheumatoid factor test kit for quantifying the levels of RF in the serum. The ready to use antisera – high sensitive reagent is compatible with any biochemistry analyzer.",
+      },
+      {
+        final: "CPC Diagnostics Pvt Ltd ",
+      },
+    ],
+  },
+  //this is thirteenth blog
+  {
+    id: 13,
+    title: "What makes up a complete lipid profile?",
+    admin: "by CPC Expert",
+    date: " Sep 12, 2022",
+    image: blogcommon,
+    content: "Full content of the first blog...",
+    sections: [
+      {
+        startcontent:
+          "Lipid profile or Lipid panel is a group of tests that measure the amount of cholesterol and triglycerides in the blood.",
+      },
+      {
+        id: "ha",
+        title: "Cholesterol",
+        content:
+          "Cholesterol: Cholesterol refers to a type of fat that is synthesized by our liver and also derived from our diet. Cholesterol helps in the proper formation of cell membranes. Cholesterol helps in the synthesis of bile, which in turn helps you digest the fat present in the food. Cholesterol is also needed to make certain hormones and to produce vitamin D. Cholesterol that circulates in the body is carried by the lipoproteins in the blood. These lipoproteins include: ",
+      },
+      {
+        id: "hwp",
+        title: "Low-density lipoprotein (LDL)",
+        content:
+          "Low-density lipoprotein (LDL): LDL is often called “the bad cholesterol.” When your body has too much LDL cholesterol, the LDL cholesterol can build up on the walls of your blood vessels, blocking the arteries and causing a heart attack.",
+      },
+      {
+        id: "hau",
+        title: "High-density lipoprotein (HDL)",
+        content3:
+          "High-density lipoprotein (HDL): HDL is often called “the good cholesterol” as it absorbs cholesterol from the blood and carries it back to the liver. The liver then flushes it from the body.",
+      },
+      {
+        id: "hapin",
+        title: "Very-low-density lipoproteins (VLDL)",
+
+        content:
+          "Very-low-density lipoproteins (VLDL): Particles in the blood that carry triglycerides.",
+
+        topic1: "Triglycerides",
+        content10:
+          "Triglycerides: Triglycerides are fats that are derived from the food we eat, and act as a source of immediate energy. Most of the fats, including butter and oils, are in triglyceride form. Excess calories from food are converted into triglycerides and are stored in the fat cells of the body. ",
+        content11:
+          "High cholesterol usually causes no signs or symptoms. High levels are linked to an increased risk of heart and blood vessel disease, including coronary artery disease, heart attack and death. Reducing LDL levels is a major treatment target for cholesterol-lowering medications. ",
+        content12:
+          "A complete cholesterol test is recommended to be done regularly to determine whether your cholesterol is high. Check out the chart on the recommended cholesterol levels and tips on maintaining your cholesterol levels.",
+      },
+      {
+        final: "CPC Diagnostics Pvt Ltd ",
+      },
+    ],
+  },
+  //this is Fourteenth blog
+  {
+    id: 14,
+    title: "HEART ATTACK AND CARDIAC BIOMARKERS",
+    admin: "by Dr. Sabitha Palazhy",
+    date: "Aug 31, 2022",
+    image: blogcommon,
+    content: "Full content of the first blog...",
+    sections: [
+      {
+        startcontent:
+          "A heart attack (myocardial infarction) usually occurs when a blood clot blocks blood flow to the heart. Without blood, tissue loses oxygen and dies. A heart attack is a medical emergency. ",
+        content: "The symptoms of a heart attack are as follows.",
+        content1:
+          "1. Pain or discomfort in the chest, such as a squeezing sensation or feeling of fullness.",
+        content2: "2. Pain in the neck, back, left arm, or jaw",
+        content3: "3. Shortness of breath",
+        content4: "4.  Light-headedness or dizziness",
+        content5: "5. Nausea or vomiting",
+        content6: "6. Sudden sweating",
+        content7: "7. Tiredness",
+        content8:
+          "Cardiac biomarkers include enzymes, proteins and hormones which show up in the blood when the heart is under severe stress or due to lack of proper oxygenation to the heart. These markers are tested to understand the severity of the heart attack or how seriously the heart has been affected. These biomarkers indicate if someone has suffered a heart attack currently or very recently.",
+      },
+      {
+        id: "ha",
+        title: "Cardiac troponin",
+        content:
+          "Cardiac troponin is a protein and is the most commonly used cardiac biomarker with very high sensitivity. Troponin is released into the bloodstream soon after a heart attack. It also stays in your bloodstream days after all other related biomarkers go back to normal levels. Two forms of troponin may be measured: troponin T and troponin I. Troponin I is highly specific to the heart and stays higher longer than another commonly used biomarker – creatinine kinase-MB. Current guidelines from the American Heart Association (AHA) say Cardiac troponin I is the best biomarker for finding a heart attack.",
+      },
+      {
+        id: "hwp",
+        title: "Creatinine kinase (CK)",
+        content:
+          "This is an enzyme that can also be measured several times over a 24- hour period of a suspected heart attack. It will often at least double if you’ve had a heart attack. But because levels of CK can go up in many other conditions besides a heart attack, it is not a very specific marker for heart attack. Other conditions that contribute to elevated CK levels are kidney failure, trauma due to surgery, inflammation, etc.",
+      },
+      {
+        id: "hau",
+        title: "CK-MB",
+        content3:
+          "This is a subtype of CK. It is more sensitive to finding heart damage from a heart attack. CK-MB rises 4 to 6 hours after a heart attack. But it is generally back to normal in a day or two. Because of this, it’s not very helpful when a healthcare provider is trying to figure out if your recent chest pain was a heart attack. Also, there is no correlation between the severity of heart attack and CK-MB levels. To help differentiate heart attack from skeletal muscle damage, a CK index can be calculated using CK-MB and total CK as follows: CK index = (CK-MB, ng/mL) x100 / (total CK activity, IU/L). If CK-MB is elevated and the CK index is higher than 2.5 to 3.0, heart damage is likely.",
+      },
+      {
+        id: "hapin",
+        title: "Myoglobin",
+
+        content:
+          "This is a small protein that stores oxygen. It is seen in the heart and skeletal muscles and is measured occasionally as suggested by the physician. Myoglobin is sometimes measured in addition to troponin to help diagnose a heart attack. It is also not very specific for finding a heart attack. Myoglobin increases in your blood 2 to 3 hours after the first symptoms of muscle damage.",
+      },
+      {
+        final: "CPC Diagnostics Pvt Ltd ",
+      },
+    ],
+  },
+  //this is Fifteenth blog
+  {
+    id: 15,
+    title: "Blood Disorders-Explained",
+    admin: "by Dr. Sabitha Palazhy ",
+    date: "Aug 6, 2022",
+    image: blogcommon,
+    content: "Full content of the first blog...",
+    sections: [
+      {
+        startcontent:
+          "Blood disorders occur when the cells in the blood do not function as they should, causing certain symptoms and related issues. The most common blood abnormalities are as follows",
+      },
+      {
+        topic1: "Anemia",
+        content9:
+          "People with anemia have a low number of red blood cells. Mild anemia often causes no symptoms. More severe anemia can cause fatigue, pale skin, and shortness of breath with exertion. ",
+      },
+      {
+        topic1: "Thalassemia",
+        content9:
+          "This is a genetic form of anemia that affects the body’s ability to produce hemoglobin and red blood cells. These patients may need regular blood transfusions to relieve anemia symptoms.",
+      },
+      {
+        topic1: "Sickle cell anemia",
+        content9:
+          "A genetic condition that causes the red blood cells to be sticky and stiff, which obstructs proper blood flow. Severe pain and organ damage can occur.",
+      },
+      {
+        topic1: "Polycythemia vera",
+        content9:
+          "The body produces too many red blood cells, from an unknown cause. The excess red blood cells usually create no problems, but may cause blood clots in some people and can turn fatal.",
+      },
+      {
+        topic1: "Lymphoma",
+        content9:
+          "A form of blood cancer that develops in the lymph system. In lymphoma, a white blood cell becomes malignant, multiplying and spreading abnormally. Treatment with chemotherapy and/or radiation can often extend life with lymphoma, and sometimes cure it.",
+      },
+      {
+        topic1: "Leukemia",
+        content9:
+          "A form of blood cancer in which a white blood cell becomes malignant and multiplies inside bone marrow. Leukemia may be acute (rapid and severe) or chronic (slowly progressing). Chemotherapy and/or stem cell transplantation (bone marrow transplant) can be used to treat leukemia, and may result in a cure.",
+      },
+      {
+        topic1: "Multiple myeloma",
+        content9:
+          "A blood cancer in which a white blood cell called a plasma cell becomes malignant. The plasma cells multiply and release damaging substances that eventually cause organ damage. Multiple myeloma has no cure, but stem cell transplant and/or chemotherapy can improve longevity.",
+      },
+      {
+        topic1: "Thrombocytopenia",
+        content9:
+          "A low number of platelets in the blood; numerous conditions can cause thrombocytopenia, but most are not severe and do not result in abnormal bleeding.",
+      },
+      {
+        topic1: "Purpura",
+        content9:
+          "A condition causing a persistently low number of platelets in the blood, due to an unknown cause; usually, there are no symptoms, yet abnormal bruising, small red spots on the skin, or abnormal bleeding can result.",
+      },
+      {
+        topic1: "Von Willebrand disease",
+        content9:
+          "It is an inherited bleeding disorder. People with von Willebrand disease can have heavier-than-normal bleeding after an injury, surgery, menstrual flow and childbirth. In rare cases, this condition can be fatal.",
+      },
+      {
+        topic1: "Hemophilia",
+        content9:
+          "Hemophilia is a rare, inherited bleeding disorder in which blood cannot clot normally at the site of a wound or injury. The disorder occurs because certain blood clotting factors are missing or do not work properly. Because a clot does not form, extensive bleeding can be caused from a cut or wound. This is called external bleeding. Bleeding inside the body, called internal bleeding, can occur as well, especially in muscles and in joints like the hips and knees.",
+      },
+      {
+        final: "CPC Diagnostics Pvt Ltd ",
+      },
+    ],
+  },
+  //this is Sixteenth blog
+  {
+    id: 16,
+    title: "Risk of Hyperlipidemia in Atherosclerosis?",
+    admin: "by Priyadharshini C",
+    date: "Jun 20, 2022",
+    image: blogcommon,
+    content: "Full content of the first blog...",
+    sections: [
+      {
+        title: "Overview",
+        startcontent:
+          "Dietary lipids are transported inside the body through lipoproteins after getting absorbed by the intestines. Absorbed lipids are utilized for the production of energy, bile formation, or steroid formation. Lipids are insoluble in water and are carried in the blood circulation via carrier proteins called Apo proteins. A high level of lipids in the blood is known as hyperlipidemia.",
+        content:
+          "The lab diagnosis is based on measuring lipids levels in the blood. Various lipoproteins are measured using any clinical chemistry analyzer.",
+      },
+      {
+        id: "ha",
+        title: "Causes",
+        content: "1. The primary causes are genetic or familial.",
+        content1: "2. The acquired causes are as follows:",
+        content2: "3. A high-fat diet with excess saturated and trans fat",
+        content3:
+          "4. Underlying health conditions like kidney disease, liver disease, underactive thyroid, etc.,",
+        content4:
+          "5. lifestyle choices like an unbalanced diet, insufficient exercise, smoking, obesity and heavy alcohol use.",
+        content5: "6. Some medications",
+      },
+      {
+        id: "hwp",
+        title: "Lipoproteins:- What are VLDL, LDL, and HDL?",
+        content:
+          "Major fractions of Lipoproteins tested in the blood lipid profile are Cholesterol, Triglycerides, VLDL (very low-density lipoprotein), LDL (Low-density lipoprotein) and HDL (high-density lipoprotein – protective or good cholesterol)",
+        content1:
+          "Many studies have demonstrated the harmful effects of a diet containing larger quantities of saturated fats and trans fats that raise the level of blood cholesterol.",
+        content2:
+          "The incidences and complications of Atherosclerosis increase with elevated blood lipid levels in an individual. The total cholesterol concentration reflects the total lipoproteins in the blood.",
+        content3:
+          "LDL is the richest in cholesterol and has the maximum association with Atherosclerosis compared to other lipoproteins.",
+        content4:
+          "Atherosclerosis is characterized by localized fibrous thickening of the arterial wall associated with lipid infiltrated plaques which may eventually calcify. Breaking or rupture of the old plaques initiates the formation of thrombi (blood clots) which eventually obstructs the blood flow.",
+        content5:
+          "Obstruction of blood flow leads to common but severe life-threatening diseases of the heart (Myocardial Infarction, Ischemic Heart Disease) and brain (Stroke). It also results in abnormalities of renal blood circulation, insufficiency of blood flow towards the limbs, and dilations of the large arteries.",
+        content6:
+          "Knowing the numbers of one’s lipid levels, healthy diet, exercise, and keeping an eye on body weight shall prevent hyperlipidemia.",
+      },
+      {
+        id: "hau",
+        title: "Diagnosis",
+        content3:
+          "Doctors will use the lipid panel to diagnose hyperlipidemia.",
+        content4:
+          "1. Serum Quantification of Cholesterol, Triglycerides, HDL, LDL.",
+        content5:
+          "2. Biochemistry analyzers are used to measure the lipids level in the blood. Fully Automated Biochemistry analyzers are reliable with the advantages such as “ease of use”, accuracy and reproducibility.",
+        content6:
+          "Everlife CPC offers identi clinical chemistry lipid profile for the quantification of lipids. The ready-to-use, good end color stable reagents are compatible with any Biochemistry analyzer.",
+      },
+
+      {
+        final: "CPC Diagnostics Pvt Ltd ",
+      },
+    ],
+  },
+  //this is seventeenth blog
+  {
+    id: 17,
+    title: "All about Anti- Phospholipid Syndrome",
+    admin: "by admin",
+    date: "May 9, 2022",
+    image: blogcommon,
+    content: "Full content of the first blog...",
+    sections: [
+      {
+        topic1: "What is Anti-Phospholipid Syndrome (APS) ?",
+        content9:
+          "Anti- Phospholipid syndrome is a rare autoimmune disease during which the body produces antibodies against phospholipids and associated proteins. It increases the risk of thrombotic tendency and pregnancy complications.",
+      },
+      {
+        topic1: "APS and its devastation",
+      },
+      {
+        topic1: "Symptoms",
+        content9:
+          "Increased Vascular occlusions can occur both in veins and arteries. Leg vein thrombosis and lung embolism are the most frequent.",
+      },
+      {
+        topic1: "APS and pregnancy",
+        content9:
+          "APS in pregnant women is associated with a significantly higher risk of complications such as spontaneous abortion or premature delivery. APS should be considered in cases of repeated miscarriages without any noticeable cause.",
+      },
+      {
+        id: "hapin",
+        title: "Risk factors",
+        topic1: "Anti-phospholipid antibodies:",
+        content9:
+          "Anti-phospholipid antibodies are a group of heterogeneous antibodies directed against different phospholipids or plasma proteins. Target antigens include cardiolipin and phosphatidylserine, but also proteins such as beta-2-glycoprotein. In suspected anti-phospholipid syndrome, there are mainly three diagnostic classes: antibodies against cardiolipin and beta-2-glycoprotein 1 and lupus anticoagulant.",
+      },
+      {
+        topic1: "Method of Choice:",
+        content9:
+          "ELISA is the method of choice for the detection of APLA, since it is highly sensitive, simple to perform, and does not require fresh plasma. The immunoglobulin classes IgA, IgG, and IgM can be investigated separately or together (IgAGM). Alternatively, lupus anticoagulants can be determined by measuring the extension of the coagulation time. These test systems have high specificity for APS, but they are less sensitive than autoantibody.",
+      },
+      {
+        topic1: "Key role of EUROIMMUN Elisa:",
+        content9:
+          "Medical practitioners and pathologists all over the world prefer EUROIMMUN ELISAs for the determination of autoantibodies against phospholipids primarily for the outstanding features such as:",
+        content10: "1. High Specificity and Sensitivity.",
+        content11:
+          "2. Individual availability of all Ig classes recommended by the international consensus statement.",
+        content12: "3. Flexibility: Manual and automation possible.",
+      },
+      {
+        topic1: "The Diagnostic Strategy:",
+        content9:
+          "This diagram would give an easy-to-understand graphical representation of the process:",
+        content10:
+          "On this APS Day, let us thank the medical fraternity who are focusing on various research to reduce the severity of the disease and improve the quality of life of patients.",
+        content11:
+          "I wish, research should focus on improved drugs which can switch off the harmful signals thereby diminishing the complications in patients and ensuring a better life.",
+      },
+      {
+        topic1: "Dr.Sunitha Shaibu",
+        content9: "Group Product Manager",
+        final: "CPC Diagnostics Pvt Ltd ",
+      },
+    ],
+  },
+  //this is Eighteenth blog
+  {
+    id: 18,
+    title: "Systemic Sclerosis",
+    admin: "by admin ",
+    date: "May 9, 2022",
+    image: blogcommon,
+    content: "Full content of the first blog...",
+    sections: [
+      {
+        topic1: "Scleroderma – The disease:",
+        content9:
+          "Systemic sclerosis (SSc, scleroderma) is a rare and complex autoimmune disease characterized by fibrosis of the skin and visceral organs. Like many other autoimmune diseases, it also predominantly affects females in the age group of 30 to 50yrs. The prevalence rate of this disease is around 5/100,000 with an incidence of 1/100,000. The etiology is unknown and might be caused by the abnormal immune response. The diseases can bring about changes in the skin, blood vessels, internal organs, and muscles. The chief pathological events involved in its pathogenesis are mainly endothelial damage, fibrosis, and autoimmune dysregulation.",
+        content10:
+          "SSc can be classified into different types based on various criteria like the involvement of organs and the presence of autoantibodies. These autoantibodies are disease-specific and usually mutually exclusive and correlate with the extent of skin involvement and associated disease manifestations. The main autoantibodies include anti-SCL 70 (DNA topoisomerase) and anti-centromere antibodies (CENP A and/or B protein).",
+        content11: "Image Courtesy: drjockers.com",
+        content12:
+          "SSc is divided into diffuse and limited forms based on cutaneous distribution. In the limited form, skin involvement is limited to the distal extremities, while in the diffuse form, the symptoms are diffusely distributed over the trunk, proximal and distal extremities, and the face. The CREST syndrome, with Calcinosis, Raynaud’s syndrome, esophageal dysfunction, sclerodactyly, and telangiectasias is a special form of SSc. Currently, lung involvement is the most common cause of death in these patients.",
+      },
+      {
+        id: "ha",
+        title: "Everlife CPC’s Offering:",
+        content:
+          "EUROLINE Systemic sclerosis profile is the first membrane-based test system that contains a wide range of SSc-associated antigens. This test allows differentiation of nucleoli antigens observed using the Indirect Immunofluorescence method. The exceptional sensitivity and specificity of the test system allow comprehensive differentiation of SSc-associated antigens with extreme accuracy.",
+      },
+      {
+        id: "hwp",
+        title: "Benefits of EUROLINE SSc profile:",
+        content:
+          "Multiplex approach for confirmation and differentiation of Nucleoli patterns.",
+        content1:
+          "The comprehensive spectrum of SSc-associated antigens in one test kit ensures the highest possible detection rate.",
+        content2: "Automation through PlexMAT and EUROBlotOne",
+        content3: "Easy Manual analysis.",
+        content4:
+          "The advent of effective biomarkers can guide clinical diagnosis and result in the better management of this rare difficult disease.",
+      },
+
+      {
+        topic1: "Dr.Sunitha Shaibu",
+        content9: "Group Product Manager",
+        final: "CPC Diagnostics Pvt Ltd ",
+      },
+    ],
+  },
 ];
 
 function SingleBlog() {
-  const [load, setLoad] = useState(true);
   useEffect(() => {
     window.scrollTo(0, 0);
-    setTimeout(() => {
-      setLoad(false);
-    }, 500);
   }, []);
   const { id } = useParams();
   const blog = blogs.find((blog) => blog.id === parseInt(id));
@@ -294,113 +989,106 @@ function SingleBlog() {
   }
 
   return (
-    <>
-      {load ? (
-        <Loader />
-      ) : (
-        <div className="container-fluid">
-          <div className=" mt-10 p-10 text-center">
-            <div>
-              <h1 className="text-4xl text-maincol font-semibold">
-                {blog.title}
-              </h1>
+    <div className="container-fluid">
+      <div className=" mt-10 p-10 text-center">
+        <div>
+          <h1 className="text-4xl text-maincol font-semibold">{blog.title}</h1>
+        </div>
+
+        <div className="flex justify-center items-center mt-10">
+          <FaRegUserCircle size={25} color="#02a884" className="mr-4" />{" "}
+          {blog.admin} &nbsp; {blog.date} <br />
+          <div className="w-20 bg-maincol h-1 relative top-8 right-32"></div>
+        </div>
+
+        <div className="mt-14 flex items-center justify-center">
+          <img src={blog.image} alt="blog banner " />
+        </div>
+      </div>
+      <div className="grid grid-cols-12 p-10 scroll-smooth transition-all ease-in-out">
+        <div className="col-span-4 md:block lg:block xl:block hidden">
+          <div className="sticky top-24">
+            <h2 className="text-maincol font-semibold text-left  text-2xl">
+              Share this article
+            </h2>
+            <div className="flex gap-4 items-center mt-4">
+              <a
+                href=""
+                className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
+              >
+                <FaTwitter size={20} />
+              </a>
+              <a
+                href=""
+                className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
+              >
+                <FaFacebookF size={20} />
+              </a>
+              <a
+                href=""
+                className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
+              >
+                <FaInstagram size={20} />
+              </a>
+              <a
+                href=""
+                className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
+              >
+                <FaYoutube size={23} />
+              </a>
             </div>
 
-            <div className="flex justify-center items-center mt-10">
-              <FaRegUserCircle size={25} color="#02a884" className="mr-4" /> By
-              admin &nbsp; {blog.date} <br />
-              <div className="w-20 bg-maincol h-1 relative top-8 right-32"></div>
-            </div>
-
-            <div className="mt-14 flex items-center justify-center">
-              <img src={blogbanner} alt="blog banner " />
-            </div>
-          </div>
-          <div className="grid grid-cols-12 p-10 scroll-smooth transition-all ease-in-out">
-            <div className="col-span-4 md:block lg:block xl:block hidden">
-              <div className="sticky top-24">
-                <h2 className="text-maincol font-semibold text-left  text-2xl">
-                  Share this article
-                </h2>
-                <div className="flex gap-4 items-center mt-4">
-                  <a
-                    href=""
-                    className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
-                  >
-                    <FaTwitter size={20} />
-                  </a>
-                  <a
-                    href=""
-                    className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
-                  >
-                    <FaFacebookF size={20} />
-                  </a>
-                  <a
-                    href=""
-                    className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
-                  >
-                    <FaInstagram size={20} />
-                  </a>
-                  <a
-                    href=""
-                    className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
-                  >
-                    <FaYoutube size={23} />
-                  </a>
-                </div>
-
-                <div className="mt-8 ">
-                  {blog.sections.map((section) => (
-                    <div key={section.id}>
-                      <a
-                        href={`#${section.id}`}
-                        className="mt-4 hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
-                      >
-                        <span className="text-fontptag"> {section.title}</span>
-                      </a>{" "}
-                      <br />
-                      <br />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            <div className="md:col-span-8 lg:col-span-8 xl:col-span-8 col-span-12 text-justify leading-8">
+            <div className="mt-8 ">
               {blog.sections.map((section) => (
-                <div key={section.id} id={section.id}>
-                  <p className="text-fontextra">{section.startcontent}</p>
-                  <h2 className="text-2xl text-maincol font-semibold mt-10">
-                    {section.title}
-                  </h2>
-                  <p className="mt-4 text-fontextra">{section.content}</p>
-                  <p className="mt-4 text-fontextra">{section.content1}</p>
-                  <p className="mt-4 text-fontextra">{section.content2}</p>
-                  <p className="mt-4 text-fontextra">{section.content3}</p>
-                  <p className="mt-4 text-fontextra">{section.content4}</p>
-                  <p className="mt-4 text-fontextra">{section.content5}</p>
-                  <p className="mt-4 text-fontextra">{section.content6}</p>
-                  <p className="mt-4 text-fontextra">{section.content7}</p>
-                  <p className="mt-4 text-fontextra">{section.content8}</p>
-                  <h2 className="mt-4 text-fontextra text-black text-left">
-                    {section.topic1}
-                  </h2>
-                  <p className="mt-4 text-fontextra">{section.content9}</p>
-                  <p className="mt-4 text-fontextra">{section.content10}</p>
-                  <h2 className="mt-4 text-fontextra text-black text-left">
-                    {section.topic2}
-                  </h2>
-                  <p className="mt-4 text-fontextra">{section.content11}</p>
-                  <p className="mt-4 text-fontextra"> {section.content12}</p>
-                  <p className="mt-4 text-fontextra"> {section.final}</p>
+                <div key={section.id}>
+                  <a
+                    href={`#${section.id}`}
+                    className="mt-4 hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
+                  >
+                    <span className="text-fontptag"> {section.title}</span>
+                  </a>{" "}
+                  <br />
+                  <br />
                 </div>
               ))}
             </div>
           </div>
-          <Footer />
         </div>
-      )}
-    </>
+
+        <div className="md:col-span-8 lg:col-span-8 xl:col-span-8 col-span-12 text-justify leading-8">
+          {blog.sections.map((section) => (
+            <div key={section.id} id={section.id}>
+              <p className="text-fontextra">{section.startcontent}</p>
+              <p className="text-fontextra">{section.subcontent}</p>
+              <h2 className="text-2xl text-maincol font-semibold mt-10">
+                {section.title}
+              </h2>
+              <p className="mt-4 text-fontextra">{section.content}</p>
+              <p className="mt-4 text-fontextra">{section.content1}</p>
+              <p className="mt-4 text-fontextra">{section.content2}</p>
+              <p className="mt-4 text-fontextra">{section.content3}</p>
+              <p className="mt-4 text-fontextra">{section.content4}</p>
+              <p className="mt-4 text-fontextra">{section.content5}</p>
+              <p className="mt-4 text-fontextra">{section.content6}</p>
+              <p className="mt-4 text-fontextra">{section.content7}</p>
+              <p className="mt-4 text-fontextra">{section.content8}</p>
+              <h2 className="mt-4 text-xl text-black text-left">
+                {section.topic1}
+              </h2>
+              <p className="mt-4 text-fontextra">{section.content9}</p>
+              <p className="mt-4 text-fontextra">{section.content10}</p>
+              <h2 className="mt-4 text-xl text-black text-left">
+                {section.topic2}
+              </h2>
+              <p className="mt-4 text-fontextra">{section.content11}</p>
+              <p className="mt-4 text-fontextra"> {section.content12}</p>
+              <p className="mt-4 text-fontextra"> {section.final}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      <Footer />
+    </div>
   );
 }
 
