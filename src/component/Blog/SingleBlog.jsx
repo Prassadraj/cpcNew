@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import {
   FaRegUserCircle,
@@ -19,6 +19,7 @@ import blog9 from "../../assets/image/pic.jpg";
 import blog10 from "../../assets/image/woman-patient-receives-thyroid-diagnostics-treatment-thyrotoxicosis-hypothyroidism-ultrasound-diagnostics-endocrine-system-thyroid-768x512.jpg";
 import blog11 from "../../assets/image/medium-shot-woman-looking-through-microscope-768x549.jpg";
 import Footer from "../../homepages/Footer/Footer";
+import Loader from "../Loader/Loader";
 
 const blogs = [
   //this is first blog
@@ -978,8 +979,12 @@ const blogs = [
 ];
 
 function SingleBlog() {
+  const [load, setLoad] = useState(true);
   useEffect(() => {
     window.scrollTo(0, 0);
+    setTimeout(() => {
+      setLoad(false);
+    }, 500);
   }, []);
   const { id } = useParams();
   const blog = blogs.find((blog) => blog.id === parseInt(id));
@@ -989,106 +994,114 @@ function SingleBlog() {
   }
 
   return (
-    <div className="container-fluid">
-      <div className=" mt-10 p-10 text-center">
-        <div>
-          <h1 className="text-4xl text-maincol font-semibold">{blog.title}</h1>
-        </div>
-
-        <div className="flex justify-center items-center mt-10">
-          <FaRegUserCircle size={25} color="#02a884" className="mr-4" />{" "}
-          {blog.admin} &nbsp; {blog.date} <br />
-          <div className="w-20 bg-maincol h-1 relative top-8 right-32"></div>
-        </div>
-
-        <div className="mt-14 flex items-center justify-center">
-          <img src={blog.image} alt="blog banner " />
-        </div>
-      </div>
-      <div className="grid grid-cols-12 p-10 scroll-smooth transition-all ease-in-out">
-        <div className="col-span-4 md:block lg:block xl:block hidden">
-          <div className="sticky top-24">
-            <h2 className="text-maincol font-semibold text-left  text-2xl">
-              Share this article
-            </h2>
-            <div className="flex gap-4 items-center mt-4">
-              <a
-                href=""
-                className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
-              >
-                <FaTwitter size={20} />
-              </a>
-              <a
-                href=""
-                className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
-              >
-                <FaFacebookF size={20} />
-              </a>
-              <a
-                href=""
-                className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
-              >
-                <FaInstagram size={20} />
-              </a>
-              <a
-                href=""
-                className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
-              >
-                <FaYoutube size={23} />
-              </a>
+    <>
+      {load ? (
+        <Loader />
+      ) : (
+        <div className="container-fluid">
+          <div className=" mt-10 p-10 text-center">
+            <div>
+              <h1 className="text-4xl text-maincol font-semibold">
+                {blog.title}
+              </h1>
             </div>
 
-            <div className="mt-8 ">
-              {blog.sections.map((section) => (
-                <div key={section.id}>
+            <div className="flex justify-center items-center mt-10">
+              <FaRegUserCircle size={25} color="#02a884" className="mr-4" />{" "}
+              {blog.admin} &nbsp; {blog.date} <br />
+              <div className="w-20 bg-maincol h-1 relative top-8 right-32"></div>
+            </div>
+
+            <div className="mt-14 flex items-center justify-center">
+              <img src={blog.image} alt="blog banner " />
+            </div>
+          </div>
+          <div className="grid grid-cols-12 p-10 scroll-smooth transition-all ease-in-out">
+            <div className="col-span-4 md:block lg:block xl:block hidden">
+              <div className="sticky top-24">
+                <h2 className="text-maincol font-semibold text-left  text-2xl">
+                  Share this article
+                </h2>
+                <div className="flex gap-4 items-center mt-4">
                   <a
-                    href={`#${section.id}`}
-                    className="mt-4 hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
+                    href=""
+                    className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
                   >
-                    <span className="text-fontptag"> {section.title}</span>
-                  </a>{" "}
-                  <br />
-                  <br />
+                    <FaTwitter size={20} />
+                  </a>
+                  <a
+                    href=""
+                    className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
+                  >
+                    <FaFacebookF size={20} />
+                  </a>
+                  <a
+                    href=""
+                    className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
+                  >
+                    <FaInstagram size={20} />
+                  </a>
+                  <a
+                    href=""
+                    className="hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
+                  >
+                    <FaYoutube size={23} />
+                  </a>
+                </div>
+
+                <div className="mt-8 ">
+                  {blog.sections.map((section) => (
+                    <div key={section.id}>
+                      <a
+                        href={`#${section.id}`}
+                        className="mt-4 hover:text-maincol hover:scale-110 hover:transition-all hover ease-in-out"
+                      >
+                        <span className="text-fontptag"> {section.title}</span>
+                      </a>{" "}
+                      <br />
+                      <br />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div className="md:col-span-8 lg:col-span-8 xl:col-span-8 col-span-12 text-justify leading-8">
+              {blog.sections.map((section) => (
+                <div key={section.id} id={section.id}>
+                  <p className="text-fontextra">{section.startcontent}</p>
+                  <p className="text-fontextra">{section.subcontent}</p>
+                  <h2 className="text-2xl text-maincol font-semibold mt-10">
+                    {section.title}
+                  </h2>
+                  <p className="mt-4 text-fontextra">{section.content}</p>
+                  <p className="mt-4 text-fontextra">{section.content1}</p>
+                  <p className="mt-4 text-fontextra">{section.content2}</p>
+                  <p className="mt-4 text-fontextra">{section.content3}</p>
+                  <p className="mt-4 text-fontextra">{section.content4}</p>
+                  <p className="mt-4 text-fontextra">{section.content5}</p>
+                  <p className="mt-4 text-fontextra">{section.content6}</p>
+                  <p className="mt-4 text-fontextra">{section.content7}</p>
+                  <p className="mt-4 text-fontextra">{section.content8}</p>
+                  <h2 className="mt-4 text-xl text-black text-left">
+                    {section.topic1}
+                  </h2>
+                  <p className="mt-4 text-fontextra">{section.content9}</p>
+                  <p className="mt-4 text-fontextra">{section.content10}</p>
+                  <h2 className="mt-4 text-xl text-black text-left">
+                    {section.topic2}
+                  </h2>
+                  <p className="mt-4 text-fontextra">{section.content11}</p>
+                  <p className="mt-4 text-fontextra"> {section.content12}</p>
+                  <p className="mt-4 text-fontextra"> {section.final}</p>
                 </div>
               ))}
             </div>
           </div>
+          <Footer />
         </div>
-
-        <div className="md:col-span-8 lg:col-span-8 xl:col-span-8 col-span-12 text-justify leading-8">
-          {blog.sections.map((section) => (
-            <div key={section.id} id={section.id}>
-              <p className="text-fontextra">{section.startcontent}</p>
-              <p className="text-fontextra">{section.subcontent}</p>
-              <h2 className="text-2xl text-maincol font-semibold mt-10">
-                {section.title}
-              </h2>
-              <p className="mt-4 text-fontextra">{section.content}</p>
-              <p className="mt-4 text-fontextra">{section.content1}</p>
-              <p className="mt-4 text-fontextra">{section.content2}</p>
-              <p className="mt-4 text-fontextra">{section.content3}</p>
-              <p className="mt-4 text-fontextra">{section.content4}</p>
-              <p className="mt-4 text-fontextra">{section.content5}</p>
-              <p className="mt-4 text-fontextra">{section.content6}</p>
-              <p className="mt-4 text-fontextra">{section.content7}</p>
-              <p className="mt-4 text-fontextra">{section.content8}</p>
-              <h2 className="mt-4 text-xl text-black text-left">
-                {section.topic1}
-              </h2>
-              <p className="mt-4 text-fontextra">{section.content9}</p>
-              <p className="mt-4 text-fontextra">{section.content10}</p>
-              <h2 className="mt-4 text-xl text-black text-left">
-                {section.topic2}
-              </h2>
-              <p className="mt-4 text-fontextra">{section.content11}</p>
-              <p className="mt-4 text-fontextra"> {section.content12}</p>
-              <p className="mt-4 text-fontextra"> {section.final}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-      <Footer />
-    </div>
+      )}
+    </>
   );
 }
 

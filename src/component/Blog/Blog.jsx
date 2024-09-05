@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import banner from "../../assets/image/banner-image.png";
 import blog1 from "../../assets/image/Hematology-analyzer-blog.png";
@@ -13,6 +13,7 @@ import blog10 from "../../assets/image/woman-patient-receives-thyroid-diagnostic
 import blog11 from "../../assets/image/medium-shot-woman-looking-through-microscope-768x549.jpg";
 
 import Footer from "../../homepages/Footer/Footer";
+import Loader from "../Loader/Loader";
 
 const blogs = [
   //first blog
@@ -218,61 +219,71 @@ const blogs = [
 ];
 
 function Blog() {
+  const [load, setLoad] = useState(true);
   useEffect(() => {
     window.scrollTo(0, 0);
+    setTimeout(() => {
+      setLoad(false);
+    }, 500);
   }, []);
   return (
-    <div className="scroll-smooth">
-      <div className="grid grid-cols-1 ">
-        <img src={banner} alt="bannerimage" className="mx-auto " />
-        <header className="md:absolute md:top-24 md:ml-20 md:text-white sm:text-black">
-          <h1 className="md:text-6xl lg:text-6xl xl:text-6xl text-4xl md:text-left lg:text-left xl:text-left  mt-4 font-bold ">
-            Blog
-          </h1>
-          <div className="md:w-40 md:h-1 md:ml-0 md:bg-white  w-40 h-1 ml-28 mt-3"></div>
-          <p className="md:text-xl lg:text-xl xl:text-xl md:text-left lg:text-left xl:text-left  text-base mt-2">
-            We are the leading Medical laboratory
-            <br /> Equipment Manufactures
-          </p>
-        </header>
-      </div>
+    <>
+      {load ? (
+        <Loader />
+      ) : (
+        <div className="scroll-smooth">
+          <div className="grid grid-cols-1 ">
+            <img src={banner} alt="bannerimage" className="mx-auto " />
+            <header className="md:absolute md:top-24 md:ml-20 md:text-white sm:text-black">
+              <h1 className="md:text-6xl lg:text-6xl xl:text-6xl text-4xl md:text-left lg:text-left xl:text-left  mt-4 font-bold ">
+                Blog
+              </h1>
+              <div className="md:w-40 md:h-1 md:ml-0 md:bg-white  w-40 h-1 ml-28 mt-3"></div>
+              <p className="md:text-xl lg:text-xl xl:text-xl md:text-left lg:text-left xl:text-left  text-base mt-2">
+                We are the leading Medical laboratory
+                <br /> Equipment Manufactures
+              </p>
+            </header>
+          </div>
 
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 p-10 max-w-fit">
-        {blogs.map((blog) => (
-          <Link
-            to={`/blog/${blog.id}`}
-            key={blog.id}
-            className="hover:scale-105 transition-all"
-          >
-            <div className="shadow-custom-shadow rounded-xl flex flex-col h-full">
-              <div className="h-48">
-                <img
-                  src={blog.image}
-                  alt={blog.alt}
-                  className="w-full h-full object-cover rounded-t-lg"
-                />
-              </div>
-              <div className="px-2 py-1 flex-grow">
-                <h2 className="mt-5 text-maincol text-left text-xl font-semibold">
-                  {blog.title}
-                </h2>
-                <p className="mt-2 text-sm">
-                  {blog.admin} | {blog.date}
-                </p>
-                <p className="mt-2">{blog.content}</p>
-              </div>
-              <div className="px-2 py-1 mt-auto">
-                <button className="mt-8 border-2 border-maincol p-2 rounded-md hover:bg-maincol hover:text-white transition-all">
-                  Read more
-                </button>
-              </div>
-            </div>
-          </Link>
-        ))}
-      </div>
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 p-10 max-w-fit">
+            {blogs.map((blog) => (
+              <Link
+                to={`/blog/${blog.id}`}
+                key={blog.id}
+                className="hover:scale-105 transition-all"
+              >
+                <div className="shadow-custom-shadow rounded-xl flex flex-col h-full">
+                  <div className="h-48">
+                    <img
+                      src={blog.image}
+                      alt={blog.alt}
+                      className="w-full h-full object-cover rounded-t-lg"
+                    />
+                  </div>
+                  <div className="px-2 py-1 flex-grow">
+                    <h2 className="mt-5 text-maincol text-left text-xl font-semibold">
+                      {blog.title}
+                    </h2>
+                    <p className="mt-2 text-sm">
+                      {blog.admin} | {blog.date}
+                    </p>
+                    <p className="mt-2">{blog.content}</p>
+                  </div>
+                  <div className="px-2 py-1 mt-auto">
+                    <button className="mt-8 border-2 border-maincol p-2 rounded-md hover:bg-maincol hover:text-white transition-all">
+                      Read more
+                    </button>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
 
-      <Footer />
-    </div>
+          <Footer />
+        </div>
+      )}
+    </>
   );
 }
 

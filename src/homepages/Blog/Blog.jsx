@@ -1,6 +1,7 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Blog() {
   useEffect(() => {
@@ -48,9 +49,11 @@ function Blog() {
         <p className="text-left text-custom-green tablet:text-3xl font-poppins font-bold uppercase">
           Blog Snippets
         </p>
-        <p className="  bg-custom-green w-fit tablet:px-4 tablet:py-3  tablet:w-[10vw] h-fit text-center text-white rounded-lg text-xs tablet:text-md tablet:font-semibold font-poppins p-2">
-          View All
-        </p>
+        <Link to="/blog">
+          <p className="  bg-custom-green w-fit tablet:px-4 tablet:py-3  tablet:w-[10vw] h-fit text-center text-white rounded-lg text-xs tablet:text-md tablet:font-semibold font-poppins p-2">
+            View All
+          </p>
+        </Link>
       </div>
       <p className="w-[300px] tablet:w-fit tablet:text-lg font-poppins mt-2 tablet:px-10 tablet:mb-5">
         We use only the best quality materials on the market in order to provide
