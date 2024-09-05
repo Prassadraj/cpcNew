@@ -10,6 +10,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { SiTicktick } from "react-icons/si";
 import Loader from "../Loader/Loader";
+
 import Footer from "../../homepages/Footer/Footer";
 
 const content = {
@@ -207,7 +208,7 @@ function Brand() {
                 {content.heading1}
               </h4>
               <div className="flex gap-4">
-                <SiTicktick size={120} color="#02a884" className="" />
+                <SiTicktick size={170} color="#02a884" className="" />
                 <p className="mt-5 leading-7 text-fontextra">
                   {content.inner1}
                 </p>
@@ -221,7 +222,7 @@ function Brand() {
               <img
                 src={sachika}
                 alt=""
-                className="w-10/12 rounded-lg shadow-lg "
+                className="w-10/12 mt-5 rounded-lg shadow-lg "
               />
             </div>
 
@@ -234,7 +235,7 @@ function Brand() {
               <img
                 src={frame}
                 alt=""
-                className="w-10/12 rounded-lg shadow-lg "
+                className="w-10/12 mt-5 rounded-lg shadow-lg "
               />
             </div>
 
@@ -247,8 +248,8 @@ function Brand() {
                 {content.heading2}
               </h4>
               <div className="flex gap-4">
-                <SiTicktick size={35} color="#02a884" className="mt-4" />
-                <p className=" mt-4 leading-7 text-fontextra">
+                <SiTicktick size={80} color="#02a884" className="mt-4" />
+                <p className=" mt-4 leading-8 text-fontextra">
                   {content.inner2}
                 </p>
               </div>
@@ -265,7 +266,7 @@ function Brand() {
               </h4>
 
               <div className="flex gap-4">
-                <SiTicktick size={65} color="#02a884" className="" />
+                <SiTicktick size={150} color="#02a884" className="" />
                 <p className="mt-3 leading-7 text-fontextra">
                   {content.inner3}
                 </p>
@@ -304,7 +305,7 @@ function Brand() {
                 {jeevcon.heading1}
               </h4>
               <div className="flex gap-4">
-                <SiTicktick size={65} color="#02a884" className="" />
+                <SiTicktick size={140} color="#02a884" className="" />
                 <p className="mt-3 leading-7 text-fontextra">
                   {jeevcon.content1}
                 </p>
@@ -344,7 +345,7 @@ function Brand() {
                 {jeevcon.heading2}
               </h4>
               <div className="flex gap-4">
-                <SiTicktick size={65} color="#02a884" className="" />
+                <SiTicktick size={120} color="#02a884" className="" />
                 <p className="mt-3 leading-7 text-fontextra">
                   {jeevcon.content2}
                 </p>
@@ -362,7 +363,7 @@ function Brand() {
                 {jeevcon.heading3}
               </h4>
               <div className="flex gap-4">
-                <SiTicktick size={20} color="#02a884" className="mt-6" />
+                <SiTicktick size={120} color="#02a884" className="mt-6" />
                 <p className="mt-4 leading-7 text-fontextra">
                   {jeevcon.content3}
                 </p>
@@ -402,7 +403,7 @@ function Brand() {
                 </h4>
 
                 <div className="flex gap-4">
-                  <SiTicktick size={65} color="#02a884" className="" />
+                  <SiTicktick size={105} color="#02a884" className="" />
                   <p className="mt-3 leading-7 text-fontextra">
                     {cpccon.content1}
                   </p>
@@ -442,6 +443,7 @@ function Brand() {
                   {cpccon.heading2}
                 </h4>
                 <div className="flex gap-4">
+                  <SiTicktick size={115} color="#02a884" className="mt-6" />
                   <p className="mt-4 leading-7 text-fontextra">
                     {cpccon.content2}
                   </p>
@@ -459,7 +461,7 @@ function Brand() {
                   {cpccon.heading3}
                 </h4>
                 <div className="flex gap-4">
-                  <SiTicktick size={17} color="#02a884" className="mt-6" />{" "}
+                  <SiTicktick size={47} color="#02a884" className="mt-6" />{" "}
                   <p className="mt-4 leading-7 text-fontextra">
                     {cpccon.content3}
                   </p>
@@ -499,7 +501,7 @@ function Brand() {
                   {itrackcon.heading1}
                 </h4>
                 <div className="flex gap-4">
-                  <SiTicktick size={130} color="#02a884" className="" />{" "}
+                  <SiTicktick size={70} color="#02a884" className="" />{" "}
                   <p className="mt-4 leading-7 text-fontextra">
                     {itrackcon.content1}
                   </p>

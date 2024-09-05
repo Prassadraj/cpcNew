@@ -6,8 +6,12 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import "../../App.css";
 import "./success.css";
+import { GiAchievement } from "react-icons/gi";
+import { GrAchievement } from "react-icons/gr";
+import { HiMiniRocketLaunch } from "react-icons/hi2";
 import Footer from "../../homepages/Footer/Footer";
 import Loader from "../Loader/Loader";
+
 function Success() {
   const [load, setLoad] = useState(true);
   useEffect(() => {
@@ -31,285 +35,251 @@ function Success() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
+                background: "#10b981",
+                color: "white",
+                border: "",
                 borderRadius: "10px",
+                padding: "50px",
               }}
-              iconStyle={{ background: "black", color: "gray" }}
+              iconStyle={{
+                background: "#D6FFF5",
+                color: "black",
+                border: "2px",
+              }}
+              contentArrowStyle={{ borderRight: "5px solid gray" }}
+              icon={<HiMiniRocketLaunch />}
+            >
+              <h3 className=" text-2xl">
+                <strong>2023</strong>
+              </h3>
+              <p>Launched Dynacount 3D Plus</p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              contentStyle={{
+                background: "#eeeeee",
+                color: "#10b981",
+                border: "",
+                borderRadius: "10px",
+                padding: "50px",
+              }}
+              iconStyle={{
+                background: "gray",
+                color: "white",
+                transform: "scaleX(-1)",
+              }}
               contentArrowStyle={{ borderRight: "5px solid black" }}
+              icon={<HiMiniRocketLaunch />}
             >
               <h3 className=" text-2xl">
                 <strong>2022</strong>
               </h3>
-              <p>Launched ichroma II & ichroma III</p>
+              <p>Acquisition of POCT from Weldon (Boditech)</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
+                background: "#10b981",
+                color: "white",
+                border: "",
                 borderRadius: "10px",
+                padding: "50px",
               }}
-              iconStyle={{ background: "black", color: "gray" }}
-              contentArrowStyle={{ borderRight: "5px solid black" }}
-            >
-              <h3 className=" text-2xl">
-                <strong>2021</strong>
-              </h3>
-              <p>Launched Dynacount 3D & RNA Extraction kit</p>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              contentStyle={{
-                background: "#fff",
+              iconStyle={{
+                background: "#D6FFF5",
                 color: "black",
-                border: "1px solid black",
-                borderRadius: "10px",
+                border: "2px",
               }}
-              iconStyle={{ background: "black", color: "gray" }}
               contentArrowStyle={{ borderRight: "5px solid black" }}
+              icon={<GiAchievement />}
             >
               <h3 className=" text-2xl">
                 <strong>2020</strong>
               </h3>
               <p>
-                Indigenously Developed identi – VTM (Viral Transport Medium)
+                Indigenously Developed identi - VTM (Viral Transport Medium)
               </p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
+                background: "#eeeeee",
+                color: "#10b981",
+                border: "",
                 borderRadius: "10px",
+                padding: "50px",
               }}
-              iconStyle={{ background: "black", color: "gray" }}
+              iconStyle={{ background: "gray", color: "white" }}
               contentArrowStyle={{ borderRight: "5px solid black" }}
+              icon={<HiMiniRocketLaunch />}
             >
               <h3 className=" text-2xl">
-                <strong>2019</strong>
+                <strong>2018</strong>
               </h3>
-              <p>
-                Launched i-flash 1800 (advanced Chemiluminescence immunoassay
-                analyser) TURBOCHEM PRIME (mid-throughput chemistry analyser)
-                and VISION Pro (Automated ESR analyser)
-              </p>
+              <p>Launched i-Flash 1800 (Gold Standard Immunoassay Analyzer)</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
+                background: "#10b981",
+                color: "white",
+                border: "",
                 borderRadius: "10px",
+                padding: "50px",
               }}
-              iconStyle={{ background: "black", color: "gray" }}
+              iconStyle={{
+                background: "#D6FFF5",
+                color: "black",
+                border: "2px",
+              }}
               contentArrowStyle={{ borderRight: "5px solid black" }}
+              icon={<GrAchievement />}
             >
               <h3 className=" text-2xl">
-                <strong>2016</strong>
+                <strong>2018</strong>
               </h3>
               <p>
-                Designed and developed Plexmat 4 – Automated Line immunoassay
-                processor
+                Inked strategic investment partnership with private equity firm
+                Everstone
               </p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
+                background: "#eeeeee",
+                color: "#10b981",
+                border: "",
                 borderRadius: "10px",
+                padding: "50px",
               }}
-              iconStyle={{ background: "black", color: "gray" }}
+              iconStyle={{ background: "gray", color: "white" }}
               contentArrowStyle={{ borderRight: "5px solid black" }}
+              icon={<GiAchievement />}
+            >
+              <h3 className=" text-2xl">
+                <strong>2017</strong>
+              </h3>
+              <p>Entered into 5 Part Hematology Segment</p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              contentStyle={{
+                background: "#10b981",
+                color: "white",
+                border: "",
+                borderRadius: "10px",
+                padding: "50px",
+              }}
+              iconStyle={{
+                background: "#D6FFF5",
+                color: "black",
+                border: "2px",
+              }}
+              contentArrowStyle={{ borderRight: "5px solid black" }}
+              icon={<GrAchievement />}
             >
               <h3 className=" text-2xl">
                 <strong>2015</strong>
               </h3>
-              <p>Commenced Export operations</p>
+              <p>Product Innovation ATL 60 Automated Tube Labeller</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
+                background: "#eeeeee",
+                color: "#10b981",
+                border: "",
                 borderRadius: "10px",
+                padding: "50px",
               }}
-              iconStyle={{ background: "black", color: "gray" }}
+              iconStyle={{ background: "gray", color: "white" }}
               contentArrowStyle={{ borderRight: "5px solid black" }}
-            >
-              <h3 className=" text-2xl">
-                <strong>2014</strong>
-              </h3>
-              <p>Indigenously developed ATL-60 (Automated Phlebotomy system)</p>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
-                borderRadius: "10px",
-              }}
-              iconStyle={{ background: "black", color: "gray" }}
-              contentArrowStyle={{ borderRight: "5px solid black" }}
+              icon={<GrAchievement />}
             >
               <h3 className=" text-2xl">
                 <strong>2011</strong>
               </h3>
-              <p>
-                Developed i-track – in-house remote diagnostic support system
-              </p>
+              <p>Manufacturing Reagents - JEEV Diagnostics</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
+                background: "#10b981",
+                color: "white",
+                border: "",
                 borderRadius: "10px",
+                padding: "50px",
               }}
-              iconStyle={{ background: "black", color: "gray" }}
+              iconStyle={{
+                background: "#D6FFF5",
+                color: "black",
+                border: "2px",
+              }}
               contentArrowStyle={{ borderRight: "5px solid black" }}
+              icon={<GrAchievement />}
             >
               <h3 className=" text-2xl">
-                <strong>2010</strong>
+                <strong>2008</strong>
               </h3>
-              <p>
-                High Performance Chemistry reagents manufacturing in India
-                through Jeev Diagnostics
-              </p>
+              <p>First Indian Hematology Analyzer - Xcyte Plus</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
+                background: "#eeeeee",
+                color: "#10b981",
+                border: "",
                 borderRadius: "10px",
+                padding: "50px",
               }}
-              iconStyle={{ background: "black", color: "gray" }}
+              iconStyle={{ background: "gray", color: "white" }}
               contentArrowStyle={{ borderRight: "5px solid black" }}
-            >
-              <h3 className=" text-2xl">
-                <strong>2009</strong>
-              </h3>
-              <p>Inaugurated Sachika – Our exclusive training centre</p>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
-                borderRadius: "10px",
-              }}
-              iconStyle={{ background: "black", color: "gray" }}
-              contentArrowStyle={{ borderRight: "5px solid black" }}
-            >
-              <h3 className=" text-2xl">
-                <strong>2005</strong>
-              </h3>
-              <p>
-                Design & Development of 3 Part Haemotology analyser in India –
-                2005
-              </p>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
-                borderRadius: "10px",
-              }}
-              iconStyle={{ background: "black", color: "gray" }}
-              contentArrowStyle={{ borderRight: "5px solid black" }}
+              icon={<HiMiniRocketLaunch />}
             >
               <h3 className=" text-2xl">
                 <strong>2003</strong>
               </h3>
-              <p>
-                Introduced Procalcitonin (early stage sepsis Marker) to India
-              </p>
+              <p>Introduced BRAHMS Sepsis Markers in INDIA</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
+                background: "#10b981",
+                color: "white",
+                border: "",
                 borderRadius: "10px",
+                padding: "50px",
               }}
-              iconStyle={{ background: "black", color: "gray" }}
+              iconStyle={{
+                background: "#D6FFF5",
+                color: "black",
+                border: "2px",
+              }}
               contentArrowStyle={{ borderRight: "5px solid black" }}
+              icon={<HiMiniRocketLaunch />}
             >
               <h3 className=" text-2xl">
                 <strong>2000</strong>
               </h3>
-              <p>
-                Entered into Autoimmune diagnosis through EUROIMMUN Launched
-                identi brand of reagents for biochemistry
-              </p>
+              <p>Launched identi & Autoimmune Diagnosis from EUROIMMUN</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
+                background: "#eeeeee",
+                color: "#10b981",
+                border: "",
                 borderRadius: "10px",
+                padding: "50px",
               }}
-              iconStyle={{ background: "black", color: "gray" }}
+              iconStyle={{ background: "gray", color: "white" }}
               contentArrowStyle={{ borderRight: "5px solid black" }}
-            >
-              <h3 className=" text-2xl">
-                <strong>1999</strong>
-              </h3>
-              <p>
-                Launched a high throughput Analyser in India – Olympus AU series
-              </p>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
-                borderRadius: "10px",
-              }}
-              iconStyle={{ background: "black", color: "gray" }}
-              contentArrowStyle={{ borderRight: "5px solid black" }}
+              icon={<HiMiniRocketLaunch />}
             >
               <h3 className=" text-2xl">
                 <strong>1990</strong>
               </h3>
-              <p>
-                Launch of Stat Fax series – Our brand of Semi-Automated
-                analysers
-              </p>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              contentStyle={{
-                background: "#fff",
-                color: "black",
-                border: "1px solid black",
-                borderRadius: "10px",
-              }}
-              iconStyle={{ background: "black", color: "gray" }}
-              contentArrowStyle={{ borderRight: "5px solid black" }}
-            >
-              <h3 className=" text-2xl">
-                <strong>1987</strong>
-              </h3>
-              <p>Launch of Enzymatic chemistry reagent kits</p>
+              <p>Launch of Stat Fax Series</p>
             </VerticalTimelineElement>
           </VerticalTimeline>
           <Footer />
