@@ -68,12 +68,13 @@ import ichromaIII from "../AllDatas/ProductImages/Point of Care/ichroma™ III/p
 const products = [
   {
     category: "Biochemistry",
+    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
     about:
       "The Biochemistry category includes products and information related to the chemical processes and substances that occur within living organisms. This category encompasses diagnostic tools, reagents, and equipment used for biochemical analyses, such as enzyme assays, metabolite detection, and protein characterization. These products are essential for understanding the molecular mechanisms of diseases and developing effective treatments.",
     items: [
       {
         category: "Biochemistry",
-        section: "Fully Automatic",
+        section: "FullyAutomatic",
         allover: "This is for fully automatic",
         id: "1",
         image: [magna1, magna2, magna3, magna4],
@@ -100,6 +101,7 @@ const products = [
       {
         allover: "This is for fully automatic",
         id: "2",
+        section: "FullyAutomatic",
         image: [neo1, neo2, neo3, neo4],
         title: "Turbochem Prime",
         shortdescription:
@@ -123,6 +125,7 @@ const products = [
         id: "3",
         image: [plus1, plus2],
         title: "Turbochem Neo",
+        section: "FullyAutomatic",
         shortdescription: "TURBOCHEM NEO FULLY AUTOMATIC BIOCHEMISTRY ANALYZER",
         description:
           "Ideal for performing basic metabolic panels, liver function tests, and more with reliable outcomes.",
@@ -141,6 +144,7 @@ const products = [
         id: "4",
         image: [prim1, prim2],
         title: "Turbostat Plus",
+        section: "semiAutomatic",
         shortdescription: "TURBOSTAT PLUS SEMI AUTOMATIC BIOCHEMISTRY ANALYZER",
         description:
           "Commonly used for routine chemistry tests and specific protein analysis with semi-automatic functionality.",
@@ -159,6 +163,7 @@ const products = [
         allover: "Reagents",
         id: "5",
         image: [image1],
+        section: "Reagents",
         title: "Ichem Prime",
         shortdescription: "Reagents Content",
         description:
@@ -176,6 +181,7 @@ const products = [
       {
         allover: "Reagents",
         id: "6",
+        section: "Reagents",
         image: [ichemMagna1],
         shortdescription: "Ichem Content",
         title: "Ichem Magna",
@@ -194,6 +200,7 @@ const products = [
       {
         allover: "Reagents",
         id: "7",
+        section: "Reagents",
         image: [image1],
         title: "Identi Immuno Turbidimetry Reagents",
         description:
@@ -211,6 +218,7 @@ const products = [
       {
         allover: "Reagents",
         id: "8",
+        section: "Reagents",
         image: [image1],
         title: "Identi Reagents",
         description:
@@ -228,6 +236,7 @@ const products = [
       {
         allover: "Reagents",
         id: "9",
+        section: "Reagents",
         image: [image1],
         title: "Chemistry Calibrator and Chemistry Controls",
         description:
@@ -247,6 +256,7 @@ const products = [
   },
   {
     category: "Clinical Microbiology",
+    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
     items: [
       {
         topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
@@ -396,6 +406,7 @@ const products = [
   },
   {
     category: "COVID-19",
+    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
     items: [
       {
         id: "1",
@@ -546,6 +557,7 @@ const products = [
   },
   {
     category: "Electrolyte Analyzer",
+    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
     items: [
       {
         topic: "Electrolyte Analyzer",
@@ -574,10 +586,12 @@ const products = [
   },
   {
     category: "Hematology",
+    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
     items: [
       {
         allover: "3 Part Differential Hematology Analyzer",
         id: "1",
+        section: "3Part",
         image: [PLUS1],
         title: "Dynacount 3D Haematology Analyzer",
         shortdescription: "Dynacount 3D Fully Automatic Hematology Analyzer",
@@ -603,6 +617,7 @@ const products = [
         id: "2",
         image: [Analyzer1, Analyzer2],
         title: "Dynacount 3D Plus",
+        section: "3Part",
         shortdescription:
           "Dynacount 3D Plus Fully Automatic Hematology Analyzer",
         description:
@@ -627,6 +642,7 @@ const products = [
         id: "3",
         image: [DYNACOUNT1],
         title: "Dynacount 5D",
+        section: "5Part",
         shortdescription: "Dynacount 5D Fully Automatic Hematology Analyzer",
         description:
           "5-part differential analyzer delivering comprehensive blood cell counts, crucial for detailed hematological diagnostics.",
@@ -649,6 +665,7 @@ const products = [
   },
   {
     category: "Immunology",
+    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
     items: [
       {
         id: "1",
@@ -898,6 +915,7 @@ const products = [
   },
   {
     category: "Point of Care",
+    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
     items: [
       {
         topic: "POCT Hormone Analyzer",
@@ -951,6 +969,7 @@ const products = [
   },
   {
     category: "Pre-Analytical Automation",
+    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
     items: [
       {
         topic: "Sample Sorter",

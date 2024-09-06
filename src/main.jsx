@@ -7,12 +7,12 @@ import "aos/dist/aos.css";
 import ProductDataProvider from "./component/Context/ProductData.jsx";
 import CategoryProvider from "./component/Context/CategoryContext.jsx";
 import MobileBtn from "./component/Context/MobileContext.jsx";
-import AutomaticCategoryProvider from "./component/Context/AutomaticCategory.jsx";
+import SectionCategoryProvider from "./component/Context/SectionCategory.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <ProductDataProvider>
     <CategoryProvider>
-      <AutomaticCategoryProvider>
+      <SectionCategoryProvider>
         <MobileBtn>
           <Router>
             <Routes>
@@ -20,7 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             </Routes>
           </Router>
         </MobileBtn>
-      </AutomaticCategoryProvider>
+      </SectionCategoryProvider>
     </CategoryProvider>
   </ProductDataProvider>
 );

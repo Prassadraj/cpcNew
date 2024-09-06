@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import logo from "../../images/logo.png";
 import "./nav.css";
 import { CategoryContext } from "../Context/CategoryContext";
+import { SectionCategory } from "../Context/SectionCategory";
 import MenuBtn from "./MenuBtn/MenuBtn";
 import {
   FaChevronDown,
@@ -22,8 +23,10 @@ function Nav() {
     apply: false,
   });
   const [showMobileMenu, setShowMobileMenu] = useState(false);
-  const { setSelectedCategory } = useContext(CategoryContext);
+  const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
   const { setIsToggled } = useContext(BtnContextProvider);
+  const { selecteSectionCategory, setSelectSectionCategory } =
+    useContext(SectionCategory);
 
   useEffect(() => {
     switch (location.pathname) {
@@ -410,7 +413,7 @@ function Nav() {
             className={`cursor-pointer ${
               selected === "product" ? "selected" : ""
             }`}
-            to="/product"
+            to={`/product/${selectedCategory}/${selecteSectionCategory}`}
           >
             Products
           </Link>

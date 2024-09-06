@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import Nav from "./component/Nav/Nav";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./component/Home/Home";
@@ -20,10 +20,11 @@ import AnimatedCursor from "react-animated-cursor";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import WhyChoseUs from "./component/Career/WhyChooseUs";
+import { CategoryContext } from "./component/Context/CategoryContext";
 
 function App() {
   const location = useLocation();
-
+  const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
   useEffect(() => {
     gsap.set(".flair", { xPercent: -50, yPercent: -50 });
 
@@ -52,7 +53,7 @@ function App() {
           <Route path="/csr" element={<CSRPolicy />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/brand" element={<Brand />} />
-          <Route path="/product" element={<Product />} />
+          <Route path={`/product/:category/:section`} element={<Product />} />
           <Route path="/apply" element={<Career />} />
           <Route path="/success" element={<Success />} />
           <Route path="/whychooseus" element={<WhyChoseUs />} />
