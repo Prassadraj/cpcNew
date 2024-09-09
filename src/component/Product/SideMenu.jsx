@@ -15,7 +15,9 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
   const navigate = useNavigate();
 
   const handleNavigation = (category, section) => {
-    const formattedSection = encodeURIComponent(section.split(" ").join(""));
+    const formattedSection = encodeURIComponent(
+      section.split(" ").join("").toLowerCase()
+    );
     setSelectSectionCategory(formattedSection);
     navigate(`/product/${category.split(" ").join("")}/${formattedSection}`);
   };

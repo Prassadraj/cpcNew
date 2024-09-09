@@ -27,11 +27,12 @@ function Product() {
   const [load, setLoad] = useState(true);
   const navigate = useNavigate();
   const { section } = useParams();
+
   const { selecteSectionCategory, setSelectSectionCategory } =
     useContext(SectionCategory);
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [selecteSectionCategory]);
+  }, [selecteSectionCategory, section]);
 
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);

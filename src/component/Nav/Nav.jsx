@@ -183,7 +183,7 @@ function Nav() {
                 <li>
                   <Link
                     className=" "
-                    to="/product"
+                    to={`/product/Biochemistry/all`}
                     onClick={() => {
                       setSelectedCategory("Biochemistry");
                       setShowMobileMenu(!showMobileMenu);
@@ -196,7 +196,7 @@ function Nav() {
                 <li>
                   <Link
                     className=""
-                    to="/product"
+                    to={`/product/ClinicalMicrobiology/all`}
                     onClick={() => {
                       setSelectedCategory("Clinical Microbiology");
                       setShowMobileMenu(!showMobileMenu);
@@ -210,7 +210,7 @@ function Nav() {
                   {" "}
                   <Link
                     className=""
-                    to="/product"
+                    to={`/product/COVID-19/all`}
                     onClick={() => {
                       setSelectedCategory("COVID-19");
                       setShowMobileMenu(!showMobileMenu);
@@ -224,7 +224,7 @@ function Nav() {
                   {" "}
                   <Link
                     className=""
-                    to="/product"
+                    to={`/product/ElectrolyteAnalyzer/all`}
                     onClick={() => {
                       setSelectedCategory("Electrolyte Analyzer");
                       setShowMobileMenu(!showMobileMenu);
@@ -237,7 +237,7 @@ function Nav() {
                 <li>
                   <Link
                     className=""
-                    to="/product"
+                    to={`/product/Hematology/all`}
                     onClick={() => {
                       setSelectedCategory("Hematology");
                       setShowMobileMenu(!showMobileMenu);
@@ -250,7 +250,7 @@ function Nav() {
                 <li>
                   <Link
                     className=""
-                    to="/product"
+                    to={`/product/Immunology/all`}
                     onClick={() => {
                       setSelectedCategory("Immunology");
                       setShowMobileMenu(!showMobileMenu);
@@ -263,7 +263,7 @@ function Nav() {
                 <li>
                   <Link
                     className=""
-                    to="/product"
+                    to={`/product/PointofCare/all`}
                     onClick={() => {
                       setSelectedCategory("Point of Care");
                       setShowMobileMenu(!showMobileMenu);
@@ -276,7 +276,7 @@ function Nav() {
                 <li>
                   <Link
                     className=""
-                    to="/product"
+                    to={`/product/Pre-AnalyticalAutomation/all`}
                     onClick={() => {
                       setSelectedCategory("Pre-Analytical Automation");
                       setShowMobileMenu(!showMobileMenu);
@@ -413,6 +413,10 @@ function Nav() {
             className={`cursor-pointer ${
               selected === "product" ? "selected" : ""
             }`}
+            onClick={() => {
+              setSelectSectionCategory("all");
+              setSelectedCategory("Biochemistry");
+            }}
             to={`/product/${selectedCategory}/${selecteSectionCategory}`}
           >
             Products
@@ -421,57 +425,81 @@ function Nav() {
             <div className="dropdown-menu w-fit">
               <Link
                 className="dropdown-item"
-                to="/product"
-                onClick={() => setSelectedCategory("Biochemistry")}
+                to={`/product/Biochemistry/all`}
+                onClick={() => {
+                  setSelectSectionCategory("all");
+                  setSelectedCategory("Biochemistry");
+                }}
               >
                 Biochemistry
               </Link>
               <Link
                 className="dropdown-item"
-                to="/product"
-                onClick={() => setSelectedCategory("Clinical Microbiology")}
+                to={`/product/ClinicalMicrobiology/all`}
+                onClick={() => {
+                  setSelectSectionCategory("all");
+                  setSelectedCategory("Clinical Microbiology");
+                }}
               >
                 Clinical Microbiology
               </Link>
               <Link
                 className="dropdown-item"
-                to="/product"
-                onClick={() => setSelectedCategory("COVID-19")}
+                to={`/product/COVID-19/all`}
+                onClick={() => {
+                  setSelectSectionCategory("all");
+                  setSelectedCategory("COVID-19");
+                }}
               >
                 COVID-19
               </Link>
               <Link
                 className="dropdown-item"
-                to="/product"
-                onClick={() => setSelectedCategory("Electrolyte Analyzer")}
+                to={`/product/ElectrolyteAnalyzer/all`}
+                onClick={() => {
+                  setSelectSectionCategory("all");
+                  setSelectedCategory("Electrolyte Analyzer");
+                }}
               >
                 Electrolyte Analyzer
               </Link>
               <Link
                 className="dropdown-item"
-                to="/product"
-                onClick={() => setSelectedCategory("Hematology")}
+                to={`/product/Hematology/all`}
+                onClick={() => {
+                  setSelectSectionCategory("all");
+                  setSelectedCategory("Hematology");
+                }}
               >
                 Hematology
               </Link>
               <Link
                 className="dropdown-item"
-                to="/product"
-                onClick={() => setSelectedCategory("Immunology")}
+                to={`/product/Immunology/all`}
+                onClick={() => {
+                  setSelectSectionCategory("all");
+                  setSelectedCategory("Immunology");
+                }}
               >
                 Immunology
               </Link>
               <Link
                 className="dropdown-item"
-                to="/product"
-                onClick={() => setSelectedCategory("Point of Care")}
+                to={`/product/PointofCare/all`}
+                onClick={() => {
+                  setSelectSectionCategory("all");
+                  setSelectedCategory("Point of Care");
+                }}
               >
                 Point of Care
               </Link>
               <Link
                 className="dropdown-item"
-                to="/product"
-                onClick={() => setSelectedCategory("Pre-Analytical Automation")}
+                to={`/product/Pre-AnalyticalAutomation/all`}
+                onClick={() => {
+                  setSelectSectionCategory("all");
+                  setSelectedCategory("Pre-Analytical Automation");
+                }}
               >
                 Pre-Analytical Automation
               </Link>
