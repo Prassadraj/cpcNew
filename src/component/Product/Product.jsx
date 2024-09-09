@@ -176,7 +176,7 @@ function Product() {
                 <h1 className="text-2xl font-poppins font-bold mb-3 text-left text-black">
                   {selectedCategory}
                 </h1>
-                <div className="grid justify-around grid-cols-2 laptop:grid-cols-4 tablet:mb-4">
+                <div className="grid  justify-around grid-cols-2 laptop:grid-cols-5 tablet:mb-4">
                   {headingSection.map((sectionCategoryItem, i) => (
                     <p
                       key={i}
@@ -185,11 +185,10 @@ function Product() {
                       }
                       className={`${
                         selecteSectionCategory ==
-                          sectionCategoryItem
-                            .split(" ")
-                            .join("")
-                            .toLowerCase() && "font-extrabold text-custom-green"
-                      } text-xs tablet:text-lg capitalize font-medium cursor-pointer mb-2`}
+                        sectionCategoryItem.split(" ").join("").toLowerCase()
+                          ? "font-extrabold text-custom-green"
+                          : "font-semibold"
+                      } text-xs hover:text-custom-green transition-all ease-in duration-75 hover:font-bold tablet:text-base capitalize  cursor-pointer mb-2`}
                     >
                       {sectionCategoryItem}
                     </p>
