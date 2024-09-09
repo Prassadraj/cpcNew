@@ -64,17 +64,25 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
 
             {openDropdown === index && (
               <div className="border-t border-gray-300">
-                {dropdown.subsection.map((item, subIndex) => (
-                  <div
-                    onClick={() => handleNavigation(dropdown.category, item)}
-                    key={subIndex}
-                    className="no-underline"
-                  >
-                    <p className="text-gray-800 px-4 py-2 capitalize text-sm hover:bg-custom-green hover:text-light-green cursor-pointer font-poppins">
-                      {item}
+                {dropdown.subsection && dropdown.subsection.length > 0 ? (
+                  dropdown.subsection.map((item, subIndex) => (
+                    <div
+                      onClick={() => handleNavigation(dropdown.category, item)}
+                      key={subIndex}
+                      className="no-underline"
+                    >
+                      <p className="text-gray-800 px-4 py-2 capitalize text-sm hover:bg-custom-green hover:text-light-green cursor-pointer font-poppins">
+                        {item}
+                      </p>
+                    </div>
+                  ))
+                ) : (
+                  <div className="no-underline">
+                    <p className="text-gray-800 px-4 text-center py-2 text-sm cursor-default font-poppins">
+                      -
                     </p>
                   </div>
-                ))}
+                )}
               </div>
             )}
           </div>

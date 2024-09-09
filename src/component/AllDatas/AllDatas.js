@@ -412,7 +412,7 @@ const products = [
   },
   {
     category: "COVID-19",
-    subsection: ["All", "Fully Automatic", "semi Automatic", "Reagents"],
+
     items: [
       {
         id: "1",
