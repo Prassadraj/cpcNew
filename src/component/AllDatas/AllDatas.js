@@ -412,7 +412,7 @@ const products = [
   },
   {
     category: "COVID-19",
-    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
+    subsection: ["All", "Fully Automatic", "semi Automatic", "Reagents"],
     items: [
       {
         id: "1",
@@ -563,7 +563,7 @@ const products = [
   },
   {
     category: "Electrolyte Analyzer",
-    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
+    subsection: ["All", "Fully Automatic", "semi Automatic", "Reagents"],
     items: [
       {
         topic: "Electrolyte Analyzer",
@@ -592,7 +592,7 @@ const products = [
   },
   {
     category: "Hematology",
-    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
+    subsection: ["All", "Fully Automatic", "semi Automatic", "Reagents"],
     items: [
       {
         allover: "3 Part Differential Hematology Analyzer",
@@ -671,7 +671,7 @@ const products = [
   },
   {
     category: "Immunology",
-    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
+    subsection: ["All", "Fully Automatic", "semi Automatic", "Reagents"],
     items: [
       {
         id: "1",
@@ -921,7 +921,7 @@ const products = [
   },
   {
     category: "Point of Care",
-    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
+    subsection: ["All", "Fully Automatic", "semi Automatic", "Reagents"],
     items: [
       {
         topic: "POCT Hormone Analyzer",
@@ -975,7 +975,7 @@ const products = [
   },
   {
     category: "Pre-Analytical Automation",
-    subsection: ["Fully Automatic", "semi Automatic", "Reagents"],
+    subsection: ["All", "Fully Automatic", "semi Automatic", "Reagents"],
     items: [
       {
         topic: "Sample Sorter",
