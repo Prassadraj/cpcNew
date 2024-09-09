@@ -42,7 +42,7 @@ function Nav() {
       case "/brand":
         setSelected("brand");
         break;
-      case "/product":
+      case `/product/${selectedCategory}/${selecteSectionCategory}`:
         setSelected("product");
         break;
       case "/apply":

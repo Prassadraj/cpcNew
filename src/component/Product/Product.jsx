@@ -31,8 +31,10 @@ function Product() {
   const { selecteSectionCategory, setSelectSectionCategory } =
     useContext(SectionCategory);
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [selecteSectionCategory, section]);
+    if (section == "all") {
+      window.scrollTo(0, 0);
+    }
+  }, [section]);
 
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);
@@ -79,8 +81,17 @@ function Product() {
     );
     setSelectSectionCategory(formattedSection);
 
-    navigate(`/product/${category.split(" ").join("")}/${formattedSection}`);
+    navigate(`/product/${category.split(" ").join("")}/${formattedSection}`, {
+      replace: true,
+    });
+
+    // Scroll 500px down from the top of the page
+    window.scrollTo({
+      top: 500,
+      behavior: "smooth",
+    });
   };
+
   useEffect(() => {
     if (open) {
       document.body.classList.add("no-scroll");

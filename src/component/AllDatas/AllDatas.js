@@ -262,12 +262,13 @@ const products = [
   },
   {
     category: "Clinical Microbiology",
-    subsection: ["All", "Fully Automatic", "semi Automatic", "Reagents"],
+    subsection: ["All", "Reagents"],
     items: [
       {
         topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
         id: "1",
         image: [ast1],
+        section: "reagents",
         title: "Sensititre™ Standard Ast Plates",
         shortdescription: "Sensititre™ Standard Ast Plates",
         description:
@@ -412,7 +413,7 @@ const products = [
   },
   {
     category: "COVID-19",
-
+    subsection: [],
     items: [
       {
         id: "1",
@@ -592,7 +593,13 @@ const products = [
   },
   {
     category: "Hematology",
-    subsection: ["All", "Fully Automatic", "semi Automatic", "Reagents"],
+    subsection: [
+      "All",
+      "3 Part Hematology Analyzer",
+      "5 Part Hematology Analyzer",
+      "ESR Analyzer",
+      "Reagents",
+    ],
     items: [
       {
         allover: "3 Part Differential Hematology Analyzer",
