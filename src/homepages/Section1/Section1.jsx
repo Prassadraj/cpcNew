@@ -1,11 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Slider from "../../component/Slider/Slider";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Splitting from "splitting";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { SectionCategory } from "../../component/Context/SectionCategory";
+import { CategoryContext } from "../../component/Context/CategoryContext";
 function Section1() {
+  const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
+
+  const { selecteSectionCategory, setSelectSectionCategory } =
+    useContext(SectionCategory);
   useEffect(() => {
     Splitting();
     gsap.registerPlugin(ScrollTrigger);
@@ -84,7 +90,13 @@ function Section1() {
             </p>
           </div>
           <div className="buttons flex gap-1 tablet:justify-start justify-center">
-            <Link to="/product">
+            <Link
+              onClick={() => {
+                setSelectSectionCategory("all");
+                setSelectedCategory("Biochemistry");
+              }}
+              to={`/product/${selectedCategory}/${selecteSectionCategory}`}
+            >
               <button
                 className="btn1 w-auto h-auto px-4 py-2 text-sm laptop:text-lg whitespace-nowrap"
                 style={{ background: "#00A786", color: "white" }}
