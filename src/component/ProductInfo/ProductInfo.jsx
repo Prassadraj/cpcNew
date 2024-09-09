@@ -193,7 +193,10 @@ function ProductInfo() {
             <span className="">
               <Link to="/product">Product</Link>
             </span>
-            <Link to="/product" onClick={() => setSelectedCategory(category)}>
+            <Link
+              to={`/product/${selectedCategory}/all`}
+              onClick={() => setSelectedCategory(category)}
+            >
               <span>/ {category}</span>
             </Link>
             <span className="">/ {product.title}</span>
@@ -203,7 +206,10 @@ function ProductInfo() {
             <span className="">
               <Link to="/product">Product</Link>
             </span>
-            <Link to="/product" onClick={() => setSelectedCategory(category)}>
+            <Link
+              to={`/product/${selectedCategory}/all`}
+              onClick={() => setSelectedCategory(category)}
+            >
               <span>/ {category}</span>
             </Link>
             <span>/ {product.title}</span>
@@ -216,7 +222,7 @@ function ProductInfo() {
               className="rounded-md w-full h-full object-cover"
             />
           </div>
-          {/* / */}
+          {/* /sidemenu */}
           <div className="flex px-5 gap-5">
             <div
               className={`sm:w-[25%] bg-white border rounded-md shadow-md  p-1 md:py-2 md:px-4 md:sticky top-0 h-[90vh] overflow-y-auto z-10  ${

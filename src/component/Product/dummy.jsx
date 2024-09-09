@@ -27,39 +27,35 @@ function Product() {
   const [load, setLoad] = useState(true);
   const navigate = useNavigate();
   const { section } = useParams();
-  const { selecteSectionCategory, setSelectSectionCategory } =
+  const { selecteSectionCategory = "all", setSelectSectionCategory } =
     useContext(SectionCategory);
+
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [selecteSectionCategory]);
+  }, []);
 
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);
   };
 
-  const selectedCategoryItems = data
-    ? data.find((category) => category.category === selectedCategory)?.items ||
-      []
-    : [];
-  const headingSection = data
-    ? data.find((category) => category.category === selectedCategory)
-        ?.subsection || []
-    : [];
-
+  const selectedCategoryItems =
+    data.find((category) => category.category === selectedCategory)?.items ||
+    [];
+  const headingSection =
+    data.find((category) => category.category === selectedCategory)
+      ?.subsection || [];
   const sectionCategoryItems = selectedCategoryItems.filter(
-    (sectionItems) => sectionItems.section === selecteSectionCategory
+    (sectionItems) =>
+      sectionItems.section &&
+      selecteSectionCategory &&
+      sectionItems.section.toLowerCase() ===
+        selecteSectionCategory.toLowerCase()
   );
+
   const final =
     selecteSectionCategory == "all"
       ? selectedCategoryItems
       : sectionCategoryItems;
-
-  const description =
-    data
-      ?.find((category) => category.category === selectedCategory)
-      ?.about?.find((subsection) => subsection[selecteSectionCategory])?.[
-      section.toLowerCase()
-    ] || "Description not available for this section";
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -164,27 +160,26 @@ function Product() {
                 <h1 className="text-2xl font-poppins font-bold mb-3 text-left text-black">
                   {selectedCategory}
                 </h1>
-                <div className="grid justify-around grid-cols-2 laptop:grid-cols-4 tablet:mb-4">
+                <div className="grid grid-cols-2 laptop:grid-cols-4 justify-around">
                   {headingSection.map((sectionCategoryItem, i) => (
                     <p
                       key={i}
                       onClick={() =>
                         handleNavigation(selectedCategory, sectionCategoryItem)
                       }
-                      className={`${
-                        selecteSectionCategory ==
-                          sectionCategoryItem
-                            .split(" ")
-                            .join("")
-                            .toLowerCase() && "font-extrabold text-custom-green"
-                      } text-xs tablet:text-lg capitalize font-medium cursor-pointer mb-2`}
+                      className={` text-xs tablet:text-lg capitalize font-medium cursor-pointer mb-2 ${
+                        section ===
+                        sectionCategoryItem.split(" ").join("").toLowerCase()
+                          ? "font-extrabold text-custom-green"
+                          : ""
+                      }`}
                     >
                       {sectionCategoryItem}
                     </p>
                   ))}
                 </div>
 
-                <div className="grid grid-cols-2 sm:grid-cols-2 laptop:grid-cols-3 gap-4 mb-4">
+                <div className="grid tablet:mt-4 grid-cols-2 sm:grid-cols-2 laptop:grid-cols-3 gap-4 mb-4">
                   {final.map((item) => (
                     <Link
                       to={`/productinfo/${selectedCategory}/${item.id}`}
@@ -217,9 +212,16 @@ function Product() {
                     Short note of {selectedCategory}
                   </p>
                   <p className="text-sm tablet:text-lg mb-2 tablet:text-left">
-                    {description}
+                    {
+                      data
+                        .find(
+                          (category) => category.category == selectedCategory
+                        )
+                        ?.about.find((subsection) => subsection[section])?.[
+                        section
+                      ]
+                    }
                   </p>
-
                   {/* <p className="px-4 py-2 bg-custom-green text-left w-fit text-white rounded-md">
               Read More
             </p> */}
