@@ -34,7 +34,7 @@ import Jokoh1 from "../AllDatas/ProductImages/Electrolyte Analyzer/Jokoh/product
 import Jokoh2 from "../AllDatas/ProductImages/Electrolyte Analyzer/Jokoh/product2.jpg";
 import Jokoh3 from "../AllDatas/ProductImages/Electrolyte Analyzer/Jokoh/product3.jpg";
 // Hematology
-import PLUS1 from "../AllDatas/ProductImages/Hematology/3D PLUS/product1.png";
+import PLUS1 from "../AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
 import Analyzer1 from "../AllDatas/ProductImages/Hematology/Analyzer/product1.png";
 import Analyzer2 from "../AllDatas/ProductImages/Hematology/Analyzer/product2.png";
 import DYNACOUNT1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT 5D/product1.png";
@@ -564,7 +564,8 @@ const products = [
   },
   {
     category: "Electrolyte Analyzer",
-    subsection: ["All", "Fully Automatic", "semi Automatic", "Reagents"],
+    subsection: ["All", "With Auto loader", "Without Auto loader"],
+
     items: [
       {
         topic: "Electrolyte Analyzer",
@@ -595,8 +596,8 @@ const products = [
     category: "Hematology",
     subsection: [
       "All",
-      "3 Part Hematology Analyzer",
-      "5 Part Hematology Analyzer",
+      "3 Part Hematology",
+      "5 Part Hematology",
       "ESR Analyzer",
       "Reagents",
     ],
@@ -604,8 +605,9 @@ const products = [
       {
         allover: "3 Part Differential Hematology Analyzer",
         id: "1",
-        section: "3Part",
-        image: [PLUS1],
+
+        section: "3parthematology",
+        image: [DYNACOUNT1],
         title: "Dynacount 3D Haematology Analyzer",
         shortdescription: "Dynacount 3D Fully Automatic Hematology Analyzer",
         description:
@@ -628,9 +630,9 @@ const products = [
       {
         allover: "3 Part Differential Hematology Analyzer",
         id: "2",
-        image: [Analyzer1, Analyzer2],
+        image: [PLUS1],
         title: "Dynacount 3D Plus",
-        section: "3Part",
+        section: "3parthematology",
         shortdescription:
           "Dynacount 3D Plus Fully Automatic Hematology Analyzer",
         description:
@@ -655,7 +657,33 @@ const products = [
         id: "3",
         image: [DYNACOUNT1],
         title: "Dynacount 5D",
-        section: "5Part",
+        section: "5parthematology",
+
+        shortdescription: "Dynacount 5D Fully Automatic Hematology Analyzer",
+        description:
+          "5-part differential analyzer delivering comprehensive blood cell counts, crucial for detailed hematological diagnostics.",
+        workPrinciple:
+          "Employs advanced technologies to provide a 5-part differential analysis of blood cells.",
+        advantages: "Comprehensive analysis for detailed diagnostic insights.",
+        benefits:
+          "Supports complex diagnostics and monitoring of hematological conditions.",
+        mainAndCare:
+          "Regular maintenance and calibration needed; follow provided guidelines.",
+        workServices:
+          "Available technical support for installation, maintenance, and troubleshooting.",
+        productBrochure: "path/to/dynacount-5d-brochure.pdf",
+        detailedSpecification:
+          "Detailed technical specifications available on request.",
+        offerOrDiscounts:
+          "Check for current offers and discounts with the distributor.",
+      },
+      {
+        allover: "Visoion Pro",
+        id: "4",
+        image: [Analyzer1, Analyzer2],
+        title: "Visoion Pro",
+        section: "esranalyzer",
+
         shortdescription: "Dynacount 5D Fully Automatic Hematology Analyzer",
         description:
           "5-part differential analyzer delivering comprehensive blood cell counts, crucial for detailed hematological diagnostics.",
@@ -678,7 +706,16 @@ const products = [
   },
   {
     category: "Immunology",
-    subsection: ["All", "Fully Automatic", "semi Automatic", "Reagents"],
+    subsection: [
+      "All",
+      "Elisa",
+      "Immunoblot",
+      "IFA",
+      "CLIA",
+      "TRACE",
+      "Reagents",
+    ],
+
     items: [
       {
         id: "1",
@@ -928,7 +965,7 @@ const products = [
   },
   {
     category: "Point of Care",
-    subsection: ["All", "Fully Automatic", "semi Automatic", "Reagents"],
+    subsection: ["All", "Reagents"],
     items: [
       {
         topic: "POCT Hormone Analyzer",
@@ -982,7 +1019,7 @@ const products = [
   },
   {
     category: "Pre-Analytical Automation",
-    subsection: ["All", "Fully Automatic", "semi Automatic", "Reagents"],
+    subsection: ["All", "Reagents"],
     items: [
       {
         topic: "Sample Sorter",
