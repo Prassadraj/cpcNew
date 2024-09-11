@@ -84,12 +84,6 @@ function Product() {
     navigate(`/product/${category.split(" ").join("")}/${formattedSection}`, {
       replace: true,
     });
-
-    // Scroll 500px down from the top of the page
-    window.scrollTo({
-      top: 500,
-      behavior: "smooth",
-    });
   };
 
   useEffect(() => {
@@ -176,7 +170,7 @@ function Product() {
                 <h1 className="text-2xl font-poppins font-bold mb-3 text-left text-black">
                   {selectedCategory}
                 </h1>
-                <div className="grid  justify-around items-center tablet:grid-cols-3 tablet:space-y-4 grid-cols-2 laptop:grid-cols-5 tablet:mb-4">
+                <div className="grid  justify-around items-center tablet:grid-cols-3 tablet:gap-2 grid-cols-2 laptop:grid-cols-5 tablet:mb-4">
                   {headingSection.map((sectionCategoryItem, i) => (
                     <p
                       key={i}
