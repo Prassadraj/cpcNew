@@ -26,11 +26,14 @@ import frame1 from "../../images/products/frame1.png";
 import { faBloggerB } from "@fortawesome/free-brands-svg-icons";
 import SideMenu from "../Product/SideMenu";
 import Loader from "../Loader/Loader";
+import { SectionCategory } from "../Context/SectionCategory";
 
 function ProductInfo() {
   const { data } = useContext(ProductDataContext);
   const { category, id } = useParams();
 
+  const { selecteSectionCategory, setSelectSectionCategory } =
+    useContext(SectionCategory);
   const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
   const [open, setOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -191,7 +194,15 @@ function ProductInfo() {
         <div className="product-info text-black overflow-hidden mt-2 font-poppins">
           <div className="hidden tablet:flex mb-3 text-base md:text-xl cursor-pointer  px-5 w-full md:px-5">
             <span className="">
-              <Link to="/product">Product</Link>
+              <Link
+                onClick={() => {
+                  setSelectSectionCategory("all");
+                  setSelectedCategory("Biochemistry");
+                }}
+                to={`/product/${selectedCategory}/${selecteSectionCategory}`}
+              >
+                Product
+              </Link>
             </span>
             <Link
               to={`/product/${selectedCategory}/all`}
@@ -204,7 +215,15 @@ function ProductInfo() {
           {/* mobile */}
           <div className=" mb-3 text-lg cursor-pointer  px-2 w-full sm:hidden">
             <span className="">
-              <Link to="/product">Product</Link>
+              <Link
+                onClick={() => {
+                  setSelectSectionCategory("all");
+                  setSelectedCategory("Biochemistry");
+                }}
+                to={`/product/${selectedCategory}/${selecteSectionCategory}`}
+              >
+                Product
+              </Link>
             </span>
             <Link
               to={`/product/${selectedCategory}/all`}
