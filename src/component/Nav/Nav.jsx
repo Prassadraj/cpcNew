@@ -206,7 +206,7 @@ function Nav() {
                     Clinical Microbiology
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   {" "}
                   <Link
                     className=""
@@ -219,7 +219,7 @@ function Nav() {
                   >
                     COVID-19
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   {" "}
                   <Link
@@ -443,7 +443,7 @@ function Nav() {
               >
                 Clinical Microbiology
               </Link>
-              <Link
+              {/* <Link
                 className="dropdown-item"
                 to={`/product/COVID-19/all`}
                 onClick={() => {
@@ -452,6 +452,16 @@ function Nav() {
                 }}
               >
                 COVID-19
+              </Link> */}
+              <Link
+                className="dropdown-item"
+                to={`/product/MolecularDiagnostics/all`}
+                onClick={() => {
+                  setSelectSectionCategory("all");
+                  setSelectedCategory("Molecular Diagnostics");
+                }}
+              >
+                Molecular Diagnostics
               </Link>
               <Link
                 className="dropdown-item"

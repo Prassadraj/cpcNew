@@ -282,7 +282,13 @@ function ProductInfo() {
                             key={item.id}
                             className="no-underline"
                           >
-                            <p className="font-poppins px- text-gray-700 py-2 text-sm capitalize hover:bg-custom-green hover:text-light-green cursor-pointer">
+                            <p
+                              className={`${
+                                product.title == item.title
+                                  ? "bg-custom-green text-white"
+                                  : ""
+                              } font-poppins px- text-gray-700 py-2 text-sm capitalize hover:bg-custom-green hover:text-light-green cursor-pointer px-2`}
+                            >
                               {item.title}
                             </p>
                           </Link>

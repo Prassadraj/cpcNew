@@ -176,7 +176,7 @@ function Product() {
                 <h1 className="text-2xl font-poppins font-bold mb-3 text-left text-black">
                   {selectedCategory}
                 </h1>
-                <div className="grid  justify-around grid-cols-2 laptop:grid-cols-5 tablet:mb-4">
+                <div className="grid  justify-around items-center tablet:grid-cols-3 tablet:space-y-4 grid-cols-2 laptop:grid-cols-5 tablet:mb-4">
                   {headingSection.map((sectionCategoryItem, i) => (
                     <p
                       key={i}
@@ -194,35 +194,42 @@ function Product() {
                     </p>
                   ))}
                 </div>
-
                 <div className="grid grid-cols-2 sm:grid-cols-2 laptop:grid-cols-3 gap-4 mb-4">
-                  {final.map((item) => (
-                    <Link
-                      to={`/productinfo/${selectedCategory}/${item.id}`}
-                      key={item.id}
-                      className="no-underline"
-                    >
-                      <div className="bg-white border rounded-lg overflow-hidden relative group h-[200px] tablet:h-[300px]">
-                        <img
-                          src={item.image[0]}
-                          alt={item.title}
-                          className="w-full tablet:h-44 object-cover"
-                        />
-                        <div className="px-2 py-2 text-gray-600">
-                          <h2 className="text-xs tablet:text-base tablet:font-semibold text-gray-600 text-left">
-                            {item.title}
-                          </h2>
-                          <p className="text-xs text-gray-600 text-left ellipsis">
-                            {item.description}
-                          </p>
+                  {final?.length > 0 ? (
+                    final.map((item) => (
+                      <Link
+                        to={`/productinfo/${selectedCategory}/${item.id}`}
+                        key={item.id}
+                        className="no-underline"
+                      >
+                        <div className="bg-white border rounded-lg overflow-hidden relative group h-[200px] tablet:h-[300px] transition duration-300 ease-in-out transform hover:scale-105">
+                          <img
+                            src={item.image[0]}
+                            alt={item.title}
+                            className="w-full tablet:h-44 object-cover"
+                          />
+                          <div className="px-2 py-2 text-gray-600">
+                            <h2 className="text-xs tablet:text-base tablet:font-semibold text-gray-600 text-left">
+                              {item.title}
+                            </h2>
+                            <p className="text-xs text-gray-600 text-left line-clamp-2">
+                              {item.description}
+                            </p>
+                          </div>
+                          <div className="hidden absolute inset-0 bg-custom-green/80 justify-center items-center text-white text-xl group-hover:flex transition-opacity duration-300">
+                            View Product
+                          </div>
                         </div>
-                        <div className="hidden absolute inset-0 bg-custom-green/80 justify-center items-center text-white text-xl group-hover:flex">
-                          View Product
-                        </div>
-                      </div>
-                    </Link>
-                  ))}
+                      </Link>
+                    ))
+                  ) : (
+                    <div className="">
+                      <span className="text-[red]">*</span> Product Not
+                      Available
+                    </div>
+                  )}
                 </div>
+
                 <div className="p-2 tablet:p-4 bg-gray-200 rounded-md">
                   <p className="text-left text-sm font-semibold tablet:text-2xl mb-2">
                     Short note of {selectedCategory}

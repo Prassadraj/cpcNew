@@ -411,157 +411,158 @@ const products = [
       },
     ],
   },
-  {
-    category: "COVID-19",
-    subsection: [],
-    items: [
-      {
-        id: "1",
-        image: [ANTIBODY1],
-        title: "Identi VTM",
-        shortdescription: "Identi VTM",
-        description:
-          "Viral Transport Medium (VTM) for the collection, transport, and preservation of clinical specimens containing viruses, including SARS-CoV-2.",
-        workPrinciple:
-          "Preserves viral integrity during specimen transport and handling.",
-        advantages: "Ensures stability of viral samples until analysis.",
-        benefits:
-          "Improves the accuracy of viral testing by preserving samples properly.",
-        mainAndCare:
-          "Store at recommended temperatures; handle according to provided guidelines.",
-        workServices:
-          "Technical support available for product usage and storage.",
-        productBrochure: "path/to/identi-vtm-brochure.pdf",
-        detailedSpecification:
-          "Detailed specifications available upon request.",
-        offerOrDiscounts:
-          "Check with distributor for current offers and discounts.",
-      },
-      {
-        id: "2",
-        image: [Affinity1],
-        title: "Identi Affinity RNA Extraction",
-        shortdescription: "Identi Affinity RNA Extraction",
-        description:
-          "High-efficiency RNA extraction kit designed for reliable and rapid isolation of viral RNA from various clinical samples.",
-        workPrinciple:
-          "Uses advanced chemistry to efficiently isolate RNA from clinical samples.",
-        advantages:
-          "Provides high yield and purity of RNA for accurate testing.",
-        benefits:
-          "Ensures reliable results in downstream applications like PCR.",
-        mainAndCare:
-          "Follow kit instructions carefully; store reagents as recommended.",
-        workServices: "Support available for kit usage and troubleshooting.",
-        productBrochure: "path/to/identi-affinity-rna-extraction-brochure.pdf",
-        detailedSpecification: "Specifications can be provided on request.",
-        offerOrDiscounts: "Inquire about current promotions and discounts.",
-      },
-      {
-        id: "3",
-        image: [REACTIVE1],
-        title: "Antibody Testing",
-        shortdescription: "Antibody Testing",
-        description:
-          "Comprehensive antibody testing solutions for detecting the presence of antibodies against SARS-CoV-2 in patient samples.",
-        workPrinciple:
-          "Detects antibodies produced in response to SARS-CoV-2 infection.",
-        advantages: "Helps identify past infections and immune response.",
-        benefits:
-          "Aids in epidemiological studies and individual immune status assessment.",
-        mainAndCare:
-          "Ensure proper sample handling and test according to the protocol.",
-        workServices:
-          "Technical support available for interpreting results and test procedures.",
-        productBrochure: "path/to/antibody-testing-brochure.pdf",
-        detailedSpecification:
-          "Detailed technical specifications available upon request.",
-        offerOrDiscounts: "Check for any current offers or discounts.",
-      },
-      {
-        id: "4",
-        image: [FERRITI1],
-        title: "Procalcitonin",
-        shortdescription: "Procalcitonin",
-        description:
-          "Biomarker assay for the detection of procalcitonin levels, aiding in the diagnosis of bacterial infections and sepsis.",
-        workPrinciple:
-          "Measures procalcitonin levels, which rise in response to bacterial infections.",
-        advantages:
-          "Helps differentiate bacterial infections from other causes of inflammation.",
-        benefits:
-          "Provides valuable diagnostic information in acute care settings.",
-        mainAndCare:
-          "Store and handle according to the manufacturer's guidelines.",
-        workServices:
-          "Support available for assay setup and result interpretation.",
-        productBrochure: "path/to/procalcitonin-brochure.pdf",
-        detailedSpecification: "Specifications available upon request.",
-        offerOrDiscounts: "Inquire about current discounts.",
-      },
-      {
-        id: "5",
-        image: [LACTAT1],
-        title: "Ferritin",
-        shortdescription: "Ferritin",
-        description:
-          "Assay for measuring ferritin levels, useful in the diagnosis and monitoring of iron deficiency and related conditions.",
-        workPrinciple:
-          "Measures ferritin, a marker of iron stores in the body.",
-        advantages:
-          "Helps diagnose iron deficiency and monitor treatment efficacy.",
-        benefits:
-          "Provides insight into iron metabolism and related health conditions.",
-        mainAndCare: "Follow storage instructions to ensure assay performance.",
-        workServices:
-          "Technical support for assay usage and results interpretation.",
-        productBrochure: "path/to/ferritin-brochure.pdf",
-        detailedSpecification:
-          "Detailed specifications available upon request.",
-        offerOrDiscounts: "Check for current offers and discounts.",
-      },
-      {
-        id: "6",
-        image: [PROCALCITONIN1],
-        title: "Lactate Dehydrogenase (LDH-L)",
-        shortdescription: "Lactate Dehydrogenase (LDH-L)",
-        description:
-          "Enzyme assay for lactate dehydrogenase, a marker of tissue damage and inflammation, including in COVID-19 patients.",
-        workPrinciple:
-          "Measures LDH enzyme levels, which increase with tissue damage.",
-        advantages: "Provides information on tissue injury and inflammation.",
-        benefits:
-          "Useful in diagnosing and monitoring conditions associated with tissue damage.",
-        mainAndCare:
-          "Store reagents according to guidelines; follow assay instructions carefully.",
-        workServices:
-          "Support available for assay use and result interpretation.",
-        productBrochure: "path/to/ldh-l-brochure.pdf",
-        detailedSpecification: "Specifications can be provided on request.",
-        offerOrDiscounts: "Inquire about current discounts.",
-      },
-      {
-        id: "7",
-        image: [identi1],
-        title: "C-Reactive Protein (CRP)",
-        shortdescription: "C-Reactive Protein (CRP)",
-        description:
-          "CRP assay for the detection of inflammation and infection, useful in managing COVID-19 and other inflammatory conditions.",
-        workPrinciple:
-          "Detects CRP levels, an indicator of systemic inflammation.",
-        advantages: "Helps assess inflammation and infection levels.",
-        benefits:
-          "Useful in monitoring disease progression and response to treatment.",
-        mainAndCare: "Handle samples and reagents according to the protocol.",
-        workServices:
-          "Technical support available for assay usage and result interpretation.",
-        productBrochure: "path/to/crp-brochure.pdf",
-        detailedSpecification:
-          "Detailed specifications available upon request.",
-        offerOrDiscounts: "Check for current promotions and discounts.",
-      },
-    ],
-  },
+  // covid
+  // {
+  //   category: "COVID-19",
+  //   subsection: [],
+  //   items: [
+  //     {
+  //       id: "1",
+  //       image: [ANTIBODY1],
+  //       title: "Identi VTM",
+  //       shortdescription: "Identi VTM",
+  //       description:
+  //         "Viral Transport Medium (VTM) for the collection, transport, and preservation of clinical specimens containing viruses, including SARS-CoV-2.",
+  //       workPrinciple:
+  //         "Preserves viral integrity during specimen transport and handling.",
+  //       advantages: "Ensures stability of viral samples until analysis.",
+  //       benefits:
+  //         "Improves the accuracy of viral testing by preserving samples properly.",
+  //       mainAndCare:
+  //         "Store at recommended temperatures; handle according to provided guidelines.",
+  //       workServices:
+  //         "Technical support available for product usage and storage.",
+  //       productBrochure: "path/to/identi-vtm-brochure.pdf",
+  //       detailedSpecification:
+  //         "Detailed specifications available upon request.",
+  //       offerOrDiscounts:
+  //         "Check with distributor for current offers and discounts.",
+  //     },
+  //     {
+  //       id: "2",
+  //       image: [Affinity1],
+  //       title: "Identi Affinity RNA Extraction",
+  //       shortdescription: "Identi Affinity RNA Extraction",
+  //       description:
+  //         "High-efficiency RNA extraction kit designed for reliable and rapid isolation of viral RNA from various clinical samples.",
+  //       workPrinciple:
+  //         "Uses advanced chemistry to efficiently isolate RNA from clinical samples.",
+  //       advantages:
+  //         "Provides high yield and purity of RNA for accurate testing.",
+  //       benefits:
+  //         "Ensures reliable results in downstream applications like PCR.",
+  //       mainAndCare:
+  //         "Follow kit instructions carefully; store reagents as recommended.",
+  //       workServices: "Support available for kit usage and troubleshooting.",
+  //       productBrochure: "path/to/identi-affinity-rna-extraction-brochure.pdf",
+  //       detailedSpecification: "Specifications can be provided on request.",
+  //       offerOrDiscounts: "Inquire about current promotions and discounts.",
+  //     },
+  //     {
+  //       id: "3",
+  //       image: [REACTIVE1],
+  //       title: "Antibody Testing",
+  //       shortdescription: "Antibody Testing",
+  //       description:
+  //         "Comprehensive antibody testing solutions for detecting the presence of antibodies against SARS-CoV-2 in patient samples.",
+  //       workPrinciple:
+  //         "Detects antibodies produced in response to SARS-CoV-2 infection.",
+  //       advantages: "Helps identify past infections and immune response.",
+  //       benefits:
+  //         "Aids in epidemiological studies and individual immune status assessment.",
+  //       mainAndCare:
+  //         "Ensure proper sample handling and test according to the protocol.",
+  //       workServices:
+  //         "Technical support available for interpreting results and test procedures.",
+  //       productBrochure: "path/to/antibody-testing-brochure.pdf",
+  //       detailedSpecification:
+  //         "Detailed technical specifications available upon request.",
+  //       offerOrDiscounts: "Check for any current offers or discounts.",
+  //     },
+  //     {
+  //       id: "4",
+  //       image: [FERRITI1],
+  //       title: "Procalcitonin",
+  //       shortdescription: "Procalcitonin",
+  //       description:
+  //         "Biomarker assay for the detection of procalcitonin levels, aiding in the diagnosis of bacterial infections and sepsis.",
+  //       workPrinciple:
+  //         "Measures procalcitonin levels, which rise in response to bacterial infections.",
+  //       advantages:
+  //         "Helps differentiate bacterial infections from other causes of inflammation.",
+  //       benefits:
+  //         "Provides valuable diagnostic information in acute care settings.",
+  //       mainAndCare:
+  //         "Store and handle according to the manufacturer's guidelines.",
+  //       workServices:
+  //         "Support available for assay setup and result interpretation.",
+  //       productBrochure: "path/to/procalcitonin-brochure.pdf",
+  //       detailedSpecification: "Specifications available upon request.",
+  //       offerOrDiscounts: "Inquire about current discounts.",
+  //     },
+  //     {
+  //       id: "5",
+  //       image: [LACTAT1],
+  //       title: "Ferritin",
+  //       shortdescription: "Ferritin",
+  //       description:
+  //         "Assay for measuring ferritin levels, useful in the diagnosis and monitoring of iron deficiency and related conditions.",
+  //       workPrinciple:
+  //         "Measures ferritin, a marker of iron stores in the body.",
+  //       advantages:
+  //         "Helps diagnose iron deficiency and monitor treatment efficacy.",
+  //       benefits:
+  //         "Provides insight into iron metabolism and related health conditions.",
+  //       mainAndCare: "Follow storage instructions to ensure assay performance.",
+  //       workServices:
+  //         "Technical support for assay usage and results interpretation.",
+  //       productBrochure: "path/to/ferritin-brochure.pdf",
+  //       detailedSpecification:
+  //         "Detailed specifications available upon request.",
+  //       offerOrDiscounts: "Check for current offers and discounts.",
+  //     },
+  //     {
+  //       id: "6",
+  //       image: [PROCALCITONIN1],
+  //       title: "Lactate Dehydrogenase (LDH-L)",
+  //       shortdescription: "Lactate Dehydrogenase (LDH-L)",
+  //       description:
+  //         "Enzyme assay for lactate dehydrogenase, a marker of tissue damage and inflammation, including in COVID-19 patients.",
+  //       workPrinciple:
+  //         "Measures LDH enzyme levels, which increase with tissue damage.",
+  //       advantages: "Provides information on tissue injury and inflammation.",
+  //       benefits:
+  //         "Useful in diagnosing and monitoring conditions associated with tissue damage.",
+  //       mainAndCare:
+  //         "Store reagents according to guidelines; follow assay instructions carefully.",
+  //       workServices:
+  //         "Support available for assay use and result interpretation.",
+  //       productBrochure: "path/to/ldh-l-brochure.pdf",
+  //       detailedSpecification: "Specifications can be provided on request.",
+  //       offerOrDiscounts: "Inquire about current discounts.",
+  //     },
+  //     {
+  //       id: "7",
+  //       image: [identi1],
+  //       title: "C-Reactive Protein (CRP)",
+  //       shortdescription: "C-Reactive Protein (CRP)",
+  //       description:
+  //         "CRP assay for the detection of inflammation and infection, useful in managing COVID-19 and other inflammatory conditions.",
+  //       workPrinciple:
+  //         "Detects CRP levels, an indicator of systemic inflammation.",
+  //       advantages: "Helps assess inflammation and infection levels.",
+  //       benefits:
+  //         "Useful in monitoring disease progression and response to treatment.",
+  //       mainAndCare: "Handle samples and reagents according to the protocol.",
+  //       workServices:
+  //         "Technical support available for assay usage and result interpretation.",
+  //       productBrochure: "path/to/crp-brochure.pdf",
+  //       detailedSpecification:
+  //         "Detailed specifications available upon request.",
+  //       offerOrDiscounts: "Check for current promotions and discounts.",
+  //     },
+  //   ],
+  // },
   {
     category: "Electrolyte Analyzer",
     subsection: ["All", "With Auto loader", "Without Auto loader"],
@@ -570,8 +571,33 @@ const products = [
       {
         topic: "Electrolyte Analyzer",
         id: "1",
+        section: "withautoloader",
         image: [Jokoh1, Jokoh2, Jokoh3],
         title: "Jokoh Ex-D Electrolyte Analyzer",
+        shortdescription: "Jokoh Ex-D Electrolyte Analyzer",
+        description:
+          "Advanced electrolyte analyzer providing precise measurements of various electrolytes in blood samples, essential for clinical diagnostics.",
+        workPrinciple:
+          "Utilizes ion-selective electrodes to measure electrolyte concentrations in blood samples.",
+        advantages: "High accuracy and reliability in electrolyte measurement.",
+        benefits:
+          "Critical for diagnosing and managing electrolyte imbalances in patients.",
+        mainAndCare:
+          "Regular calibration and maintenance required; follow operational guidelines for optimal performance.",
+        workServices:
+          "Technical support and service options available for system maintenance and troubleshooting.",
+        productBrochure: "path/to/jokoh-ex-d-brochure.pdf",
+        detailedSpecification:
+          "Detailed specifications can be provided upon request.",
+        offerOrDiscounts:
+          "Check with the distributor for current offers and discounts.",
+      },
+      {
+        topic: "Electrolyte Analyzer",
+        id: "2",
+        section: "withoutautoloader",
+        image: [image1],
+        title: "Jokoh Ex-Ds Electrolyte Analyzer",
         shortdescription: "Jokoh Ex-D Electrolyte Analyzer",
         description:
           "Advanced electrolyte analyzer providing precise measurements of various electrolytes in blood samples, essential for clinical diagnostics.",
@@ -678,10 +704,10 @@ const products = [
           "Check for current offers and discounts with the distributor.",
       },
       {
-        allover: "Visoion Pro",
+        allover: "Vision Pro",
         id: "4",
         image: [Analyzer1, Analyzer2],
-        title: "Visoion Pro",
+        title: "Vision Pro",
         section: "esranalyzer",
 
         shortdescription: "Dynacount 5D Fully Automatic Hematology Analyzer",
@@ -702,6 +728,33 @@ const products = [
         offerOrDiscounts:
           "Check for current offers and discounts with the distributor.",
       },
+      {
+        allover: "Sedrate Pro",
+        id: "5",
+        image: [image1],
+        title: "Sedrate Pro",
+        section: "esranalyzer",
+
+        shortdescription:
+          "An advanced ESR analyzer for accurate and rapid erythrocyte sedimentation rate (ESR) testing.",
+        description:
+          "The Sedrate Pro is designed for precise and efficient ESR testing, offering reliable performance and ease of use for laboratories of all sizes. Equipped with advanced features, it provides consistent results with minimal maintenance.",
+        workPrinciple:
+          "The analyzer operates based on the Westergren method, measuring the rate at which red blood cells settle in a tube over a specified period, providing critical information for diagnosing inflammatory conditions.",
+        advantages:
+          "1. High throughput for faster results \n2. Minimal blood sample requirement \n3. Automated calibration and result interpretation \n4. Low maintenance and durable design",
+        benefits:
+          "1. Time-efficient with rapid results \n2. Easy to operate and maintain \n3. Accurate and reproducible results \n4. Compact design suitable for any lab setup",
+        mainAndCare:
+          "Routine cleaning and calibration checks ensure the longevity of the analyzer. Minimal maintenance is required, with user-friendly guidelines for operational care.",
+        workServices:
+          "Technical support and training are available for seamless integration into laboratory workflows. Service plans include annual maintenance and on-demand repair services.",
+        productBrochure: "https://example.com/sedrate-pro-brochure",
+        detailedSpecification:
+          "Dimensions: 45 x 30 x 35 cm \nWeight: 12 kg \nSample Capacity: 20 tubes \nMethod: Westergren \nThroughput: 60 samples/hour",
+        offerOrDiscounts:
+          "Special discounts available for bulk purchases and long-term service contracts.",
+      },
     ],
   },
   {
@@ -721,6 +774,7 @@ const products = [
         id: "1",
         image: [Plexmat4],
         title: "Plexmat 4",
+        section: "immunoblot",
         shortdescription: "Plexmat 4",
         description:
           "The Plexmat 4 is an advanced immunoblot analyzer designed for high throughput and reliable results in various immunological assays.",
@@ -743,6 +797,7 @@ const products = [
         id: "2",
         image: [Plexmat8],
         title: "Plexmat 8",
+        section: "immunoblot",
         shortdescription: "Plexmat 8",
         description:
           "The Plexmat 8 offers enhanced performance and efficiency for immunoblot analysis, suitable for diverse laboratory needs.",
@@ -768,6 +823,7 @@ const products = [
           Iflash12004,
           Iflash12005,
         ],
+        section: "clia",
         title: "Iflash 1200",
         shortdescription: "Yhlo Iflash 1200",
         description:
@@ -793,6 +849,7 @@ const products = [
           Iflash18004,
           Iflash18005,
         ],
+        section: "clia",
         title: "Iflash 1800",
         shortdescription: "Iflash 1800",
         description:
@@ -816,6 +873,7 @@ const products = [
         id: "7",
         image: [Iflash30001, Iflash30002, Iflash30003, Iflash30004],
         title: "Iflash 3000",
+        section: "clia",
         shortdescription: "Iflash 3000",
         description:
           "The Iflash 3000 is a Fully Automated Immunoassay Analyzer that offers extensive testing capabilities and user-friendly operation.",
@@ -837,6 +895,7 @@ const products = [
       {
         id: "8",
         image: [Kryptor],
+        section: "trace",
         title: "Kryptor Compact Plus",
         shortdescription: "Everlife Kryptor Compact Plus",
         description:
@@ -860,6 +919,7 @@ const products = [
         id: "9",
         image: [Euroimmun],
         title: "Euroimmun Analyzer I-2P",
+        section: "elisa",
         shortdescription: "Everlife Euroimmun Analyzer I-2P",
         description:
           "The Euroimmun Analyzer I-2P offers comprehensive immunoassay automation, enhancing laboratory efficiency and accuracy.",
@@ -881,6 +941,7 @@ const products = [
         id: "10",
         image: [Euroblotone],
         title: "Euroblotone",
+        section: "immunoblot",
         shortdescription: "Euroblotone",
         description:
           "Euroblotone is a fully automated system for immunoblot processing, providing high-quality results with minimal manual intervention.",
@@ -903,6 +964,7 @@ const products = [
         id: "11",
         image: [IfSprinter],
         title: "If Sprinter",
+        section: "ifa",
         shortdescription: "If Sprinter",
         description:
           "The If Sprinter is designed for fully automated immunofluorescence assays, ensuring consistent and accurate diagnostic outcomes.",
@@ -922,6 +984,7 @@ const products = [
       {
         id: "12",
         image: [EuroStar],
+        section: "ifa",
         title: "Eurostar III Plus",
         shortdescription: "Eurostar III Plus",
         description:
@@ -956,6 +1019,91 @@ const products = [
           "Routine maintenance required; adhere to operational guidelines.",
         workServices: "Technical support available for setup and service.",
         productBrochure: "path/to/hemaquest-brochure.pdf",
+        detailedSpecification:
+          "Detailed specifications available upon request.",
+        offerOrDiscounts:
+          "Inquire about current promotions and discounts with distributor.",
+      },
+      {
+        id: "14",
+        image: [image1],
+        title: "Europattern Microscope",
+        section: "ifa",
+        shortdescription: "Europattern Microscope",
+        description:
+          "Europattern Microscope is designed for advanced hematology testing, providing reliable and accurate results for various blood analysis applications.",
+        workPrinciple: "Advanced technology for accurate hematology testing.",
+        advantages:
+          "Reliable and accurate results for diverse blood analysis needs.",
+        benefits: "Ideal for comprehensive hematology diagnostics.",
+        mainAndCare:
+          "Routine maintenance required; adhere to operational guidelines.",
+        workServices: "Technical support available for setup and service.",
+        productBrochure: "path/to/Europattern Microscope-brochure.pdf",
+        detailedSpecification:
+          "Detailed specifications available upon request.",
+        offerOrDiscounts:
+          "Inquire about current promotions and discounts with distributor.",
+      },
+      {
+        id: "15",
+        image: [image1],
+        title: "EFluoromat 50",
+        section: "ifa",
+        shortdescription: "Fluoromat 50",
+        description:
+          "Fluoromat 50 is designed for advanced hematology testing, providing reliable and accurate results for various blood analysis applications.",
+        workPrinciple: "Advanced technology for accurate hematology testing.",
+        advantages:
+          "Reliable and accurate results for diverse blood analysis needs.",
+        benefits: "Ideal for comprehensive hematology diagnostics.",
+        mainAndCare:
+          "Routine maintenance required; adhere to operational guidelines.",
+        workServices: "Technical support available for setup and service.",
+        productBrochure: "path/to/Fluoromat 50-brochure.pdf",
+        detailedSpecification:
+          "Detailed specifications available upon request.",
+        offerOrDiscounts:
+          "Inquire about current promotions and discounts with distributor.",
+      },
+      {
+        id: "16",
+        image: [image1],
+        title: "Euroimmun Analyzer I",
+        section: "elisa",
+        shortdescription: "Everlife Euroimmun Analyzer I",
+        description:
+          "Euroimmun Analyzer I offers comprehensive immunoassay automation, enhancing laboratory efficiency and accuracy.",
+        workPrinciple:
+          "Automated system for performing a wide range of immunoassays.",
+        advantages:
+          "Increases laboratory efficiency with comprehensive automation.",
+        benefits:
+          "Ideal for improving accuracy and throughput in immunoassay testing.",
+        mainAndCare:
+          "Regular maintenance and calibration needed; follow operational guidelines.",
+        workServices:
+          "Technical support available for system setup and troubleshooting.",
+        productBrochure: "path/to/Euroimmun Analyzer I-brochure.pdf",
+        detailedSpecification: "Detailed specs available on request.",
+        offerOrDiscounts: "Inquire about current offers with the distributor.",
+      },
+      {
+        id: "17",
+        image: [image1],
+        title: "Sprinter XL",
+        section: "ifa",
+        shortdescription: "Sprinter XL",
+        description:
+          "Sprinter XL is designed for advanced hematology testing, providing reliable and accurate results for various blood analysis applications.",
+        workPrinciple: "Advanced technology for accurate hematology testing.",
+        advantages:
+          "Reliable and accurate results for diverse blood analysis needs.",
+        benefits: "Ideal for comprehensive hematology diagnostics.",
+        mainAndCare:
+          "Routine maintenance required; adhere to operational guidelines.",
+        workServices: "Technical support available for setup and service.",
+        productBrochure: "path/to/Sprinter XL-brochure.pdf",
         detailedSpecification:
           "Detailed specifications available upon request.",
         offerOrDiscounts:
@@ -1014,6 +1162,60 @@ const products = [
           "Detailed specifications available upon request.",
         offerOrDiscounts:
           "Check with the distributor for any available offers and discounts.",
+      },
+    ],
+  },
+  {
+    category: "Molecular Diagnostics",
+    subsection: ["All", "Reagents"],
+    items: [
+      {
+        topic: "Labscan 3D",
+        id: "1",
+        image: [image1],
+        title: "Labscan 3D",
+        shortdescription: "Fully Automatic 3-Part Sortpro Sample Sorter",
+        description:
+          "The Labscan 3D is a fully automatic 3-part sorter, designed to streamline the pre-analytical process in small to mid-sized laboratories. This device sorts and prepares samples efficiently, improving workflow accuracy and reducing manual intervention.",
+        workPrinciple:
+          "Automates the sorting and preparation of samples using advanced 3-part sorting technology. Designed for moderate sample volumes, it enhances lab workflow by sorting samples in a systematic and organized manner.",
+        advantages:
+          "Increases laboratory throughput and accuracy while minimizing manual sorting errors. Perfect for labs looking to improve efficiency with a moderate sample load.",
+        benefits:
+          "Reduces the need for manual sorting, cutting labor costs and ensuring more reliable, accurate sample preparation. Enhances overall workflow efficiency and reduces the chances of human error.",
+        mainAndCare:
+          "Requires regular maintenance for optimal performance. The manufacturer's maintenance schedule should be followed to ensure long-term reliability and accuracy.",
+        workServices:
+          "Offers comprehensive services for installation, maintenance, and technical troubleshooting to ensure seamless operation.",
+        productBrochure: "path/to/labscan-3d-brochure.pdf",
+        detailedSpecification:
+          "Key specifications include sorting capacity for moderate sample volumes, customizable speed settings, and compatibility with a range of sample containers.",
+        offerOrDiscounts:
+          "Check with the distributor for current offers or discounts, including bundle deals with other lab equipment.",
+      },
+      {
+        topic: "Labscan 100",
+        id: "2",
+        image: [image1],
+        title: "Labscan 100",
+        shortdescription: "High-Precision 5-Part Sortpro Sample Sorter",
+        description:
+          "The Labscan 100 is a high-precision 5-part sorter, designed for laboratories handling large volumes of samples. It offers superior accuracy and efficiency by sorting and preparing samples quickly, improving lab throughput and minimizing errors.",
+        workPrinciple:
+          "Utilizes advanced 5-part sorting technology to handle a wide variety of samples, delivering faster processing and enhanced precision for high-volume labs.",
+        advantages:
+          "Increases laboratory efficiency with high-speed sorting, ensuring accurate sample handling for larger operations and reducing manual effort.",
+        benefits:
+          "Boosts productivity by shortening the time required for pre-analytical processing, reducing labor costs, and ensuring precise sample sorting for better diagnostic outcomes.",
+        mainAndCare:
+          "Minimal maintenance needed thanks to its built-in self-cleaning feature. Regular check-ups as per the manufacturer's guidelines will ensure long-lasting performance.",
+        workServices:
+          "Complete support services for installation, calibration, regular maintenance, and troubleshooting, ensuring smooth and uninterrupted lab operations.",
+        productBrochure: "path/to/labscan-100-brochure.pdf",
+        detailedSpecification:
+          "The Labscan 100 offers specifications including higher sorting speed, increased capacity for larger labs, and compatibility with multiple sample types.",
+        offerOrDiscounts:
+          "Inquire with authorized distributors for ongoing promotions or discounts on bulk purchases or bundled offers.",
       },
     ],
   },
