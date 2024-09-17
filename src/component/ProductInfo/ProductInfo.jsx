@@ -196,7 +196,7 @@ function ProductInfo() {
             <span className="">
               <Link
                 onClick={() => {
-                  setSelectSectionCategory("all");
+                  setSelectSectionCategory("top");
                   setSelectedCategory("Biochemistry");
                 }}
                 to={`/product/${selectedCategory}/${selecteSectionCategory}`}
@@ -205,7 +205,7 @@ function ProductInfo() {
               </Link>
             </span>
             <Link
-              to={`/product/${selectedCategory}/all`}
+              to={`/product/${selectedCategory}/top`}
               onClick={() => setSelectedCategory(category)}
             >
               <span>/ {category}</span>
@@ -217,7 +217,7 @@ function ProductInfo() {
             <span className="">
               <Link
                 onClick={() => {
-                  setSelectSectionCategory("all");
+                  setSelectSectionCategory("top");
                   setSelectedCategory("Biochemistry");
                 }}
                 to={`/product/${selectedCategory}/${selecteSectionCategory}`}
@@ -226,7 +226,7 @@ function ProductInfo() {
               </Link>
             </span>
             <Link
-              to={`/product/${selectedCategory}/all`}
+              to={`/product/${selectedCategory}/top`}
               onClick={() => setSelectedCategory(category)}
             >
               <span>/ {category}</span>

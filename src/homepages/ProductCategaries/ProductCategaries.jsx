@@ -21,7 +21,7 @@ const categoryItems = [
   { name: "Biochemistry", image: chemistry },
   { name: "Hematology", image: pieChart },
   { name: "Point of Care", image: medicine },
-  { name: "COVID-19", image: mask },
+  // { name: "COVID-19", image: mask },
   { name: "Immunology", image: microbiology },
   { name: "Electrolyte Analyzer", image: covid },
   { name: "Clinical Microbiology", image: electrolyte },
@@ -29,7 +29,7 @@ const categoryItems = [
 ];
 
 const categoryItems2 = [
-  { name: "COVID-19", image: covid },
+  // { name: "COVID-19", image: covid },
   { name: "Immunology", image: Immunology },
   { name: "Point of Care", image: care },
   { name: "Electrolyte Analyzer", image: covid },
@@ -104,7 +104,7 @@ function ProductCategaries() {
                 >
                   {categoryItems2.map((item) => (
                     <Link
-                      to="/product"
+                      to={`/product/${item.name}/top`}
                       onClick={() => setSelectedCategory(item.name)}
                     >
                       <Magnetic key={item.name}>
@@ -134,7 +134,7 @@ function ProductCategaries() {
                 >
                   {categoryItems.map((item) => (
                     <Link
-                      to="/product"
+                      to={`/product/${item.name}/top`}
                       onClick={() => setSelectedCategory(item.name)}
                     >
                       <Magnetic key={item.name}>

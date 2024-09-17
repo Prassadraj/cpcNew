@@ -24,16 +24,21 @@ function Product() {
   const [openDropdown, setOpenDropdown] = useState(null);
   const images = [frame1, frame1, frame1, frame1];
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [load, setLoad] = useState(true);
+  const [load, setLoad] = useState(false);
   const navigate = useNavigate();
   const { section } = useParams();
 
   const { selecteSectionCategory, setSelectSectionCategory } =
     useContext(SectionCategory);
   useEffect(() => {
-    if (section == "all") {
+    if (section == "top") {
       window.scrollTo(0, 0);
+      setLoad(true);
     }
+
+    setTimeout(() => {
+      setLoad(false);
+    }, 800);
   }, [section]);
 
   const toggleDropdown = (index) => {
@@ -53,7 +58,7 @@ function Product() {
     (sectionItems) => sectionItems.section === selecteSectionCategory
   );
   const final =
-    selecteSectionCategory == "all"
+    selecteSectionCategory === "all" || selecteSectionCategory === "top"
       ? selectedCategoryItems
       : sectionCategoryItems;
 
@@ -68,9 +73,6 @@ function Product() {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 5000);
-    setTimeout(() => {
-      setLoad(false);
-    }, 800);
 
     return () => clearInterval(interval);
   }, []);

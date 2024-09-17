@@ -42,9 +42,6 @@ function Nav() {
       case "/brand":
         setSelected("brand");
         break;
-      case `/product/${selectedCategory}/${selecteSectionCategory}`:
-        setSelected("product");
-        break;
       case "/apply":
         setSelected("apply");
         break;
@@ -61,7 +58,14 @@ function Nav() {
         setSelected("contact");
         break;
       default:
-        setSelected("");
+        // Check if the path matches the product path with a regex
+        if (/^\/product\/[^ -]+$/.test(location.pathname)) {
+          setSelected("product");
+        } else if (/^\/productinfo\/[^ -]+$/.test(location.pathname)) {
+          setSelected("product");
+        } else {
+          setSelected("");
+        }
         break;
     }
   }, [location.pathname]);
@@ -183,7 +187,7 @@ function Nav() {
                 <li>
                   <Link
                     className=" "
-                    to={`/product/Biochemistry/all`}
+                    to={`/product/Biochemistry/top`}
                     onClick={() => {
                       setSelectedCategory("Biochemistry");
                       setShowMobileMenu(!showMobileMenu);
@@ -196,7 +200,7 @@ function Nav() {
                 <li>
                   <Link
                     className=""
-                    to={`/product/ClinicalMicrobiology/all`}
+                    to={`/product/ClinicalMicrobiology/top`}
                     onClick={() => {
                       setSelectedCategory("Clinical Microbiology");
                       setShowMobileMenu(!showMobileMenu);
@@ -210,7 +214,7 @@ function Nav() {
                   {" "}
                   <Link
                     className=""
-                    to={`/product/COVID-19/all`}
+                    to={`/product/COVID-19/top`}
                     onClick={() => {
                       setSelectedCategory("COVID-19");
                       setShowMobileMenu(!showMobileMenu);
@@ -224,7 +228,7 @@ function Nav() {
                   {" "}
                   <Link
                     className=""
-                    to={`/product/ElectrolyteAnalyzer/all`}
+                    to={`/product/ElectrolyteAnalyzer/top`}
                     onClick={() => {
                       setSelectedCategory("Electrolyte Analyzer");
                       setShowMobileMenu(!showMobileMenu);
@@ -237,7 +241,7 @@ function Nav() {
                 <li>
                   <Link
                     className=""
-                    to={`/product/Hematology/all`}
+                    to={`/product/Hematology/top`}
                     onClick={() => {
                       setSelectedCategory("Hematology");
                       setShowMobileMenu(!showMobileMenu);
@@ -250,7 +254,7 @@ function Nav() {
                 <li>
                   <Link
                     className=""
-                    to={`/product/Immunology/all`}
+                    to={`/product/Immunology/top`}
                     onClick={() => {
                       setSelectedCategory("Immunology");
                       setShowMobileMenu(!showMobileMenu);
@@ -263,7 +267,7 @@ function Nav() {
                 <li>
                   <Link
                     className=""
-                    to={`/product/PointofCare/all`}
+                    to={`/product/PointofCare/top`}
                     onClick={() => {
                       setSelectedCategory("Point of Care");
                       setShowMobileMenu(!showMobileMenu);
@@ -276,7 +280,7 @@ function Nav() {
                 <li>
                   <Link
                     className=""
-                    to={`/product/Pre-AnalyticalAutomation/all`}
+                    to={`/product/Pre-AnalyticalAutomation/top`}
                     onClick={() => {
                       setSelectedCategory("Pre-Analytical Automation");
                       setShowMobileMenu(!showMobileMenu);
@@ -414,7 +418,7 @@ function Nav() {
               selected === "product" ? "selected" : ""
             }`}
             onClick={() => {
-              setSelectSectionCategory("all");
+              setSelectSectionCategory("top");
               setSelectedCategory("Biochemistry");
             }}
             to={`/product/${selectedCategory}/${selecteSectionCategory}`}
@@ -425,9 +429,9 @@ function Nav() {
             <div className="dropdown-menu w-fit">
               <Link
                 className="dropdown-item"
-                to={`/product/Biochemistry/all`}
+                to={`/product/Biochemistry/top`}
                 onClick={() => {
-                  setSelectSectionCategory("all");
+                  setSelectSectionCategory("top");
                   setSelectedCategory("Biochemistry");
                 }}
               >
@@ -435,9 +439,9 @@ function Nav() {
               </Link>
               <Link
                 className="dropdown-item"
-                to={`/product/ClinicalMicrobiology/all`}
+                to={`/product/ClinicalMicrobiology/top`}
                 onClick={() => {
-                  setSelectSectionCategory("all");
+                  setSelectSectionCategory("top");
                   setSelectedCategory("Clinical Microbiology");
                 }}
               >
@@ -445,9 +449,9 @@ function Nav() {
               </Link>
               {/* <Link
                 className="dropdown-item"
-                to={`/product/COVID-19/all`}
+                to={`/product/COVID-19/top`}
                 onClick={() => {
-                  setSelectSectionCategory("all");
+                  setSelectSectionCategory("top");
                   setSelectedCategory("COVID-19");
                 }}
               >
@@ -455,9 +459,9 @@ function Nav() {
               </Link> */}
               <Link
                 className="dropdown-item"
-                to={`/product/MolecularDiagnostics/all`}
+                to={`/product/MolecularDiagnostics/top`}
                 onClick={() => {
-                  setSelectSectionCategory("all");
+                  setSelectSectionCategory("top");
                   setSelectedCategory("Molecular Diagnostics");
                 }}
               >
@@ -465,9 +469,9 @@ function Nav() {
               </Link>
               <Link
                 className="dropdown-item"
-                to={`/product/ElectrolyteAnalyzer/all`}
+                to={`/product/ElectrolyteAnalyzer/top`}
                 onClick={() => {
-                  setSelectSectionCategory("all");
+                  setSelectSectionCategory("top");
                   setSelectedCategory("Electrolyte Analyzer");
                 }}
               >
@@ -475,9 +479,9 @@ function Nav() {
               </Link>
               <Link
                 className="dropdown-item"
-                to={`/product/Hematology/all`}
+                to={`/product/Hematology/top`}
                 onClick={() => {
-                  setSelectSectionCategory("all");
+                  setSelectSectionCategory("top");
                   setSelectedCategory("Hematology");
                 }}
               >
@@ -485,9 +489,9 @@ function Nav() {
               </Link>
               <Link
                 className="dropdown-item"
-                to={`/product/Immunology/all`}
+                to={`/product/Immunology/top`}
                 onClick={() => {
-                  setSelectSectionCategory("all");
+                  setSelectSectionCategory("top");
                   setSelectedCategory("Immunology");
                 }}
               >
@@ -495,9 +499,9 @@ function Nav() {
               </Link>
               <Link
                 className="dropdown-item"
-                to={`/product/PointofCare/all`}
+                to={`/product/PointofCare/top`}
                 onClick={() => {
-                  setSelectSectionCategory("all");
+                  setSelectSectionCategory("top");
                   setSelectedCategory("Point of Care");
                 }}
               >
@@ -505,9 +509,9 @@ function Nav() {
               </Link>
               <Link
                 className="dropdown-item"
-                to={`/product/Pre-AnalyticalAutomation/all`}
+                to={`/product/Pre-AnalyticalAutomation/top`}
                 onClick={() => {
-                  setSelectSectionCategory("all");
+                  setSelectSectionCategory("top");
                   setSelectedCategory("Pre-Analytical Automation");
                 }}
               >
