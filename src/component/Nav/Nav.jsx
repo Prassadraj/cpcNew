@@ -575,6 +575,11 @@ function Nav() {
           </Link>
         </div>
       </div>
+      <div className="absolute top-0 right-0 ">
+        <Link to="/googleadd">
+          <p className="w-5 h-5 bg-black/80 rounded-es-3xl"></p>
+        </Link>
+      </div>
     </div>
   );
 }
