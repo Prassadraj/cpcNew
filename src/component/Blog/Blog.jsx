@@ -6,7 +6,7 @@ import blog2 from "../../assets/image/Difference-Between-3-Part-and-5-Part-Hemat
 import blog3 from "../../assets/image/Biochemistry-Analyzer-Its-working-principle-uses-and-price.jpg";
 import blogcommon from "../../assets/image/Frame-md.png";
 import blog4 from "../../assets/image/red-blood-cells-blood-oxygen-o2-saturation-medical-scientific-concepts-icon-realistic.jpg";
-import blog7 from "../../assets/image/dnynacount-3d-600-px-01-2048x1362.png";
+import blog7 from "../../assets/image/dnynacount.png";
 import blog8 from "../../assets/image/Membrane_740x480.png";
 import blog9 from "../../assets/image/pic.jpg";
 import blog10 from "../../assets/image/woman-patient-receives-thyroid-diagnostics-treatment-thyrotoxicosis-hypothyroidism-ultrasound-diagnostics-endocrine-system-thyroid-768x512.jpg";

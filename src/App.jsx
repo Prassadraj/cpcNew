@@ -21,6 +21,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import WhyChoseUs from "./component/Career/WhyChooseUs";
 import { CategoryContext } from "./component/Context/CategoryContext";
+import Google from "./component/Google/Google";
 
 function App() {
   const location = useLocation();
@@ -57,6 +58,7 @@ function App() {
           <Route path="/apply" element={<Career />} />
           <Route path="/success" element={<Success />} />
           <Route path="/whychooseus" element={<WhyChoseUs />} />
+          <Route path="/googleadd" element={<Google />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:id" element={<SingleBlog />} />
           <Route path="/productinfo/:category/:id" element={<ProductInfo />} />
