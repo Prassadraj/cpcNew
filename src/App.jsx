@@ -22,6 +22,7 @@ import "react-toastify/dist/ReactToastify.css";
 import WhyChoseUs from "./component/Career/WhyChooseUs";
 import { CategoryContext } from "./component/Context/CategoryContext";
 import Google from "./component/Google/Google";
+import PopupForm from "./component/PopupForm/PopupForm";
 
 function App() {
   const location = useLocation();
