@@ -22,6 +22,7 @@ import { MdBusinessCenter } from "react-icons/md";
 
 import Popupads from "./Popupads";
 import PopupForm from "../PopupForm/PopupForm";
+import Footer from "../../homepages/Footer/Footer";
 
 function Google() {
   const [frequency, setFrequency] = useState("one-time");
@@ -1242,6 +1243,7 @@ function Google() {
           </tr>
         </tbody>
       </table>
+      <Footer />
     </div>
   );
 }
