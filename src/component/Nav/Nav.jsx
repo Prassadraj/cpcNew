@@ -582,7 +582,7 @@ function Nav() {
       </div>
       <div className="absolute top-0 left-0 ">
         <Link to="/googlelanding">
-          <p className="w-5 h-5 bg-black/80 rounded-ee-lg"></p>
+          <p className="w-5 h-5 bg-black/80 rounded-ee-3xl"></p>
         </Link>
       </div>
     </div>
