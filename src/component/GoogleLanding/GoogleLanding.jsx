@@ -80,7 +80,7 @@ function GoogleLanding() {
           Download Brochure
         </button>
 
-        <div className="flex justify-evenly items-center mt-10 p-8 bg-white shadow-xl">
+        <div className="flex justify-evenly items-center mt-10 p-8 rounded-md bg-white shadow-xl shadow-gray-200">
           <p className="text-2xl">Share </p>
           <FaFacebook size={40} />
           <RiTwitterXFill size={40} />
