@@ -17,6 +17,7 @@ import yhlo3 from "../../assets/yhlo-3.jpg";
 import trial from "../../assets/trial.png";
 import rental from "../../assets/rental.png";
 import Footer from "../../homepages/Footer/Footer";
+import bannerImage from "../../assets/image/contact-us-banner.png";
 
 // Custom SlotCounter Component
 function SlotCounter({ endValue, label }) {
@@ -61,7 +62,7 @@ function GoogleLanding() {
       <div
         className="p-7"
         style={{
-          backgroundImage: "url(src/assets/image/contact-us-banner.png)",
+          backgroundImage: `url(${bannerImage})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           height: "60vh",
