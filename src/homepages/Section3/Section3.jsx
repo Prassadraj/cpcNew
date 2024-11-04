@@ -56,9 +56,9 @@ function Section3() {
       <div className="p-2 tablet:p-0 section3 flex flex-col tablet:flex-row justify-evenly items-center tablet:h-[500px]">
         <div className="flex flex-col items-start tablet:px-4 laptop:p-1">
           <div className="mb-3" data-aos="zoom-in-left">
-            {/* <p className="font-bold text-custom-green text-sm tablet:text-3xl">
+            <p className="font-bold text-custom-green text-sm tablet:hidden tablet:text-3xl">
               Who We Are?
-            </p> */}
+            </p>
           </div>
           <div
             className="w-full tablet:max-w-xl text-sm tablet:text-xl "
