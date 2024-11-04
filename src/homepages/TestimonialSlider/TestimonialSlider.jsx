@@ -4,7 +4,7 @@ import "./TestimonialSlider.css";
 function TestimonialSlider() {
   const sliderRef = useRef(null);
   const [activeSlide, setActiveSlide] = useState(0);
-  const slideWidth = 400; // Width of each slide for non-tablet screens
+  const slideWidth = 390; // Width of each slide for non-tablet screens
 
   const data = [
     {
