@@ -46,7 +46,7 @@ function Blog() {
   return (
     <div className=" bg-white px-2 mb-2 tablet:mb-10">
       <div className=" flex justify-between  tablet:px-10">
-        <p className="text-left text-custom-green tablet:text-3xl font-poppins font-bold uppercase">
+        <p className="text-left text-custom-green tablet:text-3xl text-lg font-poppins font-bold uppercase">
           Blog Snippets
         </p>
         <Link to="/blog">
@@ -59,11 +59,11 @@ function Blog() {
         We use only the best quality materials on the market in order to provide
         the best products to our patients.
       </p>
-      <div className="mt-0 p-1 tablet:mx-10 tablet:my-4 grid tablet:grid-cols-2  laptop:grid-cols-3 gap-4  tablet:gap-4 grid-cols-1 tablet:mb-4">
+      <div className="mt-0 p-1 tablet:mx-10 tablet:my-4 grid tablet:grid-cols-2  laptop:grid-cols-3 gap-4  tablet:gap-4 grid-cols-1 place-items-center my-2  tablet:mb-4">
         {data.map((datas, index) => (
           <div
             key={index}
-            className="h-auto p-3  border-1 border-custom-green w-full max-w-[300px] rounded-lg tablet:h-auto blogBox "
+            className="h-auto p-3  border-1 border-custom-green w-full rounded-lg tablet:h-auto blogBox "
           >
             <div className="tablet:h-28">
               <p className="text-lg font-semibold">{datas.title}</p>
