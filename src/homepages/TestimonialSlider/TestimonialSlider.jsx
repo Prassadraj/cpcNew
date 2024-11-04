@@ -85,6 +85,19 @@ function TestimonialSlider() {
             </div>
           ))}
         </div>
+        <div className="flex justify-center mt-4 gap-2">
+          {data.map((_, i) => (
+            <button
+              key={i}
+              className={`w-5 h-5 rounded-full cursor-pointer ${
+                activeSlide === i
+                  ? "bg-custom-green"
+                  : "border-2 border-black/50"
+              }`}
+              onClick={() => handleDotClick(i)}
+            ></button>
+          ))}
+        </div>
       </div>
     </div>
   );
