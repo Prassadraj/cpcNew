@@ -4,7 +4,6 @@ import "./TestimonialSlider.css";
 function TestimonialSlider() {
   const sliderRef = useRef(null);
   const [activeSlide, setActiveSlide] = useState(0);
-  const slideWidth = 390; // Width of each slide for non-tablet screens
 
   const data = [
     {
@@ -45,7 +44,7 @@ function TestimonialSlider() {
   };
 
   return (
-    <div className="tablet:h-screen">
+    <div className="tablet:h-screen my-4 tablet:my-0">
       <div className="flex justify-center items-center flex-col gap-2 tablet:p-5">
         <p className="text-lg tablet:text-4xl text-custom-green font-semibold headline font-poppins uppercase">
           Testimonials
@@ -59,24 +58,14 @@ function TestimonialSlider() {
       <div className="relative overflow-hidden tablet:mx-10">
         <div
           ref={sliderRef}
-          className={`flex transition-transform duration-500 gap-4 px-2 mt-2 ease-in-out ${
-            data.length > 1 && window.innerWidth < 600
-              ? "tablet:translate-x-0"
-              : ""
-          }`}
-          style={{
-            transform:
-              window.innerWidth < 600
-                ? `translateX(-${activeSlide * slideWidth}px)`
-                : "none",
-          }}
+          className={`flex flex-col tablet:flex-row transition-transform duration-500 gap-4 px-2 mt-2 ease-in-out`}
         >
           {data.map((item, i) => (
             <div
               key={i}
-              className="cardd border-1 border-custom-green gap-1 p-2 tablet:p-1 laptop:p-3 rounded-lg text-gray-500 flex-col flex tablet:gap-3 font-poppins w-[400px] tablet:w-full"
+              className="cardd border-1 border-custom-green gap-1 p-2 tablet:p-1 laptop:p-3 rounded-lg text-gray-500 flex-col flex tablet:gap-3 font-poppins w-full  tablet:w-full"
             >
-              <div className="flex items-center w-[355px] tablet:w-[300px] laptop:w-[550px] tablet:gap-2 gap-1 tablet:p-3">
+              <div className="flex items-center w-full tablet:w-[300px] laptop:w-[550px] tablet:gap-2 gap-1 tablet:p-3">
                 {/* <img
                   className="w-10 h-10 tablet:w-20 tablet:h-20 rounded-full object-cover"
                   src={
@@ -96,18 +85,6 @@ function TestimonialSlider() {
             </div>
           ))}
         </div>
-      </div>
-
-      <div className="flex justify-center mt-4 gap-2">
-        {data.map((_, i) => (
-          <button
-            key={i}
-            className={`w-3 h-3 tablet:w-5 tablet:h-5 rounded-full cursor-pointer ${
-              activeSlide === i ? "bg-custom-green" : "border-2 border-black/50"
-            }`}
-            onClick={() => handleDotClick(i)}
-          ></button>
-        ))}
       </div>
     </div>
   );
