@@ -5,6 +5,9 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import organisation1 from "../../images/organisation/1.png";
 import organisation2 from "../../images/organisation/2.png";
 import organisation3 from "../../images/organisation/3.png";
+import image1 from "../../images/organisation/jeev.jpg";
+import image2 from "../../images/organisation/sachika.jpg";
+import image3 from "../../images/organisation/cpcmed.jpg";
 import Heading from "./Heading";
 
 // Register ScrollTrigger with GSAP
@@ -83,21 +86,21 @@ function New() {
         <div className="flex flex-col gap-5 items-center justify-center w-1/2 ">
           <div className="tablet:h-full">
             <img
-              src="https://www.pagnes.com/wp-content/uploads/2019/06/Reduced-Size-Front-Desk-1080x675.jpg"
+              src={image1}
               alt=""
               className="w-fit tablet:h-[400px] img1 rounded-[50px]"
             />
           </div>
           <div className="tablet:h-full">
             <img
-              src="https://www.mkmdesign.com/wp-content/uploads/2023/06/Cameron-Memorial-Hospital-PACU-Nurse-Station.jpg"
+              src={image2}
               alt=""
               className="w-fit tablet:h-[400px] img2 rounded-[50px]"
             />
           </div>
           <div className="tablet:h-full">
             <img
-              src="https://mcdmag.com/wp-content/uploads/2020/06/Jun20_MCDeNews_Projects_CICU_NICUNurseStation-1000x600.jpg"
+              src={image3}
               alt=""
               className="w-fit tablet:h-[400px] img3 rounded-[50px]"
             />

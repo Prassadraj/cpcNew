@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import whatWeDo from "../../images/section2&3/what-we-do 1.png";
-import whoWeAre from "../../images/section2&3/who we are 1.png";
+import whoWeAre from "../../images/section2&3/whoweare.png";
 import Aos from "aos";
 import { Link } from "react-router-dom";
 
@@ -56,9 +56,9 @@ function Section3() {
       <div className="p-2 tablet:p-0 section3 flex flex-col tablet:flex-row justify-evenly items-center tablet:h-[500px]">
         <div className="flex flex-col items-start tablet:px-4 laptop:p-1">
           <div className="mb-3" data-aos="zoom-in-left">
-            <p className="font-bold text-custom-green text-sm tablet:text-3xl">
+            {/* <p className="font-bold text-custom-green text-sm tablet:text-3xl">
               Who We Are?
-            </p>
+            </p> */}
           </div>
           <div
             className="w-full tablet:max-w-xl text-sm tablet:text-xl "
@@ -86,11 +86,7 @@ function Section3() {
         </div>
         <div className="relative justify-center items-center hidden tablet:flex">
           <div className="relative bottom-0 w-[80vw] tablet:w-[30vw] h-[50vh] rounded-2xl z-10">
-            <img
-              src={whoWeAre}
-              alt="Who We Are"
-              className="animate-leftDown rounded-lg"
-            />
+            <img src={whoWeAre} alt="Who We Are" className="rounded-lg" />
           </div>
         </div>
       </div>

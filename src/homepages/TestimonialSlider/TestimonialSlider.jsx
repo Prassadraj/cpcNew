@@ -77,7 +77,7 @@ function TestimonialSlider() {
               className="cardd border-1 border-custom-green gap-1 p-2 tablet:p-1 laptop:p-3 rounded-lg text-gray-500 flex-col flex tablet:gap-3 font-poppins w-[400px] tablet:w-full"
             >
               <div className="flex items-center w-[355px] tablet:w-[300px] laptop:w-[550px] tablet:gap-2 gap-1 tablet:p-3">
-                <img
+                {/* <img
                   className="w-10 h-10 tablet:w-20 tablet:h-20 rounded-full object-cover"
                   src={
                     item.img
@@ -85,7 +85,7 @@ function TestimonialSlider() {
                       : "https://cdn-icons-png.flaticon.com/512/149/149071.png"
                   }
                   alt={item.name}
-                />
+                /> */}
                 <p className="tablet:text-xl text-xs font-semibold">
                   {item.name}
                 </p>
