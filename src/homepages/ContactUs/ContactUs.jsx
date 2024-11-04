@@ -28,7 +28,7 @@ function ContactUs() {
         "https://cpcnew.onrender.com/send-email",
         formData
       );
-      console.log("Success:", response.data);
+
       setMessageLoading(false);
       toast.success("SuccessFully Message Sent");
       setFormData({
@@ -57,6 +57,7 @@ function ContactUs() {
         <video
           autoPlay
           loop
+          playsInline
           muted
           className="absolute inset-0 w-full h-full object-cover z-0 rounded-xl"
         >
