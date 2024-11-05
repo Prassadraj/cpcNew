@@ -85,7 +85,7 @@ function TestimonialSlider() {
             </div>
           ))}
         </div>
-        <div className="flex justify-center mt-4 gap-2">
+        <div className="tablet:flex hidden justify-center mt-4 gap-2">
           {data.map((_, i) => (
             <button
               key={i}
