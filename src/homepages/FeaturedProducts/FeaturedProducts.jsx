@@ -21,13 +21,14 @@ const FeaturedProducts = () => {
       ".products",
       {
         opacity: 0,
-        width: "0%",
+        scale: 0.8,
+        background: "black",
       },
       {
         opacity: 1,
-        width: "100%",
-        duration: 0.5,
-
+        scale: 1,
+        duration: 1,
+        background: "white",
         scrollTrigger: ".products",
         stagger: {
           amount: 1,
@@ -39,14 +40,14 @@ const FeaturedProducts = () => {
   return (
     <div className="laptop:mb-20">
       <div className="mb-2 flex h-10 items-center tablet:pl-24 flex-col tablet:gap-4 heading p-2 text-center">
-        <span className="font-semibold text-xl tablet:text-4xl uppercase  font-poppins text-custom-green">
+        <span className=" font-semibold text-xl tablet:text-4xl uppercase  font-poppins text-custom-green">
           Featured Products
         </span>
         <p className="tablet:text-xl   font-poppins text-gray-500 ">
           Explore Our Best-in-Class Diagnostic Equipment
         </p>
       </div>
-      <div className="hidden tablet:block products">
+      <div className="hidden tablet:block ">
         <HorizontalScrollCarousel cards={featuredCards} />
       </div>
       {/* Add a mobile-friendly version if needed */}
@@ -95,7 +96,11 @@ const HorizontalScrollCarousel = ({ cards }) => {
 
 const Card = ({ card }) => {
   return (
-    <div className="laptop:mt-10 font-poppins` relative h-[250px] w-[150px] tablet:h-[400px] tablet:w-[350px] overflow-hidden  rounded-2xl border-1 border-custom-green">
+    <div
+      className={`laptop:mt-10 font-poppins relative h-[250px] w-[150px] tablet:h-[400px] tablet:w-[350px] overflow-hidden  rounded-2xl border-1 border-custom-green ${
+        card.id > 1 ? "products" : ""
+      }`}
+    >
       <div className="flex justify-center items-center w-full tablet:mt-10 h-32">
         <img className="tablet:w-[200px] w-[100px]" src={card.url} alt="" />
       </div>

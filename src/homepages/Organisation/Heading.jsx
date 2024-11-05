@@ -13,10 +13,7 @@ function Heading() {
       <p className="text-lg tablet:text-3xl text-custom-green font-semibold title1 uppercase">
         Our Sister Organizations
       </p>
-      <p
-        data-aos="zoom-in-up"
-        className="font-poppins text-sm tablet:text-xl max-w-xl text-center title2"
-      >
+      <p className="font-poppins text-sm tablet:text-xl max-w-xl text-center title2">
         Explore our network of affiliated companies that enhance healthcare
         globally.
       </p>
