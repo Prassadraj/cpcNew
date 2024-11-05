@@ -4,12 +4,10 @@ import image1 from "../../component/AllDatas/ProductImages/Biochemistry/ichemMan
 import image2 from "../../component/AllDatas/ProductImages/Hematology/DYNACOUNT 5D/product1.png";
 import image3 from "../../images/featured/product3.png";
 import image4 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ III/product1.jpg";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
 import Magnetic from "../../component/magneticButton/Magnetic";
 import { Link } from "react-router-dom";
 
