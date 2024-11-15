@@ -18,6 +18,7 @@ import trial from "../../assets/trial.png";
 import rental from "../../assets/rental.png";
 import "../../App.css";
 import Footer from "../../homepages/Footer/Footer";
+import bgImage from "../../assets/image/contact-us-banner.png";
 
 // Custom SlotCounter Component
 function SlotCounter({ endValue, label }) {
@@ -74,7 +75,7 @@ function GoogleLandingpageOne() {
       <div
         className="p-7"
         style={{
-          backgroundImage: "url(src/assets/image/contact-us-banner.png)",
+          backgroundImage: `url(${bgImage})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           height: "60vh",
