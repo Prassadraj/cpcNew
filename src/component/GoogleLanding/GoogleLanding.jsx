@@ -16,8 +16,8 @@ import yhlo2 from "../../assets/yhlo-2.jpg";
 import yhlo3 from "../../assets/yhlo-3.jpg";
 import trial from "../../assets/trial.png";
 import rental from "../../assets/rental.png";
+import "../../App.css";
 import Footer from "../../homepages/Footer/Footer";
-import bannerImage from "../../assets/image/contact-us-banner.png";
 
 // Custom SlotCounter Component
 function SlotCounter({ endValue, label }) {
@@ -47,7 +47,7 @@ function SlotCounter({ endValue, label }) {
     </div>
   );
 }
-function GoogleLanding() {
+function GoogleLandingpageOne() {
   const counters = [
     { endValue: 350, label: "Installations" },
     { endValue: 150, label: " Key corporates & institutes" },
@@ -57,12 +57,24 @@ function GoogleLanding() {
     { endValue: 2, label: " Tests/ min everyday" },
   ];
 
+  const [showPopup, setShowPopup] = useState(null);
+
+  // Function to open the corresponding popup
+  const openPopup = (popupId) => {
+    setShowPopup(popupId);
+  };
+
+  // Function to close the popup
+  const closePopup = () => {
+    setShowPopup(null);
+  };
+
   return (
     <div>
       <div
         className="p-7"
         style={{
-          backgroundImage: `url(${bannerImage})`,
+          backgroundImage: "url(src/assets/image/contact-us-banner.png)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           height: "60vh",
@@ -80,14 +92,6 @@ function GoogleLanding() {
         <button className="text-lg border-white border-2 ml-4 shadow-md p-1 mt-4 text-slate-100 hover:bg-slate-50 hover:text-black transition-all ease-in-out">
           Download Brochure
         </button>
-
-        <div className="flex justify-evenly items-center mt-10 p-8 rounded-md bg-white shadow-xl shadow-gray-200">
-          <p className="text-2xl">Share </p>
-          <FaFacebook size={40} />
-          <RiTwitterXFill size={40} />
-          <IoLogoWhatsapp size={40} />
-          <RiInstagramFill size={40} />
-        </div>
       </div>
 
       {/* Custom SlotCounter Section */}
@@ -116,25 +120,43 @@ function GoogleLanding() {
         </p>
 
         <div className="flex justify-around mt-4">
-          <button className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white">
+          <button
+            className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
+            onClick={() => openPopup(1)}
+          >
             Diabetes{" "}
           </button>
-          <button className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white">
+          <button
+            className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
+            onClick={() => openPopup(2)}
+          >
             Reproductive Health{" "}
           </button>
-          <button className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white">
+          <button
+            className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
+            onClick={() => openPopup(3)}
+          >
             APS Markers{" "}
           </button>
         </div>
 
         <div className="flex justify-around mt-4">
-          <button className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white">
+          <button
+            className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
+            onClick={() => openPopup(4)}
+          >
             Tumor Markers{" "}
           </button>
-          <button className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white">
+          <button
+            className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
+            onClick={() => openPopup(5)}
+          >
             Rheumatoid Arthritis{" "}
           </button>
-          <button className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white">
+          <button
+            className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
+            onClick={() => openPopup(6)}
+          >
             Thyroid{" "}
           </button>
         </div>
@@ -154,39 +176,61 @@ function GoogleLanding() {
         </div>
       </div>
 
-      <div className="testimonials p-4 ">
-        <h2 className="text-black text-center text-3xl mt-10 p-4 ">
-          {" "}
-          Hear From Our Customers{" "}
-        </h2>
-        <div className="grid grid-cols-2 p-20 bg-gray-100 rounded-lg ">
-          <div className="text-center">
-            <img
-              src={testimonial}
-              alt=""
-              className="rounded-full w-28 mx-auto"
-            />
-            <h2 className="text-xl text-black mt-4">Peter Anderson</h2>
-            <p className="font-bold">CEO</p>
-          </div>
-
-          <div>
-            <p className="text-lg text-justify mt-4">
-              <span className="font-bold">“</span>iFlash 1200 has transformed
-              the way we run our diagnostics. With its zero wastage and high
-              productivity, our operations are more efficient and cost-effective
-              than ever before. <span className="font-bold">”</span>
-            </p>
-            <div className="flex gap-2 mt-6">
-              <FaStar size={20} color="#FFD700" />
-              <FaStar size={20} color="#FFD700" />
-              <FaStar size={20} color="#FFD700" />
-              <FaStar size={20} color="#FFD700" />
-              <FaStarHalfAlt size={20} color="#FFD700" />
-            </div>
+      {/* Popup Components */}
+      {showPopup === 1 && (
+        <div className="popup">
+          <div className="popup-content">
+            <h2>Popup 1</h2>
+            <p>This is the content of Popup 1</p>
+            <button onClick={closePopup}>Close</button>
           </div>
         </div>
-      </div>
+      )}
+      {showPopup === 2 && (
+        <div className="popup">
+          <div className="popup-content">
+            <h2>Popup 2</h2>
+            <p>This is the content of Popup 2</p>
+            <button onClick={closePopup}>Close</button>
+          </div>
+        </div>
+      )}
+      {showPopup === 3 && (
+        <div className="popup">
+          <div className="popup-content">
+            <h2>Popup 3</h2>
+            <p>This is the content of Popup 3</p>
+            <button onClick={closePopup}>Close</button>
+          </div>
+        </div>
+      )}
+      {showPopup === 4 && (
+        <div className="popup">
+          <div className="popup-content">
+            <h2>Popup 4</h2>
+            <p>This is the content of Popup 4</p>
+            <button onClick={closePopup}>Close</button>
+          </div>
+        </div>
+      )}
+      {showPopup === 5 && (
+        <div className="popup">
+          <div className="popup-content">
+            <h2>Popup 5</h2>
+            <p>This is the content of Popup 5</p>
+            <button onClick={closePopup}>Close</button>
+          </div>
+        </div>
+      )}
+      {showPopup === 6 && (
+        <div className="popup">
+          <div className="popup-content">
+            <h2>Popup 6</h2>
+            <p>This is the content of Popup 6</p>
+            <button onClick={closePopup}>Close</button>
+          </div>
+        </div>
+      )}
 
       <div className="bg-maincol mt-4">
         <div className="grid grid-cols-2 p-14">
@@ -330,18 +374,7 @@ function GoogleLanding() {
           own or rent, we offer flexible options to match your budget and
           requirements.
         </p>
-        <div className="flex justify-evenly gap-20 items-center mt-7 ml-10">
-          <div className="text-center mt-2">
-            <img src={trial} alt="" className="mx-auto" />
-            <div>
-              <h3 className="text-2xl mt-4">Trial Offer</h3>
-              <p className="text-sm">
-                Experience the power of the <br /> iFlash series before you
-                commit.
-              </p>
-            </div>
-          </div>
-
+        <div className="flex justify-evenly items-center mt-7 ml-10">
           <div className="text-center mt-2">
             <img src={rental} alt="" className="mx-auto" />
             <div>
@@ -356,14 +389,14 @@ function GoogleLanding() {
         </div>
         <div className="text-center mt-8">
           <a href="">
-            <button className="text-lg bg-maincol text-white p-2 rounded-lg">
+            <button className="text-lg bg-maincol text-white p-2 ml-8 rounded-lg">
               Interested? Request a Demo Now!
             </button>
           </a>
         </div>
       </div>
 
-      <div className="bg-gray-700 p-10">
+      <div className="bg-maincol p-10">
         <h3 className="text-center text-2xl text-white ">Next Steps</h3>
         <div className="h-1 w-52 bg-white relative left-2/4 mt-2 -ml-24"></div>
         <div className="flex justify-evenly items-center">
@@ -399,9 +432,10 @@ function GoogleLanding() {
           </a>
         </div>
       </div>
+      <br />
       <Footer />
     </div>
   );
 }
 
-export default GoogleLanding;
+export default GoogleLandingpageOne;
