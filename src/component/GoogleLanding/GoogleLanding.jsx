@@ -17,7 +17,7 @@ import yhlo3 from "../../assets/yhlo-3.jpg";
 import trial from "../../assets/trial.png";
 import rental from "../../assets/rental.png";
 import "../../App.css";
-import Footer from "../../homepages/Footer/Footer";
+import { LiaBullseyeSolid } from "react-icons/lia";
 import bgImage from "../../assets/image/contact-us-banner.png";
 
 // Custom SlotCounter Component
@@ -58,17 +58,178 @@ function GoogleLandingpageOne() {
     { endValue: 2, label: " Tests/ min everyday" },
   ];
 
+  const renderPopupContent = () => {
+    switch (showPopup) {
+      case 1:
+        return {
+          header: "Diabetes",
+          content: [
+            "Adiponectin",
+            "Cortisol",
+            "Insulin",
+            "C-Peptide",
+            "GADA",
+            "IAA",
+            "IA-2A",
+            "ICA",
+            "ZnT8A",
+          ],
+        };
+      case 2:
+        return {
+          header: "Reproductive Health",
+          content: [
+            "AMH (anti-müllerian hormone)",
+            "Inhibin A",
+            "Inhibin B",
+            "LH",
+            "FSH",
+            "Prolactin",
+            "Progesterone",
+            "Testosterone",
+            "Estradiol",
+            "DHEA-S",
+            "HCG",
+            "Unconjugated Estriol",
+          ],
+        };
+      case 3:
+        return {
+          header: "APS Markers",
+          content: [
+            "AMH (anti-müllerian hormone)",
+            "Inhibin A",
+            "Inhibin B",
+            "LH",
+            "FSH",
+            "Prolactin",
+            "Progesterone",
+            "Testosterone",
+            "Estradiol",
+            "DHEA-S",
+            "HCG",
+            "Unconjugated Estriol",
+          ],
+        };
+      case 4:
+        return {
+          header: "Tumor Markers",
+          content: [
+            "AFP (Alpha Fetoprotein)",
+            "CEA (Carcino Embryonic Antigen)",
+            "CA 125 (Cancer Antigen 125)",
+            "CA 19-9 (Cancer Antigen 9-9)",
+            "Free PSA (Free Prostate- Specific Antigen)",
+            "Total PSA (Total Prostate- Specific Antigen)",
+            "CYFRA 21-1",
+            "NSE",
+            "CA 15-3",
+            "free betaHCG",
+            "Tg",
+            "PGI (pepsinogen ()",
+            "PG II (Pepsinogen II)",
+          ],
+        };
+      case 5:
+        return {
+          header: "Rheumatoid Arthritis",
+          content: [
+            "Anti-CCP",
+            "RF IgG",
+            "RF IgM",
+            "RF (Rheumatoid Factor)",
+            "RA33 IgG",
+          ],
+        };
+      case 6:
+        return {
+          header: "Thyroid",
+          content: [
+            "T3",
+            "T4",
+            "Free T4",
+            "Free T3",
+            "TSH",
+            "Anti-Tg",
+            "Anti-TPO",
+            "Anti-TSHR",
+          ],
+        };
+      case 7:
+        return {
+          header: "TORCH",
+          content: [
+            "Toxo IgG",
+            "Toxo IgM",
+            "CMV IgG",
+            "CMV IgM",
+            "HSV-1 IgG",
+            "HSV-2 IgG",
+            "HSV-1 IgM",
+            "HSV-2 IgM",
+            "Rubella IgG",
+            "Rubella IgM",
+          ],
+        };
+      case 8:
+        return {
+          header: "COVID",
+          content: ["SARS-CoV-2 IgG", "SARS-CoV-2 IgM", "SARS-CoV-2 NAb"],
+        };
+      case 9:
+        return {
+          header: "Bone Metabolism",
+          content: ["25-OH Vitamin D", "PTH"],
+        };
+      case 10:
+        return {
+          header: "Respiratory Diseases",
+          content: [
+            "Mycoplasma pn. IgG",
+            "Mycoplasma pn. IgM",
+            "Chlamydia pn. IgG",
+            "Chlamydia pn. IgM",
+          ],
+        };
+
+      case 11:
+        return {
+          header: "Liver Fibrosis",
+          content: [
+            "HA (Hyaluronic acid)",
+            "P III PN-P",
+            "Col IV Collagen IV)",
+            "Laminin",
+          ],
+        };
+      case 12:
+        return {
+          header: "Metabolism",
+          content: ["ACTH (Adrenocort-icotropic Hormone)"],
+        };
+      case 13:
+        return {
+          header: "Anemia",
+          content: ["Ferritin Vitamin B12", "Folate"],
+        };
+      case 14:
+        return { header: "Inflamation", content: ["PCT (Procalcitonin)"] };
+      case 15:
+        return {
+          header: "Cardiac Makers",
+          content: ["Troponin I", "BNP", "Myoglobin"],
+        };
+
+      default:
+        return { header: "", content: "" };
+    }
+  };
+
   const [showPopup, setShowPopup] = useState(null);
+  const [showMore, setShowMore] = useState(false);
 
-  // Function to open the corresponding popup
-  const openPopup = (popupId) => {
-    setShowPopup(popupId);
-  };
-
-  // Function to close the popup
-  const closePopup = () => {
-    setShowPopup(null);
-  };
+  const openPopup = (id) => setShowPopup(id);
+  const closePopup = () => setShowPopup(null);
 
   return (
     <div>
@@ -83,9 +244,10 @@ function GoogleLandingpageOne() {
       >
         <h2 className="text-5xl text-white text-left mt-7">iFlash 1200</h2>
         <p className="text-lg mt-4 text-white">
-          Best Chemiluminescence Immunoassay Analyzer Machine in India <br />
-          Experience fast, accurate, and reliable immunoassay testing with{" "}
-          <br /> the iFlash 1200. Enhance your lab's efficiency today!
+          Explore our fully automated benchtop CLIA analyzer, <br />
+          engineered for both quantitative and qualitative analysis across a{" "}
+          <br /> wide range of assays, delivering unparalleled accuracy and
+          precision.
         </p>
         <button className="text-lg bg-white shadow-md p-2 mt-4 text-black hover:scale-105 transition-all ease-in-out">
           Request Quote
@@ -106,14 +268,10 @@ function GoogleLandingpageOne() {
         ))}
       </div>
 
-      <div className="usp">
-        <h2 className="text-black text-center text-3xl mt-10 p-4"> USP</h2>
-      </div>
-
       <div className="bg-gray-100 p-4">
         <h2 className="text-black text-center text-3xl mt-10 p-4 bg-gray-100">
           {" "}
-          Comprehensive Test Panels{" "}
+          Comprehensive Test Panel{" "}
         </h2>
         <p className="text-center text-lg ">
           iFlash 1200 provides an expansive test menu to cover multiple health
@@ -122,45 +280,125 @@ function GoogleLandingpageOne() {
 
         <div className="flex justify-around mt-4">
           <button
-            className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
+            className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
             onClick={() => openPopup(1)}
           >
-            Diabetes{" "}
+            Diabetes
           </button>
           <button
-            className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
+            className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
             onClick={() => openPopup(2)}
           >
-            Reproductive Health{" "}
+            Reproductive Health
           </button>
           <button
-            className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
+            className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
             onClick={() => openPopup(3)}
           >
-            APS Markers{" "}
+            APS Markers
           </button>
         </div>
 
         <div className="flex justify-around mt-4">
           <button
-            className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
+            className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
             onClick={() => openPopup(4)}
           >
-            Tumor Markers{" "}
+            Tumor Markers
           </button>
           <button
-            className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
+            className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
             onClick={() => openPopup(5)}
           >
-            Rheumatoid Arthritis{" "}
+            Rheumatoid Arthritis
           </button>
           <button
-            className=" border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
+            className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white"
             onClick={() => openPopup(6)}
           >
-            Thyroid{" "}
+            Thyroid
           </button>
         </div>
+
+        {showMore && (
+          <div className="grid grid-cols-3 gap-4 text-center">
+            <div className="">
+              <button
+                className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white mt-4"
+                onClick={() => openPopup(7)}
+              >
+                TORCH
+              </button>
+              <button
+                className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white mt-4"
+                onClick={() => openPopup(8)}
+              >
+                {" "}
+                COVID
+              </button>
+              <button
+                className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white mt-4"
+                onClick={() => openPopup(9)}
+              >
+                Bone Metabolism
+              </button>
+            </div>
+            <div className="">
+              <button
+                className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white mt-4"
+                onClick={() => openPopup(10)}
+              >
+                Respiratory Diseases
+              </button>
+              <button
+                className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white mt-4"
+                onClick={() => openPopup(11)}
+              >
+                Liver Fibrosis
+              </button>
+              <button
+                className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white mt-4"
+                onClick={() => openPopup(12)}
+              >
+                {" "}
+                Metabolism
+              </button>
+            </div>
+            <div>
+              <button
+                className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white mt-4"
+                onClick={() => openPopup(13)}
+              >
+                {" "}
+                Anemia
+              </button>
+              <button
+                className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white mt-4"
+                onClick={() => openPopup(14)}
+              >
+                Inflammation
+              </button>
+              <button
+                className="border shadow-md p-4 w-52 max-w-52 rounded-lg bg-white mt-4"
+                onClick={() => openPopup(15)}
+              >
+                Cardiac Markers
+              </button>
+            </div>
+          </div>
+        )}
+
+        {!showMore && (
+          <div className="text-center mt-6">
+            <button
+              className="border shadow-md p-2 rounded-lg bg-maincol text-white text-lg"
+              onClick={() => setShowMore(true)}
+            >
+              Load More
+            </button>
+          </div>
+        )}
+
         <div className="text-center mt-14">
           <p className="text-lg">
             Your lab will be equipped to handle a wide range of diagnostic
@@ -170,73 +408,48 @@ function GoogleLandingpageOne() {
             <a href="">
               <button className="flex items-center justify-center border shadow-md p-2 w-full rounded-lg mt-7 text-lg bg-maincol text-white">
                 Know more
-                <FaArrowCircleRight className="ml-2 " />
+                <FaArrowCircleRight className="ml-2" />
               </button>
             </a>
           </div>
         </div>
-      </div>
 
-      {/* Popup Components */}
-      {showPopup === 1 && (
-        <div className="popup">
-          <div className="popup-content">
-            <h2>Popup 1</h2>
-            <p>This is the content of Popup 1</p>
-            <button onClick={closePopup}>Close</button>
+        {showPopup && (
+          <div className="popup mt-12 overflow-y-scroll">
+            <div className="popup-content">
+              {(() => {
+                const { header, content } = renderPopupContent();
+                return (
+                  <>
+                    <h2 className="text-black text-2xl">
+                      <u>{header}</u>
+                    </h2>
+                    <ul className="mt-4">
+                      {content.map((item, index) => (
+                        <li
+                          key={index}
+                          className="flex items-center text-sm leading-8"
+                        >
+                          <LiaBullseyeSolid className="mr-2 text-maincol" />
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                );
+              })()}
+              <button onClick={closePopup} className="bg-gray-200 p-2 w-full">
+                Close
+              </button>
+            </div>
           </div>
-        </div>
-      )}
-      {showPopup === 2 && (
-        <div className="popup">
-          <div className="popup-content">
-            <h2>Popup 2</h2>
-            <p>This is the content of Popup 2</p>
-            <button onClick={closePopup}>Close</button>
-          </div>
-        </div>
-      )}
-      {showPopup === 3 && (
-        <div className="popup">
-          <div className="popup-content">
-            <h2>Popup 3</h2>
-            <p>This is the content of Popup 3</p>
-            <button onClick={closePopup}>Close</button>
-          </div>
-        </div>
-      )}
-      {showPopup === 4 && (
-        <div className="popup">
-          <div className="popup-content">
-            <h2>Popup 4</h2>
-            <p>This is the content of Popup 4</p>
-            <button onClick={closePopup}>Close</button>
-          </div>
-        </div>
-      )}
-      {showPopup === 5 && (
-        <div className="popup">
-          <div className="popup-content">
-            <h2>Popup 5</h2>
-            <p>This is the content of Popup 5</p>
-            <button onClick={closePopup}>Close</button>
-          </div>
-        </div>
-      )}
-      {showPopup === 6 && (
-        <div className="popup">
-          <div className="popup-content">
-            <h2>Popup 6</h2>
-            <p>This is the content of Popup 6</p>
-            <button onClick={closePopup}>Close</button>
-          </div>
-        </div>
-      )}
+        )}
+      </div>
 
       <div className="bg-maincol mt-4">
         <div className="grid grid-cols-2 p-14">
           <div className="">
-            <h2 className="text-2xl text-left">
+            <h2 className="text-2xl text-left font-poppins ">
               Discover More About iFlash 1200{" "}
             </h2>
             <p className="text-lg text-white mt-4 text-justify">
@@ -250,6 +463,87 @@ function GoogleLandingpageOne() {
               Download Insights
             </button>
           </div>
+        </div>
+      </div>
+
+      <div>
+        <h2 className="text-black text-4xl mt-10">
+          Explore Our iFlash Series of Analyzers
+        </h2>
+        <div className="grid grid-cols-3 p-10 ">
+          <div className="shadow-md p-4 m-2">
+            <img src={yhlo1} alt="" className="h-44 mx-auto" />
+            <h2 className="text-black text-2xl">iFlash 1200</h2>
+            <p className="pl-6 pr-6 mt-4 text-justify text-sm">
+              iFlash 1200 is ideal for medium-sized labs need reliable results
+              in space-saving design. Perfect for labs that want high
+              performance without bulk.
+            </p>
+            <a href="">
+              <button className="bg-maincol text-white p-2 w-48 ml-6 text-lg mt-4">
+                Explore iFlash 1200
+              </button>
+            </a>
+          </div>
+          <div className="shadow-md p-4 m-2">
+            <img src={yhlo2} alt="" className="h-44 mx-auto" />
+            <h2 className="text-black text-2xl">iFlash 1800</h2>
+            <p className="pl-6 pr-6 mt-4 text-justify text-sm">
+              Built for larger labs, the iFlash 1800 balances speed and
+              efficiency, making it an ideal choice for high-demand
+              environments.
+            </p>
+            <a href="">
+              <button className="bg-maincol text-white p-2 w-48 ml-6 text-lg mt-4">
+                Explore iFlash 1800
+              </button>
+            </a>
+          </div>
+          <div className="shadow-md p-4 m-2">
+            <img src={yhlo3} alt="" className="h-44 mx-auto" />
+            <h2 className="text-black text-2xl">iFlash 3000</h2>
+            <p className="pl-6 pr-6 mt-4 text-justify text-sm">
+              Designed for labs that handle massive test volumes, the iFlash
+              3000 delivers unmatched capacity and accuracy for high-volume
+              operations.
+            </p>
+            <a href="">
+              <button className="bg-maincol text-white p-2 w-48 ml-6 text-lg mt-4">
+                Explore iFlash 3000
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-gray-100 p-8 m-7 rounded-2xl">
+        <h2 className="text-3xl text-black text-center ml-4">
+          Flexible Ownership & Rental Options
+        </h2>
+        <p className="mt-4 text-center text-lg pl-44 pr-44 ">
+          We understand that every lab has different needs. Whether you want to
+          own or rent, we offer flexible options to match your budget and
+          requirements.
+        </p>
+        <div className="flex justify-evenly items-center mt-7">
+          <div className="text-center mt-2">
+            <img src={rental} alt="" className="mx-auto" />
+            <div>
+              <h3 className="text-2xl mt-4">Rental Offer</h3>
+              <p className="  text-sm ">
+                Choose a rental plan that works best for your lab, <br />{" "}
+                ensuring you get the technology you need without the <br />{" "}
+                upfront investment.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="text-center mt-8">
+          <a href="">
+            <button className="text-lg bg-maincol text-white p-2 rounded-lg">
+              Interested? Request a Demo Now!
+            </button>
+          </a>
         </div>
       </div>
 
@@ -316,86 +610,6 @@ function GoogleLandingpageOne() {
           </div>
         </div>
       </div>
-      <div>
-        <h2 className="text-black text-4xl mt-10">
-          Explore Our iFlash Series of Analyzers
-        </h2>
-        <div className="grid grid-cols-3 p-10 ">
-          <div className="shadow-md p-4 m-2">
-            <img src={yhlo1} alt="" className="h-44 mx-auto" />
-            <h2 className="text-black text-2xl">iFlash 1200</h2>
-            <p className="pl-6 pr-6 mt-4 text-justify text-sm">
-              The iFlash 1200 is ideal for medium-sized labs that need reliable
-              results in a space-saving design. Perfect for labs that want high
-              performance without the bulk.
-            </p>
-            <a href="">
-              <button className="bg-maincol text-white p-2 w-48 ml-6 text-lg mt-4">
-                Explore iFlash 1200
-              </button>
-            </a>
-          </div>
-          <div className="shadow-md p-4 m-2">
-            <img src={yhlo2} alt="" className="h-44 mx-auto" />
-            <h2 className="text-black text-2xl">iFlash 1800</h2>
-            <p className="pl-6 pr-6 mt-4 text-justify text-sm">
-              Built for larger labs, the iFlash 1800 balances speed and
-              efficiency, making it an ideal choice for high-demand
-              environments.
-            </p>
-            <a href="">
-              <button className="bg-maincol text-white p-2 w-48 ml-6 text-lg mt-4">
-                Explore iFlash 1800
-              </button>
-            </a>
-          </div>
-          <div className="shadow-md p-4 m-2">
-            <img src={yhlo3} alt="" className="h-44 mx-auto" />
-            <h2 className="text-black text-2xl">iFlash 3000</h2>
-            <p className="pl-6 pr-6 mt-4 text-justify text-sm">
-              Designed for labs that handle massive test volumes, the iFlash
-              3000 delivers unmatched capacity and accuracy for high-volume
-              operations.
-            </p>
-            <a href="">
-              <button className="bg-maincol text-white p-2 w-48 ml-6 text-lg mt-4">
-                Explore iFlash 3000
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="bg-gray-100 p-8 m-7 rounded-2xl">
-        <h2 className="text-3xl text-black">
-          Flexible Ownership & Rental Options
-        </h2>
-        <p className="mt-4 text-center text-lg pl-44 pr-44">
-          We understand that every lab has different needs. Whether you want to
-          own or rent, we offer flexible options to match your budget and
-          requirements.
-        </p>
-        <div className="flex justify-evenly items-center mt-7 ml-10">
-          <div className="text-center mt-2">
-            <img src={rental} alt="" className="mx-auto" />
-            <div>
-              <h3 className="text-2xl mt-4">Rental Offer</h3>
-              <p className="  text-sm ">
-                Choose a rental plan that works best for your lab, <br />{" "}
-                ensuring you get the technology you need without the <br />{" "}
-                upfront investment.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="text-center mt-8">
-          <a href="">
-            <button className="text-lg bg-maincol text-white p-2 ml-8 rounded-lg">
-              Interested? Request a Demo Now!
-            </button>
-          </a>
-        </div>
-      </div>
 
       <div className="bg-maincol p-10">
         <h3 className="text-center text-2xl text-white ">Next Steps</h3>
@@ -433,8 +647,6 @@ function GoogleLandingpageOne() {
           </a>
         </div>
       </div>
-      <br />
-      <Footer />
     </div>
   );
 }
