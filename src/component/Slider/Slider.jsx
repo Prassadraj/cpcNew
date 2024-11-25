@@ -1,21 +1,23 @@
 import React, { useEffect, useState } from "react";
 import "./slider.css";
-import image1 from "../../images/image1.jpg";
-import image3 from "../../images/image3.jpg";
-import image4 from "../../images/image4.jpg";
-import image5 from "../../images/image5.jpg";
-import image6 from "../../images/image6.jpg";
+import image1 from "../AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
+import image3 from "../AllDatas/ProductImages/Hematology/Analyzer/product1.png";
+import image4 from "../AllDatas/ProductImages/Immunology/Iflash1200/product1.jpg";
+import image5 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.jpg";
+import image6 from "../AllDatas/ProductImages/Point of Care/ichroma™ II/product1.jpg";
+import image7 from "../AllDatas/ProductImages/Point of Care/ichroma™ III/product1.jpg";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const slides = [
-    { url: image1, category: "Biochemistry", id: "1" },
-    { url: image3, category: "Biochemistry", id: "2" },
-    { url: image4, category: "Biochemistry", id: "3" },
-    { url: image5, category: "Biochemistry", id: "4" },
-    { url: image6, category: "Biochemistry", id: "5" },
+    { url: image1, category: "Hematology", id: "2" },
+    { url: image3, category: "Hematology", id: "5" },
+    { url: image4, category: "Immunology", id: "4" },
+    { url: image5, category: "Immunology", id: "1" },
+    { url: image6, category: "Point%20of%20Care", id: "1" },
+    { url: image7, category: "Point%20of%20Care", id: "2" },
   ];
 
   const prevSlide = () => {
@@ -53,7 +55,7 @@ const Slider = () => {
             {" "}
             <img
               src={`${slides[currentIndex].url}`}
-              className=" "
+              className=" h-[300px] w-full object-contain"
               alt=""
               title="viewProduct"
             />

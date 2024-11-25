@@ -244,28 +244,29 @@ function ProductInfo() {
           {/* /sidemenu */}
           <div className="flex px-5 gap-5">
             <div
-              className={`sm:w-[25%] bg-white border rounded-md shadow-md  p-1 md:py-2 md:px-4 md:sticky top-0 h-[90vh] overflow-y-auto z-10  ${
-                open
-                  ? "fixed top-16 inset-0 w-[80%] h-full overflow-y-auto z-20"
-                  : "hidden sm:block"
-              }`}
+              className={`sm:w-[25%] bg-white border rounded-md shadow-md  p-1 md:py-2 md:px-4 md:sticky top-0
+                 laptop:h-[90vh] tablet:h-[60vh] overflow-y-auto z-10  ${
+                   open
+                     ? "fixed top-16 inset-0 w-[80%] h-full overflow-y-auto z-20"
+                     : "hidden sm:block"
+                 }`}
             >
               <FontAwesomeIcon
                 icon={faXmark}
                 className="text-xl mt-2 sm:hidden"
                 onClick={() => setOpen(false)}
               />
-              <div className="w-full mx-auto">
+              <div className="w-full mx-auto h-fit">
                 {data.map((dropdown, index) => (
                   <div key={index} className="rounded mb-2">
                     <button
-                      className="flex justify-between items-center px-1 md:px-2 py-3 w-full cursor-pointer"
+                      className="flex justify-between items-center px-1 md:px-2 laptop:py-3 tablet:py-2 w-full cursor-pointer"
                       onClick={() => {
                         toggleDropdown(index);
                         setSelectedCategory(dropdown.category);
                       }}
                     >
-                      <p className="text-base font-poppins font-semibold">
+                      <p className="laptop:text-base text-xs text-left font-poppins font-semibold">
                         {dropdown.category}
                       </p>
                       {openDropdown === index ? (
@@ -287,7 +288,7 @@ function ProductInfo() {
                                 product.title == item.title
                                   ? "bg-custom-green text-white"
                                   : ""
-                              } font-poppins px- text-gray-700 py-2 text-sm capitalize hover:bg-custom-green hover:text-light-green cursor-pointer px-2`}
+                              } font-poppins px- text-gray-700 py-2 laptop:text-sm tablet:text-xs capitalize hover:bg-custom-green hover:text-light-green cursor-pointer px-2`}
                             >
                               {item.title}
                             </p>
@@ -319,11 +320,11 @@ function ProductInfo() {
                     />
                   ))}
                 </div>
-                <div className="hidden laptop:w-[80%] w-full tablet:w-[70%]  md:h-[60%] tablet:flex justify-center">
+                <div className="hidden laptop:w-[80%] w-full tablet:w-[70%]  tablet:max-h-[60%] tablet:flex justify-center">
                   <img
                     src={imgUrl}
                     alt="Descriptive text"
-                    className="rounded-md w-full h-full object-cover"
+                    className="rounded-md laptop:max-w-[500px] laptop:w-full laptop:min-w-[300px] laptop:h-[400px] object-cover"
                   />
                 </div>
               </div>

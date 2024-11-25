@@ -28,8 +28,9 @@ function New() {
         {
           scrollTrigger: {
             trigger: imgClass,
-            start: "top 80%",
+            start: "top 50%",
             end: "bottom 50%",
+            // markers: true,
             scrub: 1,
 
             onEnter: () =>
