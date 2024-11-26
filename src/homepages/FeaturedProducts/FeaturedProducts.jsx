@@ -15,7 +15,7 @@ const FeaturedProducts = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    gsap.fromTo(
+    const animation = gsap.fromTo(
       ".products",
       {
         opacity: 0,
@@ -33,6 +33,9 @@ const FeaturedProducts = () => {
         },
       }
     );
+    return () => {
+      animation.kill();
+    };
   }, []);
 
   return (
