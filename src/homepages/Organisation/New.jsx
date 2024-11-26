@@ -84,7 +84,7 @@ function New() {
     <>
       <Heading />
       <div className="h-[300vh] tablet:flex justify-evenly tablet:gap-5 tablet:px-10 hidden">
-        <div className="flex flex-col gap-5 items-center justify-center w-1/2 pt-10">
+        <div className="flex flex-col gap-5 items-center justify-center w-1/2 laptop:pt-20 tablet:pt-10">
           <div className="tablet:h-full">
             <img
               src={image1}
