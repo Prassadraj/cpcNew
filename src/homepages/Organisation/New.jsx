@@ -119,7 +119,7 @@ function New() {
           </div>
           <div className="tablet:px-5 ">
             <p className="ctn2 text-left">
-              <img src={organisation2} alt="" className="w-16 logo2" />
+              <img src={organisation2} alt="" className="w-14 logo2" />
               Sachika, an initiative by Everlife CPC Diagnostics Pvt. Ltd.,
               focuses on life sciences education, empowering clinicians with
               contemporary bioscience skills.
@@ -127,7 +127,7 @@ function New() {
           </div>
           <div className="tablet:px-5 ">
             <p className="ctn3 text-left">
-              <img src={organisation3} alt="" className="w-16 logo3" />
+              <img src={organisation3} alt="" className="w-14 logo3" />
               Everlife CPC’s division for diagnostic instrument manufacturing
               aims at empowerment, reliability, and innovation in indigenous
               manufacturing practices.
