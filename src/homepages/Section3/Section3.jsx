@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import whatWeDo from "../../images/section2&3/what-we-do 1.png";
+import whatWeDo from "../../images/section2&3/whatwedo.png";
 import whoWeAre from "../../images/section2&3/whoweare.png";
 import Aos from "aos";
 import { Link } from "react-router-dom";
@@ -85,7 +85,7 @@ function Section3() {
           ></button>
         </div>
         <div className="relative justify-center items-center hidden tablet:flex">
-          <div className="relative bottom-0 w-[80vw] tablet:w-[30vw] h-[50vh] rounded-2xl z-10">
+          <div className="relative bottom-0 w-[80vw] tablet:w-[30vw] h-[50vh] rounded-2xl z-10 ">
             <img src={whoWeAre} alt="Who We Are" className="rounded-lg" />
           </div>
         </div>
@@ -94,17 +94,13 @@ function Section3() {
       {/* Section 4 */}
       <div className="p-2 tablet:p-0 section4 flex flex-col tablet:flex-row justify-evenly items-center tablet:h-[500px] tablet:mb-10">
         <div className="relative hidden tablet:flex justify-center items-center">
-          <div className="relative -bottom-10 w-[80vw] tablet:w-[30vw] h-[50vh] rounded-2xl z-10">
-            <img
-              src={whatWeDo}
-              alt="What We Do"
-              className="animate-rightDown rounded-lg"
-            />
+          <div className="relative  w-[80vw] tablet:w-[30vw] h-[50vh] rounded-2xl z-10">
+            <img src={whatWeDo} alt="What We Do" className=" rounded-lg" />
           </div>
         </div>
         <div className="flex flex-col items-start">
           <div className="mb-3" data-aos="zoom-in-left">
-            <p className="font-bold text-custom-green text-sm tablet:text-3xl tablet:px-4 laptop:p-1">
+            <p className="font-bold text-custom-green tablet:hidden  text-sm tablet:text-3xl tablet:px-4 laptop:p-1">
               What We Do?
             </p>
           </div>
