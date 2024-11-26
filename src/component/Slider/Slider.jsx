@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./slider.css";
 import image1 from "../AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
-import image3 from "../AllDatas/ProductImages/Hematology/Analyzer/product1.png";
+import image3 from "../AllDatas/ProductImages/Hematology/SedratePro/product1.png";
 import image4 from "../AllDatas/ProductImages/Immunology/Iflash1200/product1.jpg";
 import image5 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.jpg";
 import image6 from "../AllDatas/ProductImages/Point of Care/ichroma™ II/product1.jpg";

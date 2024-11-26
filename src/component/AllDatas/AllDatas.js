@@ -38,6 +38,9 @@ import PLUS1 from "../AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
 import Analyzer1 from "../AllDatas/ProductImages/Hematology/Analyzer/product1.png";
 import Analyzer2 from "../AllDatas/ProductImages/Hematology/Analyzer/product2.png";
 import DYNACOUNT1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT 5D/product1.png";
+import SedratePro1 from "../AllDatas/ProductImages/Hematology/SedratePro/product1.png";
+import SedratePro2 from "../AllDatas/ProductImages/Hematology/SedratePro/product2.jpg";
+import SedratePro3 from "../AllDatas/ProductImages/Hematology/SedratePro/product3.jpg";
 // Immunology;
 import Euroblotone from "../AllDatas/ProductImages/Immunology/Euroblotone/product1.png";
 import Euroimmun from "../AllDatas/ProductImages/Immunology/Euroimmun/product1.png";
@@ -731,7 +734,7 @@ const products = [
       {
         allover: "Sedrate Pro",
         id: "5",
-        image: [image1],
+        image: [SedratePro1, SedratePro2, SedratePro3],
         title: "Sedrate Pro",
         section: "esranalyzer",
 

@@ -104,14 +104,16 @@ function Section1() {
                 Explore product
               </button>
             </Link>
-            <button
-              className="btn1 w-auto h-auto px-4 py-2 text-sm whitespace-nowrap text-[#00A786] hover:bg-[#00a986] hover:text-white laptop:text-lg"
-              style={{
-                border: "2px solid #00A786",
-              }}
-            >
-              Contact Us
-            </button>
+            <Link to="/contact">
+              <button
+                className="btn1 w-auto h-auto px-4 py-2 text-sm whitespace-nowrap text-[#00A786] hover:bg-[#00a986] hover:text-white laptop:text-lg"
+                style={{
+                  border: "2px solid #00A786",
+                }}
+              >
+                Contact Us
+              </button>
+            </Link>
           </div>
         </div>
         <div className="flex-1 tablet:w-1/2 w-full overflow-hidden mt-0 tablet:mt-0">

@@ -306,15 +306,14 @@ function ProductInfo() {
                   {product.image.map((img, idx) => (
                     <img
                       key={idx}
-                      className="mb-2 h-20"
+                      className="mb-2 h-20 w-[100px] object-contain"
                       src={img}
                       onClick={() => setImgUrl(img)}
                       alt={`Image ${idx + 1}`}
                       style={{
                         cursor: "pointer",
                         borderStyle: "double",
-                        border:
-                          imgUrl === img ? "4px solid lightgreen" : "none",
+                        border: imgUrl === img ? "4px solid " : "none",
                         borderRadius: "10px",
                       }}
                     />
