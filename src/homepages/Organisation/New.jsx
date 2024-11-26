@@ -110,7 +110,7 @@ function New() {
         <div className="sticky flex h-screen tablet:top-10 laptop:top-10 flex-col laptop:gap-6 tablet:gap-2 text-xs tablet:text-sm laptop:text-sm w-1/2 font-poppins items-center justify-center text-center laptop:px-20">
           <div className="tablet:px-5">
             <p className="ctn1 text-left">
-              <img src={organisation1} alt="" className="w-16 logo1" />
+              <img src={organisation1} alt="" className="w-14 logo1" />
               Jeev Diagnostics, a wholly owned subsidiary of Everlife CPC
               Diagnostics Pvt. Ltd., Chennai, India, manufactures high-quality
               state-of-the-art in vitro clinical chemistry reagents to cater to
