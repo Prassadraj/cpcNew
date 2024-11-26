@@ -89,25 +89,25 @@ function New() {
             <img
               src={image1}
               alt=""
-              className="w-fit tablet:h-[400px] img1 rounded-[50px]"
+              className="w-fit tablet:h-[400px] object-contain img1 rounded-[50px]"
             />
           </div>
           <div className="tablet:h-full">
             <img
               src={image2}
               alt=""
-              className="w-fit tablet:h-[400px] img2 rounded-[50px]"
+              className="w-fit tablet:h-[400px] img2 object-contain rounded-[50px]"
             />
           </div>
           <div className="tablet:h-full">
             <img
               src={image3}
               alt=""
-              className="w-fit tablet:h-[400px] img3 rounded-[50px]"
+              className="w-fit tablet:h-[400px] img3 object-contain rounded-[50px]"
             />
           </div>
         </div>
-        <div className="sticky flex h-screen tablet:top-10 laptop:top-10 flex-col laptop:gap-3 tablet:gap-2 text-xs tablet:text-sm laptop:text-sm w-1/2 font-poppins items-center justify-center text-center laptop:px-20">
+        <div className="sticky flex h-screen tablet:top-10 laptop:top-10 flex-col laptop:gap-6 tablet:gap-2 text-xs tablet:text-sm laptop:text-sm w-1/2 font-poppins items-center justify-center text-center laptop:px-20">
           <div className="tablet:px-5">
             <p className="ctn1 text-left">
               <img src={organisation1} alt="" className="w-16 logo1" />
