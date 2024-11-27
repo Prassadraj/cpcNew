@@ -41,7 +41,7 @@ const FeaturedProducts = () => {
   }, []);
 
   return (
-    <div className="laptop:mb-20">
+    <div className="laptop:mb-20 ">
       <div className="mb-2 flex h-10 items-center tablet:pl-24 flex-col tablet:gap-4 heading p-2 text-center">
         <span className=" font-semibold text-xl tablet:text-4xl uppercase  font-poppins text-custom-green">
           Featured Products
@@ -84,7 +84,7 @@ const HorizontalScrollCarousel = ({ cards }) => {
   const x = useTransform(scrollYProgress, [0, 1.6], ["1%", "-95%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[70vh] tablet:h-[300vh] ">
+    <section ref={targetRef} className="relative  h-[70vh] tablet:h-[300vh] ">
       <div className="sticky top-0 flex tablet:h-screen items-center overflow-hidden">
         <motion.div style={{ x }} className="flex gap-4 tablet:gap-8">
           {cards.slice(0, 7).map((card) => (
@@ -140,7 +140,7 @@ const Card = ({ card }) => {
 
 const AllProductsCard = () => {
   return (
-    <div className="group relative h-[400px] w-[100px]  tablet:w-[200px] overflow-hidden flex items-center justify-center">
+    <div className="group relative  h-[400px] w-[100px]  tablet:w-[200px] overflow-hidden flex items-center justify-center">
       <div className="absolute inset-0 z-0"></div>
       <div className="absolute inset-0 z-10 flex items-center justify-center">
         <Magnetic>
