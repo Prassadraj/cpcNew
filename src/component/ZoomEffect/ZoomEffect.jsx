@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import itrack from "../../images/itrack/itrack.png";
-import itrackImg1 from "../../images/itrack/itrack1.png";
-import itrackImg2 from "../../images/itrack/itrack2.png";
-import itrackImg3 from "../../images/itrack/itrack3.png";
-import itrackImg4 from "../../images/itrack/itrack4.png";
-import itrackImg5 from "../../images/itrack/itrack5.png";
+import itrack from "../../images/itrack/itrack.webp";
+import itrackImg1 from "../../images/itrack/itrack1.webp";
+import itrackImg2 from "../../images/itrack/itrack2.webp";
+import itrackImg3 from "../../images/itrack/itrack3.webp";
+import itrackImg4 from "../../images/itrack/itrack4.webp";
+import itrackImg5 from "../../images/itrack/itrack5.webp";
 
 function ZoomEffect() {
   useEffect(() => {
@@ -53,7 +53,6 @@ function ZoomEffect() {
               className="w-[100px] object-cover tablet:h-[100px] laptop:w-[200px] laptop:h-[150px]"
               src={pic.src}
               loading="lazy"
-              data-aos="zoom-in-up"
               alt={pic.alt}
             />
           ))}
@@ -65,7 +64,6 @@ function ZoomEffect() {
             className="w-[50px] object-cover h-[50px] laptop:w-[200px] laptop:h-[200px] tablet:w-[100px] tablet:h-[100px]"
             src={pictures[4].src}
             loading="lazy"
-            data-aos="zoom-in-up"
             alt={pictures[4].alt}
           />
           <iframe
@@ -76,13 +74,11 @@ function ZoomEffect() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
-            data-aos="zoom-in-up"
           ></iframe>
           <img
             className="w-[50px] object-cover h-[50px] laptop:w-[200px] laptop:h-[200px] tablet:w-[100px] tablet:h-[100px]"
             src={pictures[3].src}
             loading="lazy"
-            data-aos="zoom-in-up"
             alt={pictures[3].alt}
           />
         </div>
@@ -95,7 +91,6 @@ function ZoomEffect() {
               className="w-[100px] object-cover tablet:h-[100px] laptop:w-[200px] laptop:h-[120px]"
               src={pic.src}
               loading="lazy"
-              data-aos="zoom-in-up"
               alt={pic.alt}
             />
           ))}

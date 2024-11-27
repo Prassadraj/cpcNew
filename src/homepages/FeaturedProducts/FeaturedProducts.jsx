@@ -1,9 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
-import image1 from "../../component/AllDatas/ProductImages/Biochemistry/ichemManga/product1.jpg";
-import image2 from "../../component/AllDatas/ProductImages/Hematology/DYNACOUNT 5D/product1.png";
-import image3 from "../../images/featured/product3.png";
-import image4 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ III/product1.jpg";
+import image1 from "../../component/AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
+import image2 from "../../component/AllDatas/ProductImages/Hematology/SedratePro/product1.webp";
+import image3 from "../../component/AllDatas/ProductImages/Immunology/Iflash1200/product1.webp";
+import image4 from "../../component/AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
+import image5 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ II/product1.webp";
+import image6 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ III/product1.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { gsap } from "gsap";
@@ -98,12 +100,17 @@ const HorizontalScrollCarousel = ({ cards }) => {
 const Card = ({ card }) => {
   return (
     <div
-      className={`laptop:mt-10 font-poppins relative h-[250px] w-[150px] tablet:h-[400px] tablet:w-[350px] overflow-hidden  rounded-2xl border-1 border-custom-green ${
-        card.id > 1 ? "products" : ""
-      }`}
+      className={`laptop:mt-10 font-poppins relative h-[250px] w-[150px] tablet:h-[400px] tablet:w-[350px] overflow-hidden  rounded-2xl border-1 border-custom-green 
+     
+      `}
     >
       <div className="flex justify-center items-center w-full tablet:mt-10 h-32">
-        <img className="tablet:w-[200px] w-[100px]" src={card.url} alt="" />
+        <img
+          loading="lazy"
+          className="tablet:w-[200px] w-[100px]"
+          src={card.url}
+          alt=""
+        />
       </div>
       <div className="absolute tablet:top-56 tablet:left-10 tablet:right-10 p-0">
         <div className="flex justify-center tablet:justify-start">
@@ -156,34 +163,56 @@ export default FeaturedProducts;
 const featuredCards = [
   {
     url: image1,
-    title: "Turbochem Magna",
-    category: "Biochemistry",
+    title: "Dynacount 3D Plus",
+    category: "Hematology",
     content:
-      " Experience unparalleled precision in clinical chemistry with Turbochem Magna, designed for accurate and efficient biochemical analysis. ",
-    id: 1,
+      "Enhanced version of the 3D model, providing more detailed and faster blood cell analysis with advanced features.",
+    id: 2,
+    animation: "1",
   },
   {
     url: image2,
-    title: " Dynacount 5D",
-    category: "Biochemistry",
+    title: "Sedrate Pro",
+    category: "Hematology",
     content:
-      "With advanced hematology analysis at your fingertips, the Dynacount 5D offers comprehensive blood profiling with unmatched reliability.",
-    id: 2,
+      "An advanced ESR analyzer for accurate and rapid erythrocyte sedimentation rate (ESR) testing",
+    id: 5,
+    animation: "2",
   },
   {
     url: image3,
-    title: " Dynacount 3D Plus",
-    category: "Biochemistry",
+    title: "Iflash 1200",
+    category: "Immunology",
     content:
       " The Dynacount 3D Plus delivers precise 3D blood analysis, providing crucial insights for accurate diagnosis and treatment planning.",
-    id: 3,
+    id: 4,
+    animation: "3",
   },
   {
     url: image4,
-    title: "Ichroma 3",
-    category: "Biochemistry",
+    title: "Plexmat 4",
+    category: "Immunology",
     content:
-      "Fast and reliable immunoassay testing with Ichroma 3 is ideal for rapid diagnostics and point-of-care applications.",
-    id: 4,
+      "The Plexmat 4 is an advanced immunoblot analyzer designed for high throughput and reliable results in various immunological assays.",
+    id: 1,
+    animation: "4",
+  },
+  {
+    url: image5,
+    title: "Ichroma™ II",
+    category: "Point%20of%20Care",
+    content:
+      "The Ichroma™ II is a versatile and reliable POCT hormone analyzer, designed to deliver fast and precise measurements of hormone levels, facilitating effective clinical decision-making..",
+    id: 1,
+    animation: "5",
+  },
+  {
+    url: image6,
+    title: "Ichroma™ III",
+    category: "Point%20of%20Care",
+    content:
+      "The Ichroma™ III is a high-performance point-of-care testing (POCT) hormone analyzer, providing accurate and rapid results for various hormone assays, essential for timely diagnosis and treatment.",
+    id: 2,
+    animation: "6",
   },
 ];

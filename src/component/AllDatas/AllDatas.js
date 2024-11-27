@@ -621,6 +621,7 @@ const products = [
       },
     ],
   },
+  // Hematology
   {
     category: "Hematology",
     subsection: [
@@ -760,7 +761,7 @@ const products = [
       },
     ],
   },
-
+  // Immunology
   {
     category: "Immunology",
     subsection: [
@@ -1115,6 +1116,7 @@ const products = [
       },
     ],
   },
+  // Point of Care
   {
     category: "Point of Care",
     subsection: ["All", "Reagents"],

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./slider.css";
-import image1 from "../AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
-import image3 from "../AllDatas/ProductImages/Hematology/SedratePro/product1.png";
-import image4 from "../AllDatas/ProductImages/Immunology/Iflash1200/product1.jpg";
-import image5 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.jpg";
-import image6 from "../AllDatas/ProductImages/Point of Care/ichroma™ II/product1.jpg";
-import image7 from "../AllDatas/ProductImages/Point of Care/ichroma™ III/product1.jpg";
+import image1 from "../../component/AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
+import image2 from "../../component/AllDatas/ProductImages/Hematology/SedratePro/product1.webp";
+import image3 from "../../component/AllDatas/ProductImages/Immunology/Iflash1200/product1.webp";
+import image4 from "../../component/AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
+import image5 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ II/product1.webp";
+import image6 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ III/product1.webp";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
@@ -13,11 +13,11 @@ const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const slides = [
     { url: image1, category: "Hematology", id: "2" },
-    { url: image3, category: "Hematology", id: "5" },
-    { url: image4, category: "Immunology", id: "4" },
-    { url: image5, category: "Immunology", id: "1" },
-    { url: image6, category: "Point%20of%20Care", id: "1" },
-    { url: image7, category: "Point%20of%20Care", id: "2" },
+    { url: image2, category: "Hematology", id: "5" },
+    { url: image3, category: "Immunology", id: "4" },
+    { url: image4, category: "Immunology", id: "1" },
+    { url: image5, category: "Point%20of%20Care", id: "1" },
+    { url: image6, category: "Point%20of%20Care", id: "2" },
   ];
 
   const prevSlide = () => {
