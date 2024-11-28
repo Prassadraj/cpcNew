@@ -61,12 +61,12 @@ import Iflash30003 from "../AllDatas/ProductImages/Immunology/Iflash3000/product
 import Iflash30004 from "../AllDatas/ProductImages/Immunology/Iflash3000/product4.png";
 import IfSprinter from "../AllDatas/ProductImages/Immunology/IfSprinter/product1.png";
 import Kryptor from "../AllDatas/ProductImages/Immunology/Kryptor/product1.jpg";
-import Plexmat4 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.jpg";
+import Plexmat4 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
 import Plexmat8 from "../AllDatas/ProductImages/Immunology/Plexmat8/product1.jpg";
 
 // Point of Care
-import ichromaII from "../AllDatas/ProductImages/Point of Care/ichroma™ II/product1.jpg";
-import ichromaIII from "../AllDatas/ProductImages/Point of Care/ichroma™ III/product1.jpg";
+import ichromaII from "../AllDatas/ProductImages/Point of Care/ichroma™ II/product1.webp";
+import ichromaIII from "../AllDatas/ProductImages/Point of Care/ichroma™ III/product1.webp";
 
 const products = [
   {
