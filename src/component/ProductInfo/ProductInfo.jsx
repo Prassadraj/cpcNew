@@ -31,7 +31,7 @@ import { SectionCategory } from "../Context/SectionCategory";
 function ProductInfo() {
   const { data } = useContext(ProductDataContext);
   const { category, id } = useParams();
-
+  const decodedCategory = decodeURIComponent(category).replace(" ", "");
   const { selecteSectionCategory, setSelectSectionCategory } =
     useContext(SectionCategory);
   const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
@@ -205,7 +205,7 @@ function ProductInfo() {
               </Link>
             </span>
             <Link
-              to={`/product/${selectedCategory}/top`}
+              to={`/product/${decodedCategory}/top`}
               onClick={() => setSelectedCategory(category)}
             >
               <span>/ {category}</span>
@@ -550,11 +550,7 @@ function ProductInfo() {
                 <p className="text-left text-lg truncate md:text-2xl mb-2 font-semibold">
                   Related Products
                 </p>
-                <Link
-                  to="/product"
-                  onClick={() => setSelectedCategory("Biochemistry")}
-                  className="no-underline"
-                >
+                <Link to={`/product/${category}/top`} className="no-underline">
                   <p className="text-left text-sm md:text-xl mb-2 bg-custom-green text-white p-1 md:px-2 md:py-1 rounded-lg">
                     View Products
                   </p>
@@ -588,7 +584,7 @@ function ProductInfo() {
               <div className="w-full flex justify-center mt-4 sm:hidden">
                 <button className="text-sm md:text-xl py-2 px-4 bg-custom-green text-white rounded-lg">
                   <Link
-                    to="/product"
+                    to={`/product/Biochemistry/top`}
                     onClick={() => setSelectedCategory("Biochemistry")}
                   >
                     View All Products

@@ -105,7 +105,7 @@ function Product() {
       {load ? (
         <Loader />
       ) : (
-        <div className="font-poppins bg-gray-100">
+        <div className="font-poppins ">
           <header className="sm:block mb-2 tablet:mb-4">
             <div className="relative w-full overflow-hidden">
               <div
@@ -168,7 +168,7 @@ function Product() {
                 toggleDropdown={toggleDropdown}
                 openDropdown={openDropdown}
               />
-              <div className="sm:w-[75%] bg-white p-4 text-center overflow-y-auto">
+              <div className="sm:w-[75%] bg-white p-1 tablet:p-4 text-center overflow-y-auto">
                 <h1 className="text-2xl font-poppins font-bold mb-3 text-left text-black">
                   {selectedCategory}
                 </h1>
@@ -202,10 +202,10 @@ function Product() {
                           <img
                             src={item.image[0]}
                             alt={item.title}
-                            className="w-full tablet:h-44 object-cover"
+                            className="w-full h-20  tablet:h-44 object-cover"
                           />
                           <div className="px-2 py-2 text-gray-600">
-                            <h2 className="text-xs tablet:text-base tablet:font-semibold text-gray-600 text-left">
+                            <h2 className="text-xs tablet:text-base font-semibold text-gray-600 text-left">
                               {item.title}
                             </h2>
                             <p className="text-xs text-gray-600 text-left line-clamp-2">
