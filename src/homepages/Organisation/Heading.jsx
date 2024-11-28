@@ -9,7 +9,7 @@ function Heading() {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-center tablet:h-[30vh] gap-2">
+    <div className="flex flex-col justify-center items-center tablet:h-[30vh] gap-4">
       <p className="text-lg tablet:text-3xl text-custom-green font-semibold title1 uppercase">
         Our Sister Organizations
       </p>

@@ -84,7 +84,7 @@ function New() {
     <>
       <Heading />
       <div className="h-[300vh] tablet:flex justify-evenly tablet:gap-5 tablet:px-10 hidden">
-        <div className="flex flex-col gap-5 items-center justify-center w-1/2 laptop:pt-20 tablet:pt-10">
+        <div className="flex flex-col gap-5 items-center justify-center w-1/2 laptop:pt-14 tablet:pt-10">
           <div className="tablet:h-full">
             <img
               src={image1}
@@ -107,7 +107,7 @@ function New() {
             />
           </div>
         </div>
-        <div className="sticky flex h-screen tablet:top-10 laptop:top-10 flex-col laptop:gap-6 tablet:gap-2 text-xs tablet:text-sm laptop:text-sm w-1/2 font-poppins items-center justify-center text-center laptop:px-20">
+        <div className="sticky flex h-screen tablet:top-5 laptop:top-5 flex-col laptop:gap-6 tablet:gap-2 text-xs tablet:text-sm laptop:text-sm w-1/2 font-poppins items-center justify-center text-center laptop:px-20">
           <div className="tablet:px-5">
             <p className="ctn1 text-left">
               <img src={organisation1} alt="" className="w-14 logo1" />
