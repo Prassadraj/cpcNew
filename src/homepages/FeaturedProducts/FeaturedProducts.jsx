@@ -107,7 +107,9 @@ const Card = ({ card }) => {
       <div className="flex justify-center items-center w-full tablet:mt-10 h-32">
         <img
           loading="lazy"
-          className="tablet:w-[200px] w-[100px]"
+          className={`tablet:w-[200px] w-[100px] ${
+            card.title == "I chroma™ III" ? "scale-75" : ""
+          }  ${card.title == "Dynacount 3D Plus" ? "scale-75" : ""}`}
           src={card.url}
           alt=""
         />
@@ -181,7 +183,7 @@ const featuredCards = [
   },
   {
     url: image3,
-    title: "Iflash 1200",
+    title: "I flash 1200",
     category: "Immunology",
     content:
       " The Dynacount 3D Plus delivers precise 3D blood analysis, providing crucial insights for accurate diagnosis and treatment planning.",
@@ -199,19 +201,19 @@ const featuredCards = [
   },
   {
     url: image5,
-    title: "Ichroma™ II",
+    title: "I chroma™ II",
     category: "Point%20of%20Care",
     content:
-      "The Ichroma™ II is a versatile and reliable POCT hormone analyzer, designed to deliver fast and precise measurements of hormone levels, facilitating effective clinical decision-making..",
+      "The I chroma™ II is a versatile and reliable POCT hormone analyzer, designed to deliver fast and precise measurements of hormone levels, facilitating effective clinical decision-making..",
     id: 1,
     animation: "5",
   },
   {
     url: image6,
-    title: "Ichroma™ III",
+    title: "I chroma™ III",
     category: "Point%20of%20Care",
     content:
-      "The Ichroma™ III is a high-performance point-of-care testing (POCT) hormone analyzer, providing accurate and rapid results for various hormone assays, essential for timely diagnosis and treatment.",
+      "The I chroma™ III is a high-performance point-of-care testing (POCT) hormone analyzer, providing accurate and rapid results for various hormone assays, essential for timely diagnosis and treatment.",
     id: 2,
     animation: "6",
   },

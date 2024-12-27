@@ -8,7 +8,7 @@ import blogcommon from "../../assets/image/Frame-md.png";
 import blog4 from "../../assets/image/red-blood-cells-blood-oxygen-o2-saturation-medical-scientific-concepts-icon-realistic.jpg";
 import blog7 from "../../assets/image/dnynacount.png";
 import blog8 from "../../assets/image/Membrane_740x480.png";
-import blog9 from "../../assets/image/pic.jpg";
+import blog9 from "../../assets/image/Membrane_740x480.png";
 import blog10 from "../../assets/image/woman-patient-receives-thyroid-diagnostics-treatment-thyrotoxicosis-hypothyroidism-ultrasound-diagnostics-endocrine-system-thyroid-768x512.jpg";
 import blog11 from "../../assets/image/medium-shot-woman-looking-through-microscope-768x549.jpg";
 

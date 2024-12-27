@@ -6,14 +6,14 @@ import jeev from "../../assets/image/jeev.jpg";
 import cpc from "../../assets/image/cpc-manufacturing.jpg";
 import itracklogo from "../../assets/image/i-track-logo.png";
 import itrack from "../../assets/image/i-track-parallex.png";
-import sachika1 from "../../assets/image/sachika-2.jpg";
-import sachika2 from "../../assets/image/sachika-3.jpg";
-import sachika3 from "../../assets/image/sachika-4.jpg";
-import jeev1 from "../../assets/image/jeev-1.jpg";
-import jeev2 from "../../assets/image/jeev-2.jpg";
-import jeev3 from "../../assets/image/jeev-3.jpg";
-import plexmat from "../../assets/image/plexmat.jpg";
-import itrack1 from "../../assets/image/itrack1.jpg";
+import sachika1 from "../../../src/images/sachika-2.jpg";
+import sachika2 from "../../../src/images/sachika-3.jpg";
+import sachika3 from "../../../src/images/sachika-4.jpg";
+import jeev1 from "../../../src/images/jeev-1.jpg";
+import jeev2 from "../../../src/images/jeev-2.jpg";
+import jeev3 from "../../../src/images/jeev-3.jpg";
+import plexmat from "../../../src/images/plexmat.jpg";
+import itrack1 from "../../../src/images/itrack1.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { SiTicktick } from "react-icons/si";
@@ -224,7 +224,7 @@ function Brand() {
             <img
               src={sachika1}
               alt=""
-              className="w-10/12 mt-5 rounded-lg shadow-lg "
+              className="w-full mt-5 rounded-lg shadow-lg "
             />
           </div>
 
@@ -237,7 +237,7 @@ function Brand() {
             <img
               src={sachika2}
               alt=""
-              className="w-10/12 mt-5 rounded-lg shadow-lg "
+              className="w-full mt-5 rounded-lg shadow-lg "
             />
           </div>
 
@@ -279,7 +279,7 @@ function Brand() {
             <img
               src={sachika3}
               alt=""
-              className="w-10/12 rounded-lg shadow-lg "
+              className="w-full rounded-lg shadow-lg "
             />
           </div>
         </div>
@@ -315,7 +315,7 @@ function Brand() {
             data-aos="flip-left"
             data-aos-easing="ease-in-out"
           >
-            <img src={jeev1} alt="" className="w-10/12 rounded-lg shadow-lg " />
+            <img src={jeev1} alt="" className="w-full rounded-lg shadow-lg " />
           </div>
           {/* content 2 */}
           <div
@@ -323,7 +323,7 @@ function Brand() {
             data-aos="flip-right"
             data-aos-easing="ease-in-out"
           >
-            <img src={jeev2} alt="" className="w-10/12 rounded-lg shadow-lg " />
+            <img src={jeev2} alt="" className="w-full rounded-lg shadow-lg " />
           </div>
 
           <div
@@ -365,7 +365,7 @@ function Brand() {
             data-aos="flip-left"
             data-aos-easing="ease-in-out"
           >
-            <img src={jeev3} alt="" className="w-10/12 rounded-lg shadow-lg " />
+            <img src={jeev3} alt="" className="w-full rounded-lg shadow-lg " />
           </div>
         </div>
 
@@ -401,7 +401,7 @@ function Brand() {
               data-aos="flip-left"
               data-aos-easing="ease-in-out"
             >
-              <img src={cpc} alt="" className="w-10/12 rounded-lg shadow-lg " />
+              <img src={cpc} alt="" className="w-full rounded-lg shadow-lg " />
             </div>
             {/* content 2 */}
             <div
@@ -412,7 +412,7 @@ function Brand() {
               <img
                 src={frame}
                 alt=""
-                className="w-10/12 rounded-lg shadow-lg "
+                className="w-full rounded-lg shadow-lg "
               />
             </div>
 
@@ -458,7 +458,7 @@ function Brand() {
               <img
                 src={plexmat}
                 alt=""
-                className="w-10/12 rounded-lg shadow-lg "
+                className="w-full rounded-lg shadow-lg "
               />
             </div>
           </div>
@@ -498,7 +498,7 @@ function Brand() {
               <img
                 src={itrack}
                 alt=""
-                className="w-10/12 rounded-lg shadow-lg "
+                className="w-full rounded-lg shadow-lg "
               />
             </div>
             {/* content 2 */}
@@ -510,7 +510,7 @@ function Brand() {
               <img
                 src={itrack1}
                 alt=""
-                className="w-10/12 rounded-lg shadow-lg "
+                className="w-full rounded-lg shadow-lg "
               />
             </div>
 
