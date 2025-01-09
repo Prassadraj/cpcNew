@@ -27,6 +27,7 @@ function Product() {
   const [load, setLoad] = useState(false);
   const navigate = useNavigate();
   const { section } = useParams();
+  
 
   const { selecteSectionCategory, setSelectSectionCategory } =
     useContext(SectionCategory);
@@ -184,7 +185,7 @@ function Product() {
                         sectionCategoryItem.split(" ").join("").toLowerCase()
                           ? "font-extrabold text-custom-green"
                           : "font-semibold"
-                      } text-xs hover:text-custom-green transition-all ease-in duration-75 hover:font-bold tablet:text-base capitalize  cursor-pointer mb-2`}
+                      }   text-xs hover:text-custom-green transition-all ease-in duration-75 hover:font-bold tablet:text-base capitalize  cursor-pointer mb-2`}
                     >
                       {sectionCategoryItem}
                     </p>
@@ -226,19 +227,19 @@ function Product() {
                   )}
                 </div>
 
-                <div className="p-2 tablet:p-4 bg-gray-200 rounded-md">
-                  <p className="text-left text-sm font-semibold tablet:text-2xl mb-2">
+                {/* <div className="p-2 tablet:p-4 bg-gray-200 rounded-md"> */}
+                  {/* <p className="text-left text-sm font-semibold tablet:text-2xl mb-2">
                     Short note of {selectedCategory}
                   </p>
                   <p className="text-sm tablet:text-lg mb-2 tablet:text-left">
                     {description}
-                  </p>
+                  </p> */}
 
                   {/* <p className="px-4 py-2 bg-custom-green text-left w-fit text-white rounded-md">
               Read More
             </p> */}
-                </div>
-                <div className="p-2 tablet:p-4 bg-gray-200 mt-4 rounded-md">
+                {/* </div> */}
+                {/* <div className="p-2 tablet:p-4 bg-gray-200 mt-4 rounded-md">
                   <p className="text-left text-lg tablet:text-2xl mb-2">
                     Why choose us for {selectedCategory} products
                   </p>
@@ -248,7 +249,7 @@ function Product() {
                     <li>Highly performed products</li>
                     <li>Great after sale services</li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </section>

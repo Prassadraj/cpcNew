@@ -34,6 +34,7 @@ import mainaward from "../../assets/image/main-awards.png";
 import Footer from "../../homepages/Footer/Footer";
 import Carousel from "../Carousel/Carousel";
 import aboutus from "../../../src/assets/image/about-us.jpg";
+import Loader from "../Loader/Loader";
 
 const About = () => {
   const [visiblePopups, setVisiblePopups] = useState({
@@ -62,12 +63,17 @@ const About = () => {
     slidesToShow: 4,
     autoplaySpeed: 2500,
   };
+  const [load, setLoad] = useState(true);
   useEffect(() => {
     window.scrollTo(0, 0);
+    setTimeout(() => {
+      setLoad(false);
+    }, 500);
   }, []);
 
   return (
-    <div className="scroll-smooth">
+<>
+{load?<Loader/>:    <div className="scroll-smooth">
       <div className="grid grid-cols-1">
         <div className="">
           <img src={bannerimage} alt="bannerimage" className="mx-auto " />
@@ -820,7 +826,7 @@ const About = () => {
       {/* </div> */}
       {/* </div> */}
       <Footer />
-    </div>
+    </div>}</>
   );
 };
 

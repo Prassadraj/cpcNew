@@ -109,33 +109,33 @@ function ProductInfo() {
         },
       ],
     },
-    {
-      name: "Technical specification",
-      content: "Technical specification content",
-    },
-    {
-      name: "Resource",
-      submenu: [
-        {
-          menuName: "Work Services",
-          content: product.workServices,
-        },
-        {
-          menuName: "Product Brochure df",
-          content: product.productBrochure,
-        },
-        {
-          menuName: "Detailed Specification",
-          content: product.detailedSpecification,
-        },
-        {
-          menuName: "Offer or Discounts",
-          content: product.offerOrDiscounts,
-        },
-      ],
-    },
-    { name: "Product Video", content: "Product Video content" },
-    { name: "Product Testimonials", content: "Product Testimonials content" },
+    // {
+    //   name: "Technical specification",
+    //   content: "Technical specification content",
+    // },
+    // {
+    //   name: "Resource",
+    //   submenu: [
+    //     {
+    //       menuName: "Work Services",
+    //       content: product.workServices,
+    //     },
+    //     {
+    //       menuName: "Product Brochure df",
+    //       content: product.productBrochure,
+    //     },
+    //     {
+    //       menuName: "Detailed Specification",
+    //       content: product.detailedSpecification,
+    //     },
+    //     {
+    //       menuName: "Offer or Discounts",
+    //       content: product.offerOrDiscounts,
+    //     },
+    //   ],
+    // },
+    // { name: "Product Video", content: "Product Video content" },
+    // { name: "Product Testimonials", content: "Product Testimonials content" },
   ];
   const [showInfo, setShowInfo] = useState(null);
 
@@ -357,7 +357,7 @@ function ProductInfo() {
             </div>
           </div>
           <div className="p-5 md:block hidden mb-4">
-            <div className="flex justify-around text-lg border p-4">
+            <div className="flex justify-around text-lg border p-2">
               {tabs.map((header, index) => (
                 <p
                   key={index}
@@ -367,7 +367,7 @@ function ProductInfo() {
                   }}
                   className={`cursor-pointer ${
                     selectedTab === index
-                      ? "font-bold text-custom-green"
+                      ? "font-semibold text-3xl text-custom-green"
                       : "text-gray-600"
                   }`}
                 >

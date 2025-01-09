@@ -1,5 +1,5 @@
 import React, { createContext } from "react";
-import allProducts from "../../component/AllDatas/AllDatas";
+import allProducts from "../../component/AllDatas/AllDatas.jsx";
 
 export const ProductDataContext = createContext();
 
