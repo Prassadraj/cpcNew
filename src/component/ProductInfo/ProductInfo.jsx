@@ -319,7 +319,7 @@ function ProductInfo() {
                     />
                   ))}
                 </div>
-                <div className="hidden laptop:w-[80%] w-full tablet:w-[70%]  tablet:max-h-[60%] tablet:flex justify-center">
+                <div className="hidden laptop:w-[60%] w-full tablet:w-[70%]  tablet:max-h-[60%] tablet:flex justify-center">
                   <img
                     src={imgUrl}
                     alt="Descriptive text"
@@ -332,12 +332,12 @@ function ProductInfo() {
                   <p className="font-bold">{product.title}</p>
                   <p className="font-medium">Overview:</p>
                   <p className="">{product.description}</p>
-                  <div className="items-center gap-2 text-xl hidden md:flex mt-2 ">
+                  {/* <div className="items-center gap-2 text-xl hidden md:flex mt-2 ">
                     <p>Share:</p>
                     <FontAwesomeIcon icon={faFacebook} />
                     <FontAwesomeIcon icon={faTwitter} />
                     <FontAwesomeIcon icon={faWhatsapp} />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

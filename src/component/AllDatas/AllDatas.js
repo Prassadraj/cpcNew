@@ -12,6 +12,10 @@ import plus1 from "../AllDatas/ProductImages/Biochemistry/PLUS/product1.png";
 import plus2 from "../AllDatas/ProductImages/Biochemistry/PLUS/product2.png";
 import prim1 from "../AllDatas/ProductImages/Biochemistry/PRIME/product1.jpg";
 import prim2 from "../AllDatas/ProductImages/Biochemistry/PRIME/product2.jpg";
+import chemistryCollibrator from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/product1.webp";
+import ichemPrime from "../AllDatas/ProductImages/Biochemistry/ichemPrime/product1.webp";
+import identiImmuno from "../AllDatas/ProductImages/Biochemistry/identiImmuno/product1.webp";
+import identiReagents from "../AllDatas/ProductImages/Biochemistry/identiReagents/product1.webp";
 import ichemMagna1 from "../AllDatas/ProductImages/Biochemistry/ichemManga/product1.jpg";
 // Clinical Microbiology
 import ast1 from "../AllDatas/ProductImages/Clinical Microbiology/AST plates/product1.jpg";
@@ -63,10 +67,17 @@ import IfSprinter from "../AllDatas/ProductImages/Immunology/IfSprinter/product1
 import Kryptor from "../AllDatas/ProductImages/Immunology/Kryptor/product1.jpg";
 import Plexmat4 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
 import Plexmat8 from "../AllDatas/ProductImages/Immunology/Plexmat8/product1.jpg";
+import euroimmunAnalyzerI from "../AllDatas/ProductImages/Immunology/euroimmunAnalyzer I/product1.webp";
+import euroPattern from "../AllDatas/ProductImages/Immunology/euroPattern/product1.webp";
+import fluoroMat from "../AllDatas/ProductImages/Immunology/fluoroMat/product1.webp";
+import sprinter from "../AllDatas/ProductImages/Immunology/sprinter/product1.webp";
 
 // Point of Care
 import ichromaII from "../AllDatas/ProductImages/Point of Care/ichroma™ II/product1.webp";
 import ichromaIII from "../AllDatas/ProductImages/Point of Care/ichroma™ III/product1.webp";
+
+// Pre-Analytical Automation
+import PreAnalytical from "../AllDatas/ProductImages/Pre-Analytical Automation/product1.webp";
 
 const products = [
   {
@@ -171,7 +182,7 @@ const products = [
       {
         allover: "Reagents",
         id: "5",
-        image: [image1],
+        image: [ichemPrime],
         section: "reagents",
         title: "Ichem Prime",
         shortdescription: "Reagents Content",
@@ -210,7 +221,7 @@ const products = [
         allover: "Reagents",
         id: "7",
         section: "reagents",
-        image: [image1],
+        image: [identiImmuno],
         title: "Identi Immuno Turbidimetry Reagents",
         description:
           "Homogenized mixture makes antisera ideal for automation, providing accurate and reliable immuno-turbidimetric results.",
@@ -228,7 +239,7 @@ const products = [
         allover: "Reagents",
         id: "8",
         section: "reagents",
-        image: [image1],
+        image: [identiReagents],
         title: "Identi Reagents",
         description:
           "High quality reagents manufactured to international standards, suitable for a wide range of biochemical tests.",
@@ -246,7 +257,7 @@ const products = [
         allover: "Reagents",
         id: "9",
         section: "reagents",
-        image: [image1],
+        image: [chemistryCollibrator],
         title: "Chemistry Calibrator and Chemistry Controls",
         description:
           "Reconstituted stability of up to 7 days at 2°C – 8°C or 4 weeks at -20°C, ensuring precise calibration and control in biochemical testing.",
@@ -1031,7 +1042,7 @@ const products = [
       },
       {
         id: "14",
-        image: [image1],
+        image: [euroPattern],
         title: "Europattern Microscope",
         section: "ifa",
         shortdescription: "Europattern Microscope",
@@ -1052,7 +1063,7 @@ const products = [
       },
       {
         id: "15",
-        image: [image1],
+        image: [fluoroMat],
         title: "EFluoromat 50",
         section: "ifa",
         shortdescription: "Fluoromat 50",
@@ -1073,7 +1084,7 @@ const products = [
       },
       {
         id: "16",
-        image: [image1],
+        image: [euroimmunAnalyzerI],
         title: "Euroimmun Analyzer I",
         section: "elisa",
         shortdescription: "Everlife Euroimmun Analyzer I",
@@ -1095,7 +1106,7 @@ const products = [
       },
       {
         id: "17",
-        image: [image1],
+        image: [sprinter],
         title: "Sprinter XL",
         section: "ifa",
         shortdescription: "Sprinter XL",
@@ -1232,7 +1243,7 @@ const products = [
       {
         topic: "Sample Sorter",
         id: "1",
-        image: [image1],
+        image: [PreAnalytical],
         title: "Sortpro Sample Sorter",
         shortdescription: "Fully Automatic 3-Part Sortpro Sample Sorter",
         description:
