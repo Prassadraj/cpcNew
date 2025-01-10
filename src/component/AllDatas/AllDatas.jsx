@@ -103,82 +103,111 @@ const products = [
           "The Turbochem Magna is a fully automated biochemistry analyzer tailored for medium to large laboratories. With its advanced technology, it ensures high throughput and precision, making it ideal for comprehensive biochemical testing.",
         description:
           "The Turbochem Magna is a high-performance, fully automated biochemistry analyzer designed for medium to large laboratories. It offers advanced technology for precise and efficient diagnostic testing.",
-          workPrinciple : (
-            <div>
+        workPrinciple: (
+          <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base text-gray-800 text-nowrap font-semibold">How it Works </p>
+                <p className="text-base text-gray-800 text-nowrap font-semibold">
+                  How it Works{" "}
+                </p>
                 <p className="text-base text-gray-700">
-                  The analyzer employs photometric technology to measure the intensity of light absorbed by samples, providing accurate biochemical measurements.
+                  The analyzer employs photometric technology to measure the
+                  intensity of light absorbed by samples, providing accurate
+                  biochemical measurements.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base text-gray-800 text-nowrap font-semibold">For Whom</p>
+                <p className="text-base text-gray-800 text-nowrap font-semibold">
+                  For Whom
+                </p>
                 <p className="text-base text-gray-700">
-                  Designed for large hospitals and diagnostic centers requiring extensive test menus.
+                  Designed for large hospitals and diagnostic centers requiring
+                  extensive test menus.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base text-gray-800 text-nowrap font-semibold">Use Cases</p>
+                <p className="text-base text-gray-800 text-nowrap font-semibold">
+                  Use Cases
+                </p>
                 <p className="text-base text-gray-700">
-                  Performs a variety of tests including liver function, kidney function, lipid profiles, and more.
+                  Performs a variety of tests including liver function, kidney
+                  function, lipid profiles, and more.
                 </p>
               </li>
             </ul>
           </div>
-          
-          ),          
-        advantages: (<div>
-          <ul className="space-y-6 font-poppins">
-            <li className="flex gap-3">
-              <p className="text-base text-gray-800 text-nowrap">High precision and reliability</p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base text-gray-800 text-nowrap">Extensive test menu for diverse diagnostics</p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base text-gray-800 text-nowrap">Capable of handling high sample volumes efficiently</p>
-            </li>
-          </ul>
-        </div>
-        
         ),
-        benefits: (<div>
-          <ul className="space-y-6 font-poppins">
-            <li className="flex gap-3">
-              <p className="text-base text-gray-800 text-nowrap">Reduces turnaround time for test results</p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base text-gray-800 text-nowrap">Enhances diagnostic efficiency and patient care</p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base text-gray-800 text-nowrap">Supports a wide range of biochemical assays</p>
-            </li>
-          </ul>
-        </div>
-        
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base text-gray-800 text-nowrap">
+                  High precision and reliability
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base text-gray-800 text-nowrap">
+                  Extensive test menu for diverse diagnostics
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base text-gray-800 text-nowrap">
+                  Capable of handling high sample volumes efficiently
+                </p>
+              </li>
+            </ul>
+          </div>
         ),
-        mainAndCare: (<div>
-          <ul className="space-y-6">
-            <li className="flex gap-3">
-              <p className="text-base text-gray-800 text-nowrap">Regular calibration and quality control checks</p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base text-gray-800 text-nowrap">Routine cleaning of cuvettes and probes to ensure accurate readings</p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base text-gray-800 text-nowrap">Scheduled maintenance to prolong the lifespan of the analyzer</p>
-            </li>
-          </ul>
-        </div>
-        
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base text-gray-800 text-nowrap">
+                  Reduces turnaround time for test results
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base text-gray-800 text-nowrap">
+                  Enhances diagnostic efficiency and patient care
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base text-gray-800 text-nowrap">
+                  Supports a wide range of biochemical assays
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6">
+              <li className="flex gap-3">
+                <p className="text-base text-gray-800 text-nowrap">
+                  Regular calibration and quality control checks
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base text-gray-800 text-nowrap">
+                  Routine cleaning of cuvettes and probes to ensure accurate
+                  readings
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base text-gray-800 text-nowrap">
+                  Scheduled maintenance to prolong the lifespan of the analyzer
+                </p>
+              </li>
+            </ul>
+          </div>
         ),
         workServices: "Available technical support and service packages.",
         productBrochure: "path/to/turbochem-magna-brochure.pdf",
-        detailedSpecification: "Detailed technical specifications available upon request.",
-        offerOrDiscounts: "Check with the distributor for current offers and discounts.",
-      }
-,      
+        detailedSpecification:
+          "Detailed technical specifications available upon request.",
+        offerOrDiscounts:
+          "Check with the distributor for current offers and discounts.",
+      },
       {
         allover: "This is for fully automatic",
         id: "2",
@@ -189,72 +218,101 @@ const products = [
           "The Turbochem Prime is a fully automatic biochemistry analyzer, perfect for small to medium-sized laboratories. It offers a balance of efficiency, ease of use, and cost-effectiveness.",
         description:
           "The Turbochem Prime is a fully automatic biochemistry analyzer ideal for small to medium-sized laboratories, providing a blend of efficiency, reliability, and ease of use.",
-        workPrinciple:
-         (<div>
-          <ul className="space-y-6 font-poppins">
-            <li className="flex gap-3">
-              <p className="text-base font-semibold text-gray-800 text-nowrap">How it Works</p>
-              <p className="text-base text-gray-700">
-                Utilizes photometric and ion-selective electrode (ISE) methods for analyzing biochemical substances in samples.
-              </p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base font-semibold text-gray-800 text-nowrap">For Whom</p>
-              <p className="text-base text-gray-700">
-                Ideal for clinics, small hospitals, and diagnostic labs with moderate testing needs.
-              </p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base font-semibold text-gray-800 text-nowrap">Use Cases</p>
-              <p className="text-base text-gray-700">
-                Conducts a variety of tests such as metabolic panels, electrolyte measurements, and enzymatic assays.
-              </p>
-            </li>
-          </ul>
-        </div>
+        workPrinciple: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  How it Works
+                </p>
+                <p className="text-base text-gray-700">
+                  Utilizes photometric and ion-selective electrode (ISE) methods
+                  for analyzing biochemical substances in samples.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  For Whom
+                </p>
+                <p className="text-base text-gray-700">
+                  Ideal for clinics, small hospitals, and diagnostic labs with
+                  moderate testing needs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Use Cases
+                </p>
+                <p className="text-base text-gray-700">
+                  Conducts a variety of tests such as metabolic panels,
+                  electrolyte measurements, and enzymatic assays.
+                </p>
+              </li>
+            </ul>
+          </div>
         ),
-        advantages: (<div>
-          <ul className="space-y-6 font-poppins">
-            <li className="flex gap-3">
-              <p className="text-base font-semibold text-gray-800 text-nowrap">User-friendly interface with intuitive controls</p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base font-semibold text-gray-800 text-nowrap">Compact design that saves space</p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base font-semibold text-gray-800 text-nowrap">Reliable performance with minimal operational complexity</p>
-            </li>
-          </ul>
-        </div>
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  User-friendly interface with intuitive controls
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Compact design that saves space
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Reliable performance with minimal operational complexity
+                </p>
+              </li>
+            </ul>
+          </div>
         ),
-        benefits: (<div>
-          <ul className="space-y-6 font-poppins">
-            <li className="flex gap-3">
-              <p className="text-base font-semibold text-gray-800 text-nowrap">Simplifies laboratory workflows</p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base font-semibold text-gray-800 text-nowrap">Enhances accuracy and speed of diagnostics</p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base font-semibold text-gray-800 text-nowrap">Cost-effective solution for comprehensive biochemistry testing</p>
-            </li>
-          </ul>
-        </div>
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Simplifies laboratory workflows
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Enhances accuracy and speed of diagnostics
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Cost-effective solution for comprehensive biochemistry testing
+                </p>
+              </li>
+            </ul>
+          </div>
         ),
-        mainAndCare:
-         (<div>
-          <ul className="space-y-6 font-poppins">
-            <li className="flex gap-3">
-              <p className="text-base font-semibold text-gray-800 text-nowrap">Periodic software updates to maintain functionality</p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base font-semibold text-gray-800 text-nowrap">Regular cleaning and maintenance of analytical components</p>
-            </li>
-            <li className="flex gap-3">
-              <p className="text-base font-semibold text-gray-800 text-nowrap">Proper storage of reagents to ensure test accuracy</p>
-            </li>
-          </ul>
-        </div>
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Periodic software updates to maintain functionality
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Regular cleaning and maintenance of analytical components
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Proper storage of reagents to ensure test accuracy
+                </p>
+              </li>
+            </ul>
+          </div>
         ),
         workServices: "Comprehensive service options available.",
         productBrochure: "path/to/turbochem-prime-brochure.pdf",
@@ -262,7 +320,7 @@ const products = [
           "In-depth specifications can be provided on request.",
         offerOrDiscounts: "Contact sales for the latest promotions.",
       },
-      // neo 
+      // neo
       // {
       //   allover: "This is for fully automatic",
       //   id: "3",
@@ -288,79 +346,106 @@ const products = [
         image: [prim1, prim2],
         title: "Turbostat Plus",
         section: "semiautomatic",
-        shortdescription: "The Turbostat Plus is a semi-automated biochemistry analyzer designed for rapid and reliable biochemical testing. It ensures high accuracy and efficiency, making it suitable for diverse laboratory environments.",
+        shortdescription:
+          "The Turbostat Plus is a semi-automated biochemistry analyzer designed for rapid and reliable biochemical testing. It ensures high accuracy and efficiency, making it suitable for diverse laboratory environments.",
         description:
           "The Turbostat Plus is a semi-automated biochemistry analyzer designed for rapid and precise biochemical testing, suitable for small to mid-sized laboratories.",
-          workPrinciple: (
-            <div>
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">How it Works</p>
-                  <p className="text-base text-gray-700">
-                    Employs photometric detection to analyze biochemical reactions and provide precise measurements.
-                  </p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">For Whom</p>
-                  <p className="text-base text-gray-700">
-                    Perfect for small to mid-sized laboratories needing quick turnaround times.
-                  </p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Use Cases</p>
-                  <p className="text-base text-gray-700">
-                    Commonly used for routine chemistry tests, specific protein assays, and urgent biochemical assessments.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          ),
-          advantages: (
-            <div>
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Fast processing time for quick results</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">High reliability with consistent performance</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Versatile applications across various tests</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          benefits: (
-            <div>
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Improves laboratory productivity</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Provides quick and accurate diagnostics</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Adaptable to a wide range of biochemical testing needs</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          mainAndCare: (
-            <div>
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Routine maintenance of sensors and optical systems</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Ensuring proper storage and handling of reagents</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Regular performance checks to ensure ongoing accuracy</p>
-                </li>
-              </ul>
-            </div>
-          )
-,          
+        workPrinciple: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  How it Works
+                </p>
+                <p className="text-base text-gray-700">
+                  Employs photometric detection to analyze biochemical reactions
+                  and provide precise measurements.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  For Whom
+                </p>
+                <p className="text-base text-gray-700">
+                  Perfect for small to mid-sized laboratories needing quick
+                  turnaround times.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Use Cases
+                </p>
+                <p className="text-base text-gray-700">
+                  Commonly used for routine chemistry tests, specific protein
+                  assays, and urgent biochemical assessments.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Fast processing time for quick results
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  High reliability with consistent performance
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Versatile applications across various tests
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Improves laboratory productivity
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Provides quick and accurate diagnostics
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Adaptable to a wide range of biochemical testing needs
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Routine maintenance of sensors and optical systems
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Ensuring proper storage and handling of reagents
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Regular performance checks to ensure ongoing accuracy
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         workServices: "Service options available upon request.",
         productBrochure: "path/to/turbostat-plus-brochure.pdf",
         detailedSpecification:
@@ -776,134 +861,179 @@ const products = [
         section: "withautoloader",
         image: [Jokoh1, Jokoh2, Jokoh3],
         title: "Jokoh Ex-D Electrolyte Analyzer",
-        shortdescription: "The Jokoh EX-D Electrolyte Analyzer is engineered to deliver rapid and precise measurements of vital electrolytes, including sodium (Na+), potassium (K+), and chloride (Cl-). The analyzer’s compact design makes it an excellent choice for laboratories with space constraints, while its advanced technology ensures consistent accuracy and low operational costs.",
+        shortdescription:
+          "The Jokoh EX-D Electrolyte Analyzer is engineered to deliver rapid and precise measurements of vital electrolytes, including sodium (Na+), potassium (K+), and chloride (Cl-). The analyzer’s compact design makes it an excellent choice for laboratories with space constraints, while its advanced technology ensures consistent accuracy and low operational costs.",
         description:
           "The Jokoh EX-D Electrolyte Analyzer is a high-performance, fully automated analyzer designed for quick and accurate measurement of critical electrolytes such as sodium, potassium, and chloride. Ideal for clinical laboratories and healthcare facilities, this analyzer is renowned for its precision, efficiency, and ease of use, ensuring reliable diagnostic results.",
-          workPrinciple: (
-            <div>
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">How it Works</p>
-                  <p className="text-base text-gray-700">
-                    The Jokoh EX-D uses ion-selective electrode (ISE) technology to measure electrolyte concentrations in biological fluids such as blood, serum, and plasma. This technology relies on electrodes that are sensitive to specific ions, allowing for accurate and direct measurement of electrolyte levels in a short amount of time. The analyzer features automatic calibration and a built-in quality control system to ensure the reliability of every result.
-                  </p>
-                </li>
-              </ul>
-          
-              {/* For Whom It Is Useful */}
-              <table className="min-w-full table-auto">
-                <thead>
-                  <tr>
-                    <th className="px-4 py-2 text-left font-semibold text-gray-800">For Whom It Is Useful</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      The Jokoh EX-D Electrolyte Analyzer is perfect for clinical laboratories, hospitals, and diagnostic centers that require fast and precise electrolyte measurements. It is particularly valuable in critical care settings, emergency rooms, and intensive care units where timely and accurate electrolyte analysis is essential for patient management.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-          
-              {/* Use Cases */}
-              <table className="min-w-full table-auto mt-6">
-                <thead>
-                  <tr>
-                    <th className="px-4 py-2 text-left font-semibold text-gray-800">Use Cases</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Critical Care:</strong> Provides rapid electrolyte analysis for patients in intensive care units or emergency departments.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Routine Laboratory Testing:</strong> Ideal for use in clinical laboratories handling a high volume of samples daily.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Diagnostic Centers:</strong> Enables precise electrolyte measurement for diagnostic purposes, supporting medical professionals in delivering accurate diagnoses.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          ),
-          
-          advantages: (
-            <div>
-              {/* Advantages Table */}
-              <table className="min-w-full table-auto">
-          
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>High Efficiency:</strong> Quick turnaround time ensures that critical results are delivered without delay, enabling faster decision-making.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Ease of Use:</strong> The intuitive touchscreen interface and automated features reduce the complexity of operations, allowing for minimal operator intervention.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Compact Design:</strong> Its small footprint allows it to be placed in laboratories with limited space, optimizing workflow efficiency.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Consistent Accuracy:</strong> The built-in quality control system guarantees consistent and reliable results, reducing the risk of errors.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          ),
-          
-          benefits: (
-            <div>
-              {/* Benefits Table */}
-              <table className="min-w-full table-auto">
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Cost-Effective:</strong> Low reagent consumption and minimal maintenance requirements lower the overall cost of ownership.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Improved Workflow:</strong> Automatic calibration and fast processing speeds streamline lab operations, allowing for higher productivity.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Reliable Results:</strong> The precision of ion-selective electrode technology ensures that clinicians receive accurate data, enhancing patient care.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          ),
-          
-          mainAndCare: (
-            <div>
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Routine maintenance of sensors and optical systems</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Ensuring proper storage and handling of reagents</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Regular performance checks to ensure ongoing accuracy</p>
-                </li>
-              </ul>
-            </div>),
+        workPrinciple: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  How it Works
+                </p>
+                <p className="text-base text-gray-700">
+                  The Jokoh EX-D uses ion-selective electrode (ISE) technology
+                  to measure electrolyte concentrations in biological fluids
+                  such as blood, serum, and plasma. This technology relies on
+                  electrodes that are sensitive to specific ions, allowing for
+                  accurate and direct measurement of electrolyte levels in a
+                  short amount of time. The analyzer features automatic
+                  calibration and a built-in quality control system to ensure
+                  the reliability of every result.
+                </p>
+              </li>
+            </ul>
+
+            {/* For Whom It Is Useful */}
+            <table className="min-w-full table-auto">
+              <thead>
+                <tr>
+                  <th className="px-4 py-2 text-left font-semibold text-gray-800">
+                    For Whom It Is Useful
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    The Jokoh EX-D Electrolyte Analyzer is perfect for clinical
+                    laboratories, hospitals, and diagnostic centers that require
+                    fast and precise electrolyte measurements. It is
+                    particularly valuable in critical care settings, emergency
+                    rooms, and intensive care units where timely and accurate
+                    electrolyte analysis is essential for patient management.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            {/* Use Cases */}
+            <table className="min-w-full table-auto mt-6">
+              <thead>
+                <tr>
+                  <th className="px-4 py-2 text-left font-semibold text-gray-800">
+                    Use Cases
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Critical Care:</strong> Provides rapid electrolyte
+                    analysis for patients in intensive care units or emergency
+                    departments.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Routine Laboratory Testing:</strong> Ideal for use
+                    in clinical laboratories handling a high volume of samples
+                    daily.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Diagnostic Centers:</strong> Enables precise
+                    electrolyte measurement for diagnostic purposes, supporting
+                    medical professionals in delivering accurate diagnoses.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            {/* Advantages Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>High Efficiency:</strong> Quick turnaround time
+                    ensures that critical results are delivered without delay,
+                    enabling faster decision-making.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Ease of Use:</strong> The intuitive touchscreen
+                    interface and automated features reduce the complexity of
+                    operations, allowing for minimal operator intervention.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Compact Design:</strong> Its small footprint allows
+                    it to be placed in laboratories with limited space,
+                    optimizing workflow efficiency.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Consistent Accuracy:</strong> The built-in quality
+                    control system guarantees consistent and reliable results,
+                    reducing the risk of errors.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            {/* Benefits Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Cost-Effective:</strong> Low reagent consumption and
+                    minimal maintenance requirements lower the overall cost of
+                    ownership.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Improved Workflow:</strong> Automatic calibration
+                    and fast processing speeds streamline lab operations,
+                    allowing for higher productivity.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Reliable Results:</strong> The precision of
+                    ion-selective electrode technology ensures that clinicians
+                    receive accurate data, enhancing patient care.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Routine maintenance of sensors and optical systems
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Ensuring proper storage and handling of reagents
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Regular performance checks to ensure ongoing accuracy
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         workServices:
           "Technical support and service options available for system maintenance and troubleshooting.",
         productBrochure: "path/to/jokoh-ex-d-brochure.pdf",
@@ -956,88 +1086,119 @@ const products = [
         section: "3parthematology",
         image: [DYNACOUNT1],
         title: "Dynacount 3D Haematology Analyzer",
-        shortdescription: "The Dynacount 3D Hematology Analyzer utilizes state-of-the-art 3D imaging technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with ease.",
+        shortdescription:
+          "The Dynacount 3D Hematology Analyzer utilizes state-of-the-art 3D imaging technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with ease.",
         description:
           "The Dynacount 3D Hematology Analyzer is a cutting-edge device designed for precise and reliable hematological analysis. Leveraging advanced 3D imaging technology, it ensures accurate blood cell counting and differentiation. Ideal for laboratories and healthcare facilities, this analyzer enhances efficiency and offers user-friendly operation.",
-          workPrinciple: (
-            <div>
-              {/* Working Principle Table */}
-              <table className="min-w-full table-auto">
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>How it Works:</strong> Employs 3D imaging to capture detailed blood cell images, facilitating accurate counting and differentiation. Processes samples quickly for timely results.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>For Whom:</strong> Ideal for clinical laboratories, hospitals, and diagnostic centers.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Use Cases:</strong> Suitable for routine blood tests, diagnosing hematological disorders, and monitoring patient health.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          ),
-          
-          advantages: (
-            <div>
-              {/* Advantages List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">High precision with advanced 3D technology</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Fast processing for high throughput</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Easy-to-use interface for streamlined operation</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          benefits: (
-            <div>
-              {/* Benefits List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Enhanced accuracy and reliability in blood analysis</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Increased efficiency and workflow optimization</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Reduced need for manual intervention, minimizing errors</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          mainAndCare:(
-            <div>
-              {/* Maintenance and Care List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Regular Calibration: Periodic calibration to maintain accuracy.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Routine Cleaning: Regular cleaning of sample probes and internal components.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Software Updates: Keep software updated for the latest features.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Preventive Maintenance: Schedule regular checks by certified technicians for long-term reliability.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
+        workPrinciple: (
+          <div>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>How it Works:</strong> Employs 3D imaging to capture
+                    detailed blood cell images, facilitating accurate counting
+                    and differentiation. Processes samples quickly for timely
+                    results.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom:</strong> Ideal for clinical laboratories,
+                    hospitals, and diagnostic centers.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong> Suitable for routine blood
+                    tests, diagnosing hematological disorders, and monitoring
+                    patient health.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            {/* Advantages List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  High precision with advanced 3D technology
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Fast processing for high throughput
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Easy-to-use interface for streamlined operation
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            {/* Benefits List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Enhanced accuracy and reliability in blood analysis
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Increased efficiency and workflow optimization
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Reduced need for manual intervention, minimizing errors
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            {/* Maintenance and Care List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Regular Calibration: Periodic calibration to maintain
+                  accuracy.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Routine Cleaning: Regular cleaning of sample probes and
+                  internal components.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Software Updates: Keep software updated for the latest
+                  features.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Preventive Maintenance: Schedule regular checks by certified
+                  technicians for long-term reliability.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices:
           "Technical support and service options available for system maintenance and troubleshooting.",
         productBrochure: "path/to/dynacount-3d-brochure.pdf",
@@ -1055,85 +1216,115 @@ const products = [
           "The Dynacount 3D Plus Hematology Analyzer leverages sophisticated 3D imaging to provide detailed and accurate blood cell analysis. This device is engineered to meet the demands of modern laboratories, offering reliable results with minimal manual intervention.",
         description:
           "The Dynacount 3D Plus Hematology Analyzer is an advanced diagnostic tool designed to deliver precise and reliable hematological analysis. Utilizing cutting-edge 3D imaging technology, it ensures accurate blood cell counting and differentiation. Ideal for clinical laboratories and healthcare facilities, this analyzer offers high efficiency and user-friendly operation.",
-          workPrinciple: (
-            <div>
-              {/* Working Principle Table */}
-              <table className="min-w-full table-auto">
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>How it Works:</strong> The analyzer captures detailed 3D images of blood cells to accurately count and differentiate them. It processes samples swiftly, ensuring quick results.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>For Whom:</strong> Designed for clinical laboratories, hospitals, and diagnostic centers.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Use Cases:</strong> Suitable for routine blood tests, diagnosing hematological disorders, and patient health monitoring.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          ),
-          
-          advantages: (
-            <div>
-              {/* Advantages List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">High precision due to advanced 3D imaging</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Fast sample processing enhances laboratory efficiency</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">User-friendly operation reduces training time</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          benefits: (
-            <div>
-              {/* Benefits List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Provides accurate and reliable hematological analysis</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Increases efficiency in laboratory workflows</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Minimizes manual intervention, reducing the risk of errors</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          mainAndCare: (
-            <div>
-              {/* Maintenance and Care List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Regular Calibration: Ensure periodic calibration to maintain accuracy.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Routine Cleaning: Clean sample probes and internal components regularly.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Software Updates: Keep software updated for enhanced features and performance.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Preventive Maintenance: Schedule regular maintenance checks by certified technicians to ensure optimal performance.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
+        workPrinciple: (
+          <div>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>How it Works:</strong> The analyzer captures
+                    detailed 3D images of blood cells to accurately count and
+                    differentiate them. It processes samples swiftly, ensuring
+                    quick results.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom:</strong> Designed for clinical
+                    laboratories, hospitals, and diagnostic centers.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong> Suitable for routine blood
+                    tests, diagnosing hematological disorders, and patient
+                    health monitoring.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            {/* Advantages List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  High precision due to advanced 3D imaging
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Fast sample processing enhances laboratory efficiency
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  User-friendly operation reduces training time
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            {/* Benefits List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Provides accurate and reliable hematological analysis
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Increases efficiency in laboratory workflows
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Minimizes manual intervention, reducing the risk of errors
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            {/* Maintenance and Care List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Regular Calibration: Ensure periodic calibration to maintain
+                  accuracy.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Routine Cleaning: Clean sample probes and internal components
+                  regularly.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Software Updates: Keep software updated for enhanced features
+                  and performance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Preventive Maintenance: Schedule regular maintenance checks by
+                  certified technicians to ensure optimal performance.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices:
           "Comprehensive technical support available for installation and troubleshooting.",
         productBrochure: "path/to/dynacount-3d-plus-brochure.pdf",
@@ -1148,88 +1339,119 @@ const products = [
         title: "Dynacount 5D",
         section: "5parthematology",
 
-        shortdescription: "The Dynacount 5D Hematology Analyzer or CBC machine utilizes state-of-the-art 5-part differential technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with minimal manual intervention.",
+        shortdescription:
+          "The Dynacount 5D Hematology Analyzer or CBC machine utilizes state-of-the-art 5-part differential technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with minimal manual intervention.",
         description:
           "The Dynacount 5D Hematology Analyzer or CBC machine is a sophisticated diagnostic tool designed for precise and comprehensive hematological analysis. It features advanced 5-part differential technology for accurate blood cell counting and differentiation, making it ideal for high-throughput laboratories. With its user-friendly interface and reliable performance, this analyzer ensures efficient and accurate results.",
-          workPrinciple: (
-            <div>
-              {/* Working Principle Table */}
-              <table className="min-w-full table-auto">
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>How it Works:</strong> The analyzer employs advanced 5-part differential technology to accurately count and differentiate blood cells. It processes samples quickly, ensuring timely and precise results.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>For Whom:</strong> Ideal for clinical laboratories, hospitals, and diagnostic centers.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Use Cases:</strong> Suitable for routine blood tests, diagnosing hematological disorders, and monitoring patient health.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          ),
-          
-          advantages: (
-            <div>
-              {/* Advantages List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">High precision with 5-part differential technology</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Fast processing for high throughput</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">User-friendly interface for easy operation</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          benefits: (
-            <div>
-              {/* Benefits List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Enhanced accuracy and reliability in blood cell analysis</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Increased efficiency in laboratory workflows</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Reduced need for manual intervention, minimizing errors</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          mainAndCare: (
-            <div>
-              {/* Maintenance and Care List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Regular Calibration: Ensure periodic calibration to maintain accuracy.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Routine Cleaning: Regularly clean sample probes and internal components to ensure optimal performance.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Software Updates: Keep the software updated to benefit from the latest features and improvements.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Preventive Maintenance: Schedule regular maintenance checks by certified technicians to ensure long-term reliability.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
+        workPrinciple: (
+          <div>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>How it Works:</strong> The analyzer employs advanced
+                    5-part differential technology to accurately count and
+                    differentiate blood cells. It processes samples quickly,
+                    ensuring timely and precise results.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom:</strong> Ideal for clinical laboratories,
+                    hospitals, and diagnostic centers.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong> Suitable for routine blood
+                    tests, diagnosing hematological disorders, and monitoring
+                    patient health.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            {/* Advantages List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  High precision with 5-part differential technology
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Fast processing for high throughput
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  User-friendly interface for easy operation
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            {/* Benefits List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Enhanced accuracy and reliability in blood cell analysis
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Increased efficiency in laboratory workflows
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Reduced need for manual intervention, minimizing errors
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            {/* Maintenance and Care List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Regular Calibration: Ensure periodic calibration to maintain
+                  accuracy.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Routine Cleaning: Regularly clean sample probes and internal
+                  components to ensure optimal performance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Software Updates: Keep the software updated to benefit from
+                  the latest features and improvements.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Preventive Maintenance: Schedule regular maintenance checks by
+                  certified technicians to ensure long-term reliability.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices:
           "Available technical support for installation, maintenance, and troubleshooting.",
         productBrochure: "path/to/dynacount-5d-brochure.pdf",
@@ -1245,88 +1467,122 @@ const products = [
         title: "Vision Pro",
         section: "esranalyzer",
 
-        shortdescription: "The Vision Pro ESR Analyzer by YHLO is designed to streamline the process of measuring erythrocyte sedimentation rate using the Westergren method. This fully automated ESR analyzer ensures precise and rapid results, enhancing laboratory productivity and accuracy.",
+        shortdescription:
+          "The Vision Pro ESR Analyzer by YHLO is designed to streamline the process of measuring erythrocyte sedimentation rate using the Westergren method. This fully automated ESR analyzer ensures precise and rapid results, enhancing laboratory productivity and accuracy.",
         description:
           "The Vision Pro ESR Analyzer is a fully automated solution designed to deliver quick and accurate erythrocyte sedimentation rate (ESR) results. It features advanced technology, providing test results in just 20 minutes with a 5ml sample volume. Ideal for laboratories seeking efficiency and reliability, it operates using primary EDTA tubes and requires no disposables.",
-          workPrinciple: (
-            <div>
-              {/* Working Principle Table */}
-              <table className="min-w-full table-auto">
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>How it Works:</strong> The analyzer uses infrared scanning technology to measure ESR, generating a 3-phase sedimentation curve. It processes samples directly from primary EDTA tubes, providing results within 20 minutes.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>For Whom:</strong> Ideal for clinical laboratories, hospitals, and diagnostic centers that require fast and accurate ESR testing.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Use Cases:</strong> Used for routine ESR tests to diagnose and monitor inflammatory conditions and other medical conditions.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          ),
-          
-          advantages: (
-            <div>
-              {/* Advantages List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Rapid test results, improving laboratory efficiency</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Eliminates the need for disposable materials, reducing costs</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Easy operation with primary EDTA tubes and minimal sample volume</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          benefits: (
-            <div>
-              {/* Benefits List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Enhances the speed and accuracy of ESR testing</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Reduces operational costs with no disposable requirements</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Simplifies workflow with advanced automation and integrated barcode reader</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          mainAndCare: (
-            <div>
-              {/* Maintenance and Care List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Regular Calibration: Perform regular calibration to maintain accuracy.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Routine Cleaning: Clean the internal components and scanner regularly.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Software Updates: Keep the software updated for optimal performance.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Preventive Maintenance: Schedule periodic maintenance checks with certified technicians to ensure long-term reliability.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
+        workPrinciple: (
+          <div>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>How it Works:</strong> The analyzer uses infrared
+                    scanning technology to measure ESR, generating a 3-phase
+                    sedimentation curve. It processes samples directly from
+                    primary EDTA tubes, providing results within 20 minutes.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom:</strong> Ideal for clinical laboratories,
+                    hospitals, and diagnostic centers that require fast and
+                    accurate ESR testing.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong> Used for routine ESR tests to
+                    diagnose and monitor inflammatory conditions and other
+                    medical conditions.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            {/* Advantages List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Rapid test results, improving laboratory efficiency
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Eliminates the need for disposable materials, reducing costs
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Easy operation with primary EDTA tubes and minimal sample
+                  volume
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            {/* Benefits List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Enhances the speed and accuracy of ESR testing
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Reduces operational costs with no disposable requirements
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Simplifies workflow with advanced automation and integrated
+                  barcode reader
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            {/* Maintenance and Care List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Regular Calibration: Perform regular calibration to maintain
+                  accuracy.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Routine Cleaning: Clean the internal components and scanner
+                  regularly.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Software Updates: Keep the software updated for optimal
+                  performance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Preventive Maintenance: Schedule periodic maintenance checks
+                  with certified technicians to ensure long-term reliability.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices:
           "Available technical support for installation, maintenance, and troubleshooting.",
         productBrochure: "path/to/dynacount-5d-brochure.pdf",
@@ -1383,17 +1639,199 @@ const products = [
         image: [Plexmat4],
         title: "Plexmat 4",
         section: "immunoblot",
-        shortdescription: "Plexmat 4",
+        shortdescription:
+          "The PLEXMAT 4 is an advanced western blot processor designed to bring automation and precision to immunoblotting processes in diagnostic laboratories. This compact system is ideal for laboratories handling a moderate volume of western blot tests. The PLEXMAT 4 automates each step of the blotting process, from sample preparation to final detection, minimizing manual intervention and reducing the risk of errors. Its versatility makes it suitable for processing various test profiles, including ANA (antinuclear antibody) tests and liver diagnostics, making it a reliable asset in immunodiagnostics.",
         description:
-          "The Plexmat 4 is an advanced immunoblot analyzer designed for high throughput and reliable results in various immunological assays.",
-        workPrinciple:
-          "Utilizes immunoblotting technology to detect and quantify proteins in various samples.",
-        advantages:
-          "High throughput and reliability for diverse immunological applications.",
-        benefits:
-          "Ideal for laboratories requiring efficient and accurate immunoblot analysis.",
-        mainAndCare:
-          "Follow manufacturer guidelines for calibration and maintenance.",
+          "The PLEXMAT 4 is an efficient and compact western blot processor designed for small to medium-sized laboratories. This automated western blot processor simplifies the immunoblotting process, offering reliable and consistent results for a variety of diagnostic tests, including ANA and liver profiles. With its intuitive interface and space-saving design, the PLEXMAT 4 enhances lab productivity while maintaining high standards of accuracy.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle: How It Works?</strong>
+                    The PLEXMAT 4 operates by automating the western blot
+                    procedure, which involves separating proteins via gel
+                    electrophoresis and transferring them to a membrane. This
+                    membrane is then processed using automated steps, including
+                    blocking, antibody incubation, washing, and detection. The
+                    automation ensures that all steps are performed consistently
+                    across all strips, providing reproducible and accurate
+                    results. The system is designed to handle multiple strips
+                    simultaneously, improving lab throughput and efficiency.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful?</strong>
+                    The PLEXMAT 4 is particularly beneficial for clinical
+                    diagnostic laboratories, research institutions, and
+                    specialized testing centers that require reliable western
+                    blot processing but may have space or volume constraints. It
+                    is ideal for labs conducting ANA test profiles, liver
+                    profiles, and other immunoassays, offering a practical
+                    solution to automate processes while ensuring high standards
+                    of precision.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        ANA Test Profile Processing: Automates the
+                        immunoblotting process for antinuclear antibody tests,
+                        aiding in the diagnosis of autoimmune diseases.
+                      </li>
+                      <li>
+                        Liver Profile Diagnostics: Facilitates the detection of
+                        liver-related biomarkers, enabling accurate diagnostics
+                        for liver function and disease.
+                      </li>
+                      <li>
+                        Infectious Disease Diagnostics: Supports the western
+                        blot testing for various infectious diseases, providing
+                        quick and reliable results.
+                      </li>
+                      <li>
+                        Endocrine Function Testing: Processes hormonal profile
+                        diagnostics efficiently, aiding in the detection of
+                        endocrine disorders.
+                      </li>
+                      <li>
+                        Oncology Diagnostics: Automates the detection of
+                        cancer-related biomarkers, contributing to early
+                        diagnosis and monitoring of cancer progression.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Efficient Processing: Automates multiple steps in the western
+                  blot process, reducing manual labor and increasing lab
+                  productivity.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Compact and Space-Saving: Ideal for labs with limited space,
+                  the PLEXMAT 4 offers full functionality without taking up too
+                  much room.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  High Accuracy: Automation ensures consistent and precise
+                  results, improving diagnostic accuracy across a variety of
+                  tests.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Versatile Testing: Supports a broad range of assays, including
+                  autoimmune and liver profiles, making it adaptable to various
+                  lab needs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Scalable Solution: Capable of processing up to 4 strips
+                  simultaneously, making it suitable for labs with moderate
+                  testing volumes.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Increased Productivity: The automated workflow allows lab
+                  technicians to focus on other tasks while the PLEXMAT 4
+                  handles western blot processing, enhancing overall efficiency.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Consistent Results: The automated system ensures uniform
+                  processing across all strips, delivering reliable and
+                  reproducible results every time.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Cost-Effective Operation: By reducing manual intervention and
+                  minimizing errors, the PLEXMAT 4 helps lower operational costs
+                  and improve lab efficiency.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  User-Friendly Design: The intuitive touchscreen interface
+                  simplifies operation, reducing the need for extensive training
+                  and making the system accessible to all lab staff.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Multi-Test Capability: The ability to handle a variety of test
+                  profiles, from ANA to liver diagnostics, makes the PLEXMAT 4 a
+                  versatile addition to any lab.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Routine Calibration: Regular calibration ensures that the
+                  PLEXMAT 4 maintains its accuracy and reliability over time.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Automated Maintenance Alerts: The system provides automatic
+                  notifications for maintenance tasks, ensuring timely upkeep.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Easy Access for Servicing: The PLEXMAT 4 is designed for easy
+                  access to internal components, making maintenance and repairs
+                  straightforward and efficient.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Minimal Downtime: Built for durability, the PLEXMAT 4 ensures
+                  continuous operation with minimal maintenance interruptions.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Comprehensive Support: Supported by CPC Diagnostics' technical
+                  team, ensuring optimal performance and long-term reliability.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         workServices:
           "Technical support available for installation and troubleshooting.",
         productBrochure: "path/to/plexmat-4-brochure.pdf",
@@ -1406,17 +1844,409 @@ const products = [
         image: [Plexmat8],
         title: "Plexmat 8",
         section: "immunoblot",
-        shortdescription: "Plexmat 8",
+        shortdescription:
+          "The PLEXMAT 8 is a cutting-edge immunoblot processor designed to automate and streamline the western blot process in clinical and diagnostic laboratories. This automated western blot processor offers high precision and efficiency, handling up to 8 strips simultaneously. Its automation capabilities significantly reduce manual handling, ensuring consistency and reproducibility across all samples. The PLEXMAT 8 is particularly useful for processing complex diagnostic profiles, such as ANA (antinuclear antibody) tests and liver function profiles, making it a versatile tool in immunodiagnostics.",
         description:
-          "The Plexmat 8 offers enhanced performance and efficiency for immunoblot analysis, suitable for diverse laboratory needs.",
-        workPrinciple:
-          "Advanced immunoblotting technology with improved performance features.",
-        advantages:
-          "Enhanced performance for more efficient immunoblot analysis.",
-        benefits:
-          "Suitable for labs with diverse and high-volume testing needs.",
-        mainAndCare:
-          "Regular calibration and maintenance required; follow guidelines.",
+          "The PLEXMAT 8 is an advanced immunoblot processor designed for fully automated western blot processing. It provides accurate, reliable, and high-throughput results for a range of diagnostic profiles, including ANA and liver tests. This automated western blot processor is ideal for laboratories seeking precision and efficiency in processing multiple samples simultaneously.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle:</strong> The PLEXMAT 8 automates
+                    the western blotting process by managing each step, from
+                    sample preparation to final detection. The system
+                    automatically performs protein separation via gel
+                    electrophoresis, followed by transfer to a membrane. It then
+                    executes blocking, antibody incubation, washing, and
+                    detection steps. Automation ensures uniform processing for
+                    all strips, minimizing human error and providing consistent,
+                    high-quality results. Its automated operation boosts lab
+                    efficiency, reducing hands-on time and increasing
+                    throughput.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful:</strong> The PLEXMAT 8 is
+                    ideal for clinical diagnostic laboratories, research
+                    institutions, and specialized testing facilities that
+                    require high-throughput, accurate processing of immunoblots.
+                    It is particularly beneficial for labs conducting autoimmune
+                    testing (e.g., ANA profiles), liver function diagnostics,
+                    and other immunological assays. The system's fully automated
+                    functionality makes it a perfect choice for labs seeking to
+                    enhance productivity and reduce manual labor.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        ANA Test Profile: Automates the processing of
+                        antinuclear antibody tests, providing accurate results
+                        for autoimmune disease diagnostics.
+                      </li>
+                      <li>
+                        Liver Profile Diagnostics: Supports the detection of
+                        liver-related biomarkers, ensuring reliable and timely
+                        diagnosis of liver conditions.
+                      </li>
+                      <li>
+                        Infectious Disease Screening: Facilitates western blot
+                        testing for infectious diseases, enabling precise and
+                        rapid identification of pathogens.
+                      </li>
+                      <li>
+                        Endocrine Function Testing: Processes complex hormonal
+                        profiles, aiding in the diagnosis of endocrine
+                        disorders.
+                      </li>
+                      <li>
+                        Oncology Biomarker Detection: Automates the detection of
+                        cancer-related biomarkers, supporting early diagnosis
+                        and treatment planning.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  High Efficiency: The ability to process multiple strips
+                  simultaneously increases lab productivity and reduces
+                  turnaround time.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Automation and Precision: Automating each step of the western
+                  blot process ensures consistency and reduces manual errors.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Versatile Testing Capabilities: Supports a wide range of
+                  diagnostic tests, making it adaptable to various clinical
+                  applications, including autoimmune and liver profiles.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Space-Saving Design: The compact footprint of the PLEXMAT 8
+                  makes it easy to integrate into labs of any size, optimizing
+                  workspace without compromising functionality.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Scalability: Whether your lab processes a few samples or high
+                  volumes, the PLEXMAT 8 can scale to meet your needs without
+                  sacrificing performance.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Increased Productivity: Automated operation allows lab
+                  technicians to focus on other tasks while the PLEXMAT 8
+                  handles western blot processing, improving overall workflow.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Consistent and Accurate Results: Automation ensures uniformity
+                  in processing, delivering reliable and reproducible results
+                  across all tests.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Cost-Effective Operation: Reduces the need for manual labor,
+                  lowering operational costs and minimizing the risk of repeat
+                  testing due to errors.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  User-Friendly Interface: The intuitive touchscreen interface
+                  simplifies operation, reducing training time and increasing
+                  ease of use.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Multi-Profile Capability: Supports a broad range of test
+                  profiles, including ANA, liver, infectious diseases, and more,
+                  making it a versatile asset for any diagnostic lab.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Routine Calibration: Regular calibration ensures the PLEXMAT 8
+                  maintains its accuracy and reliability over time.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Automated Maintenance Alerts: The system provides automatic
+                  alerts for scheduled maintenance, ensuring optimal
+                  performance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Easy Access for Servicing: The design allows for easy access
+                  to internal components, simplifying routine maintenance and
+                  any necessary repairs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Durable Construction: Built for long-term use, ensuring
+                  consistent performance with minimal downtime.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Comprehensive Support: Backed by CPC Diagnostics’ technical
+                  support team, ensuring your system operates at peak
+                  performance throughout its lifespan.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+        workServices: "Comprehensive technical support provided.",
+        productBrochure: "path/to/plexmat-8-brochure.pdf",
+        detailedSpecification: "Detailed specs available on request.",
+        offerOrDiscounts: "Inquire about current offers with the distributor.",
+      },
+      {
+        id: "3",
+        image: [image1],
+        title: "Brahms Biomarkers",
+        section: "immunoblot",
+        shortdescription:
+          "The BRAHMS Biomarkers system is an advanced diagnostic solution designed for accurate prenatal screening and critical disease detection. This prenatal screening instrument provides fast and reliable results by identifying key biomarkers in patient samples. Ideal for modern laboratories, the BRAHMS Biomarkers system ensures consistent accuracy, making it an essential tool for early diagnosis and effective patient management.",
+        description:
+          "The BRAHMS Biomarkers system is a sophisticated prenatal screening instrument that offers precise detection of biomarkers crucial for early diagnosis in various medical conditions, including prenatal abnormalities and infections. This advanced diagnostic equipment is designed to meet the demands of high-throughput laboratories, ensuring fast, reliable, and accurate results. With its automated workflow and versatile test menu, the BRAHMS Biomarkers system plays a critical role in clinical diagnostics, supporting both prenatal and general disease screening applications.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle: How It Works?</strong>
+                    The BRAHMS Biomarkers system operates by detecting specific
+                    biomarkers in biological samples using advanced immunoassay
+                    technology. Biomarkers are measured through sensitive and
+                    specific assays that detect and quantify proteins, hormones,
+                    and other substances associated with various diseases. The
+                    system automates the sample preparation, incubation, and
+                    detection processes, minimizing manual intervention and
+                    ensuring consistent accuracy. Once biomarkers are detected,
+                    results are generated quickly, aiding in timely clinical
+                    decision-making, particularly in prenatal care.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful?</strong>
+                    The BRAHMS Biomarkers system is ideal for clinical
+                    diagnostic laboratories, hospital labs, and specialized
+                    testing centers that require efficient and accurate
+                    biomarker detection. This system is particularly beneficial
+                    for labs performing prenatal screening, where early
+                    detection of abnormalities is crucial for patient care. It
+                    is also valuable for labs conducting research and
+                    diagnostics in infectious diseases, oncology, and
+                    endocrinology.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        Prenatal Screening: Detects biomarkers related to fetal
+                        development, helping to identify potential genetic
+                        abnormalities or other prenatal conditions.
+                      </li>
+                      <li>
+                        Infectious Disease Diagnostics: Provides rapid and
+                        accurate identification of biomarkers associated with
+                        infectious diseases, supporting timely treatment.
+                      </li>
+                      <li>
+                        Oncology Testing: Detects cancer-related biomarkers,
+                        aiding in early diagnosis and monitoring of cancer
+                        progression.
+                      </li>
+                      <li>
+                        Endocrine Function Testing: Measures hormonal
+                        biomarkers, providing insights into endocrine system
+                        health and helping diagnose conditions such as thyroid
+                        disorders.
+                      </li>
+                      <li>
+                        Sepsis Detection: Quickly identifies procalcitonin and
+                        other biomarkers associated with sepsis, enabling rapid
+                        intervention in critical care settings.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  High Sensitivity: Accurately detects even low levels of
+                  biomarkers, ensuring early diagnosis and better patient
+                  outcomes.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Automated Efficiency: Reduces the need for manual labor,
+                  streamlining lab processes and minimizing the risk of human
+                  error.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Versatile Application: Supports a broad range of diagnostic
+                  tests, making it adaptable to various medical fields,
+                  including prenatal care.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Scalable: Capable of handling both small and large sample
+                  volumes, making it suitable for labs with varying testing
+                  demands.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Cost-Effective: Automation and high accuracy reduce the need
+                  for repeat tests, lowering overall operational costs.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Improved Diagnostic Accuracy: High sensitivity and specificity
+                  ensure reliable results, enhancing the quality of patient
+                  care.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Faster Turnaround Times: Automated processes enable quick
+                  results, allowing for prompt clinical decision-making and
+                  treatment.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  User-Friendly Operation: The intuitive interface and automated
+                  features make the system easy to use, reducing training time
+                  and operational complexity.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Increased Productivity: With automated workflows and fast
+                  processing speeds, labs can handle more samples in less time,
+                  boosting productivity.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Long-Term Reliability: Built for durability, the BRAHMS
+                  Biomarkers system requires minimal maintenance, ensuring
+                  consistent performance and uptime.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Routine Calibration: Regular calibration ensures that the
+                  system maintains its accuracy and reliability over time.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Automated Maintenance Alerts: The system provides alerts for
+                  scheduled maintenance, ensuring timely upkeep without
+                  disrupting workflows.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Easy Access for Servicing: Designed for easy access to
+                  internal components, making routine maintenance and repairs
+                  quick and efficient.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Minimal Downtime: Engineered for durability and longevity, the
+                  BRAHMS Biomarkers system ensures continuous operation with
+                  minimal interruptions.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Comprehensive Support: Supported by CPC Diagnostics' dedicated
+                  technical team, ensuring that your system operates at peak
+                  performance throughout its lifespan.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         workServices: "Comprehensive technical support provided.",
         productBrochure: "path/to/plexmat-8-brochure.pdf",
         detailedSpecification: "Detailed specs available on request.",
@@ -1433,93 +2263,132 @@ const products = [
         ],
         section: "clia",
         title: "Iflash 1200",
-        shortdescription: "The IFLASH 1200 is a state-of-the-art Chemiluminescence Immunoassay (CLIA) analyzer that provides high sensitivity and specificity in immunoassay testing. This fully automated system simplifies complex diagnostic procedures, offering a user-friendly interface and robust performance to meet the demands of modern laboratories.",
+        shortdescription:
+          "The IFLASH 1200 is a state-of-the-art Chemiluminescence Immunoassay (CLIA) analyzer that provides high sensitivity and specificity in immunoassay testing. This fully automated system simplifies complex diagnostic procedures, offering a user-friendly interface and robust performance to meet the demands of modern laboratories.",
         description:
           "The IFLASH 1200 is a fully automated immunoassay analyzer designed to deliver high precision and efficiency for clinical diagnostics. Leveraging advanced Chemiluminescence Immunoassay (CLIA) technology, this analyzer ensures accurate and reliable test results. Ideal for high-throughput laboratories, the IFLASH 1200 enhances workflow efficiency and diagnostic accuracy.",
-          workPrinciple: (
-            <div>
-              {/* Working Principle Table */}
-              <table className="min-w-full table-auto">
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>How It Works:</strong> The IFLASH 1200 operates on the Chemiluminescence Immunoassay (CLIA) principle. It uses chemiluminescent reactions to detect the presence of specific antigens or antibodies in a sample. When a sample is introduced, it interacts with labeled antibodies, producing a light-emitting reaction. The emitted light is measured by a photomultiplier tube, providing precise quantification of the analyte concentration.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>For Whom It Is Useful:</strong> The IFLASH 1200 is perfect for clinical laboratories, hospitals, and diagnostic centers requiring high-throughput testing. It is especially beneficial for endocrinologists, immunologists, and healthcare professionals who need accurate and timely immunoassay results for diagnosing and managing patient conditions.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Use Cases:</strong> 
-                      <ul className="list-disc pl-5">
-                        <li>Thyroid function testing</li>
-                        <li>Hormone level assessment</li>
-                        <li>Infectious disease screening</li>
-                        <li>Tumor marker analysis</li>
-                        <li>Allergy testing</li>
-                        <li>Therapeutic drug monitoring</li>
-                      </ul>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          ),
-          
-          advantages: (
-            <div>
-              {/* Advantages List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">High throughput and rapid test processing</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Exceptional sensitivity and specificity</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Intuitive interface with easy-to-use software</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Comprehensive test menu covering diverse assays</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          benefits: (
-            <div>
-              {/* Benefits List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Increased laboratory productivity and efficiency</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Consistent and reliable results</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Reduced manual intervention and hands-on time</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Enhanced diagnostic precision and patient care</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          mainAndCare: (
-            <div>
-              {/* Maintenance and Care List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 ">The IFLASH 1200 is designed for ease of maintenance with automated calibration and quality control features. Regular cleaning and periodic calibration checks are recommended to maintain optimal performance. The analyzer’s robust construction and high-quality components ensure long-term reliability and minimal maintenance costs. Adhering to the manufacturer’s maintenance guidelines will ensure the device operates efficiently and effectively over its lifespan.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
+        workPrinciple: (
+          <div>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>How It Works:</strong> The IFLASH 1200 operates on
+                    the Chemiluminescence Immunoassay (CLIA) principle. It uses
+                    chemiluminescent reactions to detect the presence of
+                    specific antigens or antibodies in a sample. When a sample
+                    is introduced, it interacts with labeled antibodies,
+                    producing a light-emitting reaction. The emitted light is
+                    measured by a photomultiplier tube, providing precise
+                    quantification of the analyte concentration.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful:</strong> The IFLASH 1200 is
+                    perfect for clinical laboratories, hospitals, and diagnostic
+                    centers requiring high-throughput testing. It is especially
+                    beneficial for endocrinologists, immunologists, and
+                    healthcare professionals who need accurate and timely
+                    immunoassay results for diagnosing and managing patient
+                    conditions.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>Thyroid function testing</li>
+                      <li>Hormone level assessment</li>
+                      <li>Infectious disease screening</li>
+                      <li>Tumor marker analysis</li>
+                      <li>Allergy testing</li>
+                      <li>Therapeutic drug monitoring</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            {/* Advantages List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  High throughput and rapid test processing
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Exceptional sensitivity and specificity
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Intuitive interface with easy-to-use software
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Comprehensive test menu covering diverse assays
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            {/* Benefits List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Increased laboratory productivity and efficiency
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Consistent and reliable results
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Reduced manual intervention and hands-on time
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Enhanced diagnostic precision and patient care
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            {/* Maintenance and Care List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  The IFLASH 1200 is designed for ease of maintenance with
+                  automated calibration and quality control features. Regular
+                  cleaning and periodic calibration checks are recommended to
+                  maintain optimal performance. The analyzer’s robust
+                  construction and high-quality components ensure long-term
+                  reliability and minimal maintenance costs. Adhering to the
+                  manufacturer’s maintenance guidelines will ensure the device
+                  operates efficiently and effectively over its lifespan.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices:
           "Available technical support for system setup and maintenance.",
         productBrochure: "path/to/iflash-1200-brochure.pdf",
@@ -1537,112 +2406,172 @@ const products = [
         ],
         section: "clia",
         title: "Iflash 1800",
-        shortdescription: "Description: The iFlash 1800 is a high-performance fully automated immunoassay analyzer that leverages chemiluminescence technology to provide accurate and reliable diagnostic results. This CLIA analyser is designed for laboratories seeking efficiency, precision, and high throughput.",
+        shortdescription:
+          "Description: The iFlash 1800 is a high-performance fully automated immunoassay analyzer that leverages chemiluminescence technology to provide accurate and reliable diagnostic results. This CLIA analyser is designed for laboratories seeking efficiency, precision, and high throughput.",
         description:
           "The iFlash 1800 is a fully automated immunoassay analyzer designed to meet the demands of modern laboratories. With advanced chemiluminescence technology, it delivers precise and reliable results for a wide range of tests. Ideal for high-throughput environments, this CLIA analyser offers user-friendly operation and robust data management capabilities.",
-          workPrinciple: (
-            <div>
-              {/* Working Principle Table */}
-              <table className="min-w-full table-auto">
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong className="text-nowrap">Working Principle:</strong> The iFlash 1800 uses chemiluminescence immunoassay (CLIA) technology to detect and quantify various analytes in biological samples. The process involves a chemiluminescent reaction that emits light proportional to the concentration of the target analyte, which is then measured by the analyzer.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong className="text-nowrap">How It Works:</strong>
-                      <ul className="list-disc pl-5">
-                        <li><strong>Sample Preparation:</strong> Samples are loaded into the analyzer.</li>
-                        <li><strong>Reaction:</strong> The analyzer mixes the samples with specific reagents to trigger a chemiluminescent reaction.</li>
-                        <li><strong>Detection:</strong> Light emitted from the reaction is measured, and the intensity correlates with the concentration of the target analyte.</li>
-                        <li><strong>Results:</strong> Data is processed and displayed on the touchscreen interface, and results can be integrated into LIS systems for further analysis.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong className="text-nowrap">For Whom It Is Useful:</strong> The iFlash 1800 is ideal for clinical laboratories, hospitals, diagnostic centers, and research institutions requiring high-throughput and precise immunoassay testing.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong className="text-nowrap">Use Cases:</strong>
-                      <ul className="list-disc pl-5">
-                        <li>Thyroid function testing</li>
-                        <li>Hormone level measurement</li>
-                        <li>Infectious disease detection</li>
-                        <li>Tumor marker analysis</li>
-                        <li>Allergy testing</li>
-                      </ul>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          ),
-          
-          advantages: (
-            <div>
-              {/* Advantages List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">High throughput capability ensures efficient processing of large sample volumes.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Chemiluminescence technology provides high sensitivity and specificity.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">User-friendly interface simplifies operation and reduces training time.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Comprehensive test menu supports a wide range of diagnostic applications.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          benefits: (
-            <div>
-              {/* Benefits List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Enhanced laboratory productivity with rapid and reliable test results.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Improved diagnostic accuracy and confidence in patient care.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Streamlined workflows and integration with existing lab systems.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Reduced operational costs with efficient and automated processes.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          mainAndCare: (
-            <div>
-              {/* Maintenance and Care List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800">Routine calibration and quality control checks.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800">Cleaning and inspection of reagent and sample handling components.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800">Software updates and troubleshooting as needed.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800">Scheduled servicing by authorized technicians to maintain peak performance.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
+        workPrinciple: (
+          <div>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Working Principle:</strong>{" "}
+                    The iFlash 1800 uses chemiluminescence immunoassay (CLIA)
+                    technology to detect and quantify various analytes in
+                    biological samples. The process involves a chemiluminescent
+                    reaction that emits light proportional to the concentration
+                    of the target analyte, which is then measured by the
+                    analyzer.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">How It Works:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        <strong>Sample Preparation:</strong> Samples are loaded
+                        into the analyzer.
+                      </li>
+                      <li>
+                        <strong>Reaction:</strong> The analyzer mixes the
+                        samples with specific reagents to trigger a
+                        chemiluminescent reaction.
+                      </li>
+                      <li>
+                        <strong>Detection:</strong> Light emitted from the
+                        reaction is measured, and the intensity correlates with
+                        the concentration of the target analyte.
+                      </li>
+                      <li>
+                        <strong>Results:</strong> Data is processed and
+                        displayed on the touchscreen interface, and results can
+                        be integrated into LIS systems for further analysis.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">
+                      For Whom It Is Useful:
+                    </strong>{" "}
+                    The iFlash 1800 is ideal for clinical laboratories,
+                    hospitals, diagnostic centers, and research institutions
+                    requiring high-throughput and precise immunoassay testing.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>Thyroid function testing</li>
+                      <li>Hormone level measurement</li>
+                      <li>Infectious disease detection</li>
+                      <li>Tumor marker analysis</li>
+                      <li>Allergy testing</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            {/* Advantages List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  High throughput capability ensures efficient processing of
+                  large sample volumes.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Chemiluminescence technology provides high sensitivity and
+                  specificity.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  User-friendly interface simplifies operation and reduces
+                  training time.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Comprehensive test menu supports a wide range of diagnostic
+                  applications.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            {/* Benefits List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Enhanced laboratory productivity with rapid and reliable test
+                  results.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Improved diagnostic accuracy and confidence in patient care.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Streamlined workflows and integration with existing lab
+                  systems.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Reduced operational costs with efficient and automated
+                  processes.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            {/* Maintenance and Care List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Routine calibration and quality control checks.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Cleaning and inspection of reagent and sample handling
+                  components.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Software updates and troubleshooting as needed.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Scheduled servicing by authorized technicians to maintain peak
+                  performance.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices:
           "Technical support available for troubleshooting and service.",
         productBrochure: "path/to/iflash-1800-brochure.pdf",
@@ -1656,104 +2585,187 @@ const products = [
         image: [Iflash30001, Iflash30002, Iflash30003, Iflash30004],
         title: "Iflash 3000",
         section: "clia",
-        shortdescription: "The iFlash 3000 is a state-of-the-art fully automated immunoassay analyzer designed to meet the demands of modern diagnostic laboratories. Leveraging chemiluminescence technology, this CLIA analyser delivers precise and timely results for various assays, making it an essential tool for clinical diagnostics. Its robust construction and advanced automation features ensure that labs can manage high volumes of tests without compromising on accuracy or speed.",
+        shortdescription:
+          "The iFlash 3000 is a state-of-the-art fully automated immunoassay analyzer designed to meet the demands of modern diagnostic laboratories. Leveraging chemiluminescence technology, this CLIA analyser delivers precise and timely results for various assays, making it an essential tool for clinical diagnostics. Its robust construction and advanced automation features ensure that labs can manage high volumes of tests without compromising on accuracy or speed.",
         description:
           "The iFlash 3000 is a fully automated immunoassay analyzer designed for high-throughput laboratories seeking precision and efficiency in diagnostic testing. Utilizing advanced chemiluminescence technology, this CLIA analyser offers reliable and rapid results for a wide range of assays, including thyroid function tests. With its robust design, the iFlash 3000 is an ideal choice for labs that require consistent performance and ease of use.",
-          workPrinciple: (
-            <div>
-              {/* Working Principle Table */}
-              <table className="min-w-full table-auto">
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong className="text-nowrap">Working Principle:</strong> The iFlash 3000 operates on the principle of chemiluminescence, where light is emitted as a result of a chemical reaction. In the context of immunoassays, this reaction occurs when a target analyte in the sample binds to specific antibodies coated on magnetic beads. These beads are then separated and washed, and a chemiluminescent substrate is added. The light emitted during this reaction is measured, and the intensity is proportional to the concentration of the analyte, providing highly accurate results. The entire process is automated, from sample loading to result generation, ensuring consistent and reliable performance.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong className="text-nowrap">For Whom It Is Useful:</strong> The iFlash 3000 is ideal for clinical laboratories, hospital labs, and diagnostic centers that require high-throughput testing capabilities. It is particularly useful for facilities that need to perform a wide range of immunoassays, including thyroid function tests, tumor marker detection, and infectious disease screening. Its automation and efficiency make it a valuable asset for labs that need to manage large volumes of samples with minimal manual intervention.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong className="text-nowrap">Use Cases:</strong>
-                      <ul className="list-disc pl-5">
-                        <li>Thyroid Function Testing: The iFlash 3000 excels in performing thyroid assays, providing accurate and rapid results for TSH, T3, and T4 levels.</li>
-                        <li>Tumor Marker Detection: Detects and quantifies various tumor markers, aiding in the diagnosis and monitoring of cancer.</li>
-                        <li>Infectious Disease Screening: Efficiently screens for infectious diseases, offering reliable results for HIV, hepatitis, and other pathogens.</li>
-                        <li>Hormonal Assays: Performs a wide range of hormonal tests, including reproductive hormones and cortisol levels.</li>
-                        <li>Cardiac Marker Testing: Provides precise measurements of cardiac markers, essential for assessing heart health.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          ),
-          
-          advantages: (
-            <div>
-              {/* Advantages List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">High Efficiency: Processes large sample volumes quickly, making it suitable for busy labs.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Accuracy and Reliability: Ensures consistent results with advanced chemiluminescence technology.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Broad Assay Range: Supports a wide variety of diagnostic tests, catering to diverse clinical needs.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Ease of Use: Features an intuitive interface and automated processes, reducing the need for specialized training.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Scalable: Can be integrated into larger laboratory workflows, making it adaptable to growing testing demands.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          benefits: (
-            <div>
-              {/* Benefits List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Reduced Turnaround Time: Rapid processing speeds lead to quicker results, enhancing patient care.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Improved Lab Productivity: Automation reduces manual tasks, allowing lab staff to focus on critical analyses.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Cost-Effective: Efficient resource usage and low maintenance requirements result in overall cost savings.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Enhanced Patient Outcomes: Accurate and timely results contribute to better diagnosis and treatment plans.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          mainAndCare: (
-            <div>
-              {/* Maintenance and Care List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Routine Calibration: Regular calibration ensures the analyzer maintains its accuracy and reliability.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Automated Maintenance Alerts: The system provides alerts for scheduled maintenance, ensuring timely upkeep.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Easy Access for Servicing: Designed for easy access, allowing for quick and hassle-free servicing.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Minimal Downtime: Robust design and reliable performance minimize the need for frequent repairs, ensuring continuous operation.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
+        workPrinciple: (
+          <div>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Working Principle:</strong>{" "}
+                    The iFlash 3000 operates on the principle of
+                    chemiluminescence, where light is emitted as a result of a
+                    chemical reaction. In the context of immunoassays, this
+                    reaction occurs when a target analyte in the sample binds to
+                    specific antibodies coated on magnetic beads. These beads
+                    are then separated and washed, and a chemiluminescent
+                    substrate is added. The light emitted during this reaction
+                    is measured, and the intensity is proportional to the
+                    concentration of the analyte, providing highly accurate
+                    results. The entire process is automated, from sample
+                    loading to result generation, ensuring consistent and
+                    reliable performance.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">
+                      For Whom It Is Useful:
+                    </strong>{" "}
+                    The iFlash 3000 is ideal for clinical laboratories, hospital
+                    labs, and diagnostic centers that require high-throughput
+                    testing capabilities. It is particularly useful for
+                    facilities that need to perform a wide range of
+                    immunoassays, including thyroid function tests, tumor marker
+                    detection, and infectious disease screening. Its automation
+                    and efficiency make it a valuable asset for labs that need
+                    to manage large volumes of samples with minimal manual
+                    intervention.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        Thyroid Function Testing: The iFlash 3000 excels in
+                        performing thyroid assays, providing accurate and rapid
+                        results for TSH, T3, and T4 levels.
+                      </li>
+                      <li>
+                        Tumor Marker Detection: Detects and quantifies various
+                        tumor markers, aiding in the diagnosis and monitoring of
+                        cancer.
+                      </li>
+                      <li>
+                        Infectious Disease Screening: Efficiently screens for
+                        infectious diseases, offering reliable results for HIV,
+                        hepatitis, and other pathogens.
+                      </li>
+                      <li>
+                        Hormonal Assays: Performs a wide range of hormonal
+                        tests, including reproductive hormones and cortisol
+                        levels.
+                      </li>
+                      <li>
+                        Cardiac Marker Testing: Provides precise measurements of
+                        cardiac markers, essential for assessing heart health.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            {/* Advantages List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  High Efficiency: Processes large sample volumes quickly,
+                  making it suitable for busy labs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Accuracy and Reliability: Ensures consistent results with
+                  advanced chemiluminescence technology.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Broad Assay Range: Supports a wide variety of diagnostic
+                  tests, catering to diverse clinical needs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Ease of Use: Features an intuitive interface and automated
+                  processes, reducing the need for specialized training.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Scalable: Can be integrated into larger laboratory workflows,
+                  making it adaptable to growing testing demands.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            {/* Benefits List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Reduced Turnaround Time: Rapid processing speeds lead to
+                  quicker results, enhancing patient care.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Improved Lab Productivity: Automation reduces manual tasks,
+                  allowing lab staff to focus on critical analyses.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Cost-Effective: Efficient resource usage and low maintenance
+                  requirements result in overall cost savings.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Enhanced Patient Outcomes: Accurate and timely results
+                  contribute to better diagnosis and treatment plans.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            {/* Maintenance and Care List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Routine Calibration: Regular calibration ensures the analyzer
+                  maintains its accuracy and reliability.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Automated Maintenance Alerts: The system provides alerts for
+                  scheduled maintenance, ensuring timely upkeep.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Easy Access for Servicing: Designed for easy access, allowing
+                  for quick and hassle-free servicing.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Minimal Downtime: Robust design and reliable performance
+                  minimize the need for frequent repairs, ensuring continuous
+                  operation.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices:
           "Technical support available for installation and troubleshooting.",
         productBrochure: "path/to/iflash-3000-brochure.pdf",
@@ -1766,110 +2778,199 @@ const products = [
         image: [Kryptor],
         section: "trace",
         title: "Kryptor Compact Plus",
-        shortdescription: "The KRYPTOR Compact Plus is a highly sophisticated prenatal screening equipment engineered to provide accurate and reliable biomarker detection for prenatal and infectious disease diagnostics. This procalcitonin test machine is designed to meet the demands of high-throughput laboratories, offering rapid results with minimal manual intervention. The system is compact yet powerful, integrating advanced technologies that ensure consistent performance and ease of use in clinical settings.",
+        shortdescription:
+          "The KRYPTOR Compact Plus is a highly sophisticated prenatal screening equipment engineered to provide accurate and reliable biomarker detection for prenatal and infectious disease diagnostics. This procalcitonin test machine is designed to meet the demands of high-throughput laboratories, offering rapid results with minimal manual intervention. The system is compact yet powerful, integrating advanced technologies that ensure consistent performance and ease of use in clinical settings.",
         description:
           "The KRYPTOR Compact Plus is a cutting-edge prenatal screening instrument designed for precision and reliability in detecting biomarkers associated with prenatal and infectious diseases. This highly efficient procalcitonin test machine offers rapid and accurate results, making it an essential tool for modern diagnostic laboratories. With its compact design and advanced technology, the KRYPTOR Compact Plus ensures seamless integration into any lab environment.",
-          workPrinciple: (
-            <div>
-              {/* Working Principle Table */}
-              <table className="min-w-full table-auto">
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong className="text-nowrap">Working Principle:</strong> The KRYPTOR Compact Plus operates using TRACE (Time Resolved Amplified Cryptate Emission) technology, a highly sensitive method for detecting biomarkers in biological samples. This technology utilizes the unique properties of europium cryptate and XL665, which emit fluorescence when bound to specific biomarkers. The intensity of the fluorescence is measured and is directly proportional to the concentration of the target biomarker, such as procalcitonin. The system is fully automated, from sample preparation to result generation, ensuring high accuracy and reproducibility.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong className="text-nowrap">For Whom It Is Useful:</strong> The KRYPTOR Compact Plus is ideal for clinical laboratories, hospital labs, and specialized diagnostic centers that require reliable and efficient biomarker testing. It is particularly useful for facilities focusing on prenatal screening, where early detection of conditions like Down syndrome is crucial, and for those conducting procalcitonin tests to monitor bacterial infections.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong className="text-nowrap">Use Cases:</strong>
-                      <ul className="list-disc pl-5">
-                        <li>Prenatal Screening: Accurately detects biomarkers associated with chromosomal abnormalities, aiding in early diagnosis and intervention.</li>
-                        <li>Infectious Disease Monitoring: Performs reliable procalcitonin tests to assess the severity of bacterial infections and guide antibiotic therapy.</li>
-                        <li>Biomarker Research: Supports advanced research by providing accurate detection of a wide range of biomarkers, including those involved in inflammatory and oncological conditions.</li>
-                        <li>Endocrine Testing: Efficiently measures hormone levels, including thyroid and reproductive hormones, providing crucial information for patient management.</li>
-                        <li>Sepsis Detection: Provides rapid detection of procalcitonin, a key biomarker in identifying sepsis, allowing for timely treatment decisions.</li>
-                      </ul>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          ),
-          
-          advantages: (
-            <div>
-              {/* Advantages List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">High Throughput: Capable of processing multiple samples simultaneously, making it suitable for high-demand environments.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Precision and Reliability: Ensures consistent, high-quality results with advanced TRACE technology.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Compact and Efficient: Designed to fit seamlessly into any lab setup, optimizing space without compromising functionality.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Minimal Maintenance: Engineered for durability, requiring minimal maintenance to maintain peak performance.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Enhanced Patient Outcomes: Delivers fast, accurate results that contribute to better patient care and treatment outcomes.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          benefits: (
-            <div>
-              {/* Benefits List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Improved Diagnostic Accuracy: High sensitivity and specificity lead to more accurate diagnoses and better clinical decisions.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Time Efficiency: Rapid turnaround times enable quicker diagnosis and treatment, improving patient care.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Cost-Effective Operation: Low maintenance requirements and efficient operation reduce overall laboratory costs.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">User-Friendly Design: Simplifies operation with an intuitive interface, reducing the need for extensive training.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Scalable: Easily integrates into existing lab workflows, allowing for scalability as testing demands grow.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          mainAndCare: (
-            <div>
-              {/* Maintenance and Care List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Routine Calibration: Regular calibration is recommended to maintain the accuracy and reliability of the analyzer.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Automated Maintenance Alerts: The system provides automated alerts for maintenance tasks, ensuring timely servicing.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">User Manuals and Support: Detailed user manuals and access to technical support ensure that maintenance procedures are followed correctly.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Easy Access for Repairs: Designed for easy access to components, allowing for quick and efficient repairs when necessary.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Longevity: Built with durable materials and components, ensuring long-term use with minimal downtime.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
+        workPrinciple: (
+          <div>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Working Principle:</strong>{" "}
+                    The KRYPTOR Compact Plus operates using TRACE (Time Resolved
+                    Amplified Cryptate Emission) technology, a highly sensitive
+                    method for detecting biomarkers in biological samples. This
+                    technology utilizes the unique properties of europium
+                    cryptate and XL665, which emit fluorescence when bound to
+                    specific biomarkers. The intensity of the fluorescence is
+                    measured and is directly proportional to the concentration
+                    of the target biomarker, such as procalcitonin. The system
+                    is fully automated, from sample preparation to result
+                    generation, ensuring high accuracy and reproducibility.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">
+                      For Whom It Is Useful:
+                    </strong>{" "}
+                    The KRYPTOR Compact Plus is ideal for clinical laboratories,
+                    hospital labs, and specialized diagnostic centers that
+                    require reliable and efficient biomarker testing. It is
+                    particularly useful for facilities focusing on prenatal
+                    screening, where early detection of conditions like Down
+                    syndrome is crucial, and for those conducting procalcitonin
+                    tests to monitor bacterial infections.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        Prenatal Screening: Accurately detects biomarkers
+                        associated with chromosomal abnormalities, aiding in
+                        early diagnosis and intervention.
+                      </li>
+                      <li>
+                        Infectious Disease Monitoring: Performs reliable
+                        procalcitonin tests to assess the severity of bacterial
+                        infections and guide antibiotic therapy.
+                      </li>
+                      <li>
+                        Biomarker Research: Supports advanced research by
+                        providing accurate detection of a wide range of
+                        biomarkers, including those involved in inflammatory and
+                        oncological conditions.
+                      </li>
+                      <li>
+                        Endocrine Testing: Efficiently measures hormone levels,
+                        including thyroid and reproductive hormones, providing
+                        crucial information for patient management.
+                      </li>
+                      <li>
+                        Sepsis Detection: Provides rapid detection of
+                        procalcitonin, a key biomarker in identifying sepsis,
+                        allowing for timely treatment decisions.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            {/* Advantages List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  High Throughput: Capable of processing multiple samples
+                  simultaneously, making it suitable for high-demand
+                  environments.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Precision and Reliability: Ensures consistent, high-quality
+                  results with advanced TRACE technology.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Compact and Efficient: Designed to fit seamlessly into any lab
+                  setup, optimizing space without compromising functionality.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Minimal Maintenance: Engineered for durability, requiring
+                  minimal maintenance to maintain peak performance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Enhanced Patient Outcomes: Delivers fast, accurate results
+                  that contribute to better patient care and treatment outcomes.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            {/* Benefits List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Improved Diagnostic Accuracy: High sensitivity and specificity
+                  lead to more accurate diagnoses and better clinical decisions.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Time Efficiency: Rapid turnaround times enable quicker
+                  diagnosis and treatment, improving patient care.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Cost-Effective Operation: Low maintenance requirements and
+                  efficient operation reduce overall laboratory costs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  User-Friendly Design: Simplifies operation with an intuitive
+                  interface, reducing the need for extensive training.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Scalable: Easily integrates into existing lab workflows,
+                  allowing for scalability as testing demands grow.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            {/* Maintenance and Care List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Routine Calibration: Regular calibration is recommended to
+                  maintain the accuracy and reliability of the analyzer.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Automated Maintenance Alerts: The system provides automated
+                  alerts for maintenance tasks, ensuring timely servicing.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  User Manuals and Support: Detailed user manuals and access to
+                  technical support ensure that maintenance procedures are
+                  followed correctly.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Easy Access for Repairs: Designed for easy access to
+                  components, allowing for quick and efficient repairs when
+                  necessary.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Longevity: Built with durable materials and components,
+                  ensuring long-term use with minimal downtime.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices:
           "Technical support available for installation and service.",
         productBrochure: "path/to/kryptor-compact-plus-brochure.pdf",
@@ -1882,17 +2983,169 @@ const products = [
         image: [Euroimmun],
         title: "Euroimmun Analyzer I-2P",
         section: "elisa",
-        shortdescription: "Everlife Euroimmun Analyzer I-2P",
+        shortdescription:
+          "The Euroimmun Analyzer I-2P is a cutting-edge, fully automated ELISA analyzer tailored for laboratories requiring high-efficiency and reliable immunoassay processing. Designed to enhance laboratory performance, this analyzer ensures accurate and reproducible results with minimal hands-on time, allowing lab professionals to focus on critical analysis.",
         description:
-          "The Euroimmun Analyzer I-2P offers comprehensive immunoassay automation, enhancing laboratory efficiency and accuracy.",
-        workPrinciple:
-          "Automated system for performing a wide range of immunoassays.",
-        advantages:
-          "Increases laboratory efficiency with comprehensive automation.",
-        benefits:
-          "Ideal for improving accuracy and throughput in immunoassay testing.",
-        mainAndCare:
-          "Regular maintenance and calibration needed; follow operational guidelines.",
+          "The Euroimmun Analyzer I-2P is a fully automated immunoassay analyzer designed to streamline your laboratory’s workflow with precision and efficiency. This state-of-the-art ELISA analyzer supports high-throughput processing, delivering reliable results while minimizing manual intervention.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Working Principle:</strong>{" "}
+                    The Euroimmun Analyzer I-2P fully automates the
+                    Enzyme-Linked Immunosorbent Assay (ELISA) process. It
+                    manages sample dilution, incubation, washing, and detection,
+                    ensuring accurate and consistent data output. Its advanced
+                    software allows customizable protocols for various test kits
+                    and methods.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">
+                      For Whom It Is Useful:
+                    </strong>{" "}
+                    Ideal for clinical labs handling high-volume diagnostics,
+                    research labs requiring precision, and biotech companies
+                    focusing on product testing and quality assurance.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        Clinical Diagnostics: Testing for infectious diseases,
+                        autoimmune disorders, and allergies.
+                      </li>
+                      <li>
+                        Research Applications: Monitoring and analyzing
+                        biomarkers in research studies.
+                      </li>
+                      <li>
+                        Quality Control: Maintaining consistent product quality
+                        in pharmaceutical and biotech industries.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Efficiency: Automates ELISA processing, reducing manual labor
+                  and freeing lab personnel for critical tasks.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Consistency: Minimizes human error, ensuring accurate and
+                  reproducible results.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Flexibility: Compatible with a wide range of ELISA kits and
+                  customizable protocols.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Scalability: Designed to handle high sample volumes for large
+                  laboratories.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Cost-Effective: Reduces the need for additional equipment and
+                  labor, lowering operational expenses.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Increased Efficiency: Streamlines operations and improves
+                  productivity.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Improved Accuracy: Delivers reliable results through automated
+                  precision.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Versatility: Suitable for diverse diagnostic and research
+                  applications.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Cost-Effective: Reduces costs by optimizing resources and
+                  minimizing errors.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Enhanced Productivity: Accelerates processing for timely
+                  results.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Routine Calibration: Essential for maintaining accuracy and
+                  performance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Automated Maintenance Alerts: Timely notifications for
+                  scheduled maintenance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  User Support: Comprehensive manuals and dedicated support for
+                  troubleshooting.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Easy Maintenance: Designed for quick component access and
+                  repairs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Durability: Built with high-quality materials for long-lasting
+                  performance.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         workServices:
           "Technical support available for system setup and troubleshooting.",
         productBrochure: "path/to/euroimmun-analyzer-i-2p-brochure.pdf",
@@ -1902,19 +3155,186 @@ const products = [
       {
         id: "10",
         image: [Euroblotone],
-        title: "Euroblotone",
+        title: "Euroblot One",
         section: "immunoblot",
-        shortdescription: "Euroblotone",
+        shortdescription:
+          "The Euroblot One is an advanced immunoblot processor designed for the fully automated processing of immunoblots. This innovative system brings accuracy and consistency to diagnostic laboratories by automating the complex steps of immunoblot testing. The Euroblot One ensures that your lab can deliver reliable results with minimal manual intervention, freeing up time for technicians to focus on other critical tasks. Its streamlined design and intuitive operation make it an essential tool for any lab conducting immunoblot assays.",
         description:
-          "Euroblotone is a fully automated system for immunoblot processing, providing high-quality results with minimal manual intervention.",
-        workPrinciple:
-          "Automated processing for immunoblot assays ensuring high-quality results.",
-        advantages:
-          "Reduces manual intervention while ensuring consistent results.",
-        benefits:
-          "Ideal for labs needing reliable and efficient immunoblot processing.",
-        mainAndCare:
-          "Follow manufacturer's maintenance instructions for optimal performance.",
+          "The Euroblot One is an advanced immunoblot processor designed to fully automate the processing of immunoblots. This system ensures high precision and reliability, streamlining laboratory workflows with ease. Ideal for laboratories seeking efficiency, the Euroblot One test machine offers intuitive operation, consistent results, and robust performance.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle:</strong> The Euroblot One
+                    automates the immunoblotting process, detecting specific
+                    proteins in a sample. The system handles the entire process,
+                    from sample incubation to washing and signal detection.
+                    After applying the sample, it automates the incubation and
+                    washing steps, ensuring uniformity. Results are detected
+                    through chemiluminescent or colorimetric methods, depending
+                    on the assay, and analyzed automatically. This automation
+                    minimizes human error and ensures consistent results every
+                    time.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful:</strong> The Euroblot One is
+                    ideal for clinical diagnostic laboratories, research
+                    facilities, and specialized testing centers that require
+                    automated immunoblot processing. This system is particularly
+                    beneficial for labs performing high volumes of immunoblot
+                    assays, where accuracy and efficiency are critical for
+                    delivering timely results.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        Autoimmune Disease Diagnostics: Automates the detection
+                        of autoimmune markers, offering accurate and reliable
+                        results.
+                      </li>
+                      <li>
+                        Infectious Disease Testing: Processes immunoblot assays
+                        for detecting infectious agents, enabling faster and
+                        more accurate diagnosis.
+                      </li>
+                      <li>
+                        Allergy Testing: Facilitates rapid and precise analysis
+                        of allergen-specific antibodies.
+                      </li>
+                      <li>
+                        Oncology Diagnostics: Plays a critical role in detecting
+                        cancer-related biomarkers, assisting in diagnosis and
+                        treatment planning.
+                      </li>
+                      <li>
+                        Research Applications: Ideal for research labs studying
+                        protein detection and analysis.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Enhanced Workflow Efficiency: Full automation reduces manual
+                  labor and speeds up testing.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Precision and Accuracy: Consistent results are ensured through
+                  automated processes, minimizing human error.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Versatile Assay Compatibility: Supports a broad range of
+                  immunoblot assays, adaptable to various diagnostic needs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Space-Saving Design: Compact design fits easily into labs with
+                  limited space.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Scalability: Handles varying sample volumes, making it
+                  suitable for both small and large labs.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Improved Productivity: Automation processes more tests in less
+                  time, boosting productivity.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Cost-Effective Operation: Reduces manual intervention, cutting
+                  labor costs and errors.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  User-Friendly Interface: Simplified software and interface
+                  reduce the need for extensive training.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Accurate and Reliable Results: Delivers consistent,
+                  high-quality results for confidence in diagnostics.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Versatile Applications: Compatible with a wide range of
+                  assays, making it ideal for diagnostic and research labs.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Automated Maintenance Alerts: Provides alerts for routine
+                  maintenance, ensuring the system remains in optimal condition.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Easy Access for Servicing: Simple access to internal
+                  components, making maintenance and servicing efficient.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Low Maintenance Requirements: Built with durability,
+                  minimizing the need for frequent maintenance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Comprehensive Support: Backed by CPC Diagnostics’ expert
+                  support team to maintain peak system efficiency.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Longevity: The robust design ensures long-term, reliable
+                  performance.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         workServices:
           "Available technical support for installation and troubleshooting.",
         productBrochure: "path/to/euroblotone-brochure.pdf",
@@ -1927,16 +3347,182 @@ const products = [
         image: [IfSprinter],
         title: "If Sprinter",
         section: "ifa",
-        shortdescription: "If Sprinter",
+        shortdescription:
+          "The IF Sprinter is a sophisticated IFA Processor (ImmunoFluorescence Assay) developed to bring efficiency and accuracy to diagnostic laboratories. This fully automated IFA processor eliminates manual handling errors and speeds up the immunofluorescence process, allowing labs to focus on delivering timely results. The IF Sprinter’s automation capabilities are also extended to ELISA assays, making it a versatile instrument for any lab handling immunological testing.",
         description:
-          "The If Sprinter is designed for fully automated immunofluorescence assays, ensuring consistent and accurate diagnostic outcomes.",
-        workPrinciple:
-          "Automated system for immunofluorescence assays providing accurate results.",
-        advantages: "Consistent results with minimal manual intervention.",
-        benefits:
-          "Ideal for accurate and efficient immunofluorescence testing.",
-        mainAndCare:
-          "Regular maintenance required; follow operational guidelines.",
+          "The IF Sprinter is an advanced IFA Processor (ImmunoFluorescence Assay) designed to streamline and automate the immunofluorescence assay process. With high throughput and precision, this fully automated IFA processor enhances lab productivity while delivering consistent and accurate results. Ideal for busy diagnostic labs, the IF Sprinter provides reliable automation for both IFA and ELISA assays.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Working Principle:</strong>{" "}
+                    The IF Sprinter automates the entire ImmunoFluorescence
+                    Assay (IFA) process, from sample preparation to result
+                    generation. It uses fluorescent-labeled antibodies to detect
+                    specific antigens in patient samples. After the
+                    antigen-antibody reaction, the processor washes away unbound
+                    antibodies and measures the emitted fluorescence, which is
+                    proportional to the amount of antigen in the sample. This
+                    automation ensures precision, reproducibility, and reduces
+                    hands-on time for lab technicians. The IF Sprinter can also
+                    handle ELISA tests, expanding its versatility.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">
+                      For Whom It Is Useful:
+                    </strong>{" "}
+                    Ideal for clinical diagnostic labs, research facilities, and
+                    hospitals performing high-throughput, automated immunoassay
+                    processing, especially those focusing on IFA and ELISA
+                    tests.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        Autoimmune Disease Diagnostics: Automates detection of
+                        autoimmune markers for quicker diagnosis.
+                      </li>
+                      <li>
+                        Infectious Disease Screening: Processes IFA and ELISA
+                        tests for pathogens to aid in disease management.
+                      </li>
+                      <li>
+                        Allergy Testing: Facilitates rapid analysis of
+                        allergen-specific antibodies in patient samples.
+                      </li>
+                      <li>
+                        Endocrine Testing: Automates detection of
+                        hormone-related biomarkers for accurate assessments.
+                      </li>
+                      <li>
+                        Cancer Biomarker Detection: Critical for detecting and
+                        monitoring cancer-related biomarkers.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Enhanced Workflow Efficiency: Automates IFA and ELISA
+                  processes, reducing manual work and speeding diagnostics.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Consistent Accuracy: Reproducible results, ensuring diagnostic
+                  reliability across tests.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Flexible Application: Supports a range of assays for
+                  autoimmune, infectious diseases, and allergies.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Compact and Space-Saving: Fits in any lab setup without
+                  occupying excessive space.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Scalable: Adapts to varying lab volumes, ensuring consistent
+                  performance as demand grows.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Time-Saving Automation: Reduces manual labor, allowing
+                  technicians to focus on other tasks.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Improved Productivity: High throughput means more samples
+                  processed faster, increasing lab efficiency.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Cost-Effective Operations: Reduces human error and the need
+                  for repeat testing, cutting operational costs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  User-Friendly Design: Intuitive controls simplify operation,
+                  reducing training time for staff.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Versatility: Can process both IFA and ELISA assays, making it
+                  a multifunctional tool for diagnostic labs.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Routine Calibration: Regular calibration maintains precision
+                  and ensures reliability.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Automated Maintenance Alerts: The system notifies you when
+                  maintenance tasks are needed, minimizing downtime.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Accessible Design: Easy access to internal components for
+                  efficient maintenance and repairs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Minimal Downtime: Designed for continuous operation with
+                  minimal maintenance interruptions.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 ">
+                  Comprehensive Support: Supported by CPC Diagnostics’ dedicated
+                  technical support team to ensure optimal performance.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         workServices: "Technical support available for setup and service.",
         productBrochure: "path/to/if-sprinter-brochure.pdf",
         detailedSpecification: "Detailed specifications available on request.",
@@ -1948,17 +3534,149 @@ const products = [
         image: [EuroStar],
         section: "ifa",
         title: "Eurostar III Plus",
-        shortdescription: "Eurostar III Plus",
+        shortdescription:
+          "The EUROStar III Plus is a state-of-the-art fluorescence microscope developed for laboratories requiring high-quality imaging capabilities. Its advanced LED technology ensures bright and even illumination, crucial for producing clear and detailed fluorescence images. This microscope is designed with user convenience in mind, offering an intuitive interface and robust construction to support a wide range of laboratory applications.",
         description:
-          "The Eurostar III Plus is a state-of-the-art Fluorescence Immunoassay Analyzer, known for its precision and advanced diagnostic capabilities.",
-        workPrinciple:
-          "Uses fluorescence technology for precise immunoassay analysis.",
-        advantages:
-          "High precision and advanced capabilities for comprehensive diagnostics.",
-        benefits:
-          "Suitable for detailed and accurate fluorescence immunoassay testing.",
-        mainAndCare:
-          "Follow manufacturer guidelines for maintenance and calibration.",
+          "The EUROStar III Plus is a cutting-edge fluorescence microscope designed to deliver high-resolution imaging for advanced laboratory applications. This LED microscope provides bright, clear images with enhanced fluorescence, making it ideal for detailed analysis and diagnostics.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Working Principle:</strong>{" "}
+                    The EUROStar III Plus operates using advanced LED
+                    illumination to excite fluorophores in the sample. When the
+                    fluorophores are excited, they emit light at specific
+                    wavelengths, which is captured by the high-resolution optics
+                    of the microscope. This process enables the detailed
+                    visualization of cellular and molecular structures that are
+                    tagged with fluorescent markers. The LED light source is
+                    energy-efficient and provides consistent illumination for
+                    reliable results.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">
+                      For Whom It Is Useful:
+                    </strong>{" "}
+                    Ideal for clinical labs performing fluorescence assays,
+                    research institutions studying gene expression and protein
+                    localization, and educational institutions teaching advanced
+                    microscopy techniques.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        Immunofluorescence Assays: Visualizing antibodies in
+                        diagnostic tests.
+                      </li>
+                      <li>
+                        Cellular and Molecular Research: Studying gene
+                        expression and protein interactions.
+                      </li>
+                      <li>
+                        Pathology: Analyzing pathological changes in tissue
+                        samples.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Bright and Consistent Illumination: LED technology provides
+                  reliable and uniform lighting for enhanced clarity.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  High-Resolution Imaging: Sharp and detailed images for
+                  accurate analysis and diagnosis.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Ease of Use: User-friendly controls and ergonomic design for
+                  extended operation.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Enhanced Diagnostic Capabilities: Detailed images improve
+                  diagnostic accuracy for better patient outcomes.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Versatility: Suitable for a wide range of applications, from
+                  diagnostics to research.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Cost-Efficient: Energy-efficient LED lighting reduces
+                  operational costs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Durability: Designed for long-term use in busy lab
+                  environments, ensuring reliability.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Minimal Maintenance: Requires only regular cleaning of optics
+                  and occasional calibration.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Long-Lasting LED: The LED light source offers long operational
+                  life, reducing replacement needs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  User Support: Comprehensive technical support for
+                  troubleshooting and maintenance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Durable Build: Designed for regular use in demanding
+                  laboratory environments.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         workServices:
           "Available technical support for installation and troubleshooting.",
         productBrochure: "path/to/eurostar-iii-plus-brochure.pdf",
@@ -2012,15 +3730,203 @@ const products = [
         image: [fluoroMat],
         title: "FluoroMAT 50",
         section: "ifa",
-        shortdescription: "Fluoromat 50",
+        shortdescription:
+          "The Fluoromat 50 is an advanced western blot processor engineered to automate the complex steps of western blotting, from sample preparation to detection. This automated western blot processor is designed to deliver high-precision results across a variety of diagnostic applications, making it a valuable tool for laboratories conducting ANA test profiles, liver diagnostics, and more. With its automated workflow and high throughput capabilities, the Fluoromat 50 minimizes manual intervention, ensuring consistency and reproducibility in every test.",
         description:
-          "Fluoromat 50 is designed for advanced hematology testing, providing reliable and accurate results for various blood analysis applications.",
-        workPrinciple: "Advanced technology for accurate hematology testing.",
-        advantages:
-          "Reliable and accurate results for diverse blood analysis needs.",
-        benefits: "Ideal for comprehensive hematology diagnostics.",
-        mainAndCare:
-          "Routine maintenance required; adhere to operational guidelines.",
+          "The Fluoromat 50 is a powerful western blot processor designed to bring automation and efficiency to your laboratory. This automated western blot processor delivers precise and reliable results, making it ideal for laboratories performing various diagnostics, including ANA test profiles and liver profiles. With a compact design and user-friendly interface, the Fluoromat 50 enhances lab productivity while maintaining accuracy.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle: How It Works?</strong>
+                    The Fluoromat 50 automates the western blot process, a
+                    technique used to detect specific proteins in a sample. The
+                    system performs key steps such as gel electrophoresis,
+                    protein transfer to a membrane, and antibody binding in an
+                    automated fashion. Once proteins are separated and
+                    transferred, the processor automates the incubation with
+                    specific antibodies, washing, and final detection. The
+                    system uses fluorescence-based detection for enhanced
+                    sensitivity and precision, delivering accurate results with
+                    minimal hands-on time.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful?</strong>
+                    The Fluoromat 50 is ideal for clinical diagnostic
+                    laboratories, research centers, and specialized testing
+                    facilities that need to streamline their western blot
+                    processing. It is particularly useful for laboratories that
+                    handle a high volume of tests, such as ANA test profiles,
+                    liver profiles, and other immunoassays, providing a reliable
+                    solution to increase lab efficiency and accuracy.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        ANA Test Profiles: Automates the detection of
+                        antinuclear antibodies, aiding in the diagnosis of
+                        autoimmune diseases with precision and efficiency.
+                      </li>
+                      <li>
+                        Liver Profile Diagnostics: Facilitates the processing of
+                        liver-related biomarkers, providing accurate results for
+                        liver function tests.
+                      </li>
+                      <li>
+                        Infectious Disease Screening: Supports western blot
+                        assays for the detection of various infectious diseases,
+                        ensuring rapid and reliable diagnosis.
+                      </li>
+                      <li>
+                        Endocrine Testing: Processes hormonal profiles, helping
+                        in the diagnosis of endocrine disorders with consistent
+                        accuracy.
+                      </li>
+                      <li>
+                        Oncology Diagnostics: Automates the detection of
+                        cancer-related biomarkers, assisting in the early
+                        diagnosis and monitoring of cancer.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Automated Workflow: Reduces manual labor and improves
+                  consistency, leading to more accurate and reproducible results
+                  across all tests.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Versatile Application: Supports a wide range of assays,
+                  including autoimmune and liver profile diagnostics, making it
+                  adaptable to various testing needs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Compact Design: The Fluoromat 50's small footprint allows it
+                  to fit easily into labs with limited space while still
+                  providing full functionality.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  High Sensitivity: Fluorescence-based detection ensures high
+                  sensitivity, allowing for the detection of even low-abundance
+                  proteins.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Efficiency: Capable of processing multiple samples
+                  simultaneously, reducing turnaround times and increasing lab
+                  throughput.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Enhanced Productivity: Automation frees up lab technicians to
+                  focus on other tasks while the Fluoromat 50 handles the
+                  western blot process, boosting overall lab efficiency.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Accurate and Reproducible Results: The system's automation
+                  ensures that every step is performed consistently, providing
+                  high-quality results every time.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Cost-Effective Operation: Reducing manual labor and repeat
+                  tests lowers operational costs, making the Fluoromat 50 a
+                  cost-effective solution for laboratories.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  User-Friendly Design: The intuitive interface and easy-to-use
+                  controls minimize the learning curve, allowing lab staff to
+                  operate the system with ease.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Multi-Test Capability: Whether handling ANA test profiles,
+                  liver profiles, or other immunoassays, the Fluoromat 50 is
+                  versatile enough to meet the needs of diverse diagnostic
+                  applications.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Routine Calibration: Regular calibration ensures that the
+                  Fluoromat 50 maintains its accuracy and precision over time.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Automated Maintenance Alerts: The system provides automated
+                  notifications for scheduled maintenance, ensuring consistent
+                  performance without disrupting operations.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Easy Access for Servicing: Designed for easy access to
+                  internal components, the Fluoromat 50 simplifies routine
+                  maintenance and servicing.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Durable Construction: Built to last, the Fluoromat 50 provides
+                  long-term reliability with minimal downtime, ensuring
+                  continuous operation in busy labs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Comprehensive Support: Supported by CPC Diagnostics' expert
+                  technical team, ensuring your system operates at peak
+                  performance throughout its lifespan.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         workServices: "Technical support available for setup and service.",
         productBrochure: "path/to/Fluoromat 50-brochure.pdf",
         detailedSpecification:
@@ -2033,17 +3939,173 @@ const products = [
         image: [euroimmunAnalyzerI],
         title: "Euroimmun Analyzer I",
         section: "elisa",
-        shortdescription: "Everlife Euroimmun Analyzer I",
+        shortdescription:
+          "The Euroimmun Analyzer I is a sophisticated, fully automated ELISA analyzer developed to enhance laboratory efficiency while delivering high-precision results. It automates the entire ELISA process, significantly reducing the need for manual labor and minimizing the risk of human error. This compact and reliable analyzer is an essential tool for any laboratory conducting regular ELISA tests.",
         description:
-          "Euroimmun Analyzer I offers comprehensive immunoassay automation, enhancing laboratory efficiency and accuracy.",
-        workPrinciple:
-          "Automated system for performing a wide range of immunoassays.",
-        advantages:
-          "Increases laboratory efficiency with comprehensive automation.",
-        benefits:
-          "Ideal for improving accuracy and throughput in immunoassay testing.",
-        mainAndCare:
-          "Regular maintenance and calibration needed; follow operational guidelines.",
+          "The Euroimmun Analyzer I is a fully automated immunoassay analyzer engineered for accuracy, efficiency, and reliability in ELISA testing. This advanced ELISA analyzer is designed to automate and streamline laboratory processes, ensuring consistent results with minimal human intervention.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Working Principle:</strong>{" "}
+                    The Euroimmun Analyzer I automates the ELISA process by
+                    handling all stages of the assay, including sample dilution,
+                    incubation, washing, and detection. The system's precise
+                    optical measurement technology ensures consistent and
+                    accurate results, while its user-friendly software allows
+                    for easy setup and execution of various test protocols. The
+                    fully automated process ensures that each step is performed
+                    with precision, eliminating the variability associated with
+                    manual operations.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">
+                      For Whom It Is Useful:
+                    </strong>{" "}
+                    Ideal for clinical laboratories that require efficient and
+                    reliable ELISA testing, research institutions focused on
+                    biomarker analysis and disease research, and pharmaceutical
+                    companies conducting product testing and quality control.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-nowrap">Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        Clinical Diagnostics: Routine testing for infectious
+                        diseases, autoimmune disorders, and allergies.
+                      </li>
+                      <li>
+                        Research Applications: Analyzing biomarkers and
+                        conducting research on disease mechanisms.
+                      </li>
+                      <li>
+                        Quality Control: Ensuring consistency and reliability in
+                        pharmaceutical and biotech product testing.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Fully Automated Process: Automates all stages of the ELISA
+                  process, from sample preparation to result generation.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  High Precision: Ensures accurate and reproducible results
+                  through precise optical measurement.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Compact and Efficient Design: Occupies minimal laboratory
+                  space while delivering high performance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Versatile Application: Compatible with various ELISA kits and
+                  customizable for different test protocols.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  User-Friendly Software: Easy to operate, with intuitive
+                  controls and programming flexibility.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Enhanced Reliability: Automated processes reduce the chances
+                  of human error, ensuring more reliable results.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Time-Saving: Speeds up the ELISA process, allowing lab
+                  personnel to focus on data interpretation and other tasks.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Space-Saving: The compact design is ideal for laboratories
+                  where space is at a premium.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Cost-Effective: Lowers overall costs by reducing the need for
+                  manual labor and additional instruments.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Increased Lab Efficiency: Streamlines operations, making the
+                  lab more efficient in handling ELISA tests.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Routine Calibration: Regular calibration is essential for
+                  maintaining accuracy and performance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Self-Cleaning Functions: Designed with self-cleaning routines
+                  to minimize regular maintenance efforts.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Software Updates: Regular software updates ensure continuous
+                  optimal performance and access to new features.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  User Support: Comprehensive support and manuals are available
+                  for troubleshooting and maintenance queries.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Easy Access to Components: Designed for quick component access
+                  to simplify repairs and replacements.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         workServices:
           "Technical support available for system setup and troubleshooting.",
         productBrochure: "path/to/Euroimmun Analyzer I-brochure.pdf",
@@ -2055,17 +4117,191 @@ const products = [
         image: [sprinter],
         title: "Sprinter XL",
         section: "ifa",
-        shortdescription: "Sprinter XL",
+        shortdescription:
+          "The Sprinter XL is an innovative IFA Processor (ImmunoFluorescence Assay) that brings next-level automation to clinical and diagnostic laboratories. This fully automated IFA processor is engineered to meet the needs of high-throughput labs, ensuring efficiency and accuracy for both IFA and ELISA tests. Its robust design supports the seamless integration of automation into laboratory workflows, minimizing errors and maximizing output. Whether performing routine diagnostics or specialized immunoassays, the Sprinter XL delivers unparalleled performance.",
         description:
-          "Sprinter XL is designed for advanced hematology testing, providing reliable and accurate results for various blood analysis applications.",
-        workPrinciple: "Advanced technology for accurate hematology testing.",
-        advantages:
-          "Reliable and accurate results for diverse blood analysis needs.",
-        benefits: "Ideal for comprehensive hematology diagnostics.",
-        mainAndCare:
-          "Routine maintenance required; adhere to operational guidelines.",
+          "The Sprinter XL is an advanced IFA Processor (ImmunoFluorescence Assay) designed for high-volume laboratories that demand precision, reliability, and speed. This fully automated IFA processor streamlines the entire immunoassay process, reducing manual intervention and delivering consistent, accurate results. With its scalable design and robust performance, the Sprinter XL offers the perfect solution for labs needing both IFA automation and ELISA capabilities.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle:</strong> The Sprinter XL operates
+                    using advanced IFA automation technology, automating every
+                    step of the ImmunoFluorescence Assay process. The machine
+                    detects antigens in patient samples using
+                    fluorescent-labeled antibodies. The system automates the
+                    application, incubation, washing, and detection stages.
+                    Fluorescence signals are measured and quantified, delivering
+                    results with high precision. Additionally, the Sprinter XL
+                    offers full automation for ELISA tests, providing
+                    versatility in diagnostic applications and eliminating the
+                    need for separate processors.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful:</strong> The Sprinter XL is
+                    ideal for clinical diagnostic laboratories, research
+                    institutions, and hospital labs that require high-volume,
+                    automated testing. This fully automatic ELISA and IFA
+                    processor is especially beneficial for facilities that need
+                    to optimize their workflows and enhance testing capabilities
+                    across a wide range of assays. Its dual functionality makes
+                    it valuable for labs that handle diverse testing
+                    requirements.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        Autoimmune Disease Diagnostics: Efficiently automates
+                        detection of autoimmune markers for timely patient
+                        management.
+                      </li>
+                      <li>
+                        Infectious Disease Testing: Automates IFA and ELISA
+                        tests for infectious diseases, enabling quicker
+                        diagnosis and intervention.
+                      </li>
+                      <li>
+                        Oncology Diagnostics: Facilitates detection of
+                        cancer-related biomarkers, assisting in early diagnosis
+                        and treatment planning.
+                      </li>
+                      <li>
+                        Endocrinology Testing: Supports hormonal assays,
+                        ensuring accurate analysis of endocrine function.
+                      </li>
+                      <li>
+                        Research and Development: Ideal for research labs in
+                        immunology, infectious diseases, and more.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Scalable Automation: Handles large volumes of samples, making
+                  it suitable for labs with growing testing demands.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Precision and Reliability: Delivers consistent, high-quality
+                  results, reducing variability and ensuring confidence in
+                  diagnostic outcomes.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Versatile Testing Capabilities: Dual functionality allows the
+                  Sprinter XL to handle both IFA and ELISA assays, enhancing
+                  flexibility.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Minimized Manual Intervention: Reduces human error, improving
+                  overall lab efficiency.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Optimized Workflow: Compact, space-saving design integrates
+                  easily into lab setups without compromising performance.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Increased Productivity: High-throughput automation processes
+                  more samples in less time, enhancing operational efficiency.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Improved Accuracy: Consistent results contribute to better
+                  diagnostic accuracy and improved patient outcomes.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Cost-Effective Operation: Reduces labor costs and minimizes
+                  the need for repeat testing, leading to overall savings.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  User-Friendly Design: Simplified interface and controls allow
+                  quick operation with minimal training.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Multi-Purpose Application: Performs both IFA and ELISA tests
+                  on a single platform, saving space and resources.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Automated Maintenance Alerts: Provides notifications for
+                  routine maintenance to keep the system in optimal condition.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Easy Access for Servicing: Designed for quick and efficient
+                  maintenance with easy access to internal components.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Low Maintenance Requirements: Durable construction minimizes
+                  downtime and reduces the need for frequent repairs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  User Manuals and Support: Detailed manuals and expert support
+                  ensure proper maintenance procedures.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Long-Term Reliability: Built for consistent, long-term use
+                  with minimal operational interruptions.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         workServices: "Technical support available for setup and service.",
-        productBrochure: "path/to/Sprinter XL-brochure.pdf",
+        productBrochure: "path/to/Sprintezr XL-brochure.pdf",
         detailedSpecification:
           "Detailed specifications available upon request.",
         offerOrDiscounts:
@@ -2083,88 +4319,119 @@ const products = [
         id: "1",
         image: [ichromaII],
         title: "Ichroma™ II",
-        shortdescription: "The ichroma™ II is an advanced immunoassay analyzer that leverages fluorescence-based technology to deliver quick and accurate diagnostic results. Engineered by Boditech, this POCT device is ideal for modern healthcare environments, ensuring dependable performance and ease of use.",
+        shortdescription:
+          "The ichroma™ II is an advanced immunoassay analyzer that leverages fluorescence-based technology to deliver quick and accurate diagnostic results. Engineered by Boditech, this POCT device is ideal for modern healthcare environments, ensuring dependable performance and ease of use.",
         description:
           "The ichroma™ II is a sophisticated immunoassay analyzer designed for point-of-care testing (POCT). Utilizing fluorescence-based technology, this Boditech POCT device offers rapid and reliable diagnostic results. Perfect for a variety of healthcare settings, it combines high accuracy with user-friendly features.",
-          workPrinciple: (
-            <div>
-              {/* Working Principle Table */}
-              <table className="min-w-full table-auto">
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>How it Works:</strong> The ichroma™ II uses fluorescence-based detection to identify specific biomarkers in patient samples. It processes the samples rapidly, delivering results in just minutes.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>For Whom:</strong> Suitable for hospitals, clinics, and diagnostic centers that need fast and accurate testing.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Use Cases:</strong> Ideal for tests such as cardiac markers, infectious diseases, and other critical diagnostics.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          ),
-          
-          advantages: (
-            <div>
-              {/* Advantages List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">High precision with fluorescence-based detection</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Rapid turnaround time for results</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Compact and user-friendly design</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          benefits: (
-            <div>
-              {/* Benefits List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Improves diagnostic efficiency and accuracy</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Enhances patient throughput with quick testing</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Simplifies the diagnostic process for healthcare providers</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          mainAndCare: (
-            <div>
-              {/* Maintenance and Care List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Regular Calibration: Perform periodic calibration to ensure consistent accuracy.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Routine Cleaning: Clean the sample ports and internal components regularly.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Software Updates: Keep the software up-to-date to utilize the latest features and improvements.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Preventive Maintenance: Schedule regular maintenance checks with certified technicians to maintain optimal performance.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
+        workPrinciple: (
+          <div>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>How it Works:</strong> The ichroma™ II uses
+                    fluorescence-based detection to identify specific biomarkers
+                    in patient samples. It processes the samples rapidly,
+                    delivering results in just minutes.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom:</strong> Suitable for hospitals, clinics,
+                    and diagnostic centers that need fast and accurate testing.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong> Ideal for tests such as cardiac
+                    markers, infectious diseases, and other critical
+                    diagnostics.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            {/* Advantages List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  High precision with fluorescence-based detection
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Rapid turnaround time for results
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Compact and user-friendly design
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            {/* Benefits List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Improves diagnostic efficiency and accuracy
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Enhances patient throughput with quick testing
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Simplifies the diagnostic process for healthcare providers
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            {/* Maintenance and Care List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Regular Calibration: Perform periodic calibration to ensure
+                  consistent accuracy.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Routine Cleaning: Clean the sample ports and internal
+                  components regularly.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Software Updates: Keep the software up-to-date to utilize the
+                  latest features and improvements.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Preventive Maintenance: Schedule regular maintenance checks
+                  with certified technicians to maintain optimal performance.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices:
           "Technical support available for setup, troubleshooting, and maintenance.",
         productBrochure: "path/to/ichroma-II-brochure.pdf",
@@ -2178,88 +4445,118 @@ const products = [
         id: "2",
         image: [ichromaIII],
         title: "Ichroma™ III",
-        shortdescription: "The ichroma™ 3 is a state-of-the-art immunoassay analyzer that uses fluorescence-based technology to provide quick and accurate diagnostic results. This POCT device is designed to meet the demands of modern healthcare facilities, ensuring reliable performance and ease of use.",
+        shortdescription:
+          "The ichroma™ 3 is a state-of-the-art immunoassay analyzer that uses fluorescence-based technology to provide quick and accurate diagnostic results. This POCT device is designed to meet the demands of modern healthcare facilities, ensuring reliable performance and ease of use.",
         description:
           "The ichroma™ 3 is an advanced immunoassay analyzer designed for point-of-care testing (POCT). Leveraging fluorescence-based technology, this Boditech POCT device delivers rapid and accurate diagnostic results. Ideal for various healthcare settings, it offers high throughput and user-friendly operation.",
-          workPrinciple: (
-            <div>
-              {/* Working Principle Table */}
-              <table className="min-w-full table-auto">
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>How it Works:</strong> The ichroma™ 3 utilizes fluorescence-based technology to detect specific biomarkers in patient samples. It processes samples quickly, providing results in minutes.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>For Whom:</strong> Ideal for hospitals, clinics, and diagnostic centers requiring rapid test results.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 text-gray-700">
-                      <strong>Use Cases:</strong> Suitable for various tests including cardiac markers, infectious diseases, and more.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          ),
-          
-          advantages: (
-            <div>
-              {/* Advantages List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">High precision with fluorescence-based detection</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Quick turnaround time for test results</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Easy-to-use interface</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          benefits: (
-            <div>
-              {/* Benefits List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Enhances diagnostic efficiency and accuracy</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Increases patient throughput with rapid testing</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Simplifies the testing process for healthcare providers</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
-          mainAndCare: (
-            <div>
-              {/* Maintenance and Care List */}
-              <ul className="space-y-6 font-poppins">
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Regular Calibration: Perform periodic calibration to maintain accuracy.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Routine Cleaning: Clean the sample ports and internal components regularly.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Software Updates: Keep the software updated to access the latest features and improvements.</p>
-                </li>
-                <li className="flex gap-3">
-                  <p className="text-base font-semibold text-gray-800 text-nowrap">Preventive Maintenance: Schedule regular maintenance checks by certified technicians to ensure long-term reliability.</p>
-                </li>
-              </ul>
-            </div>
-          ),
-          
+        workPrinciple: (
+          <div>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>How it Works:</strong> The ichroma™ 3 utilizes
+                    fluorescence-based technology to detect specific biomarkers
+                    in patient samples. It processes samples quickly, providing
+                    results in minutes.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom:</strong> Ideal for hospitals, clinics, and
+                    diagnostic centers requiring rapid test results.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong> Suitable for various tests
+                    including cardiac markers, infectious diseases, and more.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            {/* Advantages List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  High precision with fluorescence-based detection
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Quick turnaround time for test results
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Easy-to-use interface
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            {/* Benefits List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Enhances diagnostic efficiency and accuracy
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Increases patient throughput with rapid testing
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Simplifies the testing process for healthcare providers
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            {/* Maintenance and Care List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Regular Calibration: Perform periodic calibration to maintain
+                  accuracy.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Routine Cleaning: Clean the sample ports and internal
+                  components regularly.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Software Updates: Keep the software updated to access the
+                  latest features and improvements.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800 text-nowrap">
+                  Preventive Maintenance: Schedule regular maintenance checks by
+                  certified technicians to ensure long-term reliability.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices:
           "Support services available for operational and technical assistance.",
         productBrochure: "path/to/ichroma-III-brochure.pdf",
@@ -2281,13 +4578,98 @@ const products = [
         title: "Labscan 3D",
         shortdescription: "Fully Automatic 3-Part Sortpro Sample Sorter",
         description:
-          "The Labscan 3D is a fully automatic 3-part sorter, designed to streamline the pre-analytical process in small to mid-sized laboratories. This device sorts and prepares samples efficiently, improving workflow accuracy and reducing manual intervention.",
-        workPrinciple:
-          "Automates the sorting and preparation of samples using advanced 3-part sorting technology. Designed for moderate sample volumes, it enhances lab workflow by sorting samples in a systematic and organized manner.",
-        advantages:
-          "Increases laboratory throughput and accuracy while minimizing manual sorting errors. Perfect for labs looking to improve efficiency with a moderate sample load.",
-        benefits:
-          "Reduces the need for manual sorting, cutting labor costs and ensuring more reliable, accurate sample preparation. Enhances overall workflow efficiency and reduces the chances of human error.",
+          "Designed to provide breakthrough performance, higher throughput, and greater flexibility to transplant diagnostics, the LABScan3D™is the most advanced IVD approved Luminex® system available. Dual syringe pumps and reagent reservoirs allow for higher throughput and programmable maintenance routines. Able to process 500 bead regions simultaneously, LABScan3D significantly increases the number of screenable analytes. This advanced instrument is compatible with all of One Lambda’s LABType™ and LABScreen™ products.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle: How It Works?</strong>
+                    xMAP® Technology.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful?</strong>
+                    Transplant Immunology, Molecular Oncology, and
+                    Immunogenetics
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>500 bead count</li>
+                      <li>Can use to know Extended coverage</li>
+                      <li>
+                        High throughput up to 384 samples in a single batch
+                      </li>
+                      <li>Auto-adjust probe for accurate acquisition</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Programmable and automated maintenance routines
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Intuitive graphical user interface
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Enhanced data archiving
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Customizable import/export options simplify data exchange
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Multiplexing capability with 500 unique bead regions for
+                  increased analyte detection
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Accelerated acquisition with dual sample fluidics paths and
+                  increased syringe injection rate
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  High throughput testing with reduced turnaround time
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Compatible with classic LABScan™ 100 based assays and new
+                  LABScan3D specific assays
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         mainAndCare:
           "Requires regular maintenance for optimal performance. The manufacturer's maintenance schedule should be followed to ensure long-term reliability and accuracy.",
         workServices:
@@ -2303,15 +4685,83 @@ const products = [
         id: "2",
         image: [image1],
         title: "Labscan 100",
-        shortdescription: "High-Precision 5-Part Sortpro Sample Sorter",
+        shortdescription:
+          "  The ability to perform up to 100 different tests in a single reaction volume, and to use either magnetic beads or plain polystyrene beads makes this instrument a popular choice for laboratories needing greater flexibility. Additionally, the Luminex 200 is able to offer higher sample throughput with a 96-well plate read time of only 45 minutes.",
         description:
-          "The Labscan 100 is a high-precision 5-part sorter, designed for laboratories handling large volumes of samples. It offers superior accuracy and efficiency by sorting and preparing samples quickly, improving lab throughput and minimizing errors.",
-        workPrinciple:
-          "Utilizes advanced 5-part sorting technology to handle a wide variety of samples, delivering faster processing and enhanced precision for high-volume labs.",
-        advantages:
-          "Increases laboratory efficiency with high-speed sorting, ensuring accurate sample handling for larger operations and reducing manual effort.",
-        benefits:
-          "Boosts productivity by shortening the time required for pre-analytical processing, reducing labor costs, and ensuring precise sample sorting for better diagnostic outcomes.",
+          "The Luminex® 200™, a flow-based reader, sets the standard for multiplexing with thousands of instruments sold globally and more than fifty FDA 510(k) cleared assays using xMAP® Technology. The ability to perform up to 100 different tests in a single reaction volume, and to use either magnetic beads or plain polystyrene beads makes this instrument a popular choice for laboratories needing greater flexibility.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle: How It Works?</strong>
+                    xMAP® Technology.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful?</strong>
+                    Transplant Immunology, Molecular Oncology, and
+                    Immunogenetics
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>100 different tests in a single reaction volume</li>
+                      <li>
+                        Antibody screen and Mid-resolution HLA can be performed
+                        in a single go
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Sample Probe Height Adjustment Kit
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Automated Maintenance Plate
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Heater Block (96-well plate)
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Flexible Multiplexing Technology
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Higher sample throughput with a 96-well plate read time of
+                  only 45 minutes.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         mainAndCare:
           "Minimal maintenance needed thanks to its built-in self-cleaning feature. Regular check-ups as per the manufacturer's guidelines will ensure long-lasting performance.",
         workServices:
@@ -2333,17 +4783,203 @@ const products = [
         id: "1",
         image: [PreAnalytical],
         title: "Sortpro Sample Sorter",
-        shortdescription: "Fully Automatic 3-Part Sortpro Sample Sorter",
+        shortdescription:
+          "The SORTPRO SAMPLE SORTER is a high-performance sample sorting system that automates the pre-analytical process, ensuring samples are sorted accurately and efficiently. Designed to handle a variety of biological samples, including blood, urine, and other bodily fluids, this system automates sorting based on specific criteria, such as sample type, destination, or test requirements. The SORTPRO SAMPLE SORTER significantly reduces manual handling, lowering the risk of errors and improving overall laboratory productivity.",
         description:
-          "The Sortpro Sample Sorter is a fully automatic 3-part sorter, engineered to streamline the pre-analytical phase by efficiently sorting and preparing samples, thereby enhancing laboratory workflow and accuracy.",
-        workPrinciple:
-          "Automates the sorting and preparation of samples using advanced technology for improved efficiency.",
-        advantages:
-          "Increases laboratory throughput and reduces manual errors, providing consistent and accurate sample handling.",
-        benefits:
-          "Enhances workflow efficiency, reduces labor costs, and minimizes sample handling errors.",
-        mainAndCare:
-          "Regular maintenance required to ensure optimal performance; follow manufacturer's care instructions.",
+          "The SORTPRO SAMPLE SORTER is an advanced automation system designed to optimize sample sorting and distribution with high efficiency and accuracy. It automates the entire sorting process, minimizing manual errors and streamlining laboratory workflows. Ideal for laboratories with high sample volumes, the SORTPRO SAMPLE SORTER increases productivity and ensures every sample is processed correctly and efficiently.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle: How It Works?</strong>
+                    The SORTPRO SAMPLE SORTER utilizes barcode scanning
+                    technology to identify samples and sort them based on
+                    pre-set criteria. After scanning, the system automatically
+                    directs each sample to the appropriate location, whether for
+                    testing, storage, or further processing. The automation
+                    ensures consistency in handling large volumes of samples,
+                    reducing the likelihood of mix-ups and ensuring that every
+                    sample is processed according to the lab’s workflow
+                    requirements. The system is flexible and can be customized
+                    to meet the specific needs of different labs.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful?</strong>
+                    The SORTPRO SAMPLE SORTER is ideal for clinical and
+                    diagnostic laboratories, hospital labs, and research
+                    facilities that need to manage high volumes of samples
+                    efficiently. It is especially beneficial for labs that seek
+                    to reduce manual sorting errors, increase throughput, and
+                    optimize their pre-analytical processes. Whether your lab
+                    handles routine diagnostics or complex testing, the SORTPRO
+                    SAMPLE SORTER is designed to improve accuracy and streamline
+                    operations.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        High-Volume Sample Sorting: Automates sorting in
+                        high-demand environments, reducing turnaround times and
+                        improving efficiency.
+                      </li>
+                      <li>
+                        Pre-Analytical Automation: Streamlines the
+                        pre-analytical phase by automating sorting, reducing
+                        manual labor and the risk of errors.
+                      </li>
+                      <li>
+                        Customizable Sorting: Flexible enough to handle various
+                        sample types and sorting criteria, adaptable to the
+                        specific needs of your lab.
+                      </li>
+                      <li>
+                        Error Reduction: Minimizes the possibility of human
+                        errors in sample sorting, ensuring consistency and
+                        accuracy.
+                      </li>
+                      <li>
+                        Optimized Workflows: Increases productivity by enabling
+                        lab staff to focus on more critical tasks while the
+                        SORTPRO SAMPLE SORTER handles sorting.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Increased Efficiency: Automates the sorting of large volumes
+                  of samples, reducing manual intervention and speeding up
+                  processing.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Error Minimization: Automation ensures accurate sorting,
+                  reducing the risk of human errors and ensuring that every
+                  sample reaches its correct destination.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Customizable Solutions: The SORTPRO SAMPLE SORTER can be
+                  tailored to meet the specific workflow requirements of your
+                  lab, ensuring flexibility and scalability as your lab grows.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Compact Design: The space-saving design fits easily into
+                  laboratories with limited space, allowing you to optimize your
+                  workspace without sacrificing functionality.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  User-Friendly Operation: Intuitive controls and a simple
+                  interface make it easy to operate, reducing the need for
+                  extensive training.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Enhanced Productivity: By automating the sorting process, the
+                  SORTPRO SAMPLE SORTER allows lab technicians to focus on more
+                  complex tasks, boosting overall lab productivity.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Consistent and Reliable Results: Automation ensures that every
+                  sample is sorted correctly, providing reliability and
+                  consistency in laboratory operations.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Reduced Labor Costs: Automation lowers the need for manual
+                  sorting, reducing labor costs and allowing staff to focus on
+                  higher-value tasks.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Scalability: As your lab grows, the SORTPRO SAMPLE SORTER can
+                  scale to meet increasing demands, ensuring continued
+                  efficiency and productivity.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Low Maintenance: The system is designed for long-term
+                  reliability with minimal maintenance, reducing downtime and
+                  ensuring consistent performance.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Routine Calibration: Regular calibration is essential to
+                  maintain accuracy and efficiency over time.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Automated Maintenance Alerts: The system provides
+                  notifications for scheduled maintenance, ensuring that it
+                  remains in optimal working condition.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Easy Access for Servicing: The SORTPRO SAMPLE SORTER is
+                  designed for easy access to internal components, simplifying
+                  routine maintenance and repairs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Durable Construction: Built for long-term use, ensuring
+                  minimal downtime and consistent performance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Comprehensive Support: Supported by CPC Diagnostics’ technical
+                  team, ensuring optimal performance and long-lasting
+                  reliability.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         workServices:
           "Comprehensive support available for installation, maintenance, and troubleshooting.",
         productBrochure: "path/to/sortpro-sample-sorter-brochure.pdf",

@@ -104,7 +104,7 @@ function ProductInfo() {
           content: product.benefits,
         },
         {
-          menuName: "Main And Care",
+          menuName: "Maintenance And Care",
           content: product.mainAndCare,
         },
       ],
