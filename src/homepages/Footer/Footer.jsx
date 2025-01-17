@@ -2,15 +2,22 @@ import "./footer.css";
 import logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faFacebook,
   faInstagram,
   faLinkedin,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import { useRef } from "react";
+import { useContext, useRef } from "react";
+import { CategoryContext } from "../../component/Context/CategoryContext";
+import { SectionCategory } from "../../component/Context/SectionCategory";
 
 function Footer({ open }) {
+  const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
+
+  const { selecteSectionCategory, setSelectSectionCategory } =
+    useContext(SectionCategory);
   const col2Ref = useRef(null);
   const col3Ref = useRef(null);
   const col4Ref = useRef(null);
@@ -439,50 +446,66 @@ function Footer({ open }) {
             Products
           </p>
           <Link
-            to="/product"
-            onClick={() => setSelectedCategory("Biochemistry")}
+            to="/product/Biochemistry/top"
+            onClick={() => {
+              setSelectSectionCategory("top");
+              setSelectedCategory("Biochemistry");
+            }}
             className="text-xs tablet:text-lg  hover:text-black"
           >
             <p>Biochemistry</p>
           </Link>
           <Link
-            to="/product"
+            to="/product/Hematology/top"
             onClick={() => setSelectedCategory("Hematology")}
             className="text-xs tablet:text-lg  hover:text-black"
           >
             <p>Hematology</p>
           </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
+          <Link
+            onClick={() => setSelectedCategory("Point of Care")}
+            to="/product/PointofCare/top"
+            className="text-xs tablet:text-lg  hover:text-black"
+          >
             <p>POC</p>
           </Link>
           <Link
-            to="/product"
-            onClick={() => setSelectedCategory("Electrolyte Analyzer")}
+            to="/product/Electrolyte/top"
+            onClick={() => {
+              setSelectSectionCategory("top");
+              setSelectedCategory("Electrolyte Analyzer");
+            }}
             className="text-xs tablet:text-lg  hover:text-black"
           >
             <p>Electrolyte</p>
           </Link>
           <Link
-            to="/product"
-            onClick={() => setSelectedCategory("Clinical Microbiology")}
+            to="/product/ClinicalMicrobiology/top"
+            onClick={() => {
+              setSelectSectionCategory("top");
+              setSelectedCategory("Clinical Microbiology");
+            }}
             className="text-xs tablet:text-lg  hover:text-black"
           >
             <p>Clinical Microbiology</p>
           </Link>
           <Link
-            to="/product"
-            onClick={() => setSelectedCategory("Pre-Analytical Automation")}
+            to="/product/Pre-AnalyticalAutomation/top"
+            onClick={() => {
+              setSelectSectionCategory("top");
+              setSelectedCategory("Pre-Analytical Automation");
+            }}
             className="text-xs tablet:text-lg  hover:text-black"
           >
             <p>Pre Analytical Automation</p>
           </Link>
-          <Link
-            to="/product"
+          {/* <Link
+            to="/product/Hematology/top"
             onClick={() => setSelectedCategory("COVID-19")}
             className="text-xs tablet:text-lg  hover:text-black"
           >
             <p>COVID-19</p>
-          </Link>
+          </Link> */}
         </div>
         {/* col 4 */}
         <div

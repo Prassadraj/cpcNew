@@ -429,7 +429,7 @@ function Nav() {
             <div className="dropdown-menu w-fit">
               <Link
                 className="dropdown-item"
-                to={`/product/Biochemistry/top`}
+                to="/product/Biochemistry/top"
                 onClick={() => {
                   setSelectSectionCategory("top");
                   setSelectedCategory("Biochemistry");
@@ -439,7 +439,7 @@ function Nav() {
               </Link>
               <Link
                 className="dropdown-item"
-                to={`/product/ClinicalMicrobiology/top`}
+                to="/product/ClinicalMicrobiology/top"
                 onClick={() => {
                   setSelectSectionCategory("top");
                   setSelectedCategory("Clinical Microbiology");
@@ -459,7 +459,7 @@ function Nav() {
               </Link> */}
               <Link
                 className="dropdown-item"
-                to={`/product/MolecularDiagnostics/top`}
+                to="/product/MolecularDiagnostics/top"
                 onClick={() => {
                   setSelectSectionCategory("top");
                   setSelectedCategory("Molecular Diagnostics");
@@ -469,7 +469,7 @@ function Nav() {
               </Link>
               <Link
                 className="dropdown-item"
-                to={`/product/ElectrolyteAnalyzer/top`}
+                to="/product/ElectrolyteAnalyzer/top"
                 onClick={() => {
                   setSelectSectionCategory("top");
                   setSelectedCategory("Electrolyte Analyzer");
@@ -479,7 +479,7 @@ function Nav() {
               </Link>
               <Link
                 className="dropdown-item"
-                to={`/product/Hematology/top`}
+                to="/product/Hematology/top"
                 onClick={() => {
                   setSelectSectionCategory("top");
                   setSelectedCategory("Hematology");
@@ -489,7 +489,7 @@ function Nav() {
               </Link>
               <Link
                 className="dropdown-item"
-                to={`/product/Immunology/top`}
+                to="/product/Immunology/top"
                 onClick={() => {
                   setSelectSectionCategory("top");
                   setSelectedCategory("Immunology");
@@ -499,7 +499,7 @@ function Nav() {
               </Link>
               <Link
                 className="dropdown-item"
-                to={`/product/PointofCare/top`}
+                to="/product/PointofCare/top"
                 onClick={() => {
                   setSelectSectionCategory("top");
                   setSelectedCategory("Point of Care");
@@ -509,7 +509,7 @@ function Nav() {
               </Link>
               <Link
                 className="dropdown-item"
-                to={`/product/Pre-AnalyticalAutomation/top`}
+                to="/product/Pre-AnalyticalAutomation/top"
                 onClick={() => {
                   setSelectSectionCategory("top");
                   setSelectedCategory("Pre-Analytical Automation");
