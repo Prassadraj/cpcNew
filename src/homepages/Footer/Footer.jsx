@@ -513,19 +513,33 @@ function Footer({ open }) {
       <div className="h-[1px] w-[90%] flex justify-center items-center text-center bg-custom-green mx-auto mt-4"></div>
       <div className="mt-2 flex justify-around  tablet:justify-between tablet:mt-4 tablet:pl-16 tablet:pr-16">
         <div className="text-sm tablet:text-3xl text-white flex gap-2 tablet:gap-3 laptop:gap-3">
-          <Link className="hover:text-sky-600">
+          <Link
+            target="_blank"
+            to="https://www.facebook.com/EverlifeCPC"
+            className="hover:text-sky-600"
+          >
             <FontAwesomeIcon icon={faFacebook} />
           </Link>
-          <Link>
+          <Link
+            target="_blank"
+            to="https://www.instagram.com/everlife_cpc_diagnostics/"
+          >
             <FontAwesomeIcon
               className="hover:text-red-500"
               icon={faInstagram}
             />
           </Link>
-          <Link className="hover:text-sky-600">
+          <Link
+            to="https://www.linkedin.com/company/everlife-cpc-diagnostics/"
+            className="hover:text-sky-600"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faLinkedin} />
           </Link>
-          <Link>
+          <Link
+            target="_blank"
+            to="https://www.youtube.com/@everlife-cpcdiagnostics"
+          >
             <FontAwesomeIcon className="hover:text-red-500" icon={faYoutube} />
           </Link>
         </div>
