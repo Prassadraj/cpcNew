@@ -383,7 +383,7 @@ function ProductInfo() {
                     <div
                       key={index}
                       onClick={() => setSelectedMenuItem(index)}
-                      className={`cursor-pointer py-2 ${
+                      className={`cursor-pointer text-right py-2 ${
                         selectedMenuItem === index
                           ? "font-bold text-custom-green"
                           : "text-gray-600"
@@ -446,12 +446,12 @@ function ProductInfo() {
       </div> */}
           <div>
             {/* for mobile */}
-            <div className="flex items-center gap-2 text-xl px-2 sm:hidden">
+            {/* <div className="flex items-center gap-2 text-xl px-2 sm:hidden">
               <p>Share:</p>
               <FontAwesomeIcon icon={faFacebook} />
               <FontAwesomeIcon icon={faTwitter} />
               <FontAwesomeIcon icon={faWhatsapp} />
-            </div>
+            </div> */}
             <div className="sm:hidden">
               <div className="w-full">
                 {Object.keys(sectionData).map((section, index) => (

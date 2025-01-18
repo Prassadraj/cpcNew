@@ -468,7 +468,10 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle: How It Works?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle: How It Works?
+                    </strong>
                     The iChem Prime operates on photometric and colorimetric
                     principles to accurately quantify analytes for precise
                     health diagnostics. This advanced technology ensures
@@ -477,7 +480,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful?
+                    </strong>
                     Ideal for clinical laboratories, diagnostic centers, and
                     healthcare institutions requiring high-throughput and
                     dependable biochemistry testing.
@@ -485,8 +491,11 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         Monitoring routine biochemistry profiles like glucose,
                         lipids, and enzymes.
@@ -511,13 +520,13 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Guaranteed Number of Tests: Ensures zero wastage by providing
                   a fixed number of tests per reagent pack.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   On-board and Calibration Stability: Maintains consistent
                   performance during use and storage.
                 </p>
@@ -530,13 +539,13 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Easy Inventory Management: Simplifies reagent tracking and
                   replenishment.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Comprehensive Test Menu: Offers a wide range of biochemistry
                   assays, including Urea Kinetic, Total Protein, and Bilirubin
                   Direct tests.
@@ -550,19 +559,19 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Store reagents under recommended conditions to maintain
                   stability and performance.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Regularly calibrate the TurboChem Prime system to ensure
                   optimal accuracy.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Follow the manufacturer’s guidelines for proper reagent
                   handling and disposal.
                 </p>
@@ -592,7 +601,10 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle: How It Works?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle: How It Works?
+                    </strong>
                     iChem Magna operates on enzymatic and photometric reactions
                     to measure biochemical parameters with high efficiency and
                     accuracy.
@@ -600,15 +612,21 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful?
+                    </strong>
                     Designed for laboratories requiring high-throughput
                     solutions for routine and specialized biochemistry tests.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         Routine health check-ups to assess organ function.
                       </li>
@@ -629,12 +647,12 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Enhanced accuracy and reliability in biochemical testing.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Increased on-board stability and linearity across a wide range
                   of concentrations.
                 </p>
@@ -647,13 +665,13 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Guaranteed number of tests per reagent pack ensures zero
                   wastage.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Delivers precise and consistent results for accurate
                   diagnostics.
                 </p>
@@ -666,17 +684,17 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Store at specified temperatures to maintain reagent efficacy.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Regularly inspect for proper storage conditions.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Ensure proper calibration of equipment for consistent
                   performance.
                 </p>
@@ -705,7 +723,10 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle: How It Works?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle: How It Works?
+                    </strong>
                     Identi Immuno Turbidimetry Reagents operate on turbidimetry,
                     using antigen-antibody complexes to quantify proteins and
                     biomarkers accurately.
@@ -713,7 +734,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful?
+                    </strong>
                     Perfect for diagnostic laboratories conducting immunoassays
                     for conditions like inflammation, cardiovascular risks, and
                     autoimmune diseases.
@@ -721,8 +745,11 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         Measuring proteins such as CRP, ferritin, and rheumatoid
                         factors.
@@ -745,13 +772,13 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Provides high-quality turbidimetric measurements for reliable
                   results.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Optimized for automation, enhancing laboratory efficiency.
                 </p>
               </li>
@@ -763,13 +790,13 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Offers improved sensitivity and linearity for precise
                   quantification across a range of concentrations.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Includes comprehensive test kits catering to diverse
                   diagnostic needs.
                 </p>
@@ -782,19 +809,19 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Follow storage and handling instructions for optimal
                   performance.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Perform routine equipment maintenance to ensure precise
                   measurements.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Dispose of reagents according to regulatory guidelines.
                 </p>
               </li>
@@ -823,22 +850,31 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle: How It Works?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle: How It Works?
+                    </strong>
                     Identi Reagents Kit operates on enzymatic, photometric, and
                     colorimetric methods to precisely quantify various analytes.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful?
+                    </strong>
                     Designed for use in clinical labs performing routine and
                     specialized tests.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>Conducting metabolic and organ function panels.</li>
                       <li>Supporting chronic disease management.</li>
                       <li>
@@ -857,13 +893,13 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Ready-to-use liquid stable reagents simplify laboratory
                   workflows.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Available in varied pack sizes to cater to specific customer
                   needs.
                 </p>
@@ -876,13 +912,13 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Manufactured to international standards, ensuring reliable and
                   accurate results.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Includes comprehensive test kits for diverse diagnostic
                   requirements.
                 </p>
@@ -895,18 +931,18 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Ensure proper storage conditions for reagent stability.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Regular calibration of analyzers is essential for optimal
                   results.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Adhere to best practices for reagent preparation and disposal.
                 </p>
               </li>
@@ -935,7 +971,10 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle: How It Works?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle: How It Works?
+                    </strong>
                     Chemistry Calibrator and Chemistry Controls ensure precise
                     diagnostics by providing reference points and verifying
                     system performance against expected values.
@@ -943,15 +982,21 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful?
+                    </strong>
                     Essential for diagnostic labs seeking high accuracy in
                     clinical chemistry testing.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         Calibrating analyzers for routine biochemistry tests.
                       </li>
@@ -969,12 +1014,12 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Utilizes lyophilized human serum for enhanced stability.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Provides extended shelf life when stored at 2°C – 8°C.
                 </p>
               </li>
@@ -986,13 +1031,13 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Ensures consistent and accurate calibration and control for
                   clinical chemistry tests.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Offers flexible storage options, with reconstituted stability
                   of up to 7 days at 2°C – 8°C or 4 weeks at -20°C.
                 </p>
@@ -1005,17 +1050,17 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Store under recommended conditions to maintain stability.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Follow protocols for calibration and control preparation.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Regularly review analyzer performance to detect
                   inconsistencies.
                 </p>
@@ -1405,23 +1450,33 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Critical Care:</strong> Provides rapid electrolyte
-                    analysis for patients in intensive care units or emergency
-                    departments.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Critical Care:
+                    </strong>{" "}
+                    Provides rapid electrolyte analysis for patients in
+                    intensive care units or emergency departments.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Routine Laboratory Testing:</strong> Ideal for use
-                    in clinical laboratories handling a high volume of samples
-                    daily.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Routine Laboratory Testing:
+                    </strong>{" "}
+                    Ideal for use in clinical laboratories handling a high
+                    volume of samples daily.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Diagnostic Centers:</strong> Enables precise
-                    electrolyte measurement for diagnostic purposes, supporting
-                    medical professionals in delivering accurate diagnoses.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Diagnostic Centers:
+                    </strong>{" "}
+                    Enables precise electrolyte measurement for diagnostic
+                    purposes, supporting medical professionals in delivering
+                    accurate diagnoses.
                   </td>
                 </tr>
               </tbody>
@@ -1436,30 +1491,43 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>High Efficiency:</strong> Quick turnaround time
-                    ensures that critical results are delivered without delay,
-                    enabling faster decision-making.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      High Efficiency:
+                    </strong>{" "}
+                    Quick turnaround time ensures that critical results are
+                    delivered without delay, enabling faster decision-making.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Ease of Use:</strong> The intuitive touchscreen
-                    interface and automated features reduce the complexity of
-                    operations, allowing for minimal operator intervention.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Ease of Use:
+                    </strong>{" "}
+                    The intuitive touchscreen interface and automated features
+                    reduce the complexity of operations, allowing for minimal
+                    operator intervention.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Compact Design:</strong> Its small footprint allows
-                    it to be placed in laboratories with limited space,
-                    optimizing workflow efficiency.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Compact Design:
+                    </strong>{" "}
+                    Its small footprint allows it to be placed in laboratories
+                    with limited space, optimizing workflow efficiency.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Consistent Accuracy:</strong> The built-in quality
-                    control system guarantees consistent and reliable results,
-                    reducing the risk of errors.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Consistent Accuracy:
+                    </strong>{" "}
+                    The built-in quality control system guarantees consistent
+                    and reliable results, reducing the risk of errors.
                   </td>
                 </tr>
               </tbody>
@@ -1474,23 +1542,33 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Cost-Effective:</strong> Low reagent consumption and
-                    minimal maintenance requirements lower the overall cost of
-                    ownership.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Cost-Effective:
+                    </strong>{" "}
+                    Low reagent consumption and minimal maintenance requirements
+                    lower the overall cost of ownership.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Improved Workflow:</strong> Automatic calibration
-                    and fast processing speeds streamline lab operations,
-                    allowing for higher productivity.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Improved Workflow:
+                    </strong>{" "}
+                    Automatic calibration and fast processing speeds streamline
+                    lab operations, allowing for higher productivity.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Reliable Results:</strong> The precision of
-                    ion-selective electrode technology ensures that clinicians
-                    receive accurate data, enhancing patient care.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Reliable Results:
+                    </strong>{" "}
+                    The precision of ion-selective electrode technology ensures
+                    that clinicians receive accurate data, enhancing patient
+                    care.
                   </td>
                 </tr>
               </tbody>
@@ -1582,23 +1660,33 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>How it Works:</strong> Employs 3D imaging to capture
-                    detailed blood cell images, facilitating accurate counting
-                    and differentiation. Processes samples quickly for timely
-                    results.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      How it Works:
+                    </strong>{" "}
+                    Employs 3D imaging to capture detailed blood cell images,
+                    facilitating accurate counting and differentiation.
+                    Processes samples quickly for timely results.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom:</strong> Ideal for clinical laboratories,
-                    hospitals, and diagnostic centers.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom:
+                    </strong>{" "}
+                    Ideal for clinical laboratories, hospitals, and diagnostic
+                    centers.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong> Suitable for routine blood
-                    tests, diagnosing hematological disorders, and monitoring
-                    patient health.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>{" "}
+                    Suitable for routine blood tests, diagnosing hematological
+                    disorders, and monitoring patient health.
                   </td>
                 </tr>
               </tbody>
@@ -1708,23 +1796,33 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>How it Works:</strong> The analyzer captures
-                    detailed 3D images of blood cells to accurately count and
-                    differentiate them. It processes samples swiftly, ensuring
-                    quick results.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      How it Works:
+                    </strong>{" "}
+                    The analyzer captures detailed 3D images of blood cells to
+                    accurately count and differentiate them. It processes
+                    samples swiftly, ensuring quick results.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom:</strong> Designed for clinical
-                    laboratories, hospitals, and diagnostic centers.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom:
+                    </strong>{" "}
+                    Designed for clinical laboratories, hospitals, and
+                    diagnostic centers.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong> Suitable for routine blood
-                    tests, diagnosing hematological disorders, and patient
-                    health monitoring.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>{" "}
+                    Suitable for routine blood tests, diagnosing hematological
+                    disorders, and patient health monitoring.
                   </td>
                 </tr>
               </tbody>
@@ -1835,23 +1933,34 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>How it Works:</strong> The analyzer employs advanced
-                    5-part differential technology to accurately count and
-                    differentiate blood cells. It processes samples quickly,
-                    ensuring timely and precise results.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      How it Works:
+                    </strong>{" "}
+                    The analyzer employs advanced 5-part differential technology
+                    to accurately count and differentiate blood cells. It
+                    processes samples quickly, ensuring timely and precise
+                    results.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom:</strong> Ideal for clinical laboratories,
-                    hospitals, and diagnostic centers.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom:
+                    </strong>{" "}
+                    Ideal for clinical laboratories, hospitals, and diagnostic
+                    centers.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong> Suitable for routine blood
-                    tests, diagnosing hematological disorders, and monitoring
-                    patient health.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>{" "}
+                    Suitable for routine blood tests, diagnosing hematological
+                    disorders, and monitoring patient health.
                   </td>
                 </tr>
               </tbody>
@@ -1963,24 +2072,34 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>How it Works:</strong> The analyzer uses infrared
-                    scanning technology to measure ESR, generating a 3-phase
-                    sedimentation curve. It processes samples directly from
-                    primary EDTA tubes, providing results within 20 minutes.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      How it Works:
+                    </strong>{" "}
+                    The analyzer uses infrared scanning technology to measure
+                    ESR, generating a 3-phase sedimentation curve. It processes
+                    samples directly from primary EDTA tubes, providing results
+                    within 20 minutes.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom:</strong> Ideal for clinical laboratories,
-                    hospitals, and diagnostic centers that require fast and
-                    accurate ESR testing.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom:
+                    </strong>{" "}
+                    Ideal for clinical laboratories, hospitals, and diagnostic
+                    centers that require fast and accurate ESR testing.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong> Used for routine ESR tests to
-                    diagnose and monitor inflammatory conditions and other
-                    medical conditions.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>{" "}
+                    Used for routine ESR tests to diagnose and monitor
+                    inflammatory conditions and other medical conditions.
                   </td>
                 </tr>
               </tbody>
@@ -2134,7 +2253,10 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle: How It Works?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle: How It Works?
+                    </strong>
                     The PLEXMAT 4 operates by automating the western blot
                     procedure, which involves separating proteins via gel
                     electrophoresis and transferring them to a membrane. This
@@ -2148,7 +2270,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful?
+                    </strong>
                     The PLEXMAT 4 is particularly beneficial for clinical
                     diagnostic laboratories, research institutions, and
                     specialized testing centers that require reliable western
@@ -2161,8 +2286,11 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         ANA Test Profile Processing: Automates the
                         immunoblotting process for antinuclear antibody tests,
@@ -2200,35 +2328,35 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Efficient Processing: Automates multiple steps in the western
                   blot process, reducing manual labor and increasing lab
                   productivity.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Compact and Space-Saving: Ideal for labs with limited space,
                   the PLEXMAT 4 offers full functionality without taking up too
                   much room.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   High Accuracy: Automation ensures consistent and precise
                   results, improving diagnostic accuracy across a variety of
                   tests.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Versatile Testing: Supports a broad range of assays, including
                   autoimmune and liver profiles, making it adaptable to various
                   lab needs.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Scalable Solution: Capable of processing up to 4 strips
                   simultaneously, making it suitable for labs with moderate
                   testing volumes.
@@ -2242,35 +2370,35 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Increased Productivity: The automated workflow allows lab
                   technicians to focus on other tasks while the PLEXMAT 4
                   handles western blot processing, enhancing overall efficiency.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Consistent Results: The automated system ensures uniform
                   processing across all strips, delivering reliable and
                   reproducible results every time.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Cost-Effective Operation: By reducing manual intervention and
                   minimizing errors, the PLEXMAT 4 helps lower operational costs
                   and improve lab efficiency.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   User-Friendly Design: The intuitive touchscreen interface
                   simplifies operation, reducing the need for extensive training
                   and making the system accessible to all lab staff.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Multi-Test Capability: The ability to handle a variety of test
                   profiles, from ANA to liver diagnostics, makes the PLEXMAT 4 a
                   versatile addition to any lab.
@@ -2284,32 +2412,32 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Routine Calibration: Regular calibration ensures that the
                   PLEXMAT 4 maintains its accuracy and reliability over time.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Automated Maintenance Alerts: The system provides automatic
                   notifications for maintenance tasks, ensuring timely upkeep.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Easy Access for Servicing: The PLEXMAT 4 is designed for easy
                   access to internal components, making maintenance and repairs
                   straightforward and efficient.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Minimal Downtime: Built for durability, the PLEXMAT 4 ensures
                   continuous operation with minimal maintenance interruptions.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Comprehensive Support: Supported by CPC Diagnostics' technical
                   team, ensuring optimal performance and long-term reliability.
                 </p>
@@ -2339,36 +2467,46 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle:</strong> The PLEXMAT 8 automates
-                    the western blotting process by managing each step, from
-                    sample preparation to final detection. The system
-                    automatically performs protein separation via gel
-                    electrophoresis, followed by transfer to a membrane. It then
-                    executes blocking, antibody incubation, washing, and
-                    detection steps. Automation ensures uniform processing for
-                    all strips, minimizing human error and providing consistent,
-                    high-quality results. Its automated operation boosts lab
-                    efficiency, reducing hands-on time and increasing
-                    throughput.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle:
+                    </strong>{" "}
+                    The PLEXMAT 8 automates the western blotting process by
+                    managing each step, from sample preparation to final
+                    detection. The system automatically performs protein
+                    separation via gel electrophoresis, followed by transfer to
+                    a membrane. It then executes blocking, antibody incubation,
+                    washing, and detection steps. Automation ensures uniform
+                    processing for all strips, minimizing human error and
+                    providing consistent, high-quality results. Its automated
+                    operation boosts lab efficiency, reducing hands-on time and
+                    increasing throughput.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful:</strong> The PLEXMAT 8 is
-                    ideal for clinical diagnostic laboratories, research
-                    institutions, and specialized testing facilities that
-                    require high-throughput, accurate processing of immunoblots.
-                    It is particularly beneficial for labs conducting autoimmune
-                    testing (e.g., ANA profiles), liver function diagnostics,
-                    and other immunological assays. The system's fully automated
-                    functionality makes it a perfect choice for labs seeking to
-                    enhance productivity and reduce manual labor.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful:
+                    </strong>{" "}
+                    The PLEXMAT 8 is ideal for clinical diagnostic laboratories,
+                    research institutions, and specialized testing facilities
+                    that require high-throughput, accurate processing of
+                    immunoblots. It is particularly beneficial for labs
+                    conducting autoimmune testing (e.g., ANA profiles), liver
+                    function diagnostics, and other immunological assays. The
+                    system's fully automated functionality makes it a perfect
+                    choice for labs seeking to enhance productivity and reduce
+                    manual labor.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         ANA Test Profile: Automates the processing of
                         antinuclear antibody tests, providing accurate results
@@ -2406,34 +2544,34 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   High Efficiency: The ability to process multiple strips
                   simultaneously increases lab productivity and reduces
                   turnaround time.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Automation and Precision: Automating each step of the western
                   blot process ensures consistency and reduces manual errors.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Versatile Testing Capabilities: Supports a wide range of
                   diagnostic tests, making it adaptable to various clinical
                   applications, including autoimmune and liver profiles.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Space-Saving Design: The compact footprint of the PLEXMAT 8
                   makes it easy to integrate into labs of any size, optimizing
                   workspace without compromising functionality.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Scalability: Whether your lab processes a few samples or high
                   volumes, the PLEXMAT 8 can scale to meet your needs without
                   sacrificing performance.
@@ -2447,35 +2585,35 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Increased Productivity: Automated operation allows lab
                   technicians to focus on other tasks while the PLEXMAT 8
                   handles western blot processing, improving overall workflow.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Consistent and Accurate Results: Automation ensures uniformity
                   in processing, delivering reliable and reproducible results
                   across all tests.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Cost-Effective Operation: Reduces the need for manual labor,
                   lowering operational costs and minimizing the risk of repeat
                   testing due to errors.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   User-Friendly Interface: The intuitive touchscreen interface
                   simplifies operation, reducing training time and increasing
                   ease of use.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Multi-Profile Capability: Supports a broad range of test
                   profiles, including ANA, liver, infectious diseases, and more,
                   making it a versatile asset for any diagnostic lab.
@@ -2489,33 +2627,33 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Routine Calibration: Regular calibration ensures the PLEXMAT 8
                   maintains its accuracy and reliability over time.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Automated Maintenance Alerts: The system provides automatic
                   alerts for scheduled maintenance, ensuring optimal
                   performance.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Easy Access for Servicing: The design allows for easy access
                   to internal components, simplifying routine maintenance and
                   any necessary repairs.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Durable Construction: Built for long-term use, ensuring
                   consistent performance with minimal downtime.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Comprehensive Support: Backed by CPC Diagnostics’ technical
                   support team, ensuring your system operates at peak
                   performance throughout its lifespan.
@@ -2544,7 +2682,10 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle: How It Works?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle: How It Works?
+                    </strong>
                     The BRAHMS Biomarkers system operates by detecting specific
                     biomarkers in biological samples using advanced immunoassay
                     technology. Biomarkers are measured through sensitive and
@@ -2559,7 +2700,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful?
+                    </strong>
                     The BRAHMS Biomarkers system is ideal for clinical
                     diagnostic laboratories, hospital labs, and specialized
                     testing centers that require efficient and accurate
@@ -2573,8 +2717,11 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         Prenatal Screening: Detects biomarkers related to fetal
                         development, helping to identify potential genetic
@@ -2613,35 +2760,35 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   High Sensitivity: Accurately detects even low levels of
                   biomarkers, ensuring early diagnosis and better patient
                   outcomes.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Automated Efficiency: Reduces the need for manual labor,
                   streamlining lab processes and minimizing the risk of human
                   error.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Versatile Application: Supports a broad range of diagnostic
                   tests, making it adaptable to various medical fields,
                   including prenatal care.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Scalable: Capable of handling both small and large sample
                   volumes, making it suitable for labs with varying testing
                   demands.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Cost-Effective: Automation and high accuracy reduce the need
                   for repeat tests, lowering overall operational costs.
                 </p>
@@ -2654,35 +2801,35 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Improved Diagnostic Accuracy: High sensitivity and specificity
                   ensure reliable results, enhancing the quality of patient
                   care.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Faster Turnaround Times: Automated processes enable quick
                   results, allowing for prompt clinical decision-making and
                   treatment.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   User-Friendly Operation: The intuitive interface and automated
                   features make the system easy to use, reducing training time
                   and operational complexity.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Increased Productivity: With automated workflows and fast
                   processing speeds, labs can handle more samples in less time,
                   boosting productivity.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Long-Term Reliability: Built for durability, the BRAHMS
                   Biomarkers system requires minimal maintenance, ensuring
                   consistent performance and uptime.
@@ -2696,34 +2843,34 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Routine Calibration: Regular calibration ensures that the
                   system maintains its accuracy and reliability over time.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Automated Maintenance Alerts: The system provides alerts for
                   scheduled maintenance, ensuring timely upkeep without
                   disrupting workflows.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Easy Access for Servicing: Designed for easy access to
                   internal components, making routine maintenance and repairs
                   quick and efficient.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Minimal Downtime: Engineered for durability and longevity, the
                   BRAHMS Biomarkers system ensures continuous operation with
                   minimal interruptions.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Comprehensive Support: Supported by CPC Diagnostics' dedicated
                   technical team, ensuring that your system operates at peak
                   performance throughout its lifespan.
@@ -2759,31 +2906,41 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>How It Works:</strong> The IFLASH 1200 operates on
-                    the Chemiluminescence Immunoassay (CLIA) principle. It uses
-                    chemiluminescent reactions to detect the presence of
-                    specific antigens or antibodies in a sample. When a sample
-                    is introduced, it interacts with labeled antibodies,
-                    producing a light-emitting reaction. The emitted light is
-                    measured by a photomultiplier tube, providing precise
-                    quantification of the analyte concentration.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      How It Works:
+                    </strong>{" "}
+                    The IFLASH 1200 operates on the Chemiluminescence
+                    Immunoassay (CLIA) principle. It uses chemiluminescent
+                    reactions to detect the presence of specific antigens or
+                    antibodies in a sample. When a sample is introduced, it
+                    interacts with labeled antibodies, producing a
+                    light-emitting reaction. The emitted light is measured by a
+                    photomultiplier tube, providing precise quantification of
+                    the analyte concentration.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful:</strong> The IFLASH 1200 is
-                    perfect for clinical laboratories, hospitals, and diagnostic
-                    centers requiring high-throughput testing. It is especially
-                    beneficial for endocrinologists, immunologists, and
-                    healthcare professionals who need accurate and timely
-                    immunoassay results for diagnosing and managing patient
-                    conditions.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful:
+                    </strong>{" "}
+                    The IFLASH 1200 is perfect for clinical laboratories,
+                    hospitals, and diagnostic centers requiring high-throughput
+                    testing. It is especially beneficial for endocrinologists,
+                    immunologists, and healthcare professionals who need
+                    accurate and timely immunoassay results for diagnosing and
+                    managing patient conditions.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>Thyroid function testing</li>
                       <li>Hormone level assessment</li>
                       <li>Infectious disease screening</li>
@@ -2914,25 +3071,39 @@ const products = [
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
                     <strong className="text-nowrap">How It Works:</strong>
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
-                        <strong>Sample Preparation:</strong> Samples are loaded
-                        into the analyzer.
+                        <strong className="text-lg font-semibold">
+                          {" "}
+                          Sample Preparation:
+                        </strong>{" "}
+                        Samples are loaded into the analyzer.
                       </li>
                       <li>
-                        <strong>Reaction:</strong> The analyzer mixes the
-                        samples with specific reagents to trigger a
-                        chemiluminescent reaction.
+                        <strong className="text-lg font-semibold">
+                          {" "}
+                          Reaction:
+                        </strong>{" "}
+                        The analyzer mixes the samples with specific reagents to
+                        trigger a chemiluminescent reaction.
                       </li>
                       <li>
-                        <strong>Detection:</strong> Light emitted from the
-                        reaction is measured, and the intensity correlates with
-                        the concentration of the target analyte.
+                        <strong className="text-lg font-semibold">
+                          {" "}
+                          Detection:
+                        </strong>{" "}
+                        Light emitted from the reaction is measured, and the
+                        intensity correlates with the concentration of the
+                        target analyte.
                       </li>
                       <li>
-                        <strong>Results:</strong> Data is processed and
-                        displayed on the touchscreen interface, and results can
-                        be integrated into LIS systems for further analysis.
+                        <strong className="text-lg font-semibold">
+                          {" "}
+                          Results:
+                        </strong>{" "}
+                        Data is processed and displayed on the touchscreen
+                        interface, and results can be integrated into LIS
+                        systems for further analysis.
                       </li>
                     </ul>
                   </td>
@@ -2950,7 +3121,7 @@ const products = [
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
                     <strong className="text-nowrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc pl-5 text-lg">
                       <li>Thyroid function testing</li>
                       <li>Hormone level measurement</li>
                       <li>Infectious disease detection</li>
@@ -3032,23 +3203,23 @@ const products = [
             {/* Maintenance and Care List */}
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Routine calibration and quality control checks.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Cleaning and inspection of reagent and sample handling
                   components.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Software updates and troubleshooting as needed.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Scheduled servicing by authorized technicians to maintain peak
                   performance.
                 </p>
@@ -3115,7 +3286,7 @@ const products = [
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
                     <strong className="text-nowrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         Thyroid Function Testing: The iFlash 3000 excels in
                         performing thyroid assays, providing accurate and rapid
@@ -3304,7 +3475,7 @@ const products = [
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
                     <strong className="text-nowrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         Prenatal Screening: Accurately detects biomarkers
                         associated with chromosomal abnormalities, aiding in
@@ -3500,7 +3671,7 @@ const products = [
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
                     <strong className="text-nowrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         Clinical Diagnostics: Testing for infectious diseases,
                         autoimmune disorders, and allergies.
@@ -3652,33 +3823,42 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle:</strong> The Euroblot One
-                    automates the immunoblotting process, detecting specific
-                    proteins in a sample. The system handles the entire process,
-                    from sample incubation to washing and signal detection.
-                    After applying the sample, it automates the incubation and
-                    washing steps, ensuring uniformity. Results are detected
-                    through chemiluminescent or colorimetric methods, depending
-                    on the assay, and analyzed automatically. This automation
-                    minimizes human error and ensures consistent results every
-                    time.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle:
+                    </strong>{" "}
+                    The Euroblot One automates the immunoblotting process,
+                    detecting specific proteins in a sample. The system handles
+                    the entire process, from sample incubation to washing and
+                    signal detection. After applying the sample, it automates
+                    the incubation and washing steps, ensuring uniformity.
+                    Results are detected through chemiluminescent or
+                    colorimetric methods, depending on the assay, and analyzed
+                    automatically. This automation minimizes human error and
+                    ensures consistent results every time.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful:</strong> The Euroblot One is
-                    ideal for clinical diagnostic laboratories, research
-                    facilities, and specialized testing centers that require
-                    automated immunoblot processing. This system is particularly
-                    beneficial for labs performing high volumes of immunoblot
-                    assays, where accuracy and efficiency are critical for
-                    delivering timely results.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful:
+                    </strong>{" "}
+                    The Euroblot One is ideal for clinical diagnostic
+                    laboratories, research facilities, and specialized testing
+                    centers that require automated immunoblot processing. This
+                    system is particularly beneficial for labs performing high
+                    volumes of immunoblot assays, where accuracy and efficiency
+                    are critical for delivering timely results.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         Autoimmune Disease Diagnostics: Automates the detection
                         of autoimmune markers, offering accurate and reliable
@@ -3714,31 +3894,31 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Enhanced Workflow Efficiency: Full automation reduces manual
                   labor and speeds up testing.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Precision and Accuracy: Consistent results are ensured through
                   automated processes, minimizing human error.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Versatile Assay Compatibility: Supports a broad range of
                   immunoblot assays, adaptable to various diagnostic needs.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Space-Saving Design: Compact design fits easily into labs with
                   limited space.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Scalability: Handles varying sample volumes, making it
                   suitable for both small and large labs.
                 </p>
@@ -3751,31 +3931,31 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Improved Productivity: Automation processes more tests in less
                   time, boosting productivity.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Cost-Effective Operation: Reduces manual intervention, cutting
                   labor costs and errors.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   User-Friendly Interface: Simplified software and interface
                   reduce the need for extensive training.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Accurate and Reliable Results: Delivers consistent,
                   high-quality results for confidence in diagnostics.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Versatile Applications: Compatible with a wide range of
                   assays, making it ideal for diagnostic and research labs.
                 </p>
@@ -3788,31 +3968,31 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Automated Maintenance Alerts: Provides alerts for routine
                   maintenance, ensuring the system remains in optimal condition.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Easy Access for Servicing: Simple access to internal
                   components, making maintenance and servicing efficient.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Low Maintenance Requirements: Built with durability,
                   minimizing the need for frequent maintenance.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Comprehensive Support: Backed by CPC Diagnostics’ expert
                   support team to maintain peak system efficiency.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Longevity: The robust design ensures long-term, reliable
                   performance.
                 </p>
@@ -3869,7 +4049,7 @@ const products = [
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
                     <strong className="text-nowrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         Autoimmune Disease Diagnostics: Automates detection of
                         autoimmune markers for quicker diagnosis.
@@ -4055,7 +4235,7 @@ const products = [
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
                     <strong className="text-nowrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         Immunofluorescence Assays: Visualizing antibodies in
                         diagnostic tests.
@@ -4194,16 +4374,120 @@ const products = [
         image: [euroPattern],
         title: "Europattern Microscope",
         section: "ifa",
-        shortdescription: "Europattern Microscope",
+        shortdescription:
+          "The EuroPattern Microscope is an advanced imaging system for automated pattern recognition in immunofluorescence testing, enhancing workflow efficiency and diagnostic precision.",
         description:
-          "Europattern Microscope is designed for advanced hematology testing, providing reliable and accurate results for various blood analysis applications.",
-        workPrinciple: "Advanced technology for accurate hematology testing.",
-        advantages:
-          "Reliable and accurate results for diverse blood analysis needs.",
-        benefits: "Ideal for comprehensive hematology diagnostics.",
-        mainAndCare:
-          "Routine maintenance required; adhere to operational guidelines.",
-        workServices: "Technical support available for setup and service.",
+          "The EuroPattern Microscope is an advanced imaging system designed for automated pattern recognition in immunofluorescence testing. With advanced technology, this microscope streamlines workflows and enhances diagnostic precision.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle: How It Works?
+                    </strong>
+                    EuroPattern Microscope uses automated image acquisition and
+                    pattern recognition software to analyze fluorescence signals
+                    accurately and objectively.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful?
+                    </strong>
+                    Ideal for laboratories performing autoimmune and infectious
+                    disease testing using immunofluorescence techniques.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
+                      <li>
+                        Diagnosing autoimmune diseases such as lupus and
+                        rheumatoid arthritis.
+                      </li>
+                      <li>
+                        Identifying infectious agents using fluorescent markers.
+                      </li>
+                      <li>
+                        Research applications in immunology and pathology.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  Automated pattern recognition ensures accurate identification
+                  of immunofluorescence patterns, reducing errors.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  High throughput capability processes up to 500 analysis
+                  positions in minimal time.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  Provides consistent and objective results by minimizing
+                  subjective variability.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  Seamlessly integrates with laboratory software, streamlining
+                  workflows.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  Regularly clean optical components to maintain image clarity.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  Update software for improved performance and compatibility.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  Schedule routine servicing to ensure long-term reliability.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         productBrochure: "path/to/Europattern Microscope-brochure.pdf",
         detailedSpecification:
           "Detailed specifications available upon request.",
@@ -4225,7 +4509,10 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle: How It Works?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle: How It Works?
+                    </strong>
                     The Fluoromat 50 automates the western blot process, a
                     technique used to detect specific proteins in a sample. The
                     system performs key steps such as gel electrophoresis,
@@ -4240,7 +4527,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful?
+                    </strong>
                     The Fluoromat 50 is ideal for clinical diagnostic
                     laboratories, research centers, and specialized testing
                     facilities that need to streamline their western blot
@@ -4252,8 +4542,11 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         ANA Test Profiles: Automates the detection of
                         antinuclear antibodies, aiding in the diagnosis of
@@ -4291,35 +4584,35 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Automated Workflow: Reduces manual labor and improves
                   consistency, leading to more accurate and reproducible results
                   across all tests.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Versatile Application: Supports a wide range of assays,
                   including autoimmune and liver profile diagnostics, making it
                   adaptable to various testing needs.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Compact Design: The Fluoromat 50's small footprint allows it
                   to fit easily into labs with limited space while still
                   providing full functionality.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   High Sensitivity: Fluorescence-based detection ensures high
                   sensitivity, allowing for the detection of even low-abundance
                   proteins.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Efficiency: Capable of processing multiple samples
                   simultaneously, reducing turnaround times and increasing lab
                   throughput.
@@ -4333,35 +4626,35 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Enhanced Productivity: Automation frees up lab technicians to
                   focus on other tasks while the Fluoromat 50 handles the
                   western blot process, boosting overall lab efficiency.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Accurate and Reproducible Results: The system's automation
                   ensures that every step is performed consistently, providing
                   high-quality results every time.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Cost-Effective Operation: Reducing manual labor and repeat
                   tests lowers operational costs, making the Fluoromat 50 a
                   cost-effective solution for laboratories.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   User-Friendly Design: The intuitive interface and easy-to-use
                   controls minimize the learning curve, allowing lab staff to
                   operate the system with ease.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Multi-Test Capability: Whether handling ANA test profiles,
                   liver profiles, or other immunoassays, the Fluoromat 50 is
                   versatile enough to meet the needs of diverse diagnostic
@@ -4376,34 +4669,34 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Routine Calibration: Regular calibration ensures that the
                   Fluoromat 50 maintains its accuracy and precision over time.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Automated Maintenance Alerts: The system provides automated
                   notifications for scheduled maintenance, ensuring consistent
                   performance without disrupting operations.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Easy Access for Servicing: Designed for easy access to
                   internal components, the Fluoromat 50 simplifies routine
                   maintenance and servicing.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Durable Construction: Built to last, the Fluoromat 50 provides
                   long-term reliability with minimal downtime, ensuring
                   continuous operation in busy labs.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Comprehensive Support: Supported by CPC Diagnostics' expert
                   technical team, ensuring your system operates at peak
                   performance throughout its lifespan.
@@ -4460,7 +4753,7 @@ const products = [
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
                     <strong className="text-nowrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         Clinical Diagnostics: Routine testing for infectious
                         diseases, autoimmune disorders, and allergies.
@@ -4612,36 +4905,46 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle:</strong> The Sprinter XL operates
-                    using advanced IFA automation technology, automating every
-                    step of the ImmunoFluorescence Assay process. The machine
-                    detects antigens in patient samples using
-                    fluorescent-labeled antibodies. The system automates the
-                    application, incubation, washing, and detection stages.
-                    Fluorescence signals are measured and quantified, delivering
-                    results with high precision. Additionally, the Sprinter XL
-                    offers full automation for ELISA tests, providing
-                    versatility in diagnostic applications and eliminating the
-                    need for separate processors.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle:
+                    </strong>{" "}
+                    The Sprinter XL operates using advanced IFA automation
+                    technology, automating every step of the ImmunoFluorescence
+                    Assay process. The machine detects antigens in patient
+                    samples using fluorescent-labeled antibodies. The system
+                    automates the application, incubation, washing, and
+                    detection stages. Fluorescence signals are measured and
+                    quantified, delivering results with high precision.
+                    Additionally, the Sprinter XL offers full automation for
+                    ELISA tests, providing versatility in diagnostic
+                    applications and eliminating the need for separate
+                    processors.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful:</strong> The Sprinter XL is
-                    ideal for clinical diagnostic laboratories, research
-                    institutions, and hospital labs that require high-volume,
-                    automated testing. This fully automatic ELISA and IFA
-                    processor is especially beneficial for facilities that need
-                    to optimize their workflows and enhance testing capabilities
-                    across a wide range of assays. Its dual functionality makes
-                    it valuable for labs that handle diverse testing
-                    requirements.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful:
+                    </strong>{" "}
+                    The Sprinter XL is ideal for clinical diagnostic
+                    laboratories, research institutions, and hospital labs that
+                    require high-volume, automated testing. This fully automatic
+                    ELISA and IFA processor is especially beneficial for
+                    facilities that need to optimize their workflows and enhance
+                    testing capabilities across a wide range of assays. Its dual
+                    functionality makes it valuable for labs that handle diverse
+                    testing requirements.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         Autoimmune Disease Diagnostics: Efficiently automates
                         detection of autoimmune markers for timely patient
@@ -4677,33 +4980,33 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Scalable Automation: Handles large volumes of samples, making
                   it suitable for labs with growing testing demands.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Precision and Reliability: Delivers consistent, high-quality
                   results, reducing variability and ensuring confidence in
                   diagnostic outcomes.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Versatile Testing Capabilities: Dual functionality allows the
                   Sprinter XL to handle both IFA and ELISA assays, enhancing
                   flexibility.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Minimized Manual Intervention: Reduces human error, improving
                   overall lab efficiency.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Optimized Workflow: Compact, space-saving design integrates
                   easily into lab setups without compromising performance.
                 </p>
@@ -4716,31 +5019,31 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Increased Productivity: High-throughput automation processes
                   more samples in less time, enhancing operational efficiency.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Improved Accuracy: Consistent results contribute to better
                   diagnostic accuracy and improved patient outcomes.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Cost-Effective Operation: Reduces labor costs and minimizes
                   the need for repeat testing, leading to overall savings.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   User-Friendly Design: Simplified interface and controls allow
                   quick operation with minimal training.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Multi-Purpose Application: Performs both IFA and ELISA tests
                   on a single platform, saving space and resources.
                 </p>
@@ -4753,31 +5056,31 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Automated Maintenance Alerts: Provides notifications for
                   routine maintenance to keep the system in optimal condition.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Easy Access for Servicing: Designed for quick and efficient
                   maintenance with easy access to internal components.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Low Maintenance Requirements: Durable construction minimizes
                   downtime and reduces the need for frequent repairs.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   User Manuals and Support: Detailed manuals and expert support
                   ensure proper maintenance procedures.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Long-Term Reliability: Built for consistent, long-term use
                   with minimal operational interruptions.
                 </p>
@@ -4815,23 +5118,34 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>How it Works:</strong> The ichroma™ II uses
-                    fluorescence-based detection to identify specific biomarkers
-                    in patient samples. It processes the samples rapidly,
-                    delivering results in just minutes.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      How it Works:
+                    </strong>{" "}
+                    The ichroma™ II uses fluorescence-based detection to
+                    identify specific biomarkers in patient samples. It
+                    processes the samples rapidly, delivering results in just
+                    minutes.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom:</strong> Suitable for hospitals, clinics,
-                    and diagnostic centers that need fast and accurate testing.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom:
+                    </strong>{" "}
+                    Suitable for hospitals, clinics, and diagnostic centers that
+                    need fast and accurate testing.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong> Ideal for tests such as cardiac
-                    markers, infectious diseases, and other critical
-                    diagnostics.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>{" "}
+                    Ideal for tests such as cardiac markers, infectious
+                    diseases, and other critical diagnostics.
                   </td>
                 </tr>
               </tbody>
@@ -4941,22 +5255,33 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>How it Works:</strong> The ichroma™ 3 utilizes
-                    fluorescence-based technology to detect specific biomarkers
-                    in patient samples. It processes samples quickly, providing
-                    results in minutes.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      How it Works:
+                    </strong>{" "}
+                    The ichroma™ 3 utilizes fluorescence-based technology to
+                    detect specific biomarkers in patient samples. It processes
+                    samples quickly, providing results in minutes.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom:</strong> Ideal for hospitals, clinics, and
-                    diagnostic centers requiring rapid test results.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom:
+                    </strong>{" "}
+                    Ideal for hospitals, clinics, and diagnostic centers
+                    requiring rapid test results.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong> Suitable for various tests
-                    including cardiac markers, infectious diseases, and more.
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>{" "}
+                    Suitable for various tests including cardiac markers,
+                    infectious diseases, and more.
                   </td>
                 </tr>
               </tbody>
@@ -5070,21 +5395,30 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle: How It Works?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle: How It Works?
+                    </strong>
                     xMAP® Technology.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful?
+                    </strong>
                     Transplant Immunology, Molecular Oncology, and
                     Immunogenetics
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>500 bead count</li>
                       <li>Can use to know Extended coverage</li>
                       <li>
@@ -5103,22 +5437,22 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Programmable and automated maintenance routines
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Intuitive graphical user interface
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Enhanced data archiving
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Customizable import/export options simplify data exchange
                 </p>
               </li>
@@ -5130,24 +5464,24 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Multiplexing capability with 500 unique bead regions for
                   increased analyte detection
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Accelerated acquisition with dual sample fluidics paths and
                   increased syringe injection rate
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   High throughput testing with reduced turnaround time
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Compatible with classic LABScan™ 100 based assays and new
                   LABScan3D specific assays
                 </p>
@@ -5180,21 +5514,30 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle: How It Works?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle: How It Works?
+                    </strong>
                     xMAP® Technology.
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful?
+                    </strong>
                     Transplant Immunology, Molecular Oncology, and
                     Immunogenetics
                   </td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>100 different tests in a single reaction volume</li>
                       <li>
                         Antibody screen and Mid-resolution HLA can be performed
@@ -5212,17 +5555,17 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Sample Probe Height Adjustment Kit
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Automated Maintenance Plate
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Heater Block (96-well plate)
                 </p>
               </li>
@@ -5234,12 +5577,12 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Flexible Multiplexing Technology
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Higher sample throughput with a 96-well plate read time of
                   only 45 minutes.
                 </p>
@@ -5278,7 +5621,10 @@ const products = [
               <tbody>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Working Principle: How It Works?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Working Principle: How It Works?
+                    </strong>
                     The SORTPRO SAMPLE SORTER utilizes barcode scanning
                     technology to identify samples and sort them based on
                     pre-set criteria. After scanning, the system automatically
@@ -5293,7 +5639,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>For Whom It Is Useful?</strong>
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      For Whom It Is Useful?
+                    </strong>
                     The SORTPRO SAMPLE SORTER is ideal for clinical and
                     diagnostic laboratories, hospital labs, and research
                     facilities that need to manage high volumes of samples
@@ -5307,8 +5656,11 @@ const products = [
                 </tr>
                 <tr>
                   <td className="px-4 py-2 text-gray-700">
-                    <strong>Use Cases:</strong>
-                    <ul className="list-disc pl-5">
+                    <strong className="text-lg font-semibold">
+                      {" "}
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
                       <li>
                         High-Volume Sample Sorting: Automates sorting in
                         high-demand environments, reducing turnaround times and
@@ -5346,35 +5698,35 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Increased Efficiency: Automates the sorting of large volumes
                   of samples, reducing manual intervention and speeding up
                   processing.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Error Minimization: Automation ensures accurate sorting,
                   reducing the risk of human errors and ensuring that every
                   sample reaches its correct destination.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Customizable Solutions: The SORTPRO SAMPLE SORTER can be
                   tailored to meet the specific workflow requirements of your
                   lab, ensuring flexibility and scalability as your lab grows.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Compact Design: The space-saving design fits easily into
                   laboratories with limited space, allowing you to optimize your
                   workspace without sacrificing functionality.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   User-Friendly Operation: Intuitive controls and a simple
                   interface make it easy to operate, reducing the need for
                   extensive training.
@@ -5388,35 +5740,35 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Enhanced Productivity: By automating the sorting process, the
                   SORTPRO SAMPLE SORTER allows lab technicians to focus on more
                   complex tasks, boosting overall lab productivity.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Consistent and Reliable Results: Automation ensures that every
                   sample is sorted correctly, providing reliability and
                   consistency in laboratory operations.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Reduced Labor Costs: Automation lowers the need for manual
                   sorting, reducing labor costs and allowing staff to focus on
                   higher-value tasks.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Scalability: As your lab grows, the SORTPRO SAMPLE SORTER can
                   scale to meet increasing demands, ensuring continued
                   efficiency and productivity.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Low Maintenance: The system is designed for long-term
                   reliability with minimal maintenance, reducing downtime and
                   ensuring consistent performance.
@@ -5430,33 +5782,33 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Routine Calibration: Regular calibration is essential to
                   maintain accuracy and efficiency over time.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Automated Maintenance Alerts: The system provides
                   notifications for scheduled maintenance, ensuring that it
                   remains in optimal working condition.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Easy Access for Servicing: The SORTPRO SAMPLE SORTER is
                   designed for easy access to internal components, simplifying
                   routine maintenance and repairs.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Durable Construction: Built for long-term use, ensuring
                   minimal downtime and consistent performance.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base font-semibold text-gray-800">
+                <p className="text-base font-medium text-gray-800">
                   Comprehensive Support: Supported by CPC Diagnostics’ technical
                   team, ensuring optimal performance and long-lasting
                   reliability.
