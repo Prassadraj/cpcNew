@@ -458,14 +458,119 @@ const products = [
         image: [ichemPrime],
         section: "reagents",
         title: "Ichem Prime",
-        shortdescription: "Reagents Content",
+        shortdescription:
+          "The iChem Prime System Pack offers high-quality reagents for the TurboChem Prime analyzer, ensuring precise and reliable clinical chemistry testing for modern diagnostic labs.",
         description:
-          "System pack reagents specifically designed for use with the TURBOCHEM PRIME analyzer, ensuring consistent and accurate results.",
-        workPrinciple:
-          "High-quality reagents optimized for the TURBOCHEM PRIME system.",
-        advantages: "Ensures consistent performance and reliable results.",
-        benefits: "Improves the accuracy of biochemical analyses.",
-        mainAndCare: "Store according to manufacturer instructions.",
+          "The iChem Prime System Pack is a sophisticated solution designed for use with the TurboChem Prime analyzer. These high-quality reagents deliver precision in clinical chemistry testing, ensuring reliable and consistent results. Engineered to meet the demanding requirements of modern diagnostic laboratories, the iChem Prime System Pack stands as a hallmark of accuracy and efficiency.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle: How It Works?</strong>
+                    The iChem Prime operates on photometric and colorimetric
+                    principles to accurately quantify analytes for precise
+                    health diagnostics. This advanced technology ensures
+                    reliable and consistent clinical chemistry results.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful?</strong>
+                    Ideal for clinical laboratories, diagnostic centers, and
+                    healthcare institutions requiring high-throughput and
+                    dependable biochemistry testing.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        Monitoring routine biochemistry profiles like glucose,
+                        lipids, and enzymes.
+                      </li>
+                      <li>
+                        Managing chronic diseases such as diabetes,
+                        cardiovascular conditions, and liver disorders.
+                      </li>
+                      <li>
+                        Supporting urgent and critical care diagnostics for
+                        timely patient management.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Guaranteed Number of Tests: Ensures zero wastage by providing
+                  a fixed number of tests per reagent pack.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  On-board and Calibration Stability: Maintains consistent
+                  performance during use and storage.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Easy Inventory Management: Simplifies reagent tracking and
+                  replenishment.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Comprehensive Test Menu: Offers a wide range of biochemistry
+                  assays, including Urea Kinetic, Total Protein, and Bilirubin
+                  Direct tests.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Store reagents under recommended conditions to maintain
+                  stability and performance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Regularly calibrate the TurboChem Prime system to ensure
+                  optimal accuracy.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Follow the manufacturer’s guidelines for proper reagent
+                  handling and disposal.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices: "Technical support for reagent use available.",
         productBrochure: "path/to/ichem-prime-brochure.pdf",
         detailedSpecification: "Specifications available on request.",
@@ -476,15 +581,109 @@ const products = [
         id: "6",
         section: "reagents",
         image: [ichemMagna1],
-        shortdescription: "Ichem Content",
+        shortdescription:
+          "The iChem Magna is a high-performance biochemical testing solution, delivering precise and reliable results for high-volume clinical laboratories.",
         title: "Ichem Magna",
         description:
-          "Guaranteed number of tests ensuring zero wastage and consistent quality for the TURBOCHEM MAGNA analyzer.",
-        workPrinciple:
-          "Reagents designed for use with the TURBOCHEM MAGNA analyzer.",
-        advantages: "Reduces wastage and ensures consistent test quality.",
-        benefits: "Provides reliable results with minimal waste.",
-        mainAndCare: "Follow storage and handling instructions.",
+          "The iChem Magna is an advanced biochemical testing solution designed for a wide range of diagnostic applications. With its advanced formulation, iChem Magna ensures precise and reliable results, making it a trusted choice for high-volume clinical laboratories.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle: How It Works?</strong>
+                    iChem Magna operates on enzymatic and photometric reactions
+                    to measure biochemical parameters with high efficiency and
+                    accuracy.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful?</strong>
+                    Designed for laboratories requiring high-throughput
+                    solutions for routine and specialized biochemistry tests.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        Routine health check-ups to assess organ function.
+                      </li>
+                      <li>Diagnosing and monitoring chronic diseases.</li>
+                      <li>
+                        Research applications in biochemistry and clinical
+                        studies.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Enhanced accuracy and reliability in biochemical testing.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Increased on-board stability and linearity across a wide range
+                  of concentrations.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Guaranteed number of tests per reagent pack ensures zero
+                  wastage.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Delivers precise and consistent results for accurate
+                  diagnostics.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Store at specified temperatures to maintain reagent efficacy.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Regularly inspect for proper storage conditions.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Ensure proper calibration of equipment for consistent
+                  performance.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
         workServices: "Customer support available for reagent-related queries.",
         productBrochure: "path/to/ichem-magna-brochure.pdf",
         detailedSpecification: "Available upon request.",
@@ -495,14 +694,114 @@ const products = [
         id: "7",
         section: "reagents",
         image: [identiImmuno],
+        shortdescription:
+          "Identi Immuno Turbidimetry Reagents provide precise and sensitive results for detecting critical biomarkers in immunoassay testing.",
         title: "Identi Immuno Turbidimetry Reagents",
         description:
-          "Homogenized mixture makes antisera ideal for automation, providing accurate and reliable immuno-turbidimetric results.",
-        workPrinciple:
-          "Specially formulated reagents for immuno-turbidimetric assays.",
-        advantages: "Enhances accuracy and reliability in automated systems.",
-        benefits: "Improves the quality of immuno-turbidimetric tests.",
-        mainAndCare: "Store as per the manufacturer's guidelines.",
+          "Identi Immuno Turbidimetry Reagents are premium solutions for immunoassay testing using turbidimetric methods. These reagents are designed to deliver precise and sensitive results, enabling the detection of critical biomarkers for effective diagnosis and treatment planning.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle: How It Works?</strong>
+                    Identi Immuno Turbidimetry Reagents operate on turbidimetry,
+                    using antigen-antibody complexes to quantify proteins and
+                    biomarkers accurately.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful?</strong>
+                    Perfect for diagnostic laboratories conducting immunoassays
+                    for conditions like inflammation, cardiovascular risks, and
+                    autoimmune diseases.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        Measuring proteins such as CRP, ferritin, and rheumatoid
+                        factors.
+                      </li>
+                      <li>
+                        Monitoring inflammatory and autoimmune conditions.
+                      </li>
+                      <li>
+                        Supporting clinical research studies in immunology.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Provides high-quality turbidimetric measurements for reliable
+                  results.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Optimized for automation, enhancing laboratory efficiency.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Offers improved sensitivity and linearity for precise
+                  quantification across a range of concentrations.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Includes comprehensive test kits catering to diverse
+                  diagnostic needs.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Follow storage and handling instructions for optimal
+                  performance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Perform routine equipment maintenance to ensure precise
+                  measurements.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Dispose of reagents according to regulatory guidelines.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices: "Technical assistance available.",
         productBrochure: "path/to/identi-immuno-turbidimetry-brochure.pdf",
         detailedSpecification: "Detailed specifications available on request.",
@@ -514,13 +813,107 @@ const products = [
         section: "reagents",
         image: [identiReagents],
         title: "Identi Reagents",
+        shortdescription:
+          "The Identi Reagents Kit offers reliable and easy-to-use solutions for accurate diagnostic testing in clinical laboratories.",
         description:
-          "High quality reagents manufactured to international standards, suitable for a wide range of biochemical tests.",
-        workPrinciple:
-          "Manufactured to meet high international standards for biochemical testing.",
-        advantages: "High consistency and quality in testing.",
-        benefits: "Suitable for a broad range of biochemical analyses.",
-        mainAndCare: "Proper storage required to maintain quality.",
+          "The Identi Reagents Kit is a versatile solution for clinical laboratories, offering a comprehensive range of reagents to facilitate accurate diagnostic testing. Its reliability and ease of use make it an indispensable tool for healthcare professionals.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle: How It Works?</strong>
+                    Identi Reagents Kit operates on enzymatic, photometric, and
+                    colorimetric methods to precisely quantify various analytes.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful?</strong>
+                    Designed for use in clinical labs performing routine and
+                    specialized tests.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>Conducting metabolic and organ function panels.</li>
+                      <li>Supporting chronic disease management.</li>
+                      <li>
+                        Enhancing diagnostic precision in critical care
+                        settings.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Ready-to-use liquid stable reagents simplify laboratory
+                  workflows.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Available in varied pack sizes to cater to specific customer
+                  needs.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Manufactured to international standards, ensuring reliable and
+                  accurate results.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Includes comprehensive test kits for diverse diagnostic
+                  requirements.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Ensure proper storage conditions for reagent stability.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Regular calibration of analyzers is essential for optimal
+                  results.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Adhere to best practices for reagent preparation and disposal.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices: "Support available for reagent use.",
         productBrochure: "path/to/identi-reagents-brochure.pdf",
         detailedSpecification: "Specifications can be provided upon request.",
@@ -530,15 +923,107 @@ const products = [
         allover: "Reagents",
         id: "9",
         section: "reagents",
+        shortdescription:
+          "The Chemistry Calibrator and Controls ensure accuracy and reliability in diagnostic testing by calibrating and validating clinical chemistry analyzers.",
         image: [chemistryCollibrator],
         title: "Chemistry Calibrator and Chemistry Controls",
         description:
-          "Reconstituted stability of up to 7 days at 2°C – 8°C or 4 weeks at -20°C, ensuring precise calibration and control in biochemical testing.",
-        workPrinciple:
-          "Calibrators and controls for maintaining accuracy in biochemical assays.",
-        advantages: "Ensures long-term stability and precise calibration.",
-        benefits: "Maintains accuracy and reliability in testing.",
-        mainAndCare: "Follow storage instructions to maintain stability.",
+          "The Chemistry Calibrator and Chemistry Controls are essential tools for ensuring accuracy and reliability in diagnostic testing. These solutions are designed to calibrate and validate clinical chemistry analyzers, providing confidence in test results.",
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Working Principle: How It Works?</strong>
+                    Chemistry Calibrator and Chemistry Controls ensure precise
+                    diagnostics by providing reference points and verifying
+                    system performance against expected values.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>For Whom It Is Useful?</strong>
+                    Essential for diagnostic labs seeking high accuracy in
+                    clinical chemistry testing.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <strong>Use Cases:</strong>
+                    <ul className="list-disc pl-5">
+                      <li>
+                        Calibrating analyzers for routine biochemistry tests.
+                      </li>
+                      <li>Validating test accuracy and reliability.</li>
+                      <li>Meeting regulatory compliance standards.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Utilizes lyophilized human serum for enhanced stability.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Provides extended shelf life when stored at 2°C – 8°C.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Ensures consistent and accurate calibration and control for
+                  clinical chemistry tests.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Offers flexible storage options, with reconstituted stability
+                  of up to 7 days at 2°C – 8°C or 4 weeks at -20°C.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Store under recommended conditions to maintain stability.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Follow protocols for calibration and control preparation.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-semibold text-gray-800">
+                  Regularly review analyzer performance to detect
+                  inconsistencies.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices:
           "Technical support available for calibration and control.",
         productBrochure: "path/to/chemistry-calibrator-brochure.pdf",
