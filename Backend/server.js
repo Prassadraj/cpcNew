@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
     user: "sivakumar.c@cpcdiagnostics.in", // Your Gmail address
-    pass: "wxxpjxpfqjvf", // Your generated app password
+    pass: "wxxpjxpfqjvfuiwb", // Your generated app password
   },
 });
 
