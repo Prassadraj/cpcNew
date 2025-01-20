@@ -42,7 +42,7 @@ import PLUS1 from "../AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
 import Analyzer1 from "../AllDatas/ProductImages/Hematology/Analyzer/product1.webp";
 import Analyzer2 from "../AllDatas/ProductImages/Hematology/Analyzer/product2.webp";
 import DYNACOUNT1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT 5D/product1.png";
-import SedratePro1 from "../AllDatas/ProductImages/Hematology/SedratePro/product1.png";
+import SedratePro1 from "../AllDatas/ProductImages/Hematology/SedratePro/product1.webp";
 import SedratePro2 from "../AllDatas/ProductImages/Hematology/SedratePro/product2.jpg";
 import SedratePro3 from "../AllDatas/ProductImages/Hematology/SedratePro/product3.jpg";
 // Immunology;
