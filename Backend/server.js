@@ -13,8 +13,8 @@ app.use(express.json());
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "prassadpr111@gmail.com", // Your Gmail address
-    pass: "tfwmacefxxmsnswo", // Your generated app password
+    user: "sivakumar.c@cpcdiagnostics.in", // Your Gmail address
+    pass: "wxxpjxpfqjvf", // Your generated app password
   },
 });
 
@@ -23,7 +23,7 @@ app.post("/send-email", async (req, res) => {
   try {
     const info = await transporter.sendMail({
       from: email, // Sender address
-      to: "prassadpr111@gmail.com", // Your receiving email address
+      to: "sivakumar.c@cpcdiagnostics.in", // Your receiving email address
       subject: "From website", // Subject line
       text: message, // Plain text body
       html: `
