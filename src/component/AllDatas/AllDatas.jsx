@@ -105,38 +105,40 @@ const products = [
           "The Turbochem Magna is a high-performance, fully automated biochemistry analyzer designed for medium to large laboratories. It offers advanced technology for precise and efficient diagnostic testing.",
         workPrinciple: (
           <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base text-gray-800 text-nowrap font-semibold">
-                  How it Works{" "}
-                </p>
-                <p className="text-base text-black">
-                  The analyzer employs photometric technology to measure the
-                  intensity of light absorbed by samples, providing accurate
-                  biochemical measurements.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base text-gray-800 text-nowrap font-semibold">
-                  For Whom
-                </p>
-                <p className="text-base text-black">
-                  Designed for large hospitals and diagnostic centers requiring
-                  extensive test menus.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base text-gray-800 text-nowrap font-semibold">
-                  Use Cases
-                </p>
-                <p className="text-base text-black">
-                  Performs a variety of tests including liver function, kidney
-                  function, lipid profiles, and more.
-                </p>
-              </li>
-            </ul>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">
+                      How it Works:
+                    </strong>{" "}
+                    The analyzer employs photometric technology to measure the
+                    intensity of light absorbed by samples, providing accurate
+                    biochemical measurements.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">For Whom:</strong>{" "}
+                    Designed for large hospitals and diagnostic centers
+                    requiring extensive test menus.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">
+                      Use Cases:
+                    </strong>{" "}
+                    Performs a variety of tests including liver function, kidney
+                    function, lipid profiles, and more.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         ),
+
         advantages: (
           <div>
             <ul className="space-y-6 font-poppins">
@@ -230,40 +232,39 @@ const products = [
           "The Turbochem Prime is a fully automatic biochemistry analyzer ideal for small to medium-sized laboratories, providing a blend of efficiency, reliability, and ease of use.",
         workPrinciple: (
           <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base text-black font-normal text-nowrap">
-                  {" "}
-                  - How it Works
-                </p>
-                <p className="text-base text-black">
-                  Utilizes photometric and ion-selective electrode (ISE) methods
-                  for analyzing biochemical substances in samples.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base text-black font-normal text-nowrap">
-                  {" "}
-                  - For Whom
-                </p>
-                <p className="text-base text-black">
-                  Ideal for clinics, small hospitals, and diagnostic labs with
-                  moderate testing needs.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base text-black font-normal text-nowrap">
-                  {" "}
-                  - Use Cases
-                </p>
-                <p className="text-base text-black">
-                  Conducts a variety of tests such as metabolic panels,
-                  electrolyte measurements, and enzymatic assays.
-                </p>
-              </li>
-            </ul>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">
+                      How it Works:
+                    </strong>{" "}
+                    Utilizes photometric and ion-selective electrode (ISE)
+                    methods for analyzing biochemical substances in samples.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">For Whom:</strong>{" "}
+                    Ideal for clinics, small hospitals, and diagnostic labs with
+                    moderate testing needs.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">
+                      Use Cases:
+                    </strong>{" "}
+                    Conducts a variety of tests such as metabolic panels,
+                    electrolyte measurements, and enzymatic assays.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         ),
+
         advantages: (
           <div>
             <ul className="space-y-6 font-poppins">
@@ -375,40 +376,39 @@ const products = [
           "The Turbostat Plus is a semi-automated biochemistry analyzer designed for rapid and precise biochemical testing, suitable for small to mid-sized laboratories.",
         workPrinciple: (
           <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base text-black font-normal text-nowrap">
-                  {" "}
-                  - How it Works
-                </p>
-                <p className="text-base text-black">
-                  Employs photometric detection to analyze biochemical reactions
-                  and provide precise measurements.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base text-black font-normal text-nowrap">
-                  {" "}
-                  - For Whom
-                </p>
-                <p className="text-base text-black">
-                  Perfect for small to mid-sized laboratories needing quick
-                  turnaround times.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base text-black font-normal text-nowrap">
-                  {" "}
-                  - Use Cases
-                </p>
-                <p className="text-base text-black">
-                  Commonly used for routine chemistry tests, specific protein
-                  assays, and urgent biochemical assessments.
-                </p>
-              </li>
-            </ul>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">
+                      How it Works:
+                    </strong>{" "}
+                    Employs photometric detection to analyze biochemical
+                    reactions and provide precise measurements.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">For Whom:</strong>{" "}
+                    Perfect for small to mid-sized laboratories needing quick
+                    turnaround times.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">
+                      Use Cases:
+                    </strong>{" "}
+                    Commonly used for routine chemistry tests, specific protein
+                    assays, and urgent biochemical assessments.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         ),
+
         advantages: (
           <div>
             <ul className="space-y-6 font-poppins">
@@ -1473,7 +1473,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base text-black font-normal text-nowrap">
                   {" "}
-                  - How it Works
+                  <span className="font-semibold text-lg">How it Works</span>
                 </p>
                 <p className="text-base text-black">
                   The Jokoh EX-D uses ion-selective electrode (ISE) technology
@@ -1492,7 +1492,7 @@ const products = [
             <table className="min-w-full table-auto">
               <thead>
                 <tr>
-                  <th className="px-4 py-2 text-left text-black font-normal">
+                  <th className="px-4 py-2 text-left text-black font-semibold">
                     For Whom It Is Useful
                   </th>
                 </tr>
@@ -1515,7 +1515,7 @@ const products = [
             <table className="min-w-full table-auto mt-6">
               <thead>
                 <tr>
-                  <th className="px-4 py-2 text-left text-black font-normal">
+                  <th className="px-4 py-2 text-left text-black font-semibold">
                     Use Cases
                   </th>
                 </tr>
@@ -1687,16 +1687,138 @@ const products = [
         section: "withoutautoloader",
         image: [image1],
         title: "Jokoh Ex-Ds Electrolyte Analyzer",
-        shortdescription: "Jokoh Ex-D Electrolyte Analyzer",
+        shortdescription:
+          "The EX-Ds Electrolyte Analyzer offers reliable and efficient high-throughput testing, providing precise results and seamless integration for both routine and specialized diagnostic tests, optimizing laboratory workflows.",
         description:
-          "Advanced electrolyte analyzer providing precise measurements of various electrolytes in blood samples, essential for clinical diagnostics.",
-        workPrinciple:
-          "Utilizes ion-selective electrodes to measure electrolyte concentrations in blood samples.",
-        advantages: "High accuracy and reliability in electrolyte measurement.",
-        benefits:
-          "Critical for diagnosing and managing electrolyte imbalances in patients.",
-        mainAndCare:
-          "Regular calibration and maintenance required; follow operational guidelines for optimal performance.",
+          "The EX-Ds electrolyte analyzer is a reliable and efficient solution for high-throughput laboratories. Its precision and seamless integration make it ideal for routine and specialized diagnostic tests, ensuring accurate results and optimized workflows.",
+
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">
+                      Working Principle: How It Works?
+                    </strong>
+                    The EX-Ds performs electrolyte analysis by processing
+                    diverse sample types with precision sensors and advanced
+                    automation. It integrates smoothly with laboratory systems
+                    for efficient data exchange and reporting.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">
+                      For Whom It Is Useful?
+                    </strong>
+                    Ideal for laboratories requiring reliable and
+                    high-performance systems.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
+                      <li>Electrolyte analysis for accurate diagnostics.</li>
+                      <li>Routine screening for various medical conditions.</li>
+                      <li>
+                        High-volume sample processing for large laboratories.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - High Performance: Handles large sample volumes efficiently.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Precision: Delivers reproducible and accurate results.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Adaptable Design: Suitable for various laboratory workflows.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Integrated Workflow: Features LIS connectivity for seamless
+                  data management.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Boosts productivity by reducing manual operations.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Shortens turnaround times with automated processes.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Provides scalability for expanding diagnostic needs.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Enhances operational accuracy through advanced technology.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Regularly clean and inspect key components as per the user
+                  manual.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Protect the system from power surges by using a stabilizer.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Ensure proper calibration and timely software updates.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Use recommended consumables to maintain performance
+                  consistency.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices:
           "Technical support and service options available for system maintenance and troubleshooting.",
         productBrochure: "path/to/jokoh-ex-d-brochure.pdf",
@@ -1738,7 +1860,10 @@ const products = [
                   <td className="px-4 py-2 text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
-                      How it Works:
+                      <span className="font-semibold text-lg">
+                        How it Works
+                      </span>
+                      :
                     </strong>{" "}
                     Employs 3D imaging to capture detailed blood cell images,
                     facilitating accurate counting and differentiation.
@@ -1884,7 +2009,10 @@ const products = [
                   <td className="px-4 py-2 text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
-                      How it Works:
+                      <span className="font-semibold text-lg">
+                        How it Works
+                      </span>
+                      :
                     </strong>{" "}
                     The analyzer captures detailed 3D images of blood cells to
                     accurately count and differentiate them. It processes
@@ -2031,7 +2159,10 @@ const products = [
                   <td className="px-4 py-2 text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
-                      How it Works:
+                      <span className="font-semibold text-lg">
+                        How it Works
+                      </span>
+                      :
                     </strong>{" "}
                     The analyzer employs advanced 5-part differential technology
                     to accurately count and differentiate blood cells. It
@@ -2180,7 +2311,10 @@ const products = [
                   <td className="px-4 py-2 text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
-                      How it Works:
+                      <span className="font-semibold text-lg">
+                        How it Works
+                      </span>
+                      :
                     </strong>{" "}
                     The analyzer uses infrared scanning technology to measure
                     ESR, generating a 3-phase sedimentation curve. It processes
@@ -2321,15 +2455,148 @@ const products = [
         shortdescription:
           "An advanced ESR analyzer for accurate and rapid erythrocyte sedimentation rate (ESR) testing.",
         description:
-          "The Sedrate Pro is designed for precise and efficient ESR testing, offering reliable performance and ease of use for laboratories of all sizes. Equipped with advanced features, it provides consistent results with minimal maintenance.",
-        workPrinciple:
-          "The analyzer operates based on the Westergren method, measuring the rate at which red blood cells settle in a tube over a specified period, providing critical information for diagnosing inflammatory conditions.",
-        advantages:
-          "1. High throughput for faster results \n2. Minimal blood sample requirement \n3. Automated calibration and result interpretation \n4. Low maintenance and durable design",
-        benefits:
-          "1. Time-efficient with rapid results \n2. Easy to operate and maintain \n3. Accurate and reproducible results \n4. Compact design suitable for any lab setup",
-        mainAndCare:
-          "Routine cleaning and calibration checks ensure the longevity of the analyzer. Minimal maintenance is required, with user-friendly guidelines for operational care.",
+          "The SedRate Pro Automated ESR Analyser delivers rapid and precise ESR results directly from EDTA tubes, streamlining inflammation and infection diagnostics for labs and clinics.",
+
+        workPrinciple: (
+          <div>
+            <table className="min-w-full table-auto">
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">
+                      Working Principle: How It Works?
+                    </strong>
+                    The SedRate Pro directly measures ESR by analyzing the
+                    sedimentation of red blood cells in EDTA tubes. The device
+                    tracks this process in real-time and delivers precise
+                    results in 20 minutes. With options for random or cycle
+                    operation, it ensures flexibility for diverse diagnostic
+                    needs.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">
+                      For Whom It Is Useful?
+                    </strong>
+                    Ideal for laboratories, clinics, and hospitals conducting
+                    ESR tests.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-black">
+                    <strong className="text-lg font-semibold">
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 text-lg">
+                      <li>
+                        Diagnosis of conditions like arthritis, infections, and
+                        autoimmune disorders.
+                      </li>
+                      <li>
+                        Tracking treatment progress through ESR measurements.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Quick Results: Provides results within 20 minutes.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Accuracy: Adheres to the gold-standard Westergren method.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - User-Friendly: Intuitive LCD touchscreen for easy operation.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Versatility: Available in 8, 16, or 32 sample positions for
+                  varied lab requirements.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Integrated Features: Built-in barcode reader, thermal
+                  printer, and LIS compatibility.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Saves time and reduces manual handling with direct sample
+                  loading.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Offers real-time sedimentation curve monitoring for precise
+                  interpretation.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Compact design fits into laboratories with limited space.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Ensures robust data management through bidirectional LIS
+                  connectivity.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        mainAndCare: (
+          <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Clean the touchscreen interface regularly with a soft cloth.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Use the built-in QC options to ensure consistent
+                  performance.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Store the analyzer in a dry, dust-free environment.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base font-medium text-gray-800">
+                  - Follow the manufacturer’s guidelines for routine calibration
+                  and upkeep.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
         workServices:
           "Technical support and training are available for seamless integration into laboratory workflows. Service plans include annual maintenance and on-demand repair services.",
         productBrochure: "https://example.com/sedrate-pro-brochure",
@@ -5429,7 +5696,10 @@ const products = [
                   <td className="px-4 py-2 text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
-                      How it Works:
+                      <span className="font-semibold text-lg">
+                        How it Works
+                      </span>
+                      :
                     </strong>{" "}
                     The ichroma™ II uses fluorescence-based detection to
                     identify specific biomarkers in patient samples. It
@@ -5576,7 +5846,10 @@ const products = [
                   <td className="px-4 py-2 text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
-                      How it Works:
+                      <span className="font-semibold text-lg">
+                        How it Works
+                      </span>
+                      :
                     </strong>{" "}
                     The ichroma™ 3 utilizes fluorescence-based technology to
                     detect specific biomarkers in patient samples. It processes
