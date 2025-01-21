@@ -205,7 +205,7 @@ function Product() {
                           <img
                             src={item.image[0]}
                             alt={item.title}
-                            className="w-full h-20  tablet:h-52 object-cover"
+                            className="w-full h-20  tablet:h-52 object-cover rounded-md"
                           />
                           <div className="px-2 py-2 text-gray-600">
                             <p className="text-xs tablet:mt-2 tablet:mb-2 tablet:text-xs font-medium text-gray-900 text-left">

@@ -12,7 +12,7 @@ import plus1 from "../AllDatas/ProductImages/Biochemistry/PLUS/product1.webp";
 import plus2 from "../AllDatas/ProductImages/Biochemistry/PLUS/product2.webp";
 import prim1 from "../AllDatas/ProductImages/Biochemistry/PRIME/product1.webp";
 import prim2 from "../AllDatas/ProductImages/Biochemistry/PRIME/product2.webp";
-import chemistryCollibrator from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/product1.webp";
+import chemistryCollibrator from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/product2.jpg";
 import ichemPrime from "../AllDatas/ProductImages/Biochemistry/ichemPrime/product1.webp";
 import identiImmuno from "../AllDatas/ProductImages/Biochemistry/identiImmuno/product1.webp";
 import identiReagents from "../AllDatas/ProductImages/Biochemistry/identiReagents/product1.webp";
@@ -110,7 +110,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       How it Works:
                     </strong>{" "}
                     The analyzer employs photometric technology to measure the
@@ -120,14 +120,16 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">For Whom:</strong>{" "}
+                    <strong className="text-base font-semibold">
+                      For Whom:
+                    </strong>{" "}
                     Designed for large hospitals and diagnostic centers
                     requiring extensive test menus.
                   </td>
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       Use Cases:
                     </strong>{" "}
                     Performs a variety of tests including liver function, kidney
@@ -237,7 +239,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       How it Works:
                     </strong>{" "}
                     Utilizes photometric and ion-selective electrode (ISE)
@@ -246,14 +248,16 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">For Whom:</strong>{" "}
+                    <strong className="text-base font-semibold">
+                      For Whom:
+                    </strong>{" "}
                     Ideal for clinics, small hospitals, and diagnostic labs with
                     moderate testing needs.
                   </td>
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       Use Cases:
                     </strong>{" "}
                     Conducts a variety of tests such as metabolic panels,
@@ -381,7 +385,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       How it Works:
                     </strong>{" "}
                     Employs photometric detection to analyze biochemical
@@ -390,14 +394,16 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">For Whom:</strong>{" "}
+                    <strong className="text-base font-semibold">
+                      For Whom:
+                    </strong>{" "}
                     Perfect for small to mid-sized laboratories needing quick
                     turnaround times.
                   </td>
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       Use Cases:
                     </strong>{" "}
                     Commonly used for routine chemistry tests, specific protein
@@ -503,7 +509,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -515,7 +521,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -526,7 +532,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -643,7 +649,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -654,7 +660,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -664,7 +670,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -773,7 +779,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -784,7 +790,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -795,7 +801,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -907,7 +913,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -917,7 +923,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -927,7 +933,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -1036,7 +1042,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -1047,7 +1053,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -1057,7 +1063,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -1523,7 +1529,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Critical Care:
                     </strong>{" "}
@@ -1533,7 +1539,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Routine Laboratory Testing:
                     </strong>{" "}
@@ -1543,7 +1549,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Diagnostic Centers:
                     </strong>{" "}
@@ -1564,7 +1570,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       High Efficiency:
                     </strong>{" "}
@@ -1574,7 +1580,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Ease of Use:
                     </strong>{" "}
@@ -1585,7 +1591,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Compact Design:
                     </strong>{" "}
@@ -1595,7 +1601,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Consistent Accuracy:
                     </strong>{" "}
@@ -1615,7 +1621,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Cost-Effective:
                     </strong>{" "}
@@ -1625,7 +1631,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Improved Workflow:
                     </strong>{" "}
@@ -1635,7 +1641,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Reliable Results:
                     </strong>{" "}
@@ -1698,7 +1704,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       Working Principle: How It Works?
                     </strong>
                     The EX-Ds performs electrolyte analysis by processing
@@ -1709,7 +1715,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       For Whom It Is Useful?
                     </strong>
                     Ideal for laboratories requiring reliable and
@@ -1718,7 +1724,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       Use Cases:
                     </strong>
                     <ul className="list-disc pl-5 text-lg">
@@ -1858,7 +1864,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       <span className="font-semibold text-lg">
                         How it Works
@@ -1872,7 +1878,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -1882,7 +1888,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -2007,7 +2013,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       <span className="font-semibold text-lg">
                         How it Works
@@ -2021,7 +2027,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -2031,7 +2037,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -2157,7 +2163,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       <span className="font-semibold text-lg">
                         How it Works
@@ -2172,7 +2178,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -2182,7 +2188,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -2309,7 +2315,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       <span className="font-semibold text-lg">
                         How it Works
@@ -2324,7 +2330,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -2334,7 +2340,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -2463,7 +2469,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       Working Principle: How It Works?
                     </strong>
                     The SedRate Pro directly measures ESR by analyzing the
@@ -2476,7 +2482,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       For Whom It Is Useful?
                     </strong>
                     Ideal for laboratories, clinics, and hospitals conducting
@@ -2485,7 +2491,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       Use Cases:
                     </strong>
                     <ul className="list-disc pl-5 text-lg">
@@ -2636,7 +2642,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -2653,7 +2659,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -2669,7 +2675,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -2867,7 +2873,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle:
                     </strong>{" "}
@@ -2885,7 +2891,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -2902,7 +2908,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -3098,7 +3104,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -3116,7 +3122,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -3133,7 +3139,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -3337,7 +3343,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       How It Works:
                     </strong>{" "}
@@ -3353,7 +3359,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -3367,7 +3373,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -3512,14 +3518,14 @@ const products = [
                     <strong className="text-nowrap">How It Works:</strong>
                     <ul className="list-disc pl-5 text-lg">
                       <li>
-                        <strong className="text-lg font-semibold">
+                        <strong className="text-base font-semibold">
                           {" "}
                           Sample Preparation:
                         </strong>{" "}
                         Samples are loaded into the analyzer.
                       </li>
                       <li>
-                        <strong className="text-lg font-semibold">
+                        <strong className="text-base font-semibold">
                           {" "}
                           Reaction:
                         </strong>{" "}
@@ -3527,7 +3533,7 @@ const products = [
                         trigger a chemiluminescent reaction.
                       </li>
                       <li>
-                        <strong className="text-lg font-semibold">
+                        <strong className="text-base font-semibold">
                           {" "}
                           Detection:
                         </strong>{" "}
@@ -3536,7 +3542,7 @@ const products = [
                         target analyte.
                       </li>
                       <li>
-                        <strong className="text-lg font-semibold">
+                        <strong className="text-base font-semibold">
                           {" "}
                           Results:
                         </strong>{" "}
@@ -4319,7 +4325,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle:
                     </strong>{" "}
@@ -4336,7 +4342,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -4350,7 +4356,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -4906,7 +4912,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -4917,7 +4923,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -4927,7 +4933,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -5040,7 +5046,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -5058,7 +5064,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -5073,7 +5079,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -5466,7 +5472,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle:
                     </strong>{" "}
@@ -5485,7 +5491,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -5501,7 +5507,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -5694,7 +5700,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       <span className="font-semibold text-lg">
                         How it Works
@@ -5709,7 +5715,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -5719,7 +5725,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -5844,7 +5850,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       <span className="font-semibold text-lg">
                         How it Works
@@ -5858,7 +5864,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -5868,7 +5874,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -5997,7 +6003,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -6006,7 +6012,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -6016,7 +6022,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -6124,7 +6130,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -6133,7 +6139,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -6143,7 +6149,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
@@ -6236,7 +6242,7 @@ const products = [
               <tbody>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -6254,7 +6260,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -6271,7 +6277,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-lg font-semibold">
+                    <strong className="text-base font-semibold">
                       {" "}
                       Use Cases:
                     </strong>
