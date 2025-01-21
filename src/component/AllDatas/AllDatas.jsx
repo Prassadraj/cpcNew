@@ -109,7 +109,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       How it Works:
                     </strong>{" "}
@@ -119,14 +119,14 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">For Whom:</strong>{" "}
                     Designed for large hospitals and diagnostic centers
                     requiring extensive test menus.
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       Use Cases:
                     </strong>{" "}
@@ -236,7 +236,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       How it Works:
                     </strong>{" "}
@@ -245,14 +245,14 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">For Whom:</strong>{" "}
                     Ideal for clinics, small hospitals, and diagnostic labs with
                     moderate testing needs.
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       Use Cases:
                     </strong>{" "}
@@ -380,7 +380,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       How it Works:
                     </strong>{" "}
@@ -389,14 +389,14 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">For Whom:</strong>{" "}
                     Perfect for small to mid-sized laboratories needing quick
                     turnaround times.
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       Use Cases:
                     </strong>{" "}
@@ -502,7 +502,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle: How It Works?
@@ -514,7 +514,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful?
@@ -525,7 +525,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -642,7 +642,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle: How It Works?
@@ -653,7 +653,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful?
@@ -663,7 +663,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -772,7 +772,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle: How It Works?
@@ -783,7 +783,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful?
@@ -794,7 +794,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -906,7 +906,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle: How It Works?
@@ -916,7 +916,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful?
@@ -926,7 +926,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -1035,7 +1035,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle: How It Works?
@@ -1046,7 +1046,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful?
@@ -1056,7 +1056,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -1499,7 +1499,7 @@ const products = [
               </thead>
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     The Jokoh EX-D Electrolyte Analyzer is perfect for clinical
                     laboratories, hospitals, and diagnostic centers that require
                     fast and precise electrolyte measurements. It is
@@ -1522,7 +1522,7 @@ const products = [
               </thead>
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Critical Care:
@@ -1532,7 +1532,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Routine Laboratory Testing:
@@ -1542,7 +1542,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Diagnostic Centers:
@@ -1563,7 +1563,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       High Efficiency:
@@ -1573,7 +1573,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Ease of Use:
@@ -1584,7 +1584,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Compact Design:
@@ -1594,7 +1594,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Consistent Accuracy:
@@ -1614,7 +1614,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Cost-Effective:
@@ -1624,7 +1624,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Improved Workflow:
@@ -1634,7 +1634,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Reliable Results:
@@ -1697,7 +1697,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       Working Principle: How It Works?
                     </strong>
@@ -1708,7 +1708,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       For Whom It Is Useful?
                     </strong>
@@ -1717,7 +1717,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       Use Cases:
                     </strong>
@@ -1857,7 +1857,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       <span className="font-semibold text-lg">
@@ -1871,7 +1871,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom:
@@ -1881,7 +1881,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -2006,7 +2006,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       <span className="font-semibold text-lg">
@@ -2020,7 +2020,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom:
@@ -2030,7 +2030,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -2156,7 +2156,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       <span className="font-semibold text-lg">
@@ -2171,7 +2171,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom:
@@ -2181,7 +2181,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -2308,7 +2308,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       <span className="font-semibold text-lg">
@@ -2323,7 +2323,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom:
@@ -2333,7 +2333,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -2462,7 +2462,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       Working Principle: How It Works?
                     </strong>
@@ -2475,7 +2475,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       For Whom It Is Useful?
                     </strong>
@@ -2484,7 +2484,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       Use Cases:
                     </strong>
@@ -2635,7 +2635,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle: How It Works?
@@ -2652,7 +2652,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful?
@@ -2668,7 +2668,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -2866,7 +2866,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle:
@@ -2884,7 +2884,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful:
@@ -2901,7 +2901,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -3097,7 +3097,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle: How It Works?
@@ -3115,7 +3115,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful?
@@ -3132,7 +3132,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -3336,7 +3336,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       How It Works:
@@ -3352,7 +3352,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful:
@@ -3366,7 +3366,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -3497,7 +3497,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Working Principle:</strong>{" "}
                     The iFlash 1800 uses chemiluminescence immunoassay (CLIA)
                     technology to detect and quantify various analytes in
@@ -3508,7 +3508,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">How It Works:</strong>
                     <ul className="list-disc pl-5 text-lg">
                       <li>
@@ -3548,7 +3548,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -3558,7 +3558,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Use Cases:</strong>
                     <ul className="list-disc pl-5 text-lg">
                       <li>Thyroid function testing</li>
@@ -3702,7 +3702,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Working Principle:</strong>{" "}
                     The iFlash 3000 operates on the principle of
                     chemiluminescence, where light is emitted as a result of a
@@ -3719,7 +3719,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -3735,7 +3735,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Use Cases:</strong>
                     <ul className="list-disc pl-5 text-lg">
                       <li>
@@ -3908,7 +3908,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Working Principle:</strong>{" "}
                     The KRYPTOR Compact Plus operates using TRACE (Time Resolved
                     Amplified Cryptate Emission) technology, a highly sensitive
@@ -3923,7 +3923,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -3937,7 +3937,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Use Cases:</strong>
                     <ul className="list-disc pl-5 text-lg">
                       <li>
@@ -4129,7 +4129,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Working Principle:</strong>{" "}
                     The Euroimmun Analyzer I-2P fully automates the
                     Enzyme-Linked Immunosorbent Assay (ELISA) process. It
@@ -4140,7 +4140,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -4150,7 +4150,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Use Cases:</strong>
                     <ul className="list-disc pl-5 text-lg">
                       <li>
@@ -4318,7 +4318,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle:
@@ -4335,7 +4335,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful:
@@ -4349,7 +4349,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -4532,7 +4532,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Working Principle:</strong>{" "}
                     The IF Sprinter automates the entire ImmunoFluorescence
                     Assay (IFA) process, from sample preparation to result
@@ -4547,7 +4547,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -4558,7 +4558,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Use Cases:</strong>
                     <ul className="list-disc pl-5 text-lg">
                       <li>
@@ -4719,7 +4719,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Working Principle:</strong>{" "}
                     The EUROStar III Plus operates using advanced LED
                     illumination to excite fluorophores in the sample. When the
@@ -4733,7 +4733,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -4744,7 +4744,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Use Cases:</strong>
                     <ul className="list-disc pl-5 text-lg">
                       <li>
@@ -4905,7 +4905,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle: How It Works?
@@ -4916,7 +4916,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful?
@@ -4926,7 +4926,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -5039,7 +5039,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle: How It Works?
@@ -5057,7 +5057,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful?
@@ -5072,7 +5072,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -5272,7 +5272,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Working Principle:</strong>{" "}
                     The Euroimmun Analyzer I automates the ELISA process by
                     handling all stages of the assay, including sample dilution,
@@ -5286,7 +5286,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -5297,7 +5297,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-nowrap">Use Cases:</strong>
                     <ul className="list-disc pl-5 text-lg">
                       <li>
@@ -5465,7 +5465,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle:
@@ -5484,7 +5484,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful:
@@ -5500,7 +5500,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -5693,7 +5693,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       <span className="font-semibold text-lg">
@@ -5708,7 +5708,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom:
@@ -5718,7 +5718,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -5843,7 +5843,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       <span className="font-semibold text-lg">
@@ -5857,7 +5857,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom:
@@ -5867,7 +5867,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -5996,7 +5996,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle: How It Works?
@@ -6005,7 +6005,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful?
@@ -6015,7 +6015,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -6123,7 +6123,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle: How It Works?
@@ -6132,7 +6132,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful?
@@ -6142,7 +6142,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:
@@ -6235,7 +6235,7 @@ const products = [
             <table className="min-w-full table-auto">
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Working Principle: How It Works?
@@ -6253,7 +6253,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       For Whom It Is Useful?
@@ -6270,7 +6270,7 @@ const products = [
                   </td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 text-black">
+                  <td className="  text-black">
                     <strong className="text-lg font-semibold">
                       {" "}
                       Use Cases:

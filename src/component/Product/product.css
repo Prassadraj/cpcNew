@@ -36,11 +36,17 @@
 .slider-button.right {
   right: 0;
 }
+.productSection {
+  padding: 0px 4rem;
+}
 /* Add this to your CSS file (e.g., product.css) */
 /* Add this to your CSS file (e.g., product.css) */
 @media (max-width: 640px) {
   .no-scroll {
     overflow: hidden;
+  }
+  .productSection {
+    padding: 0px 1rem;
   }
 }
 .ellipsis {
@@ -51,4 +57,32 @@
   text-overflow: ellipsis;
   line-height: 1.5; /* Adjust as needed */
   max-height: 6em; /* Adjust based on line height and number of lines */
+}
+/* sidebar  */
+.sidebar {
+  overflow-y: auto; /* Ensures scrollbars are visible */
+}
+
+/* WebKit Browsers (Chrome, Edge, Safari) */
+.sidebar::-webkit-scrollbar {
+  width: 6px; /* Set the scrollbar width */
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set the thumb (handle) color */
+  border-radius: 4px; /* Make it rounded */
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Change color on hover */
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Set the track (background) color */
+}
+
+/* For Firefox */
+.sidebar {
+  scrollbar-width: thin; /* Makes the scrollbar thinner */
+  scrollbar-color: #888 #f1f1f1; /* Thumb color and track color */
 }

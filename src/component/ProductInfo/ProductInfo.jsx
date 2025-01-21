@@ -242,10 +242,10 @@ function ProductInfo() {
             />
           </div>
           {/* /sidemenu */}
-          <div className="flex px-5 gap-5">
+          <div className="flex px-5 gap-5 sidebar">
             <div
-              className={`sm:w-[25%] bg-white border rounded-md shadow-md  p-1 md:py-2 md:px-4 md:sticky top-0
-                 laptop:h-[90vh] tablet:h-[60vh] overflow-y-auto z-10  ${
+              className={`sm:w-[25%] sidebar bg-white border rounded-md shadow-md  p-1 md:py-2 md:px-4 md:sticky top-0
+                 laptop:h-[80vh] tablet:h-[60vh] overflow-y-auto z-10  ${
                    open
                      ? "fixed top-16 inset-0 w-[80%] h-full overflow-y-auto z-20"
                      : "hidden sm:block"
@@ -327,10 +327,12 @@ function ProductInfo() {
                   />
                 </div>
               </div>
-              <div className="hidden md:flex justify-center mt-4">
-                <div className="w-full flex flex-col text-xl text-justify">
-                  <p className="font-bold">{product.title}</p>
-                  <p className="font-medium">Overview:</p>
+              <div className="hidden md:flex justify-center mt-4 tablet:mb-10">
+                <div className="w-full flex flex-col text-xl text-justify ">
+                  <p className="font-medium text-2xl tablet:mb-4">
+                    {product.title}
+                  </p>
+                  <p className="font-medium tablet:mb-1">Overview:</p>
                   <p className="">{product.description}</p>
                   {/* <div className="items-center gap-2 text-xl hidden md:flex mt-2 ">
                     <p>Share:</p>
@@ -378,7 +380,7 @@ function ProductInfo() {
 
             <div className="flex border-2">
               {tabs[selectedTab].submenu && (
-                <div className="w-1/4 text-lg flex flex-col items-center border-r pr-4">
+                <div className="w-1/4 text-base flex flex-col items-center border-r pr-4">
                   {tabs[selectedTab].submenu.map((submenuItem, index) => (
                     <div
                       key={index}
@@ -395,11 +397,11 @@ function ProductInfo() {
                 </div>
               )}
               <div
-                className={`p-4 ${
+                className={` ${
                   tabs[selectedTab].submenu
                     ? "w-3/4 text-start"
                     : "w-full text-center"
-                } text-xl`}
+                } text-base`}
               >
                 {tabs[selectedTab].submenu ? (
                   <p className="rounded p-4">
@@ -545,7 +547,7 @@ function ProductInfo() {
           </div>
           {/* related products */}
           {relatedProduct.length > 0 ? (
-            <div className="px-2  md:mx-5 mt-4 mb-4 max-h-[500px] ">
+            <div className=" productSection  mt-4 mb-4 tablet:mb-0 max-h-[500px] ">
               <div className="flex justify-between items-center mb-4 ">
                 <p className="text-left text-lg truncate md:text-2xl mb-2 font-semibold">
                   Related Products
@@ -596,7 +598,7 @@ function ProductInfo() {
             ""
           )}
           {/* Frequently Asked Questions */}
-          <div className="py-4 border-1 bg-[#EEEEEE] mb-4">
+          <div className="py-6 border-1 bg-[#EEEEEE] mb-4 tablet:mt-32">
             <p className="text-center text-2xl mb-4">
               Frequently Asked Questions
             </p>

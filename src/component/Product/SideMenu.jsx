@@ -28,7 +28,7 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
 
   return (
     <div
-      className={`sm:w-[25%] bg-white border rounded-md shadow-md p-1 tablet:py-2 tablet:px-4 tablet:sticky top-16 h-[90vh] overflow-y-auto z-10 ${
+      className={`sidebar tablet:w-[25vw] bg-white border rounded-md shadow-md p-1 tablet:py-2 tablet:px-4 tablet:sticky top-24 h-[90vh] overflow-y-auto z-10 ${
         open
           ? "fixed top-16 inset-0 w-[80%] h-full overflow-y-auto z-20"
           : "hidden sm:block"
@@ -56,7 +56,7 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
                 // );
               }}
             >
-              <p className="tablet:text-sm laptop:text-base font-poppins text-left font-semibold">
+              <p className="tablet:text-xs laptop:text-base font-poppins text-left font-medium">
                 {dropdown.category}
               </p>
               {openDropdown === index ? <FaChevronDown /> : <FaChevronRight />}

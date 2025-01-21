@@ -27,7 +27,6 @@ function Product() {
   const [load, setLoad] = useState(false);
   const navigate = useNavigate();
   const { section } = useParams();
-  
 
   const { selecteSectionCategory, setSelectSectionCategory } =
     useContext(SectionCategory);
@@ -145,8 +144,8 @@ function Product() {
               </button>
             </div>
           </header>
-          <section className="px-3 tablet:px-4 py-2 text-base text-gray-700">
-            <div className="mb-2">
+          <section className=" productSection py-2 text-base text-gray-700 tablet:mb-14">
+            <div className="mb-3">
               <p>
                 <Link to="/" className="no-underline">
                   Home
@@ -162,17 +161,17 @@ function Product() {
               <p>Select Equipment</p>
               <FontAwesomeIcon icon={faBars} />
             </div>
-            <div className="flex flex-col sm:flex-row">
+            <div className="flex flex-col tablet:flex-row tablet:gap-7">
               <SideMenu
                 open={open}
                 setOpen={setOpen}
                 toggleDropdown={toggleDropdown}
                 openDropdown={openDropdown}
               />
-              <div className="sm:w-[75%] bg-white p-1 tablet:p-4 text-center overflow-y-auto">
-                <h1 className="text-2xl font-poppins font-bold mb-3 text-left text-black">
+              <div className="tablet:w-[75vw] bg-white p-1 tablet:p-4 text-center overflow-y-auto flex flex-col gap-2">
+                <p className="text-2xl font-poppins font-semibold mb-3 text-left text-black">
                   {selectedCategory}
-                </h1>
+                </p>
                 <div className="grid  justify-around items-center tablet:grid-cols-3 tablet:gap-2 grid-cols-2 laptop:grid-cols-5 tablet:mb-4">
                   {headingSection.map((sectionCategoryItem, i) => (
                     <p
@@ -183,8 +182,8 @@ function Product() {
                       className={`${
                         selecteSectionCategory ==
                         sectionCategoryItem.split(" ").join("").toLowerCase()
-                          ? "font-extrabold text-custom-green"
-                          : "font-semibold"
+                          ? "font-bold text-custom-green"
+                          : "font-medium"
                       }   text-xs hover:text-custom-green transition-all ease-in duration-75 hover:font-bold tablet:text-base capitalize  cursor-pointer mb-2`}
                     >
                       {sectionCategoryItem}
@@ -199,16 +198,19 @@ function Product() {
                         key={item.id}
                         className="no-underline"
                       >
-                        <div className="bg-white border rounded-lg overflow-hidden relative group h-[200px] tablet:h-[300px] transition duration-300 ease-in-out transform hover:scale-105">
+                        <div
+                          className="bg-white border rounded-lg overflow-hidden relative group h-[200px] tablet:h-[320px] transition duration-300 ease-in-out transform hover:scale-105 tablet:px-3
+                        tablet:py-3 "
+                        >
                           <img
                             src={item.image[0]}
                             alt={item.title}
-                            className="w-full h-20  tablet:h-44 object-cover"
+                            className="w-full h-20  tablet:h-52 object-cover"
                           />
                           <div className="px-2 py-2 text-gray-600">
-                            <h2 className="text-xs tablet:text-base font-semibold text-gray-600 text-left">
+                            <p className="text-xs tablet:mt-2 tablet:mb-2 tablet:text-xs font-medium text-gray-900 text-left">
                               {item.title}
-                            </h2>
+                            </p>
                             <p className="text-xs text-gray-600 text-left line-clamp-2">
                               {item.description}
                             </p>
@@ -228,14 +230,14 @@ function Product() {
                 </div>
 
                 {/* <div className="p-2 tablet:p-4 bg-gray-200 rounded-md"> */}
-                  {/* <p className="text-left text-sm font-semibold tablet:text-2xl mb-2">
+                {/* <p className="text-left text-sm font-semibold tablet:text-2xl mb-2">
                     Short note of {selectedCategory}
                   </p>
                   <p className="text-sm tablet:text-lg mb-2 tablet:text-left">
                     {description}
                   </p> */}
 
-                  {/* <p className="px-4 py-2 bg-custom-green text-left w-fit text-white rounded-md">
+                {/* <p className="px-4 py-2 bg-custom-green text-left w-fit text-white rounded-md">
               Read More
             </p> */}
                 {/* </div> */}
@@ -253,7 +255,7 @@ function Product() {
               </div>
             </div>
           </section>
-          <div className="grid grid-cols-1 sm:grid-cols-2 laptop:grid-cols-3 gap-2 mt-4 tablet:px-10 py-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 laptop:grid-cols-3 gap-2 tablet:mt-4 mt-2 tablet:mb-14 tablet:px-10 py-5">
             <div className="p-4 bg-[#D9D7F1] text-gray-500 rounded-md flex flex-col gap-1">
               <div className="flex gap-2">
                 <div className="flex items-center">
