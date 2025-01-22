@@ -3494,7 +3494,7 @@ const products = [
         section: "clia",
         title: "Iflash 1800",
         shortdescription:
-          "Description: The iFlash 1800 is a high-performance fully automated immunoassay analyzer that leverages chemiluminescence technology to provide accurate and reliable diagnostic results. This CLIA analyser is designed for laboratories seeking efficiency, precision, and high throughput.",
+          "The iFlash 1800 is a high-performance fully automated immunoassay analyzer that leverages chemiluminescence technology to provide accurate and reliable diagnostic results. This CLIA analyser is designed for laboratories seeking efficiency, precision, and high throughput.",
         description:
           "The iFlash 1800 is a fully automated immunoassay analyzer designed to meet the demands of modern laboratories. With advanced chemiluminescence technology, it delivers precise and reliable results for a wide range of tests. Ideal for high-throughput environments, this CLIA analyser offers user-friendly operation and robust data management capabilities.",
         workPrinciple: (

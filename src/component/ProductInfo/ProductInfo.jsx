@@ -327,13 +327,13 @@ function ProductInfo() {
                   />
                 </div>
               </div>
-              <div className="hidden md:flex justify-center mt-4 tablet:mb-10">
+              <div className="hidden md:flex justify-center mt-4 tablet:mb-10 laptop:mb-[6rem]">
                 <div className="w-full flex flex-col text-xl text-justify ">
                   <p className="font-medium text-2xl tablet:mb-4">
                     {product.title}
                   </p>
                   <p className="font-medium tablet:mb-1">Overview:</p>
-                  <p className="">{product.description}</p>
+                  <p className="text-lg">{product.description}</p>
                   {/* <div className="items-center gap-2 text-xl hidden md:flex mt-2 ">
                     <p>Share:</p>
                     <FontAwesomeIcon icon={faFacebook} />
@@ -349,7 +349,7 @@ function ProductInfo() {
             <div className="w-full flex flex-col text-base ">
               <p className="font-bold">{product.title}</p>
               <p className="font-medium">Overview:</p>
-              <p className="mb-2">{product.description}</p>
+              <p className="mb-2 ">{product.description}</p>
               <div className="items-center gap-2 text-lg hidden md:flex ">
                 <p>Share:</p>
                 <FontAwesomeIcon icon={faFacebook} />
@@ -358,7 +358,7 @@ function ProductInfo() {
               </div>
             </div>
           </div>
-          <div className="p-1 tablet:p-4 md:block  mb-4">
+          <div className="p-2 tablet:p-4 md:block   laptop:mb-20">
             <div className="flex justify-around  tablet:text-lg border p-2">
               {tabs.map((header, index) => (
                 <p
@@ -367,7 +367,7 @@ function ProductInfo() {
                     setSelectedTab(index);
                     setSelectedMenuItem(0); // Reset submenu item on tab change
                   }}
-                  className={`cursor-pointer text-base ${
+                  className={`cursor-pointer text-base tablet:text-3xl ${
                     selectedTab === index
                       ? "font-semibold text-3xl text-custom-green"
                       : "text-gray-600"
@@ -378,7 +378,7 @@ function ProductInfo() {
               ))}
             </div>
 
-            <div className="flex border-2">
+            <div className="flex border-2 laptop:mb-[4rem]">
               {tabs[selectedTab].submenu && (
                 <div className="w-1/4 tablet:text-base text-xs flex flex-col items-center border-r tablet:pr-4">
                   {tabs[selectedTab].submenu.map((submenuItem, index) => (
