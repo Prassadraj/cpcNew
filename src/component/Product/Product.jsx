@@ -184,7 +184,7 @@ function Product() {
                         sectionCategoryItem.split(" ").join("").toLowerCase()
                           ? "font-bold text-custom-green"
                           : "font-medium"
-                      }   text-xs hover:text-custom-green transition-all ease-in duration-75 hover:font-bold tablet:text-base capitalize  cursor-pointer mb-2`}
+                      }   text-xs hover:text-custom-green transition-all ease-in duration-75 hover:font-bold tablet:text-base capitalize  text-nowrap cursor-pointer mb-2`}
                     >
                       {sectionCategoryItem}
                     </p>

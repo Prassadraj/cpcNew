@@ -64,7 +64,7 @@ const FeaturedProducts = () => {
               <div className="h-44 flex items-center justify-center">
                 <img src={product.url} className="w-32 object-cover" alt="" />
               </div>
-              <p className="text-center font-bold">{product.title}</p>
+              <p className="text-center font-bold ">{product.title}</p>
               <p className="text-center line-clamp-3">{product.content}</p>
             </div>
           ))}
@@ -104,7 +104,7 @@ const Card = ({ card }) => {
      
       `}
     >
-      <div className="flex justify-center items-center w-full tablet:mt-10 h-32">
+      <div className="flex justify-center items-center w-full tablet:mt-8 h-32">
         <img
           loading="lazy"
           className={`tablet:w-[200px] w-[100px] ${
@@ -114,9 +114,9 @@ const Card = ({ card }) => {
           alt=""
         />
       </div>
-      <div className="absolute tablet:top-56 tablet:left-10 tablet:right-10 p-0">
+      <div className="absolute tablet:top-52 tablet:left-10 tablet:right-10 p-0">
         <div className="flex justify-center tablet:justify-start">
-          <p className="tablet:text-xl font-poppins font-bold ">{card.title}</p>
+          <p className="tablet:text-xl font-poppins font-bold mb-2">{card.title}</p>
         </div>
         <p className="text-xs tablet:text-base line-clamp-3 px-1">
           {card.content}

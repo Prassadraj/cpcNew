@@ -33,7 +33,7 @@ function Footer({ open }) {
      "
       >
         {/* col 1 */}
-        <div className="flex items-center flex-col gap-3 mt-28 col1">
+        <div className="flex items-start flex-col gap-2 mt-28 col1">
           <Link to="/">
             <div className="glassy-effect-container">
               <svg
@@ -397,7 +397,7 @@ function Footer({ open }) {
               </svg>
             </div>{" "}
           </Link>
-          <p className="text-white text-xs tablet:text-lg tablet:text-md max-w-xs text-center font-poppins tablet:font-semibold ">
+          <p className="text-white text-xs tablet:text-base tablet:text-md max-w-xs text-centleftr font-poppins tablet:font-medium ">
             Experience personalized medical care from the comfort of your home.
           </p>
         </div>
@@ -535,7 +535,7 @@ function Footer({ open }) {
 
       <div className="h-[1px] w-[90%] flex justify-center items-center text-center bg-custom-green mx-auto mt-4"></div>
       <div className="mt-2 flex justify-around  tablet:justify-between tablet:mt-4 tablet:pl-16 tablet:pr-16">
-        <div className="text-sm tablet:text-3xl text-white flex gap-2 tablet:gap-3 laptop:gap-3">
+        <div className="text-sm tablet:text-3xl text-white flex gap-3 tablet:gap-3 laptop:gap-5">
           <Link
             target="_blank"
             to="https://www.facebook.com/EverlifeCPC"
@@ -566,7 +566,7 @@ function Footer({ open }) {
             <FontAwesomeIcon className="hover:text-red-500" icon={faYoutube} />
           </Link>
         </div>
-        <div className="text-xs text-white tablet:text-lg font-poppins font-semibold">
+        <div className="text-xs text-white tablet:text-base font-poppins font-normal">
           <p>Everlife CPC 2024 © All Rights Reserved</p>
         </div>
       </div>
