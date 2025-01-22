@@ -22,78 +22,80 @@ function ZoomEffect() {
   ];
 
   return (
-    <div className="flex flex-col gap-2 laptop:mb-10 mb-4 w-full h-full">
-      {/* Header Section */}
-      <div className="flex justify-center items-center flex-col gap-1 tablet:mt-5 font-poppins">
-        <img
-          className="w-[220px] object-cover"
-          src={itrack}
-          alt="iTrack Logo"
-        />
-        <p className="tablet:text-xl text-center">
-          CPC developed i-track, a proprietary system for remote instrument
-          maintenance, in a groundbreaking initiative.
-        </p>
-        <p className="tablet:text-xl text-center">
-          For Support Dial:{" "}
-          <span className="text-custom-green">1800 571 1101</span>
-        </p>
-      </div>
-
-      {/* Images and Content Section */}
-      <div
-        id="container"
-        className="tablet:h-[100vh] flex flex-col gap-3 tablet:mt-5"
-      >
-        {/* First Row */}
-        <div className="flex justify-evenly">
-          {pictures.slice(0, 2).map((pic, idx) => (
-            <img
-              key={idx}
-              className="w-[100px] object-cover tablet:h-[100px] laptop:w-[200px] laptop:h-[150px]"
-              src={pic.src}
-              loading="lazy"
-              alt={pic.alt}
-            />
-          ))}
+    <div>
+      <div className="flex flex-col gap-2  mb-4 w-full h-full">
+        {/* Header Section */}
+        <div className="flex justify-center items-center flex-col gap-3  tablet:mt-5 font-poppins">
+          <img
+            className="w-[220px] object-cover"
+            src={itrack}
+            alt="iTrack Logo"
+          />
+          <p className="tablet:text-xl text-center">
+            CPC developed i-track, a proprietary system for remote instrument
+            maintenance, in a groundbreaking initiative.
+          </p>
+          <p className="tablet:text-xl text-center laptop:mb-10">
+            For Support Dial:{" "}
+            <span className="text-custom-green">1800 571 1101</span>
+          </p>
         </div>
 
-        {/* Second Row */}
-        <div className="flex justify-evenly items-center">
-          <img
-            className="w-[50px] object-cover h-[50px] laptop:w-[200px] laptop:h-[200px] tablet:w-[100px] tablet:h-[100px]"
-            src={pictures[4].src}
-            loading="lazy"
-            alt={pictures[4].alt}
-          />
-          <iframe
-            className="w-[180px] h-[100px] tablet:w-[500px] tablet:h-[270px] laptop:w-[700px] laptop:h-[270px]"
-            src="https://www.youtube.com/embed/mNYxQo9i7gc"
-            title="i-track - Constant Remote Support"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-          <img
-            className="w-[50px] object-cover h-[50px] laptop:w-[200px] laptop:h-[200px] tablet:w-[100px] tablet:h-[100px]"
-            src={pictures[3].src}
-            loading="lazy"
-            alt={pictures[3].alt}
-          />
-        </div>
+        {/* Images and Content Section */}
+        <div
+          id="container"
+          className="tablet:h-[100vh] flex flex-col gap-3 tablet:mt-5"
+        >
+          {/* First Row */}
+          <div className="flex justify-evenly">
+            {pictures.slice(0, 2).map((pic, idx) => (
+              <img
+                key={idx}
+                className="w-[100px] object-cover tablet:h-[100px] laptop:w-[200px] laptop:h-[150px]"
+                src={pic.src}
+                loading="lazy"
+                alt={pic.alt}
+              />
+            ))}
+          </div>
 
-        {/* Third Row */}
-        <div className="flex justify-evenly items-center">
-          {pictures.slice(1, 3).map((pic, idx) => (
+          {/* Second Row */}
+          <div className="flex justify-evenly items-center">
             <img
-              key={idx}
-              className="w-[100px] object-cover tablet:h-[100px] laptop:w-[200px] laptop:h-[120px]"
-              src={pic.src}
+              className="w-[50px] object-cover h-[50px] laptop:w-[200px] laptop:h-[200px] tablet:w-[100px] tablet:h-[100px]"
+              src={pictures[4].src}
               loading="lazy"
-              alt={pic.alt}
+              alt={pictures[4].alt}
             />
-          ))}
+            <iframe
+              className="w-[180px] h-[100px] tablet:w-[500px] tablet:h-[270px] laptop:w-[700px] laptop:h-[270px]"
+              src="https://www.youtube.com/embed/mNYxQo9i7gc"
+              title="i-track - Constant Remote Support"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+            <img
+              className="w-[50px] object-cover h-[50px] laptop:w-[200px] laptop:h-[200px] tablet:w-[100px] tablet:h-[100px]"
+              src={pictures[3].src}
+              loading="lazy"
+              alt={pictures[3].alt}
+            />
+          </div>
+
+          {/* Third Row */}
+          <div className="flex justify-evenly items-center">
+            {pictures.slice(1, 3).map((pic, idx) => (
+              <img
+                key={idx}
+                className="w-[100px] object-cover tablet:h-[100px] laptop:w-[200px] laptop:h-[120px]"
+                src={pic.src}
+                loading="lazy"
+                alt={pic.alt}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>

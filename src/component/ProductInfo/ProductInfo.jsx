@@ -358,8 +358,8 @@ function ProductInfo() {
               </div>
             </div>
           </div>
-          <div className="p-5 md:block hidden mb-4">
-            <div className="flex justify-around text-lg border p-2">
+          <div className="p-1 tablet:p-4 md:block  mb-4">
+            <div className="flex justify-around  tablet:text-lg border p-2">
               {tabs.map((header, index) => (
                 <p
                   key={index}
@@ -367,7 +367,7 @@ function ProductInfo() {
                     setSelectedTab(index);
                     setSelectedMenuItem(0); // Reset submenu item on tab change
                   }}
-                  className={`cursor-pointer ${
+                  className={`cursor-pointer text-base ${
                     selectedTab === index
                       ? "font-semibold text-3xl text-custom-green"
                       : "text-gray-600"
@@ -380,12 +380,12 @@ function ProductInfo() {
 
             <div className="flex border-2">
               {tabs[selectedTab].submenu && (
-                <div className="w-1/4 text-base flex flex-col items-center border-r pr-4">
+                <div className="w-1/4 tablet:text-base text-xs flex flex-col items-center border-r tablet:pr-4">
                   {tabs[selectedTab].submenu.map((submenuItem, index) => (
                     <div
                       key={index}
                       onClick={() => setSelectedMenuItem(index)}
-                      className={`cursor-pointer text-right py-2 ${
+                      className={`cursor-pointer tablet:text-right text-center  py-2 ${
                         selectedMenuItem === index
                           ? "font-bold text-custom-green"
                           : "text-gray-600"

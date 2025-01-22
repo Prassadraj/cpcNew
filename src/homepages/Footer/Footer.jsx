@@ -24,7 +24,7 @@ function Footer({ open }) {
 
   return (
     <div
-      className={`h-fit w-full  bg-custom-green tablet:block ${
+      className={`h-fit w-full laptop:mt-[10rem]  bg-custom-green tablet:block ${
         open && "hidden"
       }`}
     >

@@ -69,7 +69,7 @@ function ProductCategaries() {
         </div>
       </div>
       {/* lap */}
-      <div className="hidden h-[100vh] tablet:flex justify-center items-center mb-20">
+      <div className="hidden h-[100vh] tablet:flex justify-center items-center mb-[10rem]">
         <div className="flex w-full">
           {/* Left Section */}
           <div className="flex flex-col flex-[1.5] gap-3 pl-24 pt-12 mt-32">
@@ -81,12 +81,12 @@ function ProductCategaries() {
                 Categories
               </p>
             </div>
-            <p className="text-xl max-w-lg text-start font-poppins text-gray-700">
+            <p className="text-xl mt-4 max-w-lg text-start font-poppins text-gray-700">
               Explore our diverse range of laboratory equipment for all your
               medical and diagnostic needs.
             </p>
             <Link to="/product">
-              <button className="text-left text-gray-700 text-xl bg-gray-white font-poppins w-fit pl-3 pr-3 pt-2 pb-2 rounded-md font-medium hover:scale-90 transition-all shadow-md shadow-custom-green border">
+              <button className=" mt-3text-left text-gray-700 text-xl bg-gray-white font-poppins w-fit pl-3 pr-3 pt-2 pb-2 rounded-md font-medium hover:scale-90 transition-all shadow-md shadow-custom-green border">
                 Explore Products
               </button>
             </Link>

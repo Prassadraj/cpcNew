@@ -84,7 +84,7 @@ const HorizontalScrollCarousel = ({ cards }) => {
   const x = useTransform(scrollYProgress, [0, 1.6], ["1%", "-95%"]);
 
   return (
-    <section ref={targetRef} className="relative  h-[70vh] tablet:h-[300vh] ">
+    <section ref={targetRef} className="relative  h-[70vh] tablet:h-[300vh]">
       <div className="sticky top-0 flex tablet:h-screen items-center overflow-hidden">
         <motion.div style={{ x }} className="flex gap-4 tablet:gap-8">
           {cards.slice(0, 7).map((card) => (
@@ -186,7 +186,7 @@ const featuredCards = [
     title: "I flash 1200",
     category: "Immunology",
     content:
-      " The Dynacount 3D Plus delivers precise 3D blood analysis, providing crucial insights for accurate diagnosis and treatment planning.",
+      "The IFLASH 1200 is a state-of-the-art Chemiluminescence Immunoassay (CLIA) analyzer that provides high sensitivity and specificity in immunoassay testing. This fully automated system simplifies complex diagnostic procedures, offering a user-friendly interface and robust performance to meet the demands of modern laboratories.",
     id: 4,
     animation: "3",
   },

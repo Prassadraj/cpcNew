@@ -83,7 +83,7 @@ function New() {
   return (
     <>
       <Heading />
-      <div className="h-[300vh] tablet:flex justify-evenly tablet:gap-5 tablet:px-10 hidden">
+      <div className="h-[300vh] tablet:flex justify-evenly tablet:gap-5 tablet:px-10 hidden laptop:mb-[8rem]">
         <div className="flex flex-col gap-5 items-center justify-center w-1/2 laptop:pt-14 tablet:pt-10">
           <div className="tablet:h-full">
             <img
