@@ -77,7 +77,7 @@ function Contact() {
                 We are here to HELP!!!
               </h1>
               <div className="md:w-40 lg:w-40 xl:w-40 md:h-1 lg:h-1 xl:h-1 md:ml-0 lg:ml-0 xl:ml-0 md:bg-white lg:bg-white xl:bg-white bg-white w-40 h-1 ml-28 mt-2"></div>
-              <p className="text-black md:text-xl lg:text-xl xl:text-xl text-fontptag md:ml-0 md:text-left md:text-white  md:mt-2 ml-8">
+              <p className="text-white md:text-xl lg:text-xl xl:text-xl text-fontptag md:ml-0 md:text-left md:text-white  md:mt-2 ml-8">
                 Our team is ready to hear from you
               </p>
             </header>
@@ -87,7 +87,7 @@ function Contact() {
               Get in Touch
             </h2>
             <div className="grid grid-cols-12 gap-4 ">
-              <div className="md:col-span-6 lg:col-span-6 xl:col-span-6 col-span-12 p-4">
+              <div className="md:col-span-6 lg:col-span-6 xl:col-span-6 col-span-12 p-4 shadow-md">
                 <form
                   onSubmit={handleSubmit}
                   className="mt-10 max-w-lg mx-auto"
@@ -141,7 +141,7 @@ function Contact() {
                       required
                     />
                   </div>
-                  <div className="mb-4 text-center">
+                  <div className="mb-4">
                     {/* <button
               type="submit"
               className="bg-maincol text-white hover:bg-maincol-dark  font-bold float-left py-2 px-4 rounded focus:outline-none focus:shadow-outline"
@@ -216,7 +216,7 @@ function Contact() {
               </h3>
               <p className="text-black text-lg mt-3">For Support Dial </p>
               <a href="" className="text-lg">
-                <p className="text-black bg-maincol p-1 w-44 mt-3 text-center rounded-lg shadow-xl">
+                <p className="text-white bg-maincol p-1 w-44 mt-3 text-center rounded-lg shadow-xl">
                   1800 571 1101
                 </p>
               </a>
@@ -224,13 +224,13 @@ function Contact() {
           </div>
 
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 bg-gray-200 p-5">
-            <div className="border-2 border-maincol p-8 rounded-lg text-center w-full h-full leading-7">
-              <button className="p-2 bg-maincol rounded-md font-semibold text-white">
+            <div className="border-2 border-maincol p-8 rounded-lg w-full h-full leading-7">
+              <button className="p-2 bg-maincol rounded-md font-semibold text-white w-72 h-20">
                 Corporate Office{" "}
               </button>
               <div className="flex mt-5">
-                <div className="flex flex-row justify-around items-start ">
-                  <img src={locin} alt="call inner logo" className="" />
+                <div className="flex flex-row justify-around items-start gap-2 ">
+                  <img src={locin} alt="call inner logo" className="w-7 h-7" />
                   <a
                     href="https://maps.app.goo.gl/c6JHYYx4K3oZkvta7"
                     className="hover:opacity-80 hover:scale-105 transition-all "
@@ -245,18 +245,18 @@ function Contact() {
               </div>
 
               <div className="flex mt-7">
-                <div className="flex flex-row justify-around items-start">
+                <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div>
+                  <div className="flex ">
                     <a
                       href="tel:+91 44 23460168"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
                       <p className=" text-black  ml-4"> +91 44 23460168</p>
                     </a>
                     <a
                       href="tel:+91 44 23460169"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
                       <p className="  text-black ml-4"> +91 44 23460169</p>
                     </a>
@@ -282,13 +282,13 @@ function Contact() {
               </div>
             </div>
 
-            <div className="border-2 border-maincol p-8 rounded-lg text-center w-full h-full leading-7 ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
+            <div className="border-2 border-maincol p-8 rounded-lg w-full h-full leading-7 ">
+              <button className="p-2 bg-maincol  rounded-md font-semibold text-white w-72 h-20 text-center">
                 Central Technical Support & Supply Chain Operations
               </button>
               <div className="flex mt-5">
-                <div className=" flex flex-row justify-around items-start">
-                  <img src={locin} alt="call inner logo" className="w-10" />
+                <div className=" flex flex-row justify-around items-start gap-2">
+                  <img src={locin} alt="call inner logo" className="w-7 h-7" />
                   <div>
                     <a
                       href="https://maps.app.goo.gl/M3rR8hL7Yfv4LeHg7"
@@ -304,18 +304,18 @@ function Contact() {
               </div>
 
               <div className="flex mt-7">
-                <div className="flex flex-row justify-around items-start">
+                <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div>
+                  <div className="flex ">
                     <a
                       href="tel:+91 44 23460161"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
                       <p className="text-black   ml-4"> +91 44 23460161</p>
                     </a>
                     <a
                       href="tel:+91 44 23460162"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
                       <p className="text-black   ml-4"> +91 44 23460162</p>
                     </a>
@@ -341,13 +341,13 @@ function Contact() {
               </div>
             </div>
 
-            <div className="border-2 border-maincol p-8 rounded-lg text-center w-full h-full leading-7 ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
+            <div className="border-2 border-maincol p-8 rounded-lg w-full h-full leading-7 ">
+              <button className="p-2 bg-maincol  rounded-md font-semibold text-white w-72 h-20 text-center">
                 Reagents & Instrument Manufacturing Facilities
               </button>
               <div className="flex mt-5">
-                <div className=" flex flex-row justify-around items-start">
-                  <img src={locin} alt="call inner logo" className="w-10" />
+                <div className=" flex flex-row justify-around items-start gap-2">
+                  <img src={locin} alt="call inner logo" className="w-7 h-7" />
                   <div>
                     <a
                       href="https://maps.app.goo.gl/M3rR8hL7Yfv4LeHg7"
@@ -363,18 +363,18 @@ function Contact() {
               </div>
 
               <div className="flex mt-7">
-                <div className="flex flex-row justify-around items-start">
+                <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div>
+                  <div className="flex">
                     <a
                       href="tel:+91 44 23821908"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
                       <p className="text-black   ml-4"> +91 44 23821908</p>
                     </a>
                     <a
                       href="tel:+91 44 23821928"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
                       <p className="text-black   ml-4"> +91 44 23821928</p>
                     </a>
@@ -397,13 +397,13 @@ function Contact() {
               </div>
             </div>
 
-            <div className="border-2 border-maincol p-8 rounded-lg text-center w-full h-full leading-7 ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
+            <div className="border-2 border-maincol p-8 rounded-lg w-full h-full leading-7 ">
+              <button className="p-2 bg-maincol  rounded-md font-semibold text-white w-72 h-20 text-center">
                 Kochi
               </button>
               <div className="flex mt-5">
-                <div className="flex flex-row justify-around items-start">
-                  <img src={locin} alt="call inner logo" className="w-10" />
+                <div className="flex flex-row justify-around items-start gap-2">
+                  <img src={locin} alt="call inner logo" className="w-7 h-7" />
                   <div>
                     <a
                       href="#"
@@ -420,12 +420,12 @@ function Contact() {
               </div>
 
               <div className="flex mt-7">
-                <div className="flex flex-row justify-around items-start">
+                <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div>
+                  <div className="flex">
                     <a
                       href="tel:+91 0484 4873771"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
                       <p className="text-black   ml-4"> +91 0484 4873771</p>
                     </a>
@@ -452,12 +452,12 @@ function Contact() {
             </div>
 
             <div className="border-2  border-maincol p-8 rounded-lg text-center w-full h-full leading-7 ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
+              <button className="p-2 bg-maincol  rounded-md font-semibold text-white w-72 h-20 text-center">
                 Hyderabad
               </button>
               <div className="flex mt-5">
-                <div className=" flex flex-row justify-around items-start">
-                  <img src={locin} alt="call inner logo" className="w-10" />
+                <div className=" flex flex-row justify-around items-start gap-2">
+                  <img src={locin} alt="call inner logo" className="w-7 h-7" />
                   <div>
                     <a
                       href="#"
@@ -474,14 +474,14 @@ function Contact() {
               </div>
 
               <div className="flex mt-7">
-                <div className="flex flex-row justify-around items-start">
+                <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div>
+                  <div className="flex">
                     <a
                       href="tel:+91 040 42100330"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black   ml-4 text-black">
+                      <p className="text-black   ml-4">
                         {" "}
                         +91 040 42100330
                       </p>
@@ -507,14 +507,14 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <div className="border-2 border-maincol p-8 rounded-lg text-center w-full h-full leading-7 ">
-              flex flex-row justify-around items-start
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
+            <div className="border-2 border-maincol p-8 rounded-lg w-full h-full leading-7 ">
+              
+              <button className="p-2 bg-maincol  rounded-md font-semibold text-white w-72 h-20 text-center">
                 Bangalore
               </button>
               <div className="flex mt-5">
-                <div className="flex flex-row justify-around items-start">
-                  <img src={locin} alt="call inner logo" className="w-10" />
+                <div className="flex flex-row justify-around items-start gap-2">
+                  <img src={locin} alt="call inner logo" className="w-7 h-7" />
                   <div>
                     <a
                       href="#"
@@ -530,23 +530,23 @@ function Contact() {
                 </div>
               </div>
               <div className="flex mt-7">
-                <div className="flex flex-row justify-around items-start">
+                <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div>
+                  <div className="flex">
                     <a
                       href="tel:+91 9740039501"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black text-black  ml-4">
+                      <p className="text-black  ml-4">
                         {" "}
                         +91 9740039501
                       </p>
                     </a>
                     <a
                       href="tel:+91 080 26758685"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black text-black  ml-4">
+                      <p className="text-black ml-4">
                         {" "}
                         +91 080 26758685
                       </p>
@@ -571,13 +571,13 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <div className="border-2 border-maincol p-8 rounded-lg text-center w-full h-full leading-7 ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
+            <div className="border-2 border-maincol p-8 rounded-lg w-full h-full leading-7 ">
+              <button className="p-2 bg-maincol  rounded-md font-semibold text-white w-72 h-20 text-center">
                 Mumbai
               </button>
               <div className="flex mt-5">
-                <div className="flex flex-row justify-around items-start">
-                  <img src={locin} alt="call inner logo" className="w-10" />
+                <div className="flex flex-row justify-around items-start gap-2">
+                  <img src={locin} alt="call inner logo" className="w-7 h-7" />
                   <div>
                     <a
                       href="#"
@@ -594,18 +594,18 @@ function Contact() {
               </div>
 
               <div className="flex mt-7">
-                <div className="flex flex-row justify-around items-start">
+                <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div>
+                  <div className="flex">
                     <a
                       href="tel:+91 7977502827"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
                       <p className="text-black   ml-4"> +91 7977502827</p>
                     </a>
                     <a
                       href="tel:+91 9137103149"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
                       <p className="text-black   ml-4"> +91 9137103149</p>
                     </a>
@@ -630,19 +630,19 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <div className="border-2 border-maincol p-8 rounded-lg text-center w-full h-full leading-7 ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
+            <div className="border-2 border-maincol p-8 rounded-lg w-full h-full leading-7 ">
+              <button className="p-2 bg-maincol  rounded-md font-semibold text-white w-72 h-20 text-center">
                 Delhi{" "}
               </button>
               <div className="flex mt-5">
                 <div className="flex flex-row justify-around items-start">
-                  <img src={locin} alt="call inner logo" className="w-10" />
+                  <img src={locin} alt="call inner logo" className="w-7 h-7" />
                   <div>
                     <a
                       href="#"
                       className="hover:opacity-80 hover:scale-105 transition-all "
                     >
-                      <p className="text-black  ">
+                      <p className="text-black ml-2 ">
                         C/O A B ENTERPRISES C-41, First Floor, Block 3, Dayal
                         Estate, Okhla Industrial Area, Phase - 2 New
                         Delhi-110020 GST: 07AAACC3142N1ZQ
@@ -653,18 +653,18 @@ function Contact() {
               </div>
 
               <div className="flex mt-7">
-                <div className=" flex flex-row justify-around items-start">
+                <div className=" flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div>
+                  <div className="flex">
                     <a
                       href="tel:+91 011 4118133031"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
                       <p className="text-black   ml-4">+91 011 4118133031</p>
                     </a>
                     <a
                       href="tel:+91 011 4118133032"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
                       <p className="text-black   ml-4">+91 011 4118133032</p>
                     </a>
@@ -689,13 +689,13 @@ function Contact() {
               </div>
             </div>
 
-            <div className="border-2 border-maincol p-8 rounded-lg text-center w-full h-full leading-7 ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white">
+            <div className="border-2 border-maincol p-8 rounded-lg w-full h-full leading-7 ">
+              <button className="p-2 bg-maincol  rounded-md font-semibold text-white w-72 h-20 text-center">
                 Kolkata{" "}
               </button>
               <div className="flex mt-5">
-                <div className="flex flex-row justify-around items-start">
-                  <img src={locin} alt="call inner logo" className="w-10" />
+                <div className="flex flex-row justify-around items-start gap-2">
+                  <img src={locin} alt="call inner logo" className="w-7 h-7" />
                   <div>
                     <a
                       href="#"
@@ -714,10 +714,10 @@ function Contact() {
               <div className="flex mt-7">
                 <div className="flex flex-row justify-around items-center">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div>
+                  <div className="flex">
                     <a
                       href="tel:+91 6289766828"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
+                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
                       <p className="text-black   ml-4">+91 6289766828</p>
                     </a>
@@ -748,7 +748,7 @@ function Contact() {
               Registered Office
             </h2>
             <div className="flex justify-around items-center mt-8 border-maincol border-2 pt-16 pb-16 rounded-3xl">
-              <div className="flex flex-row justify-around items-start">
+              <div className="flex flex-row justify-around items-start gap-2">
                 <div>
                   <a
                     href="https://maps.app.goo.gl/TFhcwZNwQWMVNCgj8"

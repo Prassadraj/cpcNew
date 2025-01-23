@@ -234,14 +234,14 @@ function Brand() {
 
         {/* content 2 */}
         <div
-          className="flex justify-center mt-20"
+          className="flex justify-center items-center mt-20"
           data-aos="flip-right"
           data-aos-easing="ease-in-out"
         >
           <img
             src={sachika2}
             alt=""
-            className="w-full mt-5 rounded-lg shadow-lg "
+            className="w-full h-96 mt-5 rounded-lg shadow-lg "
           />
         </div>
 
@@ -276,14 +276,14 @@ function Brand() {
         </div>
 
         <div
-          className="flex justify-center mt-20"
+          className="flex justify-center items-center mt-32"
           data-aos="flip-left"
           data-aos-easing="ease-in-out"
         >
           <img
             src={sachika3}
             alt=""
-            className="w-full rounded-lg shadow-lg "
+            className="w-full h-96 rounded-lg shadow-lg "
           />
         </div>
       </div>
