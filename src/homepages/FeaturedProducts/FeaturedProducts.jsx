@@ -100,7 +100,7 @@ const HorizontalScrollCarousel = ({ cards }) => {
 const Card = ({ card }) => {
   return (
     <div
-      className={`laptop:mt-10 font-poppins relative h-[250px] w-[150px] tablet:h-[400px] tablet:w-[350px] overflow-hidden  rounded-2xl border-1 border-custom-green 
+      className={`laptop:mt-10 largeLaptop:mt-0 font-poppins relative largeLaptop:h-[450px] h-[250px] w-[150px] tablet:h-[400px] tablet:w-[350px] overflow-hidden  rounded-2xl border-1 border-custom-green 
      
       `}
     >
