@@ -199,11 +199,11 @@ function Product() {
                         className="no-underline"
                       >
                         <div
-                          className="bg-white border rounded-lg overflow-hidden relative group h-[200px] tablet:h-[320px] transition duration-300 ease-in-out transform hover:scale-105 tablet:px-3
+                          className="bg-white border-b-2 shadow-gray-300 border-green-800 shadow-xl rounded-lg overflow-hidden relative group h-[200px] tablet:h-[320px] transition duration-300 ease-in-out transform hover:scale-105 tablet:px-3
                         tablet:py-3 "
                         >
                           <img
-                            src={item.image[0]}
+                            src={item.coverImg}
                             alt={item.title}
                             className="w-full h-20  tablet:h-52 object-cover rounded-md"
                           />
@@ -215,7 +215,7 @@ function Product() {
                               {item.description}
                             </p>
                           </div>
-                          <div className="hidden absolute inset-0 bg-custom-green/80 justify-center items-center text-white text-xl group-hover:flex transition-opacity duration-300">
+                          <div className="hidden absolute inset-0 bg-green-600/40 justify-center items-center text-white text-xl group-hover:flex transition-opacity duration-300">
                             View Product
                           </div>
                         </div>

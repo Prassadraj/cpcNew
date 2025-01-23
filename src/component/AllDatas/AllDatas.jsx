@@ -11,19 +11,30 @@ import neo1 from "../AllDatas/ProductImages/Biochemistry/NEO/product1.webp";
 import neo2 from "../AllDatas/ProductImages/Biochemistry/NEO/product2.webp";
 import neo3 from "../AllDatas/ProductImages/Biochemistry/NEO/product3.webp";
 import neo4 from "../AllDatas/ProductImages/Biochemistry/NEO/product4.webp";
-
+//
 import plusGrey from "../AllDatas/greyImages/Turbostat Plus.webp";
 import plus1 from "../AllDatas/ProductImages/Biochemistry/PLUS/product1.webp";
 import plus2 from "../AllDatas/ProductImages/Biochemistry/PLUS/product2.webp";
+//turbochemprime
+import primGrey from "../AllDatas/greyImages/Turbochem Prime.webp";
 import prim1 from "../AllDatas/ProductImages/Biochemistry/PRIME/product1.webp";
 import prim2 from "../AllDatas/ProductImages/Biochemistry/PRIME/product2.webp";
+//
+import chemistryCollibratorGrey from
+ "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/product1.webp";
 import chemistryCollibrator from
  "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/product1.webp";
+ //
 import ichemPrimeGrey from "../AllDatas/greyImages/Turbochem Prime.webp";
 import ichemPrime from "../AllDatas/ProductImages/Biochemistry/ichemPrime/product1.webp";
+//
 import identiImmunoGrey from "../AllDatas/ProductImages/Biochemistry/identiImmuno/product1.webp";
 import identiImmuno from "../AllDatas/ProductImages/Biochemistry/identiImmuno/product1.webp";
+//
+import identiReagentsGrey from "../AllDatas/ProductImages/Biochemistry/identiReagents/product1.webp";
 import identiReagents from "../AllDatas/ProductImages/Biochemistry/identiReagents/product1.webp";
+//
+
 import ichemMagnaGrey from "../AllDatas/greyImages/Ichem Magna.webp";
 import ichemMagna1 from "../AllDatas/ProductImages/Biochemistry/ichemManga/product1.webp";
 // Clinical Microbiology
@@ -115,13 +126,18 @@ import fluoroMatGrey from "../AllDatas/greyImages/Fluoromat 50.webp";
 import fluoroMat from "../AllDatas/ProductImages/Immunology/fluoroMat/product1.webp";
 //
 // import sprinter from "../AllDatas/greyImages/";
+import sprinterGrey from "../AllDatas/ProductImages/Immunology/sprinter/product1.webp";
 import sprinter from "../AllDatas/ProductImages/Immunology/sprinter/product1.webp";
 
 // Point of Care
+import ichromaIIGrey from "../AllDatas/greyImages/Ichroma™ II.webp";
 import ichromaII from "../AllDatas/ProductImages/Point of Care/ichroma™ II/product1.webp";
+//
+import ichromaIIIGrey from "../AllDatas/greyImages/Ichroma™ III.webp";
 import ichromaIII from "../AllDatas/ProductImages/Point of Care/ichroma™ III/product1.webp";
 
 // Pre-Analytical Automation
+import PreAnalyticalGrey from "../AllDatas/ProductImages/Pre-Analytical Automation/product1.webp";
 import PreAnalytical from "../AllDatas/ProductImages/Pre-Analytical Automation/product1.webp";
 
 const products = [
@@ -142,6 +158,7 @@ const products = [
         section: "fullyautomatic",
         allover: "This is for fully automatic",
         id: "1",
+        coverImg:magnaGrey,
         image: [magna1, magna2, magna3, magna4],
         title: "Turbochem Magna",
         shortdescription:
@@ -271,6 +288,7 @@ const products = [
         allover: "This is for fully automatic",
         id: "2",
         section: "fullyautomatic",
+        coverImg:primGrey,
         image: [prim1, prim2,],
         title: "Turbochem Prime",
         shortdescription:
@@ -416,6 +434,7 @@ const products = [
       {
         allover: "This is for Semi automatic",
         id: "4",
+        coverImg:plusGrey,
         image: [plus1,plus2],
         title: "Turbostat Plus",
         section: "semiautomatic",
@@ -541,6 +560,7 @@ const products = [
       {
         allover: "Reagents",
         id: "5",
+        coverImg:ichemPrimeGrey,
         image: [ichemPrime],
         section: "reagents",
         title: "Ichem Prime",
@@ -682,6 +702,7 @@ const products = [
         allover: "Reagents",
         id: "6",
         section: "reagents",
+        coverImg:ichemMagnaGrey,
         image: [ichemMagna1],
         shortdescription:
           "The iChem Magna is a high-performance biochemical testing solution, delivering precise and reliable results for high-volume clinical laboratories.",
@@ -812,6 +833,7 @@ const products = [
         allover: "Reagents",
         id: "7",
         section: "reagents",
+        coverImg:identiImmunoGrey,
         image: [identiImmuno],
         shortdescription:
           "Identi Immuno Turbidimetry Reagents provide precise and sensitive results for detecting critical biomarkers in immunoassay testing.",
@@ -946,6 +968,7 @@ const products = [
         allover: "Reagents",
         id: "8",
         section: "reagents",
+        coverImg:identiReagentsGrey,
         image: [identiReagents],
         title: "Identi Reagents",
         shortdescription:
@@ -1077,6 +1100,7 @@ const products = [
         section: "reagents",
         shortdescription:
           "The Chemistry Calibrator and Controls ensure accuracy and reliability in diagnostic testing by calibrating and validating clinical chemistry analyzers.",
+          coverImg:chemistryCollibratorGrey,
         image: [chemistryCollibrator],
         title: "Chemistry Calibrator and Chemistry Controls",
         description:
@@ -1512,6 +1536,7 @@ const products = [
         topic: "Electrolyte Analyzer",
         id: "1",
         section: "withautoloader",
+        coverImg:JokohExDGrey,
         image: [Jokoh1, Jokoh2, Jokoh3],
         title: "Jokoh Ex-D Electrolyte Analyzer",
         shortdescription:
@@ -1736,6 +1761,7 @@ const products = [
         topic: "Electrolyte Analyzer",
         id: "2",
         section: "withoutautoloader",
+        coverImg:JokohExDsGrey,
         image: [image1],
         title: "Jokoh Ex-Ds Electrolyte Analyzer",
         shortdescription:
@@ -1896,6 +1922,7 @@ const products = [
         id: "1",
 
         section: "3parthematology",
+        coverImg:DYNACOUNT3DGrey,
         image: [DYNACOUNT3D1],
         title: "Dynacount 3D Haematology Analyzer",
         shortdescription:
@@ -2044,6 +2071,7 @@ const products = [
       {
         allover: "3 Part Differential Hematology Analyzer",
         id: "2",
+        coverImg:plusGrey,
         image: [PLUS1],
         title: "Dynacount 3D Plus",
         section: "3parthematology",
@@ -2193,7 +2221,8 @@ const products = [
       {
         allover: "5 Part Differential Hematology Analyzer",
         id: "3",
-        image: [DYNACOUNT1],
+        coverImg:DYNACOUNT5Dgrey,
+        image: [DYNACOUNT5D1],
         title: "Dynacount 5D",
         section: "5parthematology",
 
@@ -2345,6 +2374,7 @@ const products = [
       {
         allover: "Vision Pro",
         id: "4",
+        coverImg:VisionGrey,
         image: [Vision1, Vision2],
         title: "Vision Pro",
         section: "esranalyzer",
@@ -2499,6 +2529,7 @@ const products = [
       {
         allover: "Sedrate Pro",
         id: "5",
+        coverImg:SedrateProGrey,
         image: [SedratePro1, SedratePro2, SedratePro3],
         title: "Sedrate Pro",
         section: "esranalyzer",
@@ -2675,6 +2706,7 @@ const products = [
       {
         id: "1",
         image: [Plexmat4],
+        coverImg:Plexmat4Grey,
         title: "Plexmat 4",
         section: "immunoblot",
         shortdescription:
@@ -2905,6 +2937,7 @@ const products = [
       },
       {
         id: "2",
+        coverImg:Plexmat8Grey,
         image: [Plexmat8],
         title: "Plexmat 8",
         section: "immunoblot",
@@ -3134,9 +3167,11 @@ const products = [
         detailedSpecification: "Detailed specs available on request.",
         offerOrDiscounts: "Inquire about current offers with the distributor.",
       },
+      //missing cover pic
       {
         id: "3",
         image: [image1],
+        coverImg:image1,
         title: "Brahms Biomarkers",
         section: "immunoblot",
         shortdescription:
@@ -3368,6 +3403,7 @@ const products = [
       },
       {
         id: "4",
+        coverImg:Iflash1200Grey,
         image: [
           Iflash12001,
           Iflash12002,
@@ -3529,6 +3565,7 @@ const products = [
       },
       {
         id: "5",
+        coverImg:Iflash1800Grey,
         image: [
           Iflash18001,
           Iflash18002,
@@ -3740,6 +3777,7 @@ const products = [
 
       {
         id: "7",
+        coverImg:Iflash3000Grey,
         image: [Iflash30001, Iflash30002, Iflash30003, Iflash30004],
         title: "Iflash 3000",
         section: "clia",
@@ -3947,6 +3985,7 @@ const products = [
       {
         id: "8",
         image: [Kryptor],
+        coverImg:KryptorGrey,
         section: "trace",
         title: "Kryptor Compact Plus",
         shortdescription:
@@ -4169,6 +4208,7 @@ const products = [
       {
         id: "9",
         image: [Euroimmun],
+        coverImg:EuroimmunGrey,
         title: "Euroimmun Analyzer I-2P",
         section: "elisa",
         shortdescription:
@@ -4358,6 +4398,7 @@ const products = [
       {
         id: "10",
         image: [Euroblotone],
+        coverImg:EuroblotoneGrey,
         title: "Euroblot One",
         section: "immunoblot",
         shortdescription:
@@ -4572,6 +4613,7 @@ const products = [
       {
         id: "11",
         image: [IfSprinter],
+        coverImg:IfSprinterGrey,
         title: "If Sprinter",
         section: "ifa",
         shortdescription:
@@ -4759,6 +4801,7 @@ const products = [
       {
         id: "12",
         image: [EuroStar],
+        coverImg:EuroStarGrey,
         section: "ifa",
         title: "Eurostar III Plus",
         shortdescription:
@@ -4945,6 +4988,7 @@ const products = [
       {
         id: "14",
         image: [euroPattern],
+        coverImg:euroPatternGrey,
         title: "Europattern Microscope",
         section: "ifa",
         shortdescription:
@@ -5079,6 +5123,7 @@ const products = [
       {
         id: "15",
         image: [fluoroMat],
+        coverImg:fluoroMatGrey,
         title: "FluoroMAT 50",
         section: "ifa",
         shortdescription:
@@ -5312,6 +5357,7 @@ const products = [
       {
         id: "16",
         image: [euroimmunAnalyzerI],
+        coverImg:euroimmunAnalyzerIGrey,
         title: "Euroimmun Analyzer I",
         section: "elisa",
         shortdescription:
@@ -5505,6 +5551,7 @@ const products = [
       {
         id: "17",
         image: [sprinter],
+        coverImg:sprinterGrey,
         title: "Sprinter XL",
         section: "ifa",
         shortdescription:
@@ -5733,6 +5780,7 @@ const products = [
         topic: "POCT Hormone Analyzer",
         id: "1",
         image: [ichromaII],
+        coverImg:ichromaIIGrey,
         title: "Ichroma™ II",
         shortdescription:
           "The ichroma™ II is an advanced immunoassay analyzer that leverages fluorescence-based technology to deliver quick and accurate diagnostic results. Engineered by Boditech, this POCT device is ideal for modern healthcare environments, ensuring dependable performance and ease of use.",
@@ -5883,6 +5931,7 @@ const products = [
         topic: "POCT Hormone Analyzer",
         id: "2",
         image: [ichromaIII],
+        coverImg:ichromaIIIGrey,
         title: "Ichroma™ III",
         shortdescription:
           "The ichroma™ 3 is a state-of-the-art immunoassay analyzer that uses fluorescence-based technology to provide quick and accurate diagnostic results. This POCT device is designed to meet the demands of modern healthcare facilities, ensuring reliable performance and ease of use.",
@@ -6038,6 +6087,7 @@ const products = [
         topic: "Labscan 3D",
         id: "1",
         image: [image1],
+        coverImg:image1,
         title: "Labscan 3D",
         shortdescription: "Fully Automatic 3-Part Sortpro Sample Sorter",
         description:
@@ -6164,6 +6214,7 @@ const products = [
         topic: "Labscan 100",
         id: "2",
         image: [image1],
+        coverImg:image1,
         title: "Labscan 100",
         shortdescription:
           "  The ability to perform up to 100 different tests in a single reaction volume, and to use either magnetic beads or plain polystyrene beads makes this instrument a popular choice for laboratories needing greater flexibility. Additionally, the Luminex 200 is able to offer higher sample throughput with a 96-well plate read time of only 45 minutes.",
@@ -6276,6 +6327,7 @@ const products = [
         topic: "Sample Sorter",
         id: "1",
         image: [PreAnalytical],
+        coverImg:PreAnalyticalGrey,
         title: "Sortpro Sample Sorter",
         shortdescription:
           "The SORTPRO SAMPLE SORTER is a high-performance sample sorting system that automates the pre-analytical process, ensuring samples are sorted accurately and efficiently. Designed to handle a variety of biological samples, including blood, urine, and other bodily fluids, this system automates sorting based on specific criteria, such as sample type, destination, or test requirements. The SORTPRO SAMPLE SORTER significantly reduces manual handling, lowering the risk of errors and improving overall laboratory productivity.",
