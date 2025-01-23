@@ -160,7 +160,7 @@ const products = [
         id: "1",
         coverImg:magnaGrey,
         image: [magna1, magna2, magna3, magna4],
-        title: "Turbochem Magna",
+        title: "TURBOCHEM MAGNA",
         shortdescription:
           "The Turbochem Magna is a fully automated biochemistry analyzer tailored for medium to large laboratories. With its advanced technology, it ensures high throughput and precision, making it ideal for comprehensive biochemical testing.",
         description:
@@ -290,7 +290,7 @@ const products = [
         section: "fullyautomatic",
         coverImg:primGrey,
         image: [prim1, prim2,],
-        title: "Turbochem Prime",
+        title: "TURBOCHEM PRIME",
         shortdescription:
           "The Turbochem Prime is a fully automatic biochemistry analyzer, perfect for small to medium-sized laboratories. It offers a balance of efficiency, ease of use, and cost-effectiveness.",
         description:
@@ -436,7 +436,7 @@ const products = [
         id: "4",
         coverImg:plusGrey,
         image: [plus1,plus2],
-        title: "Turbostat Plus",
+        title: "TURBOSTAT PLUS",
         section: "semiautomatic",
         shortdescription:
           "The Turbostat Plus is a semi-automated biochemistry analyzer designed for rapid and reliable biochemical testing. It ensures high accuracy and efficiency, making it suitable for diverse laboratory environments.",
@@ -563,7 +563,7 @@ const products = [
         coverImg:ichemPrimeGrey,
         image: [ichemPrime],
         section: "reagents",
-        title: "Ichem Prime",
+        title: "ichem PRIME",
         shortdescription:
           "The iChem Prime System Pack offers high-quality reagents for the TurboChem Prime analyzer, ensuring precise and reliable clinical chemistry testing for modern diagnostic labs.",
         description:
@@ -706,7 +706,7 @@ const products = [
         image: [ichemMagna1],
         shortdescription:
           "The iChem Magna is a high-performance biochemical testing solution, delivering precise and reliable results for high-volume clinical laboratories.",
-        title: "Ichem Magna",
+        title: "ichem MAGNA",
         description:
           "The iChem Magna is an advanced biochemical testing solution designed for a wide range of diagnostic applications. With its advanced formulation, iChem Magna ensures precise and reliable results, making it a trusted choice for high-volume clinical laboratories.",
         workPrinciple: (
@@ -837,7 +837,7 @@ const products = [
         image: [identiImmuno],
         shortdescription:
           "Identi Immuno Turbidimetry Reagents provide precise and sensitive results for detecting critical biomarkers in immunoassay testing.",
-        title: "Identi Immuno Turbidimetry Reagents",
+        title: "identi Immuno Turbidimetry Reagents",
         description:
           "Identi Immuno Turbidimetry Reagents are premium solutions for immunoassay testing using turbidimetric methods. These reagents are designed to deliver precise and sensitive results, enabling the detection of critical biomarkers for effective diagnosis and treatment planning.",
         workPrinciple: (
@@ -970,7 +970,7 @@ const products = [
         section: "reagents",
         coverImg:identiReagentsGrey,
         image: [identiReagents],
-        title: "Identi Reagents",
+        title: "identi",
         shortdescription:
           "The Identi Reagents Kit offers reliable and easy-to-use solutions for accurate diagnostic testing in clinical laboratories.",
         description:
@@ -1538,7 +1538,7 @@ const products = [
         section: "withautoloader",
         coverImg:JokohExDGrey,
         image: [Jokoh1, Jokoh2, Jokoh3],
-        title: "Jokoh Ex-D Electrolyte Analyzer",
+        title: "Jokoh Ex-D",
         shortdescription:
           "The Jokoh EX-D Electrolyte Analyzer is engineered to deliver rapid and precise measurements of vital electrolytes, including sodium (Na+), potassium (K+), and chloride (Cl-). The analyzer’s compact design makes it an excellent choice for laboratories with space constraints, while its advanced technology ensures consistent accuracy and low operational costs.",
         description:
@@ -1763,7 +1763,7 @@ const products = [
         section: "withoutautoloader",
         coverImg:JokohExDsGrey,
         image: [image1],
-        title: "Jokoh Ex-Ds Electrolyte Analyzer",
+        title: "Jokoh Ex-Ds",
         shortdescription:
           "The EX-Ds Electrolyte Analyzer offers reliable and efficient high-throughput testing, providing precise results and seamless integration for both routine and specialized diagnostic tests, optimizing laboratory workflows.",
         description:
@@ -1924,7 +1924,7 @@ const products = [
         section: "3parthematology",
         coverImg:DYNACOUNT3DGrey,
         image: [DYNACOUNT3D1],
-        title: "Dynacount 3D Haematology Analyzer",
+        title: "Dynacount 3D",
         shortdescription:
           "The Dynacount 3D Hematology Analyzer utilizes state-of-the-art 3D imaging technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with ease.",
         description:
@@ -2073,7 +2073,7 @@ const products = [
         id: "2",
         coverImg:plusGrey,
         image: [PLUS1],
-        title: "Dynacount 3D Plus",
+        title: "DYNACOUNT 3D PLUS",
         section: "3parthematology",
         shortdescription:
           "The Dynacount 3D Plus Hematology Analyzer leverages sophisticated 3D imaging to provide detailed and accurate blood cell analysis. This device is engineered to meet the demands of modern laboratories, offering reliable results with minimal manual intervention.",
@@ -2223,7 +2223,7 @@ const products = [
         id: "3",
         coverImg:DYNACOUNT5Dgrey,
         image: [DYNACOUNT5D1],
-        title: "Dynacount 5D",
+        title: "DYNACOUNT 5D",
         section: "5parthematology",
 
         shortdescription:
@@ -2372,11 +2372,11 @@ const products = [
           "Check for current offers and discounts with the distributor.",
       },
       {
-        allover: "Vision Pro",
+        allover: "VISION Pro",
         id: "4",
         coverImg:VisionGrey,
         image: [Vision1, Vision2],
-        title: "Vision Pro",
+        title: "VISION Pro",
         section: "esranalyzer",
 
         shortdescription:
@@ -2527,7 +2527,7 @@ const products = [
           "Check for current offers and discounts with the distributor.",
       },
       {
-        allover: "Sedrate Pro",
+        allover: "SEDRATE PRO",
         id: "5",
         coverImg:SedrateProGrey,
         image: [SedratePro1, SedratePro2, SedratePro3],
@@ -2707,7 +2707,7 @@ const products = [
         id: "1",
         image: [Plexmat4],
         coverImg:Plexmat4Grey,
-        title: "Plexmat 4",
+        title: "PlexMat 4",
         section: "immunoblot",
         shortdescription:
           "The PLEXMAT 4 is an advanced western blot processor designed to bring automation and precision to immunoblotting processes in diagnostic laboratories. This compact system is ideal for laboratories handling a moderate volume of western blot tests. The PLEXMAT 4 automates each step of the blotting process, from sample preparation to final detection, minimizing manual intervention and reducing the risk of errors. Its versatility makes it suitable for processing various test profiles, including ANA (antinuclear antibody) tests and liver diagnostics, making it a reliable asset in immunodiagnostics.",
@@ -2939,7 +2939,7 @@ const products = [
         id: "2",
         coverImg:Plexmat8Grey,
         image: [Plexmat8],
-        title: "Plexmat 8",
+        title: "PlexMat 8",
         section: "immunoblot",
         shortdescription:
           "The PLEXMAT 8 is a cutting-edge immunoblot processor designed to automate and streamline the western blot process in clinical and diagnostic laboratories. This automated western blot processor offers high precision and efficiency, handling up to 8 strips simultaneously. Its automation capabilities significantly reduce manual handling, ensuring consistency and reproducibility across all samples. The PLEXMAT 8 is particularly useful for processing complex diagnostic profiles, such as ANA (antinuclear antibody) tests and liver function profiles, making it a versatile tool in immunodiagnostics.",
@@ -3172,7 +3172,7 @@ const products = [
         id: "3",
         image: [image1],
         coverImg:image1,
-        title: "Brahms Biomarkers",
+        title: "B·R·A·H·M·S",
         section: "immunoblot",
         shortdescription:
           "The BRAHMS Biomarkers system is an advanced diagnostic solution designed for accurate prenatal screening and critical disease detection. This prenatal screening instrument provides fast and reliable results by identifying key biomarkers in patient samples. Ideal for modern laboratories, the BRAHMS Biomarkers system ensures consistent accuracy, making it an essential tool for early diagnosis and effective patient management.",
@@ -3412,7 +3412,7 @@ const products = [
           Iflash12005,
         ],
         section: "clia",
-        title: "Iflash 1200",
+        title: "iFlash 1200",
         shortdescription:
           "The IFLASH 1200 is a state-of-the-art Chemiluminescence Immunoassay (CLIA) analyzer that provides high sensitivity and specificity in immunoassay testing. This fully automated system simplifies complex diagnostic procedures, offering a user-friendly interface and robust performance to meet the demands of modern laboratories.",
         description:
@@ -3574,7 +3574,7 @@ const products = [
           Iflash18005,
         ],
         section: "clia",
-        title: "Iflash 1800",
+        title: "iFlash 1800",
         shortdescription:
           "The iFlash 1800 is a high-performance fully automated immunoassay analyzer that leverages chemiluminescence technology to provide accurate and reliable diagnostic results. This CLIA analyser is designed for laboratories seeking efficiency, precision, and high throughput.",
         description:
@@ -3779,7 +3779,7 @@ const products = [
         id: "7",
         coverImg:Iflash3000Grey,
         image: [Iflash30001, Iflash30002, Iflash30003, Iflash30004],
-        title: "Iflash 3000",
+        title: "iFlash 3000",
         section: "clia",
         shortdescription:
           "The iFlash 3000 is a state-of-the-art fully automated immunoassay analyzer designed to meet the demands of modern diagnostic laboratories. Leveraging chemiluminescence technology, this CLIA analyser delivers precise and timely results for various assays, making it an essential tool for clinical diagnostics. Its robust construction and advanced automation features ensure that labs can manage high volumes of tests without compromising on accuracy or speed.",
@@ -3987,7 +3987,7 @@ const products = [
         image: [Kryptor],
         coverImg:KryptorGrey,
         section: "trace",
-        title: "Kryptor Compact Plus",
+        title: "KRYPTOR compact PLUS",
         shortdescription:
           "The KRYPTOR Compact Plus is a highly sophisticated prenatal screening equipment engineered to provide accurate and reliable biomarker detection for prenatal and infectious disease diagnostics. This procalcitonin test machine is designed to meet the demands of high-throughput laboratories, offering rapid results with minimal manual intervention. The system is compact yet powerful, integrating advanced technologies that ensure consistent performance and ease of use in clinical settings.",
         description:
@@ -4209,7 +4209,7 @@ const products = [
         id: "9",
         image: [Euroimmun],
         coverImg:EuroimmunGrey,
-        title: "Euroimmun Analyzer I-2P",
+        title: "EUROIMMUN Analyzer I-2P",
         section: "elisa",
         shortdescription:
           "The Euroimmun Analyzer I-2P is a cutting-edge, fully automated ELISA analyzer tailored for laboratories requiring high-efficiency and reliable immunoassay processing. Designed to enhance laboratory performance, this analyzer ensures accurate and reproducible results with minimal hands-on time, allowing lab professionals to focus on critical analysis.",
@@ -4399,7 +4399,7 @@ const products = [
         id: "10",
         image: [Euroblotone],
         coverImg:EuroblotoneGrey,
-        title: "Euroblot One",
+        title: "EUROBlotOne",
         section: "immunoblot",
         shortdescription:
           "The Euroblot One is an advanced immunoblot processor designed for the fully automated processing of immunoblots. This innovative system brings accuracy and consistency to diagnostic laboratories by automating the complex steps of immunoblot testing. The Euroblot One ensures that your lab can deliver reliable results with minimal manual intervention, freeing up time for technicians to focus on other critical tasks. Its streamlined design and intuitive operation make it an essential tool for any lab conducting immunoblot assays.",
@@ -4614,7 +4614,7 @@ const products = [
         id: "11",
         image: [IfSprinter],
         coverImg:IfSprinterGrey,
-        title: "If Sprinter",
+        title: "IF Sprinter",
         section: "ifa",
         shortdescription:
           "The IF Sprinter is a sophisticated IFA Processor (ImmunoFluorescence Assay) developed to bring efficiency and accuracy to diagnostic laboratories. This fully automated IFA processor eliminates manual handling errors and speeds up the immunofluorescence process, allowing labs to focus on delivering timely results. The IF Sprinter’s automation capabilities are also extended to ELISA assays, making it a versatile instrument for any lab handling immunological testing.",
@@ -4803,7 +4803,7 @@ const products = [
         image: [EuroStar],
         coverImg:EuroStarGrey,
         section: "ifa",
-        title: "Eurostar III Plus",
+        title: "EUROStar III Plus",
         shortdescription:
           "The EUROStar III Plus is a state-of-the-art fluorescence microscope developed for laboratories requiring high-quality imaging capabilities. Its advanced LED technology ensures bright and even illumination, crucial for producing clear and detailed fluorescence images. This microscope is designed with user convenience in mind, offering an intuitive interface and robust construction to support a wide range of laboratory applications.",
         description:
@@ -4989,7 +4989,7 @@ const products = [
         id: "14",
         image: [euroPattern],
         coverImg:euroPatternGrey,
-        title: "Europattern Microscope",
+        title: "EUROPattern Microscope",
         section: "ifa",
         shortdescription:
           "The EuroPattern Microscope is an advanced imaging system for automated pattern recognition in immunofluorescence testing, enhancing workflow efficiency and diagnostic precision.",
@@ -5358,7 +5358,7 @@ const products = [
         id: "16",
         image: [euroimmunAnalyzerI],
         coverImg:euroimmunAnalyzerIGrey,
-        title: "Euroimmun Analyzer I",
+        title: "EUROIMMUN Analyzer I",
         section: "elisa",
         shortdescription:
           "The Euroimmun Analyzer I is a sophisticated, fully automated ELISA analyzer developed to enhance laboratory efficiency while delivering high-precision results. It automates the entire ELISA process, significantly reducing the need for manual labor and minimizing the risk of human error. This compact and reliable analyzer is an essential tool for any laboratory conducting regular ELISA tests.",
@@ -5781,7 +5781,7 @@ const products = [
         id: "1",
         image: [ichromaII],
         coverImg:ichromaIIGrey,
-        title: "Ichroma™ II",
+        title: "ichroma™ II",
         shortdescription:
           "The ichroma™ II is an advanced immunoassay analyzer that leverages fluorescence-based technology to deliver quick and accurate diagnostic results. Engineered by Boditech, this POCT device is ideal for modern healthcare environments, ensuring dependable performance and ease of use.",
         description:
@@ -5932,7 +5932,7 @@ const products = [
         id: "2",
         image: [ichromaIII],
         coverImg:ichromaIIIGrey,
-        title: "Ichroma™ III",
+        title: "ichroma™ III",
         shortdescription:
           "The ichroma™ 3 is a state-of-the-art immunoassay analyzer that uses fluorescence-based technology to provide quick and accurate diagnostic results. This POCT device is designed to meet the demands of modern healthcare facilities, ensuring reliable performance and ease of use.",
         description:
@@ -6084,7 +6084,7 @@ const products = [
     subsection: ["All", "Reagents"],
     items: [
       {
-        topic: "Labscan 3D",
+        topic: "LABScan 3D",
         id: "1",
         image: [image1],
         coverImg:image1,
@@ -6211,7 +6211,7 @@ const products = [
           "Check with the distributor for current offers or discounts, including bundle deals with other lab equipment.",
       },
       {
-        topic: "Labscan 100",
+        topic: "LABScan 100",
         id: "2",
         image: [image1],
         coverImg:image1,
@@ -6328,7 +6328,7 @@ const products = [
         id: "1",
         image: [PreAnalytical],
         coverImg:PreAnalyticalGrey,
-        title: "Sortpro Sample Sorter",
+        title: "SORTPRO SAMPLE SORTER",
         shortdescription:
           "The SORTPRO SAMPLE SORTER is a high-performance sample sorting system that automates the pre-analytical process, ensuring samples are sorted accurately and efficiently. Designed to handle a variety of biological samples, including blood, urine, and other bodily fluids, this system automates sorting based on specific criteria, such as sample type, destination, or test requirements. The SORTPRO SAMPLE SORTER significantly reduces manual handling, lowering the risk of errors and improving overall laboratory productivity.",
         description:
