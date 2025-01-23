@@ -1,24 +1,34 @@
 import image1 from "../../images/products/frame1.png";
 // Biochemistry
+import magnaGrey from "../AllDatas/greyImages/Turbochem Magna.webp";
 import magna1 from "../AllDatas/ProductImages/Biochemistry/MAGNA/product1.webp";
 import magna2 from "../AllDatas/ProductImages/Biochemistry/MAGNA/product2.webp";
 import magna3 from "../AllDatas/ProductImages/Biochemistry/MAGNA/product3.webp";
 import magna4 from "../AllDatas/ProductImages/Biochemistry/MAGNA/product4.webp";
+// import neogrey from "../AllDatas/ProductImages/Biochemistry/greyImages/product1.webp";
 import neo1 from "../AllDatas/ProductImages/Biochemistry/NEO/product1.webp";
+
 import neo2 from "../AllDatas/ProductImages/Biochemistry/NEO/product2.webp";
 import neo3 from "../AllDatas/ProductImages/Biochemistry/NEO/product3.webp";
 import neo4 from "../AllDatas/ProductImages/Biochemistry/NEO/product4.webp";
+
+import plusGrey from "../AllDatas/greyImages/Turbostat Plus.webp";
 import plus1 from "../AllDatas/ProductImages/Biochemistry/PLUS/product1.webp";
 import plus2 from "../AllDatas/ProductImages/Biochemistry/PLUS/product2.webp";
 import prim1 from "../AllDatas/ProductImages/Biochemistry/PRIME/product1.webp";
 import prim2 from "../AllDatas/ProductImages/Biochemistry/PRIME/product2.webp";
-import chemistryCollibrator from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/product2.jpg";
+import chemistryCollibrator from
+ "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/product1.webp";
+import ichemPrimeGrey from "../AllDatas/greyImages/Turbochem Prime.webp";
 import ichemPrime from "../AllDatas/ProductImages/Biochemistry/ichemPrime/product1.webp";
+import identiImmunoGrey from "../AllDatas/ProductImages/Biochemistry/identiImmuno/product1.webp";
 import identiImmuno from "../AllDatas/ProductImages/Biochemistry/identiImmuno/product1.webp";
 import identiReagents from "../AllDatas/ProductImages/Biochemistry/identiReagents/product1.webp";
+import ichemMagnaGrey from "../AllDatas/greyImages/Ichem Magna.webp";
 import ichemMagna1 from "../AllDatas/ProductImages/Biochemistry/ichemManga/product1.webp";
 // Clinical Microbiology
 import ast1 from "../AllDatas/ProductImages/Clinical Microbiology/AST plates/product1.webp";
+import astGrey from "../AllDatas/ProductImages/Clinical Microbiology/AST plates/product1.webp";
 import Nephelometer1 from "../AllDatas/ProductImages/Clinical Microbiology/Nephelometer/product1.webp";
 import Automated1 from "../AllDatas/ProductImages/Clinical Microbiology/Automated Inoculation/product1.webp";
 import manual1 from "../AllDatas/ProductImages/Clinical Microbiology/Manual Viewbox/product1.webp";
@@ -34,42 +44,77 @@ import LACTAT1 from "../AllDatas/ProductImages/Covid/LACTATE/product1.jpg";
 import PROCALCITONIN1 from "../AllDatas/ProductImages/Covid/PROCALCITONIN/product1.jpg";
 import identi1 from "../AllDatas/ProductImages/Covid/identi VTM/product1.jpg";
 // Electrolyte Analyzer
+import JokohExDGrey from "../AllDatas/greyImages/Jokoh Ex-D.webp";
+import JokohExDsGrey from "../AllDatas/greyImages/Jokoh Ex-Ds.webp";
 import Jokoh1 from "../AllDatas/ProductImages/Electrolyte Analyzer/Jokoh/product1.webp";
 import Jokoh2 from "../AllDatas/ProductImages/Electrolyte Analyzer/Jokoh/product2.webp";
 import Jokoh3 from "../AllDatas/ProductImages/Electrolyte Analyzer/Jokoh/product3.webp";
 // Hematology
 import PLUS1 from "../AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
-import Analyzer1 from "../AllDatas/ProductImages/Hematology/Analyzer/product1.webp";
-import Analyzer2 from "../AllDatas/ProductImages/Hematology/Analyzer/product2.webp";
-import DYNACOUNT1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT 5D/product1.webp";
+import PLUSGrey from "../AllDatas/greyImages/Dynacount 3D Plus.webp";
+import VisionGrey from "../AllDatas/greyImages/Vision Pro.webp";
+import Vision1 from "../AllDatas/ProductImages/Hematology/Analyzer/product1.webp";
+import Vision2 from "../AllDatas/ProductImages/Hematology/Analyzer/product2.webp";
+import DYNACOUNT3D1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT 5D/product1.webp";
+import DYNACOUNT3DGrey from "../AllDatas/greyImages/Dynacount 3D.webp";
+import DYNACOUNT5Dgrey from "../AllDatas/greyImages/Dynacount 5D.webp";
+import DYNACOUNT5D1 from "../AllDatas/greyImages/Dynacount 5D.webp";
+import SedrateProGrey from "../AllDatas/greyImages/Sedrate Pro.webp";
 import SedratePro1 from "../AllDatas/ProductImages/Hematology/SedratePro/product1.webp";
 import SedratePro2 from "../AllDatas/ProductImages/Hematology/SedratePro/product2.webp";
 import SedratePro3 from "../AllDatas/ProductImages/Hematology/SedratePro/product3.webp";
 // Immunology;
+import EuroblotoneGrey from "../AllDatas/greyImages/Euroblotone.webp";
 import Euroblotone from "../AllDatas/ProductImages/Immunology/Euroblotone/product1.webp";
+//
+import EuroimmunGrey from "../AllDatas/ProductImages/Immunology/Euroimmun/product1.webp";
 import Euroimmun from "../AllDatas/ProductImages/Immunology/Euroimmun/product1.webp";
+//
+import EuroStarGrey from "../AllDatas/greyImages/Eurostar III Plus.webp";
 import EuroStar from "../AllDatas/ProductImages/Immunology/EuroStar/product1.webp";
+//
+import Iflash1200Grey from "../AllDatas/greyImages/Iflash 1200.webp";
 import Iflash12001 from "../AllDatas/ProductImages/Immunology/Iflash1200/product1.webp";
 import Iflash12002 from "../AllDatas/ProductImages/Immunology/Iflash1200/product2.webp";
 import Iflash12003 from "../AllDatas/ProductImages/Immunology/Iflash1200/product3.webp";
 import Iflash12004 from "../AllDatas/ProductImages/Immunology/Iflash1200/product4.webp";
 import Iflash12005 from "../AllDatas/ProductImages/Immunology/Iflash1200/product5.webp";
+//
+import Iflash1800Grey from "../AllDatas/greyImages/Iflash 1800.webp";
 import Iflash18001 from "../AllDatas/ProductImages/Immunology/Iflash1800/product1.webp";
 import Iflash18002 from "../AllDatas/ProductImages/Immunology/Iflash1800/product2.webp";
 import Iflash18003 from "../AllDatas/ProductImages/Immunology/Iflash1800/product3.webp";
 import Iflash18004 from "../AllDatas/ProductImages/Immunology/Iflash1800/product4.webp";
 import Iflash18005 from "../AllDatas/ProductImages/Immunology/Iflash1800/product5.webp";
+//
+import Iflash3000Grey from "../AllDatas/greyImages/Iflash 3000.webp";
 import Iflash30001 from "../AllDatas/ProductImages/Immunology/Iflash3000/product1.webp";
 import Iflash30002 from "../AllDatas/ProductImages/Immunology/Iflash3000/product2.webp";
 import Iflash30003 from "../AllDatas/ProductImages/Immunology/Iflash3000/product3.webp";
 import Iflash30004 from "../AllDatas/ProductImages/Immunology/Iflash3000/product4.webp";
+//
+import IfSprinterGrey from "../AllDatas/greyImages/If Sprinter.webp";
 import IfSprinter from "../AllDatas/ProductImages/Immunology/IfSprinter/product1.webp";
+//
+import KryptorGrey from "../AllDatas/greyImages/Kryptor Compact Plus.webp";
 import Kryptor from "../AllDatas/ProductImages/Immunology/Kryptor/product1.webp";
+//
+import Plexmat4Grey from "../AllDatas/greyImages/Plexmat 4.webp";
 import Plexmat4 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
+//
+import Plexmat8Grey from "../AllDatas/greyImages/Plexmat 8.webp";
 import Plexmat8 from "../AllDatas/ProductImages/Immunology/Plexmat8/product1.webp";
+//
 import euroimmunAnalyzerI from "../AllDatas/ProductImages/Immunology/euroimmunAnalyzer I/product1.webp";
+import euroimmunAnalyzerIGrey from "../AllDatas/greyImages/Euroimmun Analyzer I.webp";
+//
+import euroPatternGrey from "../AllDatas/greyImages/Europattern Microscope.webp";
 import euroPattern from "../AllDatas/ProductImages/Immunology/euroPattern/product1.webp";
+//
+import fluoroMatGrey from "../AllDatas/greyImages/Fluoromat 50.webp";
 import fluoroMat from "../AllDatas/ProductImages/Immunology/fluoroMat/product1.webp";
+//
+// import sprinter from "../AllDatas/greyImages/";
 import sprinter from "../AllDatas/ProductImages/Immunology/sprinter/product1.webp";
 
 // Point of Care
@@ -226,7 +271,7 @@ const products = [
         allover: "This is for fully automatic",
         id: "2",
         section: "fullyautomatic",
-        image: [neo1, neo2, neo3, neo4],
+        image: [prim1, prim2,],
         title: "Turbochem Prime",
         shortdescription:
           "The Turbochem Prime is a fully automatic biochemistry analyzer, perfect for small to medium-sized laboratories. It offers a balance of efficiency, ease of use, and cost-effectiveness.",
@@ -371,7 +416,7 @@ const products = [
       {
         allover: "This is for Semi automatic",
         id: "4",
-        image: [prim1, prim2],
+        image: [plus1,plus2],
         title: "Turbostat Plus",
         section: "semiautomatic",
         shortdescription:
@@ -1155,157 +1200,157 @@ const products = [
       },
     ],
   },
-  {
-    category: "Clinical Microbiology",
-    subsection: ["All", "Reagents"],
-    items: [
-      {
-        topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
-        id: "1",
-        image: [ast1],
-        section: "reagents",
-        title: "Sensititre™ Standard Ast Plates",
-        shortdescription: "Sensititre™ Standard Ast Plates",
-        description:
-          "Used for antimicrobial susceptibility testing, providing reliable and accurate results for various microbial strains.",
-        workPrinciple:
-          "Plates with a predefined concentration of antibiotics to test the effectiveness against microbial strains.",
-        advantages: "Provides standardized and reproducible results.",
-        benefits:
-          "Helps in selecting appropriate antimicrobial agents for treatment.",
-        mainAndCare:
-          "Store in a cool, dry place; follow handling instructions to prevent contamination.",
-        workServices:
-          "Technical support available for product use and interpretation.",
-        productBrochure: "path/to/sensititre-standard-ast-plates-brochure.pdf",
-        detailedSpecification:
-          "Detailed specifications can be provided on request.",
-        offerOrDiscounts: "Inquire about current offers and discounts.",
-      },
-      {
-        topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
-        id: "2",
-        image: [Nephelometer1],
-        title: "Sensititre™ Nephelometer",
-        shortdescription: "Thermo Scientific™ Sensititre™ Nephelometer",
-        description:
-          "Measures the turbidity of microbial growth, aiding in the determination of antimicrobial susceptibility.",
-        workPrinciple:
-          "Uses nephelometry to measure turbidity changes indicating microbial growth.",
-        advantages:
-          "Provides rapid and precise measurements of microbial growth.",
-        benefits:
-          "Enhances the accuracy of antimicrobial susceptibility tests.",
-        mainAndCare:
-          "Regular calibration required; keep the unit clean and free from dust.",
-        workServices: "Service and calibration support available.",
-        productBrochure: "path/to/sensititre-nephelometer-brochure.pdf",
-        detailedSpecification: "Specifications available upon request.",
-        offerOrDiscounts: "Check for available discounts and promotions.",
-      },
-      {
-        topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
-        id: "3",
-        image: [Automated1],
-        title: "Sensititre™ Aim™ Automated Inoculation Delivery System",
-        shortdescription:
-          "Sensititre™ Aim™ Automated Inoculation Delivery System",
-        description:
-          "Automates the inoculation process for antimicrobial susceptibility testing, enhancing accuracy and efficiency.",
-        workPrinciple:
-          "Automated system for precise and consistent inoculation of test plates.",
-        advantages: "Reduces manual errors and increases testing throughput.",
-        benefits:
-          "Improves the efficiency and accuracy of susceptibility testing.",
-        mainAndCare:
-          "Perform regular maintenance and follow operational guidelines.",
-        workServices: "Technical support and maintenance services available.",
-        productBrochure:
-          "path/to/sensititre-aim-automated-inoculation-brochure.pdf",
-        detailedSpecification: "Detailed specs can be provided upon request.",
-        offerOrDiscounts: "Inquire about current offers.",
-      },
-      {
-        topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
-        id: "4",
-        image: [manual1],
-        title: "Sensititre™ Manual Viewbox",
-        shortdescription: "Thermo Scientific Sensititre™ Manual Viewbox",
-        description:
-          "A manual device for visual reading of antimicrobial susceptibility test results, providing clear and precise interpretations.",
-        workPrinciple:
-          "Uses transmitted light to view and interpret test results manually.",
-        advantages:
-          "Allows for clear visualization of results and manual interpretation.",
-        benefits: "Essential for labs requiring manual review of test results.",
-        mainAndCare: "Keep the viewbox clean and calibrated regularly.",
-        workServices: "Support for calibration and usage available.",
-        productBrochure: "path/to/sensititre-manual-viewbox-brochure.pdf",
-        detailedSpecification: "Specifications available on request.",
-        offerOrDiscounts: "Contact for current promotions.",
-      },
-      {
-        topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
-        id: "5",
-        image: [Digital1],
-        title: "Sensititre™ Vizion™ Digital Mic Viewing System",
-        shortdescription: "Sensititre™ Vizion™ Digital Mic Viewing System",
-        description:
-          "Digital system for viewing and interpreting minimum inhibitory concentrations (MICs) in antimicrobial susceptibility testing.",
-        workPrinciple:
-          "Digital imaging system for precise measurement and interpretation of MICs.",
-        advantages: "Provides accurate and consistent digital readings.",
-        benefits:
-          "Enhances the reliability and efficiency of MIC interpretation.",
-        mainAndCare: "Ensure regular maintenance and software updates.",
-        workServices:
-          "Technical support available for system operation and troubleshooting.",
-        productBrochure: "path/to/sensititre-vizion-digital-mic-brochure.pdf",
-        detailedSpecification:
-          "Detailed technical specifications can be provided upon request.",
-        offerOrDiscounts: "Check for current discounts and offers.",
-      },
-      {
-        topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
-        id: "6",
-        image: [Fluorometric1],
-        title:
-          "Sensititre™ Optiread™ Automated Fluorometric Plate Reading System",
-        shortdescription:
-          "Sensititre™ Optiread™ Automated Fluorometric Plate Reading System",
-        description:
-          "Automated system for reading fluorometric plates, providing quick and accurate results for antimicrobial susceptibility tests.",
-        workPrinciple:
-          "Uses fluorometric technology to read and analyze test plates.",
-        advantages:
-          "Fast and accurate readings with minimal manual intervention.",
-        benefits: "Improves testing efficiency and accuracy.",
-        mainAndCare: "Regular calibration and maintenance required.",
-        workServices: "Support for system use and maintenance available.",
-        productBrochure: "path/to/sensititre-optiread-brochure.pdf",
-        detailedSpecification: "Specifications available upon request.",
-        offerOrDiscounts: "Inquire about current promotions.",
-      },
-      {
-        topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
-        id: "7",
-        image: [System1],
-        title: "Sensititre™ Aris Hiq™ System For Ast",
-        shortdescription: "Sensititre™ Aris Hiq™ System For Ast",
-        description:
-          "Automated system for antimicrobial susceptibility testing, offering high throughput and reliable results.",
-        workPrinciple:
-          "Fully automated system for performing and analyzing antimicrobial susceptibility tests.",
-        advantages: "High throughput with consistent and reliable results.",
-        benefits: "Reduces manual workload and improves testing accuracy.",
-        mainAndCare: "Follow maintenance schedule and operational guidelines.",
-        workServices: "Comprehensive support and service options available.",
-        productBrochure: "path/to/sensititre-aris-hiq-brochure.pdf",
-        detailedSpecification: "Detailed specs can be provided upon request.",
-        offerOrDiscounts: "Check with the distributor for current offers.",
-      },
-    ],
-  },
+  // {
+  //   category: "Clinical Microbiology",
+  //   subsection: ["All", "Reagents"],
+  //   items: [
+  //     {
+  //       topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
+  //       id: "1",
+  //       image: [ast1],
+  //       section: "reagents",
+  //       title: "Sensititre™ Standard Ast Plates",
+  //       shortdescription: "Sensititre™ Standard Ast Plates",
+  //       description:
+  //         "Used for antimicrobial susceptibility testing, providing reliable and accurate results for various microbial strains.",
+  //       workPrinciple:
+  //         "Plates with a predefined concentration of antibiotics to test the effectiveness against microbial strains.",
+  //       advantages: "Provides standardized and reproducible results.",
+  //       benefits:
+  //         "Helps in selecting appropriate antimicrobial agents for treatment.",
+  //       mainAndCare:
+  //         "Store in a cool, dry place; follow handling instructions to prevent contamination.",
+  //       workServices:
+  //         "Technical support available for product use and interpretation.",
+  //       productBrochure: "path/to/sensititre-standard-ast-plates-brochure.pdf",
+  //       detailedSpecification:
+  //         "Detailed specifications can be provided on request.",
+  //       offerOrDiscounts: "Inquire about current offers and discounts.",
+  //     },
+  //     {
+  //       topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
+  //       id: "2",
+  //       image: [Nephelometer1],
+  //       title: "Sensititre™ Nephelometer",
+  //       shortdescription: "Thermo Scientific™ Sensititre™ Nephelometer",
+  //       description:
+  //         "Measures the turbidity of microbial growth, aiding in the determination of antimicrobial susceptibility.",
+  //       workPrinciple:
+  //         "Uses nephelometry to measure turbidity changes indicating microbial growth.",
+  //       advantages:
+  //         "Provides rapid and precise measurements of microbial growth.",
+  //       benefits:
+  //         "Enhances the accuracy of antimicrobial susceptibility tests.",
+  //       mainAndCare:
+  //         "Regular calibration required; keep the unit clean and free from dust.",
+  //       workServices: "Service and calibration support available.",
+  //       productBrochure: "path/to/sensititre-nephelometer-brochure.pdf",
+  //       detailedSpecification: "Specifications available upon request.",
+  //       offerOrDiscounts: "Check for available discounts and promotions.",
+  //     },
+  //     {
+  //       topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
+  //       id: "3",
+  //       image: [Automated1],
+  //       title: "Sensititre™ Aim™ Automated Inoculation Delivery System",
+  //       shortdescription:
+  //         "Sensititre™ Aim™ Automated Inoculation Delivery System",
+  //       description:
+  //         "Automates the inoculation process for antimicrobial susceptibility testing, enhancing accuracy and efficiency.",
+  //       workPrinciple:
+  //         "Automated system for precise and consistent inoculation of test plates.",
+  //       advantages: "Reduces manual errors and increases testing throughput.",
+  //       benefits:
+  //         "Improves the efficiency and accuracy of susceptibility testing.",
+  //       mainAndCare:
+  //         "Perform regular maintenance and follow operational guidelines.",
+  //       workServices: "Technical support and maintenance services available.",
+  //       productBrochure:
+  //         "path/to/sensititre-aim-automated-inoculation-brochure.pdf",
+  //       detailedSpecification: "Detailed specs can be provided upon request.",
+  //       offerOrDiscounts: "Inquire about current offers.",
+  //     },
+  //     {
+  //       topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
+  //       id: "4",
+  //       image: [manual1],
+  //       title: "Sensititre™ Manual Viewbox",
+  //       shortdescription: "Thermo Scientific Sensititre™ Manual Viewbox",
+  //       description:
+  //         "A manual device for visual reading of antimicrobial susceptibility test results, providing clear and precise interpretations.",
+  //       workPrinciple:
+  //         "Uses transmitted light to view and interpret test results manually.",
+  //       advantages:
+  //         "Allows for clear visualization of results and manual interpretation.",
+  //       benefits: "Essential for labs requiring manual review of test results.",
+  //       mainAndCare: "Keep the viewbox clean and calibrated regularly.",
+  //       workServices: "Support for calibration and usage available.",
+  //       productBrochure: "path/to/sensititre-manual-viewbox-brochure.pdf",
+  //       detailedSpecification: "Specifications available on request.",
+  //       offerOrDiscounts: "Contact for current promotions.",
+  //     },
+  //     {
+  //       topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
+  //       id: "5",
+  //       image: [Digital1],
+  //       title: "Sensititre™ Vizion™ Digital Mic Viewing System",
+  //       shortdescription: "Sensititre™ Vizion™ Digital Mic Viewing System",
+  //       description:
+  //         "Digital system for viewing and interpreting minimum inhibitory concentrations (MICs) in antimicrobial susceptibility testing.",
+  //       workPrinciple:
+  //         "Digital imaging system for precise measurement and interpretation of MICs.",
+  //       advantages: "Provides accurate and consistent digital readings.",
+  //       benefits:
+  //         "Enhances the reliability and efficiency of MIC interpretation.",
+  //       mainAndCare: "Ensure regular maintenance and software updates.",
+  //       workServices:
+  //         "Technical support available for system operation and troubleshooting.",
+  //       productBrochure: "path/to/sensititre-vizion-digital-mic-brochure.pdf",
+  //       detailedSpecification:
+  //         "Detailed technical specifications can be provided upon request.",
+  //       offerOrDiscounts: "Check for current discounts and offers.",
+  //     },
+  //     {
+  //       topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
+  //       id: "6",
+  //       image: [Fluorometric1],
+  //       title:
+  //         "Sensititre™ Optiread™ Automated Fluorometric Plate Reading System",
+  //       shortdescription:
+  //         "Sensititre™ Optiread™ Automated Fluorometric Plate Reading System",
+  //       description:
+  //         "Automated system for reading fluorometric plates, providing quick and accurate results for antimicrobial susceptibility tests.",
+  //       workPrinciple:
+  //         "Uses fluorometric technology to read and analyze test plates.",
+  //       advantages:
+  //         "Fast and accurate readings with minimal manual intervention.",
+  //       benefits: "Improves testing efficiency and accuracy.",
+  //       mainAndCare: "Regular calibration and maintenance required.",
+  //       workServices: "Support for system use and maintenance available.",
+  //       productBrochure: "path/to/sensititre-optiread-brochure.pdf",
+  //       detailedSpecification: "Specifications available upon request.",
+  //       offerOrDiscounts: "Inquire about current promotions.",
+  //     },
+  //     {
+  //       topic: "CLINICAL MICROBIOLOGY LABORATORY EQUIPMENTS",
+  //       id: "7",
+  //       image: [System1],
+  //       title: "Sensititre™ Aris Hiq™ System For Ast",
+  //       shortdescription: "Sensititre™ Aris Hiq™ System For Ast",
+  //       description:
+  //         "Automated system for antimicrobial susceptibility testing, offering high throughput and reliable results.",
+  //       workPrinciple:
+  //         "Fully automated system for performing and analyzing antimicrobial susceptibility tests.",
+  //       advantages: "High throughput with consistent and reliable results.",
+  //       benefits: "Reduces manual workload and improves testing accuracy.",
+  //       mainAndCare: "Follow maintenance schedule and operational guidelines.",
+  //       workServices: "Comprehensive support and service options available.",
+  //       productBrochure: "path/to/sensititre-aris-hiq-brochure.pdf",
+  //       detailedSpecification: "Detailed specs can be provided upon request.",
+  //       offerOrDiscounts: "Check with the distributor for current offers.",
+  //     },
+  //   ],
+  // },
   // covid
   // {
   //   category: "COVID-19",
@@ -1851,7 +1896,7 @@ const products = [
         id: "1",
 
         section: "3parthematology",
-        image: [DYNACOUNT1],
+        image: [DYNACOUNT3D1],
         title: "Dynacount 3D Haematology Analyzer",
         shortdescription:
           "The Dynacount 3D Hematology Analyzer utilizes state-of-the-art 3D imaging technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with ease.",
@@ -2300,7 +2345,7 @@ const products = [
       {
         allover: "Vision Pro",
         id: "4",
-        image: [Analyzer1, Analyzer2],
+        image: [Vision1, Vision2],
         title: "Vision Pro",
         section: "esranalyzer",
 
