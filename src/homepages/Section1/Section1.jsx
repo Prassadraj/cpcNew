@@ -66,23 +66,20 @@ function Section1() {
 
   return (
     <>
-      <div className="section1 tablet:flex tablet:flex-row grid grid-cols-1 justify-center items-center h-screen w-full overflow-hidden font-poppins overflow-x-hidden">
+      <div className="section1 tablet:flex tablet:flex-row grid grid-cols-1 justify-center items-center h-screen w-full overflow-hidden font-poppins overflow-x-hidden largeLaptop:h-[60vh] largeLaptop:mb-20">
         <div className="flex-1 tablet:w-1/2 w-full mt-0 sm:ml-4 laptop:ml-14 px-2 sm:px-0">
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
-            className="text-2xl mt-3 tablet:mt-0 tablet:text-4xl font-bold text-[#56575D]"
+            className="text-2xl mt-3 tablet:mt-0 tablet:text-4xl largeLaptop:text-[35px] font-bold text-[#56575D]"
           >
             Medical Laboratory Equipment Supplier in India at the Best Price
           </motion.p>
           <div className="description">
             <p
-              className="subTitle text-sm tablet:text-xl w-full tablet:w-[40vw] text-start"
-              style={{
-                clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-                WebkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-              }}
+              className="subTitle text-sm tablet:text-xl w-full tablet:w-[40vw] text-start largeLaptop:text-[30px]"
+         
             >
               Everlife CPC Diagnostics is your trusted partner for high-quality
               In-vitro diagnostic Medical Laboratory Equipment Suppliers in
@@ -116,10 +113,10 @@ function Section1() {
             </Link>
           </div>
         </div>
-        <div className="flex-1 tablet:w-1/2 w-full overflow-hidden mt-0 tablet:mt-0">
-          <div className="animate-bouncing">
+        <div className="flex-1 tablet:w-1/2 w-full ">
+         
             <Slider />
-          </div>
+         
         </div>
       </div>
     </>

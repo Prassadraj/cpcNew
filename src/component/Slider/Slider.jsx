@@ -55,7 +55,7 @@ const Slider = () => {
             {" "}
             <img
               src={`${slides[currentIndex].url}`}
-              className={`h-[300px] w-full object-contain ${
+              className={`h-[300px] desktop:[400px] w-full object-contain ${
                 (slides[currentIndex].category === "Immunology" &&
                   slides[currentIndex].id === "1") ||
                 (slides[currentIndex].category === "Point%20of%20Care" &&

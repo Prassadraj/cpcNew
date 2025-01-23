@@ -19,6 +19,9 @@ export default {
 
         desktop: "1280px",
         // => @media (min-width: 1280px) { ... }
+
+        largeLaptop: "1440px",
+        // => @media (min-width: 1440px) { ... }
       },
       fontSize: {
         fontextra: "1rem",

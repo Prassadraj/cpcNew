@@ -5,6 +5,7 @@ import whatWeDo from "../../images/section2&3/whatwedo.png";
 import whoWeAre from "../../images/section2&3/whoweare.png";
 import Aos from "aos";
 import { Link } from "react-router-dom";
+import './section3.css'
 
 function Section3() {
   gsap.registerPlugin(ScrollTrigger);
@@ -53,18 +54,19 @@ function Section3() {
   return (
     <div className="font-poppins">
       {/* Section 3 */}
-      <div className="p-2 tablet:p-0 section3 flex flex-col tablet:flex-row justify-evenly items-center tablet:h-[500px]">
-        <div className="flex flex-col items-start tablet:px-4 laptop:p-1">
-          <div className="mb-3" data-aos="zoom-in-left">
-            <p className="font-bold text-custom-green text-sm tablet:hidden tablet:text-3xl">
+      <div className="flex items-center justify-evenly w-full tablet:h-[500px]
+      largeLaptop:h-[600px] container1 ">
+      <div className="">
+          <div className=" mb-3">
+            <p className="font-semibold tablet:hidden text-custom-green">
               Who We Are?
             </p>
           </div>
           <div
-            className="w-full tablet:max-w-xl text-sm tablet:text-xl "
-            data-aos="zoom-in-left"
+            className=" "
+            
           >
-            <p className="leading-6 text-justify text-sm tablet:tracking-wider capitalize">
+            <p className="max-w-2xl leading-6 text-justify text-sm tablet:tracking-wider capitalize">
               At Everlife CPC Diagnostics, we lead the healthcare industry with
               our advanced medical laboratory equipment and in-vitro diagnostics
               (IVD) solutions. Headquartered in Chennai, our reach spans across
@@ -85,31 +87,25 @@ function Section3() {
           ></button>
         </div>
         <div className="relative justify-center items-center hidden tablet:flex">
-          <div className="relative bottom-0 w-[80vw] tablet:w-[30vw] h-[50vh] rounded-2xl z-10 ">
+          <div className="relative bottom-0 w-[80vw] tablet:w-[30vw] h-[50vh] largeLaptop:h-[40vh] rounded-2xl z-10 ">
             <img src={whoWeAre} alt="Who We Are" className="rounded-lg" />
           </div>
         </div>
       </div>
-
-      {/* Section 4 */}
-      <div className="p-2 tablet:p-0 section4 flex flex-col tablet:flex-row justify-evenly items-center tablet:h-[500px] tablet:mb-10">
-        <div className="relative hidden tablet:flex justify-center items-center">
-          <div className="relative  w-[80vw] tablet:w-[30vw] h-[50vh] rounded-2xl z-10">
-            <img src={whatWeDo} alt="What We Do" className=" rounded-lg" />
-          </div>
-        </div>
-        <div className="flex flex-col items-start">
-          <div className="mb-3" data-aos="zoom-in-left">
-            <p className="font-bold text-custom-green tablet:hidden  text-sm tablet:text-3xl tablet:px-4 laptop:p-1">
-              What We Do?
+      <div className="flex items-center tablet:flex-row-reverse justify-evenly w-full tablet:h-[500px]
+      largeLaptop:h-[600px] container1 ">
+      <div className="">
+          <div className=" mb-3">
+            <p className="font-semibold tablet:hidden text-custom-green">
+            What We Do?
             </p>
           </div>
           <div
-            className="w-full tablet:max-w-xl text-sm tablet:text-xl tablet:px-4 laptop:p-1"
-            data-aos="zoom-in-left"
+            className=" "
+            
           >
-            <p className="leading-6 text-sm text-justify tablet:tracking-wider">
-              We manufacture and supply advanced laboratory instruments and
+            <p className="max-w-2xl leading-6 text-justify text-sm tablet:tracking-wider capitalize">
+            We manufacture and supply advanced laboratory instruments and
               medical devices in India, Sri Lanka and Bangladesh. Our offerings
               range from pre-analytical automation for precise sample management
               to high-performance hematology and immunology analyzers. We
@@ -118,13 +114,26 @@ function Section3() {
               mission is to transform healthcare by delivering innovative
               solutions that enhance patient care and drive diagnostic
               breakthroughs.
-            </p>{" "}
+            </p>
             <Link to="/about">
               <p className="text-custom-green text-sm">read more...</p>
             </Link>
           </div>
+          <button
+            onClick={handleToggle}
+            className="text-custom-green mt-4 underline"
+          ></button>
+        </div>
+        <div className="relative justify-center items-center hidden tablet:flex">
+          <div className="relative bottom-0 w-[80vw] tablet:w-[30vw] h-[50vh] largeLaptop:h-[40vh] rounded-2xl z-10 ">
+            <img src={whatWeDo} alt="Who We Are" className="rounded-lg" />
+          </div>
         </div>
       </div>
+
+
+      {/* Section 4 */}
+
     </div>
   );
 }

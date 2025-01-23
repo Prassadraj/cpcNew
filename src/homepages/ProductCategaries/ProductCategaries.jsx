@@ -42,7 +42,7 @@ function ProductCategaries() {
   const { setSelectedCategory } = useContext(CategoryContext);
 
   return (
-    <div>
+    <div className="tablet:mt-[5rem] largeLaptop:mt-[2rem]">
       {/* mobile */}
       <div className="mb-4 tablet:hidden h-fit w-full flex items-center justify-around font-poppins sm:px-4 px-2 gap-10">
         <div className="text-2xl font-semibold text-custom-green w-1/2">
@@ -69,7 +69,10 @@ function ProductCategaries() {
         </div>
       </div>
       {/* lap */}
-      <div className="hidden h-[100vh] tablet:flex justify-center items-center mb-[10rem]">
+      <div className="hidden h-[100vh] largeLaptop:h-[60vh] tablet:flex justify-center items-center 
+      tablet:mb-[10rem]
+      largeLaptop:mb-[10rem]
+      ">
         <div className="flex w-full">
           {/* Left Section */}
           <div className="flex flex-col flex-[1.5] gap-3 pl-24 pt-12 mt-32">
@@ -93,7 +96,8 @@ function ProductCategaries() {
           </div>
 
           {/* Right Section */}
-          <div className="flex-1 flex relative text-2xl w-full h-screen">
+          <div className="flex-1 flex relative text-2xl w-full h-screen largeLaptop:h-[60vh] largeLaptop:overflow-hidden
+          ">
             <div className="w-[15vw] h-screen flex justify-center overflow-hidden">
               <div className="flex items-center">
                 <Marquee

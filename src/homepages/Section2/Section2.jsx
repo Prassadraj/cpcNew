@@ -10,75 +10,9 @@ import partners from "./images/warehouse.gif";
 gsap.registerPlugin(ScrollTrigger);
 
 function Section2() {
-  const countUpRefs = useRef([]);
-  const containerRef = useRef(null);
 
-  useEffect(() => {
-    gsap.fromTo(
-      ".counterBox",
-      {
-        opacity: 0,
-        width: "0%",
-      },
-      {
-        opacity: 1,
-        width: "100%",
-        duration: 1,
-        delay: 0.4,
-        scrollTrigger: ".counterBox",
-        stagger: {
-          amount: 1,
-        },
-      }
-    );
 
-    countUpRefs.current.forEach((el) => {
-      const endNumber = parseInt(el.dataset.end);
-      gsap.fromTo(
-        el,
-        { innerText: 0 },
-        {
-          duration: 1,
-          innerText: endNumber,
-          ease: "power3.out",
-          scrollTrigger: {
-            trigger: el,
-            start: "top 80%",
-            toggleActions: "play none none none",
-          },
-          onUpdate: function () {
-            el.innerHTML = Math.ceil(el.innerText);
-          },
-        }
-      );
 
-      el.addEventListener("mouseenter", () => {
-        gsap.to(el, {
-          innerText: 0,
-          duration: 0.4,
-          ease: "power3.out",
-          onComplete: () => {
-            gsap.to(el, {
-              innerText: endNumber,
-              duration: 0.4,
-              ease: "power3.out",
-              scrollTrigger: {
-                trigger: el,
-                start: "top 80%",
-                toggleActions: "play none none none",
-              },
-              onUpdate: function () {
-                el.innerHTML = Math.ceil(el.innerText);
-              },
-            });
-          },
-          onUpdate: function () {
-            el.innerHTML = Math.ceil(el.innerText);
-          },
-        });
-      });
-    });
-  }, []);
 
   const stats = [
     { end: 3, label: "Country presence", img: world },
@@ -90,20 +24,20 @@ function Section2() {
 
   return (
     <div
-      ref={containerRef}
-      className="w-full overflow-x-hidden bg-white z-0 grid grid-cols-2 sm:grid-cols-3 laptop:grid-cols-5 gap-4 p-4 sm:p-14 counter-container"
+  
+      className=" flex flex-wrap justify-evenly h-44 largeLaptop:h-fit w-full items-center "
     >
       {stats.map((stat, index) => (
-        <div key={index} className="flex flex-col items-center counterBox">
-          <div className="flex items-center justify-center">
+        <div key={index} className="flex flex-col items-center gap-4 ">
+          <div className="flex items-center flex-col justify-center">
+            <div className="flex">
             <img className="w-[25px] sm:w-[50px]" src={stat.img} alt="" />
             <span
-              ref={(el) => (countUpRefs.current[index] = el)}
-              data-end={stat.end}
-              className="text-xl sm:text-5xl font-semibold"
+        
+              className="text-xl tablet:text-5xl font-semibold"
               style={{ fontFamily: "Poppins", color: "#00A786" }}
             >
-              0
+             {stat.end}
             </span>
             <span
               className="text-sm sm:text-3xl"
@@ -111,15 +45,15 @@ function Section2() {
             >
               +
             </span>
-          </div>
-          <div className="flex items-center">
+            </div>
             <p
-              className="text-xs sm:text-lg sm:font-bold font-semibold"
+              className="text-xs sm:text-sm sm:font-semibold font-semibold"
               style={{ fontFamily: "Poppins" }}
             >
               {stat.label}
             </p>
           </div>
+       
         </div>
       ))}
     </div>

@@ -44,7 +44,7 @@ function TestimonialSlider() {
   };
 
   return (
-    <div className="tablet:h-[100vh] my-4 tablet:my-0">
+    <div className="tablet:h-[100vh] largeLaptop:h-[50vh] my-4 tablet:my-0 ">
       <div className="flex justify-center items-center flex-col gap-2 tablet:p-5">
         <p className="text-lg tablet:text-4xl text-custom-green font-semibold headline font-poppins uppercase">
           Testimonials

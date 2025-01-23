@@ -83,33 +83,34 @@ function New() {
   return (
     <>
       <Heading />
-      <div className="h-[300vh] tablet:flex justify-evenly tablet:gap-5 tablet:px-10 hidden laptop:mb-[8rem]">
-        <div className="flex flex-col gap-5 items-center justify-center w-1/2 laptop:pt-14 tablet:pt-10">
+      <div className="h-[300vh]  tablet:flex justify-evenly tablet:gap-5 tablet:px-10 hidden laptop:mb-[6rem]
+      largeLaptop:mb-[0rem]">
+        <div className="flex flex-col gap-5 items-center justify-center w-1/2 laptop:pt-14 tablet:pt-10 largeLaptop:pt-44 ">
           <div className="tablet:h-full">
             <img
               src={image1}
               alt=""
-              className="w-fit tablet:h-[400px] object-contain img1 rounded-[50px]"
+              className="w-fit tablet:h-[400px] largeLaptop:h-[700px] object-contain img1 rounded-[50px]"
             />
           </div>
           <div className="tablet:h-full">
             <img
               src={image2}
               alt=""
-              className="w-fit tablet:h-[400px] img2 object-contain rounded-[50px]"
+              className="w-fit tablet:h-[400px] largeLaptop:h-[600px] img2 object-contain rounded-[50px]"
             />
           </div>
           <div className="tablet:h-full">
             <img
               src={image3}
               alt=""
-              className="w-fit tablet:h-[400px] img3 object-contain rounded-[50px]"
+              className="w-fit tablet:h-[400px] largeLaptop:h-[500px] img3 object-contain rounded-[50px]"
             />
           </div>
         </div>
-        <div className="sticky flex h-screen tablet:top-5 laptop:top-5 flex-col laptop:gap-6 tablet:gap-2 text-xs tablet:text-sm laptop:text-sm w-1/2 font-poppins items-center justify-center text-center laptop:px-20">
-          <div className="tablet:px-5">
-            <p className="ctn1 text-left">
+        <div className="sticky flex h-screen tablet:top-5 laptop:top-5  flex-col laptop:gap-6 tablet:gap-2 text-xs tablet:text-sm laptop:text-sm w-1/2 font-poppins items-center justify-center text-center laptop:px-20">
+          <div className="tablet:px-5 largeLaptop:px-2">
+            <p className="ctn1 text-left largeLaptop:text-2xl">
               <img src={organisation1} alt="" className="w-14 logo1" />
               Jeev Diagnostics, a wholly owned subsidiary of Everlife CPC
               Diagnostics Pvt. Ltd., Chennai, India, manufactures high-quality
@@ -117,15 +118,15 @@ function New() {
               clinical laboratories, hospitals, and diagnostic centers.
             </p>
           </div>
-          <div className="tablet:px-5 ">
-            <p className="ctn2 text-left">
+          <div className="tablet:px-5 largeLaptop:px-2">
+            <p className="ctn2 text-left largeLaptop:text-2xl">
               <img src={organisation2} alt="" className="w-14 logo2" />
               Sachika, an initiative by Everlife CPC Diagnostics Pvt. Ltd.,
               focuses on life sciences education, empowering clinicians with
               contemporary bioscience skills.
             </p>
           </div>
-          <div className="tablet:px-5 ">
+          <div className="tablet:px-5 largeLaptop:text-2xl largeLaptop:px-2">
             <p className="ctn3 text-left">
               <img src={organisation3} alt="" className="w-14 logo3" />
               Everlife CPC’s division for diagnostic instrument manufacturing

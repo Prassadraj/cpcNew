@@ -361,7 +361,7 @@ function Nav() {
 
       {/* Desktop Menu */}
       <div
-        className="tablet:flex hidden tablet:space-x-4  laptop:space-x-16 md:text-[15px] "
+        className="tablet:flex hidden tablet:space-x-4  laptop:space-x-16 md:text-[15px] largeLaptop:text-[20px] "
         style={{ fontWeight: "500" }}
       >
         <div className="nav-item">
