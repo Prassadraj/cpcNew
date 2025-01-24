@@ -205,19 +205,19 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black text-wrap">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
                   - High precision and reliability
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black text-wrap">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
                   - Extensive test menu for diverse diagnostics
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black text-wrap">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
                   - Capable of handling high sample volumes efficiently
                 </p>
@@ -229,19 +229,19 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black text-wrap">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
                   - Reduces turnaround time for test results
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black text-wrap">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
                   - Enhances diagnostic efficiency and patient care
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black text-wrap">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
                   - Supports a wide range of biochemical assays
                 </p>
@@ -253,20 +253,20 @@ const products = [
           <div>
             <ul className="space-y-6">
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black text-wrap">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
                   - Regular calibration and quality control checks
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black text-wrap">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
                   - Routine cleaning of cuvettes and probes to ensure accurate
                   readings
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black text-wrap">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
                   - Scheduled maintenance to prolong the lifespan of the
                   analyzer
@@ -1544,14 +1544,14 @@ const products = [
         workPrinciple: (
           <div>
             <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
+              <li className="flex-col gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="font-semibold text-lg largeLaptop:text-2xl">
+                  <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
                     How it Works
                   </span>
                 </p>
-                <p className=" largeLaptop:text-2xl text-base text-black">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black ">
                   The Jokoh EX-D uses ion-selective electrode (ISE) technology
                   to measure electrolyte concentrations in biological fluids
                   such as blood, serum, and plasma. This technology relies on
@@ -1568,14 +1568,14 @@ const products = [
             <table className="min-w-full table-auto">
               <thead>
                 <tr>
-                  <th className="px-4 py-2 text-left text-black font-semibold">
+                  <th className="tablet:px-4 tablet:py-4 px-0 py-1 tablet:text-base text-xs  text-left text-black font-semibold">
                     For Whom It Is Useful
                   </th>
                 </tr>
               </thead>
               <tbody className="flex flex-col gap-4">
                 <tr>
-                  <td className="  text-black">
+                  <td className="  text-black tablet:text-base text-xs">
                     The Jokoh EX-D Electrolyte Analyzer is perfect for clinical
                     laboratories, hospitals, and diagnostic centers that require
                     fast and precise electrolyte measurements. It is
@@ -1591,7 +1591,7 @@ const products = [
             <table className="min-w-full table-auto mt-6">
               <thead>
                 <tr>
-                  <th className="px-4 py-2 text-left text-black font-semibold">
+                  <th className="tablet:px-4 tablet:py-2 px-0 py-0  text-left text-black font-semibold">
                     Use Cases
                   </th>
                 </tr>
@@ -1938,7 +1938,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold text-lg largeLaptop:text-2xl">
+                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -2088,7 +2088,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold text-lg largeLaptop:text-2xl">
+                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -2239,7 +2239,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold text-lg largeLaptop:text-2xl">
+                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -2392,7 +2392,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold text-lg largeLaptop:text-2xl">
+                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -3542,7 +3542,7 @@ const products = [
             {/* Maintenance and Care List */}
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   The IFLASH 1200 is designed for ease of maintenance with
                   automated calibration and quality control features. Regular
                   cleaning and periodic calibration checks are recommended to
@@ -4686,31 +4686,31 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Enhanced Workflow Efficiency: Automates IFA and ELISA
                   processes, reducing manual work and speeding diagnostics.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Consistent Accuracy: Reproducible results, ensuring diagnostic
                   reliability across tests.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Flexible Application: Supports a range of assays for
                   autoimmune, infectious diseases, and allergies.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Compact and Space-Saving: Fits in any lab setup without
                   occupying excessive space.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Scalable: Adapts to varying lab volumes, ensuring consistent
                   performance as demand grows.
                 </p>
@@ -4723,31 +4723,31 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Time-Saving Automation: Reduces manual labor, allowing
                   technicians to focus on other tasks.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Improved Productivity: High throughput means more samples
                   processed faster, increasing lab efficiency.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Cost-Effective Operations: Reduces human error and the need
                   for repeat testing, cutting operational costs.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   User-Friendly Design: Intuitive controls simplify operation,
                   reducing training time for staff.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Versatility: Can process both IFA and ELISA assays, making it
                   a multifunctional tool for diagnostic labs.
                 </p>
@@ -4760,31 +4760,31 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Routine Calibration: Regular calibration maintains precision
                   and ensures reliability.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Automated Maintenance Alerts: The system notifies you when
                   maintenance tasks are needed, minimizing downtime.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Accessible Design: Easy access to internal components for
                   efficient maintenance and repairs.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Minimal Downtime: Designed for continuous operation with
                   minimal maintenance interruptions.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-base text-black font-normal ">
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
                   Comprehensive Support: Supported by CPC Diagnostics’ dedicated
                   technical support team to ensure optimal performance.
                 </p>
@@ -5795,7 +5795,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold text-lg largeLaptop:text-2xl">
+                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -5946,7 +5946,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold text-lg largeLaptop:text-2xl">
+                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
