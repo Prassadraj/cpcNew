@@ -370,8 +370,8 @@ function ProductInfo() {
           {/* mobile */}
           <div className="sm:hidden flex justify-center mt-4 px-2">
             <div className="w-full flex flex-col text-base ">
-              <p className="font-bold">{product.title}</p>
-              <p className="font-medium">Overview:</p>
+              <p className="font-bold mb-2">{product.title}</p>
+              <p className="font-medium mb-2">Overview:</p>
               <p className="mb-2 ">{product.description}</p>
               <div className="items-center gap-2 text-lg hidden md:flex ">
                 <p>Share:</p>
@@ -390,7 +390,7 @@ function ProductInfo() {
                     setSelectedTab(index);
                     setSelectedMenuItem(0); // Reset submenu item on tab change
                   }}
-                  className={`cursor-pointer text-base tablet:text-3xl largeLaptop:text-4xl ${
+                  className={`cursor-pointer text-base tablet:text-2xl largeLaptop:text-4xl ${
                     selectedTab === index
                       ? "font-semibold text-3xl text-custom-green"
                       : "text-gray-600"
@@ -403,12 +403,12 @@ function ProductInfo() {
 
             <div className="flex border-2 laptop:mb-[4rem]">
               {tabs[selectedTab].submenu && (
-                <div className="w-1/4 tablet:text-base text-xs flex flex-col items-center border-r tablet:pr-4">
+                <div className="w-44 tablet:px-2 px-2 tablet:text-base text-sm flex flex-col items-start border-r tablet:pr-4">
                   {tabs[selectedTab].submenu.map((submenuItem, index) => (
                     <div
                       key={index}
                       onClick={() => setSelectedMenuItem(index)}
-                      className={`cursor-pointer tablet:text-right text-center
+                      className={`cursor-pointer 
                         largeLaptop:text-2xl  py-2 ${
                           selectedMenuItem === index
                             ? "font-bold text-custom-green"
@@ -428,11 +428,13 @@ function ProductInfo() {
                 } text-base largeLaptop:text-2xl`}
               >
                 {tabs[selectedTab].submenu ? (
-                  <p className="rounded p-4">
+                  <p className="rounded tablet:p-4 p-2">
                     {tabs[selectedTab].submenu[selectedMenuItem].content}
                   </p>
                 ) : (
-                  <p className="rounded p-4">{tabs[selectedTab].content}</p>
+                  <p className="rounded tablet:p-4 p-2">
+                    {tabs[selectedTab].content}
+                  </p>
                 )}
               </div>
             </div>
