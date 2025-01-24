@@ -144,7 +144,7 @@ function Product() {
               </button>
             </div>
           </header>
-          <section className=" productSection py-2 text-base text-gray-700 tablet:mb-14">
+          <section className=" productSection largeLaptop:text-2xl py-2 text-base text-gray-700 tablet:mb-14">
             <div className="mb-3">
               <p>
                 <Link to="/" className="no-underline">
@@ -169,7 +169,7 @@ function Product() {
                 openDropdown={openDropdown}
               />
               <div className="tablet:w-[75vw] bg-white p-1 tablet:p-4 text-center overflow-y-auto flex flex-col gap-2">
-                <p className="text-2xl font-poppins font-semibold mb-3 text-left text-black">
+                <p className="text-2xl largeLaptop:text-3xl font-poppins font-semibold mb-3 text-left text-black">
                   {selectedCategory}
                 </p>
                 <div className="grid  justify-around items-center tablet:grid-cols-3 tablet:gap-2 grid-cols-2 laptop:grid-cols-5 tablet:mb-4">
@@ -184,7 +184,7 @@ function Product() {
                         sectionCategoryItem.split(" ").join("").toLowerCase()
                           ? "font-bold text-custom-green"
                           : "font-medium"
-                      }   text-xs hover:text-custom-green transition-all ease-in duration-75 hover:font-bold tablet:text-base capitalize  text-nowrap cursor-pointer mb-2`}
+                      }   text-xs hover:text-custom-green transition-all ease-in duration-75 hover:font-bold tablet:text-base largeLaptop:text-lg capitalize  text-nowrap cursor-pointer mb-2`}
                     >
                       {sectionCategoryItem}
                     </p>

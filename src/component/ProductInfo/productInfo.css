@@ -69,3 +69,8 @@
     padding: 0px 1rem;
   }
 }
+@media (min-width: 1440px) {
+  .productSection {
+    padding: 0px 4rem;
+  }
+}

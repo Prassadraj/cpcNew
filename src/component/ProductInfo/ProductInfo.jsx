@@ -52,6 +52,7 @@ function ProductInfo() {
   const [expanded, setExpanded] = useState(null);
   const [selectedTab, setSelectedTab] = useState(0);
   const [selectedMenuItem, setSelectedMenuItem] = useState(0);
+  const [showLine, setShowLine] = useState(true);
 
   const toggleExpand = (section) => {
     setExpanded((prevExpanded) => (prevExpanded === section ? null : section));
@@ -245,7 +246,7 @@ function ProductInfo() {
           <div className="flex px-5 gap-5 sidebar">
             <div
               className={`sm:w-[25%] sidebar bg-white border rounded-md shadow-md  p-1 md:py-2 md:px-4 md:sticky top-0
-                 laptop:h-[80vh] tablet:h-[60vh] overflow-y-auto z-10  ${
+                 laptop:h-[80vh] largeLaptop:h-[50vh] tablet:h-[60vh] overflow-y-auto z-10  ${
                    open
                      ? "fixed top-16 inset-0 w-[80%] h-full overflow-y-auto z-20"
                      : "hidden sm:block"
@@ -260,13 +261,14 @@ function ProductInfo() {
                 {data.map((dropdown, index) => (
                   <div key={index} className="rounded mb-2">
                     <button
-                      className="flex justify-between items-center px-1 md:px-2 laptop:py-3 tablet:py-2 w-full cursor-pointer"
+                      className="flex justify-between items-center px-1 md:px-2 laptop:py-3
+                      largeLaptop:py-4 tablet:py-2 w-full cursor-pointer"
                       onClick={() => {
                         toggleDropdown(index);
                         setSelectedCategory(dropdown.category);
                       }}
                     >
-                      <p className="laptop:text-base text-xs text-left font-poppins font-semibold">
+                      <p className="laptop:text-base largeLaptop:text-xl text-xs text-left font-poppins font-semibold">
                         {dropdown.category}
                       </p>
                       {openDropdown === index ? (
@@ -302,7 +304,7 @@ function ProductInfo() {
             </div>
             <div className="w-[75%]">
               <div className="flex flex-col md:flex-row items-center tablet:justify-start mb-2  md:gap-4">
-                <div className="hidden md:block w-1/4 md:px-2">
+                <div className="hidden md:block w-1/4 md:px-2 tablet:mt-2">
                   {product.image.map((img, idx) => (
                     <img
                       key={idx}
@@ -323,17 +325,31 @@ function ProductInfo() {
                   <img
                     src={imgUrl}
                     alt="Descriptive text"
-                    className="rounded-md laptop:max-w-[500px] laptop:w-full laptop:min-w-[300px] laptop:h-[400px] object-cover"
+                    className="rounded-md laptop:max-w-[500px] laptop:w-full laptop:min-w-[300px] laptop:h-[300px] object-cover"
                   />
                 </div>
               </div>
               <div className="hidden md:flex justify-center mt-4 tablet:mb-10 laptop:mb-[6rem]">
                 <div className="w-full flex flex-col text-xl text-justify ">
-                  <p className="font-medium text-2xl tablet:mb-4">
+                  <p className="font-medium text-2xl largeLaptop:text-4xl tablet:mb-4">
                     {product.title}
                   </p>
-                  <p className="font-medium tablet:mb-1">Overview:</p>
-                  <p className="text-lg">{product.description}</p>
+                  <p className="font-medium tablet:mb-1 largeLaptop:text-2xl largeLaptop:mb-3">
+                    Overview:
+                  </p>
+                  <p
+                    className={`text-lg largeLaptop:text-2xl ${
+                      showLine ? "line-clamp-2" : "line-clamp-none"
+                    }`}
+                  >
+                    {product.description}
+                  </p>
+                  <p
+                    className={`text-custom-green text-base`}
+                    onClick={() => setShowLine((prev) => !prev)}
+                  >
+                    {showLine ? "read more" : "read less"}
+                  </p>
                   {/* <div className="items-center gap-2 text-xl hidden md:flex mt-2 ">
                     <p>Share:</p>
                     <FontAwesomeIcon icon={faFacebook} />
@@ -358,7 +374,7 @@ function ProductInfo() {
               </div>
             </div>
           </div>
-          <div className="p-2 tablet:p-4 md:block   laptop:mb-20">
+          <div className=" md:block productSection   laptop:mb-20">
             <div className="flex justify-around  tablet:text-lg border p-2">
               {tabs.map((header, index) => (
                 <p
@@ -367,7 +383,7 @@ function ProductInfo() {
                     setSelectedTab(index);
                     setSelectedMenuItem(0); // Reset submenu item on tab change
                   }}
-                  className={`cursor-pointer text-base tablet:text-3xl ${
+                  className={`cursor-pointer text-base tablet:text-3xl largeLaptop:text-4xl ${
                     selectedTab === index
                       ? "font-semibold text-3xl text-custom-green"
                       : "text-gray-600"
@@ -385,11 +401,12 @@ function ProductInfo() {
                     <div
                       key={index}
                       onClick={() => setSelectedMenuItem(index)}
-                      className={`cursor-pointer tablet:text-right text-center  py-2 ${
-                        selectedMenuItem === index
-                          ? "font-bold text-custom-green"
-                          : "text-gray-600"
-                      }`}
+                      className={`cursor-pointer tablet:text-right text-center
+                        largeLaptop:text-2xl  py-2 ${
+                          selectedMenuItem === index
+                            ? "font-bold text-custom-green"
+                            : "text-gray-600"
+                        }`}
                     >
                       {submenuItem.menuName}
                     </div>
@@ -401,7 +418,7 @@ function ProductInfo() {
                   tabs[selectedTab].submenu
                     ? "w-3/4 text-start"
                     : "w-full text-center"
-                } text-base`}
+                } text-base largeLaptop:text-2xl`}
               >
                 {tabs[selectedTab].submenu ? (
                   <p className="rounded p-4">
@@ -549,11 +566,11 @@ function ProductInfo() {
           {relatedProduct.length > 0 ? (
             <div className=" productSection  mt-4 mb-4 tablet:mb-0 max-h-[500px] ">
               <div className="flex justify-between items-center mb-4 ">
-                <p className="text-left text-lg truncate md:text-2xl mb-2 font-semibold">
+                <p className="text-left text-lg largeLaptop:text-3xl truncate md:text-2xl mb-2 font-semibold">
                   Related Products
                 </p>
                 <Link to={`/product/${category}/top`} className="no-underline">
-                  <p className="text-left text-sm md:text-xl mb-2 bg-custom-green text-white p-1 md:px-2 md:py-1 rounded-lg">
+                  <p className="text-left largeLaptop:text-3xl text-sm md:text-xl mb-2 bg-custom-green text-white p-1 md:px-3 md:py-2 rounded-lg">
                     View Products
                   </p>
                 </Link>
