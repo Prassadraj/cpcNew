@@ -321,13 +321,20 @@ function ProductInfo() {
                     />
                   ))}
                 </div>
-                <div className="hidden laptop:w-[60%] w-full tablet:w-[70%]  tablet:max-h-[60%] tablet:flex justify-center">
+                <div className="hidden laptop:w-[60%] w-full tablet:w-[70%] h-[300px]  tablet:flex justify-center">
                   <img
                     src={imgUrl}
                     alt="Descriptive text"
-                    className="rounded-md laptop:max-w-[500px] laptop:w-full laptop:min-w-[300px] laptop:h-[300px] object-cover"
+                    className="rounded-md h-full object-cover"
                   />
                 </div>
+                {/* <div className="hidden laptop:w-[60%] w-full tablet:w-[70%]  tablet:max-h-[80%] tablet:flex justify-center">
+                  <img
+                    src={imgUrl}
+                    alt="Descriptive text"
+                    className="rounded-md laptop:max-w-[500px] laptop:w-full laptop:min-w-[300px] laptop:h-[350px] object-cover"
+                  />
+                </div> */}
               </div>
               <div className="hidden md:flex justify-center mt-4 tablet:mb-10 laptop:mb-[6rem]">
                 <div className="w-full flex flex-col text-xl text-justify ">

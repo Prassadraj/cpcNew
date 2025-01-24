@@ -170,7 +170,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       How it Works:
                     </strong>{" "}
                     The analyzer employs photometric technology to measure the
@@ -180,7 +180,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       For Whom:
                     </strong>{" "}
                     Designed for large hospitals and diagnostic centers
@@ -189,7 +189,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       Use Cases:
                     </strong>{" "}
                     Performs a variety of tests including liver function, kidney
@@ -207,19 +207,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
-                  - High precision and reliability
+                  ★ High precision and reliability
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
-                  - Extensive test menu for diverse diagnostics
+                  ★ Extensive test menu for diverse diagnostics
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
-                  - Capable of handling high sample volumes efficiently
+                  ★ Capable of handling high sample volumes efficiently
                 </p>
               </li>
             </ul>
@@ -231,19 +231,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
-                  - Reduces turnaround time for test results
+                  ★ Reduces turnaround time for test results
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
-                  - Enhances diagnostic efficiency and patient care
+                  ★ Enhances diagnostic efficiency and patient care
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
-                  - Supports a wide range of biochemical assays
+                  ★ Supports a wide range of biochemical assays
                 </p>
               </li>
             </ul>
@@ -255,20 +255,20 @@ const products = [
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
-                  - Regular calibration and quality control checks
+                  ★ Regular calibration and quality control checks
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
-                  - Routine cleaning of cuvettes and probes to ensure accurate
+                  ★ Routine cleaning of cuvettes and probes to ensure accurate
                   readings
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
                   {" "}
-                  - Scheduled maintenance to prolong the lifespan of the
+                  ★ Scheduled maintenance to prolong the lifespan of the
                   analyzer
                 </p>
               </li>
@@ -300,7 +300,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       How it Works:
                     </strong>{" "}
                     Utilizes photometric and ion-selective electrode (ISE)
@@ -309,7 +309,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       For Whom:
                     </strong>{" "}
                     Ideal for clinics, small hospitals, and diagnostic labs with
@@ -318,7 +318,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       Use Cases:
                     </strong>{" "}
                     Conducts a variety of tests such as metabolic panels,
@@ -336,19 +336,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - User-friendly interface with intuitive controls
+                  ★ User-friendly interface with intuitive controls
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Compact design that saves space
+                  ★ Compact design that saves space
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Reliable performance with minimal operational complexity
+                  ★ Reliable performance with minimal operational complexity
                 </p>
               </li>
             </ul>
@@ -360,19 +360,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Simplifies laboratory workflows
+                  ★ Simplifies laboratory workflows
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Enhances accuracy and speed of diagnostics
+                  ★ Enhances accuracy and speed of diagnostics
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Cost-effective solution for comprehensive biochemistry
+                  ★ Cost-effective solution for comprehensive biochemistry
                   testing
                 </p>
               </li>
@@ -385,19 +385,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Periodic software updates to maintain functionality
+                  ★ Periodic software updates to maintain functionality
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Regular cleaning and maintenance of analytical components
+                  ★ Regular cleaning and maintenance of analytical components
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Proper storage of reagents to ensure test accuracy
+                  ★ Proper storage of reagents to ensure test accuracy
                 </p>
               </li>
             </ul>
@@ -447,7 +447,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       How it Works:
                     </strong>{" "}
                     Employs photometric detection to analyze biochemical
@@ -456,7 +456,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       For Whom:
                     </strong>{" "}
                     Perfect for small to mid-sized laboratories needing quick
@@ -465,7 +465,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       Use Cases:
                     </strong>{" "}
                     Commonly used for routine chemistry tests, specific protein
@@ -483,19 +483,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Fast processing time for quick results
+                  ★ Fast processing time for quick results
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - High reliability with consistent performance
+                  ★ High reliability with consistent performance
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Versatile applications across various tests
+                  ★ Versatile applications across various tests
                 </p>
               </li>
             </ul>
@@ -507,19 +507,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Improves laboratory productivity
+                  ★ Improves laboratory productivity
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Provides quick and accurate diagnostics
+                  ★ Provides quick and accurate diagnostics
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Adaptable to a wide range of biochemical testing needs
+                  ★ Adaptable to a wide range of biochemical testing needs
                 </p>
               </li>
             </ul>
@@ -531,19 +531,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Routine maintenance of sensors and optical systems
+                  ★ Routine maintenance of sensors and optical systems
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Ensuring proper storage and handling of reagents
+                  ★ Ensuring proper storage and handling of reagents
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Regular performance checks to ensure ongoing accuracy
+                  ★ Regular performance checks to ensure ongoing accuracy
                 </p>
               </li>
             </ul>
@@ -572,7 +572,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -584,7 +584,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -595,7 +595,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -626,14 +626,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Guaranteed Number of Tests: Ensures zero wastage by
+                  ★ Guaranteed Number of Tests: Ensures zero wastage by
                   providing a fixed number of tests per reagent pack.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - On-board and Calibration Stability: Maintains consistent
+                  ★ On-board and Calibration Stability: Maintains consistent
                   performance during use and storage.
                 </p>
               </li>
@@ -647,14 +647,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Easy Inventory Management: Simplifies reagent tracking and
+                  ★ Easy Inventory Management: Simplifies reagent tracking and
                   replenishment.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Comprehensive Test Menu: Offers a wide range of biochemistry
+                  ★ Comprehensive Test Menu: Offers a wide range of biochemistry
                   assays, including Urea Kinetic, Total Protein, and Bilirubin
                   Direct tests.
                 </p>
@@ -669,21 +669,21 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Store reagents under recommended conditions to maintain
+                  ★ Store reagents under recommended conditions to maintain
                   stability and performance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Regularly calibrate the TurboChem Prime system to ensure
+                  ★ Regularly calibrate the TurboChem Prime system to ensure
                   optimal accuracy.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Follow the manufacturer’s guidelines for proper reagent
+                  ★ Follow the manufacturer’s guidelines for proper reagent
                   handling and disposal.
                 </p>
               </li>
@@ -713,9 +713,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      Working Principle: How It Works?
+                      How It Works?
                     </strong>
                     iChem Magna operates on enzymatic and photometric reactions
                     to measure biochemical parameters with high efficiency and
@@ -724,7 +724,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -734,7 +734,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -761,13 +761,13 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Enhanced accuracy and reliability in biochemical testing.
+                  ★ Enhanced accuracy and reliability in biochemical testing.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Increased on-board stability and linearity across a wide
+                  ★ Increased on-board stability and linearity across a wide
                   range of concentrations.
                 </p>
               </li>
@@ -781,14 +781,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Guaranteed number of tests per reagent pack ensures zero
+                  ★ Guaranteed number of tests per reagent pack ensures zero
                   wastage.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Delivers precise and consistent results for accurate
+                  ★ Delivers precise and consistent results for accurate
                   diagnostics.
                 </p>
               </li>
@@ -802,20 +802,20 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Store at specified temperatures to maintain reagent
+                  ★ Store at specified temperatures to maintain reagent
                   efficacy.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Regularly inspect for proper storage conditions.
+                  ★ Regularly inspect for proper storage conditions.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Ensure proper calibration of equipment for consistent
+                  ★ Ensure proper calibration of equipment for consistent
                   performance.
                 </p>
               </li>
@@ -844,9 +844,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      Working Principle: How It Works?
+                      How It Works?
                     </strong>
                     Identi Immuno Turbidimetry Reagents operate on turbidimetry,
                     using antigen-antibody complexes to quantify proteins and
@@ -855,7 +855,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -866,7 +866,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -895,14 +895,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Provides high-quality turbidimetric measurements for
+                  ★ Provides high-quality turbidimetric measurements for
                   reliable results.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Optimized for automation, enhancing laboratory efficiency.
+                  ★ Optimized for automation, enhancing laboratory efficiency.
                 </p>
               </li>
             </ul>
@@ -915,14 +915,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Offers improved sensitivity and linearity for precise
+                  ★ Offers improved sensitivity and linearity for precise
                   quantification across a range of concentrations.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Includes comprehensive test kits catering to diverse
+                  ★ Includes comprehensive test kits catering to diverse
                   diagnostic needs.
                 </p>
               </li>
@@ -936,21 +936,21 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Follow storage and handling instructions for optimal
+                  ★ Follow storage and handling instructions for optimal
                   performance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Perform routine equipment maintenance to ensure precise
+                  ★ Perform routine equipment maintenance to ensure precise
                   measurements.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Dispose of reagents according to regulatory guidelines.
+                  ★ Dispose of reagents according to regulatory guidelines.
                 </p>
               </li>
             </ul>
@@ -979,9 +979,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      Working Principle: How It Works?
+                      How It Works?
                     </strong>
                     Identi Reagents Kit operates on enzymatic, photometric, and
                     colorimetric methods to precisely quantify various analytes.
@@ -989,7 +989,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -999,7 +999,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -1024,14 +1024,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Ready-to-use liquid stable reagents simplify laboratory
+                  ★ Ready-to-use liquid stable reagents simplify laboratory
                   workflows.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Available in varied pack sizes to cater to specific customer
+                  ★ Available in varied pack sizes to cater to specific customer
                   needs.
                 </p>
               </li>
@@ -1045,14 +1045,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Manufactured to international standards, ensuring reliable
+                  ★ Manufactured to international standards, ensuring reliable
                   and accurate results.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Includes comprehensive test kits for diverse diagnostic
+                  ★ Includes comprehensive test kits for diverse diagnostic
                   requirements.
                 </p>
               </li>
@@ -1066,20 +1066,20 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Ensure proper storage conditions for reagent stability.
+                  ★ Ensure proper storage conditions for reagent stability.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Regular calibration of analyzers is essential for optimal
+                  ★ Regular calibration of analyzers is essential for optimal
                   results.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Adhere to best practices for reagent preparation and
+                  ★ Adhere to best practices for reagent preparation and
                   disposal.
                 </p>
               </li>
@@ -1109,9 +1109,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      Working Principle: How It Works?
+                      How It Works?
                     </strong>
                     Chemistry Calibrator and Chemistry Controls ensure precise
                     diagnostics by providing reference points and verifying
@@ -1120,7 +1120,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -1130,7 +1130,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -1154,13 +1154,13 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Utilizes lyophilized human serum for enhanced stability.
+                  ★ Utilizes lyophilized human serum for enhanced stability.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Provides extended shelf life when stored at 2°C – 8°C.
+                  ★ Provides extended shelf life when stored at 2°C – 8°C.
                 </p>
               </li>
             </ul>
@@ -1173,14 +1173,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Ensures consistent and accurate calibration and control for
+                  ★ Ensures consistent and accurate calibration and control for
                   clinical chemistry tests.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Offers flexible storage options, with reconstituted
+                  ★ Offers flexible storage options, with reconstituted
                   stability of up to 7 days at 2°C – 8°C or 4 weeks at -20°C.
                 </p>
               </li>
@@ -1194,19 +1194,19 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Store under recommended conditions to maintain stability.
+                  ★ Store under recommended conditions to maintain stability.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Follow protocols for calibration and control preparation.
+                  ★ Follow protocols for calibration and control preparation.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Regularly review analyzer performance to detect
+                  ★ Regularly review analyzer performance to detect
                   inconsistencies.
                 </p>
               </li>
@@ -1547,7 +1547,7 @@ const products = [
               <li className="flex-col gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
+                  <span className="font-semibold tablet:text-base largeLaptop:text-2xl  text-xs">
                     How it Works
                   </span>
                 </p>
@@ -1591,7 +1591,7 @@ const products = [
             <table className="min-w-full table-auto mt-6">
               <thead>
                 <tr>
-                  <th className="tablet:px-4 tablet:py-2 px-0 py-0  text-left text-black font-semibold">
+                  <th className="tablet:px-4 tablet:text-base tablet:py-2 px-0 py-0  text-left text-black font-semibold">
                     Use Cases
                   </th>
                 </tr>
@@ -1599,7 +1599,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Critical Care:
                     </strong>{" "}
@@ -1609,7 +1609,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Routine Laboratory Testing:
                     </strong>{" "}
@@ -1619,7 +1619,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Diagnostic Centers:
                     </strong>{" "}
@@ -1640,7 +1640,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       High Efficiency:
                     </strong>{" "}
@@ -1650,7 +1650,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Ease of Use:
                     </strong>{" "}
@@ -1661,7 +1661,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Compact Design:
                     </strong>{" "}
@@ -1671,7 +1671,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Consistent Accuracy:
                     </strong>{" "}
@@ -1691,7 +1691,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Cost-Effective:
                     </strong>{" "}
@@ -1701,7 +1701,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Improved Workflow:
                     </strong>{" "}
@@ -1711,7 +1711,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Reliable Results:
                     </strong>{" "}
@@ -1731,19 +1731,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Routine maintenance of sensors and optical systems
+                  ★ Routine maintenance of sensors and optical systems
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Ensuring proper storage and handling of reagents
+                  ★ Ensuring proper storage and handling of reagents
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Regular performance checks to ensure ongoing accuracy
+                  ★ Regular performance checks to ensure ongoing accuracy
                 </p>
               </li>
             </ul>
@@ -1775,7 +1775,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       Working Principle: How It Works?
                     </strong>
                     The EX-Ds performs electrolyte analysis by processing
@@ -1786,7 +1786,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       For Whom It Is Useful?
                     </strong>
                     Ideal for laboratories requiring reliable and
@@ -1795,7 +1795,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       Use Cases:
                     </strong>
                     <ul className="list-disc pl-5 text-lg">
@@ -1817,22 +1817,22 @@ const products = [
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - High Performance: Handles large sample volumes efficiently.
+                  ★ High Performance: Handles large sample volumes efficiently.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Precision: Delivers reproducible and accurate results.
+                  ★ Precision: Delivers reproducible and accurate results.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Adaptable Design: Suitable for various laboratory workflows.
+                  ★ Adaptable Design: Suitable for various laboratory workflows.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Integrated Workflow: Features LIS connectivity for seamless
+                  ★ Integrated Workflow: Features LIS connectivity for seamless
                   data management.
                 </p>
               </li>
@@ -1845,22 +1845,22 @@ const products = [
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Boosts productivity by reducing manual operations.
+                  ★ Boosts productivity by reducing manual operations.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Shortens turnaround times with automated processes.
+                  ★ Shortens turnaround times with automated processes.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Provides scalability for expanding diagnostic needs.
+                  ★ Provides scalability for expanding diagnostic needs.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Enhances operational accuracy through advanced technology.
+                  ★ Enhances operational accuracy through advanced technology.
                 </p>
               </li>
             </ul>
@@ -1872,23 +1872,23 @@ const products = [
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Regularly clean and inspect key components as per the user
+                  ★ Regularly clean and inspect key components as per the user
                   manual.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Protect the system from power surges by using a stabilizer.
+                  ★ Protect the system from power surges by using a stabilizer.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Ensure proper calibration and timely software updates.
+                  ★ Ensure proper calibration and timely software updates.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Use recommended consumables to maintain performance
+                  ★ Use recommended consumables to maintain performance
                   consistency.
                 </p>
               </li>
@@ -1936,7 +1936,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
                         How it Works
@@ -1950,7 +1950,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -1960,7 +1960,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -1980,19 +1980,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - High precision with advanced 3D technology
+                  ★ High precision with advanced 3D technology
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Fast processing for high throughput
+                  ★ Fast processing for high throughput
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Easy-to-use interface for streamlined operation
+                  ★ Easy-to-use interface for streamlined operation
                 </p>
               </li>
             </ul>
@@ -2006,19 +2006,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Enhanced accuracy and reliability in blood analysis
+                  ★ Enhanced accuracy and reliability in blood analysis
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Increased efficiency and workflow optimization
+                  ★ Increased efficiency and workflow optimization
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Reduced need for manual intervention, minimizing errors
+                  ★ Reduced need for manual intervention, minimizing errors
                 </p>
               </li>
             </ul>
@@ -2032,28 +2032,28 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Regular Calibration: Periodic calibration to maintain
+                  ★ Regular Calibration: Periodic calibration to maintain
                   accuracy.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Routine Cleaning: Regular cleaning of sample probes and
+                  ★ Routine Cleaning: Regular cleaning of sample probes and
                   internal components.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Software Updates: Keep software updated for the latest
+                  ★ Software Updates: Keep software updated for the latest
                   features.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Preventive Maintenance: Schedule regular checks by certified
+                  ★ Preventive Maintenance: Schedule regular checks by certified
                   technicians for long-term reliability.
                 </p>
               </li>
@@ -2086,7 +2086,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
                         How it Works
@@ -2100,7 +2100,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -2110,7 +2110,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -2130,19 +2130,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - High precision due to advanced 3D imaging
+                  ★ High precision due to advanced 3D imaging
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Fast sample processing enhances laboratory efficiency
+                  ★ Fast sample processing enhances laboratory efficiency
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - User-friendly operation reduces training time
+                  ★ User-friendly operation reduces training time
                 </p>
               </li>
             </ul>
@@ -2156,19 +2156,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Provides accurate and reliable hematological analysis
+                  ★ Provides accurate and reliable hematological analysis
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Increases efficiency in laboratory workflows
+                  ★ Increases efficiency in laboratory workflows
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Minimizes manual intervention, reducing the risk of errors
+                  ★ Minimizes manual intervention, reducing the risk of errors
                 </p>
               </li>
             </ul>
@@ -2182,28 +2182,28 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Regular Calibration: Ensure periodic calibration to maintain
+                  ★ Regular Calibration: Ensure periodic calibration to maintain
                   accuracy.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Routine Cleaning: Clean sample probes and internal
+                  ★ Routine Cleaning: Clean sample probes and internal
                   components regularly.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Software Updates: Keep software updated for enhanced
+                  ★ Software Updates: Keep software updated for enhanced
                   features and performance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Preventive Maintenance: Schedule regular maintenance checks
+                  ★ Preventive Maintenance: Schedule regular maintenance checks
                   by certified technicians to ensure optimal performance.
                 </p>
               </li>
@@ -2237,7 +2237,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
                         How it Works
@@ -2252,7 +2252,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -2262,7 +2262,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -2282,19 +2282,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - High precision with 5-part differential technology
+                  ★ High precision with 5-part differential technology
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Fast processing for high throughput
+                  ★ Fast processing for high throughput
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - User-friendly interface for easy operation
+                  ★ User-friendly interface for easy operation
                 </p>
               </li>
             </ul>
@@ -2308,19 +2308,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Enhanced accuracy and reliability in blood cell analysis
+                  ★ Enhanced accuracy and reliability in blood cell analysis
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Increased efficiency in laboratory workflows
+                  ★ Increased efficiency in laboratory workflows
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Reduced need for manual intervention, minimizing errors
+                  ★ Reduced need for manual intervention, minimizing errors
                 </p>
               </li>
             </ul>
@@ -2334,28 +2334,28 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Regular Calibration: Ensure periodic calibration to maintain
+                  ★ Regular Calibration: Ensure periodic calibration to maintain
                   accuracy.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Routine Cleaning: Regularly clean sample probes and internal
+                  ★ Routine Cleaning: Regularly clean sample probes and internal
                   components to ensure optimal performance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Software Updates: Keep the software updated to benefit from
+                  ★ Software Updates: Keep the software updated to benefit from
                   the latest features and improvements.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Preventive Maintenance: Schedule regular maintenance checks
+                  ★ Preventive Maintenance: Schedule regular maintenance checks
                   by certified technicians to ensure long-term reliability.
                 </p>
               </li>
@@ -2390,7 +2390,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
                         How it Works
@@ -2405,7 +2405,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -2415,7 +2415,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -2435,19 +2435,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Rapid test results, improving laboratory efficiency
+                  ★ Rapid test results, improving laboratory efficiency
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Eliminates the need for disposable materials, reducing costs
+                  ★ Eliminates the need for disposable materials, reducing costs
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Easy operation with primary EDTA tubes and minimal sample
+                  ★ Easy operation with primary EDTA tubes and minimal sample
                   volume
                 </p>
               </li>
@@ -2462,19 +2462,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Enhances the speed and accuracy of ESR testing
+                  ★ Enhances the speed and accuracy of ESR testing
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Reduces operational costs with no disposable requirements
+                  ★ Reduces operational costs with no disposable requirements
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Simplifies workflow with advanced automation and integrated
+                  ★ Simplifies workflow with advanced automation and integrated
                   barcode reader
                 </p>
               </li>
@@ -2489,28 +2489,28 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Regular Calibration: Perform regular calibration to maintain
+                  ★ Regular Calibration: Perform regular calibration to maintain
                   accuracy.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Routine Cleaning: Clean the internal components and scanner
+                  ★ Routine Cleaning: Clean the internal components and scanner
                   regularly.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Software Updates: Keep the software updated for optimal
+                  ★ Software Updates: Keep the software updated for optimal
                   performance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Preventive Maintenance: Schedule periodic maintenance checks
+                  ★ Preventive Maintenance: Schedule periodic maintenance checks
                   with certified technicians to ensure long-term reliability.
                 </p>
               </li>
@@ -2545,7 +2545,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       Working Principle: How It Works?
                     </strong>
                     The SedRate Pro directly measures ESR by analyzing the
@@ -2558,7 +2558,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       For Whom It Is Useful?
                     </strong>
                     Ideal for laboratories, clinics, and hospitals conducting
@@ -2567,7 +2567,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       Use Cases:
                     </strong>
                     <ul className="list-disc pl-5 text-lg">
@@ -2591,28 +2591,28 @@ const products = [
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Quick Results: Provides results within 20 minutes.
+                  ★ Quick Results: Provides results within 20 minutes.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Accuracy: Adheres to the gold-standard Westergren method.
+                  ★ Accuracy: Adheres to the gold-standard Westergren method.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - User-Friendly: Intuitive LCD touchscreen for easy operation.
+                  ★ User-Friendly: Intuitive LCD touchscreen for easy operation.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Versatility: Available in 8, 16, or 32 sample positions for
+                  ★ Versatility: Available in 8, 16, or 32 sample positions for
                   varied lab requirements.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Integrated Features: Built-in barcode reader, thermal
+                  ★ Integrated Features: Built-in barcode reader, thermal
                   printer, and LIS compatibility.
                 </p>
               </li>
@@ -2625,24 +2625,24 @@ const products = [
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Saves time and reduces manual handling with direct sample
+                  ★ Saves time and reduces manual handling with direct sample
                   loading.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Offers real-time sedimentation curve monitoring for precise
+                  ★ Offers real-time sedimentation curve monitoring for precise
                   interpretation.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Compact design fits into laboratories with limited space.
+                  ★ Compact design fits into laboratories with limited space.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Ensures robust data management through bidirectional LIS
+                  ★ Ensures robust data management through bidirectional LIS
                   connectivity.
                 </p>
               </li>
@@ -2655,23 +2655,23 @@ const products = [
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Clean the touchscreen interface regularly with a soft cloth.
+                  ★ Clean the touchscreen interface regularly with a soft cloth.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Use the built-in QC options to ensure consistent
+                  ★ Use the built-in QC options to ensure consistent
                   performance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Store the analyzer in a dry, dust-free environment.
+                  ★ Store the analyzer in a dry, dust-free environment.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  - Follow the manufacturer’s guidelines for routine calibration
+                  ★ Follow the manufacturer’s guidelines for routine calibration
                   and upkeep.
                 </p>
               </li>
@@ -2719,7 +2719,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -2736,7 +2736,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -2752,7 +2752,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -2796,7 +2796,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Efficient Processing: Automates multiple steps in the
+                  ★ Efficient Processing: Automates multiple steps in the
                   western blot process, reducing manual labor and increasing lab
                   productivity.
                 </p>
@@ -2804,7 +2804,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Compact and Space-Saving: Ideal for labs with limited space,
+                  ★ Compact and Space-Saving: Ideal for labs with limited space,
                   the PLEXMAT 4 offers full functionality without taking up too
                   much room.
                 </p>
@@ -2812,7 +2812,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - High Accuracy: Automation ensures consistent and precise
+                  ★ High Accuracy: Automation ensures consistent and precise
                   results, improving diagnostic accuracy across a variety of
                   tests.
                 </p>
@@ -2820,7 +2820,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Versatile Testing: Supports a broad range of assays,
+                  ★ Versatile Testing: Supports a broad range of assays,
                   including autoimmune and liver profiles, making it adaptable
                   to various lab needs.
                 </p>
@@ -2828,7 +2828,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Scalable Solution: Capable of processing up to 4 strips
+                  ★ Scalable Solution: Capable of processing up to 4 strips
                   simultaneously, making it suitable for labs with moderate
                   testing volumes.
                 </p>
@@ -2843,7 +2843,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Increased Productivity: The automated workflow allows lab
+                  ★ Increased Productivity: The automated workflow allows lab
                   technicians to focus on other tasks while the PLEXMAT 4
                   handles western blot processing, enhancing overall efficiency.
                 </p>
@@ -2851,7 +2851,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Consistent Results: The automated system ensures uniform
+                  ★ Consistent Results: The automated system ensures uniform
                   processing across all strips, delivering reliable and
                   reproducible results every time.
                 </p>
@@ -2859,7 +2859,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Cost-Effective Operation: By reducing manual intervention
+                  ★ Cost-Effective Operation: By reducing manual intervention
                   and minimizing errors, the PLEXMAT 4 helps lower operational
                   costs and improve lab efficiency.
                 </p>
@@ -2867,7 +2867,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - User-Friendly Design: The intuitive touchscreen interface
+                  ★ User-Friendly Design: The intuitive touchscreen interface
                   simplifies operation, reducing the need for extensive training
                   and making the system accessible to all lab staff.
                 </p>
@@ -2875,7 +2875,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Multi-Test Capability: The ability to handle a variety of
+                  ★ Multi-Test Capability: The ability to handle a variety of
                   test profiles, from ANA to liver diagnostics, makes the
                   PLEXMAT 4 a versatile addition to any lab.
                 </p>
@@ -2890,21 +2890,21 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Routine Calibration: Regular calibration ensures that the
+                  ★ Routine Calibration: Regular calibration ensures that the
                   PLEXMAT 4 maintains its accuracy and reliability over time.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Automated Maintenance Alerts: The system provides automatic
+                  ★ Automated Maintenance Alerts: The system provides automatic
                   notifications for maintenance tasks, ensuring timely upkeep.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Easy Access for Servicing: The PLEXMAT 4 is designed for
+                  ★ Easy Access for Servicing: The PLEXMAT 4 is designed for
                   easy access to internal components, making maintenance and
                   repairs straightforward and efficient.
                 </p>
@@ -2912,7 +2912,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Minimal Downtime: Built for durability, the PLEXMAT 4
+                  ★ Minimal Downtime: Built for durability, the PLEXMAT 4
                   ensures continuous operation with minimal maintenance
                   interruptions.
                 </p>
@@ -2920,7 +2920,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Comprehensive Support: Supported by CPC Diagnostics'
+                  ★ Comprehensive Support: Supported by CPC Diagnostics'
                   technical team, ensuring optimal performance and long-term
                   reliability.
                 </p>
@@ -2951,7 +2951,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle:
                     </strong>{" "}
@@ -2969,7 +2969,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -2986,7 +2986,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -3030,7 +3030,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - High Efficiency: The ability to process multiple strips
+                  ★ High Efficiency: The ability to process multiple strips
                   simultaneously increases lab productivity and reduces
                   turnaround time.
                 </p>
@@ -3038,7 +3038,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Automation and Precision: Automating each step of the
+                  ★ Automation and Precision: Automating each step of the
                   western blot process ensures consistency and reduces manual
                   errors.
                 </p>
@@ -3046,7 +3046,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Versatile Testing Capabilities: Supports a wide range of
+                  ★ Versatile Testing Capabilities: Supports a wide range of
                   diagnostic tests, making it adaptable to various clinical
                   applications, including autoimmune and liver profiles.
                 </p>
@@ -3054,7 +3054,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Space-Saving Design: The compact footprint of the PLEXMAT 8
+                  ★ Space-Saving Design: The compact footprint of the PLEXMAT 8
                   makes it easy to integrate into labs of any size, optimizing
                   workspace without compromising functionality.
                 </p>
@@ -3062,7 +3062,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Scalability: Whether your lab processes a few samples or
+                  ★ Scalability: Whether your lab processes a few samples or
                   high volumes, the PLEXMAT 8 can scale to meet your needs
                   without sacrificing performance.
                 </p>
@@ -3077,7 +3077,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Increased Productivity: Automated operation allows lab
+                  ★ Increased Productivity: Automated operation allows lab
                   technicians to focus on other tasks while the PLEXMAT 8
                   handles western blot processing, improving overall workflow.
                 </p>
@@ -3085,7 +3085,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Consistent and Accurate Results: Automation ensures
+                  ★ Consistent and Accurate Results: Automation ensures
                   uniformity in processing, delivering reliable and reproducible
                   results across all tests.
                 </p>
@@ -3093,7 +3093,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Cost-Effective Operation: Reduces the need for manual labor,
+                  ★ Cost-Effective Operation: Reduces the need for manual labor,
                   lowering operational costs and minimizing the risk of repeat
                   testing due to errors.
                 </p>
@@ -3101,7 +3101,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - User-Friendly Interface: The intuitive touchscreen interface
+                  ★ User-Friendly Interface: The intuitive touchscreen interface
                   simplifies operation, reducing training time and increasing
                   ease of use.
                 </p>
@@ -3109,7 +3109,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Multi-Profile Capability: Supports a broad range of test
+                  ★ Multi-Profile Capability: Supports a broad range of test
                   profiles, including ANA, liver, infectious diseases, and more,
                   making it a versatile asset for any diagnostic lab.
                 </p>
@@ -3124,14 +3124,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Routine Calibration: Regular calibration ensures the PLEXMAT
+                  ★ Routine Calibration: Regular calibration ensures the PLEXMAT
                   8 maintains its accuracy and reliability over time.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Automated Maintenance Alerts: The system provides automatic
+                  ★ Automated Maintenance Alerts: The system provides automatic
                   alerts for scheduled maintenance, ensuring optimal
                   performance.
                 </p>
@@ -3139,7 +3139,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Easy Access for Servicing: The design allows for easy access
+                  ★ Easy Access for Servicing: The design allows for easy access
                   to internal components, simplifying routine maintenance and
                   any necessary repairs.
                 </p>
@@ -3147,14 +3147,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Durable Construction: Built for long-term use, ensuring
+                  ★ Durable Construction: Built for long-term use, ensuring
                   consistent performance with minimal downtime.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Comprehensive Support: Backed by CPC Diagnostics’ technical
+                  ★ Comprehensive Support: Backed by CPC Diagnostics’ technical
                   support team, ensuring your system operates at peak
                   performance throughout its lifespan.
                 </p>
@@ -3184,7 +3184,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -3202,7 +3202,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -3219,7 +3219,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -3264,7 +3264,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - High Sensitivity: Accurately detects even low levels of
+                  ★ High Sensitivity: Accurately detects even low levels of
                   biomarkers, ensuring early diagnosis and better patient
                   outcomes.
                 </p>
@@ -3272,7 +3272,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Automated Efficiency: Reduces the need for manual labor,
+                  ★ Automated Efficiency: Reduces the need for manual labor,
                   streamlining lab processes and minimizing the risk of human
                   error.
                 </p>
@@ -3280,7 +3280,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Versatile Application: Supports a broad range of diagnostic
+                  ★ Versatile Application: Supports a broad range of diagnostic
                   tests, making it adaptable to various medical fields,
                   including prenatal care.
                 </p>
@@ -3288,7 +3288,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Scalable: Capable of handling both small and large sample
+                  ★ Scalable: Capable of handling both small and large sample
                   volumes, making it suitable for labs with varying testing
                   demands.
                 </p>
@@ -3296,7 +3296,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Cost-Effective: Automation and high accuracy reduce the need
+                  ★ Cost-Effective: Automation and high accuracy reduce the need
                   for repeat tests, lowering overall operational costs.
                 </p>
               </li>
@@ -3310,7 +3310,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Improved Diagnostic Accuracy: High sensitivity and
+                  ★ Improved Diagnostic Accuracy: High sensitivity and
                   specificity ensure reliable results, enhancing the quality of
                   patient care.
                 </p>
@@ -3318,7 +3318,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Faster Turnaround Times: Automated processes enable quick
+                  ★ Faster Turnaround Times: Automated processes enable quick
                   results, allowing for prompt clinical decision-making and
                   treatment.
                 </p>
@@ -3326,7 +3326,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - User-Friendly Operation: The intuitive interface and
+                  ★ User-Friendly Operation: The intuitive interface and
                   automated features make the system easy to use, reducing
                   training time and operational complexity.
                 </p>
@@ -3334,7 +3334,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Increased Productivity: With automated workflows and fast
+                  ★ Increased Productivity: With automated workflows and fast
                   processing speeds, labs can handle more samples in less time,
                   boosting productivity.
                 </p>
@@ -3342,7 +3342,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Long-Term Reliability: Built for durability, the BRAHMS
+                  ★ Long-Term Reliability: Built for durability, the BRAHMS
                   Biomarkers system requires minimal maintenance, ensuring
                   consistent performance and uptime.
                 </p>
@@ -3357,14 +3357,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Routine Calibration: Regular calibration ensures that the
+                  ★ Routine Calibration: Regular calibration ensures that the
                   system maintains its accuracy and reliability over time.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Automated Maintenance Alerts: The system provides alerts for
+                  ★ Automated Maintenance Alerts: The system provides alerts for
                   scheduled maintenance, ensuring timely upkeep without
                   disrupting workflows.
                 </p>
@@ -3372,7 +3372,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Easy Access for Servicing: Designed for easy access to
+                  ★ Easy Access for Servicing: Designed for easy access to
                   internal components, making routine maintenance and repairs
                   quick and efficient.
                 </p>
@@ -3380,7 +3380,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Minimal Downtime: Engineered for durability and longevity,
+                  ★ Minimal Downtime: Engineered for durability and longevity,
                   the BRAHMS Biomarkers system ensures continuous operation with
                   minimal interruptions.
                 </p>
@@ -3388,7 +3388,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Comprehensive Support: Supported by CPC Diagnostics'
+                  ★ Comprehensive Support: Supported by CPC Diagnostics'
                   dedicated technical team, ensuring that your system operates
                   at peak performance throughout its lifespan.
                 </p>
@@ -3424,7 +3424,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       How It Works:
                     </strong>{" "}
@@ -3440,7 +3440,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -3454,7 +3454,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -3480,25 +3480,25 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - High throughput and rapid test processing
+                  ★ High throughput and rapid test processing
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Exceptional sensitivity and specificity
+                  ★ Exceptional sensitivity and specificity
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Intuitive interface with easy-to-use software
+                  ★ Intuitive interface with easy-to-use software
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Comprehensive test menu covering diverse assays
+                  ★ Comprehensive test menu covering diverse assays
                 </p>
               </li>
             </ul>
@@ -3512,25 +3512,25 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Increased laboratory productivity and efficiency
+                  ★ Increased laboratory productivity and efficiency
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Consistent and reliable results
+                  ★ Consistent and reliable results
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Reduced manual intervention and hands-on time
+                  ★ Reduced manual intervention and hands-on time
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Enhanced diagnostic precision and patient care
+                  ★ Enhanced diagnostic precision and patient care
                 </p>
               </li>
             </ul>
@@ -3600,14 +3600,14 @@ const products = [
                     <strong className="text-wrap">How It Works:</strong>
                     <ul className="list-disc pl-5 text-lg">
                       <li>
-                        <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                        <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                           {" "}
                           Sample Preparation:
                         </strong>{" "}
                         Samples are loaded into the analyzer.
                       </li>
                       <li>
-                        <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                        <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                           {" "}
                           Reaction:
                         </strong>{" "}
@@ -3615,7 +3615,7 @@ const products = [
                         trigger a chemiluminescent reaction.
                       </li>
                       <li>
-                        <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                        <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                           {" "}
                           Detection:
                         </strong>{" "}
@@ -3624,7 +3624,7 @@ const products = [
                         target analyte.
                       </li>
                       <li>
-                        <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                        <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                           {" "}
                           Results:
                         </strong>{" "}
@@ -3669,28 +3669,28 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - High throughput capability ensures efficient processing of
+                  ★ High throughput capability ensures efficient processing of
                   large sample volumes.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Chemiluminescence technology provides high sensitivity and
+                  ★ Chemiluminescence technology provides high sensitivity and
                   specificity.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - User-friendly interface simplifies operation and reduces
+                  ★ User-friendly interface simplifies operation and reduces
                   training time.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Comprehensive test menu supports a wide range of diagnostic
+                  ★ Comprehensive test menu supports a wide range of diagnostic
                   applications.
                 </p>
               </li>
@@ -3705,27 +3705,27 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Enhanced laboratory productivity with rapid and reliable
+                  ★ Enhanced laboratory productivity with rapid and reliable
                   test results.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Improved diagnostic accuracy and confidence in patient care.
+                  ★ Improved diagnostic accuracy and confidence in patient care.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Streamlined workflows and integration with existing lab
+                  ★ Streamlined workflows and integration with existing lab
                   systems.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Reduced operational costs with efficient and automated
+                  ★ Reduced operational costs with efficient and automated
                   processes.
                 </p>
               </li>
@@ -3740,26 +3740,26 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Routine calibration and quality control checks.
+                  ★ Routine calibration and quality control checks.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Cleaning and inspection of reagent and sample handling
+                  ★ Cleaning and inspection of reagent and sample handling
                   components.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Software updates and troubleshooting as needed.
+                  ★ Software updates and troubleshooting as needed.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Scheduled servicing by authorized technicians to maintain
+                  ★ Scheduled servicing by authorized technicians to maintain
                   peak performance.
                 </p>
               </li>
@@ -3866,35 +3866,35 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - High Efficiency: Processes large sample volumes quickly,
+                  ★ High Efficiency: Processes large sample volumes quickly,
                   making it suitable for busy labs.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Accuracy and Reliability: Ensures consistent results with
+                  ★ Accuracy and Reliability: Ensures consistent results with
                   advanced chemiluminescence technology.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Broad Assay Range: Supports a wide variety of diagnostic
+                  ★ Broad Assay Range: Supports a wide variety of diagnostic
                   tests, catering to diverse clinical needs.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Ease of Use: Features an intuitive interface and automated
+                  ★ Ease of Use: Features an intuitive interface and automated
                   processes, reducing the need for specialized training.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Scalable: Can be integrated into larger laboratory
+                  ★ Scalable: Can be integrated into larger laboratory
                   workflows, making it adaptable to growing testing demands.
                 </p>
               </li>
@@ -3909,28 +3909,28 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Reduced Turnaround Time: Rapid processing speeds lead to
+                  ★ Reduced Turnaround Time: Rapid processing speeds lead to
                   quicker results, enhancing patient care.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Improved Lab Productivity: Automation reduces manual tasks,
+                  ★ Improved Lab Productivity: Automation reduces manual tasks,
                   allowing lab staff to focus on critical analyses.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Cost-Effective: Efficient resource usage and low maintenance
+                  ★ Cost-Effective: Efficient resource usage and low maintenance
                   requirements result in overall cost savings.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Enhanced Patient Outcomes: Accurate and timely results
+                  ★ Enhanced Patient Outcomes: Accurate and timely results
                   contribute to better diagnosis and treatment plans.
                 </p>
               </li>
@@ -3945,28 +3945,28 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Routine Calibration: Regular calibration ensures the
+                  ★ Routine Calibration: Regular calibration ensures the
                   analyzer maintains its accuracy and reliability.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Automated Maintenance Alerts: The system provides alerts for
+                  ★ Automated Maintenance Alerts: The system provides alerts for
                   scheduled maintenance, ensuring timely upkeep.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Easy Access for Servicing: Designed for easy access,
+                  ★ Easy Access for Servicing: Designed for easy access,
                   allowing for quick and hassle-free servicing.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Minimal Downtime: Robust design and reliable performance
+                  ★ Minimal Downtime: Robust design and reliable performance
                   minimize the need for frequent repairs, ensuring continuous
                   operation.
                 </p>
@@ -4071,7 +4071,7 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - High Throughput: Capable of processing multiple samples
+                  ★ High Throughput: Capable of processing multiple samples
                   simultaneously, making it suitable for high-demand
                   environments.
                 </p>
@@ -4079,14 +4079,14 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Precision and Reliability: Ensures consistent, high-quality
+                  ★ Precision and Reliability: Ensures consistent, high-quality
                   results with advanced TRACE technology.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Compact and Efficient: Designed to fit seamlessly into any
+                  ★ Compact and Efficient: Designed to fit seamlessly into any
                   lab setup, optimizing space without compromising
                   functionality.
                 </p>
@@ -4094,14 +4094,14 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Minimal Maintenance: Engineered for durability, requiring
+                  ★ Minimal Maintenance: Engineered for durability, requiring
                   minimal maintenance to maintain peak performance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Enhanced Patient Outcomes: Delivers fast, accurate results
+                  ★ Enhanced Patient Outcomes: Delivers fast, accurate results
                   that contribute to better patient care and treatment outcomes.
                 </p>
               </li>
@@ -4116,7 +4116,7 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Improved Diagnostic Accuracy: High sensitivity and
+                  ★ Improved Diagnostic Accuracy: High sensitivity and
                   specificity lead to more accurate diagnoses and better
                   clinical decisions.
                 </p>
@@ -4124,28 +4124,28 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Time Efficiency: Rapid turnaround times enable quicker
+                  ★ Time Efficiency: Rapid turnaround times enable quicker
                   diagnosis and treatment, improving patient care.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Cost-Effective Operation: Low maintenance requirements and
+                  ★ Cost-Effective Operation: Low maintenance requirements and
                   efficient operation reduce overall laboratory costs.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - User-Friendly Design: Simplifies operation with an intuitive
+                  ★ User-Friendly Design: Simplifies operation with an intuitive
                   interface, reducing the need for extensive training.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Scalable: Easily integrates into existing lab workflows,
+                  ★ Scalable: Easily integrates into existing lab workflows,
                   allowing for scalability as testing demands grow.
                 </p>
               </li>
@@ -4160,21 +4160,21 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Routine Calibration: Regular calibration is recommended to
+                  ★ Routine Calibration: Regular calibration is recommended to
                   maintain the accuracy and reliability of the analyzer.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Automated Maintenance Alerts: The system provides automated
+                  ★ Automated Maintenance Alerts: The system provides automated
                   alerts for maintenance tasks, ensuring timely servicing.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - User Manuals and Support: Detailed user manuals and access
+                  ★ User Manuals and Support: Detailed user manuals and access
                   to technical support ensure that maintenance procedures are
                   followed correctly.
                 </p>
@@ -4182,7 +4182,7 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Easy Access for Repairs: Designed for easy access to
+                  ★ Easy Access for Repairs: Designed for easy access to
                   components, allowing for quick and efficient repairs when
                   necessary.
                 </p>
@@ -4190,7 +4190,7 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Longevity: Built with durable materials and components,
+                  ★ Longevity: Built with durable materials and components,
                   ensuring long-term use with minimal downtime.
                 </p>
               </li>
@@ -4270,35 +4270,35 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Efficiency: Automates ELISA processing, reducing manual
+                  ★ Efficiency: Automates ELISA processing, reducing manual
                   labor and freeing lab personnel for critical tasks.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Consistency: Minimizes human error, ensuring accurate and
+                  ★ Consistency: Minimizes human error, ensuring accurate and
                   reproducible results.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Flexibility: Compatible with a wide range of ELISA kits and
+                  ★ Flexibility: Compatible with a wide range of ELISA kits and
                   customizable protocols.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Scalability: Designed to handle high sample volumes for
+                  ★ Scalability: Designed to handle high sample volumes for
                   large laboratories.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Cost-Effective: Reduces the need for additional equipment
+                  ★ Cost-Effective: Reduces the need for additional equipment
                   and labor, lowering operational expenses.
                 </p>
               </li>
@@ -4312,35 +4312,35 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Increased Efficiency: Streamlines operations and improves
+                  ★ Increased Efficiency: Streamlines operations and improves
                   productivity.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Improved Accuracy: Delivers reliable results through
+                  ★ Improved Accuracy: Delivers reliable results through
                   automated precision.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Versatility: Suitable for diverse diagnostic and research
+                  ★ Versatility: Suitable for diverse diagnostic and research
                   applications.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Cost-Effective: Reduces costs by optimizing resources and
+                  ★ Cost-Effective: Reduces costs by optimizing resources and
                   minimizing errors.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Enhanced Productivity: Accelerates processing for timely
+                  ★ Enhanced Productivity: Accelerates processing for timely
                   results.
                 </p>
               </li>
@@ -4354,35 +4354,35 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Routine Calibration: Essential for maintaining accuracy and
+                  ★ Routine Calibration: Essential for maintaining accuracy and
                   performance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Automated Maintenance Alerts: Timely notifications for
+                  ★ Automated Maintenance Alerts: Timely notifications for
                   scheduled maintenance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - User Support: Comprehensive manuals and dedicated support
+                  ★ User Support: Comprehensive manuals and dedicated support
                   for troubleshooting.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Easy Maintenance: Designed for quick component access and
+                  ★ Easy Maintenance: Designed for quick component access and
                   repairs.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Durability: Built with high-quality materials for
+                  ★ Durability: Built with high-quality materials for
                   long-lasting performance.
                 </p>
               </li>
@@ -4411,7 +4411,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle:
                     </strong>{" "}
@@ -4428,7 +4428,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -4442,7 +4442,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -4484,35 +4484,35 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Enhanced Workflow Efficiency: Full automation reduces manual
+                  ★ Enhanced Workflow Efficiency: Full automation reduces manual
                   labor and speeds up testing.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Precision and Accuracy: Consistent results are ensured
+                  ★ Precision and Accuracy: Consistent results are ensured
                   through automated processes, minimizing human error.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Versatile Assay Compatibility: Supports a broad range of
+                  ★ Versatile Assay Compatibility: Supports a broad range of
                   immunoblot assays, adaptable to various diagnostic needs.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Space-Saving Design: Compact design fits easily into labs
+                  ★ Space-Saving Design: Compact design fits easily into labs
                   with limited space.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Scalability: Handles varying sample volumes, making it
+                  ★ Scalability: Handles varying sample volumes, making it
                   suitable for both small and large labs.
                 </p>
               </li>
@@ -4526,35 +4526,35 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Improved Productivity: Automation processes more tests in
+                  ★ Improved Productivity: Automation processes more tests in
                   less time, boosting productivity.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Cost-Effective Operation: Reduces manual intervention,
+                  ★ Cost-Effective Operation: Reduces manual intervention,
                   cutting labor costs and errors.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - User-Friendly Interface: Simplified software and interface
+                  ★ User-Friendly Interface: Simplified software and interface
                   reduce the need for extensive training.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Accurate and Reliable Results: Delivers consistent,
+                  ★ Accurate and Reliable Results: Delivers consistent,
                   high-quality results for confidence in diagnostics.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Versatile Applications: Compatible with a wide range of
+                  ★ Versatile Applications: Compatible with a wide range of
                   assays, making it ideal for diagnostic and research labs.
                 </p>
               </li>
@@ -4568,35 +4568,35 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Automated Maintenance Alerts: Provides alerts for routine
+                  ★ Automated Maintenance Alerts: Provides alerts for routine
                   maintenance, ensuring the system remains in optimal condition.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Easy Access for Servicing: Simple access to internal
+                  ★ Easy Access for Servicing: Simple access to internal
                   components, making maintenance and servicing efficient.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Low Maintenance Requirements: Built with durability,
+                  ★ Low Maintenance Requirements: Built with durability,
                   minimizing the need for frequent maintenance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Comprehensive Support: Backed by CPC Diagnostics’ expert
+                  ★ Comprehensive Support: Backed by CPC Diagnostics’ expert
                   support team to maintain peak system efficiency.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Longevity: The robust design ensures long-term, reliable
+                  ★ Longevity: The robust design ensures long-term, reliable
                   performance.
                 </p>
               </li>
@@ -4867,21 +4867,21 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Bright and Consistent Illumination: LED technology provides
+                  ★ Bright and Consistent Illumination: LED technology provides
                   reliable and uniform lighting for enhanced clarity.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - High-Resolution Imaging: Sharp and detailed images for
+                  ★ High-Resolution Imaging: Sharp and detailed images for
                   accurate analysis and diagnosis.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Ease of Use: User-friendly controls and ergonomic design for
+                  ★ Ease of Use: User-friendly controls and ergonomic design for
                   extended operation.
                 </p>
               </li>
@@ -4895,28 +4895,28 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Enhanced Diagnostic Capabilities: Detailed images improve
+                  ★ Enhanced Diagnostic Capabilities: Detailed images improve
                   diagnostic accuracy for better patient outcomes.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Versatility: Suitable for a wide range of applications, from
+                  ★ Versatility: Suitable for a wide range of applications, from
                   diagnostics to research.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Cost-Efficient: Energy-efficient LED lighting reduces
+                  ★ Cost-Efficient: Energy-efficient LED lighting reduces
                   operational costs.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Durability: Designed for long-term use in busy lab
+                  ★ Durability: Designed for long-term use in busy lab
                   environments, ensuring reliability.
                 </p>
               </li>
@@ -4930,28 +4930,28 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Minimal Maintenance: Requires only regular cleaning of
+                  ★ Minimal Maintenance: Requires only regular cleaning of
                   optics and occasional calibration.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Long-Lasting LED: The LED light source offers long
+                  ★ Long-Lasting LED: The LED light source offers long
                   operational life, reducing replacement needs.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - User Support: Comprehensive technical support for
+                  ★ User Support: Comprehensive technical support for
                   troubleshooting and maintenance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Durable Build: Designed for regular use in demanding
+                  ★ Durable Build: Designed for regular use in demanding
                   laboratory environments.
                 </p>
               </li>
@@ -5001,7 +5001,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -5012,7 +5012,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -5022,7 +5022,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -5051,7 +5051,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Automated pattern recognition ensures accurate
+                  ★ Automated pattern recognition ensures accurate
                   identification of immunofluorescence patterns, reducing
                   errors.
                 </p>
@@ -5059,7 +5059,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - High throughput capability processes up to 500 analysis
+                  ★ High throughput capability processes up to 500 analysis
                   positions in minimal time.
                 </p>
               </li>
@@ -5073,14 +5073,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Provides consistent and objective results by minimizing
+                  ★ Provides consistent and objective results by minimizing
                   subjective variability.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Seamlessly integrates with laboratory software, streamlining
+                  ★ Seamlessly integrates with laboratory software, streamlining
                   workflows.
                 </p>
               </li>
@@ -5094,20 +5094,20 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Regularly clean optical components to maintain image
+                  ★ Regularly clean optical components to maintain image
                   clarity.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Update software for improved performance and compatibility.
+                  ★ Update software for improved performance and compatibility.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Schedule routine servicing to ensure long-term reliability.
+                  ★ Schedule routine servicing to ensure long-term reliability.
                 </p>
               </li>
             </ul>
@@ -5136,7 +5136,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -5154,7 +5154,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -5169,7 +5169,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -5213,7 +5213,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Automated Workflow: Reduces manual labor and improves
+                  ★ Automated Workflow: Reduces manual labor and improves
                   consistency, leading to more accurate and reproducible results
                   across all tests.
                 </p>
@@ -5221,7 +5221,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Versatile Application: Supports a wide range of assays,
+                  ★ Versatile Application: Supports a wide range of assays,
                   including autoimmune and liver profile diagnostics, making it
                   adaptable to various testing needs.
                 </p>
@@ -5229,7 +5229,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Compact Design: The Fluoromat 50's small footprint allows it
+                  ★ Compact Design: The Fluoromat 50's small footprint allows it
                   to fit easily into labs with limited space while still
                   providing full functionality.
                 </p>
@@ -5237,7 +5237,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - High Sensitivity: Fluorescence-based detection ensures high
+                  ★ High Sensitivity: Fluorescence-based detection ensures high
                   sensitivity, allowing for the detection of even low-abundance
                   proteins.
                 </p>
@@ -5245,7 +5245,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Efficiency: Capable of processing multiple samples
+                  ★ Efficiency: Capable of processing multiple samples
                   simultaneously, reducing turnaround times and increasing lab
                   throughput.
                 </p>
@@ -5260,7 +5260,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Enhanced Productivity: Automation frees up lab technicians
+                  ★ Enhanced Productivity: Automation frees up lab technicians
                   to focus on other tasks while the Fluoromat 50 handles the
                   western blot process, boosting overall lab efficiency.
                 </p>
@@ -5268,7 +5268,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Accurate and Reproducible Results: The system's automation
+                  ★ Accurate and Reproducible Results: The system's automation
                   ensures that every step is performed consistently, providing
                   high-quality results every time.
                 </p>
@@ -5276,7 +5276,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Cost-Effective Operation: Reducing manual labor and repeat
+                  ★ Cost-Effective Operation: Reducing manual labor and repeat
                   tests lowers operational costs, making the Fluoromat 50 a
                   cost-effective solution for laboratories.
                 </p>
@@ -5284,7 +5284,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - User-Friendly Design: The intuitive interface and
+                  ★ User-Friendly Design: The intuitive interface and
                   easy-to-use controls minimize the learning curve, allowing lab
                   staff to operate the system with ease.
                 </p>
@@ -5292,7 +5292,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Multi-Test Capability: Whether handling ANA test profiles,
+                  ★ Multi-Test Capability: Whether handling ANA test profiles,
                   liver profiles, or other immunoassays, the Fluoromat 50 is
                   versatile enough to meet the needs of diverse diagnostic
                   applications.
@@ -5308,14 +5308,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Routine Calibration: Regular calibration ensures that the
+                  ★ Routine Calibration: Regular calibration ensures that the
                   Fluoromat 50 maintains its accuracy and precision over time.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Automated Maintenance Alerts: The system provides automated
+                  ★ Automated Maintenance Alerts: The system provides automated
                   notifications for scheduled maintenance, ensuring consistent
                   performance without disrupting operations.
                 </p>
@@ -5323,7 +5323,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Easy Access for Servicing: Designed for easy access to
+                  ★ Easy Access for Servicing: Designed for easy access to
                   internal components, the Fluoromat 50 simplifies routine
                   maintenance and servicing.
                 </p>
@@ -5331,7 +5331,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Durable Construction: Built to last, the Fluoromat 50
+                  ★ Durable Construction: Built to last, the Fluoromat 50
                   provides long-term reliability with minimal downtime, ensuring
                   continuous operation in busy labs.
                 </p>
@@ -5339,7 +5339,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Comprehensive Support: Supported by CPC Diagnostics' expert
+                  ★ Comprehensive Support: Supported by CPC Diagnostics' expert
                   technical team, ensuring your system operates at peak
                   performance throughout its lifespan.
                 </p>
@@ -5423,35 +5423,35 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Fully Automated Process: Automates all stages of the ELISA
+                  ★ Fully Automated Process: Automates all stages of the ELISA
                   process, from sample preparation to result generation.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - High Precision: Ensures accurate and reproducible results
+                  ★ High Precision: Ensures accurate and reproducible results
                   through precise optical measurement.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Compact and Efficient Design: Occupies minimal laboratory
+                  ★ Compact and Efficient Design: Occupies minimal laboratory
                   space while delivering high performance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Versatile Application: Compatible with various ELISA kits
+                  ★ Versatile Application: Compatible with various ELISA kits
                   and customizable for different test protocols.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - User-Friendly Software: Easy to operate, with intuitive
+                  ★ User-Friendly Software: Easy to operate, with intuitive
                   controls and programming flexibility.
                 </p>
               </li>
@@ -5465,35 +5465,35 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Enhanced Reliability: Automated processes reduce the chances
+                  ★ Enhanced Reliability: Automated processes reduce the chances
                   of human error, ensuring more reliable results.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Time-Saving: Speeds up the ELISA process, allowing lab
+                  ★ Time-Saving: Speeds up the ELISA process, allowing lab
                   personnel to focus on data interpretation and other tasks.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Space-Saving: The compact design is ideal for laboratories
+                  ★ Space-Saving: The compact design is ideal for laboratories
                   where space is at a premium.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Cost-Effective: Lowers overall costs by reducing the need
+                  ★ Cost-Effective: Lowers overall costs by reducing the need
                   for manual labor and additional instruments.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Increased Lab Efficiency: Streamlines operations, making the
+                  ★ Increased Lab Efficiency: Streamlines operations, making the
                   lab more efficient in handling ELISA tests.
                 </p>
               </li>
@@ -5507,35 +5507,35 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Routine Calibration: Regular calibration is essential for
+                  ★ Routine Calibration: Regular calibration is essential for
                   maintaining accuracy and performance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Self-Cleaning Functions: Designed with self-cleaning
+                  ★ Self-Cleaning Functions: Designed with self-cleaning
                   routines to minimize regular maintenance efforts.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Software Updates: Regular software updates ensure continuous
+                  ★ Software Updates: Regular software updates ensure continuous
                   optimal performance and access to new features.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - User Support: Comprehensive support and manuals are
+                  ★ User Support: Comprehensive support and manuals are
                   available for troubleshooting and maintenance queries.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Easy Access to Components: Designed for quick component
+                  ★ Easy Access to Components: Designed for quick component
                   access to simplify repairs and replacements.
                 </p>
               </li>
@@ -5564,7 +5564,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle:
                     </strong>{" "}
@@ -5583,7 +5583,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -5599,7 +5599,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -5641,14 +5641,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Scalable Automation: Handles large volumes of samples,
+                  ★ Scalable Automation: Handles large volumes of samples,
                   making it suitable for labs with growing testing demands.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Precision and Reliability: Delivers consistent, high-quality
+                  ★ Precision and Reliability: Delivers consistent, high-quality
                   results, reducing variability and ensuring confidence in
                   diagnostic outcomes.
                 </p>
@@ -5656,7 +5656,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Versatile Testing Capabilities: Dual functionality allows
+                  ★ Versatile Testing Capabilities: Dual functionality allows
                   the Sprinter XL to handle both IFA and ELISA assays, enhancing
                   flexibility.
                 </p>
@@ -5664,14 +5664,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Minimized Manual Intervention: Reduces human error,
+                  ★ Minimized Manual Intervention: Reduces human error,
                   improving overall lab efficiency.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Optimized Workflow: Compact, space-saving design integrates
+                  ★ Optimized Workflow: Compact, space-saving design integrates
                   easily into lab setups without compromising performance.
                 </p>
               </li>
@@ -5685,35 +5685,35 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Increased Productivity: High-throughput automation processes
+                  ★ Increased Productivity: High-throughput automation processes
                   more samples in less time, enhancing operational efficiency.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Improved Accuracy: Consistent results contribute to better
+                  ★ Improved Accuracy: Consistent results contribute to better
                   diagnostic accuracy and improved patient outcomes.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Cost-Effective Operation: Reduces labor costs and minimizes
+                  ★ Cost-Effective Operation: Reduces labor costs and minimizes
                   the need for repeat testing, leading to overall savings.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - User-Friendly Design: Simplified interface and controls
+                  ★ User-Friendly Design: Simplified interface and controls
                   allow quick operation with minimal training.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Multi-Purpose Application: Performs both IFA and ELISA tests
+                  ★ Multi-Purpose Application: Performs both IFA and ELISA tests
                   on a single platform, saving space and resources.
                 </p>
               </li>
@@ -5727,35 +5727,35 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Automated Maintenance Alerts: Provides notifications for
+                  ★ Automated Maintenance Alerts: Provides notifications for
                   routine maintenance to keep the system in optimal condition.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Easy Access for Servicing: Designed for quick and efficient
+                  ★ Easy Access for Servicing: Designed for quick and efficient
                   maintenance with easy access to internal components.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Low Maintenance Requirements: Durable construction minimizes
+                  ★ Low Maintenance Requirements: Durable construction minimizes
                   downtime and reduces the need for frequent repairs.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - User Manuals and Support: Detailed manuals and expert
+                  ★ User Manuals and Support: Detailed manuals and expert
                   support ensure proper maintenance procedures.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Long-Term Reliability: Built for consistent, long-term use
+                  ★ Long-Term Reliability: Built for consistent, long-term use
                   with minimal operational interruptions.
                 </p>
               </li>
@@ -5793,7 +5793,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
                         How it Works
@@ -5808,7 +5808,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -5818,7 +5818,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -5838,19 +5838,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - High precision with fluorescence-based detection
+                  ★ High precision with fluorescence-based detection
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Rapid turnaround time for results
+                  ★ Rapid turnaround time for results
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Compact and user-friendly design
+                  ★ Compact and user-friendly design
                 </p>
               </li>
             </ul>
@@ -5864,19 +5864,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Improves diagnostic efficiency and accuracy
+                  ★ Improves diagnostic efficiency and accuracy
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Enhances patient throughput with quick testing
+                  ★ Enhances patient throughput with quick testing
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Simplifies the diagnostic process for healthcare providers
+                  ★ Simplifies the diagnostic process for healthcare providers
                 </p>
               </li>
             </ul>
@@ -5890,28 +5890,28 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Regular Calibration: Perform periodic calibration to ensure
+                  ★ Regular Calibration: Perform periodic calibration to ensure
                   consistent accuracy.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Routine Cleaning: Clean the sample ports and internal
+                  ★ Routine Cleaning: Clean the sample ports and internal
                   components regularly.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Software Updates: Keep the software up-to-date to utilize
+                  ★ Software Updates: Keep the software up-to-date to utilize
                   the latest features and improvements.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Preventive Maintenance: Schedule regular maintenance checks
+                  ★ Preventive Maintenance: Schedule regular maintenance checks
                   with certified technicians to maintain optimal performance.
                 </p>
               </li>
@@ -5944,7 +5944,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
                         How it Works
@@ -5958,7 +5958,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -5968,7 +5968,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -5988,19 +5988,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - High precision with fluorescence-based detection
+                  ★ High precision with fluorescence-based detection
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Quick turnaround time for test results
+                  ★ Quick turnaround time for test results
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Easy-to-use interface
+                  ★ Easy-to-use interface
                 </p>
               </li>
             </ul>
@@ -6014,19 +6014,19 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Enhances diagnostic efficiency and accuracy
+                  ★ Enhances diagnostic efficiency and accuracy
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Increases patient throughput with rapid testing
+                  ★ Increases patient throughput with rapid testing
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Simplifies the testing process for healthcare providers
+                  ★ Simplifies the testing process for healthcare providers
                 </p>
               </li>
             </ul>
@@ -6040,28 +6040,28 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Regular Calibration: Perform periodic calibration to
+                  ★ Regular Calibration: Perform periodic calibration to
                   maintain accuracy.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Routine Cleaning: Clean the sample ports and internal
+                  ★ Routine Cleaning: Clean the sample ports and internal
                   components regularly.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Software Updates: Keep the software updated to access the
+                  ★ Software Updates: Keep the software updated to access the
                   latest features and improvements.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  - Preventive Maintenance: Schedule regular maintenance checks
+                  ★ Preventive Maintenance: Schedule regular maintenance checks
                   by certified technicians to ensure long-term reliability.
                 </p>
               </li>
@@ -6098,7 +6098,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -6107,7 +6107,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -6117,7 +6117,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -6142,25 +6142,25 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Programmable and automated maintenance routines
+                  ★ Programmable and automated maintenance routines
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Intuitive graphical user interface
+                  ★ Intuitive graphical user interface
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Enhanced data archiving
+                  ★ Enhanced data archiving
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Customizable import/export options simplify data exchange
+                  ★ Customizable import/export options simplify data exchange
                 </p>
               </li>
             </ul>
@@ -6173,27 +6173,27 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Multiplexing capability with 500 unique bead regions for
+                  ★ Multiplexing capability with 500 unique bead regions for
                   increased analyte detection
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Accelerated acquisition with dual sample fluidics paths and
+                  ★ Accelerated acquisition with dual sample fluidics paths and
                   increased syringe injection rate
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - High throughput testing with reduced turnaround time
+                  ★ High throughput testing with reduced turnaround time
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Compatible with classic LABScan™ 100 based assays and new
+                  ★ Compatible with classic LABScan™ 100 based assays and new
                   LABScan3D specific assays
                 </p>
               </li>
@@ -6226,7 +6226,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -6235,7 +6235,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -6245,7 +6245,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -6269,19 +6269,19 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Sample Probe Height Adjustment Kit
+                  ★ Sample Probe Height Adjustment Kit
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Automated Maintenance Plate
+                  ★ Automated Maintenance Plate
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Heater Block (96-well plate)
+                  ★ Heater Block (96-well plate)
                 </p>
               </li>
             </ul>
@@ -6294,13 +6294,13 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Flexible Multiplexing Technology
+                  ★ Flexible Multiplexing Technology
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Higher sample throughput with a 96-well plate read time of
+                  ★ Higher sample throughput with a 96-well plate read time of
                   only 45 minutes.
                 </p>
               </li>
@@ -6339,7 +6339,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works?
                     </strong>
@@ -6357,7 +6357,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful?
                     </strong>
@@ -6374,7 +6374,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -6418,7 +6418,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Increased Efficiency: Automates the sorting of large volumes
+                  ★ Increased Efficiency: Automates the sorting of large volumes
                   of samples, reducing manual intervention and speeding up
                   processing.
                 </p>
@@ -6426,7 +6426,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Error Minimization: Automation ensures accurate sorting,
+                  ★ Error Minimization: Automation ensures accurate sorting,
                   reducing the risk of human errors and ensuring that every
                   sample reaches its correct destination.
                 </p>
@@ -6434,7 +6434,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Customizable Solutions: The SORTPRO SAMPLE SORTER can be
+                  ★ Customizable Solutions: The SORTPRO SAMPLE SORTER can be
                   tailored to meet the specific workflow requirements of your
                   lab, ensuring flexibility and scalability as your lab grows.
                 </p>
@@ -6442,7 +6442,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Compact Design: The space-saving design fits easily into
+                  ★ Compact Design: The space-saving design fits easily into
                   laboratories with limited space, allowing you to optimize your
                   workspace without sacrificing functionality.
                 </p>
@@ -6450,7 +6450,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - User-Friendly Operation: Intuitive controls and a simple
+                  ★ User-Friendly Operation: Intuitive controls and a simple
                   interface make it easy to operate, reducing the need for
                   extensive training.
                 </p>
@@ -6465,7 +6465,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Enhanced Productivity: By automating the sorting process,
+                  ★ Enhanced Productivity: By automating the sorting process,
                   the SORTPRO SAMPLE SORTER allows lab technicians to focus on
                   more complex tasks, boosting overall lab productivity.
                 </p>
@@ -6473,7 +6473,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Consistent and Reliable Results: Automation ensures that
+                  ★ Consistent and Reliable Results: Automation ensures that
                   every sample is sorted correctly, providing reliability and
                   consistency in laboratory operations.
                 </p>
@@ -6481,7 +6481,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Reduced Labor Costs: Automation lowers the need for manual
+                  ★ Reduced Labor Costs: Automation lowers the need for manual
                   sorting, reducing labor costs and allowing staff to focus on
                   higher-value tasks.
                 </p>
@@ -6489,7 +6489,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Scalability: As your lab grows, the SORTPRO SAMPLE SORTER
+                  ★ Scalability: As your lab grows, the SORTPRO SAMPLE SORTER
                   can scale to meet increasing demands, ensuring continued
                   efficiency and productivity.
                 </p>
@@ -6497,7 +6497,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Low Maintenance: The system is designed for long-term
+                  ★ Low Maintenance: The system is designed for long-term
                   reliability with minimal maintenance, reducing downtime and
                   ensuring consistent performance.
                 </p>
@@ -6512,14 +6512,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Routine Calibration: Regular calibration is essential to
+                  ★ Routine Calibration: Regular calibration is essential to
                   maintain accuracy and efficiency over time.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Automated Maintenance Alerts: The system provides
+                  ★ Automated Maintenance Alerts: The system provides
                   notifications for scheduled maintenance, ensuring that it
                   remains in optimal working condition.
                 </p>
@@ -6527,7 +6527,7 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Easy Access for Servicing: The SORTPRO SAMPLE SORTER is
+                  ★ Easy Access for Servicing: The SORTPRO SAMPLE SORTER is
                   designed for easy access to internal components, simplifying
                   routine maintenance and repairs.
                 </p>
@@ -6535,14 +6535,14 @@ const products = [
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Durable Construction: Built for long-term use, ensuring
+                  ★ Durable Construction: Built for long-term use, ensuring
                   minimal downtime and consistent performance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  - Comprehensive Support: Supported by CPC Diagnostics’
+                  ★ Comprehensive Support: Supported by CPC Diagnostics’
                   technical team, ensuring optimal performance and long-lasting
                   reliability.
                 </p>
