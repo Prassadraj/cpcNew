@@ -66,7 +66,7 @@ function Section3() {
           </div>
           <div className=" ">
             <p
-              className="max-w-2xl leading-6 text-justify text-sm tablet:tracking-wider capitalize
+              className="laptop:max-w-2xl max-w-sm leading-6 text-justify text-sm tablet:tracking-wider capitalize
             largeLaptop:text-xl"
             >
               At Everlife CPC Diagnostics, we lead the healthcare industry with
@@ -90,14 +90,17 @@ function Section3() {
             className="text-custom-green mt-4 underline"
           ></button>
         </div>
-        <div className="relative justify-center items-center hidden tablet:flex">
-          <div className="relative bottom-0 w-[80vw] tablet:w-[30vw] h-[50vh] largeLaptop:h-[40vh] rounded-2xl z-10 ">
-            <img src={whoWeAre} alt="Who We Are" className="rounded-lg" />
-          </div>
+
+        <div className="tablet:h-[300px] tablet:w-[300px] laptop:w-[400px]  largeLaptop:h-[400px] rounded-2xl ">
+          <img
+            src={whoWeAre}
+            alt="Who We Are"
+            className="rounded-lg h-full w-full object-contain"
+          />
         </div>
       </div>
       <div
-        className="flex items-center tablet:flex-row-reverse justify-around w-full tablet:h-[500px]
+        className="flex flex-row-reverse items-center justify-around w-full tablet:h-[500px]
       largeLaptop:h-[600px] container1 "
       >
         <div className="">
@@ -108,8 +111,8 @@ function Section3() {
           </div>
           <div className=" ">
             <p
-              className="max-w-2xl leading-6 text-justify text-sm tablet:tracking-wider capitalize
-              largeLaptop:text-xl"
+              className="laptop:max-w-2xl max-w-sm leading-6 text-justify text-sm tablet:tracking-wider capitalize
+            largeLaptop:text-xl"
             >
               We manufacture and supply advanced laboratory instruments and
               medical devices in India, Sri Lanka and Bangladesh. Our offerings
@@ -132,10 +135,13 @@ function Section3() {
             className="text-custom-green mt-4 underline"
           ></button>
         </div>
-        <div className="relative justify-center items-center hidden tablet:flex">
-          <div className="relative bottom-0 w-[80vw] tablet:w-[30vw] h-[50vh] largeLaptop:h-[40vh] rounded-2xl z-10 ">
-            <img src={whatWeDo} alt="Who We Are" className="rounded-lg" />
-          </div>
+
+        <div className="tablet:h-[300px] tablet:w-[300px] laptop:w-[400px]  largeLaptop:h-[400px] rounded-2xl ">
+          <img
+            src={whatWeDo}
+            alt="Who We Are"
+            className="rounded-lg h-full w-full object-contain"
+          />
         </div>
       </div>
 

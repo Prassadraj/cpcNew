@@ -102,7 +102,7 @@ function ProductCategaries() {
 
           {/* Right Section */}
           <div
-            className="flex-1 flex relative text-2xl w-full h-screen largeLaptop:h-[60vh] largeLaptop:overflow-hidden
+            className="flex-1 flex relative text-2xl w-full tablet:h-[500px] laptop:h-screen largeLaptop:h-[60vh] largeLaptop:overflow-hidden tablet:overflow-hidden
           "
           >
             <div className="w-[15vw] h-screen flex justify-center overflow-hidden">
