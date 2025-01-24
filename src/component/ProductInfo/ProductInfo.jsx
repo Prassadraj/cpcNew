@@ -321,7 +321,7 @@ function ProductInfo() {
                     />
                   ))}
                 </div>
-                <div className="hidden laptop:w-[60%] w-full tablet:w-[70%] h-[300px]  tablet:flex justify-center">
+                <div className="hidden laptop:w-[60%] w-full tablet:w-[70%] laptop:h-[300px]  tablet:flex justify-center">
                   <img
                     src={imgUrl}
                     alt="Descriptive text"
