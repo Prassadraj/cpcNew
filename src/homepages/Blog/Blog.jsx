@@ -63,7 +63,7 @@ function Blog() {
         {data.map((datas, index) => (
           <div
             key={index}
-            className="h-auto p-3  border-1 border-custom-green w-full rounded-lg tablet:h-auto blogBox "
+            className="h-auto p-3  border-1 border-custom-green w-full rounded-lg tablet:h-auto  "
           >
             <div className="tablet:h-28 largeLaptop:h-36">
               <p className="text-lg largeLaptop:text-xl font-semibold">
