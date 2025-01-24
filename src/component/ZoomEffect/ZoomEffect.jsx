@@ -27,24 +27,26 @@ function ZoomEffect() {
         {/* Header Section */}
         <div className="flex justify-center items-center flex-col gap-3  tablet:mt-5 font-poppins">
           <img
-            className="w-[220px] object-cover"
+            className="w-[220px] largeLaptop:w-[250px] object-cover"
             src={itrack}
             alt="iTrack Logo"
           />
-          <p className="tablet:text-xl text-center">
+          <p className="tablet:text-xl text-center largeLaptop:text-2xl">
             CPC developed i-track, a proprietary system for remote instrument
             maintenance, in a groundbreaking initiative.
           </p>
           <p className="tablet:text-xl text-center laptop:mb-10">
             For Support Dial:{" "}
-            <span className="text-custom-green">1800 571 1101</span>
+            <span className="text-custom-green largeLaptop:text-2xl">
+              1800 571 1101
+            </span>
           </p>
         </div>
 
         {/* Images and Content Section */}
         <div
           id="container"
-          className="tablet:h-[100vh] flex flex-col gap-3 tablet:mt-5"
+          className="tablet:h-fit largeLaptop:h-fit flex flex-col gap-3 tablet:mt-5"
         >
           {/* First Row */}
           <div className="flex justify-evenly">

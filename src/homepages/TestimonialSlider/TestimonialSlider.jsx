@@ -55,7 +55,7 @@ function TestimonialSlider() {
         </p>
       </div>
 
-      <div className="relative overflow-hidden tablet:mx-10">
+      <div className="relative overflow-hidden tablet:mx-10 largeLaptop:mx-14">
         <div
           ref={sliderRef}
           className={`flex flex-col tablet:flex-row transition-transform duration-500 gap-4 px-2 mt-2 ease-in-out`}

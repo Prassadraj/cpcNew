@@ -77,10 +77,7 @@ function Section1() {
             Medical Laboratory Equipment Supplier in India at the Best Price
           </motion.p>
           <div className="description">
-            <p
-              className="subTitle text-sm tablet:text-xl w-full tablet:w-[40vw] text-start largeLaptop:text-[30px]"
-         
-            >
+            <p className="subTitle  text-sm tablet:text-xl w-full tablet:w-[40vw] text-start largeLaptop:text-[70px]">
               Everlife CPC Diagnostics is your trusted partner for high-quality
               In-vitro diagnostic Medical Laboratory Equipment Suppliers in
               India.
@@ -95,7 +92,7 @@ function Section1() {
               to={`/product/${selectedCategory}/${selecteSectionCategory}`}
             >
               <button
-                className="btn1 w-auto h-auto px-4 py-2 text-sm laptop:text-lg whitespace-nowrap"
+                className="btn1 w-auto h-auto px-4 py-2 text-sm laptop:text-lg largeLaptop:text-2xl whitespace-nowrap"
                 style={{ background: "#00A786", color: "white" }}
               >
                 Explore product
@@ -103,7 +100,7 @@ function Section1() {
             </Link>
             <Link to="/contact">
               <button
-                className="btn1 w-auto h-auto px-4 py-2 text-sm whitespace-nowrap text-[#00A786] hover:bg-[#00a986] hover:text-white laptop:text-lg"
+                className="btn1 w-auto h-auto px-4 py-2 text-sm whitespace-nowrap text-[#00A786] hover:bg-[#00a986] hover:text-white laptop:text-lg largeLaptop:text-2xl"
                 style={{
                   border: "2px solid #00A786",
                 }}
@@ -114,9 +111,7 @@ function Section1() {
           </div>
         </div>
         <div className="flex-1 tablet:w-1/2 w-full ">
-         
-            <Slider />
-         
+          <Slider />
         </div>
       </div>
     </>

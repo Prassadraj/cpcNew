@@ -44,18 +44,18 @@ function Blog() {
     },
   ];
   return (
-    <div className=" bg-white px-2 mb-2 tablet:mb-10 laptop:mt-[8rem] ">
+    <div className=" bg-white px-2 mb-2 tablet:mb-10 laptop:mt-[8rem] largeLaptop:mt-0 ">
       <div className=" flex justify-between  tablet:px-10">
-        <p className="text-left laptop:mb-2 text-custom-green tablet:text-3xl text-lg font-poppins font-bold uppercase">
+        <p className="text-left laptop:mb-2 largeLaptop:mb-6 largeLaptop:text-4xl text-custom-green tablet:text-3xl text-lg font-poppins font-bold uppercase">
           Blog Snippets
         </p>
         <Link to="/blog">
-          <p className="  bg-custom-green w-fit tablet:px-4 tablet:py-3  tablet:w-[10vw] h-fit text-center text-white rounded-lg text-xs tablet:text-md tablet:font-semibold font-poppins p-2">
+          <p className="  bg-custom-green w-fit tablet:px-4 tablet:py-3  tablet:w-[10vw] h-fit text-center text-white largeLaptop:text-xl rounded-lg text-xs tablet:text-md tablet:font-semibold font-poppins p-2">
             View All
           </p>
         </Link>
       </div>
-      <p className="w-[300px] tablet:w-fit tablet:text-lg font-poppins mt-2 tablet:px-10 tablet:mb-5 laptop:mb-10">
+      <p className="w-[300px] tablet:w-fit tablet:text-lg largeLaptop:text-2xl font-poppins mt-2 tablet:px-10 tablet:mb-5 laptop:mb-10">
         We use only the best quality materials on the market in order to provide
         the best products to our patients.
       </p>
@@ -65,11 +65,15 @@ function Blog() {
             key={index}
             className="h-auto p-3  border-1 border-custom-green w-full rounded-lg tablet:h-auto blogBox "
           >
-            <div className="tablet:h-28">
-              <p className="text-lg font-semibold">{datas.title}</p>
-              <p className="text-xs font-medium mb-2">{datas.date}</p>
+            <div className="tablet:h-28 largeLaptop:h-36">
+              <p className="text-lg largeLaptop:text-xl font-semibold">
+                {datas.title}
+              </p>
+              <p className="text-xs largeLaptop:text-xl font-medium mb-2">
+                {datas.date}
+              </p>
             </div>
-            <p className="text-base">{datas.desc}</p>
+            <p className="text-base largeLaptop:text-xl">{datas.desc}</p>
           </div>
         ))}
       </div>

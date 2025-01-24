@@ -5,7 +5,7 @@ import whatWeDo from "../../images/section2&3/whatwedo.png";
 import whoWeAre from "../../images/section2&3/whoweare.png";
 import Aos from "aos";
 import { Link } from "react-router-dom";
-import './section3.css'
+import "./section3.css";
 
 function Section3() {
   gsap.registerPlugin(ScrollTrigger);
@@ -54,19 +54,21 @@ function Section3() {
   return (
     <div className="font-poppins">
       {/* Section 3 */}
-      <div className="flex items-center justify-evenly w-full tablet:h-[500px]
-      largeLaptop:h-[600px] container1 ">
-      <div className="">
+      <div
+        className="flex items-center justify-around w-full tablet:h-[500px]
+      largeLaptop:h-[600px] container1 "
+      >
+        <div className="">
           <div className=" mb-3">
             <p className="font-semibold tablet:hidden text-custom-green">
               Who We Are?
             </p>
           </div>
-          <div
-            className=" "
-            
-          >
-            <p className="max-w-2xl leading-6 text-justify text-sm tablet:tracking-wider capitalize">
+          <div className=" ">
+            <p
+              className="max-w-2xl leading-6 text-justify text-sm tablet:tracking-wider capitalize
+            largeLaptop:text-xl"
+            >
               At Everlife CPC Diagnostics, we lead the healthcare industry with
               our advanced medical laboratory equipment and in-vitro diagnostics
               (IVD) solutions. Headquartered in Chennai, our reach spans across
@@ -78,7 +80,9 @@ function Section3() {
               the extraordinary.
             </p>
             <Link to="/about">
-              <p className="text-custom-green text-sm">read more...</p>
+              <p className="text-custom-green text-sm largeLaptop:text-lg">
+                read more...
+              </p>
             </Link>
           </div>
           <button
@@ -92,20 +96,22 @@ function Section3() {
           </div>
         </div>
       </div>
-      <div className="flex items-center tablet:flex-row-reverse justify-evenly w-full tablet:h-[500px]
-      largeLaptop:h-[600px] container1 ">
-      <div className="">
+      <div
+        className="flex items-center tablet:flex-row-reverse justify-around w-full tablet:h-[500px]
+      largeLaptop:h-[600px] container1 "
+      >
+        <div className="">
           <div className=" mb-3">
             <p className="font-semibold tablet:hidden text-custom-green">
-            What We Do?
+              What We Do?
             </p>
           </div>
-          <div
-            className=" "
-            
-          >
-            <p className="max-w-2xl leading-6 text-justify text-sm tablet:tracking-wider capitalize">
-            We manufacture and supply advanced laboratory instruments and
+          <div className=" ">
+            <p
+              className="max-w-2xl leading-6 text-justify text-sm tablet:tracking-wider capitalize
+              largeLaptop:text-xl"
+            >
+              We manufacture and supply advanced laboratory instruments and
               medical devices in India, Sri Lanka and Bangladesh. Our offerings
               range from pre-analytical automation for precise sample management
               to high-performance hematology and immunology analyzers. We
@@ -116,7 +122,9 @@ function Section3() {
               breakthroughs.
             </p>
             <Link to="/about">
-              <p className="text-custom-green text-sm">read more...</p>
+              <p className="text-custom-green text-sm largeLaptop:text-lg">
+                read more...
+              </p>
             </Link>
           </div>
           <button
@@ -131,9 +139,7 @@ function Section3() {
         </div>
       </div>
 
-
       {/* Section 4 */}
-
     </div>
   );
 }

@@ -69,35 +69,42 @@ function ProductCategaries() {
         </div>
       </div>
       {/* lap */}
-      <div className="hidden h-[100vh] largeLaptop:h-[60vh] tablet:flex justify-center items-center 
+      <div
+        className="hidden h-[100vh] largeLaptop:h-[60vh] tablet:flex justify-center items-center 
       tablet:mb-[10rem]
       largeLaptop:mb-[10rem]
-      ">
+      "
+      >
         <div className="flex w-full">
           {/* Left Section */}
           <div className="flex flex-col flex-[1.5] gap-3 pl-24 pt-12 mt-32">
             <div className="text-white" style={{ lineHeight: "3px" }}>
-              <p className="text-custom-green text-6xl max-w-lg text-start font-poppins font-semibold">
+              <p className="text-custom-green largeLaptop:text-[6rem] text-6xl max-w-lg text-start font-poppins font-semibold">
                 Product
               </p>
-              <p className="text-6xl max-w-lg text-start font-poppins font-semibold text-custom-green">
+              <p className="text-6xl largeLaptop:text-[6rem] max-w-lg text-start font-poppins font-semibold text-custom-green">
                 Categories
               </p>
             </div>
-            <p className="text-xl mt-4 max-w-lg text-start font-poppins text-gray-700">
+            <p
+              className="text-xl mt-4 largeLaptop:mt-6 max-w-lg text-start font-poppins text-gray-700
+            largeLaptop:text-3xl"
+            >
               Explore our diverse range of laboratory equipment for all your
               medical and diagnostic needs.
             </p>
             <Link to="/product">
-              <button className=" mt-3text-left text-gray-700 text-xl bg-gray-white font-poppins w-fit pl-3 pr-3 pt-2 pb-2 rounded-md font-medium hover:scale-90 transition-all shadow-md shadow-custom-green border">
+              <button className=" mt-3 text-left text-gray-700 text-xl bg-gray-white font-poppins w-fit pl-3 pr-3 pt-2 pb-2 rounded-md font-medium hover:scale-90 transition-all shadow-md shadow-custom-green border largeLaptop:text-3xl largeLaptop:mt-6">
                 Explore Products
               </button>
             </Link>
           </div>
 
           {/* Right Section */}
-          <div className="flex-1 flex relative text-2xl w-full h-screen largeLaptop:h-[60vh] largeLaptop:overflow-hidden
-          ">
+          <div
+            className="flex-1 flex relative text-2xl w-full h-screen largeLaptop:h-[60vh] largeLaptop:overflow-hidden
+          "
+          >
             <div className="w-[15vw] h-screen flex justify-center overflow-hidden">
               <div className="flex items-center">
                 <Marquee

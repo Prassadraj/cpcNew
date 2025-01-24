@@ -100,33 +100,38 @@ const HorizontalScrollCarousel = ({ cards }) => {
 const Card = ({ card }) => {
   return (
     <div
-      className={`laptop:mt-10 largeLaptop:mt-0 font-poppins relative largeLaptop:h-[450px] h-[250px] w-[150px] tablet:h-[400px] tablet:w-[350px] overflow-hidden  rounded-2xl border-1 border-custom-green 
+      className={`laptop:mt-10 largeLaptop:mt-0 font-poppins relative largeLaptop:h-[500px] h-[250px] w-[150px] tablet:h-[400px] tablet:w-[350px] largeLaptop:w-[450px] overflow-hidden  rounded-2xl border-1 border-custom-green 
      
       `}
     >
-      <div className="flex justify-center items-center w-full tablet:mt-8 h-32">
+      <div
+        className="flex justify-center items-center w-full tablet:mt-8 h-32 largeLaptop:h-40
+      largeLaptop:mt-14"
+      >
         <img
           loading="lazy"
-          className={`tablet:w-[200px] w-[100px] ${
+          className={`tablet:w-[200px] largeLaptop:w-[300px] w-[100px]  ${
             card.title == "I chroma™ III" ? "scale-75" : ""
           }  ${card.title == "Dynacount 3D Plus" ? "scale-75" : ""}`}
           src={card.url}
           alt=""
         />
       </div>
-      <div className="absolute tablet:top-52 tablet:left-10 tablet:right-10 p-0">
+      <div className="absolute tablet:top-52 largeLaptop:top-64 tablet:left-10 tablet:right-10 p-0">
         <div className="flex justify-center tablet:justify-start">
-          <p className="tablet:text-xl font-poppins font-bold mb-2">{card.title}</p>
+          <p className="tablet:text-xl largeLaptop:text-2xl font-poppins font-bold mb-2">
+            {card.title}
+          </p>
         </div>
-        <p className="text-xs tablet:text-base line-clamp-3 px-1">
+        <p className="text-xs largeLaptop:text-xl tablet:text-base line-clamp-3 px-1">
           {card.content}
         </p>
       </div>
-      <div className="absolute laptop:bottom-4 tablet:bottom-6 w-full">
+      <div className="absolute laptop:bottom-4 largeLaptop:bottom-8 tablet:bottom-6 w-full">
         <div className="flex justify-center items-center">
           <Magnetic>
             <button
-              className="text-xs laptop:text-base w-fit tablet:w-72 border-1
+              className="text-xs laptop:text-base largeLaptop:text-xl w-fit tablet:w-72 border-1
              p-0.5 tablet:px-3 tablet:py-2 rounded-lg text-custom-green border-custom-green"
             >
               <Link to={`/productinfo/${card.category}/${card.id}`}>
@@ -146,7 +151,7 @@ const AllProductsCard = () => {
       <div className="absolute inset-0 z-0"></div>
       <div className="absolute inset-0 z-10 flex items-center justify-center">
         <Magnetic>
-          <div className="mr-10 text-xs tablet:text-xl font-black text-custom-green p-2 rounded-xl cursor-pointer">
+          <div className="mr-10 text-xs largeLaptop:text-2xl text-nowrap tablet:text-xl font-black text-custom-green p-2 rounded-xl cursor-pointer">
             <Link to="/product">
               <span className="hidden tablet:block">All Products</span>
               <span>

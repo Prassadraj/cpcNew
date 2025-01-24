@@ -9,7 +9,7 @@ import image1 from "../../images/organisation/jeev.jpg";
 import image2 from "../../images/organisation/sachika.jpg";
 import image3 from "../../images/organisation/cpcmed.jpg";
 import Heading from "./Heading";
-
+import "./new.css";
 // Register ScrollTrigger with GSAP
 gsap.registerPlugin(ScrollTrigger);
 
@@ -83,8 +83,10 @@ function New() {
   return (
     <>
       <Heading />
-      <div className="h-[300vh]  tablet:flex justify-evenly tablet:gap-5 tablet:px-10 hidden laptop:mb-[6rem]
-      largeLaptop:mb-[0rem]">
+      <div
+        className="container1 h-[300vh]  tablet:flex justify-around tablet:gap-5 largeLaptop:gap-0 hidden laptop:mb-[6rem]
+      largeLaptop:mb-[0rem]"
+      >
         <div className="flex flex-col gap-5 items-center justify-center w-1/2 laptop:pt-14 tablet:pt-10 largeLaptop:pt-44 ">
           <div className="tablet:h-full">
             <img
@@ -108,10 +110,17 @@ function New() {
             />
           </div>
         </div>
-        <div className="sticky flex h-screen tablet:top-5 laptop:top-5  flex-col laptop:gap-6 tablet:gap-2 text-xs tablet:text-sm laptop:text-sm w-1/2 font-poppins items-center justify-center text-center laptop:px-20">
+        <div
+          className="sticky flex h-screen tablet:top-5 laptop:top-5  flex-col laptop:gap-6 tablet:gap-2 
+       largeLaptop:gap-10 text-xs tablet:text-sm laptop:text-sm w-1/2 font-poppins items-center justify-center text-center laptop:px-20"
+        >
           <div className="tablet:px-5 largeLaptop:px-2">
-            <p className="ctn1 text-left largeLaptop:text-2xl">
-              <img src={organisation1} alt="" className="w-14 logo1" />
+            <p className="ctn1 text-left largeLaptop:text-2xl font-light">
+              <img
+                src={organisation1}
+                alt=""
+                className="w-14 logo1 largeLaptop:w-20"
+              />
               Jeev Diagnostics, a wholly owned subsidiary of Everlife CPC
               Diagnostics Pvt. Ltd., Chennai, India, manufactures high-quality
               state-of-the-art in vitro clinical chemistry reagents to cater to
@@ -119,16 +128,24 @@ function New() {
             </p>
           </div>
           <div className="tablet:px-5 largeLaptop:px-2">
-            <p className="ctn2 text-left largeLaptop:text-2xl">
-              <img src={organisation2} alt="" className="w-14 logo2" />
+            <p className="ctn2 text-left largeLaptop:text-2xl font-light">
+              <img
+                src={organisation2}
+                alt=""
+                className="w-14 logo2 largeLaptop:w-20"
+              />
               Sachika, an initiative by Everlife CPC Diagnostics Pvt. Ltd.,
               focuses on life sciences education, empowering clinicians with
               contemporary bioscience skills.
             </p>
           </div>
           <div className="tablet:px-5 largeLaptop:text-2xl largeLaptop:px-2">
-            <p className="ctn3 text-left">
-              <img src={organisation3} alt="" className="w-14 logo3" />
+            <p className="ctn3 text-left largeLaptop:text-2xl font-light">
+              <img
+                src={organisation3}
+                alt=""
+                className="w-14 logo3 largeLaptop:w-20"
+              />
               Everlife CPC’s division for diagnostic instrument manufacturing
               aims at empowerment, reliability, and innovation in indigenous
               manufacturing practices.
