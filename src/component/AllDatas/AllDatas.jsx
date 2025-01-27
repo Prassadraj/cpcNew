@@ -20,17 +20,17 @@ import primGrey from "../AllDatas/greyImages/Turbochem Prime.webp";
 import prim1 from "../AllDatas/ProductImages/Biochemistry/PRIME/Turbochem Prime.webp";
 import prim2 from "../AllDatas/ProductImages/Biochemistry/PRIME/product2.webp";
 //
-import chemistryCollibratorGrey from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/product1.webp";
-import chemistryCollibrator from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/product1.webp";
+import chemistryCollibratorGrey from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/Chemistry Calibrator and Chemistry Controls.jpg";
+import chemistryCollibrator from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/Chemistry Calibrator and Chemistry Controls.webp";
 //
 import ichemPrimeGrey from "../AllDatas/greyImages/Turbochem Prime.webp";
 import ichemPrime from "../AllDatas/ProductImages/Biochemistry/ichemPrime/Ichem Prime.webp";
 //
-import identiImmunoGrey from "../AllDatas/ProductImages/Biochemistry/identiImmuno/product1.webp";
-import identiImmuno from "../AllDatas/ProductImages/Biochemistry/identiImmuno/product1.webp";
+import identiImmunoGrey from "../AllDatas/ProductImages/Biochemistry/identiImmuno/identi Immuno Turbidimetry Reagents.jpg";
+import identiImmuno from "../AllDatas/ProductImages/Biochemistry/identiImmuno/identi Immuno Turbidimetry Reagents.webp";
 //
-import identiReagentsGrey from "../AllDatas/ProductImages/Biochemistry/identiReagents/product1.webp";
-import identiReagents from "../AllDatas/ProductImages/Biochemistry/identiReagents/product1.webp";
+import identiReagentsGrey from "../AllDatas/ProductImages/Biochemistry/identiReagents/identi.jpg";
+import identiReagents from "../AllDatas/ProductImages/Biochemistry/identiReagents/identi.webp";
 //
 
 import ichemMagnaGrey from "../AllDatas/greyImages/Ichem Magna.webp";
@@ -82,7 +82,7 @@ import SedratePro3 from "../AllDatas/ProductImages/Hematology/SedratePro/product
 import EuroblotoneGrey from "../AllDatas/greyImages/Euroblotone.webp";
 import Euroblotone from "../AllDatas/ProductImages/Immunology/Euroblotone/product1.webp";
 //
-import EuroimmunGrey from "../AllDatas/ProductImages/Immunology/Euroimmun/product1.webp";
+import EuroimmunGrey from "../AllDatas/ProductImages/Immunology/Euroimmun/Euroimmun Analyzer I-2P.jpg";
 import Euroimmun from "../AllDatas/ProductImages/Immunology/Euroimmun/product1.webp";
 //
 import EuroStarGrey from "../AllDatas/greyImages/Eurostar III Plus.webp";
@@ -133,7 +133,7 @@ import fluoroMatGrey from "../AllDatas/greyImages/Fluoromat 50.webp";
 import fluoroMat from "../AllDatas/ProductImages/Immunology/fluoroMat/product1.webp";
 //
 // import sprinter from "../AllDatas/greyImages/";
-import sprinterGrey from "../AllDatas/ProductImages/Immunology/sprinter/product1.webp";
+import sprinterGrey from "../AllDatas/ProductImages/Immunology/sprinter/Sprinter XL.jpg";
 import sprinter from "../AllDatas/ProductImages/Immunology/sprinter/Sprinter XL.webp";
 //
 // Molecular Diagnostics
@@ -151,7 +151,7 @@ import ichromaIIIGrey from "../AllDatas/greyImages/Ichroma™ III.webp";
 import ichromaIII from "../AllDatas/ProductImages/Point of Care/ichroma™ III/product1.webp";
 
 // Pre-Analytical Automation
-import PreAnalyticalGrey from "../AllDatas/ProductImages/Pre-Analytical Automation/product1.webp";
+import PreAnalyticalGrey from "../AllDatas/ProductImages/Pre-Analytical Automation/Sortpro Sample Sorter.jpg";
 import PreAnalytical from "../AllDatas/ProductImages/Pre-Analytical Automation/product1.webp";
 
 const products = [

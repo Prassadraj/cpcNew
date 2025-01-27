@@ -28,7 +28,7 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
 
   return (
     <div
-      className={`sidebar tablet:w-[25vw] bg-white border rounded-md shadow-md p-1 tablet:py-2 tablet:px-4 tablet:sticky top-16 tablet:top-24 tablet:h-fit largeLaptop:top-32 h-[80vh] largeLaptop:h-[50vh] overflow-y-auto z-10 ${
+      className={`sidebar tablet:w-[25vw] bg-white border rounded-md shadow-md p-1 tablet:py-2 tablet:px-4 tablet:sticky top-16 tablet:top-24 tablet:h-fit largeLaptop:top-32 laptop:h-[80vh] h-[80vh] largeLaptop:h-[50vh] overflow-y-auto z-10 ${
         open
           ? "fixed top-16 inset-0 w-[80%] h-full overflow-y-auto z-20"
           : "hidden sm:block"
