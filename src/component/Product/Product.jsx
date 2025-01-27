@@ -144,7 +144,7 @@ function Product() {
               </button>
             </div>
           </header>
-          <section className=" productSection largeLaptop:text-2xl py-2 text-base text-gray-700 tablet:mb-14">
+          <section className=" productSection largeLaptop:text-2xl py-2 text-base text-gray-700 laptop:mb-14">
             <div className="mb-3">
               <p>
                 <Link to="/" className="no-underline">

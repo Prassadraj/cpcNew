@@ -1,7 +1,7 @@
 import image1 from "../../images/products/frame1.png";
 // Biochemistry
 import magnaGrey from "../AllDatas/greyImages/Turbochem Magna.webp";
-import magna1 from "../AllDatas/ProductImages/Biochemistry/MAGNA/product1.webp";
+import magna1 from "../AllDatas/ProductImages/Biochemistry/MAGNA/Turbochem Magna.webp";
 import magna2 from "../AllDatas/ProductImages/Biochemistry/MAGNA/product2.webp";
 import magna3 from "../AllDatas/ProductImages/Biochemistry/MAGNA/product3.webp";
 import magna4 from "../AllDatas/ProductImages/Biochemistry/MAGNA/product4.webp";
@@ -13,18 +13,18 @@ import neo3 from "../AllDatas/ProductImages/Biochemistry/NEO/product3.webp";
 import neo4 from "../AllDatas/ProductImages/Biochemistry/NEO/product4.webp";
 //
 import plusGrey from "../AllDatas/greyImages/Turbostat Plus.webp";
-import plus1 from "../AllDatas/ProductImages/Biochemistry/PLUS/product1.webp";
+import plus1 from "../AllDatas/ProductImages/Biochemistry/PLUS/Turbostat Plus.webp";
 import plus2 from "../AllDatas/ProductImages/Biochemistry/PLUS/product2.webp";
 //turbochemprime
 import primGrey from "../AllDatas/greyImages/Turbochem Prime.webp";
-import prim1 from "../AllDatas/ProductImages/Biochemistry/PRIME/product1.webp";
+import prim1 from "../AllDatas/ProductImages/Biochemistry/PRIME/Turbochem Prime.webp";
 import prim2 from "../AllDatas/ProductImages/Biochemistry/PRIME/product2.webp";
 //
 import chemistryCollibratorGrey from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/product1.webp";
 import chemistryCollibrator from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/product1.webp";
 //
 import ichemPrimeGrey from "../AllDatas/greyImages/Turbochem Prime.webp";
-import ichemPrime from "../AllDatas/ProductImages/Biochemistry/ichemPrime/product1.webp";
+import ichemPrime from "../AllDatas/ProductImages/Biochemistry/ichemPrime/Ichem Prime.webp";
 //
 import identiImmunoGrey from "../AllDatas/ProductImages/Biochemistry/identiImmuno/product1.webp";
 import identiImmuno from "../AllDatas/ProductImages/Biochemistry/identiImmuno/product1.webp";
@@ -34,7 +34,7 @@ import identiReagents from "../AllDatas/ProductImages/Biochemistry/identiReagent
 //
 
 import ichemMagnaGrey from "../AllDatas/greyImages/Ichem Magna.webp";
-import ichemMagna1 from "../AllDatas/ProductImages/Biochemistry/ichemManga/product1.webp";
+import ichemMagna1 from "../AllDatas/ProductImages/Biochemistry/ichemManga/Ichem Magna.webp";
 // Clinical Microbiology
 import ast1 from "../AllDatas/ProductImages/Clinical Microbiology/AST plates/product1.webp";
 import astGrey from "../AllDatas/ProductImages/Clinical Microbiology/AST plates/product1.webp";
@@ -55,21 +55,27 @@ import identi1 from "../AllDatas/ProductImages/Covid/identi VTM/product1.jpg";
 // Electrolyte Analyzer
 import JokohExDGrey from "../AllDatas/greyImages/Jokoh Ex-D.webp";
 import JokohExDsGrey from "../AllDatas/greyImages/Jokoh Ex-Ds.webp";
-import Jokoh1 from "../AllDatas/ProductImages/Electrolyte Analyzer/Jokoh/product1.webp";
-import Jokoh2 from "../AllDatas/ProductImages/Electrolyte Analyzer/Jokoh/product2.webp";
-import Jokoh3 from "../AllDatas/ProductImages/Electrolyte Analyzer/Jokoh/product3.webp";
+import JokohExDs from "../AllDatas/ProductImages/Electrolyte Analyzer/Jokoh Ex-Ds/Jokoh Ex-Ds.webp";
+import Jokoh1 from "../AllDatas/ProductImages/Electrolyte Analyzer/JokohEx-D/Jokoh Ex-D.webp";
+import Jokoh2 from "../AllDatas/ProductImages/Electrolyte Analyzer/JokohEx-D/product2.webp";
+import Jokoh3 from "../AllDatas/ProductImages/Electrolyte Analyzer/JokohEx-D/product3.webp";
 // Hematology
-import PLUS1 from "../AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
+import PLUS1 from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynacount 3D Plus.webp";
 import PLUSGrey from "../AllDatas/greyImages/Dynacount 3D Plus.webp";
+//
 import VisionGrey from "../AllDatas/greyImages/Vision Pro.webp";
-import Vision1 from "../AllDatas/ProductImages/Hematology/Analyzer/product1.webp";
+import Vision1 from "../AllDatas/ProductImages/Hematology/Analyzer/Vision Pro.webp";
 import Vision2 from "../AllDatas/ProductImages/Hematology/Analyzer/product2.webp";
-import DYNACOUNT3D1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT 5D/product1.webp";
+//
+import DYNACOUNT3D1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT 3D/Dynacount 3D.webp";
 import DYNACOUNT3DGrey from "../AllDatas/greyImages/Dynacount 3D.webp";
+//
 import DYNACOUNT5Dgrey from "../AllDatas/greyImages/Dynacount 5D.webp";
-import DYNACOUNT5D1 from "../AllDatas/greyImages/Dynacount 5D.webp";
+import DYNACOUNT5D1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT5D/Dynacount 5D.webp";
+
+//
 import SedrateProGrey from "../AllDatas/greyImages/Sedrate Pro.webp";
-import SedratePro1 from "../AllDatas/ProductImages/Hematology/SedratePro/product1.webp";
+import SedratePro1 from "../AllDatas/ProductImages/Hematology/SedratePro/Sedrate Pro.webp";
 import SedratePro2 from "../AllDatas/ProductImages/Hematology/SedratePro/product2.webp";
 import SedratePro3 from "../AllDatas/ProductImages/Hematology/SedratePro/product3.webp";
 // Immunology;
@@ -112,7 +118,10 @@ import Plexmat4Grey from "../AllDatas/greyImages/Plexmat 4.webp";
 import Plexmat4 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
 //
 import Plexmat8Grey from "../AllDatas/greyImages/Plexmat 8.webp";
-import Plexmat8 from "../AllDatas/ProductImages/Immunology/Plexmat8/product1.webp";
+import Plexmat8 from "../AllDatas/ProductImages/Immunology/Plexmat8/Plexmat 8.webp";
+//
+import brahmsGrey from "../AllDatas/ProductImages/Immunology/brahms/B·R·A·H·M·S.jpg";
+import brahms from "../AllDatas/ProductImages/Immunology/brahms/B·R·A·H·M·S.webp";
 //
 import euroimmunAnalyzerI from "../AllDatas/ProductImages/Immunology/euroimmunAnalyzer I/product1.webp";
 import euroimmunAnalyzerIGrey from "../AllDatas/greyImages/Euroimmun Analyzer I.webp";
@@ -125,7 +134,14 @@ import fluoroMat from "../AllDatas/ProductImages/Immunology/fluoroMat/product1.w
 //
 // import sprinter from "../AllDatas/greyImages/";
 import sprinterGrey from "../AllDatas/ProductImages/Immunology/sprinter/product1.webp";
-import sprinter from "../AllDatas/ProductImages/Immunology/sprinter/product1.webp";
+import sprinter from "../AllDatas/ProductImages/Immunology/sprinter/Sprinter XL.webp";
+//
+// Molecular Diagnostics
+import labscan3DGrey from "../AllDatas/ProductImages/Molecular Diagnostics/Labscan 3D/Labscan 3D.jpg";
+import labscan3D from "../AllDatas/ProductImages/Molecular Diagnostics/Labscan 3D/Labscan 3D.webp";
+//
+import labscan100Grey from "../AllDatas/ProductImages/Molecular Diagnostics/Labscan 100/Labscan 100.jpg";
+import labscan100 from "../AllDatas/ProductImages/Molecular Diagnostics/Labscan 100/Labscan 100.webp";
 
 // Point of Care
 import ichromaIIGrey from "../AllDatas/greyImages/Ichroma™ II.webp";
@@ -1762,7 +1778,7 @@ const products = [
         id: "2",
         section: "withoutautoloader",
         coverImg: JokohExDsGrey,
-        image: [image1],
+        image: [JokohExDs],
         title: "Jokoh Ex-Ds",
         shortdescription:
           "The EX-Ds Electrolyte Analyzer offers reliable and efficient high-throughput testing, providing precise results and seamless integration for both routine and specialized diagnostic tests, optimizing laboratory workflows.",
@@ -3170,8 +3186,8 @@ const products = [
       //missing cover pic
       {
         id: "3",
-        image: [image1],
-        coverImg: image1,
+        image: [brahms],
+        coverImg: brahmsGrey,
         title: "B·R·A·H·M·S",
         section: "immunoblot",
         shortdescription:
@@ -3409,7 +3425,7 @@ const products = [
           Iflash12002,
           Iflash12003,
           Iflash12004,
-          Iflash12005,
+          // Iflash12005,
         ],
         section: "clia",
         title: "iFlash 1200",
@@ -3571,7 +3587,7 @@ const products = [
           Iflash18002,
           Iflash18003,
           Iflash18004,
-          Iflash18005,
+          // Iflash18005,
         ],
         section: "clia",
         title: "iFlash 1800",
@@ -6086,8 +6102,8 @@ const products = [
       {
         topic: "LABScan 3D",
         id: "1",
-        image: [image1],
-        coverImg: image1,
+        image: [labscan3D],
+        coverImg: labscan3DGrey,
         title: "Labscan 3D",
         shortdescription: "Fully Automatic 3-Part Sortpro Sample Sorter",
         description:
@@ -6213,8 +6229,8 @@ const products = [
       {
         topic: "LABScan 100",
         id: "2",
-        image: [image1],
-        coverImg: image1,
+        image: [labscan100],
+        coverImg: labscan100Grey,
         title: "Labscan 100",
         shortdescription:
           "  The ability to perform up to 100 different tests in a single reaction volume, and to use either magnetic beads or plain polystyrene beads makes this instrument a popular choice for laboratories needing greater flexibility. Additionally, the Luminex 200 is able to offer higher sample throughput with a 96-well plate read time of only 45 minutes.",

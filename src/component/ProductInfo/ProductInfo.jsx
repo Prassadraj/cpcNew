@@ -193,7 +193,7 @@ function ProductInfo() {
         <Loader />
       ) : (
         <div className="product-info text-black overflow-hidden mt-2 font-poppins">
-          <div className="hidden tablet:flex mb-3 text-base md:text-xl cursor-pointer  px-5 w-full md:px-5">
+          <div className="hidden tablet:flex mb-3 laptop:mt-4 text-base md:text-xl cursor-pointer  px-5 w-full md:px-5">
             <span className="">
               <Link
                 onClick={() => {

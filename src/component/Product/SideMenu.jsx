@@ -28,7 +28,7 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
 
   return (
     <div
-      className={`sidebar tablet:w-[25vw] bg-white border rounded-md shadow-md p-1 tablet:py-2 tablet:px-4 tablet:sticky top-16 tablet:top-24 largeLaptop:top-32 h-[80vh] largeLaptop:h-[50vh] overflow-y-auto z-10 ${
+      className={`sidebar tablet:w-[25vw] bg-white border rounded-md shadow-md p-1 tablet:py-2 tablet:px-4 tablet:sticky top-16 tablet:top-24 tablet:h-fit largeLaptop:top-32 h-[80vh] largeLaptop:h-[50vh] overflow-y-auto z-10 ${
         open
           ? "fixed top-16 inset-0 w-[80%] h-full overflow-y-auto z-20"
           : "hidden sm:block"
@@ -58,7 +58,7 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
                 // );
               }}
             >
-              <p className="tablet:text-xs pt-2 laptop:text-base largeLaptop:text-xl font-poppins text-left font-medium">
+              <p className="tablet:text-base pt-2 laptop:text-base largeLaptop:text-xl font-poppins text-left font-medium">
                 {dropdown.category}
               </p>
               {openDropdown === index ? <FaChevronDown /> : <FaChevronRight />}
@@ -74,7 +74,7 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
                       className="no-underline"
                     >
                       <p
-                        className="text-gray-800 px-4 py-2 capitalize text-sm hover:bg-custom-green hover:text-light-green cursor-pointer font-poppins
+                        className="text-gray-800 px-4 py-2 capitalize tablet:text-base laptop:text-sm hover:bg-custom-green hover:text-light-green cursor-pointer font-poppins
                       largeLaptop:text-lg"
                       >
                         {item}
