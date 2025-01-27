@@ -66,7 +66,7 @@ function Section1() {
 
   return (
     <>
-      <div className="section1 tablet:flex tablet:flex-row grid grid-cols-1 justify-center items-center h-screen w-full overflow-hidden font-poppins overflow-x-hidden largeLaptop:h-[60vh] largeLaptop:mb-20">
+      <div className="section1 tablet:flex tablet:flex-row grid grid-cols-1 justify-center items-center laptop:h-screen w-full overflow-hidden font-poppins overflow-x-hidden tablet:h-[50vh] largeLaptop:h-[60vh] largeLaptop:mb-20">
         <div className="flex-1 tablet:w-1/2 w-full mt-0 sm:ml-4 laptop:ml-14 px-2 sm:px-0">
           <motion.p
             initial={{ opacity: 0, y: 10 }}
@@ -77,7 +77,10 @@ function Section1() {
             Medical Laboratory Equipment Supplier in India at the Best Price
           </motion.p>
           <div className="description">
-            <p className="subTitle  text-sm tablet:text-xl w-full tablet:w-[40vw] text-start largeLaptop:text-[70px]">
+            <p
+              className="subTitle  text-sm tablet:text-xl w-full tablet:w-[40vw] text-start
+             largeLaptop:text-[70px]"
+            >
               Everlife CPC Diagnostics is your trusted partner for high-quality
               In-vitro diagnostic Medical Laboratory Equipment Suppliers in
               India.

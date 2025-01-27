@@ -84,7 +84,8 @@ function New() {
     <>
       <Heading />
       <div
-        className="container1 h-[300vh]  tablet:flex justify-around tablet:gap-5 largeLaptop:gap-0 hidden laptop:mb-[6rem]
+        className="container1 h-[300vh]  laptop::flex justify-around tablet:gap-5
+         largeLaptop:gap-0 hidden laptop:mb-[6rem]
       largeLaptop:mb-[0rem]"
       >
         <div className="flex flex-col gap-5 items-center justify-center w-1/2 laptop:pt-14 tablet:pt-10 largeLaptop:pt-44 ">
@@ -92,7 +93,7 @@ function New() {
             <img
               src={image1}
               alt=""
-              className="w-fit tablet:h-[400px] largeLaptop:h-[700px] object-contain img1 rounded-[50px]"
+              className="w-fit laptop:h-[400px] largeLaptop:h-[700px] object-contain img1 rounded-[50px]"
             />
           </div>
           <div className="tablet:h-full">
@@ -114,8 +115,8 @@ function New() {
           className="sticky flex h-screen tablet:top-5 laptop:top-5  flex-col laptop:gap-6 tablet:gap-2 
        largeLaptop:gap-10 text-xs tablet:text-sm laptop:text-sm w-1/2 font-poppins items-center justify-center text-center laptop:px-20"
         >
-          <div className="tablet:px-5 largeLaptop:px-2">
-            <p className="ctn1 text-left largeLaptop:text-2xl font-light">
+          <div className="tablet:px-2 laptop:px-5 largeLaptop:px-2">
+            <p className="ctn1 text-left largeLaptop:text-2xl tablet:text-lg font-light">
               <img
                 src={organisation1}
                 alt=""
@@ -154,12 +155,16 @@ function New() {
         </div>
       </div>
       {/* mobile */}
-      <div className="tablet:hidden">
-        <div className="grid grid-cols-2 items-center justify-center p-2 gap-4 mb-2">
-          <img src={images[0].img} alt="" />
+      <div className="laptop:hidden tablet:mb-[100px]">
+        <div className="grid grid-cols-2 items-center justify-center p-2 my-3 gap-4 mb-4">
+          <img src={image1} alt="" />
           <div className="flex flex-col items-start justify-center">
-            <img src={organisation1} className=" w-[40px]" alt="" />
-            <p className="text-[9px]">
+            <img
+              src={organisation1}
+              className=" w-[40px] tablet:w-[80px]"
+              alt=""
+            />
+            <p className="text-[9px] tablet:text-xl">
               Jeev Diagnostics, a wholly owned subsidiary of Everlife CPC
               Diagnostics Pvt. Ltd., Chennai, India, manufactures high-quality
               state-of-the-art in vitro clinical chemistry reagents to cater to
@@ -168,10 +173,10 @@ function New() {
           </div>
         </div>
         <div className="grid grid-cols-2 items-center justify-center p-2 gap-4 mb-2">
-          <img src={images[1].img} alt="" />
+          <img src={image2} alt="" />
           <div className="flex flex-col items-start justify-center">
             <img src={organisation2} className=" w-[40px]" alt="" />
-            <p className="text-[9px]">
+            <p className="text-[9px] tablet:text-xl">
               Sachika, an initiative by CPC Diagnostics Pvt. Ltd., focuses on
               life sciences education, empowering clinicians with contemporary
               bioscience skills.
@@ -179,10 +184,10 @@ function New() {
           </div>
         </div>
         <div className="grid grid-cols-2 items-center justify-center p-2 gap-4 mb-2">
-          <img src={images[2].img} alt="" />
+          <img src={image3} alt="" />
           <div className="flex flex-col items-start justify-center">
             <img src={organisation3} className=" w-[40px]" alt="" />
-            <p className="text-[9px]">
+            <p className="text-[9px] tablet:text-xl">
               Everlife CPC’s division for diagnostic instrument manufacturing
               aims at empowerment, reliability, and innovation in indigenous
               manufacturing practices.

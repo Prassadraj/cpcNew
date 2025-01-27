@@ -50,22 +50,30 @@ const FeaturedProducts = () => {
           Explore Our Best-in-Class Diagnostic Equipment
         </p>
       </div>
-      <div className="hidden tablet:block ">
+      <div className="hidden laptop:block ">
         <HorizontalScrollCarousel cards={featuredCards} />
       </div>
       {/* Add a mobile-friendly version if needed */}
-      <div className="tablet:hidden px-3 mb-4">
-        <div className="scrollable-container flex overflow-x-scroll space-x-4 py-4">
+      <div className="laptop:hidden px-3 mb-4">
+        <div className="scrollable-container flex overflow-x-scroll space-x-4 py-4  tablet:my-20">
           {featuredCards.map((product, i) => (
             <div
               key={i}
-              className="flex-shrink-0 flex flex-col items-center w-32 h-fit"
+              className="flex-shrink-0 flex flex-col items-center w-32 tablet:w-60 h-fit"
             >
-              <div className="h-44 flex items-center justify-center">
-                <img src={product.url} className="w-32 object-cover" alt="" />
+              <div className="h-44 tablet:h-60 flex items-center justify-center">
+                <img
+                  src={product.url}
+                  className="w-32 object-cover tablet:w-[300px]"
+                  alt=""
+                />
               </div>
-              <p className="text-center font-bold ">{product.title}</p>
-              <p className="text-center line-clamp-3">{product.content}</p>
+              <p className="text-center font-bold tablet:text-lg">
+                {product.title}
+              </p>
+              <p className="text-center line-clamp-3 tablet:text-lg">
+                {product.content}
+              </p>
             </div>
           ))}
         </div>
@@ -100,7 +108,7 @@ const HorizontalScrollCarousel = ({ cards }) => {
 const Card = ({ card }) => {
   return (
     <div
-      className={`laptop:mt-10 largeLaptop:mt-0 font-poppins relative largeLaptop:h-[500px] h-[250px] w-[150px] tablet:h-[400px] tablet:w-[350px] largeLaptop:w-[450px] overflow-hidden  rounded-2xl border-1 border-custom-green 
+      className={`laptop:mt-10  largeLaptop:mt-0 font-poppins relative largeLaptop:h-[500px] h-[250px] w-[150px] tablet:h-[400px] tablet:w-[350px] largeLaptop:w-[450px] overflow-hidden  rounded-2xl border-1 border-custom-green 
      
       `}
     >

@@ -24,7 +24,7 @@ function Footer({ open }) {
 
   return (
     <div
-      className={`h-fit w-full laptop:mt-[100px]   bg-custom-green tablet:block ${
+      className={`h-fit w-full laptop:mt-[100px] px-2 tablet:mt-[200px]   bg-gradient-to-r from-[#00735D] to-[#01A786] tablet:block ${
         open && "hidden"
       }`}
     >
@@ -570,7 +570,7 @@ function Footer({ open }) {
           <p>Everlife CPC 2024 © All Rights Reserved</p>
         </div>
       </div>
-      <p className="text-[1px] tablet:text-[6px] relative bottom-0 flex justify-center items-center text-custom-green">
+      <p className="text-[1px] tablet:text-[6px] relative bottom-0 flex justify-center items-center text-[#00735D]">
         Prassad Raj
       </p>
     </div>

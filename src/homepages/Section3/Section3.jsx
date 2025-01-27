@@ -52,10 +52,10 @@ function Section3() {
   };
 
   return (
-    <div className="font-poppins">
+    <div className="font-poppins ">
       {/* Section 3 */}
       <div
-        className="flex items-center justify-around w-full tablet:h-[500px]
+        className="tablet:flex  items-center tablet:gap-5 justify-around w-full laptop:h-[500px] tablet:h-fit
       largeLaptop:h-[600px] container1 "
       >
         <div className="">
@@ -66,7 +66,7 @@ function Section3() {
           </div>
           <div className=" ">
             <p
-              className="laptop:max-w-2xl max-w-sm leading-6 text-justify text-sm tablet:tracking-wider capitalize
+              className="laptop:max-w-2xl tablet:max-w-lg max-w-sm leading-6 text-justify text-sm tablet:tracking-wider capitalize
             largeLaptop:text-xl"
             >
               At Everlife CPC Diagnostics, we lead the healthcare industry with
@@ -91,16 +91,16 @@ function Section3() {
           ></button>
         </div>
 
-        <div className="tablet:h-[300px] tablet:w-[300px] laptop:w-[400px]  largeLaptop:h-[400px] rounded-2xl ">
+        <div className="tablet:h-[400px] tablet:w-[400px] laptop:w-[400px]  largeLaptop:h-[400px] rounded-2xl ">
           <img
             src={whoWeAre}
             alt="Who We Are"
-            className="rounded-lg h-full w-full object-contain"
+            className="rounded-lg h-full w-full object-contain tablet:block hidden"
           />
         </div>
       </div>
       <div
-        className="flex flex-row-reverse items-center justify-around w-full tablet:h-[500px]
+        className="tablet:flex flex-row-reverse items-center tablet:gap-5 justify-around w-full tablet:h-fit
       largeLaptop:h-[600px] container1 "
       >
         <div className="">
@@ -111,7 +111,7 @@ function Section3() {
           </div>
           <div className=" ">
             <p
-              className="laptop:max-w-2xl max-w-sm leading-6 text-justify text-sm tablet:tracking-wider capitalize
+              className="laptop:max-w-2xl tablet:max-w-lg max-w-sm leading-6 text-justify text-sm tablet:tracking-wider capitalize
             largeLaptop:text-xl"
             >
               We manufacture and supply advanced laboratory instruments and
@@ -136,11 +136,11 @@ function Section3() {
           ></button>
         </div>
 
-        <div className="tablet:h-[300px] tablet:w-[300px] laptop:w-[400px]  largeLaptop:h-[400px] rounded-2xl ">
+        <div className="tablet:h-[400px] tablet:w-[400px] laptop:w-[400px]  largeLaptop:h-[400px] rounded-2xl ">
           <img
             src={whatWeDo}
             alt="Who We Are"
-            className="rounded-lg h-full w-full object-contain"
+            className="rounded-lg h-full w-full object-contain hidden tablet:block"
           />
         </div>
       </div>

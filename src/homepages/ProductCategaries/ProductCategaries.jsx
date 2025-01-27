@@ -26,6 +26,9 @@ const categoryItems = [
   { name: "Electrolyte Analyzer", image: covid },
   { name: "Clinical Microbiology", image: electrolyte },
   { name: "Pre-Analytical Automation", image: heamatology },
+  { name: "Immunology", image: microbiology },
+  { name: "Hematology", image: pieChart },
+  { name: "Point of Care", image: medicine },
 ];
 
 const categoryItems2 = [
@@ -36,13 +39,15 @@ const categoryItems2 = [
   { name: "Clinical Microbiology", image: electrolyte },
   { name: "Biochemistry", image: BioChemistry },
   { name: "Pre-Analytical Automation", image: PreAnalytical },
+  { name: "Point of Care", image: care },
+  { name: "Clinical Microbiology", image: electrolyte },
 ];
 
 function ProductCategaries() {
   const { setSelectedCategory } = useContext(CategoryContext);
 
   return (
-    <div className="tablet:mt-[5rem] largeLaptop:mt-[2rem]">
+    <div className="laptop:mt-[100px] tablet:mt-[100px] largeLaptop:mt-[2rem] ">
       {/* mobile */}
       <div className="mb-4 tablet:hidden h-fit w-full flex items-center justify-around font-poppins sm:px-4 px-2 gap-10">
         <div className="text-2xl font-semibold text-custom-green w-1/2">
@@ -70,14 +75,14 @@ function ProductCategaries() {
       </div>
       {/* lap */}
       <div
-        className="hidden h-[100vh] largeLaptop:h-[60vh] tablet:flex justify-center items-center 
-      tablet:mb-[10rem]
+        className="hidden tablet:h-[40vh] laptop:h-screen largeLaptop:h-[60vh] tablet:flex justify-center items-center 
+      laptop:mb-[200px]
       largeLaptop:mb-[10rem]
       "
       >
         <div className="flex w-full">
           {/* Left Section */}
-          <div className="flex flex-col flex-[1.5] gap-3 pl-24 pt-12 mt-32">
+          <div className="flex flex-col flex-[1.5] gap-3 laptop:pl-24 tablet:pl-16 pt-12 laptop:mt-32 tablet:mt-16">
             <div className="text-white" style={{ lineHeight: "3px" }}>
               <p className="text-custom-green largeLaptop:text-[6rem] text-6xl max-w-lg text-start font-poppins font-semibold">
                 Product
@@ -102,10 +107,10 @@ function ProductCategaries() {
 
           {/* Right Section */}
           <div
-            className="flex-1 flex relative text-2xl w-full tablet:h-[500px] laptop:h-screen largeLaptop:h-[60vh] largeLaptop:overflow-hidden tablet:overflow-hidden
+            className="flex-1 flex relative text-2xl w-full tablet:h-[40vh] laptop:h-screen largeLaptop:h-[60vh] largeLaptop:overflow-hidden tablet:overflow-hidden tablet:gap-3
           "
           >
-            <div className="w-[15vw] h-screen flex justify-center overflow-hidden">
+            <div className="w-[15vw] laptop:h-screen tablet:h-[500px]  flex justify-center overflow-hidden">
               <div className="flex items-center">
                 <Marquee
                   direction="up"
@@ -121,7 +126,7 @@ function ProductCategaries() {
                       <Magnetic key={item.name}>
                         <div
                           style={{ margin: "10px 10px" }}
-                          className="flex flex-col-reverse items-center justify-center pt-4 pb-4 pr-8 pl-8 text-center bg-white rounded-xl gap-2 w-[11vw] border-1 border-custom-green shadow-md shadow-custom-green"
+                          className="flex flex-col-reverse items-center justify-center pt-4 pb-4 pr-8 pl-8 text-center bg-white rounded-xl gap-2 tablet:w-[14vw]  laptop:w-[11vw] border-1 border-custom-green shadow-md shadow-custom-green"
                         >
                           <img width="70px" src={item.image} alt={item.name} />
                           <p className="text-sm text-gray-700 font-semibold font-poppins truncate max-w-[9vw]">
@@ -152,7 +157,7 @@ function ProductCategaries() {
                         <div
                           style={{ margin: "10px 10px" }}
                           key={item.name}
-                          className="flex flex-col items-center justify-center pt-4 pb-4 pr-8 pl-8 text-center bg-white border-1 border-custom-green shadow-md shadow-custom-green rounded-xl gap-2 w-[11vw]"
+                          className="flex flex-col items-center justify-center pt-4 pb-4 pr-8 pl-8 text-center bg-white border-1 border-custom-green shadow-md shadow-custom-green rounded-xl gap-2 tablet:w-[14vw]  laptop:w-[11vw]"
                         >
                           <img
                             width="70px"
