@@ -28,17 +28,19 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
 
   return (
     <div
-      className={`sidebar tablet:w-[25vw] bg-white border rounded-md shadow-md p-1 tablet:py-2 tablet:px-4 tablet:sticky top-28 largeLaptop:top-32 h-[80vh] largeLaptop:h-[50vh] overflow-y-auto z-10 ${
+      className={`sidebar tablet:w-[25vw] bg-white border rounded-md shadow-md p-1 tablet:py-2 tablet:px-4 tablet:sticky top-16 tablet:top-24 largeLaptop:top-32 h-[80vh] largeLaptop:h-[50vh] overflow-y-auto z-10 ${
         open
           ? "fixed top-16 inset-0 w-[80%] h-full overflow-y-auto z-20"
           : "hidden sm:block"
       }`}
     >
-      <FontAwesomeIcon
-        icon={faXmark}
+      {/* <FontAwesomeIcon icon={faXmark} /> */}
+      <p
         className="text-4xl font-thin ml-2 mt-4 sm:hidden"
         onClick={() => setOpen(false)}
-      />
+      >
+        X
+      </p>
 
       <div className="w-full mx-auto">
         {data.map((dropdown, index) => (

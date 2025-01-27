@@ -241,7 +241,7 @@ function Product() {
             </div>
           </section>
           <div className="grid grid-cols-1 sm:grid-cols-2 laptop:grid-cols-3 gap-2 mt-4 tablet:px-10 py-5">
-            <div className="p-4 bg-[#D9D7F1] text-gray-500 rounded-md flex flex-col gap-1">
+            <div className="p-4 bg-gradient-to-r via-white text-gray-500 rounded-md flex flex-col gap-1">
               <div className="flex gap-2">
                 <div className="flex items-center">
                   <FontAwesomeIcon
