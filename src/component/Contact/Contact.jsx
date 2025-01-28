@@ -229,7 +229,7 @@ function Contact() {
                 Corporate Office{" "}
               </button>
               <div className="flex mt-5">
-                <div className="flex flex-row justify-around items-start gap-2 ">
+                <div className="flex flex-row justify-around items-start gap-4 ">
                   <img src={locin} alt="call inner logo" className="w-7 h-7" />
                   <a
                     href="https://maps.app.goo.gl/c6JHYYx4K3oZkvta7"
@@ -244,10 +244,10 @@ function Contact() {
                 <div></div>
               </div>
 
-              <div className="flex mt-7">
-                <div className="flex flex-row justify-around items-start gap-2">
+              <div className="flex mt-2">
+                <div className="flex flex-row justify-around  gap-2 items-center">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div className="flex ">
+                  <div className="flex flex-col">
                     <a
                       href="tel:+91 44 23460168"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
@@ -264,7 +264,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className=" flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -287,7 +287,7 @@ function Contact() {
                 Central Technical Support & Supply Chain Operations
               </button>
               <div className="flex mt-5">
-                <div className=" flex flex-row justify-around items-start gap-2">
+                <div className=" flex flex-row justify-around items-start gap-4">
                   <img src={locin} alt="call inner logo" className="w-7 h-7" />
                   <div>
                     <a
@@ -303,10 +303,10 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-7">
-                <div className="flex flex-row justify-around items-start gap-2">
+              <div className="flex mt-2">
+                <div className="flex flex-row justify-around items-center gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div className="flex ">
+                  <div className="flex flex-col">
                     <a
                       href="tel:+91 44 23460161"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
@@ -323,7 +323,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className="flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -346,7 +346,7 @@ function Contact() {
                 Reagents & Instrument Manufacturing Facilities
               </button>
               <div className="flex mt-5">
-                <div className=" flex flex-row justify-around items-start gap-2">
+                <div className=" flex flex-row justify-around items-start gap-4">
                   <img src={locin} alt="call inner logo" className="w-7 h-7" />
                   <div>
                     <a
@@ -362,10 +362,10 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-7">
-                <div className="flex flex-row justify-around items-start gap-2">
+              <div className="flex flex-col mt-2">
+                <div className="flex flex-row  items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div className="flex">
+                  <div className="flex flex-col">
                     <a
                       href="tel:+91 44 23821908"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
@@ -382,7 +382,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className="flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -419,7 +419,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-7">
+              <div className="flex  mt-2">
                 <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex">
@@ -427,13 +427,13 @@ function Contact() {
                       href="tel:+91 0484 4873771"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black   ml-4"> +91 0484 4873771</p>
+                      <p className="text-black   ml-2"> +91 0484 4873771</p>
                     </a>
                   </div>
                 </div>
               </div>
 
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className="flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -441,7 +441,7 @@ function Contact() {
                       href="mailto:cpckoc@cpcdiagnostics.in"
                       className="hover:opacity-80 hover:scale-105 transition-all "
                     >
-                      <p className="text-black   ml-4">
+                      <p className="text-black   ml-3">
                         {" "}
                         cpckoc@cpcdiagnostics.in
                       </p>
@@ -463,7 +463,7 @@ function Contact() {
                       href="#"
                       className="hover:opacity-80 hover:scale-105 transition-all "
                     >
-                      <p className="text-black  ">
+                      <p className="text-black text-left ">
                         C/O.TREE TOP HEALTHCARE H.No. 10/1, GF, Syed Jala
                         Garden, West Marredpally, Secunderabad-500 026 Telangana
                         India GST: 36AAACC3142NIZP
@@ -473,7 +473,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex">
@@ -481,16 +481,13 @@ function Contact() {
                       href="tel:+91 040 42100330"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black   ml-4">
-                        {" "}
-                        +91 040 42100330
-                      </p>
+                      <p className="text-black   ml-2"> +91 040 42100330</p>
                     </a>
                   </div>
                 </div>
               </div>
 
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className="flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -498,7 +495,7 @@ function Contact() {
                       href="mailto:cpchyd@cpcdiagnostics.in"
                       className="hover:opacity-80 hover:scale-105 transition-all "
                     >
-                      <p className="text-black   ml-4">
+                      <p className="text-black   ml-3">
                         {" "}
                         cpchyd@cpcdiagnostics.in
                       </p>
@@ -508,7 +505,6 @@ function Contact() {
               </div>
             </div>
             <div className="border-2 border-maincol p-8 rounded-lg w-full h-full leading-7 ">
-              
               <button className="p-2 bg-maincol  rounded-md font-semibold text-white w-72 h-20 text-center">
                 Bangalore
               </button>
@@ -529,7 +525,7 @@ function Contact() {
                   </div>
                 </div>
               </div>
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex">
@@ -537,24 +533,18 @@ function Contact() {
                       href="tel:+91 9740039501"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black  ml-4">
-                        {" "}
-                        +91 9740039501
-                      </p>
+                      <p className="text-black  ml-4"> +91 9740039501</p>
                     </a>
                     <a
                       href="tel:+91 080 26758685"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black ml-4">
-                        {" "}
-                        +91 080 26758685
-                      </p>
+                      <p className="text-black ml-4"> +91 080 26758685</p>
                     </a>
                   </div>
                 </div>
               </div>
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className="  flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -593,7 +583,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex">
@@ -613,7 +603,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className="flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -652,7 +642,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className=" flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex">
@@ -672,7 +662,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className=" flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -711,7 +701,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className="flex flex-row justify-around items-center">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex">
@@ -725,7 +715,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-7">
+              <div className="flex mt-2">
                 <div className="flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>

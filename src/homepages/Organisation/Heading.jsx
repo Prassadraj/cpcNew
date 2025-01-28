@@ -10,7 +10,7 @@ function Heading() {
 
   return (
     <div
-      className="flex flex-col justify-center items-center tablet:h-fit laptop:h-fit tablet:mt-[200px]
+      className="flex flex-col justify-center items-center tablet:h-fit laptop:h-fit laptop:mt-[300px]
     tablet:mb-[50px] largeLaptop:h-fit gap-4"
     >
       <p className="text-lg tablet:text-3xl largeLaptop:text-4xl text-custom-green font-semibold title1 uppercase">

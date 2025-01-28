@@ -509,33 +509,37 @@ function Footer({ open }) {
         </div>
         {/* col 4 */}
         <div
-          className="flex flex-col items-start mt-16 font-poppins gap-2 col4"
+          className="flex text-white flex-col items-start mt-16 font-poppins gap-2 col4"
           ref={col4Ref}
         >
           <p className="font-semibold text-xs tablet:text-2xl text-white font-poppins">
-            Others
+            Corporate Office
           </p>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
-            <p>Help and Support</p>
-          </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
-            <p>Resources</p>
-          </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
-            <p>Residential Address</p>
-          </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
-            <p>Cookie Preferences</p>
-          </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
-            <p>Corporate Address</p>
-          </Link>
+
+          {/* <Link to="/" className="text-xs tablet:text-lg  hover:text-black"> */}
+
+          <div className="flex flex-col gap-2">
+            <p className="max-w-xs">
+              {" "}
+              4th floor, Westminster, 108, Dr.Radhakrishnan Salai, Mylapore,
+              Chennai - 600004{" "}
+            </p>
+            <p>
+              {" "}
+              <span className="font-semibold">Contact :</span> +91 87544 68400
+            </p>
+            <p>
+              <span className="font-semibold"> Email : </span>
+              info@cpcdiagnostics.in
+            </p>
+          </div>
+          {/* </Link> */}
         </div>
       </div>
 
       <div className="h-[1px] w-[90%] flex justify-center items-center text-center bg-custom-green mx-auto mt-4"></div>
       <div className="mt-2 flex justify-around  tablet:justify-between tablet:mt-4 tablet:pl-16 tablet:pr-16">
-        <div className="text-sm tablet:text-3xl text-white flex gap-3 tablet:gap-3 laptop:gap-5">
+        <div className="text-sm tablet:text-2xl text-white flex gap-3 tablet:gap-3 laptop:gap-5">
           <Link
             target="_blank"
             to="https://www.facebook.com/EverlifeCPC"
@@ -567,7 +571,7 @@ function Footer({ open }) {
           </Link>
         </div>
         <div className="text-xs text-white tablet:text-base font-poppins font-normal">
-          <p>Everlife CPC 2024 © All Rights Reserved</p>
+          <p>Everlife CPC {new Date().getFullYear()} © All Rights Reserved</p>
         </div>
       </div>
       <p className="text-[1px] tablet:text-[6px] relative bottom-0 flex justify-center items-center text-[#00735D]">

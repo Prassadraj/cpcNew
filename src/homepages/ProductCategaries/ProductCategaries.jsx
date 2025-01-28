@@ -12,7 +12,7 @@ import care from "../ProductCategaries/GIF/Point of care.gif";
 import Immunology from "../ProductCategaries/GIF/Immunology.gif";
 import PreAnalytical from "../ProductCategaries/GIF/Pre-analytical-automation.gif";
 import BioChemistry from "../ProductCategaries/GIF/Bio Chemistry.gif";
-import bgImage from "../../images/BgImages/bg-5.jpg";
+
 import Magnetic from "../../component/magneticButton/Magnetic";
 import { CategoryContext } from "../../component/Context/CategoryContext";
 import { Link } from "react-router-dom";
@@ -22,6 +22,7 @@ const categoryItems = [
   { name: "Hematology", image: pieChart },
   { name: "Point of Care", image: medicine },
   // { name: "COVID-19", image: mask },
+  ////
   { name: "Immunology", image: microbiology },
   { name: "Electrolyte Analyzer", image: covid },
   // { name: "Clinical Microbiology", image: electrolyte },
@@ -51,7 +52,7 @@ function ProductCategaries() {
   const { setSelectedCategory } = useContext(CategoryContext);
 
   return (
-    <div className="laptop:mt-[100px] tablet:mt-[100px] largeLaptop:mt-[2rem] ">
+    <div className="laptop:mt-[170px] tablet:mt-[100px] largeLaptop:mt-[2rem] ">
       {/* mobile */}
       <div className="mb-4 tablet:hidden h-fit w-full flex items-center justify-around font-poppins sm:px-4 px-2 gap-10">
         <div className="text-2xl font-semibold text-custom-green w-1/2">
@@ -79,31 +80,31 @@ function ProductCategaries() {
       </div>
       {/* lap */}
       <div
-        className="hidden tablet:h-[40vh] laptop:h-screen largeLaptop:h-[60vh] tablet:flex justify-center items-center 
+        className="hidden laptop:h-[40vh]  largeLaptop:h-fit tablet:flex justify-center items-center 
       laptop:mb-[200px]
       largeLaptop:mb-[10rem]
       "
       >
         <div className="flex w-full">
           {/* Left Section */}
-          <div className="flex flex-col flex-[1.5] gap-3 laptop:pl-24 tablet:pl-16 pt-12 laptop:mt-32 tablet:mt-16">
+          <div className="flex flex-col flex-[1.5] gap-3 laptop:pl-24 tablet:pl-16 pt-2 laptop:mt-20 tablet:mt-16">
             <div className="text-white" style={{ lineHeight: "3px" }}>
-              <p className="text-custom-green largeLaptop:text-[6rem] text-6xl max-w-lg text-start font-poppins font-semibold">
+              <p className="text-custom-green largeLaptop:text-[6rem] text-5xl max-w-lg text-start font-poppins font-semibold">
                 Product
               </p>
-              <p className="text-6xl largeLaptop:text-[6rem] max-w-lg text-start font-poppins font-semibold text-custom-green">
+              <p className="text-5xl largeLaptop:text-[6rem] max-w-lg text-start font-poppins font-semibold text-custom-green">
                 Categories
               </p>
             </div>
             <p
-              className="text-xl mt-4 largeLaptop:mt-6 max-w-lg text-start font-poppins text-gray-700
+              className="text-lg mt-4 largeLaptop:mt-6 max-w-sm text-start font-poppins text-gray-700
             largeLaptop:text-3xl"
             >
               Explore our diverse range of laboratory equipment for all your
               medical and diagnostic needs.
             </p>
             <Link to="/product">
-              <button className=" mt-3 text-left text-gray-700 text-xl bg-gray-white font-poppins w-fit pl-3 pr-3 pt-2 pb-2 rounded-md font-medium hover:scale-90 transition-all shadow-md shadow-custom-green border largeLaptop:text-3xl largeLaptop:mt-6">
+              <button className=" mt-3 text-left text-gray-700 text-base bg-gray-white font-poppins w-fit pl-3 pr-3 pt-2 pb-2 rounded-md font-medium hover:scale-90 transition-all shadow-md shadow-custom-green border largeLaptop:text-3xl largeLaptop:mt-6">
                 Explore Products
               </button>
             </Link>
@@ -111,7 +112,7 @@ function ProductCategaries() {
 
           {/* Right Section */}
           <div
-            className="flex-1 flex relative text-2xl w-full tablet:h-[40vh] laptop:h-screen largeLaptop:h-[60vh] largeLaptop:overflow-hidden tablet:overflow-hidden tablet:gap-3
+            className="flex-1 flex relative text-2xl w-full laptop:h-[80vh] largeLaptop:h-[60vh] largeLaptop:overflow-hidden tablet:overflow-hidden tablet:gap-3
           "
           >
             <div className="w-[15vw] laptop:h-screen tablet:h-[500px]  flex justify-center overflow-hidden">

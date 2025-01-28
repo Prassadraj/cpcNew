@@ -256,18 +256,20 @@ function Product() {
             </div>
           </section>
           <div className="grid grid-cols-1 sm:grid-cols-2 laptop:grid-cols-3 gap-2 tablet:mt-4 mt-2 tablet:mb-4 tablet:px-5 py-5 px-2">
-            <div className="p-[10px] pl-8 bg-[#00735D] text-white rounded-md flex flex-col gap-1">
-              <div className="flex gap-2">
-                <div className="flex items-center">
-                  <FontAwesomeIcon
-                    icon={faMessage}
-                    className="text-2xl text-white"
-                  />
+            <Link to="">
+              <div className="p-[10px] pl-8 bg-[#00735D] text-white rounded-md flex flex-col gap-1">
+                <div className="flex gap-2">
+                  <div className="flex items-center">
+                    <FontAwesomeIcon
+                      icon={faMessage}
+                      className="text-2xl text-white"
+                    />
+                  </div>
+                  <div className="text-lg">Need Help?</div>
                 </div>
-                <div className="text-lg">Need Help?</div>
+                <div>Get concise assistance here</div>
               </div>
-              <div>Get concise assistance here</div>
-            </div>
+            </Link>
             <div className="p-[10px] pl-8  bg-gradient-to-r from-[#00735D] to-[#01A786] text-white rounded-md flex flex-col gap-1">
               <div className="flex gap-2">
                 <div className="flex items-center">
