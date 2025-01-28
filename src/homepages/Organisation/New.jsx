@@ -116,7 +116,7 @@ function New() {
        largeLaptop:gap-10 text-xs tablet:text-sm laptop:text-sm w-1/2 font-poppins items-center justify-center text-center laptop:px-20"
         >
           <div className="tablet:px-2 laptop:px-5 largeLaptop:px-2">
-            <p className="ctn1 text-left largeLaptop:text-2xl tablet:text-lg font-light">
+            <p className="ctn1 text-left largeLaptop:text-2xl laptop:text-sm font-light">
               <img
                 src={organisation1}
                 alt=""
@@ -129,7 +129,7 @@ function New() {
             </p>
           </div>
           <div className="tablet:px-5 largeLaptop:px-2">
-            <p className="ctn2 text-left largeLaptop:text-2xl font-light">
+            <p className="ctn2 text-left largeLaptop:text-2xl  laptop:text-sm font-light">
               <img
                 src={organisation2}
                 alt=""
@@ -141,7 +141,7 @@ function New() {
             </p>
           </div>
           <div className="tablet:px-5 largeLaptop:text-2xl largeLaptop:px-2">
-            <p className="ctn3 text-left largeLaptop:text-2xl font-light">
+            <p className="ctn3 text-left largeLaptop:text-2xl laptop:text-sm font-light">
               <img
                 src={organisation3}
                 alt=""
