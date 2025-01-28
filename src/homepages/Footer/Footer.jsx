@@ -400,6 +400,40 @@ function Footer({ open }) {
           <p className="text-white text-xs tablet:text-base tablet:text-md max-w-xs text-centleftr font-poppins tablet:font-medium ">
             Experience personalized medical care from the comfort of your home.
           </p>
+          <div className=" text-sm tablet:text-2xl mt-4 text-white flex gap-2 tablet:gap-3 laptop:gap-5">
+            <Link
+              target="_blank"
+              to="https://www.facebook.com/EverlifeCPC"
+              className="hover:text-sky-600"
+            >
+              <FontAwesomeIcon icon={faFacebook} />
+            </Link>
+            <Link
+              target="_blank"
+              to="https://www.instagram.com/everlife_cpc_diagnostics/"
+            >
+              <FontAwesomeIcon
+                className="hover:text-red-500"
+                icon={faInstagram}
+              />
+            </Link>
+            <Link
+              to="https://www.linkedin.com/company/everlife-cpc-diagnostics/"
+              className="hover:text-sky-600"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </Link>
+            <Link
+              target="_blank"
+              to="https://www.youtube.com/@everlife-cpcdiagnostics"
+            >
+              <FontAwesomeIcon
+                className="hover:text-red-500"
+                icon={faYoutube}
+              />
+            </Link>
+          </div>
         </div>
         {/* col 2 */}
         <div
@@ -518,7 +552,7 @@ function Footer({ open }) {
 
           {/* <Link to="/" className="text-xs tablet:text-lg  hover:text-black"> */}
 
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 text-xs tablet:text-lg">
             <p className="max-w-xs">
               {" "}
               4th floor, Westminster, 108, Dr.Radhakrishnan Salai, Mylapore,
@@ -538,8 +572,8 @@ function Footer({ open }) {
       </div>
 
       <div className="h-[1px] w-[90%] flex justify-center items-center text-center bg-custom-green mx-auto mt-4"></div>
-      <div className="mt-2 flex justify-around  tablet:justify-between tablet:mt-4 tablet:pl-16 tablet:pr-16">
-        <div className="text-sm tablet:text-2xl text-white flex gap-3 tablet:gap-3 laptop:gap-5">
+      <div className="mt-2 flex flex-col justify-center items-center  tablet:justify-center tablet:mt-4 tablet:pl-16 tablet:pr-16">
+        {/* <div className="text-sm tablet:text-2xl text-white flex gap-2 tablet:gap-3 laptop:gap-5">
           <Link
             target="_blank"
             to="https://www.facebook.com/EverlifeCPC"
@@ -569,11 +603,42 @@ function Footer({ open }) {
           >
             <FontAwesomeIcon className="hover:text-red-500" icon={faYoutube} />
           </Link>
+        </div> */}
+        <div className="text-center py-6">
+          <ul className="flex justify-center text-xs tablet:text-base space-x-8">
+            <li>
+              <a href="/cookie-policy" className="text-white hover:underline">
+                Cookie Policy
+              </a>
+            </li>
+            <li>
+              <a href="/privacy-policy" className="text-white hover:underline">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a
+                href="/terms-and-conditions"
+                className="text-white hover:underline"
+              >
+                Terms & Conditions
+              </a>
+            </li>
+            <li>
+              <a
+                href="/corporate-social-responsibility"
+                className="text-white hover:underline"
+              >
+                Corporate Social Responsibility (CSR)
+              </a>
+            </li>
+          </ul>
         </div>
         <div className="text-xs text-white tablet:text-base font-poppins font-normal">
           <p>Everlife CPC {new Date().getFullYear()} © All Rights Reserved</p>
         </div>
       </div>
+
       <p className="text-[1px] tablet:text-[6px] relative bottom-0 flex justify-center items-center text-[#00735D]">
         Prassad Raj
       </p>

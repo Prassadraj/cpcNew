@@ -209,9 +209,9 @@ function ProductInfo() {
               to={`/product/${decodedCategory}/top`}
               onClick={() => setSelectedCategory(category)}
             >
-              <span>/ {category}</span>
+              <span>/ {category}/ </span>
             </Link>
-            <span className="">/ {product.title}</span>
+            <span className="font-medium"> {product.title}</span>
           </div>
           {/* mobile */}
           <div className=" mb-3 text-lg cursor-pointer  px-2 w-full sm:hidden">
@@ -321,12 +321,14 @@ function ProductInfo() {
                     />
                   ))}
                 </div>
-                <div className="hidden laptop:w-[60%] w-full tablet:w-[70%] laptop:h-[300px]  tablet:flex justify-center">
+                <div className="hidden relative laptop:w-[60%] w-full tablet:w-[70%] laptop:h-[300px]  tablet:flex justify-center">
+                  <p className="absolute top-1/2 -left-10">left</p>
                   <img
                     src={imgUrl}
                     alt="Descriptive text"
                     className="rounded-md h-full object-cover"
                   />
+                  <p className="absolute top-1/2 -right-10">right</p>
                 </div>
                 {/* <div className="hidden laptop:w-[60%] w-full tablet:w-[70%]  tablet:max-h-[80%] tablet:flex justify-center">
                   <img
@@ -403,7 +405,7 @@ function ProductInfo() {
 
             <div className="flex border-2 laptop:mb-[4rem]">
               {tabs[selectedTab].submenu && (
-                <div className="w-44 tablet:px-2 px-2 tablet:text-base text-sm flex flex-col items-start border-r tablet:pr-4">
+                <div className="w-44 tablet:px-2 p-3 px-2 tablet:text-base text-sm flex flex-col items-start border-r tablet:pr-4">
                   {tabs[selectedTab].submenu.map((submenuItem, index) => (
                     <div
                       key={index}
@@ -428,7 +430,7 @@ function ProductInfo() {
                 } text-base largeLaptop:text-2xl`}
               >
                 {tabs[selectedTab].submenu ? (
-                  <p className="rounded tablet:p-4 p-2">
+                  <p className="rounded tablet:p-4 p-4">
                     {tabs[selectedTab].submenu[selectedMenuItem].content}
                   </p>
                 ) : (
@@ -594,14 +596,14 @@ function ProductInfo() {
                     >
                       <div
                         key={idx}
-                        className="min-w-[200px] h-72 p-4 flex flex-col items-center border border-gray-300 rounded-md"
+                        className="min-w-[200px] h-72 tablet:h-60 tablet:p-0 p-3 flex flex-col items-center border-[1px] border-custom-green rounded-md mb-2"
                       >
                         <img
                           src={related.image[0]}
                           alt=""
                           className="rounded-md h-40 object-cover w-full"
                         />
-                        <p className="text-center text-gray-700 capitalize mt-2 line-clamp-3 text-sm md:text-lg">
+                        <p className="text-center text-gray-700 capitalize mt-2 line-clamp-2 text-sm tablet:text-sm">
                           {related.title}
                         </p>
                       </div>
