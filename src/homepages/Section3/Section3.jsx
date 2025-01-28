@@ -66,7 +66,7 @@ function Section3() {
           </div>
           <div className=" ">
             <p
-              className="laptop:max-w-2xl tablet:max-w-lg max-w-sm leading-6 text-justify text-sm tablet:tracking-wider capitalize
+              className="laptop:max-w-2xl tablet:max-w-lg  w-full leading-6 text-justify text-sm tablet:tracking-wider capitalize
             largeLaptop:text-xl"
             >
               At Everlife CPC Diagnostics, we lead the healthcare industry with
@@ -111,7 +111,7 @@ function Section3() {
           </div>
           <div className=" ">
             <p
-              className="laptop:max-w-2xl tablet:max-w-lg max-w-sm leading-6 text-justify text-sm tablet:tracking-wider capitalize
+              className="laptop:max-w-2xl tablet:max-w-lg w-full leading-6 text-justify text-sm tablet:tracking-wider capitalize
             largeLaptop:text-xl"
             >
               We manufacture and supply advanced laboratory instruments and

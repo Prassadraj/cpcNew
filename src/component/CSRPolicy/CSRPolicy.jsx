@@ -159,222 +159,108 @@ const CSRPolicy = () => {
               {" "}
               Member of the CSR Committee
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mt-10">
-              <div className="border-solid border-2 shadow-md p-5 bg-cover bg-no-repeat ">
-                <img
-                  src={md1}
-                  alt="Chairman & Managing Director"
-                  className="w-full h-auto rounded-md drop-shadow-custom-drop-shadow"
-                />
-                <div className="border-t-4 ">
-                  <h2 className="font-bold text-black text-left text-xl mt-4">
-                    R. Panchanath,
-                  </h2>
-                  <p className="text-maincol text-sm mt-1 font-semibold">
-                    Chairman & Managing Director
-                  </p>
-                  <p className="mt-2">
-                    Mr. R. Panchanath joined CPC after an eight-year stint in
-                    Indian Bank as an officer.....
-                  </p>
-                  <button
-                    className=" border-2 text-maincol p-2 rounded-md float-right mt-4 hover:border-2 hover: hover:bg-maincol hover:text-white hover:transition-all animate-bounce"
-                    onClick={() => togglePopup("card1")}
-                  >
-                    Read more
-                  </button>
-                </div>
-                {visiblePopups.card1 && (
-                  <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-                    <div className="bg-white rounded-lg shadow-lg p-6 max-w-5xl">
-                      <h2 className="text-xl font-bold mb-4 text-black">
-                        More About R. Panchanath
-                      </h2>
-                      <p className="text-lg text-justify">
-                        Mr. R. Panchanath joined CPC after an eight-year stint
-                        in Indian Bank as an officer. He has guided the firm for
-                        its financial needs, while using his marketing skills to
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-10">
+              {[...Array(4).keys()].map((_, index) => (
+                <div
+                  key={index}
+                  className="border-solid tablet:h-[550px] border-2 shadow-md py-4 px-4 bg-cover bg-no-repeat flex flex-col justify-between"
+                >
+                  <img
+                    src={
+                      index === 0
+                        ? md1
+                        : index === 1
+                        ? md4
+                        : index === 2
+                        ? md5
+                        : md3
+                    }
+                    alt="Director"
+                    className="w-full h-auto rounded-md drop-shadow-md"
+                  />
+                  <div className="border-t-4 mt-4 pt-4">
+                    <h2 className="font-bold text-black text-left text-xl">
+                      {index === 0
+                        ? "R. Panchanath"
+                        : index === 1
+                        ? "Bhuvana Panchanath"
+                        : index === 2
+                        ? "Fabian Chua"
+                        : "Chermayn Chan"}
+                    </h2>
+                    <p className="text-maincol text-sm mt-1 font-semibold">
+                      {index === 0 || index === 1
+                        ? "Chairman & Managing Director"
+                        : "Director"}
+                    </p>
+                    <p className="mt-2 text-justify">
+                      {index === 0
+                        ? "Mr. R. Panchanath joined CPC after an eight-year stint in Indian Bank as an officer..."
+                        : index === 1
+                        ? "Ms. Bhuvana Panchanath joined CPC after many years of managing bunches of ebullient school children..."
+                        : index === 2
+                        ? "Fabian has experience across private equity and M&A in Asia Pacific..."
+                        : "Chermayn has spent 14 years working in the healthcare industry throughout the region."}
+                    </p>
+                    <button
+                      className="border-2 text-maincol p-2 rounded-md mt-4 hover:border-2 hover:bg-maincol hover:text-white hover:transition-all"
+                      onClick={() => togglePopup(`card${index + 1}`)}
+                    >
+                      Read more
+                    </button>
+                  </div>
+                  {visiblePopups[`card${index + 1}`] && (
+                    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                      <div className="bg-white rounded-lg shadow-lg p-6 max-w-5xl">
+                        <h2 className="text-xl font-bold mb-4 text-black">
+                          More About{" "}
+                          {index === 0
+                            ? "R. Panchanath"
+                            : index === 1
+                            ? "Bhuvana Panchanath"
+                            : index === 2
+                            ? "Fabian Chua"
+                            : "Chermayn Chan"}
+                        </h2>
+                        <p className="text-lg text-justify">
+                          {index === 0
+                            ? ` Mr. R. Panchanath joined CPC after an eight-year stintin Indian Bank as an officer. He has guided the firm for
+its financial needs, while using his marketing skills to
                         good use in establishing substantial business for the
                         company in Tamil Nadu & Andhra Pradesh. He is a
                         self-taught electronics expert who nurtured and
-                        developed our customer support division.
-                      </p>
-                      <button
-                        className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
-                        onClick={() => togglePopup("card1")}
-                      >
-                        Close
-                      </button>
-                    </div>
-                  </div>
-                )}
-              </div>
-
-              <div className="border-solid border-2 shadow-md p-5  bg-cover bg-no-repeat">
-                <img
-                  src={md4}
-                  alt="Chairman & Managing Director"
-                  className="w-full h-auto rounded-md"
-                />
-                <div className="border-t-4 ">
-                  <h2 className="font-bold text-black text-left text-xl mt-4">
-                    Bhuvana Panchanath,{" "}
-                  </h2>
-                  <p className="text-maincol text-sm mt-1 font-semibold">
-                    Director
-                  </p>
-                  <p className="mt-2">
-                    Ms. Bhuvana Panchanath joined CPC after many years of
-                    managing bunches of ebullient school children...
-                  </p>
-                  <button
-                    className=" border-2 text-maincol p-2 rounded-md float-right mt-4 hover:border-2 hover: hover:bg-maincol hover:text-white hover:transition-all animate-bounce"
-                    onClick={() => togglePopup("card2")}
-                  >
-                    Read more
-                  </button>
-                </div>
-
-                {visiblePopups.card2 && (
-                  <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-                    <div className="bg-white rounded-lg shadow-lg p-6 max-w-5xl">
-                      <h2 className="text-xl font-bold mb-4 text-black">
-                        More About Bhuvana Panchanath,
-                      </h2>
-                      <p className="text-lg">
-                        Ms. Bhuvana Panchanath joined CPC after many years of
+                        developed our customer support division.`
+                            : index === 1
+                            ? ` Ms. Bhuvana Panchanath joined CPC after many years of
                         managing bunches of ebullient school children. With her
                         skills in interpersonal relationships she has
                         efficiently built an effective and “quick response”
                         team. With her vast experience in the business for more
                         than 3 decades, Ms. Bhuvana drives the team to achieve
-                        and uphold the values of the organisation.
-                      </p>
-                      <button
-                        className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
-                        onClick={() => togglePopup("card2")}
-                      >
-                        Close
-                      </button>
-                    </div>
-                  </div>
-                )}
-              </div>
-
-              <div className="border-solid border-2 shadow-md p-5  bg-cover bg-no-repeat">
-                <img
-                  src={md5}
-                  alt="Chairman & Managing Director"
-                  className="w-full h-auto rounded-md"
-                />
-                <div className="border-t-4 ">
-                  <h2 className="font-bold text-black text-left text-xl mt-4">
-                    Fabian Chua,{" "}
-                  </h2>
-                  <p className="text-maincol text-sm mt-1 font-semibold">
-                    Director
-                  </p>
-                  <p className="mt-2">
-                    Fabian has experience across private equity and M&A in Asia
-                    Pacific.....
-                  </p>
-                  <button
-                    className=" border-2 text-maincol p-2 rounded-md float-right mt-4 hover:border-2 hover: hover:bg-maincol hover:text-white hover:transition-all animate-bounce"
-                    onClick={() => togglePopup("card3")}
-                  >
-                    Read more
-                  </button>
-                </div>
-                {visiblePopups.card3 && (
-                  <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-                    <div className="bg-white rounded-lg shadow-lg p-6 max-w-5xl">
-                      <h2 className="text-xl font-bold mb-4 text-black">
-                        More About Fabian Chua
-                      </h2>
-                      <p className="text-lg">
-                        Fabian has experience across private equity and M&A in
-                        Asia Pacific.
-                        <br />
-                        <br />
-                        Prior to joining Everlife, he was an associate with Hera
-                        Capital Partners, a Singapore-based private equity firm
-                        focused on investments in the consumer retail, media,
-                        and digital sectors of Southeast Asia.
-                        <br />
-                        <br />
-                        He has a Bachelor’s Degree in Business Administration
-                        from National University of Singapore and is a CFA
-                        Charterholder.
-                      </p>
-                      <button
-                        className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
-                        onClick={() => togglePopup("card3")}
-                      >
-                        Close
-                      </button>
-                    </div>
-                  </div>
-                )}
-              </div>
-
-              <div className="border-solid border-2 shadow-md p-5  bg-cover bg-no-repeat">
-                <img
-                  src={md3}
-                  alt="Chairman & Managing Director"
-                  className="w-full h-auto rounded-md"
-                />
-                <div className="border-t-4 ">
-                  <h2 className="font-bold text-xl text-black text-left mt-4">
-                    Chermayn Chan,
-                  </h2>
-                  <p className="text-maincol text-sm mt-1 font-semibold">
-                    Director
-                  </p>
-                  <p className="mt-2">
-                    Chermayn has spent 14 years working in the healthcare
-                    industry throughout the region.
-                  </p>
-                  <button
-                    className=" border-2 text-maincol p-2 rounded-md float-right mt-4 hover:border-2 hover: hover:bg-maincol hover:text-white hover:transition-all animate-bounce"
-                    onClick={() => togglePopup("card4")}
-                  >
-                    Read more
-                  </button>
-                </div>
-
-                {visiblePopups.card4 && (
-                  <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-                    <div className="bg-white rounded-lg shadow-lg p-6 max-w-5xl">
-                      <h2 className="text-xl font-bold mb-4 text-black">
-                        More About Chermayn Chan
-                      </h2>
-                      <p className="text-lg">
-                        Chermayn has spent 14 years working in the healthcare
+                        and uphold the values of the organisation.`
+                            : index === 2
+                            ? `Fabian has experience across private equity and M&A in Asia Pacific. Prior to joining Everlife, he was an associate with Hera Capital Partners, a Singapore-based private equity firm focused on investments in the consumer retail, media, and digital sectors of Southeast Asia. He has a Bachelor’s Degree in Business Administration from National University of Singapore and is a CFA Charterholder.`
+                            : `  Chermayn has spent 14 years working in the healthcare
                         industry throughout the region. She started her career
                         in market research, before joining the Sanofi Business
                         Development team leading regional asset licensing
-                        projects.
-                        <br />
-                        <br />
-                        In 2010, she moved to China to manage Sanofi’s
+                        projects. In 2010, she moved to China to manage Sanofi’s
                         outsourced portfolio and lead license-in projects. Prior
                         to joining Everlife, she was Director of Operations for
-                        a genetic testing start-up in Shanghai.
-                        <br />
-                        <br />
-                        Chermayn graduated from the University of Pennsylvania
-                        with a double major in Biology and Economics.
-                      </p>
-                      <button
-                        className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
-                        onClick={() => togglePopup("card4")}
-                      >
-                        Close
-                      </button>
+                        a genetic testing start-up in Shanghai.  Chermayn graduated from the University of Pennsylvania
+                        with a double major in Biology and Economics.`}
+                        </p>
+                        <button
+                          className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+                          onClick={() => togglePopup(`card${index + 1}`)}
+                        >
+                          Close
+                        </button>
+                      </div>
                     </div>
-                  </div>
-                )}
-              </div>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
 

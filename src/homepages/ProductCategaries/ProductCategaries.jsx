@@ -47,22 +47,34 @@ const categoryItems2 = [
   { name: "Electrolyte Analyzer", image: covid },
   // { name: "Clinical Microbiology", image: electrolyte },
 ];
+const mobile = [
+  // { name: "COVID-19", image: covid },
+  { name: "Biochemistry", image: BioChemistry },
+  { name: "Clinical Microbiology", image: electrolyte },
+  { name: "Immunology", image: Immunology },
+  { name: "Molecular Diagnostics", image: BioChemistry },
+  { name: "Point of Care", image: care },
+  { name: "Electrolyte Analyzer", image: covid },
+
+  { name: "Pre-Analytical Automation", image: PreAnalytical },
+  { name: "Hematology", image: electrolyte },
+];
 
 function ProductCategaries() {
   const { setSelectedCategory } = useContext(CategoryContext);
 
   return (
-    <div className="laptop:mt-[170px] tablet:mt-[100px] largeLaptop:mt-[2rem] ">
+    <div className="laptop:mt-[170px] tablet:mt-[100px] largeLaptop:mt-[2rem] mb-20 tablet:mb-0">
       {/* mobile */}
       <div className="mb-4 tablet:hidden h-fit w-full flex items-center justify-around font-poppins sm:px-4 px-2 gap-10">
-        <div className="text-2xl font-semibold text-custom-green w-1/2">
+        <div className="text-4xl font-semibold text-custom-green w-1/2">
           <p> Product</p>
           <p>Categories</p>
-          <p className="text-xs font-thin text-gray-700 mt-2">
+          <p className="text-sm font-thin text-gray-700 mt-2">
             Explore our diverse range of laboratory equipment for all your
             medical and diagnostic needs.
           </p>
-          <p className="mt-2 text-white p-1 text-sm bg-sky-400 font-poppins rounded-md font-medium hover:scale-90 transition-all shadow-md text-center">
+          <p className="mt-3 text-white p-2 text-sm bg-green-600 w-fit font-poppins rounded-md font-medium hover:scale-90 transition-all shadow-md text-center">
             Explore Products
           </p>
         </div>

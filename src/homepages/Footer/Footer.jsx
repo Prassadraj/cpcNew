@@ -33,7 +33,7 @@ function Footer({ open }) {
      "
       >
         {/* col 1 */}
-        <div className="flex items-start flex-col gap-2 tablet:mt-20 col1">
+        <div className="flex items-start flex-col gap-3 tablet:mt-16 col1">
           <Link to="/">
             <div className="glassy-effect-container">
               <svg
@@ -400,7 +400,7 @@ function Footer({ open }) {
           <p className="text-white text-base tablet:text-base tablet:text-md max-w-xs text-centleftr font-poppins tablet:font-medium ">
             Experience personalized medical care from the comfort of your home.
           </p>
-          <p className="text-white font-semibold mt-4">Follow Us</p>
+          <p className="text-white font-semibold mt-3">Follow Us</p>
           <div className=" text-xl tablet:text-2xl mt-1 tablet:mt-2 text-white flex gap-3 tablet:gap-3 laptop:gap-5">
             <Link
               target="_blank"
@@ -437,7 +437,7 @@ function Footer({ open }) {
           </div>
         </div>
         {/* col 2 */}
-        <div className="flex flex-row-reverse gap-10">
+        <div className="flex flex-row-reverse justify-around w-full ">
           <div
             className="flex  flex-col items-start mt-16 font-poppins gap-2 col2"
             ref={col2Ref}
