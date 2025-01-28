@@ -524,11 +524,7 @@ function Brand() {
                 data-aos="flip-left"
                 data-aos-easing="ease-in-out"
               >
-                <img
-                  src={itrack}
-                  alt=""
-                  className="w-full rounded-lg shadow-lg "
-                />
+                <img src={itracknew} alt="" className="w-full rounded-lg  " />
               </div>
               {/* content 2 */}
               <div
