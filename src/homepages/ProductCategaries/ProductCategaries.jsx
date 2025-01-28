@@ -24,11 +24,13 @@ const categoryItems = [
   // { name: "COVID-19", image: mask },
   { name: "Immunology", image: microbiology },
   { name: "Electrolyte Analyzer", image: covid },
-  { name: "Clinical Microbiology", image: electrolyte },
+  // { name: "Clinical Microbiology", image: electrolyte },
   { name: "Pre-Analytical Automation", image: heamatology },
   { name: "Immunology", image: microbiology },
   { name: "Hematology", image: pieChart },
   { name: "Point of Care", image: medicine },
+  { name: "Electrolyte Analyzer", image: covid },
+  { name: "Pre-Analytical Automation", image: heamatology },
 ];
 
 const categoryItems2 = [
@@ -36,11 +38,13 @@ const categoryItems2 = [
   { name: "Immunology", image: Immunology },
   { name: "Point of Care", image: care },
   { name: "Electrolyte Analyzer", image: covid },
-  { name: "Clinical Microbiology", image: electrolyte },
+  // { name: "Clinical Microbiology", image: electrolyte },
   { name: "Biochemistry", image: BioChemistry },
   { name: "Pre-Analytical Automation", image: PreAnalytical },
   { name: "Point of Care", image: care },
-  { name: "Clinical Microbiology", image: electrolyte },
+  { name: "Immunology", image: Immunology },
+  { name: "Electrolyte Analyzer", image: covid },
+  // { name: "Clinical Microbiology", image: electrolyte },
 ];
 
 function ProductCategaries() {
@@ -120,7 +124,11 @@ function ProductCategaries() {
                 >
                   {categoryItems2.map((item) => (
                     <Link
-                      to={`/product/${item.name}/top`}
+                      to={`/product/${
+                        item.name.includes(" ")
+                          ? item.name.split(" ").join("")
+                          : item.name
+                      }/top`}
                       onClick={() => setSelectedCategory(item.name)}
                     >
                       <Magnetic key={item.name}>

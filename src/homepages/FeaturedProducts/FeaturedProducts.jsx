@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
 import image1 from "../../component/AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
-import image2 from "../../component/AllDatas/ProductImages/Hematology/SedratePro/product1.webp";
+import image2 from "../../component/AllDatas/ProductImages/Hematology/SedratePro/Sedrate Pro.webp";
 import image3 from "../../component/AllDatas/ProductImages/Immunology/Iflash1200/product1.webp";
 import image4 from "../../component/AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
 import image5 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ II/product1.webp";
@@ -12,8 +12,10 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Magnetic from "../../component/magneticButton/Magnetic";
 import { Link } from "react-router-dom";
+import { CategoryContext } from "../../component/Context/CategoryContext";
 
 const FeaturedProducts = () => {
+  const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -41,7 +43,7 @@ const FeaturedProducts = () => {
   }, []);
 
   return (
-    <div className="laptop:mb-20 ">
+    <div className="laptop:mb-20 laptop:mt-[200px]">
       <div className="mb-2 flex h-10 items-center tablet:pl-24 flex-col tablet:gap-4 heading p-2 text-center">
         <span className=" font-semibold text-xl tablet:text-4xl uppercase  font-poppins text-custom-green">
           Featured Products
@@ -139,6 +141,7 @@ const Card = ({ card }) => {
         <div className="flex justify-center items-center">
           <Magnetic>
             <button
+              onClick={() => setSelectedCategory(card.category)}
               className="text-xs laptop:text-base largeLaptop:text-xl w-fit tablet:w-72 border-1
              p-0.5 tablet:px-3 tablet:py-2 rounded-lg text-custom-green border-custom-green"
             >
