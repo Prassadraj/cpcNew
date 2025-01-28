@@ -14,6 +14,7 @@ import jeev2 from "../../../src/images/jeev-2.jpg";
 import jeev3 from "../../../src/images/jeev-3.jpg";
 import plexmat from "../AllDatas/ProductImages/Immunology/Plexmat4/Plexmat 4.webp";
 import itrack1 from "../../../src/images/itrack1.jpg";
+import itracknew from "../../assets/i-track.png";
 import cpcmanufacturingunit from "../../../src/assets/image/cpcmanufacturingunit.jpg";
 
 import Aos from "aos";
