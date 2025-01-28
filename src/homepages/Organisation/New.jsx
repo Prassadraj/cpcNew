@@ -84,7 +84,7 @@ function New() {
     <>
       <Heading />
       <div
-        className="container1 h-[300vh]  laptop::flex justify-around tablet:gap-5
+        className="container1 h-[300vh]  laptop:flex justify-around tablet:gap-5
          largeLaptop:gap-0 hidden laptop:mb-[6rem]
       largeLaptop:mb-[0rem]"
       >
