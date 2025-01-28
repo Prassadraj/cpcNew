@@ -15,12 +15,13 @@ import "./productInfo.css";
 import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faArrowRight,
   faBars,
   faEnvelopesBulk,
   faMessage,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
-
+import { IoIosArrowForward } from "react-icons/io";
 import frame1 from "../../images/products/frame1.png";
 
 import { faBloggerB } from "@fortawesome/free-brands-svg-icons";
@@ -193,7 +194,7 @@ function ProductInfo() {
         <Loader />
       ) : (
         <div className="product-info text-black overflow-hidden mt-2 font-poppins">
-          <div className="hidden tablet:flex mb-3 laptop:mt-4 text-base tablet:text-lg cursor-pointer  px-5 w-full md:px-5">
+          <div className="hidden tablet:flex mb-3 laptop:mt-4 text-base tablet:text-base cursor-pointer  px-5 w-full md:px-5">
             <span className="">
               <Link
                 onClick={() => {
@@ -245,7 +246,7 @@ function ProductInfo() {
           {/* /sidemenu */}
           <div className="flex px-5 gap-5 sidebar">
             <div
-              className={`sm:w-[25%] sidebar bg-white border rounded-md shadow-md  p-1 md:py-2 md:px-4 md:sticky top-0
+              className={`sm:w-[25%] sidebar bg-white border rounded-md shadow-md  p-1 md:py-2 md:px-4 md:sticky top-2
                  laptop:h-[80vh] largeLaptop:h-[50vh] tablet:h-[60vh] overflow-y-auto z-10  ${
                    open
                      ? "fixed top-16 inset-0 w-[80%] h-full overflow-y-auto z-20"
@@ -322,13 +323,14 @@ function ProductInfo() {
                   ))}
                 </div>
                 <div className="hidden relative laptop:w-[60%] w-full tablet:w-[70%] laptop:h-[300px]  tablet:flex justify-center">
-                  <p className="absolute top-1/2 -left-10">left</p>
+                  <IoIosArrowForward className=" text-xl absolute top-1/2 rotate-180 -left-10 cursor-pointer" />
                   <img
                     src={imgUrl}
                     alt="Descriptive text"
                     className="rounded-md h-full object-cover"
                   />
-                  <p className="absolute top-1/2 -right-10">right</p>
+
+                  <IoIosArrowForward className="text-xl absolute top-1/2 -right-10 cursor-pointer" />
                 </div>
                 {/* <div className="hidden laptop:w-[60%] w-full tablet:w-[70%]  tablet:max-h-[80%] tablet:flex justify-center">
                   <img
@@ -354,7 +356,7 @@ function ProductInfo() {
                     {product.description}
                   </p>
                   <p
-                    className={`text-custom-green text-base`}
+                    className={`text-custom-green text-base cursor-pointer`}
                     onClick={() => setShowLine((prev) => !prev)}
                   >
                     {showLine ? "read more" : "read less"}
@@ -596,7 +598,7 @@ function ProductInfo() {
                     >
                       <div
                         key={idx}
-                        className="min-w-[200px] h-72 tablet:h-60 tablet:p-0 p-3 flex flex-col items-center border-[1px] border-custom-green rounded-md mb-2"
+                        className="min-w-[200px] h-60 tablet:h-60 tablet:p-0 p-3 flex flex-col items-center border-[1px] border-custom-green rounded-md mb-2"
                       >
                         <img
                           src={related.image[0]}
@@ -627,7 +629,7 @@ function ProductInfo() {
           )}
           {/* Frequently Asked Questions */}
           <div className="py-6 border-1 bg-[#EEEEEE] mb-4 tablet:mt-32">
-            <p className="text-center text-2xl mb-4">
+            <p className="text-center text-xl font-semibold mb-4">
               Frequently Asked Questions
             </p>
             <div className="flex justify-center">
@@ -638,16 +640,16 @@ function ProductInfo() {
                     className="p-2 mb-2 rounded bg-white shadow-md"
                   >
                     <div
-                      className="flex justify-between items-center text-xl bg-[#F5F7FA] p-2 rounded cursor-pointer"
+                      className="flex justify-between items-center text-base bg-[#F5F7FA] p-2 rounded cursor-pointer"
                       onClick={() => toggleInfo(index)}
                     >
                       <p>{faq.question}</p>
-                      <button className="text-black font-bold text-2xl">
+                      <button className="text-black font-bold text-xl">
                         {showInfo === index ? "-" : "+"}
                       </button>
                     </div>
                     {showInfo === index && (
-                      <ul className="list-disc list-inside ml-4 mt-2 text-lg">
+                      <ul className="list-disc list-inside ml-4 mt-2 text-base">
                         {faq.answers.map((answer, i) => (
                           <li key={i}>{answer}</li>
                         ))}

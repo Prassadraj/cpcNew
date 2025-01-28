@@ -172,7 +172,7 @@ function Product() {
                 <p className="text-2xl largeLaptop:text-3xl font-poppins font-semibold mb-3 text-left text-black">
                   {selectedCategory}
                 </p>
-                <div className="grid  justify-around items-center tablet:grid-cols-3 tablet:gap-2 grid-cols-2 laptop:grid-cols-5 tablet:mb-4">
+                <div className="grid w-full justify-start  items-center tablet:grid-cols-3 tablet:gap-2 grid-cols-2 laptop:flex laptop:space-x-8 tablet:mb-4">
                   {headingSection.map((sectionCategoryItem, i) => (
                     <p
                       key={i}
@@ -184,7 +184,7 @@ function Product() {
                         sectionCategoryItem.split(" ").join("").toLowerCase()
                           ? "font-bold text-custom-green"
                           : "font-medium"
-                      }   text-xs hover:text-custom-green transition-all ease-in duration-75 hover:font-bold tablet:text-base largeLaptop:text-lg capitalize  text-nowrap cursor-pointer mb-2`}
+                      }   text-xs w-fit hover:text-custom-green transition-all ease-in duration-75 hover:font-bold tablet:text-sm largeLaptop:text-lg capitalize text-left text-nowrap cursor-pointer mb-2`}
                     >
                       {sectionCategoryItem}
                     </p>
@@ -255,8 +255,8 @@ function Product() {
               </div>
             </div>
           </section>
-          <div className="grid grid-cols-1 sm:grid-cols-2 laptop:grid-cols-3 gap-2 tablet:mt-4 mt-2 tablet:mb-4 tablet:px-5 py-5 px-2">
-            <Link to="">
+          <div className="grid tablet:h-[100px] h-fit grid-cols-1 sm:grid-cols-2 laptop:grid-cols-3 gap-2 tablet:mt-4 mt-2 tablet:mb-4 tablet:px-5 py-5 px-2">
+            <Link to="/contact">
               <div className="p-[10px] pl-8 bg-[#00735D] text-white rounded-md flex flex-col gap-1">
                 <div className="flex gap-2">
                   <div className="flex items-center">
@@ -270,30 +270,34 @@ function Product() {
                 <div>Get concise assistance here</div>
               </div>
             </Link>
-            <div className="p-[10px] pl-8  bg-gradient-to-r from-[#00735D] to-[#01A786] text-white rounded-md flex flex-col gap-1">
-              <div className="flex gap-2">
-                <div className="flex items-center">
-                  <FontAwesomeIcon
-                    icon={faEnvelopesBulk}
-                    className="text-2xl text-white"
-                  />
+            <Link to="/contact">
+              <div className="p-[10px] pl-8  bg-gradient-to-r from-[#00735D] to-[#01A786] text-white rounded-md flex flex-col gap-1">
+                <div className="flex gap-2">
+                  <div className="flex items-center">
+                    <FontAwesomeIcon
+                      icon={faEnvelopesBulk}
+                      className="text-2xl text-white"
+                    />
+                  </div>
+                  <div className="text-lg">Enquiry mail us?</div>
                 </div>
-                <div className="text-lg">Enquiry mail us?</div>
+                <div>Mail us today for Enquiries</div>
               </div>
-              <div>Mail us today for Enquiries</div>
-            </div>
-            <div className="p-[10px] pl-8 bg-[#01A786] text-white rounded-md flex flex-col gap-1">
-              <div className="flex gap-2">
-                <div className="flex items-center">
-                  <FontAwesomeIcon
-                    icon={faBloggerB}
-                    className="text-2xl text-white"
-                  />
+            </Link>
+            <Link className="/blog">
+              <div className="p-[10px] pl-8 bg-[#01A786] text-white rounded-md flex flex-col gap-1">
+                <div className="flex gap-2">
+                  <div className="flex items-center">
+                    <FontAwesomeIcon
+                      icon={faBloggerB}
+                      className="text-2xl text-white"
+                    />
+                  </div>
+                  <div className="text-lg">Our blogs</div>
                 </div>
-                <div className="text-lg">Our blogs</div>
+                <div>Get our latest blogs</div>
               </div>
-              <div>Get our latest blogs</div>
-            </div>
+            </Link>
           </div>
           <Footer />
         </div>

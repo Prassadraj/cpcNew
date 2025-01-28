@@ -24,6 +24,9 @@ import { CategoryContext } from "./component/Context/CategoryContext";
 import Google from "./component/Google/Google";
 import PopupForm from "./component/PopupForm/PopupForm";
 import GoogleLanding from "./component/GoogleLanding/GoogleLanding";
+import CookiePolicy from "./component/Policy/CookiePolicy/CookiePolicy";
+import PrivacyPolicy from "./component/Policy/PrivacyPolicy/PrivacyPolicy";
+import TermsAndConditions from "./component/Policy/TermsAndConditions/TermsAndContions/TermsAndConditions";
 
 function App() {
   const location = useLocation();
@@ -66,6 +69,9 @@ function App() {
           <Route path="/blog/:id" element={<SingleBlog />} />
           <Route path="/productinfo/:category/:id" element={<ProductInfo />} />
           <Route path="/new" element={<New />} />
+          <Route path="/cookiepolicy" element={<CookiePolicy />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+          <Route path="/termsandcontion" element={<TermsAndConditions />} />
         </Routes>
       </AnimatePresence>
     </>

@@ -12,7 +12,7 @@ import sachika3 from "../../../src/images/sachika-4.jpg";
 import jeev1 from "../../../src/images/jeev-1.jpg";
 import jeev2 from "../../../src/images/jeev-2.jpg";
 import jeev3 from "../../../src/images/jeev-3.jpg";
-import plexmat from "../../../src/images/plexmat.jpg";
+import plexmat from "../AllDatas/ProductImages/Immunology/Plexmat4/Plexmat 4.webp";
 import itrack1 from "../../../src/images/itrack1.jpg";
 import cpcmanufacturingunit from "../../../src/assets/image/cpcmanufacturingunit.jpg";
 
@@ -192,364 +192,389 @@ function Brand() {
 
   return (
     <>
- {load?<Loader/>:
-      <div className="">
-      <h2 className="text-center text-maincol text-4xl font-semibold mt-10">
-        Our Brands – Everlife CPC Diagnostics Products
-      </h2>
-      <h3
-        className="text-maincol text-4xl font-semibold text-center mt-10"
-        data-aos="fade-up"
-        data-aos-easing="ease-in-out"
-      >
-        <u className="underline-offset-8">Sachika</u>
-      </h3>
-      <div className="grid grid-cols-1 tablet:grid-cols-2 mt-10  p-10 gap-5">
-        {/* content 1 */}
-
-        <div
-          className="text-justify"
-          data-aos="zoom-in"
-          data-aos-easing="ease-in-out"
-        >
-          <h4 className="text-maincol text-2xl mt-10 font-semibold">
-            {content.heading1}
-          </h4>
-          <div className="flex gap-4">
-            <SiTicktick size={170} color="#02a884" className="" />
-            <p className="mt-5 leading-7 text-fontextra">{content.inner1}</p>
-          </div>
-        </div>
-        <div
-          className="flex justify-center"
-          data-aos="zoom-in"
-          data-aos-easing="ease-in-out"
-        >
-          <img
-            src={sachika1}
-            alt=""
-            className="w-full mt-5 rounded-lg shadow-lg "
-          />
-        </div>
-
-        {/* content 2 */}
-        <div
-          className="flex justify-center items-center mt-20"
-          data-aos="flip-right"
-          data-aos-easing="ease-in-out"
-        >
-          <img
-            src={sachika2}
-            alt=""
-            className="w-full h-96 mt-5 rounded-lg shadow-lg "
-          />
-        </div>
-
-        <div
-          className="text-justify"
-          data-aos="flip-right"
-          data-aos-easing="ease-in-out"
-        >
-          <h4 className="text-maincol text-2xl mt-40 font-semibold">
-            {content.heading2}
-          </h4>
-          <div className="flex gap-4">
-            <SiTicktick size={80} color="#02a884" className="mt-4" />
-            <p className=" mt-4 leading-8 text-fontextra">{content.inner2}</p>
-          </div>
-        </div>
-
-        {/* content 3 */}
-        <div
-          className="text-justify"
-          data-aos="flip-left"
-          data-aos-easing="ease-in-out"
-        >
-          <h4 className="text-maincol text-2xl mt-40 font-semibold">
-            {content.heading3}
-          </h4>
-
-          <div className="flex gap-4">
-            <SiTicktick size={150} color="#02a884" className="" />
-            <p className="mt-3 leading-7 text-fontextra">{content.inner3}</p>
-          </div>
-        </div>
-
-        <div
-          className="flex justify-center items-center mt-32"
-          data-aos="flip-left"
-          data-aos-easing="ease-in-out"
-        >
-          <img
-            src={sachika3}
-            alt=""
-            className="w-full h-96 rounded-lg shadow-lg "
-          />
-        </div>
-      </div>
-
-      {/* jeev diagonositcs */}
-      <h3
-        className="text-maincol text-4xl font-semibold mt-10 text-center"
-        data-aos="zoom-in-up"
-        data-aos-easing="ease-in-out"
-      >
-        <u className="underline-offset-8">Jeev Diagnostics</u>
-      </h3>
-      <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5">
-        {/* content 1 */}
-        <div
-          className="text-justify"
-          data-aos="flip-left"
-          data-aos-easing="ease-in-out"
-        >
-          <h4 className="text-maincol text-2xl mt-28 font-semibold">
-            {jeevcon.heading1}
-          </h4>
-          <div className="flex gap-4">
-            <SiTicktick size={140} color="#02a884" className="" />
-            <p className="mt-3 leading-7 text-fontextra">
-              {jeevcon.content1}
-            </p>
-          </div>
-        </div>
-
-        <div
-          className="flex justify-center mt-20"
-          data-aos="flip-left"
-          data-aos-easing="ease-in-out"
-        >
-          <img src={jeev1} alt="" className="w-full rounded-lg shadow-lg " />
-        </div>
-        {/* content 2 */}
-        <div
-          className="flex justify-center mt-20 "
-          data-aos="flip-right"
-          data-aos-easing="ease-in-out"
-        >
-          <img src={jeev2} alt="" className="w-full rounded-lg shadow-lg " />
-        </div>
-
-        <div
-          className="text-justify"
-          data-aos="flip-right"
-          data-aos-easing="ease-in-out"
-        >
-          <h4 className="text-maincol text-2xl mt-28 font-semibold">
-            {jeevcon.heading2}
-          </h4>
-          <div className="flex gap-4">
-            <SiTicktick size={120} color="#02a884" className="" />
-            <p className="mt-3 leading-7 text-fontextra">
-              {jeevcon.content2}
-            </p>
-          </div>
-        </div>
-
-        {/* content 3 */}
-
-        <div
-          className="text-justify"
-          data-aos="flip-left"
-          data-aos-easing="ease-in-out"
-        >
-          <h4 className="text-maincol text-2xl mt-28 font-semibold">
-            {jeevcon.heading3}
-          </h4>
-          <div className="flex gap-4">
-            <SiTicktick size={120} color="#02a884" className="mt-6" />
-            <p className="mt-4 leading-7 text-fontextra">
-              {jeevcon.content3}
-            </p>
-          </div>
-        </div>
-
-        <div
-          className="flex justify-center mt-20"
-          data-aos="flip-left"
-          data-aos-easing="ease-in-out"
-        >
-          <img src={jeev3} alt="" className="w-full rounded-lg shadow-lg " />
-        </div>
-      </div>
-
-      <div className=" p-4">
-        <h3
-          className="text-maincol text-4xl font-semibold mt-10 text-center"
-          data-aos="zoom-in-up"
-          data-aos-easing="ease-in-out"
-        >
-          <u className="underline-offset-8">CPC manufacturing unit</u>
-        </h3>
-        <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5  ">
-          {/* content 1 */}
-          <div
-            className="text-justify"
-            data-aos="flip-left"
+      {load ? (
+        <Loader />
+      ) : (
+        <div className="">
+          <h2 className="text-center text-maincol text-4xl font-semibold mt-10">
+            Our Brands – Everlife CPC Diagnostics Products
+          </h2>
+          <h3
+            className="text-maincol text-4xl font-semibold text-center mt-10"
+            data-aos="fade-up"
             data-aos-easing="ease-in-out"
           >
-            <h4 className="text-maincol text-2xl mt-28 font-semibold">
-              {cpccon.heading1}
-            </h4>
+            <u className="underline-offset-8">Sachika</u>
+          </h3>
+          <div className="grid grid-cols-1 tablet:grid-cols-2 mt-10  p-10 gap-5">
+            {/* content 1 */}
 
-            <div className="flex gap-4">
-              <SiTicktick size={105} color="#02a884" className="" />
-              <p className="mt-3 leading-7 text-fontextra">
-                {cpccon.content1}
-              </p>
+            <div
+              className="text-justify"
+              data-aos="zoom-in"
+              data-aos-easing="ease-in-out"
+            >
+              <h4 className="text-maincol text-2xl mt-10 font-semibold">
+                {content.heading1}
+              </h4>
+              <div className="flex gap-4">
+                <SiTicktick size={170} color="#02a884" className="" />
+                <p className="mt-5 leading-7 text-fontextra">
+                  {content.inner1}
+                </p>
+              </div>
+            </div>
+            <div
+              className="flex justify-center"
+              data-aos="zoom-in"
+              data-aos-easing="ease-in-out"
+            >
+              <img
+                src={sachika1}
+                alt=""
+                className="w-full mt-5 rounded-lg shadow-lg "
+              />
+            </div>
+
+            {/* content 2 */}
+            <div
+              className="flex justify-center items-center mt-20"
+              data-aos="flip-right"
+              data-aos-easing="ease-in-out"
+            >
+              <img
+                src={sachika2}
+                alt=""
+                className="w-full h-96 mt-5 rounded-lg shadow-lg "
+              />
+            </div>
+
+            <div
+              className="text-justify"
+              data-aos="flip-right"
+              data-aos-easing="ease-in-out"
+            >
+              <h4 className="text-maincol text-2xl mt-40 font-semibold">
+                {content.heading2}
+              </h4>
+              <div className="flex gap-4">
+                <SiTicktick size={80} color="#02a884" className="mt-4" />
+                <p className=" mt-4 leading-8 text-fontextra">
+                  {content.inner2}
+                </p>
+              </div>
+            </div>
+
+            {/* content 3 */}
+            <div
+              className="text-justify"
+              data-aos="flip-left"
+              data-aos-easing="ease-in-out"
+            >
+              <h4 className="text-maincol text-2xl mt-40 font-semibold">
+                {content.heading3}
+              </h4>
+
+              <div className="flex gap-4">
+                <SiTicktick size={150} color="#02a884" className="" />
+                <p className="mt-3 leading-7 text-fontextra">
+                  {content.inner3}
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="flex justify-center items-center mt-32"
+              data-aos="flip-left"
+              data-aos-easing="ease-in-out"
+            >
+              <img
+                src={sachika3}
+                alt=""
+                className="w-full h-96 rounded-lg shadow-lg "
+              />
             </div>
           </div>
 
-          <div
-            className="flex justify-center mt-20"
-            data-aos="flip-left"
+          {/* jeev diagonositcs */}
+          <h3
+            className="text-maincol text-4xl font-semibold mt-10 text-center"
+            data-aos="zoom-in-up"
             data-aos-easing="ease-in-out"
           >
-            <img src={cpc} alt="" className="w-full rounded-lg shadow-lg " />
-          </div>
-          {/* content 2 */}
-          <div
-            className="flex justify-center mt-20"
-            data-aos="flip-right"
-            data-aos-easing="ease-in-out"
-          >
-            <img
-              src={cpcmanufacturingunit}
-              alt=""
-              className="w-full rounded-lg shadow-lg "
-            />
-          </div>
+            <u className="underline-offset-8">Jeev Diagnostics</u>
+          </h3>
+          <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5">
+            {/* content 1 */}
+            <div
+              className="text-justify"
+              data-aos="flip-left"
+              data-aos-easing="ease-in-out"
+            >
+              <h4 className="text-maincol text-2xl mt-28 font-semibold">
+                {jeevcon.heading1}
+              </h4>
+              <div className="flex gap-4">
+                <SiTicktick size={140} color="#02a884" className="" />
+                <p className="mt-3 leading-7 text-fontextra">
+                  {jeevcon.content1}
+                </p>
+              </div>
+            </div>
 
-          <div
-            className="text-justify"
-            data-aos="flip-right"
-            data-aos-easing="ease-in-out"
-          >
-            <h4 className="text-maincol text-2xl mt-28 font-semibold">
-              {cpccon.heading2}
-            </h4>
-            <div className="flex gap-4">
-              <SiTicktick size={115} color="#02a884" className="mt-6" />
-              <p className="mt-4 leading-7 text-fontextra">
-                {cpccon.content2}
-              </p>
+            <div
+              className="flex justify-center mt-20"
+              data-aos="flip-left"
+              data-aos-easing="ease-in-out"
+            >
+              <img
+                src={jeev1}
+                alt=""
+                className="w-full rounded-lg shadow-lg "
+              />
+            </div>
+            {/* content 2 */}
+            <div
+              className="flex justify-center mt-20 "
+              data-aos="flip-right"
+              data-aos-easing="ease-in-out"
+            >
+              <img
+                src={jeev2}
+                alt=""
+                className="w-full rounded-lg shadow-lg "
+              />
+            </div>
+
+            <div
+              className="text-justify"
+              data-aos="flip-right"
+              data-aos-easing="ease-in-out"
+            >
+              <h4 className="text-maincol text-2xl mt-28 font-semibold">
+                {jeevcon.heading2}
+              </h4>
+              <div className="flex gap-4">
+                <SiTicktick size={120} color="#02a884" className="" />
+                <p className="mt-3 leading-7 text-fontextra">
+                  {jeevcon.content2}
+                </p>
+              </div>
+            </div>
+
+            {/* content 3 */}
+
+            <div
+              className="text-justify"
+              data-aos="flip-left"
+              data-aos-easing="ease-in-out"
+            >
+              <h4 className="text-maincol text-2xl mt-28 font-semibold">
+                {jeevcon.heading3}
+              </h4>
+              <div className="flex gap-4">
+                <SiTicktick size={120} color="#02a884" className="mt-6" />
+                <p className="mt-4 leading-7 text-fontextra">
+                  {jeevcon.content3}
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="flex justify-center mt-20"
+              data-aos="flip-left"
+              data-aos-easing="ease-in-out"
+            >
+              <img
+                src={jeev3}
+                alt=""
+                className="w-full rounded-lg shadow-lg "
+              />
             </div>
           </div>
 
-          {/* content 3 */}
+          <div className=" p-4">
+            <h3
+              className="text-maincol text-4xl font-semibold mt-10 text-center"
+              data-aos="zoom-in-up"
+              data-aos-easing="ease-in-out"
+            >
+              <u className="underline-offset-8">CPC manufacturing unit</u>
+            </h3>
+            <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5  ">
+              {/* content 1 */}
+              <div
+                className="text-justify"
+                data-aos="flip-left"
+                data-aos-easing="ease-in-out"
+              >
+                <h4 className="text-maincol text-2xl mt-28 font-semibold">
+                  {cpccon.heading1}
+                </h4>
 
-          <div
-            className="text-justify"
-            data-aos="flip-left"
-            data-aos-easing="ease-in-out"
-          >
-            <h4 className="text-maincol text-2xl mt-28 font-semibold">
-              {cpccon.heading3}
-            </h4>
-            <div className="flex gap-4">
-              <SiTicktick size={47} color="#02a884" className="mt-6" />{" "}
-              <p className="mt-4 leading-7 text-fontextra">
-                {cpccon.content3}
-              </p>
+                <div className="flex gap-4">
+                  <SiTicktick size={105} color="#02a884" className="" />
+                  <p className="mt-3 leading-7 text-fontextra">
+                    {cpccon.content1}
+                  </p>
+                </div>
+              </div>
+
+              <div
+                className="flex justify-center mt-20"
+                data-aos="flip-left"
+                data-aos-easing="ease-in-out"
+              >
+                <img
+                  src={cpc}
+                  alt=""
+                  className="w-full rounded-lg shadow-lg "
+                />
+              </div>
+              {/* content 2 */}
+              <div
+                className="flex justify-center mt-20"
+                data-aos="flip-right"
+                data-aos-easing="ease-in-out"
+              >
+                <img
+                  src={cpcmanufacturingunit}
+                  alt=""
+                  className="w-full rounded-lg shadow-lg "
+                />
+              </div>
+
+              <div
+                className="text-justify"
+                data-aos="flip-right"
+                data-aos-easing="ease-in-out"
+              >
+                <h4 className="text-maincol text-2xl mt-28 font-semibold">
+                  {cpccon.heading2}
+                </h4>
+                <div className="flex gap-4">
+                  <SiTicktick size={115} color="#02a884" className="mt-6" />
+                  <p className="mt-4 leading-7 text-fontextra">
+                    {cpccon.content2}
+                  </p>
+                </div>
+              </div>
+
+              {/* content 3 */}
+
+              <div
+                className="text-justify"
+                data-aos="flip-left"
+                data-aos-easing="ease-in-out"
+              >
+                <h4 className="text-maincol text-2xl mt-28 font-semibold">
+                  {cpccon.heading3}
+                </h4>
+                <div className="flex gap-4">
+                  <SiTicktick size={47} color="#02a884" className="mt-6" />{" "}
+                  <p className="mt-4 leading-7 text-fontextra">
+                    {cpccon.content3}
+                  </p>
+                </div>
+              </div>
+
+              <div
+                className="flex justify-center mt-0"
+                data-aos="flip-left"
+                data-aos-easing="ease-in-out"
+              >
+                <img
+                  src={plexmat}
+                  alt=""
+                  className="w-full h-[350px] object-contain mt-10 rounded-lg bg-transparent"
+                />
+              </div>
             </div>
           </div>
 
-          <div
-            className="flex justify-center mt-20"
-            data-aos="flip-left"
-            data-aos-easing="ease-in-out"
-          >
-            <img
-              src={plexmat}
-              alt=""
-              className="w-full rounded-lg shadow-lg "
-            />
+          <div className="mt-10">
+            <div
+              className="flex justify-center"
+              data-aos="zoom-in"
+              data-aos-easing="ease-in-out"
+            >
+              <img src={itracklogo} alt="" className="w-44 " />
+            </div>
+            <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5 ">
+              {/* content 1 */}
+              <div
+                className="text-justify"
+                data-aos="flip-left"
+                data-aos-easing="ease-in-out"
+              >
+                <h4 className="text-maincol text-2xl mt-28 font-semibold">
+                  {itrackcon.heading1}
+                </h4>
+                <div className="flex gap-4">
+                  <SiTicktick size={70} color="#02a884" className="" />{" "}
+                  <p className="mt-4 leading-7 text-fontextra">
+                    {itrackcon.content1}
+                  </p>
+                </div>
+              </div>
+
+              <div
+                className="flex justify-center mt-20"
+                data-aos="flip-left"
+                data-aos-easing="ease-in-out"
+              >
+                <img
+                  src={itrack}
+                  alt=""
+                  className="w-full rounded-lg shadow-lg "
+                />
+              </div>
+              {/* content 2 */}
+              <div
+                className="flex justify-center mt-20"
+                data-aos="flip-right"
+                data-aos-easing="ease-in-out"
+              >
+                <img
+                  src={itrack1}
+                  alt=""
+                  className="w-full rounded-lg shadow-lg "
+                />
+              </div>
+
+              <div
+                className="text-justify"
+                data-aos="flip-right"
+                data-aos-easing="ease-in-out"
+              >
+                <h4 className="text-maincol text-2xl mt-28 font-semibold">
+                  {itrackcon.heading2}
+                </h4>
+                <div className="flex gap-4">
+                  <SiTicktick size={20} color="#02a884" className="mt-6" />
+                  <p className="mt-4 leading-7 text-fontextra">
+                    {itrackcon.content2}
+                  </p>
+                </div>
+                <div className="flex gap-4">
+                  <SiTicktick size={20} color="#02a884" className="mt-6" />
+                  <p className="mt-4 leading-7 text-fontextra">
+                    {itrackcon.content3}
+                  </p>
+                </div>
+                <div className="flex gap-4">
+                  <SiTicktick size={20} color="#02a884" className="mt-6" />
+                  <p className="mt-4 leading-7 text-fontextra">
+                    {itrackcon.content4}
+                  </p>
+                </div>
+                <br />
+              </div>
+            </div>
           </div>
+          <Footer />
         </div>
-      </div>
-
-      <div className="mt-10">
-        <div
-          className="flex justify-center"
-          data-aos="zoom-in"
-          data-aos-easing="ease-in-out"
-        >
-          <img src={itracklogo} alt="" className="w-44 " />
-        </div>
-        <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5 ">
-          {/* content 1 */}
-          <div
-            className="text-justify"
-            data-aos="flip-left"
-            data-aos-easing="ease-in-out"
-          >
-            <h4 className="text-maincol text-2xl mt-28 font-semibold">
-              {itrackcon.heading1}
-            </h4>
-            <div className="flex gap-4">
-              <SiTicktick size={70} color="#02a884" className="" />{" "}
-              <p className="mt-4 leading-7 text-fontextra">
-                {itrackcon.content1}
-              </p>
-            </div>
-          </div>
-
-          <div
-            className="flex justify-center mt-20"
-            data-aos="flip-left"
-            data-aos-easing="ease-in-out"
-          >
-            <img
-              src={itrack}
-              alt=""
-              className="w-full rounded-lg shadow-lg "
-            />
-          </div>
-          {/* content 2 */}
-          <div
-            className="flex justify-center mt-20"
-            data-aos="flip-right"
-            data-aos-easing="ease-in-out"
-          >
-            <img
-              src={itrack1}
-              alt=""
-              className="w-full rounded-lg shadow-lg "
-            />
-          </div>
-
-          <div
-            className="text-justify"
-            data-aos="flip-right"
-            data-aos-easing="ease-in-out"
-          >
-            <h4 className="text-maincol text-2xl mt-28 font-semibold">
-              {itrackcon.heading2}
-            </h4>
-            <div className="flex gap-4">
-              <SiTicktick size={20} color="#02a884" className="mt-6" />
-              <p className="mt-4 leading-7 text-fontextra">
-                {itrackcon.content2}
-              </p>
-            </div>
-            <div className="flex gap-4">
-              <SiTicktick size={20} color="#02a884" className="mt-6" />
-              <p className="mt-4 leading-7 text-fontextra">
-                {itrackcon.content3}
-              </p>
-            </div>
-            <div className="flex gap-4">
-              <SiTicktick size={20} color="#02a884" className="mt-6" />
-              <p className="mt-4 leading-7 text-fontextra">
-                {itrackcon.content4}
-              </p>
-            </div>
-            <br />
-          </div>
-        </div>
-      </div>
-      <Footer />
-    </div>}
+      )}
     </>
   );
 }
