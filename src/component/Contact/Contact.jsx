@@ -70,7 +70,7 @@ function Contact() {
             <div>
               <img src={contbanner} alt="bannerimage" className="mx-auto" />
             </div>
-            <header className="absolute md:top-24 lg:top-24 xl:top-24 md:ml-20 lg:ml-20 xl:ml-20 md:text-white text-black mt-4">
+            <header className="absolute md:top-24 lg:top-24 xl:top-24 md:ml-20 lg:ml-20 xl:ml-20 md:text-white  mt-4">
               <h1 className="md:text-5xl lg:text-5xl xl:text-5xl text-2xl md:ml-0 ml-14 text-left font-bold ">
                 Want to know more?
                 <br />
@@ -225,7 +225,7 @@ function Contact() {
 
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 bg-gray-200 p-5">
             <div className="border-2 border-maincol p-8 rounded-lg w-full h-full leading-7">
-              <button className="p-2 bg-maincol rounded-md font-semibold text-white w-72 h-20">
+              <button className="p-2 bg-maincol rounded-md font-semibold text-white w-full h-20">
                 Corporate Office{" "}
               </button>
               <div className="flex mt-5">
@@ -244,7 +244,7 @@ function Contact() {
                 <div></div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className="flex flex-row justify-around  gap-2 items-center">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex flex-col">
@@ -264,7 +264,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className=" flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -303,7 +303,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className="flex flex-row justify-around items-center gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex flex-col">
@@ -323,7 +323,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className="flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -382,7 +382,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className="flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -433,7 +433,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className="flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -473,7 +473,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex">
@@ -487,7 +487,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className="flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -525,10 +525,10 @@ function Contact() {
                   </div>
                 </div>
               </div>
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div className="flex">
+                  <div className="flex flex-col">
                     <a
                       href="tel:+91 9740039501"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
@@ -544,7 +544,7 @@ function Contact() {
                   </div>
                 </div>
               </div>
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className="  flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -583,10 +583,10 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className="flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div className="flex">
+                  <div className="flex flex-col">
                     <a
                       href="tel:+91 7977502827"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
@@ -603,7 +603,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className="flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -642,10 +642,10 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className=" flex flex-row justify-around items-start gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div className="flex">
+                  <div className="flex flex-col">
                     <a
                       href="tel:+91 011 4118133031"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
@@ -662,7 +662,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className=" flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -701,7 +701,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className="flex flex-row justify-around items-center">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex">
@@ -715,7 +715,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-2">
+              <div className="flex mt-4">
                 <div className="flex flex-row justify-around items-center">
                   <img src={mailin} alt="call inner logo" className="w-5" />
                   <div>
@@ -737,7 +737,7 @@ function Contact() {
             <h2 className="text-maincol text-4xl mt-8 font-semibold font-poppins">
               Registered Office
             </h2>
-            <div className="flex justify-around items-center mt-8 border-maincol border-2 pt-16 pb-16 rounded-3xl">
+            <div className="flex justify-around items-center mt-8 border-maincol border-2 pt-8 pb-8 rounded-3xl">
               <div className="flex flex-row justify-around items-start gap-2">
                 <div>
                   <a

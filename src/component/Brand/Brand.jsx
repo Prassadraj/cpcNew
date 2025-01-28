@@ -14,6 +14,7 @@ import jeev2 from "../../../src/images/jeev-2.jpg";
 import jeev3 from "../../../src/images/jeev-3.jpg";
 import plexmat from "../../../src/images/plexmat.jpg";
 import itrack1 from "../../../src/images/itrack1.jpg";
+import itracknew from "../../assets/i-track.png";
 import cpcmanufacturingunit from "../../../src/assets/image/cpcmanufacturingunit.jpg";
 
 import Aos from "aos";
@@ -487,7 +488,7 @@ function Brand() {
               {itrackcon.heading1}
             </h4>
             <div className="flex gap-4">
-              <SiTicktick size={70} color="#02a884" className="" />{" "}
+              <SiTicktick size={130} color="#02a884" className="" />{" "}
               <p className="mt-4 leading-7 text-fontextra">
                 {itrackcon.content1}
               </p>
@@ -500,9 +501,9 @@ function Brand() {
             data-aos-easing="ease-in-out"
           >
             <img
-              src={itrack}
+              src={itracknew}
               alt=""
-              className="w-full rounded-lg shadow-lg "
+              className="w-full rounded-lg  "
             />
           </div>
           {/* content 2 */}
