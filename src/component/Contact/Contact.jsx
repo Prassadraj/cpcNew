@@ -252,13 +252,13 @@ function Contact() {
                       href="tel:+91 44 23460168"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className=" text-black  ml-4"> +91 44 23460168</p>
+                      <p className=" text-black  ml-2"> +91 44 23460168</p>
                     </a>
                     <a
                       href="tel:+91 44 23460169"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="  text-black ml-4"> +91 44 23460169</p>
+                      <p className="  text-black ml-2"> +91 44 23460169</p>
                     </a>
                   </div>
                 </div>
@@ -272,7 +272,7 @@ function Contact() {
                       href="mailto:sales@cpcdiagnostics.in"
                       className="hover:opacity-80 hover:scale-105 transition-all "
                     >
-                      <p className="text-black   ml-4">
+                      <p className="text-black   ml-2">
                         {" "}
                         sales@cpcdiagnostics.in
                       </p>
@@ -296,7 +296,7 @@ function Contact() {
                     >
                       <p className="text-black ">
                         49/1(41-49/1), Perumal Koil South Maada Street,
-                        Villivakkam, Chennai-600 049 GST: 33AAACC3142NIZV
+                        Villivakkam, Chennai-600 049 <br /> GST: 33AAACC3142NIZV
                       </p>
                     </a>
                   </div>
@@ -311,13 +311,13 @@ function Contact() {
                       href="tel:+91 44 23460161"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black   ml-4"> +91 44 23460161</p>
+                      <p className="text-black   ml-2"> +91 44 23460161</p>
                     </a>
                     <a
                       href="tel:+91 44 23460162"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black   ml-4"> +91 44 23460162</p>
+                      <p className="text-black   ml-2"> +91 44 23460162</p>
                     </a>
                   </div>
                 </div>
@@ -331,7 +331,7 @@ function Contact() {
                       href="mailto:distribution@cpcdiagnostics.in"
                       className="hover:opacity-80 hover:scale-105 transition-all "
                     >
-                      <p className="text-black   ml-4">
+                      <p className="text-black   ml-2">
                         {" "}
                         distribution@cpcdiagnostics.in
                       </p>
@@ -361,22 +361,22 @@ function Contact() {
                   </div>
                 </div>
               </div>
-
-              <div className="flex flex-col mt-2">
-                <div className="flex flex-row  items-start gap-2">
+       <br />
+              <div className="flex flex-col mt-4">
+                <div className="flex flex-row items-center gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
-                  <div className="flex flex-col">
+                  <div className="flex flex-col ">
                     <a
                       href="tel:+91 44 23821908"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black   ml-4"> +91 44 23821908</p>
+                      <p className="text-black   ml-2"> +91 44 23821908</p>
                     </a>
                     <a
                       href="tel:+91 44 23821928"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black   ml-4"> +91 44 23821928</p>
+                      <p className="text-black   ml-2"> +91 44 23821928</p>
                     </a>
                   </div>
                 </div>
@@ -390,7 +390,7 @@ function Contact() {
                       href="mailto:info@cpcmedsyz.in"
                       className="hover:opacity-80 hover:scale-105 transition-all "
                     >
-                      <p className="text-black   ml-4"> info@cpcmedsyz.in</p>
+                      <p className="text-black   ml-2"> info@cpcmedsyz.in</p>
                     </a>
                   </div>
                 </div>
@@ -411,7 +411,7 @@ function Contact() {
                     >
                       <p className="text-black  ">
                         C/O.M/S.SIVAKRIPA ASSOCIATES, 1. Floor, 61/3388, Kalpaka
-                        Building, Ravipuram Road, Ernakulam, Kerala, 682016 GST:
+                        Building, Ravipuram Road, Ernakulam, Kerala, 682016 <br /> GST:
                         32AAACC3142N2ZW
                       </p>
                     </a>
@@ -466,7 +466,7 @@ function Contact() {
                       <p className="text-black text-left ">
                         C/O.TREE TOP HEALTHCARE H.No. 10/1, GF, Syed Jala
                         Garden, West Marredpally, Secunderabad-500 026 Telangana
-                        India GST: 36AAACC3142NIZP
+                        India <br /> GST: 36AAACC3142NIZP
                       </p>
                     </a>
                   </div>
@@ -518,7 +518,7 @@ function Contact() {
                     >
                       <p className="text-black  ">
                         C/O.TREE TOP HEALTHCARE No.51, 1 Floor Portion-C S.LV
-                        Godown N.T.Y Layout, Mysore Road Bangalore-560026 GST:
+                        Godown N.T.Y Layout, Mysore Road Bangalore-560026 <br /> GST:
                         29AAACC3142N2ZJ
                       </p>
                     </a>
@@ -526,20 +526,20 @@ function Contact() {
                 </div>
               </div>
               <div className="flex mt-4">
-                <div className="flex flex-row justify-around items-start gap-2">
+                <div className="flex flex-row justify-around items-center gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex flex-col">
                     <a
                       href="tel:+91 9740039501"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black  ml-4"> +91 9740039501</p>
+                      <p className="text-black  ml-2"> +91 9740039501</p>
                     </a>
                     <a
                       href="tel:+91 080 26758685"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black ml-4"> +91 080 26758685</p>
+                      <p className="text-black ml-2"> +91 080 26758685</p>
                     </a>
                   </div>
                 </div>
@@ -552,7 +552,7 @@ function Contact() {
                       href="mailto:cpcbir@cpcdiagnostics.in"
                       className="hover:opacity-80 hover:scale-105 transition-all "
                     >
-                      <p className="text-black   ml-4">
+                      <p className="text-black   ml-2">
                         {" "}
                         cpcbir@cpcdiagnostics.in
                       </p>
@@ -576,7 +576,7 @@ function Contact() {
                       <p className="text-black  ">
                         C/O.TREETOP HEALTHCAREPVT LTD RH No 212/221 Ground Floor
                         CST No 19/624, Near Best Bus Colony, Gorai-1, Borivali
-                        West, Mumbai 400092 GST: 27AAACC3142NIZO
+                        West, Mumbai 400092 <br /> GST: 27AAACC3142NIZO
                       </p>
                     </a>
                   </div>
@@ -584,20 +584,20 @@ function Contact() {
               </div>
 
               <div className="flex mt-4">
-                <div className="flex flex-row justify-around items-start gap-2">
+                <div className="flex flex-row justify-around items-center gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex flex-col">
                     <a
                       href="tel:+91 7977502827"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black   ml-4"> +91 7977502827</p>
+                      <p className="text-black   ml-2"> +91 7977502827</p>
                     </a>
                     <a
                       href="tel:+91 9137103149"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black   ml-4"> +91 9137103149</p>
+                      <p className="text-black   ml-2"> +91 9137103149</p>
                     </a>
                   </div>
                 </div>
@@ -611,7 +611,7 @@ function Contact() {
                       href="mailto:cpcmum@cpcdiagnostics.in"
                       className="hover:opacity-80 hover:scale-105 transition-all "
                     >
-                      <p className="text-black   ml-4">
+                      <p className="text-black   ml-2">
                         {" "}
                         cpcmum@cpcdiagnostics.in
                       </p>
@@ -635,28 +635,28 @@ function Contact() {
                       <p className="text-black ml-2 ">
                         C/O A B ENTERPRISES C-41, First Floor, Block 3, Dayal
                         Estate, Okhla Industrial Area, Phase - 2 New
-                        Delhi-110020 GST: 07AAACC3142N1ZQ
+                        Delhi-110020 <br /> GST: 07AAACC3142N1ZQ
                       </p>
                     </a>
                   </div>
                 </div>
               </div>
 
-              <div className="flex mt-4">
-                <div className=" flex flex-row justify-around items-start gap-2">
+              <div className="flex mt-8">
+                <div className=" flex flex-row justify-around items-center gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex flex-col">
                     <a
                       href="tel:+91 011 4118133031"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black   ml-4">+91 011 4118133031</p>
+                      <p className="text-black   ml-2">+91 011 4118133031</p>
                     </a>
                     <a
                       href="tel:+91 011 4118133032"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black   ml-4">+91 011 4118133032</p>
+                      <p className="text-black   ml-2">+91 011 4118133032</p>
                     </a>
                   </div>
                 </div>
@@ -670,7 +670,7 @@ function Contact() {
                       href="mailto:cpcdelhi@cpcdiagnostics.in"
                       className="hover:opacity-80 hover:scale-105 transition-all "
                     >
-                      <p className="text-black   ml-4">
+                      <p className="text-black   ml-2">
                         cpcdelhi@cpcdiagnostics.in
                       </p>
                     </a>
@@ -691,9 +691,9 @@ function Contact() {
                       href="#"
                       className="hover:opacity-80 hover:scale-105 transition-all "
                     >
-                      <p className="text-black  ">
+                      <p className="text-black">
                         C/O.EXIM DISTRIBUTORS PVT. LTD 4-B, 1st Floor, Dr.
-                        Rajendra Road, Kolkata 700 020, West Bengal GST NO:
+                        Rajendra Road, Kolkata 700 020, West Bengal <br /> GST NO:
                         19AAACC3142NIZL
                       </p>
                     </a>
@@ -701,7 +701,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex mt-4">
+              <div className="flex mt-16">
                 <div className="flex flex-row justify-around items-center">
                   <img src={callin} alt="call inner logo" className="w-4" />
                   <div className="flex">
@@ -709,7 +709,7 @@ function Contact() {
                       href="tel:+91 6289766828"
                       className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
                     >
-                      <p className="text-black   ml-4">+91 6289766828</p>
+                      <p className="text-black   ml-2">+91 6289766828</p>
                     </a>
                   </div>
                 </div>
@@ -723,7 +723,7 @@ function Contact() {
                       href="mailto:cpckolkata@cpcdiagnostics.in"
                       className="hover:opacity-80 hover:scale-105 transition-all "
                     >
-                      <p className="text-black   ml-4">
+                      <p className="text-black   ml-2">
                         cpckolkata@cpcdiagnostics.in
                       </p>
                     </a>
