@@ -437,7 +437,7 @@ function Footer({ open }) {
           </div>
         </div>
         {/* col 2 */}
-        <div className="flex flex-row-reverse justify-around w-full ">
+        <div className="flex flex-row-reverse justify-around ">
           <div
             className="flex  flex-col items-start mt-16 font-poppins gap-2 col2"
             ref={col2Ref}

@@ -437,7 +437,7 @@ function Nav() {
               >
                 Biochemistry
               </Link>
-              <Link
+              {/* <Link
                 className="dropdown-item"
                 to="/product/ClinicalMicrobiology/top"
                 onClick={() => {
@@ -446,7 +446,7 @@ function Nav() {
                 }}
               >
                 Clinical Microbiology
-              </Link>
+              </Link> */}
               {/* <Link
                 className="dropdown-item"
                 to={`/product/COVID-19/top`}
