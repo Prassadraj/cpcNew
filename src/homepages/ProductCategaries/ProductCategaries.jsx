@@ -17,7 +17,7 @@ import Magnetic from "../../component/magneticButton/Magnetic";
 import { CategoryContext } from "../../component/Context/CategoryContext";
 import { Link } from "react-router-dom";
 import gsap from "gsap";
-
+//
 const categoryItems = [
   { name: "Biochemistry", image: chemistry },
   { name: "Hematology", image: pieChart },
