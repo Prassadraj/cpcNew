@@ -38,10 +38,11 @@ function ProductInfo() {
   const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
   const [open, setOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
-  const images = [frame1, frame1, frame1, frame1];
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const productCategory = data.find((cat) => cat.category === category);
   const product = productCategory?.items.find((item) => item.id === id);
+  const images = product.image || [];
   const relatedProduct = productCategory.items.filter(
     (related) => related.id !== id
   );
@@ -184,9 +185,18 @@ function ProductInfo() {
       setLoad(false);
     }, 500);
   }, []);
-  const [imgUrl, setImgUrl] = useState(product.image[0]);
+  const [imgUrl, setImgUrl] = useState(0);
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);
+  };
+  const handleNextImage = () => {
+    setImgUrl((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const handlePrevImage = () => {
+    setImgUrl((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
   };
   return (
     <>
@@ -238,7 +248,7 @@ function ProductInfo() {
           {/* img for mobile */}
           <div className="laptop:w-[80%] sm:hidden px-10 w-full tablet:w-[70%]  md:h-[60%] flex justify-center">
             <img
-              src={imgUrl}
+              src={images[imgUrl]}
               alt="Descriptive text"
               className="rounded-md w-full h-full object-cover"
             />
@@ -246,7 +256,7 @@ function ProductInfo() {
           {/* /sidemenu */}
           <div className="flex px-5 gap-5 sidebar">
             <div
-              className={`sm:w-[25%] sidebar bg-white border rounded-md shadow-md  p-1 md:py-2 md:px-4 md:sticky top-2
+              className={`sm:w-[25%] sidebar bg-white border rounded-md shadow-md  p-2 tablet:py-2 md:px-4 md:sticky top-2
                  laptop:h-[80vh] largeLaptop:h-[50vh] tablet:h-[60vh] overflow-y-auto z-10  ${
                    open
                      ? "fixed top-16 inset-0 w-[80%] h-full overflow-y-auto z-20"
@@ -260,16 +270,15 @@ function ProductInfo() {
               />
               <div className="w-full mx-auto h-fit">
                 {data.map((dropdown, index) => (
-                  <div key={index} className="rounded mb-2">
+                  <div key={index} className="rounded mb-2 list-group-item">
                     <button
-                      className="flex justify-between items-center px-1 md:px-2 laptop:py-3
-                      largeLaptop:py-4 tablet:py-2 w-full cursor-pointer"
+                      className="flex justify-between  rounded-md  items-center px-1 tablet:px-2 py-1.5  w-full cursor-pointer"
                       onClick={() => {
                         toggleDropdown(index);
                         setSelectedCategory(dropdown.category);
                       }}
                     >
-                      <p className="laptop:text-base largeLaptop:text-xl text-xs text-left font-poppins font-semibold">
+                      <p className="tablet:text-sm  laptop:text-sm largeLaptop:text-xl font-poppins text-left font-medium">
                         {dropdown.category}
                       </p>
                       {openDropdown === index ? (
@@ -306,39 +315,36 @@ function ProductInfo() {
             <div className="w-[75%]">
               <div className="flex flex-col md:flex-row items-center tablet:justify-start mb-2  md:gap-4">
                 <div className="hidden md:block w-1/4 md:px-2 tablet:mt-2">
-                  {product.image.map((img, idx) => (
+                  {images.map((img, idx) => (
                     <img
                       key={idx}
-                      className="mb-2 h-20 w-[100px] object-contain"
+                      className="mb-2 h-20 w-[100px] object-contain cursor-pointer rounded-lg transition-transform duration-300 hover:scale-105"
                       src={img}
-                      onClick={() => setImgUrl(img)}
+                      onClick={() => setImgUrl(idx)}
                       alt={`Image ${idx + 1}`}
                       style={{
-                        cursor: "pointer",
-                        borderStyle: "double",
-                        border: imgUrl === img ? "4px solid " : "none",
+                        border: imgUrl === idx ? "4px solid #00A786" : "none",
                         borderRadius: "10px",
                       }}
                     />
                   ))}
                 </div>
                 <div className="hidden relative laptop:w-[60%] w-full tablet:w-[70%] laptop:h-[300px]  tablet:flex justify-center">
-                  <IoIosArrowForward className=" text-xl absolute top-1/2 rotate-180 -left-10 cursor-pointer" />
+                  <IoIosArrowForward
+                    onClick={handlePrevImage}
+                    className=" text-xl absolute top-1/2 rotate-180 -left-10 cursor-pointer"
+                  />
                   <img
-                    src={imgUrl}
+                    src={images[imgUrl]}
                     alt="Descriptive text"
                     className="rounded-md h-full object-cover"
                   />
 
-                  <IoIosArrowForward className="text-xl absolute top-1/2 -right-10 cursor-pointer" />
-                </div>
-                {/* <div className="hidden laptop:w-[60%] w-full tablet:w-[70%]  tablet:max-h-[80%] tablet:flex justify-center">
-                  <img
-                    src={imgUrl}
-                    alt="Descriptive text"
-                    className="rounded-md laptop:max-w-[500px] laptop:w-full laptop:min-w-[300px] laptop:h-[350px] object-cover"
+                  <IoIosArrowForward
+                    onClick={handleNextImage}
+                    className="text-xl absolute top-1/2 -right-10 cursor-pointer"
                   />
-                </div> */}
+                </div>
               </div>
               <div className="hidden md:flex justify-center mt-4 tablet:mb-10 laptop:mb-[6rem]">
                 <div className="w-full flex flex-col text-xl text-justify ">
