@@ -21,22 +21,24 @@ function Section2() {
   const statRefs = useRef([]);
 
   useEffect(() => {
-    statRefs.current.forEach((stat, index) => {
-      gsap.fromTo(
-        stat,
-        { textContent: 0 },
-        {
-          textContent: stats[index].end,
-          duration: 1,
-          ease: "power3.inOut",
-          snap: { textContent: 1 },
-          scrollTrigger: {
-            trigger: stat,
-            start: "top 80%", // Starts animation when 80% of the viewport is visible
-          },
-        }
-      );
-    });
+    if (window.innerWidth >= 768) {
+      statRefs.current.forEach((stat, index) => {
+        gsap.fromTo(
+          stat,
+          { textContent: 0 },
+          {
+            textContent: stats[index].end,
+            duration: 1,
+            ease: "power3.inOut",
+            snap: { textContent: 1 },
+            scrollTrigger: {
+              trigger: stat,
+              start: "top 80%",
+            },
+          }
+        );
+      });
+    }
   }, []);
 
   return (
@@ -54,7 +56,7 @@ function Section2() {
                 className="text-xl tablet:text-5xl font-semibold"
                 style={{ fontFamily: "Poppins", color: "#00A786" }}
               >
-                0
+                {window.innerWidth < 768 ? stat.end : "0"}
               </span>
               <span
                 className="text-sm sm:text-3xl"

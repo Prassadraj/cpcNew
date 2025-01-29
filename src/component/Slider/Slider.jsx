@@ -61,8 +61,8 @@ const Slider = () => {
                   slides[currentIndex].id === "4") ||
                 (slides[currentIndex].category === "Point%20of%20Care" &&
                   slides[currentIndex].id === "2")
-                  ? "scale-105"
-                  : "scale-125"
+                  ? "tablet:scale-105"
+                  : "tablet:scale-125"
               }`}
               alt=""
               title="viewProduct"
