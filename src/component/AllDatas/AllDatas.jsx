@@ -60,8 +60,9 @@ import Jokoh1 from "../AllDatas/ProductImages/Electrolyte Analyzer/JokohEx-D/Jok
 import Jokoh2 from "../AllDatas/ProductImages/Electrolyte Analyzer/JokohEx-D/product2.webp";
 import Jokoh3 from "../AllDatas/ProductImages/Electrolyte Analyzer/JokohEx-D/product3.webp";
 // Hematology
-import PLUS1 from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynacount 3D Plus.webp";
-import PLUSGrey from "../AllDatas/greyImages/Dynacount 3D Plus.webp";
+
+import DYNACOUNT3DPlus from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynacount 3D Plus.webp";
+import DYNACOUNT3DPlusGrey from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynacount 3D Plus.jpg";
 //
 import VisionGrey from "../AllDatas/greyImages/Vision Pro.webp";
 import Vision1 from "../AllDatas/ProductImages/Hematology/Analyzer/Vision Pro.webp";
@@ -2146,8 +2147,8 @@ const products = [
       {
         allover: "3 Part Differential Hematology Analyzer",
         id: "2",
-        coverImg: plusGrey,
-        image: [PLUS1],
+        coverImg: DYNACOUNT3DPlusGrey,
+        image: [DYNACOUNT3DPlus],
         title: "DYNACOUNT 3D PLUS",
         section: "3parthematology",
         shortdescription:

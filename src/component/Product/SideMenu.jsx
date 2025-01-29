@@ -28,7 +28,7 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
 
   return (
     <div
-      className={`sidebar tablet:w-[25vw] bg-white border rounded-md shadow-md p-1 tablet:py-2 tablet:px-4 tablet:sticky top-16 tablet:top-24 tablet:h-fit largeLaptop:top-32 laptop:h-[80vh] h-[80vh] largeLaptop:h-[50vh] overflow-y-auto z-10 ${
+      className={`sidebar tablet:w-[25vw] bg-white border rounded-md shadow-md p-2 tablet:py-2 tablet:px-4 tablet:sticky top-16 tablet:top-24 tablet:h-fit largeLaptop:top-32 laptop:h-[80vh] h-[80vh] largeLaptop:h-[50vh] overflow-y-auto z-10 ${
         open
           ? "fixed top-16 inset-0 w-[80%] h-full overflow-y-auto z-20"
           : "hidden sm:block"
@@ -44,9 +44,9 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
 
       <div className="w-full mx-auto">
         {data.map((dropdown, index) => (
-          <div key={dropdown.category} className="rounded mb-2">
+          <div key={dropdown.category} className="rounded mb-2 list-group-item">
             <div
-              className="flex justify-between items-center px-1 tablet:px-2 py-2 w-full cursor-pointer"
+              className="flex justify-between  rounded-md  items-center px-1 tablet:px-2 py-1.5  w-full cursor-pointer"
               onClick={() => {
                 handleToggleDropdown(index); // Toggle dropdown on click
                 setSelectedCategory(dropdown.category);
@@ -58,7 +58,7 @@ function SideMenu({ setOpen, open, toggleDropdown, openDropdown }) {
                 // );
               }}
             >
-              <p className="tablet:text-base pt-2 laptop:text-base largeLaptop:text-xl font-poppins text-left font-medium">
+              <p className="tablet:text-sm  laptop:text-sm largeLaptop:text-xl font-poppins text-left font-medium">
                 {dropdown.category}
               </p>
               {openDropdown === index ? <FaChevronDown /> : <FaChevronRight />}
