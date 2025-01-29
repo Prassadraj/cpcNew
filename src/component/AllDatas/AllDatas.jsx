@@ -23,7 +23,7 @@ import prim2 from "../AllDatas/ProductImages/Biochemistry/PRIME/product2.webp";
 import chemistryCollibratorGrey from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/Chemistry Calibrator and Chemistry Controls.jpg";
 import chemistryCollibrator from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/Chemistry Calibrator and Chemistry Controls.webp";
 //
-import ichemPrimeGrey from "../AllDatas/greyImages/Turbochem Prime.webp";
+import ichemPrimeGrey from "../AllDatas/ProductImages/Biochemistry/ichemPrime/Ichem Prime.jpg";
 import ichemPrime from "../AllDatas/ProductImages/Biochemistry/ichemPrime/Ichem Prime.webp";
 //
 import identiImmunoGrey from "../AllDatas/ProductImages/Biochemistry/identiImmuno/identi Immuno Turbidimetry Reagents.jpg";
