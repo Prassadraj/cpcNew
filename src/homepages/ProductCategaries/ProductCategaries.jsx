@@ -151,18 +151,27 @@ function ProductCategaries() {
             className="top-items flex flex-col gap-2 laptop:!gap-5"
           >
             {categoryItems.map((val, i) => (
-              <Magnetic key={i}>
-                <div className="cursor-pointer border-1 laptop:rounded-xl bg-white border-custom-green shadow-md shadow-custom-green h-fit laptop:w-32 laptop:!p-3 flex flex-col-reverse items-center p-1 rounded-sm">
-                  <img
-                    src={val.image}
-                    className="tablet:w-14 w-12 h-fit object-contain"
-                    alt={val.name}
-                  />
-                  <p className="text-[10px] tablet:text-xs text-center laptop:text-sm font-medium">
-                    {val.name}
-                  </p>
-                </div>
-              </Magnetic>
+              <Link
+                to={`/product/${
+                  val.name.includes(" ")
+                    ? val.name.split(" ").join("")
+                    : val.name
+                }/top`}
+                onClick={() => setSelectedCategory(val.name)}
+              >
+                <Magnetic key={i}>
+                  <div className="cursor-pointer border-1 laptop:rounded-xl bg-white border-custom-green shadow-md shadow-custom-green h-fit laptop:w-32 laptop:!p-3 flex flex-col-reverse items-center p-1 rounded-sm">
+                    <img
+                      src={val.image}
+                      className="tablet:w-14 w-12 h-fit object-contain"
+                      alt={val.name}
+                    />
+                    <p className="text-[10px] text-black tablet:text-xs text-center laptop:text-sm font-medium">
+                      {val.name}
+                    </p>
+                  </div>
+                </Magnetic>
+              </Link>
             ))}
           </div>
 
@@ -172,18 +181,27 @@ function ProductCategaries() {
             className="bottom-items flex flex-col-reverse gap-2 laptop:!gap-5"
           >
             {categoryItems2.map((val, i) => (
-              <Magnetic key={i}>
-                <div className="cursor-pointer border-1 laptop:rounded-xl bg-white border-custom-green shadow-md shadow-custom-green h-fit laptop:w-32 laptop:!p-3 flex flex-col items-center p-1 rounded-sm">
-                  <img
-                    src={val.image}
-                    className="tablet:w-14 w-12 h-fit object-contain"
-                    alt={val.name}
-                  />
-                  <p className="text-center text-[10px] tablet:text-xs laptop:text-sm font-medium">
-                    {val.name}
-                  </p>
-                </div>
-              </Magnetic>
+              <Link
+                to={`/product/${
+                  val.name.includes(" ")
+                    ? val.name.split(" ").join("")
+                    : val.name
+                }/top`}
+                onClick={() => setSelectedCategory(val.name)}
+              >
+                <Magnetic key={i}>
+                  <div className="cursor-pointer border-1 laptop:rounded-xl bg-white border-custom-green shadow-md shadow-custom-green h-fit laptop:w-32 laptop:!p-3 flex flex-col items-center p-1 rounded-sm">
+                    <img
+                      src={val.image}
+                      className="tablet:w-14 w-12 h-fit object-contain"
+                      alt={val.name}
+                    />
+                    <p className="text-center text-black text-[10px] tablet:text-xs laptop:text-sm font-medium">
+                      {val.name}
+                    </p>
+                  </div>
+                </Magnetic>
+              </Link>
             ))}
           </div>
         </div>
