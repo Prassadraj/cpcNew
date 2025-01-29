@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useRef } from "react";
-import Marquee from "react-fast-marquee";
+
 import chemistry from "../ProductCategaries/GIF/chemistry.gif";
 import pieChart from "../ProductCategaries/GIF/pie-chart.gif";
 import medicine from "../ProductCategaries/GIF/medicine.gif";
