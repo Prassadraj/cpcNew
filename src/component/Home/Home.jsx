@@ -31,20 +31,22 @@ function Home() {
       {load ? (
         <Loader />
       ) : (
-        <div className="font-poppins mobile-overflow-hidden">
-          <Section1 />
-          <Section2 />
-          <Section3 />
-          <ProductCategaries />
-          {/* <Organisation /> */}
-          <New />
-          <TestimonialSlider />
-          <FeaturedProducts />
-          <Blog />
-          <ContactUs />
-          <ZoomEffect />
+        <>
+          <div className="font-poppins mobile-overflow-hidden container">
+            <Section1 />
+            <Section2 />
+            <Section3 />
+            <ProductCategaries />
+            {/* <Organisation /> */}
+            <New />
+            <TestimonialSlider />
+            <FeaturedProducts />
+            <Blog />
+            <ContactUs />
+            <ZoomEffect />
+          </div>
           <Footer />
-        </div>
+        </>
       )}
     </>
   );

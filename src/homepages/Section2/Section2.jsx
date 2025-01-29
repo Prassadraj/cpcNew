@@ -53,20 +53,20 @@ function Section2() {
               <img className="w-[25px] sm:w-[50px]" src={stat.img} alt="" />
               <span
                 ref={(el) => (statRefs.current[index] = el)}
-                className="text-xl tablet:text-5xl font-semibold"
+                className="text-xl tablet:text-4xl laptop:text-5xl font-semibold"
                 style={{ fontFamily: "Poppins", color: "#00A786" }}
               >
                 {window.innerWidth < 768 ? stat.end : "0"}
               </span>
               <span
-                className="text-sm sm:text-3xl"
+                className="text-sm tablet:text-3xl"
                 style={{ fontFamily: "Poppins, sans-serif", color: "#00A786" }}
               >
                 +
               </span>
             </div>
             <p
-              className="text-xs sm:text-sm sm:font-semibold font-semibold largeLaptop:text-xl"
+              className="text-xs tablet:text-sm laptop:text-lg sm:font-semibold font-semibold largeLaptop:text-xl"
               style={{ fontFamily: "Poppins" }}
             >
               {stat.label}
