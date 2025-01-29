@@ -76,7 +76,7 @@ function Section1() {
           >
             Medical Laboratory Equipment Supplier in India at the Best Price
           </motion.p>
-          <div className="mt-4 font-poppins">
+          <div className="description mt-4 font-poppins">
             <p
               className="subTitle  text-sm tablet:text-lg w-full tablet:w-[40vw] text-start
              largeLaptop:text-[70px]"
