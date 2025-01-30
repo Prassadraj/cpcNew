@@ -24,7 +24,7 @@ function Footer({ open }) {
 
   return (
     <div
-      className={`h-fit w-full laptop:mt-[80px] px-2 tablet:mt-[200px]   bg-gradient-to-r from-[#00735D] to-[#01A786] tablet:block ${
+      className={`container h-fit w-full laptop:mt-[80px] px-2 tablet:mt-[200px]   bg-gradient-to-r from-[#00735D] to-[#01A786] tablet:block ${
         open && "hidden"
       }`}
     >
