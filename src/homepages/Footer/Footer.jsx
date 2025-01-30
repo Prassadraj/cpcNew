@@ -636,11 +636,18 @@ function Footer({ open }) {
             </p>
             <p>
               {" "}
-              <span className="font-semibold">Contact :</span> +91 87544 68400
+              <a href="tel:+918754468400" className="hover:text-white">
+                <span className="font-semibold">Contact :</span> +91 87544 68400
+              </a>
             </p>
             <p>
-              <span className="font-semibold"> Email : </span>
-              info@cpcdiagnostics.in
+              <a
+                href="mailto:info@cpcdiagnostics.in"
+                className="hover:text-white"
+              >
+                <span className="font-semibold"> Email : </span>
+                info@cpcdiagnostics.in
+              </a>
             </p>
           </div>
           {/* </Link> */}
