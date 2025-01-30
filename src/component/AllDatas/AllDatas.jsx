@@ -2007,7 +2007,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -2164,7 +2164,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -2322,7 +2322,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -2484,7 +2484,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -6032,7 +6032,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -6191,7 +6191,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
