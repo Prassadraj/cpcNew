@@ -72,7 +72,7 @@ function Section1() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
-            className="text-2xl mt-3 tablet:mt-0 tablet:text-3xl largeLaptop:text-[35px] font-bold text-[#56575D]"
+            className="text-2xl mt-3 tablet:mt-0 tablet:max-w-xl max-w-xs tablet:text-3xl largeLaptop:text-[35px] font-bold text-[#56575D]"
           >
             Medical Laboratory Equipment Supplier in India at the Best Price
           </motion.p>
