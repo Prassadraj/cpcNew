@@ -13,6 +13,13 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { BtnContextProvider } from "../Context/MobileContext";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Nav() {
   const location = useLocation();
@@ -347,28 +354,33 @@ function Nav() {
             Contact
           </Link>
         </div>
-        <div className="flex justify-evenly mt-4">
-          <a
-            href="https://facebook.com"
+        <div className="flex justify-evenly mt-4 text-3xl">
+          <Link
             target="_blank"
-            rel="noopener noreferrer"
+            to="https://www.facebook.com/EverlifeCPC"
+            className="text-sky-600 "
           >
-            <FaFacebook size={24} />
-          </a>
-          <a
-            href="https://twitter.com"
+            <FontAwesomeIcon icon={faFacebook} />
+          </Link>
+          <Link
             target="_blank"
-            rel="noopener noreferrer"
+            to="https://www.instagram.com/everlife_cpc_diagnostics/"
           >
-            <FaTwitter size={24} />
-          </a>
-          <a
-            href="https://instagram.com"
+            <FontAwesomeIcon className="text-red-500" icon={faInstagram} />
+          </Link>
+          <Link
+            to="https://www.linkedin.com/company/everlife-cpc-diagnostics/"
+            className="text-sky-600"
             target="_blank"
-            rel="noopener noreferrer"
           >
-            <FaInstagram size={24} />
-          </a>
+            <FontAwesomeIcon icon={faLinkedin} />
+          </Link>
+          <Link
+            target="_blank"
+            to="https://www.youtube.com/@everlife-cpcdiagnostics"
+          >
+            <FontAwesomeIcon className="text-red-500" icon={faYoutube} />
+          </Link>
         </div>
       </div>
 
