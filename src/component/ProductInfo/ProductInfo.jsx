@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ProductDataContext } from "../Context/ProductData";
-import bgImage from "./bgImage/32.png";
+import bgImage from "./bgImage/23.png";
 import {
   faFacebook,
   faTwitter,
@@ -612,10 +612,10 @@ function ProductInfo() {
                           key={idx}
                           className="relative min-w-[200px] h-60 tablet:h-60 tablet:p-0 p-3 flex flex-col items-center border-[1px] border-custom-green rounded-md mb-2"
                         >
-                          <div className="absolute inset-0 animate-moveUp">
+                          <div className="absolute inset-0 animate-moveUp flex justify-center">
                             <img
                               src={bgImage}
-                              className="h-full w-full object-cover -z-10"
+                              className="h-full w-full object-cover -z-10 opacity-10"
                               alt=""
                             />
                           </div>
