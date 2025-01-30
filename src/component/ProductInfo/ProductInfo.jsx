@@ -179,7 +179,7 @@ function ProductInfo() {
   // Scroll to top when component mounts
   const [load, setLoad] = useState(true);
   useEffect(() => {
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
     setTimeout(() => {
       setLoad(false);
     }, 500);
