@@ -78,7 +78,7 @@ function Section1() {
           </motion.p>
           <div className="description mt-4 font-poppins">
             <p
-              className="subTitle  text-sm tablet:text-lg w-full tablet:w-[40vw] text-start
+              className="subTitle  text-sm tablet:text-lg w-full max-w-lg tablet:w-[40vw] text-start
              largeLaptop:text-[70px]"
             >
               Everlife CPC Diagnostics is your trusted partner for high-quality
