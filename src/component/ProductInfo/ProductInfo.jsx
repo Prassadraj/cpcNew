@@ -1,8 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ProductDataContext } from "../Context/ProductData";
-import Transition from "../Transition/Transition";
-import image1 from "../../images/image1.jpg";
+import bgImage from "./bgImage/32.png";
 import {
   faFacebook,
   faTwitter,
@@ -180,7 +179,7 @@ function ProductInfo() {
   // Scroll to top when component mounts
   const [load, setLoad] = useState(true);
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
     setTimeout(() => {
       setLoad(false);
     }, 500);
@@ -613,13 +612,13 @@ function ProductInfo() {
                           key={idx}
                           className="relative min-w-[200px] h-60 tablet:h-60 tablet:p-0 p-3 flex flex-col items-center border-[1px] border-custom-green rounded-md mb-2"
                         >
-                          {/* <div className="absolute inset-0 ">
+                          <div className="absolute inset-0 animate-moveUp">
                             <img
-                              src={related.image[0]}
+                              src={bgImage}
                               className="h-full w-full object-cover -z-10"
                               alt=""
                             />
-                          </div> */}
+                          </div>
                           <img
                             src={related.image[0]}
                             alt=""
