@@ -202,6 +202,19 @@ function Nav() {
                     className=""
                     to={`/product/ClinicalMicrobiology/top`}
                     onClick={() => {
+                      setSelectedCategory("Molecular Diagnostics");
+                      setShowMobileMenu(!showMobileMenu);
+                      setIsToggled((e) => !e);
+                    }}
+                  >
+                    Molecular Diagnostics
+                  </Link>
+                </li>
+                {/* <li>
+                  <Link
+                    className=""
+                    to={`/product/ClinicalMicrobiology/top`}
+                    onClick={() => {
                       setSelectedCategory("Clinical Microbiology");
                       setShowMobileMenu(!showMobileMenu);
                       setIsToggled((e) => !e);
@@ -209,7 +222,7 @@ function Nav() {
                   >
                     Clinical Microbiology
                   </Link>
-                </li>
+                </li> */}
                 {/* <li>
                   {" "}
                   <Link
