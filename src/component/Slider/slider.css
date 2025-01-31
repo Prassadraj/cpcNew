@@ -1,0 +1,128 @@
+.slider-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  isolation: isolate;
+  position: relative;
+}
+.slider-wrapper::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 65%;
+  aspect-ratio: 1/1;
+  background: hsl(168, 100%, 33%);
+  mask-image: url(/public/slider-circle.png);
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  z-index: -1;
+  animation: rotateImg 10s linear infinite reverse;
+}
+.slider-wrapper::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 65%;
+  aspect-ratio: 1/1;
+  mask-image: url(/public/slider-circle-corner.png);
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  background: hsl(168, 100%, 33%);
+  z-index: -2;
+  animation: rotateImg 10s linear infinite;
+}
+@keyframes rotateImg {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.slider-wrapper .slide {
+  grid-row: 1/1;
+  grid-column: 1/1;
+}
+.slider-wrapper .slide img {
+  width: 60%;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+.slider-wrapper .slide {
+  opacity: 0;
+}
+.slider-wrapper .slide.next.fromActive {
+  animation: nextslide 0.5s forwards;
+}
+.slider-wrapper .slide.prev.fromActive {
+  animation: prevslide 0.5s forwards;
+}
+.slider-wrapper .slide.active {
+  z-index: 2;
+}
+.slider-wrapper .slide.active.fromPrev {
+  animation: formPreslide 0.5s forwards;
+}
+.slider-wrapper .slide.active.fromNext {
+  animation: formNextslide 0.5s forwards;
+}
+@keyframes prevslide {
+  0% {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-30%) scale(0.2);
+  }
+}
+@keyframes nextslide {
+  0% {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(30%) scale(0.2);
+  }
+}
+@keyframes formPreslide {
+  100% {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+  }
+  0% {
+    opacity: 0;
+    transform: translateX(30%) scale(0.2);
+  }
+}
+@keyframes formNextslide {
+  100% {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+  }
+  0% {
+    opacity: 0;
+    transform: translateX(-30%) scale(0.2);
+  }
+}
+
+.slider-btn {
+  width: 20px;
+  aspect-ratio: 1/1;
+  background-color: hsl(168, 100%, 33%);
+  border: none;
+  mask-size: contain;
+  mask-position: center;
+  mask-repeat: no-repeat;
+}
+.slider-btn.next {
+  mask-image: url(https://api.iconify.design/material-symbols:arrow-forward-ios-rounded.svg);
+}
+.slider-btn.prev {
+  mask-image: url(https://api.iconify.design/material-symbols:arrow-back-ios-rounded.svg);
+}
