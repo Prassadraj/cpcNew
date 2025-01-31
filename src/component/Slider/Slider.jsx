@@ -113,7 +113,10 @@ const Slider = () => {
                   alt={s.category}
                   style={{
                     filter: "drop-shadow(5px 5px 10px rgba(75, 85, 99, 0.8))",
-                    transform: s.id == 6 ? "scale(0.80)" : "scale(1)",
+                    transform:
+                      s.id == 2 && s.category == "Point%20of%20Care"
+                        ? "scale(0.80)"
+                        : "scale(1)",
                   }}
                 />
               </Link>
