@@ -30,6 +30,12 @@ import { SectionCategory } from "../Context/SectionCategory";
 
 function ProductInfo() {
   const { data } = useContext(ProductDataContext);
+  const [loadedImages, setLoadedImages] = useState({}); // Tracks loading state of each image
+
+  const handleImageLoad = (idx) => {
+    setLoadedImages((prev) => ({ ...prev, [idx]: true }));
+  };
+  console.log(loadedImages);
   const { category, id } = useParams();
   const decodedCategory = decodeURIComponent(category).replace(" ", "");
   const { selecteSectionCategory, setSelectSectionCategory } =
@@ -319,17 +325,27 @@ function ProductInfo() {
                 <div className="flex flex-col md:flex-row items-center tablet:justify-start mb-2  md:gap-4">
                   <div className="hidden md:block w-1/4 md:px-2 tablet:mt-2">
                     {images.map((img, idx) => (
-                      <img
-                        key={idx}
-                        className="mb-2 h-20 w-[100px] object-contain cursor-pointer rounded-lg transition-transform duration-300 hover:scale-105"
-                        src={img}
-                        onClick={() => setImgUrl(idx)}
-                        alt={`Image ${idx + 1}`}
-                        style={{
-                          border: imgUrl === idx ? "4px solid #00A786" : "none",
-                          borderRadius: "10px",
-                        }}
-                      />
+                      <div key={idx} className="relative">
+                        {!loadedImages[idx] && (
+                          <div className="mb-3 h-16 w-[100px] bg-gray-200 animate-pulse rounded-lg"></div>
+                        )}
+                        <img
+                          key={idx}
+                          className={`mb-3 h-fit w-[100px] object-contain cursor-pointer rounded-lg transition-transform duration-300 hover:scale-105 ${
+                            !loadedImages[idx] ? "hidden" : ""
+                          }`}
+                          onLoad={() => handleImageLoad(idx)}
+                          src={img}
+                          onClick={() => setImgUrl(idx)}
+                          alt={`Image ${idx + 1}`}
+                          style={{
+                            border:
+                              imgUrl === idx ? "4px solid #00A786" : "none",
+                            borderRadius: "10px",
+                            imageRendering: "auto",
+                          }}
+                        />
+                      </div>
                     ))}
                   </div>
                   <div className="hidden relative laptop:w-[60%] w-full tablet:w-[70%] laptop:h-[300px]  tablet:flex justify-center">
