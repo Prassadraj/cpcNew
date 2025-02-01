@@ -40,7 +40,8 @@ const Slider = () => {
   const nextSlide = () => {
     setSlide((prevs) => {
       return prevs.map((s, index, arr) => {
-        if (s.state === "active") return { ...s, state: "prev", class: "" };
+        if (s.state === "active")
+          return { ...s, state: "prev", class: "fromActive" };
         if (s.state === "next")
           return { ...s, state: "active", class: "fromNext" };
         if (s.state === "prev") return { ...s, state: "hidden", class: "" };
@@ -48,7 +49,7 @@ const Slider = () => {
         if (s.state === "hidden") {
           const nextIndex = arr.findIndex((item) => item.state === "next");
           if (index === (nextIndex + 1) % arr.length) {
-            return { ...s, state: "next", class: "fromActive" };
+            return { ...s, state: "next", class: "" };
           }
         }
         return s;
@@ -59,7 +60,8 @@ const Slider = () => {
   const preSlide = () => {
     setSlide((prevs) => {
       return prevs.map((s, index, arr) => {
-        if (s.state === "active") return { ...s, state: "next", class: "" };
+        if (s.state === "active")
+          return { ...s, state: "next", class: "fromActive" };
         if (s.state === "prev")
           return { ...s, state: "active", class: "fromPrev" };
         if (s.state === "next") return { ...s, state: "hidden", class: "" };
@@ -67,7 +69,7 @@ const Slider = () => {
         if (s.state === "hidden") {
           const prevIndex = arr.findIndex((item) => item.state === "prev");
           if (index === (prevIndex - 1 + arr.length) % arr.length) {
-            return { ...s, state: "prev", class: "fromActive" };
+            return { ...s, state: "prev", class: "" };
           }
         }
         return s;

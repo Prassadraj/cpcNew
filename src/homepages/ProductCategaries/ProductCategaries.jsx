@@ -30,11 +30,30 @@ const categoryItems = [
   { name: "Pre-Analytical Automation", image: heamatology },
 
   { name: "Electrolyte Analyzer", image: covid },
+  { name: "Biochemistry", image: chemistry },
+  { name: "Hematology", image: pieChart },
+  { name: "Point of Care", image: medicine },
+  // { name: "COVID-19", image: mask },
+  ////
+  { name: "Immunology", image: microbiology },
+  { name: "Electrolyte Analyzer", image: covid },
+  // { name: "Clinical Microbiology", image: electrolyte },
+  { name: "Pre-Analytical Automation", image: heamatology },
+
+  { name: "Electrolyte Analyzer", image: covid },
 ];
 
 const categoryItems2 = [
   // { name: "COVID-19", image: covid },
 
+  { name: "Point of Care", image: care },
+  { name: "Electrolyte Analyzer", image: covid },
+  { name: "Hematology", image: pieChart },
+  // { name: "Clinical Microbiology", image: electrolyte },
+  { name: "Biochemistry", image: BioChemistry },
+  { name: "Pre-Analytical Automation", image: PreAnalytical },
+  { name: "Point of Care", image: care },
+  { name: "Immunology", image: Immunology },
   { name: "Point of Care", image: care },
   { name: "Electrolyte Analyzer", image: covid },
   { name: "Hematology", image: pieChart },
@@ -143,7 +162,7 @@ function ProductCategaries() {
         {/* right */}
         <div
           ref={marqueeRef}
-          className="flex gap-3 laptop:!gap-10 laptop:h-[80vh] h-full overflow-hidden"
+          className="flex gap-3 laptop:!gap-10 laptop:h-[80vh] h-full "
         >
           {/* Top Items (scroll up) */}
           <div

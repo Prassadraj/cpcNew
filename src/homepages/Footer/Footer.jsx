@@ -24,12 +24,12 @@ function Footer({ open }) {
 
   return (
     <div
-      className={`container h-fit w-full laptop:mt-[80px] px-2 tablet:mt-[200px]   bg-gradient-to-r from-[#00735D] to-[#01A786] tablet:block ${
+      className={` h-fit w-full laptop:mt-[80px] px-2 tablet:mt-[200px]   bg-gradient-to-r from-[#00735D] to-[#01A786] tablet:block ${
         open && "hidden"
       }`}
     >
       <div
-        className="tablet:flex justify-around gap-2 pt-10 px-2 
+        className="container tablet:flex justify-around gap-2 pt-10 px-2 
      "
       >
         {/* col 1 */}
@@ -654,8 +654,8 @@ function Footer({ open }) {
         </div>
       </div>
 
-      <div className="h-[1px] w-[90%] flex justify-center items-center text-center bg-custom-green mx-auto mt-4"></div>
-      <div className="mt-2 flex flex-col justify-center tablet:flex-row tablet:justify-between items-center   tablet:mt-4 tablet:pl-16 tablet:pr-16">
+      <div className="container h-[1px] w-[90%] flex justify-center items-center text-center bg-custom-green mx-auto mt-4"></div>
+      <div className="container mt-2 flex flex-col justify-center tablet:flex-row tablet:justify-between items-center   tablet:mt-4 tablet:pl-16 tablet:pr-16">
         <div className="text-center py-6">
           <ul className="tablet:flex grid grid-cols-2 gap-3 tablet:gap-0 justify-center text-lg tablet:text-base space-x-2">
             <li>
