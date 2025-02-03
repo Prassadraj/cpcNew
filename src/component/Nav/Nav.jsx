@@ -96,7 +96,7 @@ function Nav() {
   }, [showMobileMenu]);
 
   return (
-    <div className="md:flex sticky p-2 container bg-white border-b border-b-custom-green top-0 whitespace-nowrap h-fit w-full z-50 items-center justify-around shadow-md overflow-visible">
+    <div className="md:flex sticky p-2  bg-white border-b border-b-custom-green top-0 whitespace-nowrap h-fit w-full z-50 items-center justify-around shadow-md overflow-visible">
       <div className="left flex items-center ">
         <div className="block md:hidden w-fit bg-white">
           <button
