@@ -1,5 +1,8 @@
 /* contactUs.css */
-
+.videoSection {
+  box-shadow: 0 0 100vw 100vw black;
+  clip-path: polygon(-100vw 0, 100vw 0, 100vw 100%, -100vw 100%);
+}
 /* Set background of inputs and textarea to transparent */
 input[type="text"],
 textarea {

@@ -23,7 +23,7 @@ import prim2 from "../AllDatas/ProductImages/Biochemistry/PRIME/product2.webp";
 import chemistryCollibratorGrey from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/Chemistry Calibrator and Chemistry Controls.jpg";
 import chemistryCollibrator from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/Chemistry Calibrator and Chemistry Controls.webp";
 //
-import ichemPrimeGrey from "../AllDatas/greyImages/Turbochem Prime.webp";
+import ichemPrimeGrey from "../AllDatas/ProductImages/Biochemistry/ichemPrime/Ichem Prime.jpg";
 import ichemPrime from "../AllDatas/ProductImages/Biochemistry/ichemPrime/Ichem Prime.webp";
 //
 import identiImmunoGrey from "../AllDatas/ProductImages/Biochemistry/identiImmuno/identi Immuno Turbidimetry Reagents.jpg";
@@ -60,12 +60,13 @@ import Jokoh1 from "../AllDatas/ProductImages/Electrolyte Analyzer/JokohEx-D/Jok
 import Jokoh2 from "../AllDatas/ProductImages/Electrolyte Analyzer/JokohEx-D/product2.webp";
 import Jokoh3 from "../AllDatas/ProductImages/Electrolyte Analyzer/JokohEx-D/product3.webp";
 // Hematology
-import PLUS1 from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynacount 3D Plus.webp";
-import PLUSGrey from "../AllDatas/greyImages/Dynacount 3D Plus.webp";
+
+import DYNACOUNT3DPlus from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynacount 3D Plus.webp";
+import DYNACOUNT3DPlusGrey from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynacount 3D Plus.jpg";
 //
 import VisionGrey from "../AllDatas/greyImages/Vision Pro.webp";
-import Vision1 from "../AllDatas/ProductImages/Hematology/Analyzer/Vision Pro.webp";
-import Vision2 from "../AllDatas/ProductImages/Hematology/Analyzer/product2.webp";
+import Vision1 from "../AllDatas/ProductImages/Hematology/VisionPro/vision.webp";
+import Vision2 from "../AllDatas/ProductImages/Hematology/VisionPro/vision.webp";
 //
 import DYNACOUNT3D1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT 3D/Dynacount 3D.webp";
 import DYNACOUNT3DGrey from "../AllDatas/greyImages/Dynacount 3D.webp";
@@ -2006,7 +2007,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -2146,8 +2147,8 @@ const products = [
       {
         allover: "3 Part Differential Hematology Analyzer",
         id: "2",
-        coverImg: plusGrey,
-        image: [PLUS1],
+        coverImg: DYNACOUNT3DPlusGrey,
+        image: [DYNACOUNT3DPlus],
         title: "DYNACOUNT 3D PLUS",
         section: "3parthematology",
         shortdescription:
@@ -2163,7 +2164,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -2321,7 +2322,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -2466,7 +2467,7 @@ const products = [
         allover: "VISION Pro",
         id: "4",
         coverImg: VisionGrey,
-        image: [Vision1, Vision2],
+        image: [Vision1],
         title: "VISION Pro",
         section: "esranalyzer",
 
@@ -2483,7 +2484,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -6031,7 +6032,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -6190,7 +6191,7 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-lg largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :

@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import Marquee from "react-fast-marquee";
+import React, { useContext, useEffect, useRef } from "react";
+
 import chemistry from "../ProductCategaries/GIF/chemistry.gif";
 import pieChart from "../ProductCategaries/GIF/pie-chart.gif";
 import medicine from "../ProductCategaries/GIF/medicine.gif";
@@ -12,11 +12,12 @@ import care from "../ProductCategaries/GIF/Point of care.gif";
 import Immunology from "../ProductCategaries/GIF/Immunology.gif";
 import PreAnalytical from "../ProductCategaries/GIF/Pre-analytical-automation.gif";
 import BioChemistry from "../ProductCategaries/GIF/Bio Chemistry.gif";
-
+import "./cat.css";
 import Magnetic from "../../component/magneticButton/Magnetic";
 import { CategoryContext } from "../../component/Context/CategoryContext";
 import { Link } from "react-router-dom";
-
+import gsap from "gsap";
+//
 const categoryItems = [
   { name: "Biochemistry", image: chemistry },
   { name: "Hematology", image: pieChart },
@@ -27,167 +28,204 @@ const categoryItems = [
   { name: "Electrolyte Analyzer", image: covid },
   // { name: "Clinical Microbiology", image: electrolyte },
   { name: "Pre-Analytical Automation", image: heamatology },
-  { name: "Immunology", image: microbiology },
+
+  { name: "Electrolyte Analyzer", image: covid },
+  { name: "Biochemistry", image: chemistry },
   { name: "Hematology", image: pieChart },
   { name: "Point of Care", image: medicine },
+  // { name: "COVID-19", image: mask },
+  ////
+  { name: "Immunology", image: microbiology },
   { name: "Electrolyte Analyzer", image: covid },
+  // { name: "Clinical Microbiology", image: electrolyte },
   { name: "Pre-Analytical Automation", image: heamatology },
+
+  { name: "Electrolyte Analyzer", image: covid },
 ];
 
 const categoryItems2 = [
   // { name: "COVID-19", image: covid },
-  { name: "Immunology", image: Immunology },
+
   { name: "Point of Care", image: care },
   { name: "Electrolyte Analyzer", image: covid },
+  { name: "Hematology", image: pieChart },
   // { name: "Clinical Microbiology", image: electrolyte },
   { name: "Biochemistry", image: BioChemistry },
   { name: "Pre-Analytical Automation", image: PreAnalytical },
   { name: "Point of Care", image: care },
   { name: "Immunology", image: Immunology },
+  { name: "Point of Care", image: care },
   { name: "Electrolyte Analyzer", image: covid },
+  { name: "Hematology", image: pieChart },
   // { name: "Clinical Microbiology", image: electrolyte },
+  { name: "Biochemistry", image: BioChemistry },
+  { name: "Pre-Analytical Automation", image: PreAnalytical },
+  { name: "Point of Care", image: care },
+  { name: "Immunology", image: Immunology },
+];
+const mobile = [
+  { name: "Biochemistry", image: BioChemistry },
+
+  { name: "Immunology", image: Immunology },
+  { name: "Molecular Diagnostics", image: BioChemistry },
+  { name: "Point of Care", image: care },
+  { name: "Electrolyte Analyzer", image: covid },
+
+  { name: "Pre-Analytical Automation", image: PreAnalytical },
+  { name: "Hematology", image: electrolyte },
 ];
 
 function ProductCategaries() {
   const { setSelectedCategory } = useContext(CategoryContext);
+  const marqueeRef = useRef(null);
+  const topItemsRef = useRef(null); // Ref for top items
+  const bottomItemsRef = useRef(null); // Ref for bottom items
+
+  useEffect(() => {
+    // GSAP Animation for up and down scrolling (continuous)
+    const topItems = topItemsRef.current;
+    const bottomItems = bottomItemsRef.current;
+
+    // GSAP animations for both top and bottom items
+    const topAnimation = gsap.to(topItems, {
+      y: "-100%", // Move items upwards
+      repeat: -1, // Infinite loop
+      duration: 20, // Adjust this value to control the speed
+      ease: "linear", // Continuous motion
+    });
+
+    const bottomAnimation = gsap.to(bottomItems, {
+      y: "100%", // Move items downwards
+      repeat: -1, // Infinite loop
+      duration: 20, // Adjust this value to control the speed
+      ease: "linear", // Continuous motion
+    });
+
+    // Pause the animation on hover (for specific container)
+    const onHoverStart = (animation) => {
+      animation.pause(); // Pause the specific animation
+    };
+
+    const onHoverEnd = (animation) => {
+      animation.play(); // Resume the specific animation
+    };
+
+    // Add event listeners for pausing/resuming the animations for top and bottom items
+    topItems.addEventListener("mouseenter", () => onHoverStart(topAnimation));
+    topItems.addEventListener("mouseleave", () => onHoverEnd(topAnimation));
+
+    bottomItems.addEventListener("mouseenter", () =>
+      onHoverStart(bottomAnimation)
+    );
+    bottomItems.addEventListener("mouseleave", () =>
+      onHoverEnd(bottomAnimation)
+    );
+
+    return () => {
+      // Cleanup event listeners on component unmount
+      topItems.removeEventListener("mouseenter", () =>
+        onHoverStart(topAnimation)
+      );
+      topItems.removeEventListener("mouseleave", () =>
+        onHoverEnd(topAnimation)
+      );
+
+      bottomItems.removeEventListener("mouseenter", () =>
+        onHoverStart(bottomAnimation)
+      );
+      bottomItems.removeEventListener("mouseleave", () =>
+        onHoverEnd(bottomAnimation)
+      );
+    };
+  }, []);
 
   return (
-    <div className="laptop:mt-[170px] tablet:mt-[100px] largeLaptop:mt-[2rem] ">
-      {/* mobile */}
-      <div className="mb-4 tablet:hidden h-fit w-full flex items-center justify-around font-poppins sm:px-4 px-2 gap-10">
-        <div className="text-2xl font-semibold text-custom-green w-1/2">
-          <p> Product</p>
-          <p>Categories</p>
-          <p className="text-xs font-thin text-gray-700 mt-2">
+    <>
+      <div className="flex justify-around w-full items-center gap-3 mb-10 laptop:mb-0 container1 h-[400px] laptop:h-screen  overflow-hidden">
+        <div className="w-1/2 flex flex-col gap-3 ">
+          <div>
+            <p className="text-custom-green text-2xl tablet:text-5xl text-start font-poppins font-semibold">
+              Product
+            </p>
+            <p className=" text-2xl tablet:text-5xl text-start font-poppins font-semibold text-custom-green">
+              Categories
+            </p>
+          </div>
+          <h2 className="tablet:text-lg laptop:max-w-md  text-sm text-start font-poppins text-gray-500">
             Explore our diverse range of laboratory equipment for all your
             medical and diagnostic needs.
-          </p>
-          <p className="mt-2 text-white p-1 text-sm bg-sky-400 font-poppins rounded-md font-medium hover:scale-90 transition-all shadow-md text-center">
+          </h2>
+          <button className="text-left text-black shadow-custom-green text-sm p-2 bg-white border font-poppins w-fit tablet:px-3 tablet:py-2 rounded-md font-medium hover:scale-90 transition-all shadow-md">
             Explore Products
-          </p>
+          </button>
         </div>
-        <div className="w-1/2 p-2 overflow-hidden ">
-          {" "}
-          {categoryItems2.map((item) => (
-            <Link to="/product" onClick={() => setSelectedCategory(item.name)}>
-              <div className="w-full flex flex-col items-center py-1 px-2 border rounded-xl mt-2 shadow-md shadow-custom-green">
-                <img src={item.image} className="w-[25px]" alt={item.name} />
-                <p className="text-xs text-gray-700 text-center">{item.name}</p>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </div>
-      {/* lap */}
-      <div
-        className="hidden laptop:h-[40vh]  largeLaptop:h-fit tablet:flex justify-center items-center 
-      laptop:mb-[200px]
-      largeLaptop:mb-[10rem]
-      "
-      >
-        <div className="flex w-full">
-          {/* Left Section */}
-          <div className="flex flex-col flex-[1.5] gap-3 laptop:pl-24 tablet:pl-16 pt-2 laptop:mt-20 tablet:mt-16">
-            <div className="text-white" style={{ lineHeight: "3px" }}>
-              <p className="text-custom-green largeLaptop:text-[6rem] text-5xl max-w-lg text-start font-poppins font-semibold">
-                Product
-              </p>
-              <p className="text-5xl largeLaptop:text-[6rem] max-w-lg text-start font-poppins font-semibold text-custom-green">
-                Categories
-              </p>
-            </div>
-            <p
-              className="text-lg mt-4 largeLaptop:mt-6 max-w-sm text-start font-poppins text-gray-700
-            largeLaptop:text-3xl"
-            >
-              Explore our diverse range of laboratory equipment for all your
-              medical and diagnostic needs.
-            </p>
-            <Link to="/product">
-              <button className=" mt-3 text-left text-gray-700 text-base bg-gray-white font-poppins w-fit pl-3 pr-3 pt-2 pb-2 rounded-md font-medium hover:scale-90 transition-all shadow-md shadow-custom-green border largeLaptop:text-3xl largeLaptop:mt-6">
-                Explore Products
-              </button>
-            </Link>
-          </div>
-
-          {/* Right Section */}
+        {/* right */}
+        <div
+          ref={marqueeRef}
+          className="flex gap-3 laptop:!gap-10 laptop:h-[80vh] h-full "
+        >
+          {/* Top Items (scroll up) */}
           <div
-            className="flex-1 flex relative text-2xl w-full laptop:h-[80vh] largeLaptop:h-[60vh] largeLaptop:overflow-hidden tablet:overflow-hidden tablet:gap-3
-          "
+            ref={topItemsRef} // Add the ref to this container
+            className="top-items flex flex-col gap-2 laptop:!gap-5"
           >
-            <div className="w-[15vw] laptop:h-screen tablet:h-[500px]  flex justify-center overflow-hidden">
-              <div className="flex items-center">
-                <Marquee
-                  direction="up"
-                  pauseOnHover
-                  className="flex gap-3 overflow-hidden"
-                  speed={30}
-                >
-                  {categoryItems2.map((item) => (
-                    <Link
-                      to={`/product/${
-                        item.name.includes(" ")
-                          ? item.name.split(" ").join("")
-                          : item.name
-                      }/top`}
-                      onClick={() => setSelectedCategory(item.name)}
-                    >
-                      <Magnetic key={item.name}>
-                        <div
-                          style={{ margin: "10px 10px" }}
-                          className="flex flex-col-reverse items-center justify-center pt-4 pb-4 pr-8 pl-8 text-center bg-white rounded-xl gap-2 tablet:w-[14vw]  laptop:w-[11vw] border-1 border-custom-green shadow-md shadow-custom-green"
-                        >
-                          <img width="70px" src={item.image} alt={item.name} />
-                          <p className="text-sm text-gray-700 font-semibold font-poppins truncate max-w-[9vw]">
-                            {item.name}
-                          </p>
-                        </div>
-                      </Magnetic>
-                    </Link>
-                  ))}
-                </Marquee>
-              </div>
-            </div>
+            {categoryItems.map((val, i) => (
+              <Link
+                to={`/product/${
+                  val.name.includes(" ")
+                    ? val.name.split(" ").join("")
+                    : val.name
+                }/top`}
+                onClick={() => setSelectedCategory(val.name)}
+              >
+                <Magnetic key={i}>
+                  <div className="cursor-pointer border-1 laptop:rounded-xl bg-white border-custom-green shadow-md shadow-custom-green h-fit laptop:w-32 laptop:!p-3 flex flex-col-reverse items-center p-1 rounded-sm">
+                    <img
+                      src={val.image}
+                      className="tablet:w-14 w-12 h-fit object-contain"
+                      alt={val.name}
+                    />
+                    <p className="text-[10px] text-black tablet:text-xs text-center laptop:text-sm font-medium">
+                      {val.name}
+                    </p>
+                  </div>
+                </Magnetic>
+              </Link>
+            ))}
+          </div>
 
-            <div className="w-[15vw] h-screen flex justify-center  overflow-hidden">
-              <div className="flex items-center">
-                <Marquee
-                  direction="down"
-                  pauseOnHover
-                  className="flex gap-3 overflow-hidden"
-                  speed={30}
-                >
-                  {categoryItems.map((item) => (
-                    <Link
-                      to={`/product/${item.name}/top`}
-                      onClick={() => setSelectedCategory(item.name)}
-                    >
-                      <Magnetic key={item.name}>
-                        <div
-                          style={{ margin: "10px 10px" }}
-                          key={item.name}
-                          className="flex flex-col items-center justify-center pt-4 pb-4 pr-8 pl-8 text-center bg-white border-1 border-custom-green shadow-md shadow-custom-green rounded-xl gap-2 tablet:w-[14vw]  laptop:w-[11vw]"
-                        >
-                          <img
-                            width="70px"
-                            className=""
-                            src={item.image}
-                            alt={item.name}
-                          />
-                          <p className="laptop:text-sm tablet:text-xs text-gray-700 font-semibold font-poppins truncate max-w-[9vw]">
-                            {item.name}
-                          </p>
-                        </div>
-                      </Magnetic>
-                    </Link>
-                  ))}
-                </Marquee>
-              </div>
-            </div>
+          {/* Bottom Items (scroll down) */}
+          <div
+            ref={bottomItemsRef} // Add the ref to this container
+            className="bottom-items flex flex-col-reverse gap-2 laptop:!gap-5"
+          >
+            {categoryItems2.map((val, i) => (
+              <Link
+                to={`/product/${
+                  val.name.includes(" ")
+                    ? val.name.split(" ").join("")
+                    : val.name
+                }/top`}
+                onClick={() => setSelectedCategory(val.name)}
+              >
+                <Magnetic key={i}>
+                  <div className="cursor-pointer border-1 laptop:rounded-xl bg-white border-custom-green shadow-md shadow-custom-green h-fit laptop:w-32 laptop:!p-3 flex flex-col items-center p-1 rounded-sm">
+                    <img
+                      src={val.image}
+                      className="tablet:w-14 w-12 h-fit object-contain"
+                      alt={val.name}
+                    />
+                    <p className="text-center text-black text-[10px] tablet:text-xs laptop:text-sm font-medium">
+                      {val.name}
+                    </p>
+                  </div>
+                </Magnetic>
+              </Link>
+            ))}
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

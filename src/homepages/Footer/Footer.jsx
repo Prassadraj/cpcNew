@@ -24,16 +24,16 @@ function Footer({ open }) {
 
   return (
     <div
-      className={`h-fit w-full laptop:mt-[80px] px-2 tablet:mt-[200px]   bg-gradient-to-r from-[#00735D] to-[#01A786] tablet:block ${
+      className={` h-fit w-full laptop:mt-[80px] px-2 tablet:mt-[200px]   bg-gradient-to-r from-[#00735D] to-[#01A786] tablet:block ${
         open && "hidden"
       }`}
     >
       <div
-        className="tablet:flex justify-around gap-2 pt-10 px-2 
+        className="container tablet:flex justify-around gap-2 pt-10 px-2 
      "
       >
         {/* col 1 */}
-        <div className="flex items-start flex-col gap-2 tablet:mt-20 col1">
+        <div className="flex items-start flex-col gap-3 tablet:mt-16 col1">
           <Link to="/">
             <div className="glassy-effect-container">
               <svg
@@ -400,7 +400,7 @@ function Footer({ open }) {
           <p className="text-white text-base tablet:text-base tablet:text-md max-w-xs text-centleftr font-poppins tablet:font-medium ">
             Experience personalized medical care from the comfort of your home.
           </p>
-          <p className="text-white font-semibold mt-4">Follow Us</p>
+          <p className="text-white font-semibold mt-3">Follow Us</p>
           <div className=" text-xl tablet:text-2xl mt-1 tablet:mt-2 text-white flex gap-3 tablet:gap-3 laptop:gap-5">
             <Link
               target="_blank"
@@ -437,7 +437,7 @@ function Footer({ open }) {
           </div>
         </div>
         {/* col 2 */}
-        <div className="flex flex-row-reverse gap-10">
+        <div className="flex flex-row-reverse justify-around ">
           <div
             className="flex  flex-col items-start mt-16 font-poppins gap-2 col2"
             ref={col2Ref}
@@ -636,19 +636,26 @@ function Footer({ open }) {
             </p>
             <p>
               {" "}
-              <span className="font-semibold">Contact :</span> +91 87544 68400
+              <a href="tel:+918754468400" className="hover:text-white">
+                <span className="font-semibold">Contact :</span> +91 87544 68400
+              </a>
             </p>
             <p>
-              <span className="font-semibold"> Email : </span>
-              info@cpcdiagnostics.in
+              <a
+                href="mailto:info@cpcdiagnostics.in"
+                className="hover:text-white"
+              >
+                <span className="font-semibold"> Email : </span>
+                info@cpcdiagnostics.in
+              </a>
             </p>
           </div>
           {/* </Link> */}
         </div>
       </div>
 
-      <div className="h-[1px] w-[90%] flex justify-center items-center text-center bg-custom-green mx-auto mt-4"></div>
-      <div className="mt-2 flex flex-col justify-center tablet:flex-row tablet:justify-between items-center   tablet:mt-4 tablet:pl-16 tablet:pr-16">
+      <div className="container h-[1px] w-[90%] flex justify-center items-center text-center bg-custom-green mx-auto mt-4"></div>
+      <div className="container mt-2 flex flex-col justify-center tablet:flex-row tablet:justify-between items-center   tablet:mt-4 tablet:pl-16 tablet:pr-16">
         <div className="text-center py-6">
           <ul className="tablet:flex grid grid-cols-2 gap-3 tablet:gap-0 justify-center text-lg tablet:text-base space-x-2">
             <li>

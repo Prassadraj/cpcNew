@@ -66,27 +66,28 @@ function Section1() {
 
   return (
     <>
-      <div className="section1 tablet:flex tablet:flex-row grid grid-cols-1 justify-center items-center laptop:h-screen w-full overflow-hidden font-poppins overflow-x-hidden tablet:h-[50vh] largeLaptop:h-[60vh] largeLaptop:mb-20">
-        <div className="flex-1 tablet:w-1/2 w-full mt-0 sm:ml-4 laptop:ml-14 px-2 sm:px-0">
+      <div className="section1 tablet:flex tablet:flex-row flex flex-col-reverse justify-center items-center laptop:h-screen w-full overflow-hidden font-poppins overflow-x-hidden tablet:h-fit h-full largeLaptop:h-[60vh] largeLaptop:mb-20 mb-4">
+        <div className="flex-1 tablet:w-1/2 w-full tablet:-mt-10 sm:ml-4 laptop:ml-14 px-2 sm:px-0">
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
-            className="text-2xl mt-3 tablet:mt-0 tablet:text-4xl largeLaptop:text-[35px] font-bold text-[#56575D]"
+            className="text-2xl mt-3 tablet:mt-0 tablet:max-w-xl tablet:text-3xl 
+           w-full text-center tablet:!text-left largeLaptop:text-[35px] font-bold text-[#56575D] "
           >
             Medical Laboratory Equipment Supplier in India at the Best Price
           </motion.p>
-          <div className="description">
+          <div className="description tablet:mt-4 !mt-2 font-poppins">
             <p
-              className="subTitle  text-sm tablet:text-xl w-full tablet:w-[40vw] text-start
-             largeLaptop:text-[70px]"
+              className="subTitle  text-sm tablet:text-lg w-full max-w-lg tablet:w-[40vw] tablet:!text-start
+             largeLaptop:text-[70px] text-center"
             >
               Everlife CPC Diagnostics is your trusted partner for high-quality
               In-vitro diagnostic Medical Laboratory Equipment Suppliers in
               India.
             </p>
           </div>
-          <div className="buttons flex gap-1 tablet:justify-start justify-center">
+          <div className="buttons flex gap-3 tablet:justify-start justify-center">
             <Link
               onClick={() => {
                 setSelectSectionCategory("all");
@@ -95,7 +96,7 @@ function Section1() {
               to={`/product/${selectedCategory}/${selecteSectionCategory}`}
             >
               <button
-                className="btn1 w-auto h-auto px-4 py-2 text-sm laptop:text-lg largeLaptop:text-2xl whitespace-nowrap"
+                className="btn1 w-auto h-auto px-3 py-2 text-sm laptop:text-base largeLaptop:text-2xl whitespace-nowrap"
                 style={{ background: "#00A786", color: "white" }}
               >
                 Explore product
@@ -103,7 +104,7 @@ function Section1() {
             </Link>
             <Link to="/contact">
               <button
-                className="btn1 w-auto h-auto px-4 py-2 text-sm whitespace-nowrap text-[#00A786] hover:bg-[#00a986] hover:text-white laptop:text-lg largeLaptop:text-2xl"
+                className="btn1 w-auto h-auto px-3 py-2 text-sm whitespace-nowrap text-[#00A786] hover:bg-[#00a986] hover:text-white laptop:text-base largeLaptop:text-2xl"
                 style={{
                   border: "2px solid #00A786",
                 }}
@@ -113,7 +114,7 @@ function Section1() {
             </Link>
           </div>
         </div>
-        <div className="flex-1 tablet:w-1/2 w-full ">
+        <div className="flex-1 tablet:w-1/2 w-full tablet:!-mt-14 pt-4 mt-4">
           <Slider />
         </div>
       </div>

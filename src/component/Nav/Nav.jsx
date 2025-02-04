@@ -13,6 +13,13 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { BtnContextProvider } from "../Context/MobileContext";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Nav() {
   const location = useLocation();
@@ -89,7 +96,7 @@ function Nav() {
   }, [showMobileMenu]);
 
   return (
-    <div className="md:flex sticky p-2 bg-white top-0 whitespace-nowrap h-fit w-full z-50 items-center justify-around shadow-md overflow-visible">
+    <div className="md:flex sticky p-2  bg-white border-b border-b-custom-green top-0 whitespace-nowrap h-fit w-full z-50 items-center justify-around shadow-md overflow-visible">
       <div className="left flex items-center ">
         <div className="block md:hidden w-fit bg-white">
           <button
@@ -202,6 +209,19 @@ function Nav() {
                     className=""
                     to={`/product/ClinicalMicrobiology/top`}
                     onClick={() => {
+                      setSelectedCategory("Molecular Diagnostics");
+                      setShowMobileMenu(!showMobileMenu);
+                      setIsToggled((e) => !e);
+                    }}
+                  >
+                    Molecular Diagnostics
+                  </Link>
+                </li>
+                {/* <li>
+                  <Link
+                    className=""
+                    to={`/product/ClinicalMicrobiology/top`}
+                    onClick={() => {
                       setSelectedCategory("Clinical Microbiology");
                       setShowMobileMenu(!showMobileMenu);
                       setIsToggled((e) => !e);
@@ -209,7 +229,7 @@ function Nav() {
                   >
                     Clinical Microbiology
                   </Link>
-                </li>
+                </li> */}
                 {/* <li>
                   {" "}
                   <Link
@@ -334,28 +354,33 @@ function Nav() {
             Contact
           </Link>
         </div>
-        <div className="flex justify-evenly mt-4">
-          <a
-            href="https://facebook.com"
+        <div className="flex justify-evenly mt-4 text-3xl">
+          <Link
             target="_blank"
-            rel="noopener noreferrer"
+            to="https://www.facebook.com/EverlifeCPC"
+            className="text-sky-600 "
           >
-            <FaFacebook size={24} />
-          </a>
-          <a
-            href="https://twitter.com"
+            <FontAwesomeIcon icon={faFacebook} />
+          </Link>
+          <Link
             target="_blank"
-            rel="noopener noreferrer"
+            to="https://www.instagram.com/everlife_cpc_diagnostics/"
           >
-            <FaTwitter size={24} />
-          </a>
-          <a
-            href="https://instagram.com"
+            <FontAwesomeIcon className="text-red-500" icon={faInstagram} />
+          </Link>
+          <Link
+            to="https://www.linkedin.com/company/everlife-cpc-diagnostics/"
+            className="text-sky-600"
             target="_blank"
-            rel="noopener noreferrer"
           >
-            <FaInstagram size={24} />
-          </a>
+            <FontAwesomeIcon icon={faLinkedin} />
+          </Link>
+          <Link
+            target="_blank"
+            to="https://www.youtube.com/@everlife-cpcdiagnostics"
+          >
+            <FontAwesomeIcon className="text-red-500" icon={faYoutube} />
+          </Link>
         </div>
       </div>
 
@@ -437,7 +462,7 @@ function Nav() {
               >
                 Biochemistry
               </Link>
-              <Link
+              {/* <Link
                 className="dropdown-item"
                 to="/product/ClinicalMicrobiology/top"
                 onClick={() => {
@@ -446,7 +471,7 @@ function Nav() {
                 }}
               >
                 Clinical Microbiology
-              </Link>
+              </Link> */}
               {/* <Link
                 className="dropdown-item"
                 to={`/product/COVID-19/top`}
