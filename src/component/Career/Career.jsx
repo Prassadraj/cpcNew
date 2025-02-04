@@ -281,9 +281,20 @@ const Careers = () => {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 p-3">
               {filteredJobs.map((job, index) => (
-                <div key={index} className="group p-6 bg-shade rounded-lg leading-8 shadow-md hover:shadow-lg w-72 min-w-full h-44 min-h-full">
+                <div key={index} className="group p-6 bg-shade rounded-lg leading-8 shadow-md hover:shadow-lg w-72 min-w-full h-44 min-h-full flex gap-4">
+                  <div>
                   <h3 className="font-semibold text-cpccol text-lg">{job.title}</h3>
-                  <p className="text-sm text-gray-600 mt-2">Location : {job.location}</p>
+                  <p className="text-sm text-gray-600 mt-2"> {job.location}</p>
+                  <button
+          type="button"
+          className="bg-slate-50 shadow-sm rounded-md hover:shadow-md transition-all ease-in-out p-1 w-28 mt-4 group-hover:bg-cpccol group-hover:text-white"
+          onClick={() => handleApply(job.link)} // Use the link property for redirection
+        >
+          Apply
+        </button>
+        </div>
+                  <div><img src={job.qrimages} alt="" className='w-24'/></div>
+                  
                   {/* <div className="mt-2">
                     {job.tags.map((tag, idx) => (
                       <span key={idx} className="text-xs bg-gray-200 p-1 rounded mr-1">
@@ -291,13 +302,7 @@ const Careers = () => {
                       </span>
                     ))}
                   </div> */}
-                 <button
-          type="button"
-          className="bg-slate-50 shadow-sm rounded-md hover:shadow-md transition-all ease-in-out p-1 w-28 mt-4 group-hover:bg-cpccol group-hover:text-white"
-          onClick={() => handleApply(job.link)} // Use the link property for redirection
-        >
-          Apply
-        </button>
+               
                 </div>
               ))}
             </div>

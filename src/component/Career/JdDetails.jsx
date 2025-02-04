@@ -1,4 +1,5 @@
 import React from 'react';
+import qr1 from "../../assets/careers/career1.png"
 
 export const jddetails = {
   Itrack: [
@@ -13,7 +14,9 @@ export const jddetails = {
         'Visit them at defined frequencies to manage the accounts better. Regularly do strategic planning to improve share of wallet at each Key Account.',
         'Implement company strategies and plans for the Key Accounts in the territory, to meet/exceed sales revenue targets.',
       ],
-      link: 'https://everlife.darwinbox.in/ms/candidate/candidate/login?redirect=%2Fms%2Fcandidate%2Fcareers%2Fa671209da8461a%2Fcustom_source%2Fa645b2c928c341%2Fcustom_type%2Fa645b2c7beb661___apply%3D1___private%3D1___id%3Da671215f111bbd'
+      link: 'https://everlife.darwinbox.in/ms/candidate/candidate/login?redirect=%2Fms%2Fcandidate%2Fcareers%2Fa671209da8461a%2Fcustom_source%2Fa645b2c928c341%2Fcustom_type%2Fa645b2c7beb661___apply%3D1___private%3D1___id%3Da671215f111bbd',
+      qrimages: qr1,
+     
     },
     {
       id: 2,
@@ -29,6 +32,7 @@ export const jddetails = {
         'Engage with Clients to help them maximize returns on the RR/PRR placements.',
       ],
       link: 'https://everlife.darwinbox.in/ms/candidate/candidate/login?redirect=%2Fms%2Fcandidate%2Fcareers%2Fa66f25470b4677%2Fcustom_source%2Fa645b2c928c341%2Fcustom_type%2Fa645b2c7beb661___apply%3D1___private%3D1___id%3Da6712163191f5e'
+      
     },
     {
       id: 3,
