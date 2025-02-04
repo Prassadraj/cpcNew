@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./slider.css";
-import image1 from "../../component/AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
-import image2 from "../../component/AllDatas/ProductImages/Hematology/SedratePro/product1.webp";
-import image3 from "../../component/AllDatas/ProductImages/Immunology/Iflash1200/product1.webp";
-import image4 from "../../component/AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
-import image5 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ II/product1.webp";
-import image6 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ III/product1.webp";
+import image1 from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynacount 3D Plus.webp";
+import image2 from "../AllDatas/ProductImages/Hematology/SedratePro/Sedrate Pro.webp";
+import image3 from "../AllDatas/ProductImages/Immunology/Iflash1200/product1.webp";
+import image4 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
+import image5 from "../AllDatas/ProductImages/Point of Care/ichroma™ II/product1.webp";
+import image6 from "../AllDatas/ProductImages/Point of Care/ichroma™ III/product1.webp";
+
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
@@ -55,13 +56,13 @@ const Slider = () => {
             {" "}
             <img
               src={`${slides[currentIndex].url}`}
-              className={`h-[300px] desktop:[400px] w-full object-contain ${
+              className={`h-[300px] desktop:[400px]  w-full object-contain transition-all duration-300  ${
                 (slides[currentIndex].category === "Immunology" &&
-                  slides[currentIndex].id === "1") ||
+                  slides[currentIndex].id === "4") ||
                 (slides[currentIndex].category === "Point%20of%20Care" &&
-                  slides[currentIndex].id === "1")
-                  ? "scale-125"
-                  : ""
+                  slides[currentIndex].id === "2")
+                  ? "tablet:scale-105"
+                  : "tablet:scale-125"
               }`}
               alt=""
               title="viewProduct"

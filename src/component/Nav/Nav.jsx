@@ -13,6 +13,13 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { BtnContextProvider } from "../Context/MobileContext";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Nav() {
   const location = useLocation();
@@ -89,7 +96,7 @@ function Nav() {
   }, [showMobileMenu]);
 
   return (
-    <div className="md:flex sticky p-2 bg-white top-0 whitespace-nowrap h-fit w-full z-50 items-center justify-around shadow-md overflow-visible">
+    <div className="md:flex sticky p-2 container bg-white border-b border-b-custom-green top-0 whitespace-nowrap h-fit w-full z-50 items-center justify-around shadow-md overflow-visible">
       <div className="left flex items-center ">
         <div className="block md:hidden w-fit bg-white">
           <button
@@ -101,7 +108,7 @@ function Nav() {
         </div>
         <Link to="/">
           <img
-            className="tablet:w-[140px] tablet:h-[70px] w-[100px]"
+            className="tablet:w-[140px]  tablet:h-[70px] w-[100px]"
             src={logo}
             alt="Logo"
           />
@@ -110,14 +117,13 @@ function Nav() {
 
       {/* Mobile Menu */}
       <div
-        className={`${
-          showMobileMenu ? "flex" : "hidden"
-        } flex-col md:hidden bg-white absolute top-16 left-0 w-full px-4 py-1 shadow-md border-t-2 h-screen  font-lato`}
+        className={`${showMobileMenu ? "flex" : "hidden"
+          } flex-col md:hidden  bg-white absolute top-16 left-0 w-full px-4 py-1 shadow-md border-t-2 h-screen  font-lato`}
       >
         <div className="h-96 overflow-y-scroll border-b-2 flex flex-col gap-1">
           <div>
             <Link
-              className=" text-xl font-semibold py-2 "
+              className=" text-xl  font-semibold py-2 "
               to="/"
               onClick={() => {
                 setShowMobileMenu(!showMobileMenu);
@@ -127,7 +133,7 @@ function Nav() {
               Home
             </Link>
             <div
-              className="text-xl font-semibold py-2 mt-2 flex items-center justify-between"
+              className="text-xl font-semibold  py-2 mt-2 flex items-center justify-between"
               onClick={() => toggleDropdown("about")}
             >
               <p>About</p>
@@ -202,6 +208,19 @@ function Nav() {
                     className=""
                     to={`/product/ClinicalMicrobiology/top`}
                     onClick={() => {
+                      setSelectedCategory("Molecular Diagnostics");
+                      setShowMobileMenu(!showMobileMenu);
+                      setIsToggled((e) => !e);
+                    }}
+                  >
+                    Molecular Diagnostics
+                  </Link>
+                </li>
+                {/* <li>
+                  <Link
+                    className=""
+                    to={`/product/ClinicalMicrobiology/top`}
+                    onClick={() => {
                       setSelectedCategory("Clinical Microbiology");
                       setShowMobileMenu(!showMobileMenu);
                       setIsToggled((e) => !e);
@@ -209,7 +228,7 @@ function Nav() {
                   >
                     Clinical Microbiology
                   </Link>
-                </li>
+                </li> */}
                 {/* <li>
                   {" "}
                   <Link
@@ -334,28 +353,33 @@ function Nav() {
             Contact
           </Link>
         </div>
-        <div className="flex justify-evenly mt-4">
-          <a
-            href="https://facebook.com"
+        <div className="flex justify-evenly  mt-4 text-3xl">
+          <Link
             target="_blank"
-            rel="noopener noreferrer"
+            to="https://www.facebook.com/EverlifeCPC"
+            className="text-sky-600 "
           >
-            <FaFacebook size={24} />
-          </a>
-          <a
-            href="https://twitter.com"
+            <FontAwesomeIcon icon={faFacebook} />
+          </Link>
+          <Link
             target="_blank"
-            rel="noopener noreferrer"
+            to="https://www.instagram.com/everlife_cpc_diagnostics/"
           >
-            <FaTwitter size={24} />
-          </a>
-          <a
-            href="https://instagram.com"
+            <FontAwesomeIcon className="text-red-500" icon={faInstagram} />
+          </Link>
+          <Link
+            to="https://www.linkedin.com/company/everlife-cpc-diagnostics/"
+            className="text-sky-600"
             target="_blank"
-            rel="noopener noreferrer"
           >
-            <FaInstagram size={24} />
-          </a>
+            <FontAwesomeIcon icon={faLinkedin} />
+          </Link>
+          <Link
+            target="_blank"
+            to="https://www.youtube.com/@everlife-cpcdiagnostics"
+          >
+            <FontAwesomeIcon className="text-red-500" icon={faYoutube} />
+          </Link>
         </div>
       </div>
 
@@ -366,9 +390,8 @@ function Nav() {
       >
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${
-              selected === "home" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "home" ? "selected" : ""
+              }`}
             to="/"
           >
             Home
@@ -380,9 +403,8 @@ function Nav() {
           onMouseLeave={() => toggleDropdown("about")}
         >
           <Link
-            className={`cursor-pointer ${
-              selected === "about" || selected === "csr" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "about" || selected === "csr" ? "selected" : ""
+              }`}
             to="/about"
           >
             About
@@ -400,9 +422,8 @@ function Nav() {
         </div>
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${
-              selected === "brand" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "brand" ? "selected" : ""
+              }`}
             to="/brand"
           >
             Our Brands
@@ -414,9 +435,8 @@ function Nav() {
           onMouseLeave={() => toggleDropdown("products")}
         >
           <Link
-            className={`cursor-pointer ${
-              selected === "product" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "product" ? "selected" : ""
+              }`}
             onClick={() => {
               setSelectSectionCategory("top");
               setSelectedCategory("Biochemistry");
@@ -437,7 +457,7 @@ function Nav() {
               >
                 Biochemistry
               </Link>
-              <Link
+              {/* <Link
                 className="dropdown-item"
                 to="/product/ClinicalMicrobiology/top"
                 onClick={() => {
@@ -446,7 +466,7 @@ function Nav() {
                 }}
               >
                 Clinical Microbiology
-              </Link>
+              </Link> */}
               {/* <Link
                 className="dropdown-item"
                 to={`/product/COVID-19/top`}
@@ -526,9 +546,8 @@ function Nav() {
           onMouseLeave={() => toggleDropdown("apply")}
         >
           <Link
-            className={`cursor-pointer ${
-              selected === "apply" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "apply" ? "selected" : ""
+              }`}
             to="/apply"
           >
             Career
@@ -546,9 +565,8 @@ function Nav() {
         </div>
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${
-              selected === "success" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "success" ? "selected" : ""
+              }`}
             to="/success"
           >
             Our Success
@@ -556,9 +574,8 @@ function Nav() {
         </div>
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${
-              selected === "blog" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "blog" ? "selected" : ""
+              }`}
             to="/blog"
           >
             Blog
@@ -566,9 +583,8 @@ function Nav() {
         </div>
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${
-              selected === "contact" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "contact" ? "selected" : ""
+              }`}
             to="/contact"
           >
             Contact

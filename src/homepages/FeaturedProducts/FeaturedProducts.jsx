@@ -57,16 +57,16 @@ const FeaturedProducts = () => {
       </div>
       {/* Add a mobile-friendly version if needed */}
       <div className="laptop:hidden px-3 mb-4">
-        <div className="scrollable-container flex overflow-x-scroll space-x-4 py-4  tablet:my-20">
+        <div className="scrollable-container flex overflow-x-scroll space-x-4 gap-4 py-4  tablet:my-20">
           {featuredCards.map((product, i) => (
             <div
               key={i}
-              className="flex-shrink-0 flex flex-col items-center w-32 tablet:w-60 h-fit"
+              className="flex-shrink-0 flex flex-col items-center w-44 tablet:w-60 h-fit"
             >
-              <div className="h-44 tablet:h-60 flex items-center justify-center">
+              <div className="h-52 tablet:h-60 flex items-center justify-center">
                 <img
                   src={product.url}
-                  className="w-32 object-cover tablet:w-[300px]"
+                  className="w-44 object-cover tablet:w-[300px]"
                   alt=""
                 />
               </div>

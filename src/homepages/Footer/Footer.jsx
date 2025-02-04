@@ -24,16 +24,16 @@ function Footer({ open }) {
 
   return (
     <div
-      className={`h-fit w-full laptop:mt-[80px] px-2 tablet:mt-[200px]   bg-gradient-to-r from-[#00735D] to-[#01A786] tablet:block ${
+      className={`container h-fit w-full laptop:mt-[80px] px-2 tablet:mt-[200px]   bg-gradient-to-r from-[#00735D] to-[#01A786] tablet:block ${
         open && "hidden"
       }`}
     >
       <div
-        className="flex justify-around gap-2
+        className="tablet:flex justify-around gap-2 pt-10 px-2 
      "
       >
         {/* col 1 */}
-        <div className="flex items-start flex-col gap-2 mt-28 col1">
+        <div className="flex items-start flex-col gap-3 tablet:mt-16 col1">
           <Link to="/">
             <div className="glassy-effect-container">
               <svg
@@ -397,52 +397,162 @@ function Footer({ open }) {
               </svg>
             </div>{" "}
           </Link>
-          <p className="text-white text-xs tablet:text-base tablet:text-md max-w-xs text-centleftr font-poppins tablet:font-medium ">
+          <p className="text-white text-base tablet:text-base tablet:text-md max-w-xs text-centleftr font-poppins tablet:font-medium ">
             Experience personalized medical care from the comfort of your home.
           </p>
+          <p className="text-white font-semibold mt-3">Follow Us</p>
+          <div className=" text-xl tablet:text-2xl mt-1 tablet:mt-2 text-white flex gap-3 tablet:gap-3 laptop:gap-5">
+            <Link
+              target="_blank"
+              to="https://www.facebook.com/EverlifeCPC"
+              className="hover:text-sky-600"
+            >
+              <FontAwesomeIcon icon={faFacebook} />
+            </Link>
+            <Link
+              target="_blank"
+              to="https://www.instagram.com/everlife_cpc_diagnostics/"
+            >
+              <FontAwesomeIcon
+                className="hover:text-red-500"
+                icon={faInstagram}
+              />
+            </Link>
+            <Link
+              to="https://www.linkedin.com/company/everlife-cpc-diagnostics/"
+              className="hover:text-sky-600"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </Link>
+            <Link
+              target="_blank"
+              to="https://www.youtube.com/@everlife-cpcdiagnostics"
+            >
+              <FontAwesomeIcon
+                className="hover:text-red-500"
+                icon={faYoutube}
+              />
+            </Link>
+          </div>
         </div>
         {/* col 2 */}
-        <div
-          className="flex flex-col items-start mt-16 font-poppins gap-2 col2"
-          ref={col2Ref}
-        >
-          <p className="text-xs tablet:text-2xl font-semibold  text-white font-poppins">
-            Quick Links
-          </p>
-          <Link
-            to="/about"
-            className="text-xs tablet:text-lg  hover:text-black"
+        <div className="flex flex-row-reverse justify-around ">
+          <div
+            className="flex  flex-col items-start mt-16 font-poppins gap-2 col2"
+            ref={col2Ref}
           >
-            <p>About</p>
-          </Link>
-          <Link
-            to="/contact"
-            className="text-xs tablet:text-lg  hover:text-black"
+            <p className="text-xl text-nowrap tablet:text-2xl font-semibold  text-white font-poppins">
+              Quick Links
+            </p>
+            <Link
+              to="/about"
+              className="text-lg tablet:text-lg  hover:text-black"
+            >
+              <p>About</p>
+            </Link>
+            <Link
+              to="/contact"
+              className="text-lg tablet:text-lg  hover:text-black"
+            >
+              <p>Contact</p>
+            </Link>
+            <Link
+              to="/apply"
+              className="text-lg tablet:text-lg  hover:text-black"
+            >
+              <p>Career</p>
+            </Link>
+            <Link
+              to="/csr"
+              className="text-lg tablet:text-lg  hover:text-black"
+            >
+              <p>CSR Policy</p>
+            </Link>
+            <Link
+              to="/brand"
+              className="text-lg tablet:text-lg  hover:text-black"
+            >
+              <p>Our Brand</p>
+            </Link>
+          </div>
+          <div
+            className="tablet:hidden flex flex-col items-start mt-16 font-poppins gap-2 col3"
+            ref={col3Ref}
           >
-            <p>Contact</p>
-          </Link>
-          <Link
-            to="/apply"
-            className="text-xs tablet:text-lg  hover:text-black"
+            <p className="text-xl tablet:text-2xl text-white font-semibold font-poppins">
+              Products
+            </p>
+            <Link
+              to="/product/Biochemistry/top"
+              onClick={() => {
+                setSelectSectionCategory("top");
+                setSelectedCategory("Biochemistry");
+              }}
+              className="text-lg tablet:text-lg  hover:text-black"
+            >
+              <p>Biochemistry</p>
+            </Link>
+            <Link
+              to="/product/Hematology/top"
+              onClick={() => setSelectedCategory("Hematology")}
+              className="text-lg tablet:text-lg  hover:text-black"
+            >
+              <p>Hematology</p>
+            </Link>
+            <Link
+              onClick={() => setSelectedCategory("Point of Care")}
+              to="/product/PointofCare/top"
+              className="text-lg tablet:text-lg  hover:text-black"
+            >
+              <p>POC</p>
+            </Link>
+            <Link
+              to="/product/Electrolyte/top"
+              onClick={() => {
+                setSelectSectionCategory("top");
+                setSelectedCategory("Electrolyte Analyzer");
+              }}
+              className="text-lg tablet:text-lg  hover:text-black"
+            >
+              <p>Electrolyte</p>
+            </Link>
+            <Link
+              to="/product/ClinicalMicrobiology/top"
+              onClick={() => {
+                setSelectSectionCategory("top");
+                setSelectedCategory("Clinical Microbiology");
+              }}
+              className="text-lg tablet:text-lg  hover:text-black"
+            >
+              <p>Clinical Microbiology</p>
+            </Link>
+            <Link
+              to="/product/Pre-AnalyticalAutomation/top"
+              onClick={() => {
+                setSelectSectionCategory("top");
+                setSelectedCategory("Pre-Analytical Automation");
+              }}
+              className="text-lg tablet:text-lg  hover:text-black"
+            >
+              <p>Pre Analytical Automation</p>
+            </Link>
+            {/* <Link
+            to="/product/Hematology/top"
+            onClick={() => setSelectedCategory("COVID-19")}
+            className="text-lg tablet:text-lg  hover:text-black"
           >
-            <p>Career</p>
-          </Link>
-          <Link to="/csr" className="text-xs tablet:text-lg  hover:text-black">
-            <p>CSR Policy</p>
-          </Link>
-          <Link
-            to="/brand"
-            className="text-xs tablet:text-lg  hover:text-black"
-          >
-            <p>Our Brand</p>
-          </Link>
+            <p>COVID-19</p>
+          </Link> */}
+          </div>
         </div>
+
         {/* col 3 */}
         <div
-          className="flex flex-col items-start mt-16 font-poppins gap-2 col3"
+          className="hidden tablet:flex flex-col items-start mt-16 font-poppins gap-2 col3"
           ref={col3Ref}
         >
-          <p className="text-xs tablet:text-2xl text-white font-semibold font-poppins">
+          <p className="text-xl tablet:text-2xl text-white font-semibold font-poppins">
             Products
           </p>
           <Link
@@ -451,21 +561,21 @@ function Footer({ open }) {
               setSelectSectionCategory("top");
               setSelectedCategory("Biochemistry");
             }}
-            className="text-xs tablet:text-lg  hover:text-black"
+            className="text-lg tablet:text-lg  hover:text-black"
           >
             <p>Biochemistry</p>
           </Link>
           <Link
             to="/product/Hematology/top"
             onClick={() => setSelectedCategory("Hematology")}
-            className="text-xs tablet:text-lg  hover:text-black"
+            className="text-lg tablet:text-lg  hover:text-black"
           >
             <p>Hematology</p>
           </Link>
           <Link
             onClick={() => setSelectedCategory("Point of Care")}
             to="/product/PointofCare/top"
-            className="text-xs tablet:text-lg  hover:text-black"
+            className="text-lg tablet:text-lg  hover:text-black"
           >
             <p>POC</p>
           </Link>
@@ -475,7 +585,7 @@ function Footer({ open }) {
               setSelectSectionCategory("top");
               setSelectedCategory("Electrolyte Analyzer");
             }}
-            className="text-xs tablet:text-lg  hover:text-black"
+            className="text-lg tablet:text-lg  hover:text-black"
           >
             <p>Electrolyte</p>
           </Link>
@@ -485,7 +595,7 @@ function Footer({ open }) {
               setSelectSectionCategory("top");
               setSelectedCategory("Clinical Microbiology");
             }}
-            className="text-xs tablet:text-lg  hover:text-black"
+            className="text-lg tablet:text-lg  hover:text-black"
           >
             <p>Clinical Microbiology</p>
           </Link>
@@ -495,81 +605,82 @@ function Footer({ open }) {
               setSelectSectionCategory("top");
               setSelectedCategory("Pre-Analytical Automation");
             }}
-            className="text-xs tablet:text-lg  hover:text-black"
+            className="text-lg tablet:text-lg  hover:text-black"
           >
             <p>Pre Analytical Automation</p>
           </Link>
           {/* <Link
             to="/product/Hematology/top"
             onClick={() => setSelectedCategory("COVID-19")}
-            className="text-xs tablet:text-lg  hover:text-black"
+            className="text-lg tablet:text-lg  hover:text-black"
           >
             <p>COVID-19</p>
           </Link> */}
         </div>
         {/* col 4 */}
         <div
-          className="flex flex-col items-start mt-16 font-poppins gap-2 col4"
+          className="flex text-white flex-col items-start mt-16 font-poppins gap-2 col4"
           ref={col4Ref}
         >
-          <p className="font-semibold text-xs tablet:text-2xl text-white font-poppins">
-            Others
+          <p className="font-semibold text-xl tablet:text-2xl text-white font-poppins">
+            Corporate Office
           </p>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
-            <p>Help and Support</p>
-          </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
-            <p>Resources</p>
-          </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
-            <p>Residential Address</p>
-          </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
-            <p>Cookie Preferences</p>
-          </Link>
-          <Link to="/" className="text-xs tablet:text-lg  hover:text-black">
-            <p>Corporate Address</p>
-          </Link>
+
+          {/* <Link to="/" className="text-lg tablet:text-lg  hover:text-black"> */}
+
+          <div className="flex flex-col gap-2 text-lg tablet:text-lg">
+            <p className="max-w-xs">
+              {" "}
+              4th floor, Westminster, 108, Dr.Radhakrishnan Salai, Mylapore,
+              Chennai - 600004{" "}
+            </p>
+            <p>
+              {" "}
+              <span className="font-semibold">Contact :</span> +91 87544 68400
+            </p>
+            <p>
+              <span className="font-semibold"> Email : </span>
+              info@cpcdiagnostics.in
+            </p>
+          </div>
+          {/* </Link> */}
         </div>
       </div>
 
       <div className="h-[1px] w-[90%] flex justify-center items-center text-center bg-custom-green mx-auto mt-4"></div>
-      <div className="mt-2 flex justify-around  tablet:justify-between tablet:mt-4 tablet:pl-16 tablet:pr-16">
-        <div className="text-sm tablet:text-3xl text-white flex gap-3 tablet:gap-3 laptop:gap-5">
-          <Link
-            target="_blank"
-            to="https://www.facebook.com/EverlifeCPC"
-            className="hover:text-sky-600"
-          >
-            <FontAwesomeIcon icon={faFacebook} />
-          </Link>
-          <Link
-            target="_blank"
-            to="https://www.instagram.com/everlife_cpc_diagnostics/"
-          >
-            <FontAwesomeIcon
-              className="hover:text-red-500"
-              icon={faInstagram}
-            />
-          </Link>
-          <Link
-            to="https://www.linkedin.com/company/everlife-cpc-diagnostics/"
-            className="hover:text-sky-600"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faLinkedin} />
-          </Link>
-          <Link
-            target="_blank"
-            to="https://www.youtube.com/@everlife-cpcdiagnostics"
-          >
-            <FontAwesomeIcon className="hover:text-red-500" icon={faYoutube} />
-          </Link>
+      <div className="mt-2 flex flex-col justify-center tablet:flex-row tablet:justify-between items-center   tablet:mt-4 tablet:pl-16 tablet:pr-16">
+        <div className="text-center py-6">
+          <ul className="tablet:flex grid grid-cols-2 gap-3 tablet:gap-0 justify-center text-lg tablet:text-base space-x-2">
+            <li>
+              <a href="/cookiepolicy" className="text-white hover:underline">
+                Cookie Policy
+              </a>
+            </li>
+            <li>
+              <a href="/privacypolicy" className="text-white hover:underline">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a
+                href="/termsandcontion"
+                className="text-white hover:underline text-nowrap"
+              >
+                Terms & Conditions
+              </a>
+            </li>
+            <li>
+              <Link to="/csr" className="text-white hover:underline">
+                CSR Policy
+              </Link>
+            </li>
+          </ul>
         </div>
-        <div className="text-xs text-white tablet:text-base font-poppins font-normal">
-          <p>Everlife CPC 2024 © All Rights Reserved</p>
+        <div className="text-lg text-white tablet:text-base font-poppins font-normal py-2 tablet:py-0">
+          <p>Everlife CPC {new Date().getFullYear()} © All Rights Reserved</p>
         </div>
       </div>
+
       <p className="text-[1px] tablet:text-[6px] relative bottom-0 flex justify-center items-center text-[#00735D]">
         Prassad Raj
       </p>

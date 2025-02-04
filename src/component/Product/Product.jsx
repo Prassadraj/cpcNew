@@ -105,143 +105,147 @@ function Product() {
       {load ? (
         <Loader />
       ) : (
-        <div className="font-poppins ">
-          <header className="sm:block mb-2 tablet:mb-4">
-            <div className="relative w-full overflow-hidden">
-              <div
-                className="flex transition-transform duration-1000"
-                style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-              >
-                {images.map((image, index) => (
-                  <img
-                    key={index}
-                    src={image}
-                    alt={`Slide ${index}`}
-                    className="slider-slide"
-                  />
-                ))}
-              </div>
-              <button
-                className="absolute top-1/2 left-0 transform -translate-y-1/2 text-white px-3 py-1"
-                onClick={() =>
-                  setCurrentIndex(
-                    (prevIndex) =>
-                      (prevIndex - 1 + images.length) % images.length
-                  )
-                }
-              >
-                &#10094;
-              </button>
-              <button
-                className="absolute top-1/2 right-0 transform -translate-y-1/2 text-white px-3 py-1"
-                onClick={() =>
-                  setCurrentIndex(
-                    (prevIndex) => (prevIndex + 1) % images.length
-                  )
-                }
-              >
-                &#10095;
-              </button>
-            </div>
-          </header>
-          <section className=" productSection largeLaptop:text-2xl py-2 text-base text-gray-700 laptop:mb-14">
-            <div className="mb-3">
-              <p>
-                <Link to="/" className="no-underline">
-                  Home
-                </Link>
-                <span> / </span>
-                <span className="font-semibold">{selectedCategory}</span>
-              </p>
-            </div>
-            <div
-              className="flex items-center gap-2 text-xl justify-end sm:hidden"
-              onClick={() => setOpen((prev) => !prev)}
-            >
-              <p>Select Equipment</p>
-              <FontAwesomeIcon icon={faBars} />
-            </div>
-            <div className="flex flex-col tablet:flex-row tablet:gap-7">
-              <SideMenu
-                open={open}
-                setOpen={setOpen}
-                toggleDropdown={toggleDropdown}
-                openDropdown={openDropdown}
-              />
-              <div className="tablet:w-[75vw] bg-white p-1 tablet:p-4 text-center overflow-y-auto flex flex-col gap-2">
-                <p className="text-2xl largeLaptop:text-3xl font-poppins font-semibold mb-3 text-left text-black">
-                  {selectedCategory}
-                </p>
-                <div className="grid  justify-around items-center tablet:grid-cols-3 tablet:gap-2 grid-cols-2 laptop:grid-cols-5 tablet:mb-4">
-                  {headingSection.map((sectionCategoryItem, i) => (
-                    <p
-                      key={i}
-                      onClick={() =>
-                        handleNavigation(selectedCategory, sectionCategoryItem)
-                      }
-                      className={`${
-                        selecteSectionCategory ==
-                        sectionCategoryItem.split(" ").join("").toLowerCase()
-                          ? "font-bold text-custom-green"
-                          : "font-medium"
-                      }   text-xs hover:text-custom-green transition-all ease-in duration-75 hover:font-bold tablet:text-base largeLaptop:text-lg capitalize  text-nowrap cursor-pointer mb-2`}
-                    >
-                      {sectionCategoryItem}
-                    </p>
+        <>
+          <div className="font-poppins container">
+            <header className="sm:block mb-2 tablet:mb-4">
+              <div className="relative w-full overflow-hidden">
+                <div
+                  className="flex transition-transform duration-1000"
+                  style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+                >
+                  {images.map((image, index) => (
+                    <img
+                      key={index}
+                      src={image}
+                      alt={`Slide ${index}`}
+                      className="slider-slide"
+                    />
                   ))}
                 </div>
-                <div className="grid grid-cols-2 sm:grid-cols-2 laptop:grid-cols-3 gap-4 mb-4">
-                  {final?.length > 0 ? (
-                    final.map((item) => (
-                      <Link
-                        to={`/productinfo/${selectedCategory}/${item.id}`}
-                        key={item.id}
-                        className="no-underline"
+                <button
+                  className="absolute top-1/2 left-0 transform -translate-y-1/2 text-white px-3 py-1"
+                  onClick={() =>
+                    setCurrentIndex(
+                      (prevIndex) =>
+                        (prevIndex - 1 + images.length) % images.length
+                    )
+                  }
+                >
+                  &#10094;
+                </button>
+                <button
+                  className="absolute top-1/2 right-0 transform -translate-y-1/2 text-white px-3 py-1"
+                  onClick={() =>
+                    setCurrentIndex(
+                      (prevIndex) => (prevIndex + 1) % images.length
+                    )
+                  }
+                >
+                  &#10095;
+                </button>
+              </div>
+            </header>
+            <section className=" productSection largeLaptop:text-2xl py-2 text-base text-gray-700 laptop:mb-14">
+              <div className="mb-3">
+                <p>
+                  <Link to="/" className="no-underline">
+                    Home
+                  </Link>
+                  <span> / </span>
+                  <span className="font-semibold">{selectedCategory}</span>
+                </p>
+              </div>
+              <div
+                className="flex items-center gap-2 text-xl justify-end sm:hidden"
+                onClick={() => setOpen((prev) => !prev)}
+              >
+                <p>Select Equipment</p>
+                <FontAwesomeIcon icon={faBars} />
+              </div>
+              <div className="flex flex-col tablet:flex-row tablet:gap-7">
+                <SideMenu
+                  open={open}
+                  setOpen={setOpen}
+                  toggleDropdown={toggleDropdown}
+                  openDropdown={openDropdown}
+                />
+                <div className="tablet:w-[75vw] bg-white p-1 tablet:p-4 text-center overflow-y-auto flex flex-col gap-2">
+                  <p className="text-2xl largeLaptop:text-3xl font-poppins font-semibold mb-3 text-left text-black">
+                    {selectedCategory}
+                  </p>
+                  <div className="grid w-full justify-start  items-center tablet:grid-cols-3 tablet:gap-2 grid-cols-2 laptop:flex laptop:space-x-8 tablet:mb-4">
+                    {headingSection.map((sectionCategoryItem, i) => (
+                      <p
+                        key={i}
+                        onClick={() =>
+                          handleNavigation(
+                            selectedCategory,
+                            sectionCategoryItem
+                          )
+                        }
+                        className={`${
+                          selecteSectionCategory ==
+                          sectionCategoryItem.split(" ").join("").toLowerCase()
+                            ? "font-bold text-custom-green"
+                            : "font-medium"
+                        }   text-xs w-fit hover:text-custom-green transition-all ease-in duration-75 hover:font-bold tablet:text-sm largeLaptop:text-lg capitalize text-left text-nowrap cursor-pointer mb-2`}
                       >
-                        <div
-                          className="bg-white border-b-2 shadow-gray-300 border-green-800 shadow-xl rounded-lg overflow-hidden relative group h-[220px] tablet:h-[320px] transition duration-300 ease-in-out transform hover:scale-105 tablet:px-3
-                        tablet:py-3 "
+                        {sectionCategoryItem}
+                      </p>
+                    ))}
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-2 laptop:grid-cols-3 gap-4 mb-4">
+                    {final?.length > 0 ? (
+                      final.map((item) => (
+                        <Link
+                          to={`/productinfo/${selectedCategory}/${item.id}`}
+                          key={item.id}
+                          className="no-underline"
                         >
-                          <img
-                            src={item.coverImg}
-                            alt={item.title}
-                            className="w-full h-32  tablet:h-52 object-cover rounded-md"
-                          />
-                          <div className="px-2 py-2 text-gray-600">
-                            <p className="text-xs tablet:mt-2 tablet:mb-2 tablet:text-xs font-medium text-gray-900 text-left">
-                              {item.title}
-                            </p>
-                            <p className="text-xs text-gray-600 text-left line-clamp-2">
-                              {item.description}
-                            </p>
+                          <div
+                            className="bg-white border-b-2 shadow-gray-300 border-green-800 shadow-xl rounded-lg overflow-hidden relative group h-[220px] tablet:h-[320px] transition duration-300 ease-in-out transform hover:scale-105 tablet:px-3
+                        tablet:py-3 "
+                          >
+                            <img
+                              src={item.coverImg}
+                              alt={item.title}
+                              className="w-full h-32  tablet:h-52 object-cover rounded-md"
+                            />
+                            <div className="px-2 py-2 text-gray-600">
+                              <p className="text-xs tablet:mt-2 tablet:mb-2 tablet:text-xs font-medium text-gray-900 text-left">
+                                {item.title}
+                              </p>
+                              <p className="text-xs text-gray-600 text-left line-clamp-2">
+                                {item.description}
+                              </p>
+                            </div>
+                            <div className="hidden absolute inset-0 bg-green-600/40 justify-center items-center text-white text-xl group-hover:flex transition-opacity duration-300">
+                              View Product
+                            </div>
                           </div>
-                          <div className="hidden absolute inset-0 bg-green-600/40 justify-center items-center text-white text-xl group-hover:flex transition-opacity duration-300">
-                            View Product
-                          </div>
-                        </div>
-                      </Link>
-                    ))
-                  ) : (
-                    <div className="">
-                      <span className="text-[red]">*</span> Product Not
-                      Available
-                    </div>
-                  )}
-                </div>
+                        </Link>
+                      ))
+                    ) : (
+                      <div className="">
+                        <span className="text-[red]">*</span> Product Not
+                        Available
+                      </div>
+                    )}
+                  </div>
 
-                {/* <div className="p-2 tablet:p-4 bg-gray-200 rounded-md"> */}
-                {/* <p className="text-left text-sm font-semibold tablet:text-2xl mb-2">
+                  {/* <div className="p-2 tablet:p-4 bg-gray-200 rounded-md"> */}
+                  {/* <p className="text-left text-sm font-semibold tablet:text-2xl mb-2">
                     Short note of {selectedCategory}
                   </p>
                   <p className="text-sm tablet:text-lg mb-2 tablet:text-left">
                     {description}
                   </p> */}
 
-                {/* <p className="px-4 py-2 bg-custom-green text-left w-fit text-white rounded-md">
+                  {/* <p className="px-4 py-2 bg-custom-green text-left w-fit text-white rounded-md">
               Read More
             </p> */}
-                {/* </div> */}
-                {/* <div className="p-2 tablet:p-4 bg-gray-200 mt-4 rounded-md">
+                  {/* </div> */}
+                  {/* <div className="p-2 tablet:p-4 bg-gray-200 mt-4 rounded-md">
                   <p className="text-left text-lg tablet:text-2xl mb-2">
                     Why choose us for {selectedCategory} products
                   </p>
@@ -252,49 +256,56 @@ function Product() {
                     <li>Great after sale services</li>
                   </ul>
                 </div> */}
-              </div>
-            </div>
-          </section>
-          <div className="grid grid-cols-1 sm:grid-cols-2 laptop:grid-cols-3 gap-2 tablet:mt-4 mt-2 tablet:mb-4 tablet:px-5 py-5 px-2">
-            <div className="p-[10px] pl-8 bg-[#00735D] text-white rounded-md flex flex-col gap-1">
-              <div className="flex gap-2">
-                <div className="flex items-center">
-                  <FontAwesomeIcon
-                    icon={faMessage}
-                    className="text-2xl text-white"
-                  />
                 </div>
-                <div className="text-lg">Need Help?</div>
               </div>
-              <div>Get concise assistance here</div>
-            </div>
-            <div className="p-[10px] pl-8  bg-gradient-to-r from-[#00735D] to-[#01A786] text-white rounded-md flex flex-col gap-1">
-              <div className="flex gap-2">
-                <div className="flex items-center">
-                  <FontAwesomeIcon
-                    icon={faEnvelopesBulk}
-                    className="text-2xl text-white"
-                  />
+            </section>
+            <div className="grid tablet:h-[100px] h-fit grid-cols-1 sm:grid-cols-2 laptop:grid-cols-3 gap-2 tablet:mt-4 mt-2 tablet:mb-4 tablet:px-5 py-5 px-2">
+              <Link to="/contact">
+                <div className="p-[10px] pl-8 bg-[#00735D] text-white rounded-md flex flex-col gap-1">
+                  <div className="flex gap-2">
+                    <div className="flex items-center">
+                      <FontAwesomeIcon
+                        icon={faMessage}
+                        className="text-2xl text-white"
+                      />
+                    </div>
+                    <div className="text-lg">Need Help?</div>
+                  </div>
+                  <div>Get concise assistance here</div>
                 </div>
-                <div className="text-lg">Enquiry mail us?</div>
-              </div>
-              <div>Mail us today for Enquiries</div>
-            </div>
-            <div className="p-[10px] pl-8 bg-[#01A786] text-white rounded-md flex flex-col gap-1">
-              <div className="flex gap-2">
-                <div className="flex items-center">
-                  <FontAwesomeIcon
-                    icon={faBloggerB}
-                    className="text-2xl text-white"
-                  />
+              </Link>
+              <Link to="/contact">
+                <div className="p-[10px] pl-8  bg-gradient-to-r from-[#00735D] to-[#01A786] text-white rounded-md flex flex-col gap-1">
+                  <div className="flex gap-2">
+                    <div className="flex items-center">
+                      <FontAwesomeIcon
+                        icon={faEnvelopesBulk}
+                        className="text-2xl text-white"
+                      />
+                    </div>
+                    <div className="text-lg">Enquiry mail us?</div>
+                  </div>
+                  <div>Mail us today for Enquiries</div>
                 </div>
-                <div className="text-lg">Our blogs</div>
-              </div>
-              <div>Get our latest blogs</div>
+              </Link>
+              <Link className="/blog">
+                <div className="p-[10px] pl-8 bg-[#01A786] text-white rounded-md flex flex-col gap-1">
+                  <div className="flex gap-2">
+                    <div className="flex items-center">
+                      <FontAwesomeIcon
+                        icon={faBloggerB}
+                        className="text-2xl text-white"
+                      />
+                    </div>
+                    <div className="text-lg">Our blogs</div>
+                  </div>
+                  <div>Get our latest blogs</div>
+                </div>
+              </Link>
             </div>
           </div>
           <Footer />
-        </div>
+        </>
       )}
     </>
   );

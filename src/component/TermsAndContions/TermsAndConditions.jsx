@@ -1,7 +1,7 @@
-<ulimport React from 'react';
+import React from 'react';
 import Footer from '../../homepages/Footer/Footer';
 
-const TermsAndConditions ()  {
+const TermsAndConditions = () => {
     return (
 
         <>
