@@ -60,9 +60,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/brand" element={<Brand />} />
           <Route path={`/product/:category/:section`} element={<Product />} />
-          <Route path="/apply" element={<Career />} />
+          <Route path="/career" element={<Career />} />
           <Route path="/success" element={<Success />} />
-          <Route path="/whychooseus" element={<WhyChoseUs />} />
+          {/* <Route path="/whychooseus" element={<WhyChoseUs />} /> */}
           <Route path="/googleadd" element={<Google />} />
           <Route path="/googlelanding" element={<GoogleLanding />} />
           <Route path="/blog" element={<Blog />} />

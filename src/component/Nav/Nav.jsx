@@ -42,12 +42,12 @@ function Nav() {
       case "/brand":
         setSelected("brand");
         break;
-      case "/apply":
-        setSelected("apply");
+      case "/career":
+        setSelected("career");
         break;
-      case "/whychooseus":
-        setSelected("apply");
-        break;
+      // case "/whychooseus":
+      //   setSelected("apply");
+      //   break;
       case "/success":
         setSelected("success");
         break;
@@ -522,18 +522,18 @@ function Nav() {
         </div>
         <div
           className="nav-item"
-          onMouseEnter={() => toggleDropdown("apply")}
-          onMouseLeave={() => toggleDropdown("apply")}
+          onMouseEnter={() => toggleDropdown("career")}
+          onMouseLeave={() => toggleDropdown("career")}
         >
           <Link
             className={`cursor-pointer ${
-              selected === "apply" ? "selected" : ""
+              selected === "career" ? "selected" : ""
             }`}
-            to="/apply"
+            to="/career"
           >
             Career
           </Link>
-          {showDropdown.apply && (
+          {/* {showDropdown.apply && (
             <div className="dropdown-menu w-fit mt-0">
               <Link className="dropdown-item" to="/apply">
                 Apply
@@ -542,7 +542,7 @@ function Nav() {
                 WhyChooseUs
               </Link>
             </div>
-          )}
+          )} */}
         </div>
         <div className="nav-item">
           <Link

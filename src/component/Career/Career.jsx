@@ -94,7 +94,7 @@ const Careers = () => {
     <div className=" mt-10 font-poppins">
     {/* Header Section */}
     <header>
-      <div className='grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 '>
+      {/* <div className='grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 '>
         <div>
          <img src={bannerimage} alt="" className='md:w-full ' />
         </div>
@@ -110,11 +110,11 @@ const Careers = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </header>
    
     {/* Career Matching Section */}
-    <div className='grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 p-16 gap-8 items-center  mt-2  '>
+    {/* <div className='grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 p-16 gap-8 items-center  mt-2  '>
       <div className='leading-8' data-aos="flip-up">
       <h1 className='text-cpccol md:text-4xl xl:text-4xl lg:text-4xl text-xl font-bold text-left '>Employee Career Matching</h1>
       <p  className=' mt-6 md:text-xl lg:text-xl xl:text-xl '>Couldn't find the suitable Job? Upload your CV and we will reach out to you shortly.</p>
@@ -142,9 +142,9 @@ const Careers = () => {
      
      
    
-    </div>
+    </div> */}
 
-    <div className=' md:p-8 lg:p-8 xl:p-8 mt-2 bg-gray-50 rounded-t-full'>
+    {/* <div className=' md:p-8 lg:p-8 xl:p-8 mt-2 bg-gray-50 rounded-t-full'>
 <h2 className='text-2xl text-center text-black'>Looking for <span className='text-4xl text-cpccol font-semibold'> Intern</span> Opportunities</h2>
 <div className='grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:p-12 lg:p-12 xl:p-12 gap-5' >
 <div className='' >
@@ -168,9 +168,22 @@ const Careers = () => {
 <button type="submit" className='bg-cpccol text-fontptag text-white px-6 py-2 rounded-r-md hover:bg-green-300 focus:outline-none focus:ring-2 focus:ring-blue-500 ml-1' onClick={handleButtonClick}>Apply Here</button>
         <PopupForm isVisible={isFormVisible} onClose={handleClose} />
         </div>
-</div>
+</div> */}
 
     {/* Filter Section */}
+
+    <div>
+     <h2 className='text-maincol font-semibold text-4xl text-center'>Work With Everlife CPC</h2>
+<div className='pl-10 pr-10 mt-10 leading-8 text-justify'>
+     <p>Everlife CPC endeavours to provide an exiciting and fulfilling experience for its members. At Everlife CPC we place value in learning. We provide every opportunity and assistance to enhance each individual’s skills and capabilities. The training provided is ‘in-house’, ‘on the job’ and often at our Principal’s facilities in USA, Europe or Malaysia. The focus is to ensure that on the field, eCPC’ians should always be technically superior.</p>
+     </div>
+<div className='pl-10 pr-10 mt-10 leading-8 text-justify'>
+     <p>The working environment at Everlife CPC instills a sense of belonging and camaraderie among the staff. This has been possible through a consistent culture driven programme for all eCPCians. Communication is free and easy across all levels and the limitation of hierarchial barriers is minimum. Everlife CPC aims at making transparency and trust, the cornerstone of all our relationships.</p>
+     </div>
+<div className='pl-10 pr-10 mt-10 leading-8 text-justify'>
+     <p>Interested in working with Everlife CPC? Kindly mail your resume to <a href='mailto:hiring@cpcdiagnostics.in' className='text-maincol underline font-semibold'>hiring@cpcdiagnostics.in</a></p>
+     </div>
+    </div>
     <div className='bg-shade p-2 mt-5'>
     <h3 className="font-semibold mt-4 mb-4 bg-shade text-3xl text-cpccol text-center" id='applynow'>Current Openings</h3>
    
