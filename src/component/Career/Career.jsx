@@ -281,9 +281,11 @@ const Careers = () => {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 p-3">
               {filteredJobs.map((job, index) => (
-                <div key={index} className="group p-6 bg-shade rounded-lg leading-8 shadow-md hover:shadow-lg w-72 min-w-full h-44 min-h-full flex gap-4">
-                  <div>
+                <div key={index} className="group p-6 bg-shade rounded-lg leading-8 shadow-md hover:shadow-lg w-72 min-w-full h-44 min-h-full ">
                   <h3 className="font-semibold text-cpccol text-lg">{job.title}</h3>
+                <div className='flex gap-4'>
+                  <div>
+                  
                   <p className="text-sm text-gray-600 mt-2"> {job.location}</p>
                   <button
           type="button"
@@ -294,7 +296,7 @@ const Careers = () => {
         </button>
         </div>
                   <div><img src={job.qrimages} alt="" className='w-24'/></div>
-                  
+                  </div>
                   {/* <div className="mt-2">
                     {job.tags.map((tag, idx) => (
                       <span key={idx} className="text-xs bg-gray-200 p-1 rounded mr-1">
