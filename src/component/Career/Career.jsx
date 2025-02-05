@@ -279,11 +279,11 @@ const Careers = () => {
                 </div>
                 <h2 className="text-lg mt-6 text-cpccol font-semibold text-left ml-8">{filteredJobs.length} Openings found</h2>
 
-                <div className="grid md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-12 pr-10 mt-4 ">
+                <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mt-4 ">
                   {filteredJobs.map((job, index) => (
                     <div key={index} className="group p-6 bg-shade rounded-lg leading-8 shadow-md hover:shadow-lg w-80 min-w-96 h-44 min-h-full ">
                       <h3 className="font-semibold text-cpccol text-lg">{job.title}</h3>
-                      <div className='flex justify-around gap-4'>
+                      <div className='flex justify-between gap-4'>
                         <div>
 
                           <p className="text-sm text-gray-600 mt-2"> {job.location}</p>
