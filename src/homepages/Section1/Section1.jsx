@@ -66,7 +66,7 @@ function Section1() {
 
   return (
     <>
-      <div className="section1 tablet:flex tablet:flex-row flex flex-col-reverse justify-center items-center laptop:h-screen w-full overflow-hidden font-poppins overflow-x-hidden tablet:h-fit h-full largeLaptop:h-[60vh] largeLaptop:mb-20 mb-4">
+      <div className="flex flex-col-reverse font-poppins items-center justify-center largeLaptop:mb-20 mb-4 mt-5 overflow-hidden overflow-x-hidden py-5 section1 tablet:flex tablet:flex-row w-full">
         <div className="flex-1 tablet:w-1/2 w-full tablet:-mt-10 sm:ml-4 laptop:ml-14 px-2 sm:px-0">
           <motion.p
             initial={{ opacity: 0, y: 10 }}
