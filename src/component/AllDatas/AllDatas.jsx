@@ -65,8 +65,8 @@ import DYNACOUNT3DPlus from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynaco
 import DYNACOUNT3DPlusGrey from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynacount 3D Plus.jpg";
 //
 import VisionGrey from "../AllDatas/greyImages/Vision Pro.webp";
-import Vision1 from "../AllDatas/ProductImages/Hematology/Analyzer/Vision Pro.webp";
-import Vision2 from "../AllDatas/ProductImages/Hematology/Analyzer/product2.webp";
+import Vision1 from "../AllDatas/ProductImages/Hematology/VisionPro/vision.webp";
+import Vision2 from "../AllDatas/ProductImages/Hematology/VisionPro/vision.webp";
 //
 import DYNACOUNT3D1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT 3D/Dynacount 3D.webp";
 import DYNACOUNT3DGrey from "../AllDatas/greyImages/Dynacount 3D.webp";
@@ -2467,7 +2467,7 @@ const products = [
         allover: "VISION Pro",
         id: "4",
         coverImg: VisionGrey,
-        image: [Vision1, Vision2],
+        image: [Vision1],
         title: "VISION Pro",
         section: "esranalyzer",
 

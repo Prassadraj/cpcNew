@@ -93,21 +93,21 @@ function New() {
             <img
               src={image1}
               alt=""
-              className="w-fit laptop:h-[400px] largeLaptop:h-[700px] object-contain img1 rounded-[50px]"
+              className="w-fit   aspect-[1.5/1] object-cover img1 rounded-[30px]"
             />
           </div>
           <div className="tablet:h-full">
             <img
               src={image2}
               alt=""
-              className="w-fit tablet:h-[400px] largeLaptop:h-[600px] img2 object-contain rounded-[50px]"
+              className="w-fit aspect-[1.5/1] img2 object-cover rounded-[30px]"
             />
           </div>
           <div className="tablet:h-full">
             <img
               src={image3}
               alt=""
-              className="w-fit tablet:h-[400px] largeLaptop:h-[500px] img3 object-contain rounded-[50px]"
+              className="w-fit  aspect-[1.5/1] img3 object-cover rounded-[30px]"
             />
           </div>
         </div>
@@ -116,7 +116,7 @@ function New() {
        largeLaptop:gap-10 text-xs tablet:text-sm laptop:text-sm w-1/2 font-poppins items-center justify-center text-center laptop:px-20"
         >
           <div className="tablet:px-2 laptop:px-5 largeLaptop:px-2">
-            <p className="ctn1 text-left largeLaptop:text-2xl laptop:text-sm font-light">
+            <p className="ctn1 text-left largeLaptop:text-base laptop:text-sm font-light">
               <img
                 src={organisation1}
                 alt=""
@@ -129,7 +129,7 @@ function New() {
             </p>
           </div>
           <div className="tablet:px-5 largeLaptop:px-2">
-            <p className="ctn2 text-left largeLaptop:text-2xl  laptop:text-sm font-light">
+            <p className="ctn2 text-left largeLaptop:text-base  laptop:text-sm font-light">
               <img
                 src={organisation2}
                 alt=""
@@ -141,7 +141,7 @@ function New() {
             </p>
           </div>
           <div className="tablet:px-5 largeLaptop:text-2xl largeLaptop:px-2">
-            <p className="ctn3 text-left largeLaptop:text-2xl laptop:text-sm font-light">
+            <p className="ctn3 text-left largeLaptop:text-base laptop:text-sm font-light">
               <img
                 src={organisation3}
                 alt=""

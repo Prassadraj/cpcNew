@@ -66,20 +66,21 @@ function Section1() {
 
   return (
     <>
-      <div className="section1 tablet:flex tablet:flex-row grid grid-cols-1 justify-center items-center laptop:h-screen w-full overflow-hidden font-poppins overflow-x-hidden tablet:h-fit h-full largeLaptop:h-[60vh] largeLaptop:mb-20">
+      <div className="section1 tablet:flex tablet:flex-row flex flex-col-reverse justify-center items-center laptop:h-screen w-full overflow-hidden font-poppins overflow-x-hidden tablet:h-fit h-full largeLaptop:h-[60vh] largeLaptop:mb-20 mb-4">
         <div className="flex-1 tablet:w-1/2 w-full tablet:-mt-10 sm:ml-4 laptop:ml-14 px-2 sm:px-0">
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
-            className="text-2xl mt-3 tablet:mt-0 tablet:max-w-xl max-w-xs tablet:text-3xl largeLaptop:text-[35px] font-bold text-[#56575D]"
+            className="text-2xl mt-3 tablet:mt-0 tablet:max-w-xl tablet:text-3xl 
+           w-full text-center tablet:!text-left largeLaptop:text-[35px] font-bold text-[#56575D] "
           >
             Medical Laboratory Equipment Supplier in India at the Best Price
           </motion.p>
-          <div className="description mt-4 font-poppins">
+          <div className="description tablet:mt-4 !mt-2 font-poppins">
             <p
-              className="subTitle  text-sm tablet:text-lg w-full max-w-lg tablet:w-[40vw] text-start
-             largeLaptop:text-[70px]"
+              className="subTitle  text-sm tablet:text-lg w-full max-w-lg tablet:w-[40vw] tablet:!text-start
+             largeLaptop:text-[70px] text-center"
             >
               Everlife CPC Diagnostics is your trusted partner for high-quality
               In-vitro diagnostic Medical Laboratory Equipment Suppliers in
@@ -113,7 +114,7 @@ function Section1() {
             </Link>
           </div>
         </div>
-        <div className="flex-1 tablet:w-1/2 w-full ">
+        <div className="flex-1 tablet:w-1/2 w-full tablet:!-mt-14 pt-4 mt-4">
           <Slider />
         </div>
       </div>

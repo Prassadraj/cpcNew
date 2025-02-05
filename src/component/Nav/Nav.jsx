@@ -49,12 +49,12 @@ function Nav() {
       case "/brand":
         setSelected("brand");
         break;
-      case "/apply":
-        setSelected("apply");
+      case "/career":
+        setSelected("career");
         break;
-      case "/whychooseus":
-        setSelected("apply");
-        break;
+      // case "/whychooseus":
+      //   setSelected("apply");
+      //   break;
       case "/success":
         setSelected("success");
         break;
@@ -96,7 +96,7 @@ function Nav() {
   }, [showMobileMenu]);
 
   return (
-    <div className="md:flex sticky p-2 container bg-white border-b border-b-custom-green top-0 whitespace-nowrap h-fit w-full z-50 items-center justify-around shadow-md overflow-visible">
+    <div className="md:flex sticky p-2  bg-white border-b border-b-custom-green top-0 whitespace-nowrap h-fit w-full z-50 items-center justify-around shadow-md overflow-visible">
       <div className="left flex items-center ">
         <div className="block md:hidden w-fit bg-white">
           <button
@@ -542,17 +542,17 @@ function Nav() {
         </div>
         <div
           className="nav-item"
-          onMouseEnter={() => toggleDropdown("apply")}
-          onMouseLeave={() => toggleDropdown("apply")}
+          onMouseEnter={() => toggleDropdown("career")}
+          onMouseLeave={() => toggleDropdown("career")}
         >
           <Link
-            className={`cursor-pointer ${selected === "apply" ? "selected" : ""
+            className={`cursor-pointer ${selected === "career" ? "selected" : ""
               }`}
-            to="/apply"
+            to="/career"
           >
             Career
           </Link>
-          {showDropdown.apply && (
+          {/* {showDropdown.apply && (
             <div className="dropdown-menu w-fit mt-0">
               <Link className="dropdown-item" to="/apply">
                 Apply
@@ -561,7 +561,7 @@ function Nav() {
                 WhyChooseUs
               </Link>
             </div>
-          )}
+          )} */}
         </div>
         <div className="nav-item">
           <Link

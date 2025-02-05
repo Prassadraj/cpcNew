@@ -15,13 +15,17 @@ import { IoCall } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
 import Loader from "../Loader/Loader";
 import "./contact.css";
+import { FaCheckCircle } from "react-icons/fa";
 
 function Contact() {
   const form = useRef();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [emailError, setEmailError] = useState("");
   const [load, setLoad] = useState(true);
+  const [showPopup, setShowPopup] = useState(false); // State to manage popup visibility
+
   useEffect(() => {
     window.scrollTo(0, 0);
     setTimeout(() => {
@@ -29,12 +33,52 @@ function Contact() {
     }, 500);
   }, []);
 
+  const validateEmail = (email) => {
+    // const allowedDomains = ["gmail", "yahoo", "outlook", "hotmail", "protonmail"]; // Allowed providers
+    const allowedExtensions = ["com", "net", "org", "co", "us"]; // Allowed extensions
+
+    const emailRegex = /^([\w.%+-]+)@([\w-]+\.)+([a-zA-Z]{2,})$/; // Ensures full email with extension
+
+    if (!emailRegex.test(email)) {
+      setEmailError("Invalid email format! Example: user@gmail.com");
+      return false;
+    }
+
+    const [_, domainPart] = email.split("@");
+    if (!domainPart) {
+      setEmailError("Invalid email! Missing '@' or domain.");
+      return false;
+    }
+
+    const domainParts = domainPart.split(".");
+    if (domainParts.length < 2) {
+      setEmailError("Invalid email! Missing extension (e.g., .com, .net).");
+      return false;
+    }
+
+    const domainName = domainParts[0]; // Extract the name before ".com"
+    const extension = domainParts[1]; // Extract the extension like "com"
+
+    // if (!allowedDomains.includes(domainName) || !allowedExtensions.includes(extension)) {
+    //   setEmailError("Only public emails (Gmail, Yahoo, Outlook, etc.) are allowed!");
+    //   return false;
+    // }
+
+    setEmailError("");
+    return true;
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
+
+    // Validate email
+    if (!validateEmail(email)) {
+      return; // Stop the form from submitting if validation fails
+    }
     // Your EmailJS service ID, template ID, and Public Key
     const serviceId = "service_iu5gh35";
-    const templateId = "template_iiyp8bs";
+    const templateId = "template_uzdeafh";
     const publicKey = "xKnvcjJBWhEjVz7aJ";
 
     // Create a new object that contains dynamic template params
@@ -50,7 +94,9 @@ function Contact() {
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
         console.log(response);
-        alert("ewd");
+        setShowPopup(true); // Show the popup after successful submission
+        setTimeout(() => setShowPopup(false), 3000); // Auto-hide popup after 3 seconds
+
         setName("");
         setEmail("");
         setMessage("");
@@ -82,94 +128,109 @@ function Contact() {
               </p>
             </header>
           </div>
-          <div className="container w-full">
-
-            <div className="grid  ">
-              <h2 className="text-maincol md:text-4xl lg:text-4xl xl:text-4xl text-3xl text-center font-semibold md:mt-10 mt-40">
-                Get in Touch
-              </h2>
-              <div className="grid grid-cols-12 gap-4 ">
-                <div className="md:col-span-6 g:col-span-6 xl:col-span-6 col-span-12 p-4 shadow-md">
-                  <form
-                    onSubmit={handleSubmit}
-                    className="mt-10 max-w-lg mx-auto"
-                  >
-                    <div className="mb-4">
-                      <label
-                        className=" text-maincol  font-bold mb-2"
-                        htmlFor="name"
-                      >
-                        Name
-                      </label>
-                      <input
-                        type="text"
-                        placeholder="Your Name"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                        className="border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline placeholder:text-gray-600"
-                        required
-                      />
-                    </div>
-                    <div className="mb-4">
-                      <label
-                        className=" text-maincol  font-bold mb-2"
-                        htmlFor="email"
-                      >
-                        Email
-                      </label>
-                      <input
-                        type="email"
-                        placeholder="Your Email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        className="border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                        required
-                      />
-                    </div>
-                    <div className="mb-4">
-                      <label
-                        className=" text-maincol  font-bold mb-2"
-                        htmlFor="message"
-                      >
-                        Message
-                      </label>
-                      <textarea
-                        id="message"
-                        name="message" // Ensure this matches the placeholder in EmailJS
-                        value={message}
-                        onChange={(e) => setMessage(e.target.value)}
-                        className="border rounded w-full h-40 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                        placeholder="Your message"
-                        required
-                      />
-                    </div>
-                    <div className="mb-4">
-                      {/* <button
+          <div className="grid ">
+            <h2 className="text-maincol md:text-4xl lg:text-4xl xl:text-4xl text-3xl text-center font-semibold md:mt-10 mt-40">
+              Get in Touch
+            </h2>
+            <div className="grid grid-cols-12 gap-4 ">
+              <div className="md:col-span-6 lg:col-span-6 xl:col-span-6 col-span-12 p-4 shadow-md">
+                <form
+                  onSubmit={handleSubmit}
+                  className="mt-10 max-w-lg mx-auto"
+                >
+                  <div className="mb-4">
+                    <label
+                      className=" text-maincol  font-bold mb-2"
+                      htmlFor="name"
+                    >
+                      Name
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Your Name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      className="border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline placeholder:text-gray-600"
+                      required
+                    />
+                  </div>
+                  <div className="mb-4">
+                    <label className="text-maincol font-bold mb-2" htmlFor="email">
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      placeholder="Your Email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      onBlur={() => validateEmail(email)} // Validate when user leaves input
+                      className={`border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${emailError ? "border-red-500" : ""
+                        }`}
+                      required
+                    />
+                    {emailError && <p className="text-red-500 text-sm mt-1">{emailError}</p>}
+                  </div>
+                  <div className="mb-4">
+                    <label
+                      className=" text-maincol  font-bold mb-2"
+                      htmlFor="message"
+                    >
+                      Message
+                    </label>
+                    <textarea
+                      id="message"
+                      name="message" // Ensure this matches the placeholder in EmailJS
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
+                      className="border rounded w-full h-40 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      placeholder="Your message"
+                      required
+                    />
+                  </div>
+                  <div className="mb-4">
+                    {/* <button
               type="submit"
               className="bg-maincol text-white hover:bg-maincol-dark  font-bold float-left py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             value="Send"
             >
               Submit
             </button> */}
-                      <input
-                        type="submit"
-                        className="bg-maincol text-white hover:bg-maincol-dark font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                      />
-                    </div>
-                  </form>
-                </div>
+                    <input
+                      type="submit"
+                      className="bg-maincol text-white hover:bg-maincol-dark font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    />
+                  </div>
+                </form>
 
-                <div className="md:col-span-6 lg:col-span-6 xl:col-span-6 col-span-12 p-2 md:ml-20 xl:ml-20 lg:ml-20">
-                  <div className="flex">
-                    <img src={callform} alt="call" className="w-auto mt-16" />
-                    <div className="mt-16 ml-2">
-                      <h2 className="text-maincol font-semibold text-xl">
-                        Talk to us
-                      </h2>
-                      <p className="text-black hover:underline font-medium transition-all   hover:scale-105 ">
-                        <a href="tel:+91 87544 68400">+91 44 2499 3989</a>
-                      </p>
+                {
+                  showPopup && (
+                    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+                      <div className="bg-white p-10 pt-10 pb-10 rounded shadow-lg text-center ">
+                        <h2 className="text-xl font-bold mt-2">Thanks for taking the time to submit!!!</h2>
+                        <div className="flex justify-center gap-4 mt-4">
+                          <FaCheckCircle size={100} color="#02a884" />
+                        </div>
+                        <p className="mt-4">We will contact you shortly ...</p>
+                      </div>
                     </div>
+                  )
+                }
+
+              </div >
+
+
+
+
+              <div className="md:col-span-6 lg:col-span-6 xl:col-span-6 col-span-12 p-2 md:ml-20 xl:ml-20 lg:ml-20">
+                <div className="flex">
+                  <img src={callform} alt="call" className="w-auto mt-16" />
+                  <div className="mt-16 ml-2">
+                    <h2 className="text-maincol font-semibold text-xl">
+                      Talk to us
+                    </h2>
+                    <p className="text-black hover:underline font-medium transition-all   hover:scale-105 ">
+                      <a href="tel:+91 87544 68400">+91 44 2499 3989</a>
+                    </p>
                   </div>
                   <div className="flex">
                     <img src={mail} alt="call" className="w-auto mt-16" />
@@ -202,10 +263,10 @@ function Contact() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div >
 
 
-          </div>
+          </div >
 
           <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 grid-cols-12 mt-16 bg-gray-50 gap-5 p-20">
             <div className="">
@@ -228,7 +289,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 bg-gray-200 p-5 w-full">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10  bg-gray-200 p-5">
             <div className="border-2 border-maincol p-8 rounded-lg w-full h-full leading-7">
               <button className="p-2 bg-maincol rounded-md font-semibold text-white w-full h-20">
                 Corporate Office{" "}
@@ -814,8 +875,9 @@ function Contact() {
             ></iframe>
           </div>
           <Footer />
-        </div>
-      )}
+        </div >
+      )
+      }
     </>
   );
 }
