@@ -30,7 +30,7 @@ const Careers = () => {
 
   const handleApply = (link) => {
     window.open(link, '_blank', 'noopener,noreferrer');
-};
+  };
 
 
   const handleClose = () => {
@@ -46,7 +46,7 @@ const Careers = () => {
     }
   }, [location]);
 
- 
+
   const filterJobs = () => {
     let jobs = [];
 
@@ -80,21 +80,21 @@ const Careers = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
-    const [load, setLoad] = useState(true);
+  const [load, setLoad] = useState(true);
   useEffect(() => {
     window.scrollTo(0, 0);
     setTimeout(() => {
       setLoad(false);
     }, 500);
   }, []);
-   
+
   return (
- 
-<>{load?<Loader/>:
-    <div className=" mt-10 font-poppins">
-    {/* Header Section */}
-    <header>
-      <div className='grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 '>
+
+    <>{load ? <Loader /> :
+      <div className=" mt-10 font-poppins">
+        {/* Header Section */}
+        <header>
+          {/* <div className='grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 '>
         <div>
          <img src={bannerimage} alt="" className='md:w-full ' />
         </div>
@@ -110,11 +110,11 @@ const Careers = () => {
             </a>
           </div>
         </div>
-      </div>
-    </header>
-   
-    {/* Career Matching Section */}
-    <div className='grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 p-16 gap-8 items-center  mt-2  '>
+      </div> */}
+        </header>
+
+        {/* Career Matching Section */}
+        {/* <div className='grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 p-16 gap-8 items-center  mt-2  '>
       <div className='leading-8' data-aos="flip-up">
       <h1 className='text-cpccol md:text-4xl xl:text-4xl lg:text-4xl text-xl font-bold text-left '>Employee Career Matching</h1>
       <p  className=' mt-6 md:text-xl lg:text-xl xl:text-xl '>Couldn't find the suitable Job? Upload your CV and we will reach out to you shortly.</p>
@@ -142,9 +142,9 @@ const Careers = () => {
      
      
    
-    </div>
+    </div> */}
 
-    <div className=' md:p-8 lg:p-8 xl:p-8 mt-2 bg-gray-50 rounded-t-full'>
+        {/* <div className=' md:p-8 lg:p-8 xl:p-8 mt-2 bg-gray-50 rounded-t-full'>
 <h2 className='text-2xl text-center text-black'>Looking for <span className='text-4xl text-cpccol font-semibold'> Intern</span> Opportunities</h2>
 <div className='grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 md:p-12 lg:p-12 xl:p-12 gap-5' >
 <div className='' >
@@ -168,17 +168,30 @@ const Careers = () => {
 <button type="submit" className='bg-cpccol text-fontptag text-white px-6 py-2 rounded-r-md hover:bg-green-300 focus:outline-none focus:ring-2 focus:ring-blue-500 ml-1' onClick={handleButtonClick}>Apply Here</button>
         <PopupForm isVisible={isFormVisible} onClose={handleClose} />
         </div>
-</div>
+</div> */}
 
-    {/* Filter Section */}
-    <div className='bg-shade p-2 mt-5'>
-    <h3 className="font-semibold mt-4 mb-4 bg-shade text-3xl text-cpccol text-center" id='applynow'>Current Openings</h3>
-   
-    <main className='bg-white rounded-lg' id='openings'>
-      <div className='md:flex lg:flex xl:flex md:gap-10 lg:gap-10 xl:gap-10 p-3'>
-        <div className='mt-8'>
-          <h4 className='text-fonthtwo'>Refine By</h4>
-          {/* <h4 className="font-medium mt-4 text-fontptag">By Experience (in Years)</h4>
+        {/* Filter Section */}
+
+        <div>
+          <h2 className='text-maincol font-semibold text-4xl text-center mt-16'>Work With Everlife CPC</h2>
+          <div className='pl-10 pr-10 mt-10 leading-8 text-justify'>
+            <p>Everlife CPC endeavours to provide an exiciting and fulfilling experience for its members. At Everlife CPC we place value in learning. We provide every opportunity and assistance to enhance each individual’s skills and capabilities. The training provided is ‘in-house’, ‘on the job’ and often at our Principal’s facilities in USA, Europe or Malaysia. The focus is to ensure that on the field, eCPC’ians should always be technically superior.</p>
+          </div>
+          <div className='pl-10 pr-10 mt-10 leading-8 text-justify'>
+            <p>The working environment at Everlife CPC instills a sense of belonging and camaraderie among the staff. This has been possible through a consistent culture driven programme for all eCPCians. Communication is free and easy across all levels and the limitation of hierarchial barriers is minimum. Everlife CPC aims at making transparency and trust, the cornerstone of all our relationships.</p>
+          </div>
+          <div className='pl-10 pr-10 mt-10 leading-8 text-justify'>
+            <p>Interested in working with Everlife CPC? Kindly mail your resume to <a href='mailto:hiring@cpcdiagnostics.in' className='text-maincol underline font-semibold'>hiring@cpcdiagnostics.in</a></p>
+          </div>
+        </div>
+        <div className='bg-shade p-2 mt-5'>
+          <h3 className="font-semibold mt-10 mb-4 bg-shade text-3xl text-cpccol text-center" id='applynow'>Current Openings</h3>
+
+          <main className='bg-white rounded-lg' id='openings'>
+            <div className='md:flex lg:flex xl:flex md:gap-10 lg:gap-10 xl:gap-10 p-3'>
+              <div className='mt-8'>
+                <h4 className='text-fonthtwo'>Refine By</h4>
+                {/* <h4 className="font-medium mt-4 text-fontptag">By Experience (in Years)</h4>
           <div className="md:flex lg:flex xl:flex md:space-x-2 lg:space-x-2 xl:space-x-2 mt-4">
             <input
               type="number"
@@ -196,30 +209,30 @@ const Careers = () => {
               className="border-2 p-2 md:w-28 xl:w-28 lg:w-28 w-full mt-2"
             />
           </div> */}
-          <div className='mt-4'>
-            <p className='font-semibold text-fontptag'>By Location</p>
-            <select
-              value={locationFilter}
-              onChange={(e) => setLocationFilter(e.target.value)}
-              className="border-2 p-2 lg:w-56 xl:w-56 md:w-56 mt-4"
-            >
-              <option value="">All Location</option>
-              <option value="Ahmedabad">Ahmedabad</option>
-              <option value="Bangalore">Bangalore</option>
-              <option value="Chennai">Chennai</option>
-              <option value="Gwalior">Gwalior</option>
-              <option value="Guwahati">Guwahati</option>
-              <option value="Hyderabad">Hyderabad</option>
-              <option value="Jaipur">Jaipur</option>
-              <option value="Kakinada">Kakinada</option>
-              <option value="Kolkata">Kolkata</option>
-              <option value="Noida">Noida</option>
-              <option value="Ranchi">Ranchi</option>
-              <option value="Trichur">Trichur</option>
-            </select>
-          </div>
-          <br />
-          {/* <div className='mt-4'>
+                <div className='mt-4'>
+                  <p className='font-semibold text-fontptag'>By Location</p>
+                  <select
+                    value={locationFilter}
+                    onChange={(e) => setLocationFilter(e.target.value)}
+                    className="border-2 p-2 lg:w-56 xl:w-56 md:w-56 mt-4"
+                  >
+                    <option value="">All Location</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Gwalior">Gwalior</option>
+                    <option value="Guwahati">Guwahati</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Jaipur">Jaipur</option>
+                    <option value="Kakinada">Kakinada</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Noida">Noida</option>
+                    <option value="Ranchi">Ranchi</option>
+                    <option value="Trichur">Trichur</option>
+                  </select>
+                </div>
+                <br />
+                {/* <div className='mt-4'>
             <p className='font-semibold text-fontptag'>By Department</p>
             <select
               value={selectedDepartment}
@@ -232,69 +245,76 @@ const Careers = () => {
               <option value="Cpc">Cpc</option>
             </select>
           </div> */}
-        </div>
+              </div>
 
-        <div className='w-wid bg-gray-200'></div>
+              <div className='w-wid bg-gray-200'></div>
 
-        {/* Job Listings Section */}
-        <div className='mt-2'>
-       
-            <div className='flex justify-center'>
-             
-              <input
-                type="text"
-                placeholder="Search from jobs below"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="border w-3/4 "
-              />
-              <button
-                onClick={filterJobs}
-                className="border p-2 bg-cpccol text-white ml-2"
-              >
-                Search
-              </button>
-              <button
-                onClick={() => {
-                  setSearchQuery('');
-                  filterJobs();
-                }}
-                className="border p-2 ml-2"
-              >
-                Reset
-              </button>
-            </div>
-            <h2 className="text-lg mt-3 text-cpccol font-semibold text-left ml-8">{filteredJobs.length} Openings found</h2>
+              {/* Job Listings Section */}
+              <div className='mt-2 '>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 p-3">
-              {filteredJobs.map((job, index) => (
-                <div key={index} className="group p-6 bg-shade rounded-lg leading-8 shadow-md hover:shadow-lg w-72 min-w-full h-44 min-h-full">
-                  <h3 className="font-semibold text-cpccol text-lg">{job.title}</h3>
-                  <p className="text-sm text-gray-600 mt-2">Location : {job.location}</p>
-                  {/* <div className="mt-2">
+                <div className='flex justify-center'>
+
+                  <input
+                    type="text"
+                    placeholder="Search from jobs below"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="border w-3/4 "
+                  />
+                  <button
+                    onClick={filterJobs}
+                    className="border p-2 bg-cpccol text-white ml-2"
+                  >
+                    Search
+                  </button>
+                  <button
+                    onClick={() => {
+                      setSearchQuery('');
+                      filterJobs();
+                    }}
+                    className="border p-2 ml-2"
+                  >
+                    Reset
+                  </button>
+                </div>
+                <h2 className="text-lg mt-6 text-cpccol font-semibold text-left ml-8">{filteredJobs.length} Openings found</h2>
+
+                <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mt-4 ">
+                  {filteredJobs.map((job, index) => (
+                    <div key={index} className="group p-6 bg-shade rounded-lg leading-8 shadow-md hover:shadow-lg w-80 min-w-96 h-44 min-h-full ">
+                      <h3 className="font-semibold text-cpccol text-lg">{job.title}</h3>
+                      <div className='flex justify-between gap-4'>
+                        <div>
+
+                          <p className="text-sm text-gray-600 mt-2"> {job.location}</p>
+                          <button
+                            type="button"
+                            className="bg-slate-50 shadow-sm rounded-md hover:shadow-md transition-all ease-in-out p-1 w-28 mt-4 group-hover:bg-cpccol group-hover:text-white"
+                            onClick={() => handleApply(job.link)} // Use the link property for redirection
+                          >
+                            Apply
+                          </button>
+                        </div>
+                        <div><img src={job.qrimages} alt="" className='w-24' /></div>
+                      </div>
+                      {/* <div className="mt-2">
                     {job.tags.map((tag, idx) => (
                       <span key={idx} className="text-xs bg-gray-200 p-1 rounded mr-1">
                         {tag}
                       </span>
                     ))}
                   </div> */}
-                 <button
-          type="button"
-          className="bg-slate-50 shadow-sm rounded-md hover:shadow-md transition-all ease-in-out p-1 w-28 mt-4 group-hover:bg-cpccol group-hover:text-white"
-          onClick={() => handleApply(job.link)} // Use the link property for redirection
-        >
-          Apply
-        </button>
+
+                    </div>
+                  ))}
                 </div>
-              ))}
+              </div>
             </div>
-          </div>
+          </main>
         </div>
-      </main>
-    </div>
-    <Footer/>
-  </div>}</>
-      );
+        <Footer />
+      </div>}</>
+  );
 };
 
 export default Careers;

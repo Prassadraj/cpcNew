@@ -15,13 +15,17 @@ import { IoCall } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
 import Loader from "../Loader/Loader";
 import "./contact.css";
+import { FaCheckCircle } from "react-icons/fa";
 
 function Contact() {
   const form = useRef();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [emailError, setEmailError] = useState("");
   const [load, setLoad] = useState(true);
+  const [showPopup, setShowPopup] = useState(false); // State to manage popup visibility
+
   useEffect(() => {
     window.scrollTo(0, 0);
     setTimeout(() => {
@@ -29,12 +33,52 @@ function Contact() {
     }, 500);
   }, []);
 
+  const validateEmail = (email) => {
+    // const allowedDomains = ["gmail", "yahoo", "outlook", "hotmail", "protonmail"]; // Allowed providers
+    const allowedExtensions = ["com", "net", "org", "co", "us"]; // Allowed extensions
+
+    const emailRegex = /^([\w.%+-]+)@([\w-]+\.)+([a-zA-Z]{2,})$/; // Ensures full email with extension
+
+    if (!emailRegex.test(email)) {
+      setEmailError("Invalid email format! Example: user@gmail.com");
+      return false;
+    }
+
+    const [_, domainPart] = email.split("@");
+    if (!domainPart) {
+      setEmailError("Invalid email! Missing '@' or domain.");
+      return false;
+    }
+
+    const domainParts = domainPart.split(".");
+    if (domainParts.length < 2) {
+      setEmailError("Invalid email! Missing extension (e.g., .com, .net).");
+      return false;
+    }
+
+    const domainName = domainParts[0]; // Extract the name before ".com"
+    const extension = domainParts[1]; // Extract the extension like "com"
+
+    // if (!allowedDomains.includes(domainName) || !allowedExtensions.includes(extension)) {
+    //   setEmailError("Only public emails (Gmail, Yahoo, Outlook, etc.) are allowed!");
+    //   return false;
+    // }
+
+    setEmailError("");
+    return true;
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
+
+    // Validate email
+    if (!validateEmail(email)) {
+      return; // Stop the form from submitting if validation fails
+    }
     // Your EmailJS service ID, template ID, and Public Key
     const serviceId = "service_iu5gh35";
-    const templateId = "template_iiyp8bs";
+    const templateId = "template_uzdeafh";
     const publicKey = "xKnvcjJBWhEjVz7aJ";
 
     // Create a new object that contains dynamic template params
@@ -50,7 +94,9 @@ function Contact() {
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
         console.log(response);
-        alert("ewd");
+        setShowPopup(true); // Show the popup after successful submission
+        setTimeout(() => setShowPopup(false), 3000); // Auto-hide popup after 3 seconds
+
         setName("");
         setEmail("");
         setMessage("");
@@ -67,11 +113,11 @@ function Contact() {
       ) : (
         <div className="container-fluid text-black">
           <div>
-            <div>
+            <div className="">
               <img src={contbanner} alt="bannerimage" className="mx-auto" />
             </div>
-            <header className="absolute md:top-24 lg:top-24 xl:top-24 md:ml-20 lg:ml-20 xl:ml-20 md:text-white  mt-4">
-              <h1 className="md:text-5xl lg:text-5xl xl:text-5xl text-2xl md:ml-0 ml-14 text-left font-bold ">
+            <header className="absolute md:top-24 lg:top-24 xl:top-24 md:ml-20 lg:ml-20 xl:ml-20 laptop:text-white tablet:text-maincol mt-4">
+              <h1 className=" md:text-5xl lg:text-5xl xl:text-5xl text-2xl md:ml-0 ml-14 text-left font-bold ">
                 Want to know more?
                 <br />
                 We are here to HELP!!!
@@ -109,10 +155,7 @@ function Contact() {
                     />
                   </div>
                   <div className="mb-4">
-                    <label
-                      className=" text-maincol  font-bold mb-2"
-                      htmlFor="email"
-                    >
+                    <label className="text-maincol font-bold mb-2" htmlFor="email">
                       Email
                     </label>
                     <input
@@ -120,9 +163,12 @@ function Contact() {
                       placeholder="Your Email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      className="border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      onBlur={() => validateEmail(email)} // Validate when user leaves input
+                      className={`border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${emailError ? "border-red-500" : ""
+                        }`}
                       required
                     />
+                    {emailError && <p className="text-red-500 text-sm mt-1">{emailError}</p>}
                   </div>
                   <div className="mb-4">
                     <label
@@ -155,7 +201,25 @@ function Contact() {
                     />
                   </div>
                 </form>
-              </div>
+
+                {
+                  showPopup && (
+                    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+                      <div className="bg-white p-10 pt-10 pb-10 rounded shadow-lg text-center ">
+                        <h2 className="text-xl font-bold mt-2">Thanks for taking the time to submit!!!</h2>
+                        <div className="flex justify-center gap-4 mt-4">
+                          <FaCheckCircle size={100} color="#02a884" />
+                        </div>
+                        <p className="mt-4">We will contact you shortly ...</p>
+                      </div>
+                    </div>
+                  )
+                }
+
+              </div >
+
+
+
 
               <div className="md:col-span-6 lg:col-span-6 xl:col-span-6 col-span-12 p-2 md:ml-20 xl:ml-20 lg:ml-20">
                 <div className="flex">
@@ -168,39 +232,41 @@ function Contact() {
                       <a href="tel:+91 87544 68400">+91 44 2499 3989</a>
                     </p>
                   </div>
-                </div>
-                <div className="flex">
-                  <img src={mail} alt="call" className="w-auto mt-16" />
-                  <div className="mt-16 ml-2">
-                    <h2 className="text-maincol font-semibold text-xl text-left">
-                      Mail Us
-                    </h2>
-                    <p className="text-black hover:underline font-medium transition-all  hover:scale-105">
-                      <a href="mailto:agappe@agappe.in">
-                        info@cpcdiagnostics.in
-                      </a>
-                    </p>
+                  <div className="flex">
+                    <img src={mail} alt="call" className="w-auto mt-16" />
+                    <div className="mt-16 ml-2">
+                      <h2 className="text-maincol font-semibold text-xl text-left">
+                        Mail Us
+                      </h2>
+                      <p className="text-black hover:underline font-medium transition-all  hover:scale-105">
+                        <a href="mailto:agappe@agappe.in">
+                          info@cpcdiagnostics.in
+                        </a>
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="flex">
-                  <div>
-                    <img src={loc} alt="call" className="w-auto mt-16" />
-                  </div>
-                  <div className="mt-16 ml-2">
-                    <h2 className="text-maincol font-semibold text-xl text-left">
-                      Registered Address:
-                    </h2>
-                    <p className="text-black hover:underline font-medium transition-all  hover:scale-105">
-                      <a href="https://maps.app.goo.gl/oEkVRZDJzPhwdo526">
-                        V-9, 5th Floor, Gokul Tower, No.9 & 10, CP Ramaswamy
-                        Road, <br /> Alwarpet, Chennai-600 018.
-                      </a>
-                    </p>
+                  <div className="flex">
+                    <div>
+                      <img src={loc} alt="call" className="w-auto mt-16" />
+                    </div>
+                    <div className="mt-16 ml-2">
+                      <h2 className="text-maincol font-semibold text-xl text-left">
+                        Registered Address:
+                      </h2>
+                      <p className="text-black hover:underline font-medium transition-all  hover:scale-105">
+                        <a href="https://maps.app.goo.gl/oEkVRZDJzPhwdo526">
+                          V-9, 5th Floor, Gokul Tower, No.9 & 10, CP Ramaswamy
+                          Road, <br /> Alwarpet, Chennai-600 018.
+                        </a>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+            </div >
+
+
+          </div >
 
           <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 grid-cols-12 mt-16 bg-gray-50 gap-5 p-20">
             <div className="">
@@ -223,7 +289,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 bg-gray-200 p-5">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10  bg-gray-200 p-5">
             <div className="border-2 border-maincol p-8 rounded-lg w-full h-full leading-7">
               <button className="p-2 bg-maincol rounded-md font-semibold text-white w-full h-20">
                 Corporate Office{" "}
@@ -361,7 +427,7 @@ function Contact() {
                   </div>
                 </div>
               </div>
-       <br />
+              <br />
               <div className="flex flex-col mt-4">
                 <div className="flex flex-row items-center gap-2">
                   <img src={callin} alt="call inner logo" className="w-4" />
@@ -733,16 +799,17 @@ function Contact() {
             </div>
           </div>
 
-          <section className="font-poppins">
+          <section className="font-poppins w-full">
             <h2 className="text-maincol text-4xl mt-8 font-semibold font-poppins">
               Registered Office
             </h2>
-            <div className="flex justify-around items-center mt-8 border-maincol border-2 pt-8 pb-8 rounded-3xl">
-              <div className="flex flex-row justify-around items-start gap-2">
+            <div className="flex flex-col tablet:flex-row mobile:flex-row justify-around items-center mt-8 border-maincol border-2 pt-8 pb-8 rounded-3xl gap-4">
+              {/* Address Section */}
+              <div className="flex flex-row tablet:flex-col justify-around items-start gap-2">
                 <div>
                   <a
                     href="https://maps.app.goo.gl/TFhcwZNwQWMVNCgj8"
-                    className="hover:opacity-80 hover:scale-105 transition-all "
+                    className="hover:opacity-80 hover:scale-105 transition-all"
                   >
                     <div className="flex gap-1">
                       <FaLocationDot size={28} color="#02a884" />
@@ -750,22 +817,24 @@ function Contact() {
                         className="text-black font-poppins"
                         style={{ fontSize: "1rem", color: "black" }}
                       >
-                        V-9, 5th Floor, Gokul Tower, <br /> No.9 & 10, CP
-                        Ramaswamy <br /> Road, Alwarpet, <br /> Chennai-600 018.
+                        V-9, 5th Floor, Gokul Tower, <br /> No.9 & 10, CP Ramaswamy <br />{" "}
+                        Road, Alwarpet, <br /> Chennai-600 018.
                       </p>
                     </div>
                   </a>
                 </div>
               </div>
-              <div className="flex flex-row justify-around items-center">
+
+              {/* Phone Section */}
+              <div className="flex flex-row tablet:flex-col justify-around items-center gap-2">
                 <IoCall size={28} color="#02a884" />
                 <div>
                   <a
                     href="tel:+91 44 2499 3989"
-                    className="hover:opacity-80 hover:scale-105 transition-all "
+                    className="hover:opacity-80 hover:scale-105 transition-all"
                   >
                     <p
-                      className="font-poppins  ml-4"
+                      className="font-poppins ml-4 mobile:ml-0 tablet:ml-0"
                       style={{ fontSize: "1rem", color: "black" }}
                     >
                       +91 44 2499 3989
@@ -773,15 +842,17 @@ function Contact() {
                   </a>
                 </div>
               </div>
-              <div className="flex flex-row justify-around items-center">
+
+              {/* Email Section */}
+              <div className="flex flex-row tablet:flex-col justify-around items-center gap-2">
                 <IoMdMail size={28} color="#02a884" />
                 <div>
                   <a
                     href="mailto:info@cpcdiagnostics.in"
-                    className="hover:opacity-80 hover:scale-105 transition-all "
+                    className="hover:opacity-80 hover:scale-105 transition-all"
                   >
                     <p
-                      className="font-poppins  text-black ml-4"
+                      className="font-poppins text-black ml-4 tablet:ml-0"
                       style={{ fontSize: "1rem", color: "black" }}
                     >
                       info@cpcdiagnostics.in
@@ -790,6 +861,7 @@ function Contact() {
                 </div>
               </div>
             </div>
+
           </section>
 
           <div className="mt-20 mb-10 p-2 grid grid-cols-12 w-full shadow-2xl">
@@ -803,8 +875,9 @@ function Contact() {
             ></iframe>
           </div>
           <Footer />
-        </div>
-      )}
+        </div >
+      )
+      }
     </>
   );
 }

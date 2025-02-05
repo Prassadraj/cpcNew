@@ -49,12 +49,12 @@ function Nav() {
       case "/brand":
         setSelected("brand");
         break;
-      case "/apply":
-        setSelected("apply");
+      case "/career":
+        setSelected("career");
         break;
-      case "/whychooseus":
-        setSelected("apply");
-        break;
+      // case "/whychooseus":
+      //   setSelected("apply");
+      //   break;
       case "/success":
         setSelected("success");
         break;
@@ -108,7 +108,7 @@ function Nav() {
         </div>
         <Link to="/">
           <img
-            className="tablet:w-[140px] tablet:h-[70px] w-[100px]"
+            className="tablet:w-[140px]  tablet:h-[70px] w-[100px]"
             src={logo}
             alt="Logo"
           />
@@ -117,14 +117,13 @@ function Nav() {
 
       {/* Mobile Menu */}
       <div
-        className={`${
-          showMobileMenu ? "flex" : "hidden"
-        } flex-col md:hidden bg-white absolute top-16 left-0 w-full px-4 py-1 shadow-md border-t-2 h-screen  font-lato`}
+        className={`${showMobileMenu ? "flex" : "hidden"
+          } flex-col md:hidden  bg-white absolute top-16 left-0 w-full px-4 py-1 shadow-md border-t-2 h-screen  font-lato`}
       >
         <div className="h-96 overflow-y-scroll border-b-2 flex flex-col gap-1">
           <div>
             <Link
-              className=" text-xl font-semibold py-2 "
+              className=" text-xl  font-semibold py-2 "
               to="/"
               onClick={() => {
                 setShowMobileMenu(!showMobileMenu);
@@ -134,7 +133,7 @@ function Nav() {
               Home
             </Link>
             <div
-              className="text-xl font-semibold py-2 mt-2 flex items-center justify-between"
+              className="text-xl font-semibold  py-2 mt-2 flex items-center justify-between"
               onClick={() => toggleDropdown("about")}
             >
               <p>About</p>
@@ -354,7 +353,7 @@ function Nav() {
             Contact
           </Link>
         </div>
-        <div className="flex justify-evenly mt-4 text-3xl">
+        <div className="flex justify-evenly  mt-4 text-3xl">
           <Link
             target="_blank"
             to="https://www.facebook.com/EverlifeCPC"
@@ -391,9 +390,8 @@ function Nav() {
       >
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${
-              selected === "home" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "home" ? "selected" : ""
+              }`}
             to="/"
           >
             Home
@@ -405,9 +403,8 @@ function Nav() {
           onMouseLeave={() => toggleDropdown("about")}
         >
           <Link
-            className={`cursor-pointer ${
-              selected === "about" || selected === "csr" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "about" || selected === "csr" ? "selected" : ""
+              }`}
             to="/about"
           >
             About
@@ -425,9 +422,8 @@ function Nav() {
         </div>
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${
-              selected === "brand" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "brand" ? "selected" : ""
+              }`}
             to="/brand"
           >
             Our Brands
@@ -439,9 +435,8 @@ function Nav() {
           onMouseLeave={() => toggleDropdown("products")}
         >
           <Link
-            className={`cursor-pointer ${
-              selected === "product" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "product" ? "selected" : ""
+              }`}
             onClick={() => {
               setSelectSectionCategory("top");
               setSelectedCategory("Biochemistry");
@@ -547,18 +542,17 @@ function Nav() {
         </div>
         <div
           className="nav-item"
-          onMouseEnter={() => toggleDropdown("apply")}
-          onMouseLeave={() => toggleDropdown("apply")}
+          onMouseEnter={() => toggleDropdown("career")}
+          onMouseLeave={() => toggleDropdown("career")}
         >
           <Link
-            className={`cursor-pointer ${
-              selected === "apply" ? "selected" : ""
-            }`}
-            to="/apply"
+            className={`cursor-pointer ${selected === "career" ? "selected" : ""
+              }`}
+            to="/career"
           >
             Career
           </Link>
-          {showDropdown.apply && (
+          {/* {showDropdown.apply && (
             <div className="dropdown-menu w-fit mt-0">
               <Link className="dropdown-item" to="/apply">
                 Apply
@@ -567,13 +561,12 @@ function Nav() {
                 WhyChooseUs
               </Link>
             </div>
-          )}
+          )} */}
         </div>
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${
-              selected === "success" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "success" ? "selected" : ""
+              }`}
             to="/success"
           >
             Our Success
@@ -581,9 +574,8 @@ function Nav() {
         </div>
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${
-              selected === "blog" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "blog" ? "selected" : ""
+              }`}
             to="/blog"
           >
             Blog
@@ -591,9 +583,8 @@ function Nav() {
         </div>
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${
-              selected === "contact" ? "selected" : ""
-            }`}
+            className={`cursor-pointer ${selected === "contact" ? "selected" : ""
+              }`}
             to="/contact"
           >
             Contact

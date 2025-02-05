@@ -1,3 +1,4 @@
+import { mobileStepperClasses } from "@mui/material";
 import { transform } from "framer-motion";
 
 /** @type {import('tailwindcss').Config} */
@@ -11,6 +12,10 @@ export default {
         lato: ["Lato", "serif"],
       },
       screens: {
+
+        mobile: "320px",
+        // => @media (min-width: 320px) { ... }
+
         tablet: "640px",
         // => @media (min-width: 640px) { ... }
 
