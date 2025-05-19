@@ -75,7 +75,7 @@ function Section1() {
             className="text-2xl mt-3 tablet:mt-0 tablet:max-w-xl tablet:text-3xl 
            w-full text-center tablet:!text-left largeLaptop:text-[35px] font-bold text-[#56575D] "
           >
-            Medical Laboratory Equipment Supplier in India at the Best Price
+            Medical Laboratory Equipment Supplier in India
           </motion.p>
           <div className="description tablet:mt-4 !mt-2 font-poppins">
             <p
