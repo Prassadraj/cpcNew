@@ -172,7 +172,7 @@ const Careers = () => {
 
         {/* Filter Section */}
 
-        <div>
+        <div className='container mx-auto'>
           <h2 className='text-maincol font-semibold text-4xl text-center mt-16'>Work With Everlife CPC</h2>
           <div className='pl-10 pr-10 mt-10 leading-8 text-justify'>
             <p>Everlife CPC endeavours to provide an exiciting and fulfilling experience for its members. At Everlife CPC we place value in learning. We provide every opportunity and assistance to enhance each individual’s skills and capabilities. The training provided is ‘in-house’, ‘on the job’ and often at our Principal’s facilities in USA, Europe or Malaysia. The focus is to ensure that on the field, eCPC’ians should always be technically superior.</p>
@@ -184,7 +184,7 @@ const Careers = () => {
             <p>Interested in working with Everlife CPC? Kindly mail your resume to <a href='mailto:hiring@cpcdiagnostics.in' className='text-maincol underline font-semibold'>hiring@cpcdiagnostics.in</a></p>
           </div>
         </div>
-        <div className='bg-shade p-2 mt-5'>
+        <div className='bg-shade p-2 mt-5 container mx-auto'>
           <h3 className="font-semibold mt-10 mb-4 bg-shade text-3xl text-cpccol text-center" id='applynow'>Current Openings</h3>
 
           <main className='bg-white rounded-lg' id='openings'>
@@ -246,8 +246,8 @@ const Careers = () => {
             </select>
           </div> */}
               </div>
-
-              <div className='w-wid bg-gray-200'></div>
+              {/* 
+              <div className='w-wid bg-gray-200'></div> */}
 
               {/* Job Listings Section */}
               <div className='mt-2 '>
@@ -279,17 +279,17 @@ const Careers = () => {
                 </div>
                 <h2 className="text-lg mt-6 text-cpccol font-semibold text-left ml-8">{filteredJobs.length} Openings found</h2>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mt-4 ">
+                <div className=" grid laptop:grid-cols-3 grid-cols-1 tablet:grid-cols-2 gap-10 mt-4 ml-8 ">
                   {filteredJobs.map((job, index) => (
-                    <div key={index} className="group p-6 bg-shade rounded-lg leading-8 shadow-md hover:shadow-lg w-80 min-w-96 h-44 min-h-full ">
-                      <h3 className="font-semibold text-cpccol text-lg">{job.title}</h3>
-                      <div className='flex justify-between gap-4'>
-                        <div>
+                    <div key={index} className="group p-6 bg-shade rounded-lg leading-8 shadow-md hover:shadow-lg  ">
 
-                          <p className="text-sm text-gray-600 mt-2"> {job.location}</p>
+                      <div className='flex flex-col-reverse items-center largeLaptop:flex-row justify-between gap-4'>
+                        <div className='flex   flex-col items-center'>
+                          <h3 className="font-semibold text-cpccol text-lg text-center">{job.title}</h3>
+                          <p className="text-sm text-gray-600 mt-2 text-center"> {job.location}</p>
                           <button
                             type="button"
-                            className="bg-slate-50 shadow-sm rounded-md hover:shadow-md transition-all ease-in-out p-1 w-28 mt-4 group-hover:bg-cpccol group-hover:text-white"
+                            className="bg-slate-50 align-center  text-center shadow-sm rounded-md hover:shadow-md transition-all ease-in-out p-1 w-28 mt-4 group-hover:bg-cpccol group-hover:text-white"
                             onClick={() => handleApply(job.link)} // Use the link property for redirection
                           >
                             Apply

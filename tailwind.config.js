@@ -12,7 +12,6 @@ export default {
         lato: ["Lato", "serif"],
       },
       screens: {
-
         mobile: "320px",
         // => @media (min-width: 320px) { ... }
 

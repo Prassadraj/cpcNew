@@ -232,36 +232,37 @@ function Contact() {
                       <a href="tel:+91 87544 68400">+91 44 2499 3989</a>
                     </p>
                   </div>
-                  <div className="flex">
-                    <img src={mail} alt="call" className="w-auto mt-16" />
-                    <div className="mt-16 ml-2">
-                      <h2 className="text-maincol font-semibold text-xl text-left">
-                        Mail Us
-                      </h2>
-                      <p className="text-black hover:underline font-medium transition-all  hover:scale-105">
-                        <a href="mailto:agappe@agappe.in">
-                          info@cpcdiagnostics.in
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex">
-                    <div>
-                      <img src={loc} alt="call" className="w-auto mt-16" />
-                    </div>
-                    <div className="mt-16 ml-2">
-                      <h2 className="text-maincol font-semibold text-xl text-left">
-                        Registered Address:
-                      </h2>
-                      <p className="text-black hover:underline font-medium transition-all  hover:scale-105">
-                        <a href="https://maps.app.goo.gl/oEkVRZDJzPhwdo526">
-                          V-9, 5th Floor, Gokul Tower, No.9 & 10, CP Ramaswamy
-                          Road, <br /> Alwarpet, Chennai-600 018.
-                        </a>
-                      </p>
-                    </div>
+                </div>
+                <div className="flex">
+                  <img src={mail} alt="call" className="w-auto mt-16" />
+                  <div className="mt-16 ml-2">
+                    <h2 className="text-maincol font-semibold text-xl text-left">
+                      Mail Us
+                    </h2>
+                    <p className="text-black hover:underline font-medium transition-all  hover:scale-105">
+                      <a href="mailto:agappe@agappe.in">
+                        info@cpcdiagnostics.in
+                      </a>
+                    </p>
                   </div>
                 </div>
+                <div className="flex">
+                  <div>
+                    <img src={loc} alt="call" className="w-auto mt-16" />
+                  </div>
+                  <div className="mt-16 ml-2">
+                    <h2 className="text-maincol font-semibold text-xl text-left">
+                      Registered Address:
+                    </h2>
+                    <p className="text-black hover:underline font-medium transition-all  hover:scale-105">
+                      <a href="https://maps.app.goo.gl/oEkVRZDJzPhwdo526">
+                        V-9, 5th Floor, Gokul Tower, No.9 & 10, CP Ramaswamy
+                        Road, <br /> Alwarpet, Chennai-600 018.
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
               </div>
             </div >
 
