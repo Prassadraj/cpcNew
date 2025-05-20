@@ -366,10 +366,19 @@ function ProductInfo() {
                   </div>
                 </div>
                 <div className="hidden md:flex justify-center mt-4 tablet:mb-10 laptop:mb-[6rem]">
-                  <div className="w-full flex flex-col text-xl text-justify ">
+                  <div className="w-full flex flex-col  text-xl text-justify ">
                     <p className="font-medium text-2xl largeLaptop:text-4xl tablet:mb-4">
                       {product.title}
                     </p>
+                    {product.tagline && (
+                      <p
+                        className={`text-lg largeLaptop:text-xl laptop:mb-4 text-start`}
+                      >
+                        <span className="font-medium">Tagline : </span>
+                        {product.tagline}
+                      </p>
+                    )}
+
                     <p className="font-medium tablet:mb-1 largeLaptop:text-2xl largeLaptop:mb-3">
                       Overview:
                     </p>

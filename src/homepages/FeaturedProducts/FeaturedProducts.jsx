@@ -199,7 +199,7 @@ const featuredCards = [
   },
   {
     url: image3,
-    title: "I flash 1200",
+    title: "iFlash 1200",
     category: "Immunology",
     content:
       "The IFLASH 1200 is a state-of-the-art Chemiluminescence Immunoassay (CLIA) analyzer that provides high sensitivity and specificity in immunoassay testing. This fully automated system simplifies complex diagnostic procedures, offering a user-friendly interface and robust performance to meet the demands of modern laboratories.",
@@ -226,10 +226,10 @@ const featuredCards = [
   },
   {
     url: image6,
-    title: "I chroma™ III",
+    title: "ichroma™ III",
     category: "Point%20of%20Care",
     content:
-      "The I chroma™ III is a high-performance point-of-care testing (POCT) hormone analyzer, providing accurate and rapid results for various hormone assays, essential for timely diagnosis and treatment.",
+      "The ichroma™ III is a high-performance point-of-care testing (POCT) hormone analyzer, providing accurate and rapid results for various hormone assays, essential for timely diagnosis and treatment.",
     id: 2,
     animation: "6",
   },

@@ -1597,7 +1597,7 @@ const products = [
         shortdescription:
           "The Jokoh EX-D Electrolyte Analyzer is engineered to deliver rapid and precise measurements of vital electrolytes, including sodium (Na+), potassium (K+), and chloride (Cl-). The analyzer’s compact design makes it an excellent choice for laboratories with space constraints, while its advanced technology ensures consistent accuracy and low operational costs.",
         description:
-          "The Jokoh EX-D Electrolyte Analyzer is a high-performance, fully automated analyzer designed for quick and accurate measurement of critical electrolytes such as sodium, potassium, and chloride. Ideal for clinical laboratories and healthcare facilities, this analyzer is renowned for its precision, efficiency, and ease of use, ensuring reliable diagnostic results.",
+          "The Jokoh EX-D Electrolyte Analyzer is a high-performance, batch analyzer designed for quick and accurate measurement of critical electrolytes such as sodium, potassium, and chloride. Ideal for clinical laboratories and healthcare facilities, this analyzer is renowned for its precision, efficiency, and ease of use, ensuring reliable diagnostic results.",
         workPrinciple: (
           <div>
             <ul className="space-y-6 font-poppins">
@@ -1789,7 +1789,7 @@ const products = [
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Routine maintenance
-                  of sensors and optical systems
+                  of the tubings by the wash solutions.
                 </p>
               </li>
               <li className="flex gap-3">
@@ -1802,8 +1802,8 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Regular performance
-                  checks to ensure ongoing accuracy
+                  <span className="text-[#10b981]">◆</span>Regular performance
+                  checks of the electrodes to ensure ongoing accuracy
                 </p>
               </li>
             </ul>
@@ -1828,43 +1828,91 @@ const products = [
           "The EX-Ds Electrolyte Analyzer offers reliable and efficient high-throughput testing, providing precise results and seamless integration for both routine and specialized diagnostic tests, optimizing laboratory workflows.",
         description:
           "The EX-Ds electrolyte analyzer is a reliable and efficient solution for high-throughput laboratories. Its precision and seamless integration make it ideal for routine and specialized diagnostic tests, ensuring accurate results and optimized workflows.",
-
         workPrinciple: (
           <div>
+            <ul className="space-y-6 font-poppins">
+              <li className="flex-col gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="font-semibold tablet:text-base largeLaptop:text-2xl  text-xs">
+                    How it Works
+                  </span>
+                </p>
+                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black ">
+                  The Jokoh EX-DS uses ion-selective electrode (ISE) technology
+                  to measure electrolyte concentrations in biological fluids
+                  such as blood, serum, and plasma. This technology relies on
+                  electrodes that are sensitive to specific ions, allowing for
+                  accurate and direct measurement of electrolyte levels in a
+                  short amount of time. The analyzer features automatic
+                  calibration and a built-in quality control system to ensure
+                  the reliability of every result.
+                </p>
+              </li>
+            </ul>
+
+            {/* For Whom It Is Useful */}
             <table className="min-w-full table-auto">
+              <thead>
+                <tr>
+                  <th className="tablet:px-4 tablet:py-4 px-0 py-1 tablet:text-base text-xs  text-left text-black font-semibold">
+                    For Whom It Is Useful
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="flex flex-col gap-4">
+                <tr>
+                  <td className="  text-black tablet:text-base text-xs">
+                    The Jokoh EX-DS Electrolyte Analyzer is perfect for clinical
+                    laboratories, hospitals, and diagnostic centers that require
+                    fast and precise electrolyte measurements. It is
+                    particularly valuable in critical care settings, emergency
+                    rooms, and intensive care units where timely and accurate
+                    electrolyte analysis is essential for patient management.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            {/* Use Cases */}
+            <table className="min-w-full table-auto mt-6">
+              <thead>
+                <tr>
+                  <th className="tablet:px-4 tablet:text-base tablet:py-2 px-0 py-0  text-left text-black font-semibold">
+                    Use Cases
+                  </th>
+                </tr>
+              </thead>
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      Working Principle: How It Works?
-                    </strong>
-                    The EX-Ds performs electrolyte analysis by processing
-                    diverse sample types with precision sensors and advanced
-                    automation. It integrates smoothly with laboratory systems
-                    for efficient data exchange and reporting.
+                      {" "}
+                      Critical Care:
+                    </strong>{" "}
+                    Provides rapid electrolyte analysis for patients in
+                    intensive care units or emergency departments.
                   </td>
                 </tr>
                 <tr>
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      For Whom It Is Useful?
-                    </strong>
-                    Ideal for laboratories requiring reliable and
-                    high-performance systems.
+                      {" "}
+                      Routine Laboratory Testing:
+                    </strong>{" "}
+                    Ideal for use in clinical laboratories handling a high
+                    volume of samples daily.
                   </td>
                 </tr>
                 <tr>
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      Use Cases:
-                    </strong>
-                    <ul className="list-disc pl-5 text-lg">
-                      <li>Electrolyte analysis for accurate diagnostics.</li>
-                      <li>Routine screening for various medical conditions.</li>
-                      <li>
-                        High-volume sample processing for large laboratories.
-                      </li>
-                    </ul>
+                      {" "}
+                      Diagnostic Centers:
+                    </strong>{" "}
+                    Enables precise electrolyte measurement for diagnostic
+                    purposes, supporting medical professionals in delivering
+                    accurate diagnoses.
                   </td>
                 </tr>
               </tbody>
@@ -1874,63 +1922,93 @@ const products = [
 
         advantages: (
           <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  <span className="text-[#10b981]">◆</span> High Performance:
-                  Handles large sample volumes efficiently.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  <span className="text-[#10b981]">◆</span> Precision: Delivers
-                  reproducible and accurate results.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  <span className="text-[#10b981]">◆</span> Adaptable Design:
-                  Suitable for various laboratory workflows.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  <span className="text-[#10b981]">◆</span> Integrated Workflow:
-                  Features LIS connectivity for seamless data management.
-                </p>
-              </li>
-            </ul>
+            {/* Advantages Table */}
+            <table className="min-w-full table-auto">
+              <tbody className="flex flex-col gap-4">
+                <tr>
+                  <td className="  text-black">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                      {" "}
+                      High Efficiency:
+                    </strong>{" "}
+                    Quick turnaround time ensures that critical results are
+                    delivered without delay, enabling faster decision-making.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="  text-black">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                      {" "}
+                      Ease of Use:
+                    </strong>{" "}
+                    The intuitive touchscreen interface and automated features
+                    reduce the complexity of operations, allowing for minimal
+                    operator intervention.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="  text-black">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                      {" "}
+                      Compact Design:
+                    </strong>{" "}
+                    Its small footprint allows it to be placed in laboratories
+                    with limited space, optimizing workflow efficiency.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="  text-black">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                      {" "}
+                      Consistent Accuracy:
+                    </strong>{" "}
+                    The built-in quality control system guarantees consistent
+                    and reliable results, reducing the risk of errors.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         ),
 
         benefits: (
           <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  <span className="text-[#10b981]">◆</span> Boosts productivity
-                  by reducing manual operations.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  <span className="text-[#10b981]">◆</span> Shortens turnaround
-                  times with automated processes.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  <span className="text-[#10b981]">◆</span> Provides scalability
-                  for expanding diagnostic needs.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  <span className="text-[#10b981]">◆</span> Enhances operational
-                  accuracy through advanced technology.
-                </p>
-              </li>
-            </ul>
+            {/* Benefits Table */}
+            <table className="min-w-full table-auto">
+              <tbody className="flex flex-col gap-4">
+                <tr>
+                  <td className="  text-black">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                      {" "}
+                      Cost-Effective:
+                    </strong>{" "}
+                    Low reagent consumption and minimal maintenance requirements
+                    lower the overall cost of ownership.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="  text-black">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                      {" "}
+                      Improved Workflow:
+                    </strong>{" "}
+                    Automatic calibration and fast processing speeds streamline
+                    lab operations, allowing for higher productivity.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="  text-black">
+                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                      {" "}
+                      Reliable Results:
+                    </strong>{" "}
+                    The precision of ion-selective electrode technology ensures
+                    that clinicians receive accurate data, enhancing patient
+                    care.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         ),
 
@@ -1938,33 +2016,29 @@ const products = [
           <div>
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  <span className="text-[#10b981]">◆</span> Regularly clean and
-                  inspect key components as per the user manual.
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> Routine maintenance
+                  of the tubings by the wash solutions.
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  <span className="text-[#10b981]">◆</span> Protect the system
-                  from power surges by using a stabilizer.
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> Ensuring proper
+                  storage and handling of reagents
                 </p>
               </li>
               <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  <span className="text-[#10b981]">◆</span> Ensure proper
-                  calibration and timely software updates.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  <span className="text-[#10b981]">◆</span> Use recommended
-                  consumables to maintain performance consistency.
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span>Regular performance
+                  checks of the electrodes to ensure ongoing accuracy
                 </p>
               </li>
             </ul>
           </div>
         ),
-
         workServices:
           "Technical support and service options available for system maintenance and troubleshooting.",
         productBrochure: "path/to/jokoh-ex-d-brochure.pdf",
@@ -2814,10 +2888,12 @@ const products = [
         coverImg: Plexmat4Grey,
         title: "PlexMat 4",
         section: "immunoblot",
+        tagline:
+          "Compact multiplex Immunoblot processor in the diagnosis of ALLERGY, AUTOIMMUNE & INFECTION",
         shortdescription:
-          "The PLEXMAT 4 is an advanced western blot processor designed to bring automation and precision to immunoblotting processes in diagnostic laboratories. This compact system is ideal for laboratories handling a moderate volume of western blot tests. The PLEXMAT 4 automates each step of the blotting process, from sample preparation to final detection, minimizing manual intervention and reducing the risk of errors. Its versatility makes it suitable for processing various test profiles, including ANA (antinuclear antibody) tests and liver diagnostics, making it a reliable asset in immunodiagnostics.",
+          "The PLEXMAT 4 is an efficient and Compact multiplex Immunoblot processor designed for small to medium-sized laboratories. This automated western blot processor simplifies the immunoblotting process, offering reliable and consistent results for a variety of diagnostic tests, including ALLERGY, AUTOIMMUNE(ANA and liver profiles) & INFECTIONs. With its intuitive interface and space-saving design, the PLEXMAT 4 enhances lab productivity while maintaining high standards of accuracy with the throughput of 4 tests in a single run.",
         description:
-          "The PLEXMAT 4 is an efficient and compact western blot processor designed for small to medium-sized laboratories. This automated western blot processor simplifies the immunoblotting process, offering reliable and consistent results for a variety of diagnostic tests, including ANA and liver profiles. With its intuitive interface and space-saving design, the PLEXMAT 4 enhances lab productivity while maintaining high standards of accuracy.",
+          "The PLEXMAT 4 is an advanced western blot processor designed to bring automation and precision to immunoblotting processes in diagnostic laboratories. This compact system is ideal for laboratories handling a moderate volume of western blot tests. The PLEXMAT 4 automates each step of the blotting process, from sample preparation to final detection, minimizing manual intervention and reducing the risk of errors. Its versatility makes it suitable for processing various test profiles, including ALLERGY, AUTOIMMUNE(ANA and liver profiles) & INFECTIONs, making it a reliable asset in immunodiagnostics..",
         workPrinciple: (
           <div>
             <table className="min-w-full table-auto">
@@ -3292,248 +3368,248 @@ const products = [
         offerOrDiscounts: "Inquire about current offers with the distributor.",
       },
       //missing cover pic
-      {
-        id: "3",
-        image: [brahms],
-        coverImg: brahmsGrey,
-        title: "B·R·A·H·M·S",
-        section: "immunoblot",
-        shortdescription:
-          "The BRAHMS Biomarkers system is an advanced diagnostic solution designed for accurate prenatal screening and critical disease detection. This prenatal screening instrument provides fast and reliable results by identifying key biomarkers in patient samples. Ideal for modern laboratories, the BRAHMS Biomarkers system ensures consistent accuracy, making it an essential tool for early diagnosis and effective patient management.",
-        description:
-          "The BRAHMS Biomarkers system is a sophisticated prenatal screening instrument that offers precise detection of biomarkers crucial for early diagnosis in various medical conditions, including prenatal abnormalities and infections. This advanced diagnostic equipment is designed to meet the demands of high-throughput laboratories, ensuring fast, reliable, and accurate results. With its automated workflow and versatile test menu, the BRAHMS Biomarkers system plays a critical role in clinical diagnostics, supporting both prenatal and general disease screening applications.",
-        workPrinciple: (
-          <div>
-            <table className="min-w-full table-auto">
-              <tbody className="flex flex-col gap-4">
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      Working Principle: How It Works?
-                    </strong>
-                    The BRAHMS Biomarkers system operates by detecting specific
-                    biomarkers in biological samples using advanced immunoassay
-                    technology. Biomarkers are measured through sensitive and
-                    specific assays that detect and quantify proteins, hormones,
-                    and other substances associated with various diseases. The
-                    system automates the sample preparation, incubation, and
-                    detection processes, minimizing manual intervention and
-                    ensuring consistent accuracy. Once biomarkers are detected,
-                    results are generated quickly, aiding in timely clinical
-                    decision-making, particularly in prenatal care.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      For Whom It Is Useful?
-                    </strong>
-                    The BRAHMS Biomarkers system is ideal for clinical
-                    diagnostic laboratories, hospital labs, and specialized
-                    testing centers that require efficient and accurate
-                    biomarker detection. This system is particularly beneficial
-                    for labs performing prenatal screening, where early
-                    detection of abnormalities is crucial for patient care. It
-                    is also valuable for labs conducting research and
-                    diagnostics in infectious diseases, oncology, and
-                    endocrinology.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      Use Cases:
-                    </strong>
-                    <ul className="list-disc pl-5 text-lg">
-                      <li>
-                        Prenatal Screening: Detects biomarkers related to fetal
-                        development, helping to identify potential genetic
-                        abnormalities or other prenatal conditions.
-                      </li>
-                      <li>
-                        Infectious Disease Diagnostics: Provides rapid and
-                        accurate identification of biomarkers associated with
-                        infectious diseases, supporting timely treatment.
-                      </li>
-                      <li>
-                        Oncology Testing: Detects cancer-related biomarkers,
-                        aiding in early diagnosis and monitoring of cancer
-                        progression.
-                      </li>
-                      <li>
-                        Endocrine Function Testing: Measures hormonal
-                        biomarkers, providing insights into endocrine system
-                        health and helping diagnose conditions such as thyroid
-                        disorders.
-                      </li>
-                      <li>
-                        Sepsis Detection: Quickly identifies procalcitonin and
-                        other biomarkers associated with sepsis, enabling rapid
-                        intervention in critical care settings.
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        ),
+      // {
+      //   id: "3",
+      //   image: [brahms],
+      //   coverImg: brahmsGrey,
+      //   title: "B·R·A·H·M·S",
+      //   section: "immunoblot",
+      //   shortdescription:
+      //     "The BRAHMS Biomarkers system is an advanced diagnostic solution designed for accurate prenatal screening and critical disease detection. This prenatal screening instrument provides fast and reliable results by identifying key biomarkers in patient samples. Ideal for modern laboratories, the BRAHMS Biomarkers system ensures consistent accuracy, making it an essential tool for early diagnosis and effective patient management.",
+      //   description:
+      //     "The BRAHMS Biomarkers system is a sophisticated prenatal screening instrument that offers precise detection of biomarkers crucial for early diagnosis in various medical conditions, including prenatal abnormalities and infections. This advanced diagnostic equipment is designed to meet the demands of high-throughput laboratories, ensuring fast, reliable, and accurate results. With its automated workflow and versatile test menu, the BRAHMS Biomarkers system plays a critical role in clinical diagnostics, supporting both prenatal and general disease screening applications.",
+      //   workPrinciple: (
+      //     <div>
+      //       <table className="min-w-full table-auto">
+      //         <tbody className="flex flex-col gap-4">
+      //           <tr>
+      //             <td className="  text-black">
+      //               <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+      //                 {" "}
+      //                 Working Principle: How It Works?
+      //               </strong>
+      //               The BRAHMS Biomarkers system operates by detecting specific
+      //               biomarkers in biological samples using advanced immunoassay
+      //               technology. Biomarkers are measured through sensitive and
+      //               specific assays that detect and quantify proteins, hormones,
+      //               and other substances associated with various diseases. The
+      //               system automates the sample preparation, incubation, and
+      //               detection processes, minimizing manual intervention and
+      //               ensuring consistent accuracy. Once biomarkers are detected,
+      //               results are generated quickly, aiding in timely clinical
+      //               decision-making, particularly in prenatal care.
+      //             </td>
+      //           </tr>
+      //           <tr>
+      //             <td className="  text-black">
+      //               <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+      //                 {" "}
+      //                 For Whom It Is Useful?
+      //               </strong>
+      //               The BRAHMS Biomarkers system is ideal for clinical
+      //               diagnostic laboratories, hospital labs, and specialized
+      //               testing centers that require efficient and accurate
+      //               biomarker detection. This system is particularly beneficial
+      //               for labs performing prenatal screening, where early
+      //               detection of abnormalities is crucial for patient care. It
+      //               is also valuable for labs conducting research and
+      //               diagnostics in infectious diseases, oncology, and
+      //               endocrinology.
+      //             </td>
+      //           </tr>
+      //           <tr>
+      //             <td className="  text-black">
+      //               <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+      //                 {" "}
+      //                 Use Cases:
+      //               </strong>
+      //               <ul className="list-disc pl-5 text-lg">
+      //                 <li>
+      //                   Prenatal Screening: Detects biomarkers related to fetal
+      //                   development, helping to identify potential genetic
+      //                   abnormalities or other prenatal conditions.
+      //                 </li>
+      //                 <li>
+      //                   Infectious Disease Diagnostics: Provides rapid and
+      //                   accurate identification of biomarkers associated with
+      //                   infectious diseases, supporting timely treatment.
+      //                 </li>
+      //                 <li>
+      //                   Oncology Testing: Detects cancer-related biomarkers,
+      //                   aiding in early diagnosis and monitoring of cancer
+      //                   progression.
+      //                 </li>
+      //                 <li>
+      //                   Endocrine Function Testing: Measures hormonal
+      //                   biomarkers, providing insights into endocrine system
+      //                   health and helping diagnose conditions such as thyroid
+      //                   disorders.
+      //                 </li>
+      //                 <li>
+      //                   Sepsis Detection: Quickly identifies procalcitonin and
+      //                   other biomarkers associated with sepsis, enabling rapid
+      //                   intervention in critical care settings.
+      //                 </li>
+      //               </ul>
+      //             </td>
+      //           </tr>
+      //         </tbody>
+      //       </table>
+      //     </div>
+      //   ),
 
-        advantages: (
-          <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> High Sensitivity:
-                  Accurately detects even low levels of biomarkers, ensuring
-                  early diagnosis and better patient outcomes.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Automated
-                  Efficiency: Reduces the need for manual labor, streamlining
-                  lab processes and minimizing the risk of human error.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Versatile
-                  Application: Supports a broad range of diagnostic tests,
-                  making it adaptable to various medical fields, including
-                  prenatal care.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Scalable: Capable of
-                  handling both small and large sample volumes, making it
-                  suitable for labs with varying testing demands.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Cost-Effective:
-                  Automation and high accuracy reduce the need for repeat tests,
-                  lowering overall operational costs.
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
+      //   advantages: (
+      //     <div>
+      //       <ul className="space-y-6 font-poppins">
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> High Sensitivity:
+      //             Accurately detects even low levels of biomarkers, ensuring
+      //             early diagnosis and better patient outcomes.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Automated
+      //             Efficiency: Reduces the need for manual labor, streamlining
+      //             lab processes and minimizing the risk of human error.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Versatile
+      //             Application: Supports a broad range of diagnostic tests,
+      //             making it adaptable to various medical fields, including
+      //             prenatal care.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Scalable: Capable of
+      //             handling both small and large sample volumes, making it
+      //             suitable for labs with varying testing demands.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Cost-Effective:
+      //             Automation and high accuracy reduce the need for repeat tests,
+      //             lowering overall operational costs.
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
 
-        benefits: (
-          <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Improved Diagnostic
-                  Accuracy: High sensitivity and specificity ensure reliable
-                  results, enhancing the quality of patient care.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Faster Turnaround
-                  Times: Automated processes enable quick results, allowing for
-                  prompt clinical decision-making and treatment.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> User-Friendly
-                  Operation: The intuitive interface and automated features make
-                  the system easy to use, reducing training time and operational
-                  complexity.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Increased
-                  Productivity: With automated workflows and fast processing
-                  speeds, labs can handle more samples in less time, boosting
-                  productivity.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Long-Term
-                  Reliability: Built for durability, the BRAHMS Biomarkers
-                  system requires minimal maintenance, ensuring consistent
-                  performance and uptime.
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
+      //   benefits: (
+      //     <div>
+      //       <ul className="space-y-6 font-poppins">
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Improved Diagnostic
+      //             Accuracy: High sensitivity and specificity ensure reliable
+      //             results, enhancing the quality of patient care.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Faster Turnaround
+      //             Times: Automated processes enable quick results, allowing for
+      //             prompt clinical decision-making and treatment.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> User-Friendly
+      //             Operation: The intuitive interface and automated features make
+      //             the system easy to use, reducing training time and operational
+      //             complexity.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Increased
+      //             Productivity: With automated workflows and fast processing
+      //             speeds, labs can handle more samples in less time, boosting
+      //             productivity.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Long-Term
+      //             Reliability: Built for durability, the BRAHMS Biomarkers
+      //             system requires minimal maintenance, ensuring consistent
+      //             performance and uptime.
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
 
-        mainAndCare: (
-          <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Routine Calibration:
-                  Regular calibration ensures that the system maintains its
-                  accuracy and reliability over time.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Automated
-                  Maintenance Alerts: The system provides alerts for scheduled
-                  maintenance, ensuring timely upkeep without disrupting
-                  workflows.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Easy Access for
-                  Servicing: Designed for easy access to internal components,
-                  making routine maintenance and repairs quick and efficient.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Minimal Downtime:
-                  Engineered for durability and longevity, the BRAHMS Biomarkers
-                  system ensures continuous operation with minimal
-                  interruptions.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Comprehensive
-                  Support: Supported by CPC Diagnostics' dedicated technical
-                  team, ensuring that your system operates at peak performance
-                  throughout its lifespan.
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
-        workServices: "Comprehensive technical support provided.",
-        productBrochure: "path/to/plexmat-8-brochure.pdf",
-        detailedSpecification: "Detailed specs available on request.",
-        offerOrDiscounts: "Inquire about current offers with the distributor.",
-      },
+      //   mainAndCare: (
+      //     <div>
+      //       <ul className="space-y-6 font-poppins">
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Routine Calibration:
+      //             Regular calibration ensures that the system maintains its
+      //             accuracy and reliability over time.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Automated
+      //             Maintenance Alerts: The system provides alerts for scheduled
+      //             maintenance, ensuring timely upkeep without disrupting
+      //             workflows.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Easy Access for
+      //             Servicing: Designed for easy access to internal components,
+      //             making routine maintenance and repairs quick and efficient.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Minimal Downtime:
+      //             Engineered for durability and longevity, the BRAHMS Biomarkers
+      //             system ensures continuous operation with minimal
+      //             interruptions.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Comprehensive
+      //             Support: Supported by CPC Diagnostics' dedicated technical
+      //             team, ensuring that your system operates at peak performance
+      //             throughout its lifespan.
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
+      //   workServices: "Comprehensive technical support provided.",
+      //   productBrochure: "path/to/plexmat-8-brochure.pdf",
+      //   detailedSpecification: "Detailed specs available on request.",
+      //   offerOrDiscounts: "Inquire about current offers with the distributor.",
+      // },
       {
         id: "4",
         coverImg: Iflash1200Grey,
@@ -4227,42 +4303,53 @@ const products = [
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> High Throughput:
-                  Capable of processing multiple samples simultaneously, making
-                  it suitable for high-demand environments.
+                  <strong>KC Plus,</strong> equipped with{" "}
+                  <strong>FMF-certified software</strong> and{" "}
+                  <strong>Indian MOMs</strong> for localized and accurate risk
+                  calculation. The key features of KC Plus include:
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Precision and
-                  Reliability: Ensures consistent, high-quality results with
-                  advanced TRACE technology.
+                  <span className="text-[#10b981]">◆</span>{" "}
+                  <strong>FMF-approved risk assessment software</strong>{" "}
+                  (provided at no additional cost)
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Compact and
-                  Efficient: Designed to fit seamlessly into any lab setup,
-                  optimizing space without compromising functionality.
+                  <span className="text-[#10b981]">◆</span>{" "}
+                  <strong> Reliable performance</strong>
+                  with a CV% within 3.5% as per UKNEQAS evaluations
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Minimal Maintenance:
-                  Engineered for durability, requiring minimal maintenance to
-                  maintain peak performance.
+                  <span className="text-[#10b981]">◆</span>
+                  <strong>
+                    {" "}
+                    FDA-approved assays for pre-eclampsia screening
+                  </strong>{" "}
+                  (PlGF and sFlt-1)
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Enhanced Patient
-                  Outcomes: Delivers fast, accurate results that contribute to
-                  better patient care and treatment outcomes.
+                  <span className="text-[#10b981]">◆</span>
+                  <strong> High throughput</strong> (at least 45 tests per hour
+                  for PAPP-A and Free βhCG)
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span>
+                  <strong>Nobel Prize-winning TRACE technology</strong> ensuring
+                  precision and reproducibility
                 </p>
               </li>
             </ul>
@@ -4276,41 +4363,58 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Improved Diagnostic
-                  Accuracy: High sensitivity and specificity lead to more
-                  accurate diagnoses and better clinical decisions.
+                  <span className="text-[#10b981]">◆</span> The instrument is
+                  designed to perform first-trimester screening biochemical
+                  parameters, including PAPP-A and Free βhCG.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Time Efficiency:
-                  Rapid turnaround times enable quicker diagnosis and treatment,
-                  improving patient care.
+                  <span className="text-[#10b981]">◆</span>
+                  Facilitates the diagnosis and monitoring of pre-eclampsia
+                  using both PlGF and sFlt-1 parameters.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Cost-Effective
-                  Operation: Low maintenance requirements and efficient
-                  operation reduce overall laboratory costs.
+                  <span className="text-[#10b981]">◆</span> Comes with FMF
+                  (Fetal Medicine Foundation, Switzerland) approved risk
+                  assessment software, provided at no additional cost.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> User-Friendly
-                  Design: Simplifies operation with an intuitive interface,
-                  reducing the need for extensive training.
+                  <span className="text-[#10b981]">◆</span>The CV% for PAPP-A
+                  and Free βhCG remains within 3.5% in UKNEQAS evaluations,
+                  ensuring dependable performance for prenatal screening and
+                  pre-eclampsia prognosis.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Scalable: Easily
-                  integrates into existing lab workflows, allowing for
-                  scalability as testing demands grow.
+                  <span className="text-[#10b981]">◆</span> Offers a throughput
+                  capacity of at least 60 tests per hour for PAPP-A and Free
+                  βhCG.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> The results
+                  generated are unaffected by biotin interference, maintaining
+                  accuracy and consistency.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span>
+                  Capable of automatically diluting samples that exceed
+                  linearity.
                 </p>
               </li>
             </ul>
@@ -6179,9 +6283,9 @@ const products = [
         coverImg: ichromaIIIGrey,
         title: "ichroma™ III",
         shortdescription:
-          "The ichroma™ 3 is a state-of-the-art immunoassay analyzer that uses fluorescence-based technology to provide quick and accurate diagnostic results. This POCT device is designed to meet the demands of modern healthcare facilities, ensuring reliable performance and ease of use.",
+          "The ichroma™ III is a state-of-the-art immunoassay analyzer that uses fluorescence-based technology to provide quick and accurate diagnostic results. This POCT device is designed to meet the demands of modern healthcare facilities, ensuring reliable performance and ease of use.",
         description:
-          "The ichroma™ 3 is an advanced immunoassay analyzer designed for point-of-care testing (POCT). Leveraging fluorescence-based technology, this Boditech POCT device delivers rapid and accurate diagnostic results. Ideal for various healthcare settings, it offers high throughput and user-friendly operation.",
+          "The ichroma™ III is an advanced immunoassay analyzer designed for point-of-care testing (POCT). Leveraging fluorescence-based technology, this Boditech POCT device delivers rapid and accurate diagnostic results. Ideal for various healthcare settings, it offers high throughput and user-friendly operation.",
         workPrinciple: (
           <div>
             {/* Working Principle Table */}
@@ -6196,7 +6300,7 @@ const products = [
                       </span>
                       :
                     </strong>{" "}
-                    The ichroma™ 3 utilizes fluorescence-based technology to
+                    The ichroma™ III utilizes fluorescence-based technology to
                     detect specific biomarkers in patient samples. It processes
                     samples quickly, providing results in minutes.
                   </td>
