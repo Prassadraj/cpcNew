@@ -79,12 +79,12 @@ function ProductInfo() {
       "Wide range of assays for various applications.",
       "High sensitivity and specificity in results.",
     ],
-    FAQ: [
-      "Q: How to use TURBOCHEM MAGNA?",
-      "A: Follow the user manual for step-by-step instructions.",
-      "Q: What is the warranty period?",
-      "A: The warranty period is one year from the date of purchase.",
-    ],
+    // FAQ: [
+    //   "Q: How to use TURBOCHEM MAGNA?",
+    //   "A: Follow the user manual for step-by-step instructions.",
+    //   "Q: What is the warranty period?",
+    //   "A: The warranty period is one year from the date of purchase.",
+    // ],
     Enquiry: [
       "For more information, contact our sales team at sales@example.com.",
       "For technical support, email support@example.com or call 123-456-7890.",
@@ -95,60 +95,34 @@ function ProductInfo() {
     {
       name: "Product overview",
       submenu: [
-        {
+        product.shortdescription && {
           menuName: "Description",
           content: product.shortdescription,
         },
-        {
+        product.workPrinciple && {
           menuName: "Work Principle",
           content: product.workPrinciple,
         },
-        {
+        product.advantages && {
           menuName: "Advantages",
           content: product.advantages,
         },
-        {
+        product.benefits && {
           menuName: "Benefits",
           content: product.benefits,
         },
-        {
+        product.mainAndCare && {
           menuName: "Maintenance And Care",
           content: product.mainAndCare,
         },
-        {
+        product.testMenu && {
           menuName: "Test Menu",
           content: product.testMenu,
         },
-      ],
+      ].filter(Boolean), // ✅ removes undefined/null entries
     },
-    // {
-    //   name: "Technical specification",
-    //   content: "Technical specification content",
-    // },
-    // {
-    //   name: "Resource",
-    //   submenu: [
-    //     {
-    //       menuName: "Work Services",
-    //       content: product.workServices,
-    //     },
-    //     {
-    //       menuName: "Product Brochure df",
-    //       content: product.productBrochure,
-    //     },
-    //     {
-    //       menuName: "Detailed Specification",
-    //       content: product.detailedSpecification,
-    //     },
-    //     {
-    //       menuName: "Offer or Discounts",
-    //       content: product.offerOrDiscounts,
-    //     },
-    //   ],
-    // },
-    // { name: "Product Video", content: "Product Video content" },
-    // { name: "Product Testimonials", content: "Product Testimonials content" },
   ];
+
   const [showInfo, setShowInfo] = useState(null);
 
   const toggleInfo = (index) => {

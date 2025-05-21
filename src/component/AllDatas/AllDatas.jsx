@@ -75,8 +75,8 @@ import DYNACOUNT5Dgrey from "../AllDatas/greyImages/Dynacount 5D.webp";
 import DYNACOUNT5D1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT5D/Dynacount 5D.webp";
 
 //
-import SedrateProGrey from "../AllDatas/greyImages/Sedrate Pro.webp";
-import SedratePro1 from "../AllDatas/ProductImages/Hematology/SedratePro/Sedrate Pro.webp";
+import SedrateProGrey from "../AllDatas/greyImages/Sedrate Pro.jpg";
+import SedratePro1 from "../AllDatas/ProductImages/Hematology/SedratePro/product1.jpg";
 import SedratePro2 from "../AllDatas/ProductImages/Hematology/SedratePro/product2.webp";
 import SedratePro3 from "../AllDatas/ProductImages/Hematology/SedratePro/product3.webp";
 // Immunology;
@@ -90,7 +90,7 @@ import EuroStarGrey from "../AllDatas/greyImages/Eurostar III Plus.webp";
 import EuroStar from "../AllDatas/ProductImages/Immunology/EuroStar/product1.webp";
 //
 import Iflash1200Grey from "../AllDatas/greyImages/Iflash 1200.webp";
-import Iflash12001 from "../AllDatas/ProductImages/Immunology/Iflash1200/product1.webp";
+import Iflash12001 from "../AllDatas/ProductImages/Immunology/Iflash1200/product1.jpg";
 import Iflash12002 from "../AllDatas/ProductImages/Immunology/Iflash1200/product2.webp";
 import Iflash12003 from "../AllDatas/ProductImages/Immunology/Iflash1200/product3.webp";
 import Iflash12004 from "../AllDatas/ProductImages/Immunology/Iflash1200/product4.webp";
@@ -187,7 +187,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       How it Works:
                     </strong>{" "}
                     The analyzer employs photometric technology to measure the
@@ -197,7 +197,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       For Whom:
                     </strong>{" "}
                     Designed for large hospitals and diagnostic centers
@@ -206,7 +206,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       Use Cases:
                     </strong>{" "}
                     Performs a variety of tests including liver function, kidney
@@ -325,29 +325,30 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       How it Works:
                     </strong>{" "}
-                    Utilizes photometric and ion-selective electrode (ISE)
-                    methods for analyzing biochemical substances in samples.
+                    The analyzer employs photometric technology to measure the
+                    intensity of light absorbed by samples, providing accurate
+                    biochemical measurements.
                   </td>
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       For Whom:
                     </strong>{" "}
-                    Ideal for clinics, small hospitals, and diagnostic labs with
-                    moderate testing needs.
+                    Designed for large hospitals and diagnostic centers
+                    requiring extensive test menus.
                   </td>
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       Use Cases:
                     </strong>{" "}
-                    Conducts a variety of tests such as metabolic panels,
-                    electrolyte measurements, and enzymatic assays.
+                    Performs a variety of tests including liver function, kidney
+                    function, lipid profiles, and more.
                   </td>
                 </tr>
               </tbody>
@@ -481,7 +482,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       How it Works:
                     </strong>{" "}
                     Employs photometric detection to analyze biochemical
@@ -490,7 +491,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       For Whom:
                     </strong>{" "}
                     Perfect for small to mid-sized laboratories needing quick
@@ -499,7 +500,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       Use Cases:
                     </strong>{" "}
                     Commonly used for routine chemistry tests, specific protein
@@ -568,14 +569,11 @@ const products = [
         testMenu: [""],
         mainAndCare: (
           <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Routine maintenance
-                  of sensors and optical systems
-                </p>
-              </li>
+            <p className="mb-4 text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+              {" "}
+              Routine maintenance of sensors and optical systems
+            </p>
+            <ul className="space-y-6 font-poppins ml-4">
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
@@ -607,62 +605,62 @@ const products = [
         section: "reagents",
         title: "i-chem Prime",
         shortdescription:
-          "The iChem Prime System Pack offers high-quality reagents for the TurboChem Prime analyzer, ensuring precise and reliable clinical chemistry testing for modern diagnostic labs.",
+          "The iChem Prime System Pack is a comprehensive solution developed for use with the TurboChem Prime analyzer. These high-quality reagents ensure precision in clinical chemistry testing, providing consistent and reliable results. Designed to meet the rigorous demands of modern diagnostic laboratories, the iChem Prime System Pack stands as a benchmark for accuracy and efficiency",
         description:
           "The iChem Prime System Pack is a sophisticated solution designed for use with the TurboChem Prime analyzer. These high-quality reagents deliver precision in clinical chemistry testing, ensuring reliable and consistent results. Engineered to meet the demanding requirements of modern diagnostic laboratories, the iChem Prime System Pack stands as a hallmark of accuracy and efficiency.",
-        workPrinciple: (
-          <div>
-            <table className="min-w-full table-auto">
-              <tbody className="flex flex-col gap-4">
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      Working Principle: How It Works? <br />
-                    </strong>
-                    The iChem Prime operates on photometric and colorimetric
-                    principles to accurately quantify analytes for precise
-                    health diagnostics. This advanced technology ensures
-                    reliable and consistent clinical chemistry results.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      For Whom It Is Useful? <br />
-                    </strong>
-                    Ideal for clinical laboratories, diagnostic centers, and
-                    healthcare institutions requiring high-throughput and
-                    dependable biochemistry testing.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      Use Cases:
-                    </strong>
-                    <ul className="list-disc pl-5 ">
-                      <li>
-                        Monitoring routine biochemistry profiles like glucose,
-                        lipids, and enzymes.
-                      </li>
-                      <li>
-                        Managing chronic diseases such as diabetes,
-                        cardiovascular conditions, and liver disorders.
-                      </li>
-                      <li>
-                        Supporting urgent and critical care diagnostics for
-                        timely patient management.
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        ),
+        // workPrinciple: (
+        //   <div>
+        //     <table className="min-w-full table-auto">
+        //       <tbody className="flex flex-col gap-4">
+        //         <tr>
+        //           <td className="  text-black">
+        //             <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+        //               {" "}
+        //               Working Principle: How It Works? <br />
+        //             </strong>
+        //             The iChem Prime operates on photometric and colorimetric
+        //             principles to accurately quantify analytes for precise
+        //             health diagnostics. This advanced technology ensures
+        //             reliable and consistent clinical chemistry results.
+        //           </td>
+        //         </tr>
+        //         <tr>
+        //           <td className="  text-black">
+        //             <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+        //               {" "}
+        //               For Whom It Is Useful? <br />
+        //             </strong>
+        //             Ideal for clinical laboratories, diagnostic centers, and
+        //             healthcare institutions requiring high-throughput and
+        //             dependable biochemistry testing.
+        //           </td>
+        //         </tr>
+        //         <tr>
+        //           <td className="  text-black">
+        //             <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+        //               {" "}
+        //               Use Cases:
+        //             </strong>
+        //             <ul className="list-disc pl-5 ">
+        //               <li>
+        //                 Monitoring routine biochemistry profiles like glucose,
+        //                 lipids, and enzymes.
+        //               </li>
+        //               <li>
+        //                 Managing chronic diseases such as diabetes,
+        //                 cardiovascular conditions, and liver disorders.
+        //               </li>
+        //               <li>
+        //                 Supporting urgent and critical care diagnostics for
+        //                 timely patient management.
+        //               </li>
+        //             </ul>
+        //           </td>
+        //         </tr>
+        //       </tbody>
+        //     </table>
+        //   </div>
+        // ),
 
         advantages: (
           <div>
@@ -755,53 +753,53 @@ const products = [
         title: "i-chem Magna",
         description:
           "The iChem Magna is an advanced biochemical testing solution designed for a wide range of diagnostic applications. With its advanced formulation, iChem Magna ensures precise and reliable results, making it a trusted choice for high-volume clinical laboratories.",
-        workPrinciple: (
-          <div>
-            <table className="min-w-full table-auto">
-              <tbody className="flex flex-col gap-4">
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      How It Works? <br />
-                    </strong>
-                    iChem Magna operates on enzymatic and photometric reactions
-                    to measure biochemical parameters with high efficiency and
-                    accuracy.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      For Whom It Is Useful? <br />
-                    </strong>
-                    Designed for laboratories requiring high-throughput
-                    solutions for routine and specialized biochemistry tests.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      Use Cases:
-                    </strong>
-                    <ul className="list-disc pl-5 ">
-                      <li>
-                        Routine health check-ups to assess organ function.
-                      </li>
-                      <li>Diagnosing and monitoring chronic diseases.</li>
-                      <li>
-                        Research applications in biochemistry and clinical
-                        studies.
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        ),
+        // workPrinciple: (
+        //   <div>
+        //     <table className="min-w-full table-auto">
+        //       <tbody className="flex flex-col gap-4">
+        //         <tr>
+        //           <td className="  text-black">
+        //             <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+        //               {" "}
+        //               How It Works? <br />
+        //             </strong>
+        //             iChem Magna operates on enzymatic and photometric reactions
+        //             to measure biochemical parameters with high efficiency and
+        //             accuracy.
+        //           </td>
+        //         </tr>
+        //         <tr>
+        //           <td className="  text-black">
+        //             <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+        //               {" "}
+        //               For Whom It Is Useful? <br />
+        //             </strong>
+        //             Designed for laboratories requiring high-throughput
+        //             solutions for routine and specialized biochemistry tests.
+        //           </td>
+        //         </tr>
+        //         <tr>
+        //           <td className="  text-black">
+        //             <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+        //               {" "}
+        //               Use Cases:
+        //             </strong>
+        //             <ul className="list-disc pl-5 ">
+        //               <li>
+        //                 Routine health check-ups to assess organ function.
+        //               </li>
+        //               <li>Diagnosing and monitoring chronic diseases.</li>
+        //               <li>
+        //                 Research applications in biochemistry and clinical
+        //                 studies.
+        //               </li>
+        //             </ul>
+        //           </td>
+        //         </tr>
+        //       </tbody>
+        //     </table>
+        //   </div>
+        // ),
 
         advantages: (
           <div>
@@ -895,7 +893,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       How It Works? <br />
                     </strong>
@@ -906,7 +904,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful? <br />
                     </strong>
@@ -917,7 +915,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -1028,50 +1026,50 @@ const products = [
           "The Identi Reagents Kit offers reliable and easy-to-use solutions for accurate diagnostic testing in clinical laboratories.",
         description:
           "The Identi Reagents Kit is a versatile solution for clinical laboratories, offering a comprehensive range of reagents to facilitate accurate diagnostic testing. Its reliability and ease of use make it an indispensable tool for healthcare professionals.",
-        workPrinciple: (
-          <div>
-            <table className="min-w-full table-auto">
-              <tbody className="flex flex-col gap-4">
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      How It Works? <br />
-                    </strong>
-                    Identi Reagents Kit operates on enzymatic, photometric, and
-                    colorimetric methods to precisely quantify various analytes.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      For Whom It Is Useful? <br />
-                    </strong>
-                    Designed for use in clinical labs performing routine and
-                    specialized tests.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      Use Cases:
-                    </strong>
-                    <ul className="list-disc pl-5 ">
-                      <li>Conducting metabolic and organ function panels.</li>
-                      <li>Supporting chronic disease management.</li>
-                      <li>
-                        Enhancing diagnostic precision in critical care
-                        settings.
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        ),
+        // workPrinciple: (
+        //   <div>
+        //     <table className="min-w-full table-auto">
+        //       <tbody className="flex flex-col gap-4">
+        //         <tr>
+        //           <td className="  text-black">
+        //             <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+        //               {" "}
+        //               How It Works? <br />
+        //             </strong>
+        //             Identi Reagents Kit operates on enzymatic, photometric, and
+        //             colorimetric methods to precisely quantify various analytes.
+        //           </td>
+        //         </tr>
+        //         <tr>
+        //           <td className="  text-black">
+        //             <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+        //               {" "}
+        //               For Whom It Is Useful? <br />
+        //             </strong>
+        //             Designed for use in clinical labs performing routine and
+        //             specialized tests.
+        //           </td>
+        //         </tr>
+        //         <tr>
+        //           <td className="  text-black">
+        //             <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+        //               {" "}
+        //               Use Cases:
+        //             </strong>
+        //             <ul className="list-disc pl-5 ">
+        //               <li>Conducting metabolic and organ function panels.</li>
+        //               <li>Supporting chronic disease management.</li>
+        //               <li>
+        //                 Enhancing diagnostic precision in critical care
+        //                 settings.
+        //               </li>
+        //             </ul>
+        //           </td>
+        //         </tr>
+        //       </tbody>
+        //     </table>
+        //   </div>
+        // ),
 
         advantages: (
           <div>
@@ -1117,174 +1115,174 @@ const products = [
         ),
 
         testMenu: [""],
-        mainAndCare: (
-          <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Ensure proper
-                  storage conditions for reagent stability.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Regular calibration
-                  of analyzers is essential for optimal results.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Adhere to best
-                  practices for reagent preparation and disposal.
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
+        // mainAndCare: (
+        //   <div>
+        //     <ul className="space-y-6 font-poppins">
+        //       <li className="flex gap-3">
+        //         <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+        //           {" "}
+        //           <span className="text-[#10b981]">◆</span> Ensure proper
+        //           storage conditions for reagent stability.
+        //         </p>
+        //       </li>
+        //       <li className="flex gap-3">
+        //         <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+        //           {" "}
+        //           <span className="text-[#10b981]">◆</span> Regular calibration
+        //           of analyzers is essential for optimal results.
+        //         </p>
+        //       </li>
+        //       <li className="flex gap-3">
+        //         <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+        //           {" "}
+        //           <span className="text-[#10b981]">◆</span> Adhere to best
+        //           practices for reagent preparation and disposal.
+        //         </p>
+        //       </li>
+        //     </ul>
+        //   </div>
+        // ),
 
         workServices: "Support available for reagent use.",
         productBrochure: "path/to/identi-reagents-brochure.pdf",
         detailedSpecification: "Specifications can be provided upon request.",
         offerOrDiscounts: "Check with your distributor for promotions.",
       },
-      {
-        allover: "Reagents",
-        id: "9",
-        section: "reagents",
-        shortdescription:
-          "The Chemistry Calibrator and Controls ensure accuracy and reliability in diagnostic testing by calibrating and validating clinical chemistry analyzers.",
-        coverImg: chemistryCollibratorGrey,
-        image: [chemistryCollibrator],
-        title: "Chemistry Calibrator and Chemistry Controls",
-        description:
-          "The Chemistry Calibrator and Chemistry Controls are essential tools for ensuring accuracy and reliability in diagnostic testing. These solutions are designed to calibrate and validate clinical chemistry analyzers, providing confidence in test results.",
-        workPrinciple: (
-          <div>
-            <table className="min-w-full table-auto">
-              <tbody className="flex flex-col gap-4">
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      How It Works? <br />
-                    </strong>
-                    Chemistry Calibrator and Chemistry Controls ensure precise
-                    diagnostics by providing reference points and verifying
-                    system performance against expected values.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      For Whom It Is Useful? <br />
-                    </strong>
-                    Essential for diagnostic labs seeking high accuracy in
-                    clinical chemistry testing.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      Use Cases:
-                    </strong>
-                    <ul className="list-disc pl-5 ">
-                      <li>
-                        Calibrating analyzers for routine biochemistry tests.
-                      </li>
-                      <li>Validating test accuracy and reliability.</li>
-                      <li>Meeting regulatory compliance standards.</li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        ),
+      // {
+      //   allover: "Reagents",
+      //   id: "9",
+      //   section: "reagents",
+      //   shortdescription:
+      //     "The Chemistry Calibrator and Controls ensure accuracy and reliability in diagnostic testing by calibrating and validating clinical chemistry analyzers.",
+      //   coverImg: chemistryCollibratorGrey,
+      //   image: [chemistryCollibrator],
+      //   title: "Chemistry Calibrator and Chemistry Controls",
+      //   description:
+      //     "The Chemistry Calibrator and Chemistry Controls are essential tools for ensuring accuracy and reliability in diagnostic testing. These solutions are designed to calibrate and validate clinical chemistry analyzers, providing confidence in test results.",
+      //   workPrinciple: (
+      //     <div>
+      //       <table className="min-w-full table-auto">
+      //         <tbody className="flex flex-col gap-4">
+      //           <tr>
+      //             <td className="  text-black">
+      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+      //                 {" "}
+      //                 How It Works? <br />
+      //               </strong>
+      //               Chemistry Calibrator and Chemistry Controls ensure precise
+      //               diagnostics by providing reference points and verifying
+      //               system performance against expected values.
+      //             </td>
+      //           </tr>
+      //           <tr>
+      //             <td className="  text-black">
+      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+      //                 {" "}
+      //                 For Whom It Is Useful? <br />
+      //               </strong>
+      //               Essential for diagnostic labs seeking high accuracy in
+      //               clinical chemistry testing.
+      //             </td>
+      //           </tr>
+      //           <tr>
+      //             <td className="  text-black">
+      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+      //                 {" "}
+      //                 Use Cases:
+      //               </strong>
+      //               <ul className="list-disc pl-5 ">
+      //                 <li>
+      //                   Calibrating analyzers for routine biochemistry tests.
+      //                 </li>
+      //                 <li>Validating test accuracy and reliability.</li>
+      //                 <li>Meeting regulatory compliance standards.</li>
+      //               </ul>
+      //             </td>
+      //           </tr>
+      //         </tbody>
+      //       </table>
+      //     </div>
+      //   ),
 
-        advantages: (
-          <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Utilizes lyophilized
-                  human serum for enhanced stability.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Provides extended
-                  shelf life when stored at 2°C – 8°C.
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
+      //   advantages: (
+      //     <div>
+      //       <ul className="space-y-6 font-poppins">
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Utilizes lyophilized
+      //             human serum for enhanced stability.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Provides extended
+      //             shelf life when stored at 2°C – 8°C.
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
 
-        benefits: (
-          <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Ensures consistent
-                  and accurate calibration and control for clinical chemistry
-                  tests.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Offers flexible
-                  storage options, with reconstituted stability of up to 7 days
-                  at 2°C – 8°C or 4 weeks at -20°C.
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
+      //   benefits: (
+      //     <div>
+      //       <ul className="space-y-6 font-poppins">
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Ensures consistent
+      //             and accurate calibration and control for clinical chemistry
+      //             tests.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Offers flexible
+      //             storage options, with reconstituted stability of up to 7 days
+      //             at 2°C – 8°C or 4 weeks at -20°C.
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
 
-        testMenu: [""],
-        mainAndCare: (
-          <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Store under
-                  recommended conditions to maintain stability.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Follow protocols for
-                  calibration and control preparation.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Regularly review
-                  analyzer performance to detect inconsistencies.
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
+      //   testMenu: [""],
+      //   mainAndCare: (
+      //     <div>
+      //       <ul className="space-y-6 font-poppins">
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Store under
+      //             recommended conditions to maintain stability.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Follow protocols for
+      //             calibration and control preparation.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Regularly review
+      //             analyzer performance to detect inconsistencies.
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
 
-        workServices:
-          "Technical support available for calibration and control.",
-        productBrochure: "path/to/chemistry-calibrator-brochure.pdf",
-        detailedSpecification: "Detailed information available upon request.",
-        offerOrDiscounts: "Inquire about available discounts.",
-      },
+      //   workServices:
+      //     "Technical support available for calibration and control.",
+      //   productBrochure: "path/to/chemistry-calibrator-brochure.pdf",
+      //   detailedSpecification: "Detailed information available upon request.",
+      //   offerOrDiscounts: "Inquire about available discounts.",
+      // },
     ],
   },
   // {
@@ -1590,6 +1588,7 @@ const products = [
   //     },
   //   ],
   // },
+  // "Electrolyte Analyzer"
   {
     category: "Electrolyte Analyzer",
     subsection: ["All", "With Auto loader", "Without Auto loader"],
@@ -1664,7 +1663,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Critical Care:
                     </strong>{" "}
@@ -1674,7 +1673,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Routine Laboratory Testing:
                     </strong>{" "}
@@ -1684,7 +1683,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Diagnostic Centers:
                     </strong>{" "}
@@ -1705,7 +1704,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       High Efficiency:
                     </strong>{" "}
@@ -1715,7 +1714,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Ease of Use:
                     </strong>{" "}
@@ -1726,7 +1725,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Compact Design:
                     </strong>{" "}
@@ -1736,7 +1735,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Consistent Accuracy:
                     </strong>{" "}
@@ -1756,7 +1755,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Cost-Effective:
                     </strong>{" "}
@@ -1766,7 +1765,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Improved Workflow:
                     </strong>{" "}
@@ -1776,7 +1775,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Reliable Results:
                     </strong>{" "}
@@ -1895,7 +1894,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Critical Care:
                     </strong>{" "}
@@ -1905,7 +1904,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Routine Laboratory Testing:
                     </strong>{" "}
@@ -1915,7 +1914,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Diagnostic Centers:
                     </strong>{" "}
@@ -1936,7 +1935,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       High Efficiency:
                     </strong>{" "}
@@ -1946,7 +1945,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Ease of Use:
                     </strong>{" "}
@@ -1957,7 +1956,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Compact Design:
                     </strong>{" "}
@@ -1967,7 +1966,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Consistent Accuracy:
                     </strong>{" "}
@@ -1987,7 +1986,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Cost-Effective:
                     </strong>{" "}
@@ -1997,7 +1996,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Improved Workflow:
                     </strong>{" "}
@@ -2007,7 +2006,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Reliable Results:
                     </strong>{" "}
@@ -2089,37 +2088,17 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
-                        How it Works
+                      <span className="font-semibold tablet:text-base largeLaptop:text-2xl  text-xs">
+                        Flow Cytometry (Laser Scattering)
                       </span>
                       :
                     </strong>{" "}
-                    The analyzer employs advanced 5-part differential technology
-                    to accurately count and differentiate blood cells. It
-                    processes samples quickly, ensuring timely and precise
-                    results.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      For Whom:
-                    </strong>{" "}
-                    Ideal for clinical laboratories, hospitals, and diagnostic
-                    centers.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      Use Cases:
-                    </strong>{" "}
-                    Suitable for routine blood tests, diagnosing hematological
-                    disorders, and monitoring patient health.
+                    <br />A laser-based flow cytometry system is used to
+                    classify white blood cells into five subtypes (neutrophils,
+                    lymphocytes, monocytes, eosinophils, and basophils) based on
+                    cell size, granularity, and complexity.
                   </td>
                 </tr>
               </tbody>
@@ -2233,165 +2212,165 @@ const products = [
         offerOrDiscounts:
           "Check for current offers and discounts with the distributor.",
       },
-      {
-        allover: "3 Part Differential Hematology Analyzer",
-        id: "1",
+      // {
+      //   allover: "3 Part Differential Hematology Analyzer",
+      //   id: "1",
 
-        section: "3parthematology",
-        coverImg: DYNACOUNT3DGrey,
-        image: [DYNACOUNT3D1],
-        title: "Dynacount 3D",
-        shortdescription:
-          "The Dynacount 3D Hematology Analyzer utilizes state-of-the-art 3D imaging technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with ease.",
-        description:
-          "The Dynacount 3D Hematology Analyzer is a cutting-edge device designed for precise and reliable hematological analysis. Leveraging advanced 3D imaging technology, it ensures accurate blood cell counting and differentiation. Ideal for laboratories and healthcare facilities, this analyzer enhances efficiency and offers user-friendly operation.",
-        workPrinciple: (
-          <div>
-            {/* Working Principle Table */}
-            <table className="min-w-full table-auto">
-              <tbody className="flex flex-col gap-4">
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
-                        How it Works
-                      </span>
-                      :
-                    </strong>{" "}
-                    Employs 3D imaging to capture detailed blood cell images,
-                    facilitating accurate counting and differentiation.
-                    Processes samples quickly for timely results.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      For Whom:
-                    </strong>{" "}
-                    Ideal for clinical laboratories, hospitals, and diagnostic
-                    centers.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      Use Cases:
-                    </strong>{" "}
-                    Suitable for routine blood tests, diagnosing hematological
-                    disorders, and monitoring patient health.
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        ),
+      //   section: "3parthematology",
+      //   coverImg: DYNACOUNT3DGrey,
+      //   image: [DYNACOUNT3D1],
+      //   title: "Dynacount 3D",
+      //   shortdescription:
+      //     "The Dynacount 3D Hematology Analyzer utilizes state-of-the-art 3D imaging technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with ease.",
+      //   description:
+      //     "The Dynacount 3D Hematology Analyzer is a cutting-edge device designed for precise and reliable hematological analysis. Leveraging advanced 3D imaging technology, it ensures accurate blood cell counting and differentiation. Ideal for laboratories and healthcare facilities, this analyzer enhances efficiency and offers user-friendly operation.",
+      //   workPrinciple: (
+      //     <div>
+      //       {/* Working Principle Table */}
+      //       <table className="min-w-full table-auto">
+      //         <tbody className="flex flex-col gap-4">
+      //           <tr>
+      //             <td className="  text-black">
+      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+      //                 {" "}
+      //                 <span className="font-semibold tablet:text-base largeLaptop:text-2xl  text-xs">
+      //                   How it Works
+      //                 </span>
+      //                 :
+      //               </strong>{" "}
+      //               Employs 3D imaging to capture detailed blood cell images,
+      //               facilitating accurate counting and differentiation.
+      //               Processes samples quickly for timely results.
+      //             </td>
+      //           </tr>
+      //           <tr>
+      //             <td className="  text-black">
+      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+      //                 {" "}
+      //                 For Whom:
+      //               </strong>{" "}
+      //               Ideal for clinical laboratories, hospitals, and diagnostic
+      //               centers.
+      //             </td>
+      //           </tr>
+      //           <tr>
+      //             <td className="  text-black">
+      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+      //                 {" "}
+      //                 Use Cases:
+      //               </strong>{" "}
+      //               Suitable for routine blood tests, diagnosing hematological
+      //               disorders, and monitoring patient health.
+      //             </td>
+      //           </tr>
+      //         </tbody>
+      //       </table>
+      //     </div>
+      //   ),
 
-        advantages: (
-          <div>
-            {/* Advantages List */}
-            <ul className="space-y-6 font-poppins list-disc list-inside">
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> High precision with
-                  advanced 3D technology
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Fast processing for
-                  high throughput
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Easy-to-use
-                  interface for streamlined operation
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
+      //   advantages: (
+      //     <div>
+      //       {/* Advantages List */}
+      //       <ul className="space-y-6 font-poppins list-disc list-inside">
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> High precision with
+      //             advanced 3D technology
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Fast processing for
+      //             high throughput
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Easy-to-use
+      //             interface for streamlined operation
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
 
-        benefits: (
-          <div>
-            {/* Benefits List */}
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Enhanced accuracy
-                  and reliability in blood analysis
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Increased efficiency
-                  and workflow optimization
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Reduced need for
-                  manual intervention, minimizing errors
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
+      //   benefits: (
+      //     <div>
+      //       {/* Benefits List */}
+      //       <ul className="space-y-6 font-poppins">
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Enhanced accuracy
+      //             and reliability in blood analysis
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Increased efficiency
+      //             and workflow optimization
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Reduced need for
+      //             manual intervention, minimizing errors
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
 
-        testMenu: [""],
-        mainAndCare: (
-          <div>
-            {/* Maintenance and Care List */}
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Regular Calibration:
-                  Periodic calibration to maintain accuracy.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Routine Cleaning:
-                  Regular cleaning of sample probes and internal components.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Software Updates:
-                  Keep software updated for the latest features.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Preventive
-                  Maintenance: Schedule regular checks by certified technicians
-                  for long-term reliability.
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
+      //   testMenu: [""],
+      //   mainAndCare: (
+      //     <div>
+      //       {/* Maintenance and Care List */}
+      //       <ul className="space-y-6 font-poppins">
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Regular Calibration:
+      //             Periodic calibration to maintain accuracy.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Routine Cleaning:
+      //             Regular cleaning of sample probes and internal components.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Software Updates:
+      //             Keep software updated for the latest features.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Preventive
+      //             Maintenance: Schedule regular checks by certified technicians
+      //             for long-term reliability.
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
 
-        workServices:
-          "Technical support and service options available for system maintenance and troubleshooting.",
-        productBrochure: "path/to/dynacount-3d-brochure.pdf",
-        detailedSpecification: "Specifications available upon request.",
-        offerOrDiscounts:
-          "Check with distributor for current offers and discounts.",
-      },
+      //   workServices:
+      //     "Technical support and service options available for system maintenance and troubleshooting.",
+      //   productBrochure: "path/to/dynacount-3d-brochure.pdf",
+      //   detailedSpecification: "Specifications available upon request.",
+      //   offerOrDiscounts:
+      //     "Check with distributor for current offers and discounts.",
+      // },
       {
         allover: "3 Part Differential Hematology Analyzer",
         id: "2",
@@ -2401,8 +2380,19 @@ const products = [
         section: "3parthematology",
         shortdescription:
           "The Dynacount 3D Plus Hematology Analyzer leverages sophisticated 3D imaging to provide detailed and accurate blood cell analysis. This device is engineered to meet the demands of modern laboratories, offering reliable results with minimal manual intervention.",
-        description:
-          "The Dynacount 3D Plus Hematology Analyzer is an advanced diagnostic tool designed to deliver precise and reliable hematological analysis. Utilizing cutting-edge 3D imaging technology, it ensures accurate blood cell counting and differentiation. Ideal for clinical laboratories and healthcare facilities, this analyzer offers high efficiency and user-friendly operation.",
+        description: (
+          <p>
+            The{" "}
+            <strong className="font-semibold">
+              Dynacount 3D Plus Hematology Analyzer
+            </strong>{" "}
+            is an advanced technology to deliver precise and comprehensive blood
+            cell analysis. Designed to meet the evolving needs of modern
+            laboratories, the system ensures reliable results with minimal
+            manual intervention.
+          </p>
+        ),
+
         workPrinciple: (
           <div>
             {/* Working Principle Table */}
@@ -2410,36 +2400,33 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
-                        How it Works
+                      <span className="font-semibold tablet:text-base largeLaptop:text-2xl  text-xs">
+                        Electrical Impedance for RBC,WBC& PLT
                       </span>
                       :
                     </strong>{" "}
-                    The analyzer captures detailed 3D images of blood cells to
-                    accurately count and differentiate them. It processes
-                    samples swiftly, ensuring quick results.
+                    <br />
+                    The analyzer uses the electrical impedance method to count
+                    and determine the size of red blood cells (RBCs), white
+                    blood cells (WBCs), and platelets (PLTs). As cells pass
+                    through an aperture changes in impedance are measured to
+                    quantify and differentiate them based on volume.
                   </td>
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      For Whom:
+                      Colorimetry for Hemoglobin Measurement
                     </strong>{" "}
-                    Designed for clinical laboratories, hospitals, and
-                    diagnostic centers.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      Use Cases:
-                    </strong>{" "}
-                    Suitable for routine blood tests, diagnosing hematological
-                    disorders, and patient health monitoring.
+                    <br />
+                    For hemoglobin (HGB) estimation, the analyzer employs the
+                    colorimetric method. Blood is mixed with a reagent that
+                    lyses the red blood cells and converts hemoglobin into a
+                    stable colored compound, which is then measured
+                    photometrically.{" "}
                   </td>
                 </tr>
               </tbody>
@@ -2562,7 +2549,7 @@ const products = [
         shortdescription:
           "The Vision Pro ESR Analyzer by YHLO is designed to streamline the process of measuring erythrocyte sedimentation rate using the Westergren method. This fully automated ESR analyzer ensures precise and rapid results, enhancing laboratory productivity and accuracy.",
         description:
-          "The Vision Pro ESR Analyzer is a fully automated solution designed to deliver quick and accurate erythrocyte sedimentation rate (ESR) results. It features advanced technology, providing test results in just 20 minutes with a 5ml sample volume. Ideal for laboratories seeking efficiency and reliability, it operates using primary EDTA tubes and requires no disposables.",
+          "The Vision Pro ESR Analyzer is a fully automated solution designed to deliver quick and accurate erythrocyte sedimentation rate (ESR) results. It features advanced technology, providing test results in just 20 minutes with a minimum 1.5ml sample volume. Ideal for laboratories seeking efficiency and reliability, it operates using primary EDTA tubes and requires no disposables.",
         workPrinciple: (
           <div>
             {/* Working Principle Table */}
@@ -2570,9 +2557,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-base largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -2585,7 +2572,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -2595,7 +2582,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -2640,26 +2627,30 @@ const products = [
         benefits: (
           <div>
             {/* Benefits List */}
-            <ul className="space-y-6 font-poppins">
+            <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap mb-4">
+              {" "}
+              Saves time and reduces manual handling with direct sample loading.
+            </p>
+            <ul className="space-y-6 font-poppins ml-4">
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Enhances the speed
-                  and accuracy of ESR testing
+                  <span className="text-[#10b981]">◆</span> Offers real-time
+                  sedimentation curve monitoring for precise interpretation.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Reduces operational
-                  costs with no disposable requirements
+                  <span className="text-[#10b981]">◆</span> Compact design fits
+                  into laboratories with limited space.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Simplifies workflow
-                  with advanced automation and integrated barcode reader
+                  <span className="text-[#10b981]">◆</span> Ensures robust data
+                  management through bidirectional LIS connectivity.
                 </p>
               </li>
             </ul>
@@ -2670,34 +2661,30 @@ const products = [
         mainAndCare: (
           <div>
             {/* Maintenance and Care List */}
-            <ul className="space-y-6 font-poppins">
+            <p className=" text-xs mb-4 largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+              {" "}
+              Clean the touchscreen interface regularly with a soft cloth.
+            </p>
+            <ul className="space-y-6 font-poppins ml-4">
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Regular Calibration:
-                  Perform regular calibration to maintain accuracy.
+                  <span className="text-[#10b981]">◆</span> Use the built-in QC
+                  options to ensure consistent performance.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Routine Cleaning:
-                  Clean the internal components and scanner regularly.
+                  <span className="text-[#10b981]">◆</span> Store the analyzer
+                  in a dry, dust-free environment.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Software Updates:
-                  Keep the software updated for optimal performance.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Preventive
-                  Maintenance: Schedule periodic maintenance checks with
-                  certified technicians to ensure long-term reliability.
+                  <span className="text-[#10b981]">◆</span> Follow the
+                  manufacturer’s guidelines for routine calibration and upkeep.
                 </p>
               </li>
             </ul>
@@ -2723,7 +2710,7 @@ const products = [
         shortdescription:
           "An advanced ESR analyzer for accurate and rapid erythrocyte sedimentation rate (ESR) testing.",
         description:
-          "The SedRate Pro Automated ESR Analyser delivers rapid and precise ESR results directly from EDTA tubes, streamlining inflammation and infection diagnostics for labs and clinics.",
+          "The Sedrate pro ESR Analyzer is a fully automated solution designed to deliver quick and accurate erythrocyte sedimentation rate (ESR) results. It features advanced technology, providing test results in just 20 minutes with a minimum 1.5ml sample volume. Ideal for laboratories seeking efficiency and reliability, it operates using primary EDTA tubes and requires no disposables.",
 
         workPrinciple: (
           <div>
@@ -2731,7 +2718,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       Working Principle: How It Works? <br />
                     </strong>
                     The SedRate Pro directly measures ESR by analyzing the
@@ -2744,7 +2731,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       For Whom It Is Useful? <br />
                     </strong>
                     Ideal for laboratories, clinics, and hospitals conducting
@@ -2753,7 +2740,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       Use Cases:
                     </strong>
                     <ul className="list-disc pl-5 ">
@@ -2914,7 +2901,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works? <br />
                     </strong>
@@ -2931,7 +2918,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful? <br />
                     </strong>
@@ -2947,7 +2934,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -3174,7 +3161,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works? <br />
                     </strong>
@@ -3191,7 +3178,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful? <br />
                     </strong>
@@ -3207,7 +3194,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -3435,7 +3422,7 @@ const products = [
       //         <tbody className="flex flex-col gap-4">
       //           <tr>
       //             <td className="  text-black">
-      //               <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
       //                 {" "}
       //                 Working Principle: How It Works? <br/>
       //               </strong>
@@ -3453,7 +3440,7 @@ const products = [
       //           </tr>
       //           <tr>
       //             <td className="  text-black">
-      //               <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
       //                 {" "}
       //                 For Whom It Is Useful? <br/>
       //               </strong>
@@ -3470,7 +3457,7 @@ const products = [
       //           </tr>
       //           <tr>
       //             <td className="  text-black">
-      //               <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
       //                 {" "}
       //                 Use Cases:
       //               </strong>
@@ -3678,7 +3665,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       Working Principle:
                     </strong>{" "}
                     The iFlash 3000 operates on the principle of
@@ -3697,7 +3684,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     The iFlash 3000 is ideal for clinical laboratories, hospital
@@ -3713,7 +3700,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       Use Cases:
                     </strong>
                     <ul className="list-disc pl-5 ">
@@ -3900,7 +3887,7 @@ const products = [
         shortdescription:
           "The iFlash 1800 is a high-performance fully automated immunoassay analyzer that leverages chemiluminescence technology to provide accurate and reliable diagnostic results. This CLIA analyser is designed for laboratories seeking efficiency, precision, and high throughput.",
         description:
-          "The iFlash 1800 is a fully automated immunoassay analyzer designed to meet the demands of modern laboratories. With advanced chemiluminescence technology, it delivers precise and reliable results for a wide range of tests. Ideal for high-throughput environments, this CLIA analyser offers user-friendly operation and robust data management capabilities.",
+          "The iFlash 1800 uses chemiluminescence immunoassay (CLIA) technology to detect and quantify various analytes in biological samples. The process involves a chemiluminescent reaction that emits light proportional to the concentration of the target analyte, which is then measured by the analyzer.",
         workPrinciple: (
           <div>
             {/* Working Principle Table */}
@@ -3908,7 +3895,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       Working Principle:
                     </strong>{" "}
                     The iFlash 1800 uses chemiluminescence immunoassay (CLIA)
@@ -3921,19 +3908,19 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       How It Works:
                     </strong>
                     <ul className="list-disc pl-5 ">
                       <li>
-                        <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                        <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                           {" "}
                           Sample Preparation:
                         </strong>{" "}
                         Samples are loaded into the analyzer.
                       </li>
                       <li>
-                        <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                        <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                           {" "}
                           Reaction:
                         </strong>{" "}
@@ -3941,29 +3928,28 @@ const products = [
                         trigger a chemiluminescent reaction.
                       </li>
                       <li>
-                        <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                        <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                           {" "}
                           Detection:
                         </strong>{" "}
-                        Light emitted from the reaction is measured, and the
-                        intensity correlates with the concentration of the
-                        target analyte.
+                        Light emitted from the reaction is measured, and the RLU
+                        correlates with the concentration of the target analyte.
                       </li>
                       <li>
-                        <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                        <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                           {" "}
                           Results:
                         </strong>{" "}
-                        Data is processed and displayed on the touchscreen
-                        interface, and results can be integrated into LIS
-                        systems for further analysis.
+                        Data is processed and displayed on the user interface,
+                        and results can be integrated into LIS systems for
+                        further analysis.
                       </li>
                     </ul>
                   </td>
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     The iFlash 1800 is ideal for clinical laboratories,
@@ -3973,15 +3959,35 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                      {" "}
                       Use Cases:
                     </strong>
                     <ul className="list-disc pl-5 ">
-                      <li>Thyroid function testing</li>
-                      <li>Hormone level measurement</li>
-                      <li>Infectious disease detection</li>
-                      <li>Tumor marker analysis</li>
-                      <li>Allergy testing</li>
+                      <li>
+                        Thyroid Function Testing: The iFlash 3000 excels in
+                        performing thyroid assays, providing accurate and rapid
+                        results for TSH, T3, and T4 levels.
+                      </li>
+                      <li>
+                        Tumor Marker Detection: Detects and quantifies various
+                        tumor markers, aiding in the diagnosis and monitoring of
+                        cancer.
+                      </li>
+                      <li>
+                        Infectious Disease Screening: Efficiently screens for
+                        infectious diseases, offering reliable results for HIV,
+                        hepatitis, and other pathogens.
+                      </li>
+                      <li>
+                        Hormonal Assays: Performs a wide range of hormonal
+                        tests, including reproductive hormones and cortisol
+                        levels.
+                      </li>
+                      <li>
+                        Cardiac Marker Testing: Provides precise measurements of
+                        cardiac markers, essential for assessing heart health.
+                      </li>
                     </ul>
                   </td>
                 </tr>
@@ -4049,7 +4055,7 @@ const products = [
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Streamlined
-                  workflows and integration with existing lab systems.
+                  workflows
                 </p>
               </li>
               <li className="flex gap-3">
@@ -4068,20 +4074,20 @@ const products = [
           <div>
             {/* Maintenance and Care List */}
             <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
+              {/* <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Routine calibration
                   and quality control checks.
                 </p>
-              </li>
-              <li className="flex gap-3">
+              </li> */}
+              {/* <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Cleaning and
                   inspection of reagent and sample handling components.
                 </p>
-              </li>
+              </li> */}
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
@@ -4120,9 +4126,9 @@ const products = [
         section: "clia",
         title: "IFlash 1200",
         shortdescription:
-          "The IFLASH 1200 is a state-of-the-art Chemiluminescence Immunoassay (CLIA) analyzer that provides high sensitivity and specificity in immunoassay testing. This fully automated system simplifies complex diagnostic procedures, offering a user-friendly interface and robust performance to meet the demands of modern laboratories.",
+          "The iFlash 1200 is a state-of-the-art Chemiluminescence Immunoassay (CLIA) analyzer that provides high sensitivity and specificity in immunoassay testing. This fully automated system simplifies complex diagnostic procedures, offering a user-friendly interface and robust performance to meet the demands of modern laboratories.",
         description:
-          "The IFLASH 1200 is a fully automated immunoassay analyzer designed to deliver high precision and efficiency for clinical diagnostics. Leveraging advanced Chemiluminescence Immunoassay (CLIA) technology, this analyzer ensures accurate and reliable test results. Ideal for high-throughput laboratories, the IFLASH 1200 enhances workflow efficiency and diagnostic accuracy.",
+          "The iFlash  1200 is a fully automated immunoassay analyzer designed to deliver high precision and efficiency for clinical diagnostics. Leveraging advanced Chemiluminescence Immunoassay (CLIA) technology, this analyzer ensures accurate.",
         workPrinciple: (
           <div>
             {/* Working Principle Table */}
@@ -4130,11 +4136,12 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       How It Works:
                     </strong>{" "}
-                    The IFLASH 1200 operates on the Chemiluminescence
+                    <br />
+                    The iFlash 1200 operates on the Chemiluminescence
                     Immunoassay (CLIA) principle. It uses chemiluminescent
                     reactions to detect the presence of specific antigens or
                     antibodies in a sample. When a sample is introduced, it
@@ -4146,11 +4153,12 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful:
                     </strong>{" "}
-                    The IFLASH 1200 is perfect for clinical laboratories,
+                    <br />
+                    The iFlash 1200 is perfect for clinical laboratories,
                     hospitals, and diagnostic centers requiring high-throughput
                     testing. It is especially beneficial for endocrinologists,
                     immunologists, and healthcare professionals who need
@@ -4160,17 +4168,35 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
                     <ul className="list-disc pl-5 ">
-                      <li>Thyroid function testing</li>
-                      <li>Hormone level assessment</li>
-                      <li>Infectious disease screening</li>
-                      <li>Tumor marker analysis</li>
-                      <li>Allergy testing</li>
-                      <li>Therapeutic drug monitoring</li>
+                      <li>
+                        Thyroid Function Testing: The iFlash 3000 excels in
+                        performing thyroid assays, providing accurate and rapid
+                        results for TSH, T3, and T4 levels.
+                      </li>
+                      <li>
+                        Tumor Marker Detection: Detects and quantifies various
+                        tumor markers, aiding in the diagnosis and monitoring of
+                        cancer.
+                      </li>
+                      <li>
+                        Infectious Disease Screening: Efficiently screens for
+                        infectious diseases, offering reliable results for HIV,
+                        hepatitis, and other pathogens.
+                      </li>
+                      <li>
+                        Hormonal Assays: Performs a wide range of hormonal
+                        tests, including reproductive hormones and cortisol
+                        levels.
+                      </li>
+                      <li>
+                        Cardiac Marker Testing: Provides precise measurements of
+                        cardiac markers, essential for assessing heart health.
+                      </li>
                     </ul>
                   </td>
                 </tr>
@@ -4187,7 +4213,7 @@ const products = [
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
                   <span className="text-[#10b981]">◆</span> High throughput and
-                  rapid test processing
+                  random access analysis
                 </p>
               </li>
               <li className="flex gap-3">
@@ -4222,6 +4248,13 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
+                  <span className="text-[#10b981]">◆</span> Reduced manual
+                  intervention and higher walkaway time
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
                   <span className="text-[#10b981]">◆</span> Increased laboratory
                   productivity and efficiency
                 </p>
@@ -4236,15 +4269,15 @@ const products = [
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Reduced manual
-                  intervention and hands-on time
+                  <span className="text-[#10b981]">◆</span> Enhanced diagnostic
+                  precision and patient care Enhanced Menu panel
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Enhanced diagnostic
-                  precision and patient care
+                  <span className="text-[#10b981]">◆</span> Convenient pack size
+                  and zero wastage on tests
                 </p>
               </li>
             </ul>
@@ -4296,7 +4329,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       Working Principle:
                     </strong>{" "}
                     The KRYPTOR Compact Plus operates using TRACE (Time Resolved
@@ -4313,7 +4346,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     The KRYPTOR Compact Plus is ideal for clinical laboratories,
@@ -4327,7 +4360,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       Use Cases:
                     </strong>
                     <ul className="list-disc pl-5 ">
@@ -4574,7 +4607,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     Ideal for clinical labs handling high-volume diagnostics,
@@ -4584,7 +4617,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       Use Cases:
                     </strong>
                     <ul className="list-disc pl-5 ">
@@ -4762,7 +4795,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle:
                     </strong>{" "}
@@ -4779,7 +4812,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -4793,7 +4826,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -4991,7 +5024,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       Working Principle:
                     </strong>{" "}
                     The IF Sprinter automates the entire ImmunoFluorescence
@@ -5007,7 +5040,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     Ideal for clinical diagnostic labs, research facilities, and
@@ -5018,7 +5051,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       Use Cases:
                     </strong>
                     <ul className="list-disc pl-5 ">
@@ -5195,7 +5228,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       Working Principle:
                     </strong>{" "}
                     The EUROStar III Plus operates using advanced LED
@@ -5211,7 +5244,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     Ideal for clinical labs performing fluorescence assays,
@@ -5222,7 +5255,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       Use Cases:
                     </strong>
                     <ul className="list-disc pl-5 ">
@@ -5396,7 +5429,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle:
                       <br />
@@ -5416,7 +5449,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful? <br />
                     </strong>
@@ -5426,7 +5459,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -5561,7 +5594,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works? <br />
                     </strong>
@@ -5579,7 +5612,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful? <br />
                     </strong>
@@ -5593,7 +5626,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -5800,7 +5833,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       Working Principle:
                     </strong>{" "}
                     The Euroimmun Analyzer I automates the ELISA process by
@@ -5816,7 +5849,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     Ideal for clinical laboratories that require efficient and
@@ -5827,7 +5860,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                    <strong className="text-wrap tablet:text-base largelaptop:text-base">
                       Use Cases:
                     </strong>
                     <ul className="list-disc pl-5 ">
@@ -6014,7 +6047,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle:
                     </strong>{" "}
@@ -6029,7 +6062,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful:
                     </strong>{" "}
@@ -6045,7 +6078,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -6242,9 +6275,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-base largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -6256,7 +6289,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -6266,7 +6299,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -6401,9 +6434,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      <span className="font-semibold tablet:text-sm largeLaptop:text-2xl  text-xs">
+                      <span className="font-semibold tablet:text-base largeLaptop:text-2xl  text-xs">
                         How it Works
                       </span>
                       :
@@ -6416,7 +6449,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom:
                     </strong>{" "}
@@ -6426,7 +6459,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>{" "}
@@ -6565,7 +6598,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works? <br />
                     </strong>
@@ -6574,7 +6607,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful? <br />
                     </strong>
@@ -6584,7 +6617,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -6702,7 +6735,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works? <br />
                     </strong>
@@ -6711,7 +6744,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful? <br />
                     </strong>
@@ -6721,7 +6754,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
@@ -6820,7 +6853,7 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Working Principle: How It Works? <br />
                     </strong>
@@ -6838,7 +6871,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       For Whom It Is Useful? <br />
                     </strong>
@@ -6855,7 +6888,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
                       {" "}
                       Use Cases:
                     </strong>
