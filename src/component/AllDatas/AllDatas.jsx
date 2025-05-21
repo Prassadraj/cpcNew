@@ -5053,35 +5053,37 @@ const products = [
 
         advantages: (
           <div>
-            <ul className="space-y-6 font-poppins">
+            <p className=" largeLaptop:text-2xl mb-4 text-xs tablet:text-base text-black  font-normal ">
+              Enhanced Workflow Efficiency: Automates IFA and ELISA processes,
+              reducing manual work and speeding diagnostics.
+            </p>
+            <ul className="space-y-6 font-poppins ml-4">
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Enhanced Workflow Efficiency: Automates IFA and ELISA
-                  processes, reducing manual work and speeding diagnostics.
+                  <span className="text-[#10b981]">◆</span> Consistent Accuracy:
+                  Reproducible results, ensuring diagnostic reliability across
+                  tests.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Consistent Accuracy: Reproducible results, ensuring diagnostic
-                  reliability across tests.
+                  <span className="text-[#10b981]">◆</span> Flexible
+                  Application: Supports a range of assays for autoimmune,
+                  infectious diseases, and allergies.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Flexible Application: Supports a range of assays for
-                  autoimmune, infectious diseases, and allergies.
+                  <span className="text-[#10b981]">◆</span> Compact and
+                  Space-Saving: Fits in any lab setup without occupying
+                  excessive space.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Compact and Space-Saving: Fits in any lab setup without
-                  occupying excessive space.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Scalable: Adapts to varying lab volumes, ensuring consistent
-                  performance as demand grows.
+                  <span className="text-[#10b981]">◆</span> Scalable: Adapts to
+                  varying lab volumes, ensuring consistent performance as demand
+                  grows.
                 </p>
               </li>
             </ul>
@@ -5093,32 +5095,36 @@ const products = [
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Time-Saving Automation: Reduces manual labor, allowing
-                  technicians to focus on other tasks.
+                  <span className="text-[#10b981]">◆</span> Time-Saving
+                  Automation: Reduces manual labor, allowing technicians to
+                  focus on other tasks.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Improved Productivity: High throughput means more samples
-                  processed faster, increasing lab efficiency.
+                  <span className="text-[#10b981]">◆</span> Improved
+                  Productivity: High throughput means more samples processed
+                  faster, increasing lab efficiency.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Cost-Effective Operations: Reduces human error and the need
-                  for repeat testing, cutting operational costs.
+                  <span className="text-[#10b981]">◆</span> Cost-Effective
+                  Operations: Reduces human error and the need for repeat
+                  testing, cutting operational costs.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  User-Friendly Design: Intuitive controls simplify operation,
-                  reducing training time for staff.
+                  <span className="text-[#10b981]">◆</span> User-Friendly
+                  Design: Intuitive controls simplify operation, reducing
+                  training time for staff
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Versatility: Can process both IFA and ELISA assays, making it
-                  a multifunctional tool for diagnostic labs.
+                  <span className="text-[#10b981]">◆</span> Versatility:
+                  Complete spectrum of autoimmune disorders covered.
                 </p>
               </li>
             </ul>
@@ -5131,32 +5137,37 @@ const products = [
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Routine Calibration: Regular calibration maintains precision
-                  and ensures reliability.
+                  <span className="text-[#10b981]">◆</span> Routine Calibration:
+                  Regular calibration maintains precision and ensures
+                  reliability.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Automated Maintenance Alerts: The system notifies you when
-                  maintenance tasks are needed, minimizing downtime.
+                  <span className="text-[#10b981]">◆</span> Automated
+                  Maintenance Alerts: The system notifies you when maintenance
+                  tasks are needed, minimizing downtime.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Accessible Design: Easy access to internal components for
-                  efficient maintenance and repairs.
+                  <span className="text-[#10b981]">◆</span> Accessible Design:
+                  Easy access to internal components for efficient maintenance
+                  and repairs.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Minimal Downtime: Designed for continuous operation with
-                  minimal maintenance interruptions.
+                  <span className="text-[#10b981]">◆</span> Minimal Downtime:
+                  Designed for continuous operation with minimal maintenance
+                  interruptions.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  Comprehensive Support: Supported by CPC Diagnostics’ dedicated
-                  technical support team to ensure optimal performance.
+                  <span className="text-[#10b981]">◆</span> Comprehensive
+                  Support: Supported by CPC Diagnostics’ dedicated technical
+                  support team to ensure optimal performance.
                 </p>
               </li>
             </ul>
@@ -5387,11 +5398,20 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      Working Principle: How It Works? <br />
+                      Working Principle:
+                      <br />
                     </strong>
-                    EuroPattern Microscope uses automated image acquisition and
-                    pattern recognition software to analyze fluorescence signals
-                    accurately and objectively.
+                    The acquired image data is automatically transmitted to the
+                    pattern recognition software EUROPattern Classifier, which
+                    is based on deep convolutional neural networks, a
+                    deep-learning method. The program not only provides
+                    classification in terms of “positive” and “negative” for
+                    many substrates, but also reliably identifies different
+                    patterns for ANA, ANCA, AMA and anti-LKM (LKM-like),
+                    including mixed patterns. In combination with the laboratory
+                    management software EUROLabOffice 4.0 it allows fast and
+                    secure result archiving and bidirectional connection to the
+                    laboratory information system (LIS).
                   </td>
                 </tr>
                 <tr>
@@ -5444,8 +5464,25 @@ const products = [
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> High throughput
-                  capability processes up to 500 analysis positions in minimal
-                  time.
+                  capability processes up to 500 analysis positions with a high
+                  system speed of 13 seconds per image
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> Over 250
+                  fluorescence images can be recorded and automatically
+                  evaluated in just one hour
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> Pattern recognition
+                  and titer determination for ANA and ANCA (including mixed
+                  patterns), Crithidia, recombinant cells, liver(rat) and kidney
+                  (rat)
                 </p>
               </li>
             </ul>
@@ -5512,12 +5549,12 @@ const products = [
         id: "15",
         image: [fluoroMat],
         coverImg: fluoroMatGrey,
-        title: "FluoroMAT 50",
+        title: "FLUOROMAT 50",
         section: "ifa",
         shortdescription:
-          "The Fluoromat 50 is an advanced western blot processor engineered to automate the complex steps of western blotting, from sample preparation to detection. This automated western blot processor is designed to deliver high-precision results across a variety of diagnostic applications, making it a valuable tool for laboratories conducting ANA test profiles, liver diagnostics, and more. With its automated workflow and high throughput capabilities, the Fluoromat 50 minimizes manual intervention, ensuring consistency and reproducibility in every test.",
+          "The Fluoromat 50 is a powerful IIFA processor designed to bring automation and efficiency to your laboratory. This automated IIFA processor delivers precise and reliable results, making it ideal for laboratories performing various diagnostics, including Rheumatology, Neurology, Nephrology, Gastrology etc. With a compact design and user-friendly interface, the Fluoromat 50 enhances lab productivity while maintaining accuracy.	",
         description:
-          "The Fluoromat 50 is a powerful western blot processor designed to bring automation and efficiency to your laboratory. This automated western blot processor delivers precise and reliable results, making it ideal for laboratories performing various diagnostics, including ANA test profiles and liver profiles. With a compact design and user-friendly interface, the Fluoromat 50 enhances lab productivity while maintaining accuracy.",
+          "The Fluoromat 50 is an advanced IIFA processor is designed to deliver high-precision results across a variety of diagnostic applications, making it a valuable tool for laboratories conducting  Rheumatology, Neurology, Nephrology, Gastrology and more. With its automated workflow and high throughput capabilities, the Fluoromat 50 minimizes manual intervention, ensuring consistency and reproducibility in every test.	",
         workPrinciple: (
           <div>
             <table className="min-w-full table-auto">
@@ -5528,16 +5565,16 @@ const products = [
                       {" "}
                       Working Principle: How It Works? <br />
                     </strong>
-                    The Fluoromat 50 automates the western blot process, a
-                    technique used to detect specific proteins in a sample. The
-                    system performs key steps such as gel electrophoresis,
-                    protein transfer to a membrane, and antibody binding in an
-                    automated fashion. Once proteins are separated and
-                    transferred, the processor automates the incubation with
-                    specific antibodies, washing, and final detection. The
-                    system uses fluorescence-based detection for enhanced
-                    sensitivity and precision, delivering accurate results with
-                    minimal hands-on time.
+                    The Fluoromat50 automates the entire ImmunoFluorescence
+                    Assay (IFA) process, from sample preparation to result
+                    generation. It uses fluorescent-labeled antibodies to detect
+                    specific antigens in patient samples. After the
+                    antigen-antibody reaction, the processor washes away unbound
+                    antibodies and measures the emitted fluorescence, which is
+                    proportional to the amount of antigen present in the sample.
+                    This automation not only ensures precision and
+                    reproducibility but also significantly reduces hands-on time
+                    for lab technicians
                   </td>
                 </tr>
                 <tr>
@@ -5548,10 +5585,9 @@ const products = [
                     </strong>
                     The Fluoromat 50 is ideal for clinical diagnostic
                     laboratories, research centers, and specialized testing
-                    facilities that need to streamline their western blot
-                    processing. It is particularly useful for laboratories that
-                    handle a high volume of tests, such as ANA test profiles,
-                    liver profiles, and other immunoassays, providing a reliable
+                    facilities that need to streamline their IIFA processing. It
+                    is particularly useful for all laboratories that handle a
+                    low to high volume of IIFA tests, providing a reliable
                     solution to increase lab efficiency and accuracy.
                   </td>
                 </tr>
@@ -5563,29 +5599,24 @@ const products = [
                     </strong>
                     <ul className="list-disc pl-5 ">
                       <li>
-                        ANA Test Profiles: Automates the detection of
-                        antinuclear antibodies, aiding in the diagnosis of
-                        autoimmune diseases with precision and efficiency.
+                        Autoimmune Disease Diagnostics: Automates the detection
+                        of autoimmune markers, enabling quicker and more
+                        accurate diagnosis of various autoimmune diseases
                       </li>
                       <li>
-                        Liver Profile Diagnostics: Facilitates the processing of
-                        liver-related biomarkers, providing accurate results for
-                        liver function tests.
+                        Endocrine Testing: Automates the detection of
+                        hormone-related biomarkers, providing accurate endocrine
+                        function assessments.
                       </li>
                       <li>
-                        Infectious Disease Screening: Supports western blot
-                        assays for the detection of various infectious diseases,
-                        ensuring rapid and reliable diagnosis.
+                        Research and Development: Ideal for research labs
+                        conducting studies in immunology, infectious diseases,
+                        and more.
                       </li>
                       <li>
-                        Endocrine Testing: Processes hormonal profiles, helping
-                        in the diagnosis of endocrine disorders with consistent
-                        accuracy.
-                      </li>
-                      <li>
-                        Oncology Diagnostics: Automates the detection of
-                        cancer-related biomarkers, assisting in the early
-                        diagnosis and monitoring of cancer.
+                        Infectious Disease Testing: Automates IFA tests for
+                        infectious diseases, enabling quicker diagnosis and
+                        intervention.
                       </li>
                     </ul>
                   </td>
@@ -5610,9 +5641,9 @@ const products = [
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Versatile
-                  Application: Supports a wide range of assays, including
-                  autoimmune and liver profile diagnostics, making it adaptable
-                  to various testing needs.
+                  Application: Supports a wide range of autoimmune test covered,
+                  including Rheumatology, Neurology, Nephrology, Gastrology etc,
+                  making it adaptable to various testing needs.
                 </p>
               </li>
               <li className="flex gap-3">
@@ -5652,8 +5683,8 @@ const products = [
                   {" "}
                   <span className="text-[#10b981]">◆</span> Enhanced
                   Productivity: Automation frees up lab technicians to focus on
-                  other tasks while the Fluoromat 50 handles the western blot
-                  process, boosting overall lab efficiency.
+                  other tasks while the Fluoromat 50 handles the IIFA process,
+                  boosting overall lab efficiency.
                 </p>
               </li>
               <li className="flex gap-3">
@@ -5687,8 +5718,8 @@ const products = [
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Multi-Test
-                  Capability: Whether handling ANA test profiles, liver
-                  profiles, or other immunoassays, the Fluoromat 50 is versatile
+                  Capability: While handling Rheumatology, Neurology,
+                  Nephrology, Gastrology tests. The Fluoromat 50 is versatile
                   enough to meet the needs of diverse diagnostic applications.
                 </p>
               </li>
@@ -5747,7 +5778,7 @@ const products = [
           </div>
         ),
         workServices: "Technical support available for setup and service.",
-        productBrochure: "path/to/Fluoromat 50-brochure.pdf",
+        productBrochure: "path/to/FLUOROMAT 50-brochure.pdf",
         detailedSpecification:
           "Detailed specifications available upon request.",
         offerOrDiscounts:
@@ -5801,8 +5832,8 @@ const products = [
                     </strong>
                     <ul className="list-disc pl-5 ">
                       <li>
-                        Clinical Diagnostics: Routine testing for infectious
-                        diseases, autoimmune disorders, and allergies.
+                        Clinical Diagnostics: Routine testing for autoimmune
+                        disorders & infectious diseases.
                       </li>
                       <li>
                         Research Applications: Analyzing biomarkers and
@@ -5974,9 +6005,9 @@ const products = [
         title: "Sprinter XL",
         section: "ifa",
         shortdescription:
-          "The Sprinter XL is an innovative IFA Processor (ImmunoFluorescence Assay) that brings next-level automation to clinical and diagnostic laboratories. This fully automated IFA processor is engineered to meet the needs of high-throughput labs, ensuring efficiency and accuracy for both IFA and ELISA tests. Its robust design supports the seamless integration of automation into laboratory workflows, minimizing errors and maximizing output. Whether performing routine diagnostics or specialized immunoassays, the Sprinter XL delivers unparalleled performance.",
+          "The Sprinter XL is an advanced IFA Processor (ImmunoFluorescence Assay) designed for high-volume laboratories that demand precision, reliability, and speed. This fully automated IFA processor streamlines the entire immunoassay process, reducing manual intervention and delivering consistent, accurate results. With its scalable design and robust performance, the Sprinter XL offers the perfect solution for labs needing IFA automation.",
         description:
-          "The Sprinter XL is an advanced IFA Processor (ImmunoFluorescence Assay) designed for high-volume laboratories that demand precision, reliability, and speed. This fully automated IFA processor streamlines the entire immunoassay process, reducing manual intervention and delivering consistent, accurate results. With its scalable design and robust performance, the Sprinter XL offers the perfect solution for labs needing both IFA automation and ELISA capabilities.",
+          "The Sprinter XL is an innovative IFA Processor (ImmunoFluorescence Assay) that brings next-level automation to clinical and diagnostic laboratories. This fully automated IFA processor is engineered to meet the needs of high-throughput labs, ensuring efficiency and accuracy for IFA. Its robust design supports the seamless integration of automation into laboratory workflows, minimizing errors and maximizing output. Whether performing routine diagnostics or specialized immunoassays, the Sprinter XL delivers unparalleled performance.",
         workPrinciple: (
           <div>
             <table className="min-w-full table-auto">
@@ -5994,10 +6025,6 @@ const products = [
                     automates the application, incubation, washing, and
                     detection stages. Fluorescence signals are measured and
                     quantified, delivering results with high precision.
-                    Additionally, the Sprinter XL offers full automation for
-                    ELISA tests, providing versatility in diagnostic
-                    applications and eliminating the need for separate
-                    processors.
                   </td>
                 </tr>
                 <tr>
@@ -6009,9 +6036,9 @@ const products = [
                     The Sprinter XL is ideal for clinical diagnostic
                     laboratories, research institutions, and hospital labs that
                     require high-volume, automated testing. This fully automatic
-                    ELISA and IFA processor is especially beneficial for
-                    facilities that need to optimize their workflows and enhance
-                    testing capabilities across a wide range of assays. Its dual
+                    IFA processor is especially beneficial for facilities that
+                    need to optimize their workflows and enhance testing
+                    capabilities across a wide range of assays. Its dual
                     functionality makes it valuable for labs that handle diverse
                     testing requirements.
                   </td>
@@ -6029,19 +6056,15 @@ const products = [
                         management.
                       </li>
                       <li>
-                        Infectious Disease Testing: Automates IFA and ELISA
-                        tests for infectious diseases, enabling quicker
-                        diagnosis and intervention.
-                      </li>
-                      <li>
-                        Oncology Diagnostics: Facilitates detection of
-                        cancer-related biomarkers, assisting in early diagnosis
-                        and treatment planning.
+                        Infectious Disease Testing: Automates IFA tests for
+                        infectious diseases, enabling quicker diagnosis and
+                        intervention.
                       </li>
                       <li>
                         Endocrinology Testing: Supports hormonal assays,
                         ensuring accurate analysis of endocrine function.
                       </li>
+
                       <li>
                         Research and Development: Ideal for research labs in
                         immunology, infectious diseases, and more.
@@ -6079,7 +6102,7 @@ const products = [
                   {" "}
                   <span className="text-[#10b981]">◆</span> Versatile Testing
                   Capabilities: Dual functionality allows the Sprinter XL to
-                  handle both IFA and ELISA assays, enhancing flexibility.
+                  handle IFA, enhancing flexibility.
                 </p>
               </li>
               <li className="flex gap-3">
@@ -6135,14 +6158,6 @@ const products = [
                   <span className="text-[#10b981]">◆</span> User-Friendly
                   Design: Simplified interface and controls allow quick
                   operation with minimal training.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Multi-Purpose
-                  Application: Performs both IFA and ELISA tests on a single
-                  platform, saving space and resources.
                 </p>
               </li>
             </ul>
