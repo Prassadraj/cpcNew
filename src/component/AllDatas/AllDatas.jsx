@@ -2916,35 +2916,33 @@ const products = [
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      Working Principle:
-                    </strong>{" "}
-                    The PLEXMAT 8 automates the western blotting process by
-                    managing each step, from sample preparation to final
-                    detection. The system automatically performs protein
-                    separation via gel electrophoresis, followed by transfer to
-                    a membrane. It then executes blocking, antibody incubation,
-                    washing, and detection steps. Automation ensures uniform
-                    processing for all strips, minimizing human error and
-                    providing consistent, high-quality results. Its automated
-                    operation boosts lab efficiency, reducing hands-on time and
-                    increasing throughput.
+                      Working Principle: How It Works? <br />
+                    </strong>
+                    The PLEXMAT 8 operates by automating the western blot
+                    procedure, which involves separating proteins via gel
+                    electrophoresis and transferring them to a membrane. This
+                    membrane is then processed using automated steps, including
+                    blocking, antibody incubation, washing, and detection. The
+                    automation ensures that all steps are performed consistently
+                    across all strips, providing reproducible and accurate
+                    results. The system is designed to handle multiple strips
+                    simultaneously, improving lab throughput and efficiency.
                   </td>
                 </tr>
                 <tr>
                   <td className="  text-black">
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       {" "}
-                      For Whom It Is Useful:
-                    </strong>{" "}
-                    The PLEXMAT 8 is ideal for clinical diagnostic laboratories,
-                    research institutions, and specialized testing facilities
-                    that require high-throughput, accurate processing of
-                    immunoblots. It is particularly beneficial for labs
-                    conducting autoimmune testing (e.g., ANA profiles), liver
-                    function diagnostics, and other immunological assays. The
-                    system's fully automated functionality makes it a perfect
-                    choice for labs seeking to enhance productivity and reduce
-                    manual labor.
+                      For Whom It Is Useful? <br />
+                    </strong>
+                    The PLEXMAT 8 is particularly beneficial for clinical
+                    diagnostic laboratories, research institutions, and
+                    specialized testing centers that require reliable western
+                    blot processing but may have space or volume constraints. It
+                    is ideal for labs conducting ANA test profiles, liver
+                    profiles, and other immunoassays, offering a practical
+                    solution to automate processes while ensuring high standards
+                    of precision.
                   </td>
                 </tr>
                 <tr>
@@ -2955,29 +2953,29 @@ const products = [
                     </strong>
                     <ul className="list-disc pl-5 text-lg">
                       <li>
-                        ANA Test Profile: Automates the processing of
-                        antinuclear antibody tests, providing accurate results
-                        for autoimmune disease diagnostics.
+                        ANA Test Profile Processing: Automates the
+                        immunoblotting process for antinuclear antibody tests,
+                        aiding in the diagnosis of autoimmune diseases.
                       </li>
                       <li>
-                        Liver Profile Diagnostics: Supports the detection of
-                        liver-related biomarkers, ensuring reliable and timely
-                        diagnosis of liver conditions.
+                        Liver Profile Diagnostics: Facilitates the detection of
+                        liver-related biomarkers, enabling accurate diagnostics
+                        for liver function and disease.
                       </li>
                       <li>
-                        Infectious Disease Screening: Facilitates western blot
-                        testing for infectious diseases, enabling precise and
-                        rapid identification of pathogens.
+                        Infectious Disease Diagnostics: Supports the western
+                        blot testing for various infectious diseases, providing
+                        quick and reliable results.
                       </li>
                       <li>
-                        Endocrine Function Testing: Processes complex hormonal
-                        profiles, aiding in the diagnosis of endocrine
-                        disorders.
+                        Endocrine Function Testing: Processes hormonal profile
+                        diagnostics efficiently, aiding in the detection of
+                        endocrine disorders.
                       </li>
                       <li>
-                        Oncology Biomarker Detection: Automates the detection of
-                        cancer-related biomarkers, supporting early diagnosis
-                        and treatment planning.
+                        Oncology Diagnostics: Automates the detection of
+                        cancer-related biomarkers, contributing to early
+                        diagnosis and monitoring of cancer progression.
                       </li>
                     </ul>
                   </td>
@@ -2989,98 +2987,119 @@ const products = [
 
         advantages: (
           <div>
-            <ul className="space-y-6 font-poppins">
+            <p className="text-base largeLaptop:text-2xl font-medium text-gray-800 mb-4">
+              {" "}
+              Efficient Processing: Automates multiple steps in the western blot
+              process, reducing manual labor and increasing lab productivity.
+            </p>
+            <ul className="space-y-6 font-poppins ml-4">
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> High Efficiency: The
-                  ability to process multiple strips simultaneously increases
-                  lab productivity and reduces turnaround time.
+                  <span className="text-[#10b981]">◆</span> Compact and
+                  Space-Saving: Ideal for labs with limited space, the PLEXMAT 8
+                  offers full functionality without taking up too much room.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Automation and
-                  Precision: Automating each step of the western blot process
-                  ensures consistency and reduces manual errors.
+                  <span className="text-[#10b981]">◆</span> High Accuracy:
+                  Automation ensures consistent and precise results, improving
+                  diagnostic accuracy across a variety of tests.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Versatile Testing
-                  Capabilities: Supports a wide range of diagnostic tests,
-                  making it adaptable to various clinical applications,
-                  including autoimmune and liver profiles.
+                  <span className="text-[#10b981]">◆</span> Versatile Testing:
+                  Supports a broad range of assays, including autoimmune and
+                  liver profiles, making it adaptable to various lab needs.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Space-Saving Design:
-                  The compact footprint of the PLEXMAT 8 makes it easy to
-                  integrate into labs of any size, optimizing workspace without
-                  compromising functionality.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Scalability: Whether
-                  your lab processes a few samples or high volumes, the PLEXMAT
-                  8 can scale to meet your needs without sacrificing
-                  performance.
+                  <span className="text-[#10b981]">◆</span> Scalable Solution:
+                  Capable of processing up to 4 strips simultaneously, making it
+                  suitable for labs with moderate testing volumes.
                 </p>
               </li>
             </ul>
+            <div className="mt-4">
+              <p className="text-base largeLaptop:text-2xl font-medium text-gray-800 mb-4">
+                {" "}
+                EUROline Scan - Software
+              </p>
+              <ul className="space-y-6 font-poppins ml-4">
+                <li className="flex gap-3">
+                  <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+                    {" "}
+                    <span className="text-[#10b981]">◆</span> User friendly
+                  </p>
+                </li>
+                <li className="flex gap-3">
+                  <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+                    {" "}
+                    <span className="text-[#10b981]">◆</span>Easy result
+                    interpretation
+                  </p>
+                </li>
+                <li className="flex gap-3">
+                  <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+                    {" "}
+                    <span className="text-[#10b981]">◆</span>High Quality
+                    standard reporting
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
         ),
 
         benefits: (
           <div>
-            <ul className="space-y-6 font-poppins">
+            <p className="text-base largeLaptop:text-2xl font-medium text-gray-800 mb-4">
+              {" "}
+              Increased Productivity: The automated workflow allows lab
+              technicians to focus on other tasks while the PLEXMAT 8 handles
+              western blot processing, enhancing overall efficiency.
+            </p>
+            <ul className="space-y-6 font-poppins ml-4">
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Increased
-                  Productivity: Automated operation allows lab technicians to
-                  focus on other tasks while the PLEXMAT 8 handles western blot
-                  processing, improving overall workflow.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Consistent and
-                  Accurate Results: Automation ensures uniformity in processing,
-                  delivering reliable and reproducible results across all tests.
+                  <span className="text-[#10b981]">◆</span> Consistent Results:
+                  The automated system ensures uniform processing across all
+                  strips, delivering reliable and reproducible results every
+                  time.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Cost-Effective
-                  Operation: Reduces the need for manual labor, lowering
-                  operational costs and minimizing the risk of repeat testing
-                  due to errors.
+                  Operation: By reducing manual intervention and minimizing
+                  errors, the PLEXMAT 8 helps lower operational costs and
+                  improve lab efficiency.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> User-Friendly
-                  Interface: The intuitive touchscreen interface simplifies
-                  operation, reducing training time and increasing ease of use.
+                  Design: The intuitive touchscreen interface simplifies
+                  operation, reducing the need for extensive training and making
+                  the system accessible to all lab staff.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Multi-Profile
-                  Capability: Supports a broad range of test profiles, including
-                  ANA, liver, infectious diseases, and more, making it a
-                  versatile asset for any diagnostic lab.
+                  <span className="text-[#10b981]">◆</span> Multi-Test
+                  Capability: The ability to handle a variety of test profiles,
+                  from ANA to liver diagnostics, makes the PLEXMAT 8 a versatile
+                  addition to any lab.
                 </p>
               </li>
             </ul>
@@ -3090,47 +3109,43 @@ const products = [
         testMenu: [""],
         mainAndCare: (
           <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Routine Calibration:
-                  Regular calibration ensures the PLEXMAT 8 maintains its
-                  accuracy and reliability over time.
-                </p>
-              </li>
+            <p className="text-base largeLaptop:text-2xl font-medium text-gray-800 mb-4">
+              {" "}
+              Routine Calibration: Regular calibration ensures that the PLEXMAT
+              8 maintains its accuracy and reliability over time.
+            </p>
+            <ul className="space-y-6 font-poppins ml-4">
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Automated
-                  Maintenance Alerts: The system provides automatic alerts for
-                  scheduled maintenance, ensuring optimal performance.
+                  Maintenance Alerts: The system provides automatic
+                  notifications for maintenance tasks, ensuring timely upkeep.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Easy Access for
-                  Servicing: The design allows for easy access to internal
-                  components, simplifying routine maintenance and any necessary
-                  repairs.
+                  Servicing: The PLEXMAT 8 is designed for easy access to
+                  internal components, making maintenance and repairs
+                  straightforward and efficient.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
-                  <span className="text-[#10b981]">◆</span> Durable
-                  Construction: Built for long-term use, ensuring consistent
-                  performance with minimal downtime.
+                  <span className="text-[#10b981]">◆</span> Minimal Downtime:
+                  Built for durability, the PLEXMAT 8 ensures continuous
+                  operation with minimal maintenance interruptions.
                 </p>
               </li>
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Comprehensive
-                  Support: Backed by CPC Diagnostics’ technical support team,
-                  ensuring your system operates at peak performance throughout
-                  its lifespan.
+                  Support: Supported by CPC Diagnostics' technical team,
+                  ensuring optimal performance and long-term reliability.
                 </p>
               </li>
             </ul>
