@@ -83,7 +83,8 @@ function New() {
   return (
     <>
       <Heading />
-      <div
+      {/* jus commented -cpc siva told to show one  */}
+      {/* <div
         className="container1 h-[300vh]  laptop:flex justify-around tablet:gap-5
          largeLaptop:gap-0 hidden laptop:mb-[6rem]
       largeLaptop:mb-[0rem]"
@@ -153,10 +154,27 @@ function New() {
             </p>
           </div>
         </div>
+      </div> */}
+      <div className="tablet:flex  items-center justify-center p-2 gap-4 mb-2 hidden">
+        <div className="">
+          <img
+            src={image2}
+            alt="img"
+            className="w-[500px] object-contain rounded-lg"
+          />
+        </div>
+        <div className="flex flex-col items-start justify-center w-1/2">
+          <img src={organisation2} className=" w-[100px]" alt="img" />
+          <p className="text-[9px] tablet:text-xl text-start ">
+            Sachika, an initiative by CPC Diagnostics Pvt. Ltd., focuses on life
+            sciences education, empowering clinicians with contemporary
+            bioscience skills.
+          </p>
+        </div>
       </div>
       {/* mobile */}
       <div className="laptop:hidden tablet:mb-[100px]">
-        <div className="grid grid-cols-2 items-center justify-center p-2 my-3 gap-4 mb-4">
+        {/* <div className="grid grid-cols-2 items-center justify-center p-2 my-3 gap-4 mb-4">
           <img src={image1} alt="" />
           <div className="flex flex-col items-start justify-center">
             <img
@@ -171,19 +189,19 @@ function New() {
               clinical laboratories, hospitals, and diagnostic centers.
             </p>
           </div>
-        </div>
-        <div className="grid grid-cols-2 items-center justify-center p-2 gap-4 mb-2">
+        </div> */}
+        <div className="flex flex-col items-center justify-center p-2 gap-4 mb-2">
           <img src={image2} alt="" />
-          <div className="flex flex-col items-start justify-center">
-            <img src={organisation2} className=" w-[40px]" alt="" />
-            <p className="text-[9px] tablet:text-xl">
+          <div className="flex flex-col items-center justify-center">
+            <img src={organisation2} className=" w-[50px]" alt="" />
+            <p className="text-[9px] tablet:text-xl text-center">
               Sachika, an initiative by CPC Diagnostics Pvt. Ltd., focuses on
               life sciences education, empowering clinicians with contemporary
               bioscience skills.
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-2 items-center justify-center p-2 gap-4 mb-2">
+        {/* <div className="grid grid-cols-2 items-center justify-center p-2 gap-4 mb-2">
           <img src={image3} alt="" />
           <div className="flex flex-col items-start justify-center">
             <img src={organisation3} className=" w-[40px]" alt="" />
@@ -193,7 +211,7 @@ function New() {
               manufacturing practices.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -91,34 +91,34 @@ const content = {
 };
 
 const jeevcon = {
-  heading1: "Jeev Diagnostics Pvt. Ltd",
+  heading1: "Reagent Manufacturing Facility",
   content1: (
     <>
-      Jeev Diagnostics, a wholly owned subsidiary of Everlife CPC Diagnostics
-      Pvt. Ltd., is dedicated to manufacturing high-quality in-vitro clinical
-      chemistry reagents. Operating since <b>2011</b> and headquartered in
-      Chennai, India, Jeev caters to clinical laboratories, hospitals, and
-      diagnostic centers across the region. With a reputation for producing
-      reliable reagents in{" "}
+      Reagent manufacturing facility, a wholly owned subsidiary of Everlife CPC
+      Diagnostics Pvt. Ltd., is dedicated to manufacturing high-quality in-vitro
+      clinical chemistry reagents. Operating since <b>2011</b> and headquartered
+      in Chennai, India, Reagent manufacturing facility caters to clinical
+      laboratories, hospitals, and diagnostic centers across the region. With a
+      reputation for producing reliable reagents in{" "}
       <b>
         Biochemistry, Immunoturbidimetry, Hematology, and Molecular Diagnostics,
       </b>{" "}
-      Jeev’s products ensure accuracy and quality in critical diagnostic
-      applications.
+      Reagent manufacturing facility products ensure accuracy and quality in
+      critical diagnostic applications.
     </>
   ),
 
   heading2: "Fully Automated Instruments",
   content2: (
     <>
-      Jeev Diagnostics produces a wide range of <b>IVD reagents </b>compatible
-      with both <b>semi-automated</b> and <b>fully automated instruments.</b>{" "}
-      These reagents support advanced systems like{" "}
-      <b> Turbochem100, ChemWell,</b> and
-      <b> Biolis 50i.</b> With fully automated capabilities, Jeev ensures that
-      laboratories can achieve high-throughput, efficiency, and precision,
-      seamlessly integrating into diagnostic workflows for accurate, consistent
-      results.
+      Reagent manufacturing facility produces a wide range of{" "}
+      <b>IVD reagents </b>compatible with both <b>semi-automated</b> and{" "}
+      <b>fully automated instruments.</b> These reagents support advanced
+      systems like <b> Turbochem100, ChemWell,</b> and
+      <b> Biolis 50i.</b> With fully automated capabilities, Reagent
+      manufacturing facility ensures that laboratories can achieve
+      high-throughput, efficiency, and precision, seamlessly integrating into
+      diagnostic workflows for accurate, consistent results.
     </>
   ),
 
@@ -126,13 +126,13 @@ const jeevcon = {
   content3: (
     <>
       <p>
-        Jeev Diagnostics is committed to upholding stringent quality standards
-        across its entire manufacturing process. Each reagent undergoes rigorous
-        testing to meet <b> international quality norms,</b> ensuring reliable
-        and high-performance products. By adhering to strict production
-        protocols, Jeev Diagnostics guarantees that its reagents offer
-        unparalleled consistency and accuracy, empowering healthcare providers
-        to deliver better patient outcomes.
+        Reagent manufacturing facility is committed to upholding stringent
+        quality standards across its entire manufacturing process. Each reagent
+        undergoes rigorous testing to meet <b> international quality norms,</b>{" "}
+        ensuring reliable and high-performance products. By adhering to strict
+        production protocols, Reagent manufacturing facility guarantees that its
+        reagents offer unparalleled consistency and accuracy, empowering
+        healthcare providers to deliver better patient outcomes.
       </p>
     </>
   ),
@@ -144,9 +144,9 @@ const cpccon = {
     "Everlife CPC Diagnostics takes pride in its commitment to indigenous manufacturing, bridging the gap between instruments and reagents. By embracing backward integration, CPC ensures empowerment, reliability, and innovation in the field of local manufacturing. This dedication enables CPC to pioneer solutions that meet the specific needs of healthcare diagnostics, fostering trust and quality in every product..",
 
   heading2:
-    "CPC Manufacturing Unit – Manufacturing Arm of Diagnostic Instruments",
+    " Instruments Manufacturing Facility – Manufacturing Arm of Diagnostic Instruments",
   content2:
-    "Everlife CPC's manufacturing unit is 100% indigenous, certified with CE and ISO standards. As the manufacturing arm of diagnostic instruments, CPC is known for its stringent quality control measures, ensuring every product meets the highest industry standards. The unit is the first to design and manufacture the revolutionary Hematology Analyzer Xcyte, a testament to CPC's leadership in the field of diagnostics.",
+    "Everlife Instruments manufacturing facility is 100% indigenous, certified with CE and ISO standards. As the manufacturing arm of diagnostic instruments, CPC is known for its stringent quality control measures, ensuring every product meets the highest industry standards. The unit is the first to design and manufacture the revolutionary Hematology Analyzer Xcyte, a testament to CPC's leadership in the field of diagnostics.",
 
   heading3: " Popular Models of CPC",
   content3: (
@@ -303,7 +303,9 @@ function Brand() {
             data-aos="zoom-in-up"
             data-aos-easing="ease-in-out"
           >
-            <u className="underline-offset-8">Jeev Diagnostics</u>
+            <u className="underline-offset-8 capitalize">
+              Reagent manufacturing facility
+            </u>
           </h3>
           <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5">
             {/* content 1 */}
@@ -400,12 +402,14 @@ function Brand() {
               data-aos="zoom-in-up"
               data-aos-easing="ease-in-out"
             >
-              <u className="underline-offset-8">CPC manufacturing unit</u>
+              <u className="underline-offset-8 capitalize">
+                Instruments manufacturing facility
+              </u>
             </h3>
             <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5  ">
               {/* content 1 */}
               <div
-                className="text-justify"
+                className=""
                 data-aos="flip-left"
                 data-aos-easing="ease-in-out"
               >
@@ -446,7 +450,7 @@ function Brand() {
               </div>
 
               <div
-                className="text-justify"
+                className=""
                 data-aos="flip-right"
                 data-aos-easing="ease-in-out"
               >

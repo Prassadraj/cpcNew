@@ -115,6 +115,10 @@ function ProductInfo() {
           menuName: "Maintenance And Care",
           content: product.mainAndCare,
         },
+        {
+          menuName: "Test Menu",
+          content: product.testMenu,
+        },
       ],
     },
     // {
