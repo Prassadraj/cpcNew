@@ -643,7 +643,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Monitoring routine biochemistry profiles like glucose,
                         lipids, and enzymes.
@@ -786,7 +786,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Routine health check-ups to assess organ function.
                       </li>
@@ -921,7 +921,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Measuring proteins such as CRP, ferritin, and rheumatoid
                         factors.
@@ -1058,7 +1058,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>Conducting metabolic and organ function panels.</li>
                       <li>Supporting chronic disease management.</li>
                       <li>
@@ -1192,7 +1192,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Calibrating analyzers for routine biochemistry tests.
                       </li>
@@ -2756,7 +2756,7 @@ const products = [
                     <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Diagnosis of conditions like arthritis, infections, and
                         autoimmune disorders.
@@ -2951,7 +2951,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>
                         ANA Test Profile Processing: Automates the
                         immunoblotting process for antinuclear antibody tests,
@@ -3211,7 +3211,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>
                         ANA Test Profile Processing: Automates the
                         immunoblotting process for antinuclear antibody tests,
@@ -3474,7 +3474,7 @@ const products = [
       //                 {" "}
       //                 Use Cases:
       //               </strong>
-      //               <ul className="list-disc pl-5 text-lg">
+      //               <ul className="list-disc pl-5 ">
       //                 <li>
       //                   Prenatal Screening: Detects biomarkers related to fetal
       //                   development, helping to identify potential genetic
@@ -3678,7 +3678,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Working Principle:</strong>{" "}
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      Working Principle:
+                    </strong>{" "}
                     The iFlash 3000 operates on the principle of
                     chemiluminescence, where light is emitted as a result of a
                     chemical reaction. In the context of immunoassays, this
@@ -3695,7 +3697,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     The iFlash 3000 is ideal for clinical laboratories, hospital
@@ -3711,8 +3713,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Thyroid Function Testing: The iFlash 3000 excels in
                         performing thyroid assays, providing accurate and rapid
@@ -3904,7 +3908,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Working Principle:</strong>{" "}
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      Working Principle:
+                    </strong>{" "}
                     The iFlash 1800 uses chemiluminescence immunoassay (CLIA)
                     technology to detect and quantify various analytes in
                     biological samples. The process involves a chemiluminescent
@@ -3915,8 +3921,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">How It Works:</strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      How It Works:
+                    </strong>
+                    <ul className="list-disc pl-5 ">
                       <li>
                         <strong className="text-xs tablet:text-sm font-semibold largeLaptop:text-2xl ">
                           {" "}
@@ -3955,7 +3963,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     The iFlash 1800 is ideal for clinical laboratories,
@@ -3965,8 +3973,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 ">
                       <li>Thyroid function testing</li>
                       <li>Hormone level measurement</li>
                       <li>Infectious disease detection</li>
@@ -4154,7 +4164,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>Thyroid function testing</li>
                       <li>Hormone level assessment</li>
                       <li>Infectious disease screening</li>
@@ -4286,7 +4296,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Working Principle:</strong>{" "}
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      Working Principle:
+                    </strong>{" "}
                     The KRYPTOR Compact Plus operates using TRACE (Time Resolved
                     Amplified Cryptate Emission) technology, a highly sensitive
                     method for detecting biomarkers in biological samples. This
@@ -4301,7 +4313,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     The KRYPTOR Compact Plus is ideal for clinical laboratories,
@@ -4315,8 +4327,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Prenatal Screening: Accurately detects biomarkers
                         associated with chromosomal abnormalities, aiding in
@@ -4547,7 +4561,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Working Principle:</strong>{" "}
+                    <strong className="text-wrap text-sm ">
+                      Working Principle:
+                    </strong>{" "}
                     The Euroimmun Analyzer I-2P fully automates the
                     Enzyme-Linked Immunosorbent Assay (ELISA) process. It
                     manages sample dilution, incubation, washing, and detection,
@@ -4558,7 +4574,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     Ideal for clinical labs handling high-volume diagnostics,
@@ -4568,8 +4584,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Clinical Diagnostics: Testing for infectious diseases,
                         autoimmune disorders, and allergies.
@@ -4779,7 +4797,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Autoimmune Disease Diagnostics: Automates the detection
                         of autoimmune markers, offering accurate and reliable
@@ -4794,11 +4812,11 @@ const products = [
                         Allergy Testing: Facilitates rapid and precise analysis
                         of allergen-specific antibodies.
                       </li>
-                      <li>
+                      {/* <li>
                         Oncology Diagnostics: Plays a critical role in detecting
                         cancer-related biomarkers, assisting in diagnosis and
                         treatment planning.
-                      </li>
+                      </li> */}
                       <li>
                         Research Applications: Ideal for research labs studying
                         protein detection and analysis.
@@ -4973,7 +4991,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Working Principle:</strong>{" "}
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      Working Principle:
+                    </strong>{" "}
                     The IF Sprinter automates the entire ImmunoFluorescence
                     Assay (IFA) process, from sample preparation to result
                     generation. It uses fluorescent-labeled antibodies to detect
@@ -4988,7 +5008,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     Ideal for clinical diagnostic labs, research facilities, and
@@ -4999,8 +5019,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Autoimmune Disease Diagnostics: Automates detection of
                         autoimmune markers for quicker diagnosis.
@@ -5162,7 +5184,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Working Principle:</strong>{" "}
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      Working Principle:
+                    </strong>{" "}
                     The EUROStar III Plus operates using advanced LED
                     illumination to excite fluorophores in the sample. When the
                     fluorophores are excited, they emit light at specific
@@ -5176,7 +5200,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     Ideal for clinical labs performing fluorescence assays,
@@ -5187,8 +5211,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Immunofluorescence Assays: Visualizing antibodies in
                         diagnostic tests.
@@ -5384,7 +5410,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Diagnosing autoimmune diseases such as lupus and
                         rheumatoid arthritis.
@@ -5535,7 +5561,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>
                         ANA Test Profiles: Automates the detection of
                         antinuclear antibodies, aiding in the diagnosis of
@@ -5743,7 +5769,9 @@ const products = [
               <tbody className="flex flex-col gap-4">
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Working Principle:</strong>{" "}
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      Working Principle:
+                    </strong>{" "}
                     The Euroimmun Analyzer I automates the ELISA process by
                     handling all stages of the assay, including sample dilution,
                     incubation, washing, and detection. The system's precise
@@ -5757,7 +5785,7 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
                       For Whom It Is Useful:
                     </strong>{" "}
                     Ideal for clinical laboratories that require efficient and
@@ -5768,8 +5796,10 @@ const products = [
                 </tr>
                 <tr>
                   <td className="  text-black">
-                    <strong className="text-wrap">Use Cases:</strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <strong className="text-wrap tablet:text-sm largelaptop:text-base">
+                      Use Cases:
+                    </strong>
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Clinical Diagnostics: Routine testing for infectious
                         diseases, autoimmune disorders, and allergies.
@@ -5992,7 +6022,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>
                         Autoimmune Disease Diagnostics: Efficiently automates
                         detection of autoimmune markers for timely patient
@@ -6543,7 +6573,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>500 bead count</li>
                       <li>Can use to know Extended coverage</li>
                       <li>
@@ -6680,7 +6710,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>100 different tests in a single reaction volume</li>
                       <li>
                         Antibody screen and Mid-resolution HLA can be performed
@@ -6814,7 +6844,7 @@ const products = [
                       {" "}
                       Use Cases:
                     </strong>
-                    <ul className="list-disc pl-5 text-lg">
+                    <ul className="list-disc pl-5 ">
                       <li>
                         High-Volume Sample Sorting: Automates sorting in
                         high-demand environments, reducing turnaround times and
