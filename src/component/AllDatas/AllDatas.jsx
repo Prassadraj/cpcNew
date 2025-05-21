@@ -3232,12 +3232,12 @@ const products = [
 
         advantages: (
           <div>
-            <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+            <p className="text-base largeLaptop:text-2xl font-medium text-gray-800 mb-4">
               {" "}
               Efficient Processing: Automates multiple steps in the western blot
               process, reducing manual labor and increasing lab productivity.
             </p>
-            <ul className="space-y-6 font-poppins">
+            <ul className="space-y-6 font-poppins ml-4">
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
@@ -3271,21 +3271,46 @@ const products = [
                 </p>
               </li>
             </ul>
+            <div className="mt-4">
+              <p className="text-base largeLaptop:text-2xl font-medium text-gray-800 mb-4">
+                {" "}
+                EUROline Scan - Software
+              </p>
+              <ul className="space-y-6 font-poppins ml-4">
+                <li className="flex gap-3">
+                  <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+                    {" "}
+                    <span className="text-[#10b981]">◆</span> User friendly
+                  </p>
+                </li>
+                <li className="flex gap-3">
+                  <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+                    {" "}
+                    <span className="text-[#10b981]">◆</span>Easy result
+                    interpretation
+                  </p>
+                </li>
+                <li className="flex gap-3">
+                  <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
+                    {" "}
+                    <span className="text-[#10b981]">◆</span>High Quality
+                    standard reporting
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
         ),
 
         benefits: (
           <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Increased
-                  Productivity: The automated workflow allows lab technicians to
-                  focus on other tasks while the PLEXMAT 4 handles western blot
-                  processing, enhancing overall efficiency.
-                </p>
-              </li>
+            <p className="text-base largeLaptop:text-2xl font-medium text-gray-800 mb-4">
+              {" "}
+              Increased Productivity: The automated workflow allows lab
+              technicians to focus on other tasks while the PLEXMAT 4 handles
+              western blot processing, enhancing overall efficiency.
+            </p>
+            <ul className="space-y-6 font-poppins ml-4">
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
@@ -3329,15 +3354,12 @@ const products = [
         testMenu: [""],
         mainAndCare: (
           <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Routine Calibration:
-                  Regular calibration ensures that the PLEXMAT 4 maintains its
-                  accuracy and reliability over time.
-                </p>
-              </li>
+            <p className="text-base largeLaptop:text-2xl font-medium text-gray-800 mb-4">
+              {" "}
+              Routine Calibration: Regular calibration ensures that the PLEXMAT
+              4 maintains its accuracy and reliability over time.
+            </p>
+            <ul className="space-y-6 font-poppins ml-4">
               <li className="flex gap-3">
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
