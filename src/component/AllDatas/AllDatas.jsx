@@ -4982,9 +4982,9 @@ const products = [
         title: "IF Sprinter",
         section: "ifa",
         shortdescription:
-          "The IF Sprinter is a sophisticated IFA Processor (ImmunoFluorescence Assay) developed to bring efficiency and accuracy to diagnostic laboratories. This fully automated IFA processor eliminates manual handling errors and speeds up the immunofluorescence process, allowing labs to focus on delivering timely results. The IF Sprinter’s automation capabilities are also extended to ELISA assays, making it a versatile instrument for any lab handling immunological testing.",
+          "The IF Sprinter is an advanced IFA Processor (ImmunoFluorescence Assay) designed to streamline and automate the immunofluorescence assay process. With high throughput and precision, this fully automated IFA processor enhances lab productivity while delivering consistent and accurate results. Ideal for busy diagnostic labs, the IF Sprinter provides reliable automation for ImmunoFluorescence assays.",
         description:
-          "The IF Sprinter is an advanced IFA Processor (ImmunoFluorescence Assay) designed to streamline and automate the immunofluorescence assay process. With high throughput and precision, this fully automated IFA processor enhances lab productivity while delivering consistent and accurate results. Ideal for busy diagnostic labs, the IF Sprinter provides reliable automation for both IFA and ELISA assays.",
+          "The IF Sprinter is a sophisticated IFA Processor (ImmunoFluorescence Assay) developed to bring efficiency and accuracy to diagnostic laboratories. This fully automated IFA processor eliminates manual handling errors and speeds up the immunofluorescence process, allowing labs to focus on delivering timely results. The IF Sprinter’s automation capabilities are versatile instruments for any lab handling immunological testing.",
         workPrinciple: (
           <div>
             <table className="min-w-full table-auto">
@@ -5002,8 +5002,7 @@ const products = [
                     antibodies and measures the emitted fluorescence, which is
                     proportional to the amount of antigen in the sample. This
                     automation ensures precision, reproducibility, and reduces
-                    hands-on time for lab technicians. The IF Sprinter can also
-                    handle ELISA tests, expanding its versatility.
+                    hands-on time for lab technicians.
                   </td>
                 </tr>
                 <tr>
@@ -5013,8 +5012,8 @@ const products = [
                     </strong>{" "}
                     Ideal for clinical diagnostic labs, research facilities, and
                     hospitals performing high-throughput, automated immunoassay
-                    processing, especially those focusing on IFA and ELISA
-                    tests.
+                    processing, especially those focusing on Immunofluorescence
+                    assay.
                   </td>
                 </tr>
                 <tr>
@@ -5025,11 +5024,12 @@ const products = [
                     <ul className="list-disc pl-5 ">
                       <li>
                         Autoimmune Disease Diagnostics: Automates detection of
-                        autoimmune markers for quicker diagnosis.
+                        Broad spectrum of autoimmune markers for quicker
+                        diagnosis.
                       </li>
                       <li>
-                        Infectious Disease Screening: Processes IFA and ELISA
-                        tests for pathogens to aid in disease management.
+                        Infectious Disease Screening: Processes IFA tests for
+                        pathogens to aid in disease management.
                       </li>
                       <li>
                         Allergy Testing: Facilitates rapid analysis of
@@ -5041,7 +5041,7 @@ const products = [
                       </li>
                       <li>
                         Cancer Biomarker Detection: Critical for detecting and
-                        monitoring cancer-related biomarkers.
+                        monitoring cancer-related biomarkers
                       </li>
                     </ul>
                   </td>
