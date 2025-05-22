@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useRef } from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
 import image1 from "../../component/AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
-import image2 from "../../component/AllDatas/ProductImages/Hematology/SedratePro/product1.jpg";
-import image3 from "../../component/AllDatas/ProductImages/Immunology/Iflash1200/product1.jpg";
+import image2 from "../../component/AllDatas/ProductImages/Hematology/SedratePro/product1.png";
+import image3 from "../../component/AllDatas/ProductImages/Immunology/Iflash1200/product1.png";
 import image4 from "../../component/AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
 import image5 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ II/product1.webp";
 import image6 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ III/product1.webp";

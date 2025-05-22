@@ -76,7 +76,7 @@ import DYNACOUNT5D1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT5D/Dynac
 
 //
 import SedrateProGrey from "../AllDatas/greyImages/Sedrate Pro.jpg";
-import SedratePro1 from "../AllDatas/ProductImages/Hematology/SedratePro/product1.jpg";
+import SedratePro1 from "../AllDatas/ProductImages/Hematology/SedratePro/product1.png";
 import SedratePro2 from "../AllDatas/ProductImages/Hematology/SedratePro/product2.webp";
 import SedratePro3 from "../AllDatas/ProductImages/Hematology/SedratePro/product3.webp";
 // Immunology;
@@ -90,7 +90,7 @@ import EuroStarGrey from "../AllDatas/greyImages/Eurostar III Plus.webp";
 import EuroStar from "../AllDatas/ProductImages/Immunology/EuroStar/product1.webp";
 //
 import Iflash1200Grey from "../AllDatas/greyImages/Iflash 1200.webp";
-import Iflash12001 from "../AllDatas/ProductImages/Immunology/Iflash1200/product1.jpg";
+import Iflash12001 from "../AllDatas/ProductImages/Immunology/Iflash1200/product1.png";
 import Iflash12002 from "../AllDatas/ProductImages/Immunology/Iflash1200/product2.webp";
 import Iflash12003 from "../AllDatas/ProductImages/Immunology/Iflash1200/product3.webp";
 import Iflash12004 from "../AllDatas/ProductImages/Immunology/Iflash1200/product4.webp";
