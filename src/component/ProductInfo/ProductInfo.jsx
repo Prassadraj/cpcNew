@@ -115,10 +115,10 @@ function ProductInfo() {
           menuName: "Maintenance And Care",
           content: product.mainAndCare,
         },
-        product.testMenu && {
-          menuName: "Test Menu",
-          content: product.testMenu,
-        },
+        // product.testMenu && {
+        //   menuName: "Test Menu",
+        //   content: product.testMenu,
+        // },
       ].filter(Boolean), // ✅ removes undefined/null entries
     },
   ];
