@@ -160,7 +160,7 @@ function ProductCategaries() {
             <Link
               className="dropdown-item
               text-left text-black shadow-custom-green text-sm p-2 bg-white border font-poppins w-fit tablet:px-3 tablet:py-2 rounded-md font-medium hover:scale-90 transition-all shadow-md"
-              to="/product/Biochemistry/top"
+              to={"/product/Biochemistry/top"}
               onClick={() => {
                 setSelectSectionCategory("top");
                 setSelectedCategory("Biochemistry");
