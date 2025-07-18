@@ -168,10 +168,10 @@ const AllProductsCard = () => {
           <div className="mr-10 text-xs largeLaptop:text-2xl text-nowrap tablet:text-xl font-black text-custom-green p-2 rounded-xl cursor-pointer">
             <Link
               to="/product/Biochemistry/top"
-              onClick={() => {
-                setSelectSectionCategory("top");
-                setSelectedCategory("Biochemistry");
-              }}
+              // onClick={() => {
+              //   setSelectSectionCategory("top");
+              //   setSelectedCategory("Biochemistry");
+              // }}
             >
               <span className="hidden tablet:block">All Products</span>
               <span>
