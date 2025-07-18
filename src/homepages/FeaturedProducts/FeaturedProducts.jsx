@@ -12,11 +12,11 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Magnetic from "../../component/magneticButton/Magnetic";
 import { Link } from "react-router-dom";
-import { CategoryContext } from "../../component/Context/CategoryContext";
+import { SectionCategory } from "../../component/Context/SectionCategory";
 
 const FeaturedProducts = () => {
   const { selectedCategory, setSelectedCategory, setSelectSectionCategory } =
-    useContext(CategoryContext);
+    useContext(SectionCategory);
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -165,7 +165,7 @@ const AllProductsCard = () => {
         <Magnetic>
           <div className="mr-10 text-xs largeLaptop:text-2xl text-nowrap tablet:text-xl font-black text-custom-green p-2 rounded-xl cursor-pointer">
             <Link
-              to="product/Biochemistry/top"
+              to="/product/Biochemistry/top"
               onClick={() => {
                 setSelectSectionCategory("top");
                 setSelectedCategory("Biochemistry");

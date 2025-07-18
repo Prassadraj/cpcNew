@@ -14,9 +14,9 @@ import PreAnalytical from "../ProductCategaries/GIF/Pre-analytical-automation.gi
 import BioChemistry from "../ProductCategaries/GIF/Bio Chemistry.gif";
 import "./cat.css";
 import Magnetic from "../../component/magneticButton/Magnetic";
-import { CategoryContext } from "../../component/Context/CategoryContext";
 import { Link } from "react-router-dom";
 import gsap from "gsap";
+import { SectionCategory } from "../../component/Context/SectionCategory";
 //
 const categoryItems = [
   { name: "Biochemistry", image: chemistry },
@@ -77,7 +77,7 @@ const mobile = [
 
 function ProductCategaries() {
   const { setSelectedCategory, setSelectSectionCategory } =
-    useContext(CategoryContext);
+    useContext(SectionCategory);
   const marqueeRef = useRef(null);
   const topItemsRef = useRef(null); // Ref for top items
   const bottomItemsRef = useRef(null); // Ref for bottom items
@@ -160,10 +160,10 @@ function ProductCategaries() {
             className="
               text-left text-black shadow-custom-green text-sm p-2 bg-white border font-poppins w-fit tablet:px-3 tablet:py-2 rounded-md font-medium hover:scale-90 transition-all shadow-md"
             to="/product/Biochemistry/top"
-            // onClick={() => {
-            //   setSelectSectionCategory("top");
-            //   setSelectedCategory("Biochemistry");
-            // }}
+            onClick={() => {
+              setSelectSectionCategory("top");
+              setSelectedCategory("Biochemistry");
+            }}
           >
             Explore Products
           </Link>
