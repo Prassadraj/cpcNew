@@ -160,6 +160,9 @@ const Card = ({ card }) => {
 };
 
 const AllProductsCard = () => {
+  const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
+  const { selecteSectionCategory, setSelectSectionCategory } =
+    useContext(SectionCategory);
   return (
     <div className="group relative  h-[400px] w-[100px]  tablet:w-[200px] overflow-hidden flex items-center justify-center">
       <div className="absolute inset-0 z-0"></div>
@@ -168,10 +171,10 @@ const AllProductsCard = () => {
           <div className="mr-10 text-xs largeLaptop:text-2xl text-nowrap tablet:text-xl font-black text-custom-green p-2 rounded-xl cursor-pointer">
             <Link
               to="/product/Biochemistry/top"
-              // onClick={() => {
-              //   setSelectSectionCategory("top");
-              //   setSelectedCategory("Biochemistry");
-              // }}
+              onClick={() => {
+                setSelectSectionCategory("top");
+                setSelectedCategory("Biochemistry");
+              }}
             >
               <span className="hidden tablet:block">All Products</span>
               <span>
