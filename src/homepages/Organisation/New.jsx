@@ -170,7 +170,7 @@ function New() {
           <img src={sachika} className=" w-[100px] mb-4" alt="img" />
           <p className="text-[9px] tablet:text-xl text-start flex items-center">
             <VscDebugBreakpointData className="text-green-900" />
-            Basic Level Immunofluorescence
+            Basic Level Immunofluorescence.
           </p>
           <p className="text-[9px] tablet:text-xl text-start flex items-center">
             <VscDebugBreakpointData className="text-green-900" />
@@ -207,7 +207,7 @@ function New() {
               {" "}
               <VscDebugBreakpointData className="text-green-900 " />
               <p className="text-[9px] tablet:text-xl text-center ">
-                Basic Level Immunofluorescence
+                Basic Level Immunofluorescence.
               </p>
             </div>
 
