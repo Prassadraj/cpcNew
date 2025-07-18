@@ -167,7 +167,7 @@ function New() {
           />
         </div>
         <div className="flex flex-col items-start justify-center w-1/2">
-          <img src={sachika} className=" w-[100px] mb-4" alt="img" />
+          <img src={organisation2} className=" w-[100px] mb-2" alt="img" />
           <p className="text-[9px] tablet:text-xl text-start flex items-center">
             <VscDebugBreakpointData className="text-green-900" />
             Basic Level Immunofluorescence.
@@ -205,7 +205,7 @@ function New() {
           <div className="flex flex-col items-center justify-center">
             <div className=" flex items-center ">
               {" "}
-              <VscDebugBreakpointData className="text-green-900 " />
+              {/* <VscDebugBreakpointData className="text-green-900 " /> */}
               <p className="text-[9px] tablet:text-xl text-center ">
                 Basic Level Immunofluorescence.
               </p>
@@ -213,14 +213,14 @@ function New() {
 
             <div className=" flex items-center ">
               {" "}
-              <VscDebugBreakpointData className="text-green-900 " />
+              {/* <VscDebugBreakpointData className="text-green-900 " /> */}
               <p className="text-[9px] tablet:text-xl text-center ">
                 Advanced Immunofluorescence & Immunology Training.{" "}
               </p>
             </div>
             <div className=" flex items-center ">
               {" "}
-              <VscDebugBreakpointData className="text-green-900 " />
+              {/* <VscDebugBreakpointData className="text-green-900 " /> */}
               <p className="text-[9px] tablet:text-xl text-center ">
                 Clinical Lab Practices & Automation.{" "}
               </p>

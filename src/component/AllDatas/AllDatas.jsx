@@ -23,8 +23,8 @@ import prim2 from "../AllDatas/ProductImages/Biochemistry/PRIME/product2.webp";
 import chemistryCollibratorGrey from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/Chemistry Calibrator and Chemistry Controls.jpg";
 import chemistryCollibrator from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/Chemistry Calibrator and Chemistry Controls.webp";
 //
-import ichemPrimeGrey from "../AllDatas/ProductImages/Biochemistry/ichemPrime/Ichem Prime.jpg";
-import ichemPrime from "../AllDatas/ProductImages/Biochemistry/ichemPrime/Ichem Prime.webp";
+import ichemPrimeGrey from "../AllDatas/greyImages/reagentGrey.png";
+import ichemPrime from "../AllDatas/ProductImages/Biochemistry/ichemPrime/reagent.png";
 //
 import identiImmunoGrey from "../AllDatas/ProductImages/Biochemistry/identiImmuno/identi Immuno Turbidimetry Reagents.jpg";
 import identiImmuno from "../AllDatas/ProductImages/Biochemistry/identiImmuno/identi Immuno Turbidimetry Reagents.webp";
@@ -746,8 +746,8 @@ const products = [
         allover: "Reagents",
         id: "6",
         section: "reagents",
-        coverImg: ichemMagnaGrey,
-        image: [ichemMagna1],
+        coverImg: ichemPrimeGrey,
+        image: [ichemPrime],
         shortdescription:
           "The iChem Magna is a high-performance biochemical testing solution, delivering precise and reliable results for high-volume clinical laboratories.",
         title: "i-chem Magna",
@@ -880,8 +880,8 @@ const products = [
         allover: "Reagents",
         id: "7",
         section: "reagents",
-        coverImg: identiImmunoGrey,
-        image: [identiImmuno],
+        coverImg: ichemPrimeGrey,
+        image: [ichemPrime],
         shortdescription:
           "Identi Immuno Turbidimetry Reagents provide precise and sensitive results for detecting critical biomarkers in immunoassay testing.",
         title: "identi Immuno Turbidimetry Reagents",
@@ -1019,8 +1019,8 @@ const products = [
         allover: "Reagents",
         id: "8",
         section: "reagents",
-        coverImg: identiReagentsGrey,
-        image: [identiReagents],
+        coverImg: ichemPrimeGrey,
+        image: [ichemPrime],
         title: "identi",
         shortdescription:
           "The Identi Reagents Kit offers reliable and easy-to-use solutions for accurate diagnostic testing in clinical laboratories.",
@@ -2889,7 +2889,7 @@ const products = [
         id: "2",
         coverImg: Plexmat8Grey,
         image: [Plexmat8],
-        title: "Plexmat 8",
+        title: "PlexMAT 8",
         section: "immunoblot",
         shortdescription:
           "The PLEXMAT 8 is a cutting-edge immunoblot processor designed to automate and streamline the western blot process in clinical and diagnostic laboratories. This automated western blot processor offers high precision and efficiency, handling up to 8 strips simultaneously. Its automation capabilities significantly reduce manual handling, ensuring consistency and reproducibility across all samples. The PLEXMAT 8 is particularly useful for processing complex diagnostic profiles, such as ANA (antinuclear antibody) tests and liver function profiles, making it a versatile tool in immunodiagnostics.",
@@ -3147,7 +3147,7 @@ const products = [
         id: "1",
         image: [Plexmat4],
         coverImg: Plexmat4Grey,
-        title: "Plexmat 4",
+        title: "PlexMAT 4",
         section: "immunoblot",
         tagline:
           "Compact multiplex Immunoblot processor in the diagnosis of ALLERGY, AUTOIMMUNE & INFECTION",
@@ -3652,7 +3652,7 @@ const products = [
         id: "7",
         coverImg: Iflash3000Grey,
         image: [Iflash30001, Iflash30002, Iflash30003, Iflash30004],
-        title: "IFlash 3000",
+        title: "iFlash 3000",
         section: "clia",
         shortdescription:
           "The iFlash 3000 is a state-of-the-art fully automated immunoassay analyzer designed to meet the demands of modern diagnostic laboratories. Leveraging chemiluminescence technology, this CLIA analyser delivers precise and timely results for various assays, making it an essential tool for clinical diagnostics. Its robust construction and advanced automation features ensure that labs can manage high volumes of tests without compromising on accuracy or speed.",
@@ -3883,7 +3883,7 @@ const products = [
           // Iflash18005,
         ],
         section: "clia",
-        title: "IFlash 1800",
+        title: "iFlash 1800",
         shortdescription:
           "The iFlash 1800 is a high-performance fully automated immunoassay analyzer that leverages chemiluminescence technology to provide accurate and reliable diagnostic results. This CLIA analyser is designed for laboratories seeking efficiency, precision, and high throughput.",
         description:
@@ -4124,7 +4124,7 @@ const products = [
           // Iflash12005,
         ],
         section: "clia",
-        title: "IFlash 1200",
+        title: "iFlash 1200",
         shortdescription:
           "The iFlash 1200 is a state-of-the-art Chemiluminescence Immunoassay (CLIA) analyzer that provides high sensitivity and specificity in immunoassay testing. This fully automated system simplifies complex diagnostic procedures, offering a user-friendly interface and robust performance to meet the demands of modern laboratories.",
         description:
