@@ -13,9 +13,11 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Magnetic from "../../component/magneticButton/Magnetic";
 import { Link } from "react-router-dom";
 import { SectionCategory } from "../../component/Context/SectionCategory";
+import { CategoryContext } from "../../component/Context/CategoryContext";
 
 const FeaturedProducts = () => {
-  const { selectedCategory, setSelectedCategory, setSelectSectionCategory } =
+  const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
+  const { selecteSectionCategory, setSelectSectionCategory } =
     useContext(SectionCategory);
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);

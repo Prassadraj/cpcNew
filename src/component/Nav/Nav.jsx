@@ -30,8 +30,8 @@ function Nav() {
     apply: false,
   });
   const [showMobileMenu, setShowMobileMenu] = useState(false);
-  const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
   const { setIsToggled } = useContext(BtnContextProvider);
+  const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
   const { selecteSectionCategory, setSelectSectionCategory } =
     useContext(SectionCategory);
 
@@ -117,8 +117,9 @@ function Nav() {
 
       {/* Mobile Menu */}
       <div
-        className={`${showMobileMenu ? "flex" : "hidden"
-          } flex-col md:hidden  bg-white absolute top-16 left-0 w-full px-4 py-1 shadow-md border-t-2 h-screen  font-lato`}
+        className={`${
+          showMobileMenu ? "flex" : "hidden"
+        } flex-col md:hidden  bg-white absolute top-16 left-0 w-full px-4 py-1 shadow-md border-t-2 h-screen  font-lato`}
       >
         <div className="h-96 overflow-y-scroll border-b-2 flex flex-col gap-1">
           <div>
@@ -390,8 +391,9 @@ function Nav() {
       >
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${selected === "home" ? "selected" : ""
-              }`}
+            className={`cursor-pointer ${
+              selected === "home" ? "selected" : ""
+            }`}
             to="/"
           >
             Home
@@ -403,8 +405,9 @@ function Nav() {
           onMouseLeave={() => toggleDropdown("about")}
         >
           <Link
-            className={`cursor-pointer ${selected === "about" || selected === "csr" ? "selected" : ""
-              }`}
+            className={`cursor-pointer ${
+              selected === "about" || selected === "csr" ? "selected" : ""
+            }`}
             to="/about"
           >
             About
@@ -422,8 +425,9 @@ function Nav() {
         </div>
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${selected === "brand" ? "selected" : ""
-              }`}
+            className={`cursor-pointer ${
+              selected === "brand" ? "selected" : ""
+            }`}
             to="/brand"
           >
             Our Brands
@@ -435,8 +439,9 @@ function Nav() {
           onMouseLeave={() => toggleDropdown("products")}
         >
           <Link
-            className={`cursor-pointer ${selected === "product" ? "selected" : ""
-              }`}
+            className={`cursor-pointer ${
+              selected === "product" ? "selected" : ""
+            }`}
             onClick={() => {
               setSelectSectionCategory("top");
               setSelectedCategory("Biochemistry");
@@ -546,8 +551,9 @@ function Nav() {
           onMouseLeave={() => toggleDropdown("career")}
         >
           <Link
-            className={`cursor-pointer ${selected === "career" ? "selected" : ""
-              }`}
+            className={`cursor-pointer ${
+              selected === "career" ? "selected" : ""
+            }`}
             to="/career"
           >
             Career
@@ -565,8 +571,9 @@ function Nav() {
         </div>
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${selected === "success" ? "selected" : ""
-              }`}
+            className={`cursor-pointer ${
+              selected === "success" ? "selected" : ""
+            }`}
             to="/success"
           >
             Our Success
@@ -574,8 +581,9 @@ function Nav() {
         </div>
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${selected === "blog" ? "selected" : ""
-              }`}
+            className={`cursor-pointer ${
+              selected === "blog" ? "selected" : ""
+            }`}
             to="/blog"
           >
             Blog
@@ -583,8 +591,9 @@ function Nav() {
         </div>
         <div className="nav-item">
           <Link
-            className={`cursor-pointer ${selected === "contact" ? "selected" : ""
-              }`}
+            className={`cursor-pointer ${
+              selected === "contact" ? "selected" : ""
+            }`}
             to="/contact"
           >
             Contact

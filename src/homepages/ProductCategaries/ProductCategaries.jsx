@@ -17,6 +17,7 @@ import Magnetic from "../../component/magneticButton/Magnetic";
 import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { SectionCategory } from "../../component/Context/SectionCategory";
+import { CategoryContext } from "../../component/Context/CategoryContext";
 //
 const categoryItems = [
   { name: "Biochemistry", image: chemistry },
@@ -76,7 +77,8 @@ const mobile = [
 ];
 
 function ProductCategaries() {
-  const { setSelectedCategory, setSelectSectionCategory } =
+  const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
+  const { selecteSectionCategory, setSelectSectionCategory } =
     useContext(SectionCategory);
   const marqueeRef = useRef(null);
   const topItemsRef = useRef(null); // Ref for top items
