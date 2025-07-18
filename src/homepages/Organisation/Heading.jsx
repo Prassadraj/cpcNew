@@ -14,15 +14,15 @@ function Heading() {
     tablet:mb-[50px] largeLaptop:h-fit gap-4"
     >
       <p className="text-lg tablet:text-3xl largeLaptop:text-4xl text-custom-green font-semibold title1 uppercase">
-        Our Sister Organizations
+        Sachika
       </p>
-      <p
+      {/* <p
         className="font-poppins text-sm tablet:text-xl max-w-xl text-center title2 largeLaptop:text-3xl
       largeLaptop:max-w-3xl"
       >
         Explore our network of affiliated companies that enhance healthcare
         globally.
-      </p>
+      </p> */}
     </div>
   );
 }

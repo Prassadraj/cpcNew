@@ -76,7 +76,8 @@ const mobile = [
 ];
 
 function ProductCategaries() {
-  const { setSelectedCategory } = useContext(CategoryContext);
+  const { setSelectedCategory, setSelectSectionCategory } =
+    useContext(CategoryContext);
   const marqueeRef = useRef(null);
   const topItemsRef = useRef(null); // Ref for top items
   const bottomItemsRef = useRef(null); // Ref for bottom items
@@ -155,9 +156,18 @@ function ProductCategaries() {
             Explore our diverse range of laboratory equipment for all your
             medical and diagnostic needs.
           </h2>
-          <button className="text-left text-black shadow-custom-green text-sm p-2 bg-white border font-poppins w-fit tablet:px-3 tablet:py-2 rounded-md font-medium hover:scale-90 transition-all shadow-md">
+
+          <Link
+            className="dropdown-item
+              text-left text-black shadow-custom-green text-sm p-2 bg-white border font-poppins w-fit tablet:px-3 tablet:py-2 rounded-md font-medium hover:scale-90 transition-all shadow-md"
+            to="/product/Biochemistry/top"
+            onClick={() => {
+              setSelectSectionCategory("top");
+              setSelectedCategory("Biochemistry");
+            }}
+          >
             Explore Products
-          </button>
+          </Link>
         </div>
         {/* right */}
         <div

@@ -85,7 +85,7 @@ function TestimonialSlider() {
             </div>
           ))}
         </div>
-        <div className="tablet:flex hidden justify-center mt-4 gap-2">
+        {/* <div className="tablet:flex hidden justify-center mt-4 gap-2">
           {data.map((_, i) => (
             <button
               key={i}
@@ -97,7 +97,7 @@ function TestimonialSlider() {
               onClick={() => handleDotClick(i)}
             ></button>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

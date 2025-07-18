@@ -2066,7 +2066,7 @@ const products = [
       "3 Part Hematology",
       "5 Part Hematology",
       "ESR Analyzer",
-      "Reagents",
+      // "Reagents",
     ],
     items: [
       {
@@ -2881,7 +2881,7 @@ const products = [
       "IFA",
       "CLIA",
       "TRACE",
-      "Reagents",
+      // "Reagents",
     ],
 
     items: [
@@ -6256,7 +6256,10 @@ const products = [
   // Point of Care
   {
     category: "Point of Care",
-    subsection: ["All", "Reagents"],
+    subsection: [
+      "All",
+      //  "Reagents"
+    ],
     items: [
       {
         topic: "POCT Hormone Analyzer",
@@ -6581,7 +6584,10 @@ const products = [
   },
   {
     category: "Molecular Diagnostics",
-    subsection: ["All", "Reagents"],
+    subsection: [
+      "All",
+      // "Reagents"
+    ],
     items: [
       {
         topic: "LABScan 3D",
@@ -6835,7 +6841,10 @@ const products = [
   },
   {
     category: "Pre-Analytical Automation",
-    subsection: ["All", "Reagents"],
+    subsection: [
+      "All",
+      //  "Reagents"
+    ],
     items: [
       {
         topic: "Sample Sorter",

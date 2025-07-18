@@ -15,7 +15,8 @@ import { Link } from "react-router-dom";
 import { CategoryContext } from "../../component/Context/CategoryContext";
 
 const FeaturedProducts = () => {
-  const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
+  const { selectedCategory, setSelectedCategory, setSelectSectionCategory } =
+    useContext(CategoryContext);
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -163,7 +164,13 @@ const AllProductsCard = () => {
       <div className="absolute inset-0 z-10 flex items-center justify-center">
         <Magnetic>
           <div className="mr-10 text-xs largeLaptop:text-2xl text-nowrap tablet:text-xl font-black text-custom-green p-2 rounded-xl cursor-pointer">
-            <Link to="/product">
+            <Link
+              to="product/Biochemistry/top"
+              onClick={() => {
+                setSelectSectionCategory("top");
+                setSelectedCategory("Biochemistry");
+              }}
+            >
               <span className="hidden tablet:block">All Products</span>
               <span>
                 <FontAwesomeIcon icon={faArrowRight} />

@@ -7,9 +7,12 @@ import organisation2 from "../../images/organisation/2.png";
 import organisation3 from "../../images/organisation/3.png";
 import image1 from "../../images/organisation/jeev.jpg";
 import image2 from "../../images/organisation/sachika.jpg";
+import sachika from "../../images/organisation/sachikaNew.png";
 import image3 from "../../images/organisation/cpcmed.jpg";
 import Heading from "./Heading";
 import "./new.css";
+import { VscDebugBreakpointData } from "react-icons/vsc";
+
 // Register ScrollTrigger with GSAP
 gsap.registerPlugin(ScrollTrigger);
 
@@ -164,11 +167,18 @@ function New() {
           />
         </div>
         <div className="flex flex-col items-start justify-center w-1/2">
-          <img src={organisation2} className=" w-[100px]" alt="img" />
-          <p className="text-[9px] tablet:text-xl text-start ">
-            Sachika, an initiative by CPC Diagnostics Pvt. Ltd., focuses on life
-            sciences education, empowering clinicians with contemporary
-            bioscience skills.
+          <img src={sachika} className=" w-[100px] mb-4" alt="img" />
+          <p className="text-[9px] tablet:text-xl text-start flex items-center">
+            <VscDebugBreakpointData className="text-green-900" />
+            Basic Level Immunofluorescence
+          </p>
+          <p className="text-[9px] tablet:text-xl text-start flex items-center">
+            <VscDebugBreakpointData className="text-green-900" />
+            Advanced Immunofluorescence & Immunology Training.{" "}
+          </p>
+          <p className="text-[9px] tablet:text-xl text-start flex items-center">
+            <VscDebugBreakpointData className="text-green-900" />
+            Clinical Lab Practices & Automation.{" "}
           </p>
         </div>
       </div>
@@ -193,12 +203,28 @@ function New() {
         <div className="flex flex-col items-center justify-center p-2 gap-4 mb-2">
           <img src={image2} alt="" />
           <div className="flex flex-col items-center justify-center">
-            <img src={organisation2} className=" w-[50px]" alt="" />
-            <p className="text-[9px] tablet:text-xl text-center">
-              Sachika, an initiative by CPC Diagnostics Pvt. Ltd., focuses on
-              life sciences education, empowering clinicians with contemporary
-              bioscience skills.
-            </p>
+            <div className=" flex items-center ">
+              {" "}
+              <VscDebugBreakpointData className="text-green-900 " />
+              <p className="text-[9px] tablet:text-xl text-center ">
+                Basic Level Immunofluorescence
+              </p>
+            </div>
+
+            <div className=" flex items-center ">
+              {" "}
+              <VscDebugBreakpointData className="text-green-900 " />
+              <p className="text-[9px] tablet:text-xl text-center ">
+                Advanced Immunofluorescence & Immunology Training.{" "}
+              </p>
+            </div>
+            <div className=" flex items-center ">
+              {" "}
+              <VscDebugBreakpointData className="text-green-900 " />
+              <p className="text-[9px] tablet:text-xl text-center ">
+                Clinical Lab Practices & Automation.{" "}
+              </p>
+            </div>
           </div>
         </div>
         {/* <div className="grid grid-cols-2 items-center justify-center p-2 gap-4 mb-2">
