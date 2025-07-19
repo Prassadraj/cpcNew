@@ -13,6 +13,7 @@ import jeev1 from "../../../src/images/jeev-1.jpg";
 import jeev2 from "../../../src/images/jeev-2.jpg";
 import jeev3 from "../../../src/images/jeev-3.jpg";
 import PlexMAT from "../AllDatas/ProductImages/Immunology/PlexMAT4/PlexMAT4.webp";
+
 import itrack1 from "../../../src/images/itrack1.jpg";
 import itracknew from "../../assets/i-track.png";
 import cpcmanufacturingunit from "../../../src/assets/image/cpcmanufacturingunit.jpg";
