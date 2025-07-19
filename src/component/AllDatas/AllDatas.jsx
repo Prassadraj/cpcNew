@@ -116,10 +116,10 @@ import KryptorGrey from "../AllDatas/greyImages/Kryptor Compact Plus.webp";
 import Kryptor from "../AllDatas/ProductImages/Immunology/Kryptor/product1.webp";
 //
 import PlexMAT4Grey from "../AllDatas/greyImages/PlexMAT4.webp";
-import PlexMAT4 from "../AllDatas/ProductImages/Immunology/PlexMAT4/product1.webp";
+import PlexMAT4 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
 //
 import PlexMAT8Grey from "../AllDatas/greyImages/PlexMAT8.webp";
-import PlexMAT8 from "../AllDatas/ProductImages/Immunology/PlexMAT8/PlexMAT8.webp";
+import PlexMAT8 from "../AllDatas/ProductImages/Immunology/Plexmat8/PlexMAT8.webp";
 //
 import brahmsGrey from "../AllDatas/ProductImages/Immunology/brahms/B·R·A·H·M·S.jpg";
 import brahms from "../AllDatas/ProductImages/Immunology/brahms/B·R·A·H·M·S.webp";

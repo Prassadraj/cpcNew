@@ -3,7 +3,7 @@ import "./slider.css";
 import image1 from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynacount 3D Plus.webp";
 import image2 from "../AllDatas/ProductImages/Hematology/SedratePro/product1.png";
 import image3 from "../AllDatas/ProductImages/Immunology/Iflash1200/product1.png";
-import image4 from "../AllDatas/ProductImages/Immunology/PlexMAT4/product1.webp";
+import image4 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
 import image5 from "../AllDatas/ProductImages/Point of Care/ichroma™ II/product1.webp";
 import image6 from "../AllDatas/ProductImages/Point of Care/ichroma™ III/product1.webp";
 import { Link } from "react-router-dom";
