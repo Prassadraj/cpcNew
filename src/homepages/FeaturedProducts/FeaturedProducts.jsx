@@ -3,7 +3,7 @@ import { motion, useTransform, useScroll } from "framer-motion";
 import image1 from "../../component/AllDatas/ProductImages/Hematology/3D PLUS/product1.webp";
 import image2 from "../../component/AllDatas/ProductImages/Hematology/SedratePro/product1.png";
 import image3 from "../../component/AllDatas/ProductImages/Immunology/Iflash1200/product1.png";
-import image4 from "../../component/AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
+import image4 from "../../component/AllDatas/ProductImages/Immunology/PlexMAT4/product1.webp";
 import image5 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ II/product1.webp";
 import image6 from "../../component/AllDatas/ProductImages/Point of Care/ichroma™ III/product1.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -214,16 +214,16 @@ const featuredCards = [
     title: "iFlash 1200",
     category: "Immunology",
     content:
-      "The IFLASH 1200 is a state-of-the-art Chemiluminescence Immunoassay (CLIA) analyzer that provides high sensitivity and specificity in immunoassay testing. This fully automated system simplifies complex diagnostic procedures, offering a user-friendly interface and robust performance to meet the demands of modern laboratories.",
+      "The iFLASH 1200 is a state-of-the-art Chemiluminescence Immunoassay (CLIA) analyzer that provides high sensitivity and specificity in immunoassay testing. This fully automated system simplifies complex diagnostic procedures, offering a user-friendly interface and robust performance to meet the demands of modern laboratories.",
     id: 4,
     animation: "3",
   },
   {
     url: image4,
-    title: "Plexmat 4",
+    title: "PlexMAT 4",
     category: "Immunology",
     content:
-      "The Plexmat 4 is an advanced immunoblot analyzer designed for high throughput and reliable results in various immunological assays.",
+      "The PlexMAT 4 is an advanced immunoblot analyzer designed for high throughput and reliable results in various immunological assays.",
     id: 1,
     animation: "4",
   },
