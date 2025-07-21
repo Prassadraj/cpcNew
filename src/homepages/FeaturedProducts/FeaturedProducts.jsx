@@ -193,7 +193,7 @@ export default FeaturedProducts;
 const featuredCards = [
   {
     url: image1,
-    title: "Dynacount 3D Plus",
+    title: "DYNACOUNT 3D PLUS",
     category: "Hematology",
     content:
       "Enhanced version of the 3D model, providing more detailed and faster blood cell analysis with advanced features.",
@@ -229,7 +229,7 @@ const featuredCards = [
   },
   {
     url: image5,
-    title: "I chroma™ II",
+    title: "ichroma™ II",
     category: "Point%20of%20Care",
     content:
       "The I chroma™ II is a versatile and reliable POCT hormone analyzer, designed to deliver fast and precise measurements of hormone levels, facilitating effective clinical decision-making..",
