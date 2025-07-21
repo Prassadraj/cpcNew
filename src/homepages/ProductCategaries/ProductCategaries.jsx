@@ -144,7 +144,7 @@ function ProductCategaries() {
 
   return (
     <>
-      <div className="flex justify-around w-full items-center gap-3 mb-10 laptop:mb-0 container1 h-[400px] laptop:h-screen  overflow-hidden">
+      <div className="flex justify-around w-full items-center gap-3  container1 h-[400px] laptop:h-screen  overflow-hidden">
         <div className="w-1/2 flex flex-col gap-3 ">
           <div>
             <p className="text-custom-green text-2xl tablet:text-5xl text-start font-poppins font-semibold">

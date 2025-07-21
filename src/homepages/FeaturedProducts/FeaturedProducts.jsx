@@ -46,7 +46,7 @@ const FeaturedProducts = () => {
   }, []);
 
   return (
-    <div className="laptop:!mb-10 laptop:mt-[100px]">
+    <div className="">
       <div className="mb-2 flex h-10 items-center tablet:pl-24 flex-col tablet:gap-4 heading p-2 text-center">
         <span className=" font-semibold text-xl tablet:text-4xl uppercase  font-poppins text-custom-green">
           Featured Products

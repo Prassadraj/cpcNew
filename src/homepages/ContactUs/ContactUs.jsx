@@ -45,8 +45,8 @@ function ContactUs() {
 
   return (
     <div
-      className="p-4 videoSection laptop:p-5 laptop:h-[100vh] bg-black mb-10 tablet:mb-[200px] flex justify-center items-center
-     laptop:mt-[5rem] laptop:mb-[5rem] tablet:mt-[200px] mt-10"
+      className="p-4 videoSection laptop:p-5 laptop:h-screen bg-black flex justify-center items-center
+   "
     >
       {messageLoading && (
         <div className="fixed top-0 left-0 h-screen w-full bg-black/50 z-50">

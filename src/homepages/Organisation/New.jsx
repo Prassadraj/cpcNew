@@ -158,12 +158,12 @@ function New() {
           </div>
         </div>
       </div> */}
-      <div className="tablet:flex  items-center justify-center p-2 gap-4 mb-2 hidden">
+      <div className="tablet:flex  items-center justify-center p-2 gap-4  hidden">
         <div className="">
           <img
             src={image2}
             alt="img"
-            className="w-[500px] object-contain rounded-lg"
+            className="w-[500px]  object-contain rounded-lg"
           />
         </div>
         <div className="flex flex-col items-start justify-center w-1/2">
