@@ -493,7 +493,7 @@ function Brand() {
                   alt=""
                   className="w-full h-[350px] object-contain mt-10 rounded-lg bg-transparent"
                 />
-              </div>
+              </div> 
             </div>
           </div>
 
