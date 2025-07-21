@@ -32,6 +32,52 @@ function Success() {
           <br />
           <br />
           <VerticalTimeline>
+
+          <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{
+                background: "#10b981",
+                color: "white",
+                border: "",
+                borderRadius: "10px",
+                padding: "50px",
+              }}
+              iconStyle={{
+                background: "#D6FFF5",
+                color: "black",
+                border: "2px",
+              }}
+              contentArrowStyle={{ borderRight: "5px solid gray" }}
+              icon={<HiMiniRocketLaunch />}
+            >
+              <h3 className=" text-2xl">
+                <strong>2025 </strong>
+              </h3>
+              <p> Launched AFIAS, Dynacount 5D Pro & Dynacount 5D Elite</p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              contentStyle={{
+                background: "#eeeeee",
+                color: "#10b981",
+                border: "",
+                borderRadius: "10px",
+                padding: "50px",
+              }}
+              iconStyle={{
+                background: "gray",
+                color: "white",
+                transform: "scaleX(-1)",
+              }}
+              contentArrowStyle={{ borderRight: "5px solid black" }}
+              icon={<HiMiniRocketLaunch />}
+            >
+              <h3 className=" text-2xl">
+                <strong>2024</strong>
+              </h3>
+              <p>Turbochem optima, SEDRATE PRO & EC 60</p>
+            </VerticalTimelineElement>
+
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{

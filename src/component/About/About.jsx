@@ -15,7 +15,7 @@ import md3 from "../../assets/image/chermayn.png";
 import md4 from "../../assets/image/bhuvana.png";
 import md5 from "../../assets/image/fabian.png";
 import md6 from "../../assets/image/pramod.png";
-import ourvalue from "../../assets/image/ourvalue.png";
+import ourvalue from "../../assets/image/ourvalue.jpg";
 import awards from "../../assets/image/awards.webp";
 import award1 from "../../assets/image/award1.png";
 import award2 from "../../assets/image/award2.png";
@@ -33,7 +33,7 @@ import awards1 from "../../assets/image/awards1.png";
 import mainaward from "../../assets/image/main-awards.png";
 import Footer from "../../homepages/Footer/Footer";
 import Carousel from "../Carousel/Carousel";
-import aboutus from "../../../src/assets/image/about-us.jpg";
+import aboutus from "../../../src/assets/image/about-us.png";
 import Loader from "../Loader/Loader";
 
 const About = () => {
@@ -73,12 +73,14 @@ const About = () => {
 
   return (
 <>
-{load?<Loader/>:    <div className="scroll-smooth">
-      <div className="grid grid-cols-1">
+{load?<Loader/>:    
+  <div className="scroll-smooth ">
+      <div className="grid grid-cols-1 relative">
         <div className="">
-          <img src={bannerimage} alt="bannerimage" className="mx-auto " />
+          <img src={bannerimage} alt="bannerimage" className="mx-auto "/>
         </div>
-        <header className="md:absolute md:top-32 md:ml-20 md:text-white">
+        <header className="md:absolute w-full h-full md:left-0 md:top-0 md:ml-20 md:text-white mx-0 p-10">
+          <div className="max-w-[1300px] h-full mx-auto flex flex-col justify-center">
           <h1 className="md:text-6xl text-left md:font-bold md:text-center md:ml-0 text-2xl mt-4 md:text-white lg:text-white xl:text-white">
             About us
           </h1>
@@ -87,16 +89,23 @@ const About = () => {
             We are a leading Medical Laboratory Equipment <br /> Manufacturer
             and Supplier.
           </p>
+          </div>
         </header>
       </div>
 
-      <div className="grid md:grid-cols-12 sm:grid-cols-2 md:mt-10 sm:mt-28 animate-fade-up justify-center items-center ">
-        <img
-          src={aboutus}
-          alt="second section banner image"
-          className=" rounded-tr-[40%] rounded-bl-[40%] rounded-br-[5px] col-span-5 md:h-2/3 md:ml-10 md:mt-5 mt-20 md:w-5/6 h-3/4 "
-        />
-        <div className="p-4 col-span-7 ">
+      <div className="grid md:grid-cols-12 sm:grid-cols-2 md:mt-10 sm:mt-28 animate-fade-up justify-center items-start max-w-[1300px] mx-auto">
+
+        <div className="col-span-6 relative">
+  <div className="sticky top-0">
+    <img
+      src={aboutus}
+      alt="second section banner image"
+      className="w-full h-auto"
+    />
+  </div>
+</div>
+
+        <div className="p-4 col-span-6 ">
           <button className="bg-maincol text-white p-2 rounded-lg font-semibold shadow-custom-shadow mt-4">
             since-1987
           </button>
@@ -182,7 +191,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-12 grid-cols-12  gap-2  p-20 animate-fade-up delay-100">
+      <div className="grid md:grid-cols-12 grid-cols-12  gap-2  p-20 animate-fade-up delay-100 max-w-[1300px] mx-auto relative">
         <div className="md:block sm: hidden">
           <div className="md:absolute md:left-2/3 md:mt-24 ">
             <svg
@@ -257,12 +266,12 @@ const About = () => {
         </div>
       </div>
       <div>
-        <div className="grid md:grid-cols-12 sm:grid-cols-2  gap-2 mt-10 animate-fade-up delay-200">
-          <div className="col-span-5 p-4 w-full flex items-center justify-center">
-            <img src={ourvalue} alt="our core value" className="w-2/3 h-auto" />
+        <div className="grid md:grid-cols-12 sm:grid-cols-2  gap-2 mt-10 animate-fade-up delay-200 max-w-[1300px] mx-auto">
+          <div className="col-span-6 p-4 w-full flex items-center justify-center mt-20 ">
+            <img src={ourvalue} alt="our core value" className="w-[100%] h-auto rounded-lg shadow-md" />
           </div>
 
-          <div className="col-span-7 p-4 mt-20">
+          <div className="col-span-6 p-4 mt-20">
             <h3 className="text-maincol font-semibold md:text-3xl text-2xl">
               Our Core Values
             </h3>
@@ -404,7 +413,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" md:p-20 p-5 mt-10 animate-fade-up ">
+      <div className=" md:p-20 p-5 mt-10 animate-fade-up max-w-[1300px] mx-auto ">
         <h2 className="text-maincol font-semibold md:text-3xl text-2xl text-center font-poppins">
           Our Suppliers
         </h2>
@@ -413,7 +422,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 -scroll-mt-20 mt-20 ">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 -scroll-mt-20 mt-20 max-w-[1300px] mx-auto ">
         <h2 className="text-maincol md:text-3xl text-2xl font-semibold ml-4 sm:ml-10 font-poppins">
           Our Directors
         </h2>
