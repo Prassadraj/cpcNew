@@ -23,7 +23,7 @@ function ZoomEffect() {
 
   return (
     <div>
-      <div className="flex flex-col gap-2  mb-4 w-full h-full mt-20 tablet:mt-0">
+      <div className="flex flex-col gap-2   w-full h-full mb-5 tablet:mb-0">
         {/* Header Section */}
         <div className="flex justify-center items-center flex-col gap-3  tablet:mt-5 font-poppins">
           <img

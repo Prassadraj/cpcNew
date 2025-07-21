@@ -42,7 +42,7 @@ function Section2() {
   }, []);
 
   return (
-    <div className="flex flex-wrap justify-evenly h-44 largeLaptop:h-fit w-full items-center">
+    <div className="flex flex-wrap justify-evenly  largeLaptop:h-fit w-full items-center">
       {stats.map((stat, index) => (
         <div
           key={index}

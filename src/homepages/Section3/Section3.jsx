@@ -55,8 +55,8 @@ function Section3() {
     <div className="font-poppins ">
       {/* Section 3 */}
       <div
-        className="tablet:flex  items-center tablet:gap-5 justify-around w-full laptop:h-[500px] tablet:h-fit
-      largeLaptop:h-[600px] container1 "
+        className="tablet:flex  items-center tablet:gap-5 justify-around w-full
+     container1 "
       >
         <div className="">
           <div className=" mb-3">
@@ -100,8 +100,8 @@ function Section3() {
         </div>
       </div>
       <div
-        className="tablet:flex flex-row-reverse items-center tablet:gap-5 justify-around w-full tablet:h-fit
-      largeLaptop:h-[600px] container1 "
+        className="tablet:flex flex-row-reverse items-center tablet:gap-5 justify-around w-full 
+    container1 "
       >
         <div className="">
           <div className=" mb-3">
