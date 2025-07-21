@@ -23,8 +23,8 @@ import prim2 from "../AllDatas/ProductImages/Biochemistry/PRIME/product2.webp";
 import chemistryCollibratorGrey from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/Chemistry Calibrator and Chemistry Controls.jpg";
 import chemistryCollibrator from "../AllDatas/ProductImages/Biochemistry/chemistryCollibrator/Chemistry Calibrator and Chemistry Controls.webp";
 //
-import ichemPrimeGrey from "../AllDatas/ProductImages/Biochemistry/ichemPrime/Ichem Prime.jpg";
-import ichemPrime from "../AllDatas/ProductImages/Biochemistry/ichemPrime/Ichem Prime.webp";
+import ichemPrimeGrey from "../AllDatas/greyImages/reagentGrey.png";
+import ichemPrime from "../AllDatas/ProductImages/Biochemistry/ichemPrime/reagent.png";
 //
 import identiImmunoGrey from "../AllDatas/ProductImages/Biochemistry/identiImmuno/identi Immuno Turbidimetry Reagents.jpg";
 import identiImmuno from "../AllDatas/ProductImages/Biochemistry/identiImmuno/identi Immuno Turbidimetry Reagents.webp";
@@ -115,11 +115,11 @@ import IfSprinter from "../AllDatas/ProductImages/Immunology/IfSprinter/product1
 import KryptorGrey from "../AllDatas/greyImages/Kryptor Compact Plus.webp";
 import Kryptor from "../AllDatas/ProductImages/Immunology/Kryptor/product1.webp";
 //
-import Plexmat4Grey from "../AllDatas/greyImages/Plexmat 4.webp";
-import Plexmat4 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
+import PlexMAT4Grey from "../AllDatas/greyImages/PlexMAT4.webp";
+import PlexMAT4 from "../AllDatas/ProductImages/Immunology/Plexmat4/product1.webp";
 //
-import Plexmat8Grey from "../AllDatas/greyImages/Plexmat 8.webp";
-import Plexmat8 from "../AllDatas/ProductImages/Immunology/Plexmat8/Plexmat 8.webp";
+import PlexMAT8Grey from "../AllDatas/greyImages/PlexMAT8.webp";
+import PlexMAT8 from "../AllDatas/ProductImages/Immunology/Plexmat8/PlexMAT8.webp";
 //
 import brahmsGrey from "../AllDatas/ProductImages/Immunology/brahms/B·R·A·H·M·S.jpg";
 import brahms from "../AllDatas/ProductImages/Immunology/brahms/B·R·A·H·M·S.webp";
@@ -746,8 +746,8 @@ const products = [
         allover: "Reagents",
         id: "6",
         section: "reagents",
-        coverImg: ichemMagnaGrey,
-        image: [ichemMagna1],
+        coverImg: ichemPrimeGrey,
+        image: [ichemPrime],
         shortdescription:
           "The iChem Magna is a high-performance biochemical testing solution, delivering precise and reliable results for high-volume clinical laboratories.",
         title: "i-chem Magna",
@@ -880,8 +880,8 @@ const products = [
         allover: "Reagents",
         id: "7",
         section: "reagents",
-        coverImg: identiImmunoGrey,
-        image: [identiImmuno],
+        coverImg: ichemPrimeGrey,
+        image: [ichemPrime],
         shortdescription:
           "Identi Immuno Turbidimetry Reagents provide precise and sensitive results for detecting critical biomarkers in immunoassay testing.",
         title: "identi Immuno Turbidimetry Reagents",
@@ -1019,8 +1019,8 @@ const products = [
         allover: "Reagents",
         id: "8",
         section: "reagents",
-        coverImg: identiReagentsGrey,
-        image: [identiReagents],
+        coverImg: ichemPrimeGrey,
+        image: [ichemPrime],
         title: "identi",
         shortdescription:
           "The Identi Reagents Kit offers reliable and easy-to-use solutions for accurate diagnostic testing in clinical laboratories.",
@@ -2887,14 +2887,14 @@ const products = [
     items: [
       {
         id: "2",
-        coverImg: Plexmat8Grey,
-        image: [Plexmat8],
-        title: "Plexmat 8",
+        coverImg: PlexMAT8Grey,
+        image: [PlexMAT8],
+        title: "PlexMAT 8",
         section: "immunoblot",
         shortdescription:
-          "The PLEXMAT 8 is a cutting-edge immunoblot processor designed to automate and streamline the western blot process in clinical and diagnostic laboratories. This automated western blot processor offers high precision and efficiency, handling up to 8 strips simultaneously. Its automation capabilities significantly reduce manual handling, ensuring consistency and reproducibility across all samples. The PLEXMAT 8 is particularly useful for processing complex diagnostic profiles, such as ANA (antinuclear antibody) tests and liver function profiles, making it a versatile tool in immunodiagnostics.",
+          "The PlexMAT 8 is a cutting-edge immunoblot processor designed to automate and streamline the western blot process in clinical and diagnostic laboratories. This automated western blot processor offers high precision and efficiency, handling up to 8 strips simultaneously. Its automation capabilities significantly reduce manual handling, ensuring consistency and reproducibility across all samples. The PlexMAT 8 is particularly useful for processing complex diagnostic profiles, such as ANA (antinuclear antibody) tests and liver function profiles, making it a versatile tool in immunodiagnostics.",
         description:
-          "The PLEXMAT 8 is an advanced immunoblot processor designed for fully automated western blot processing. It provides accurate, reliable, and high-throughput results for a range of diagnostic profiles, including ANA and liver tests. This automated western blot processor is ideal for laboratories seeking precision and efficiency in processing multiple samples simultaneously.",
+          "The PlexMAT 8 is an advanced immunoblot processor designed for fully automated western blot processing. It provides accurate, reliable, and high-throughput results for a range of diagnostic profiles, including ANA and liver tests. This automated western blot processor is ideal for laboratories seeking precision and efficiency in processing multiple samples simultaneously.",
         workPrinciple: (
           <div>
             <table className="min-w-full table-auto">
@@ -2905,7 +2905,7 @@ const products = [
                       {" "}
                       Working Principle: How It Works? <br />
                     </strong>
-                    The PLEXMAT 8 operates by automating the western blot
+                    The PlexMAT 8 operates by automating the western blot
                     procedure, which involves separating proteins via gel
                     electrophoresis and transferring them to a membrane. This
                     membrane is then processed using automated steps, including
@@ -2922,7 +2922,7 @@ const products = [
                       {" "}
                       For Whom It Is Useful? <br />
                     </strong>
-                    The PLEXMAT 8 is particularly beneficial for clinical
+                    The PlexMAT 8 is particularly beneficial for clinical
                     diagnostic laboratories, research institutions, and
                     specialized testing centers that require reliable western
                     blot processing but may have space or volume constraints. It
@@ -2984,7 +2984,7 @@ const products = [
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Compact and
-                  Space-Saving: Ideal for labs with limited space, the PLEXMAT 8
+                  Space-Saving: Ideal for labs with limited space, the PlexMAT 8
                   offers full functionality without taking up too much room.
                 </p>
               </li>
@@ -3049,7 +3049,7 @@ const products = [
             <p className="text-base largeLaptop:text-2xl font-medium text-gray-800 mb-4">
               {" "}
               Increased Productivity: The automated workflow allows lab
-              technicians to focus on other tasks while the PLEXMAT 8 handles
+              technicians to focus on other tasks while the PlexMAT 8 handles
               western blot processing, enhancing overall efficiency.
             </p>
             <ul className="space-y-6 font-poppins ml-4">
@@ -3067,7 +3067,7 @@ const products = [
                   {" "}
                   <span className="text-[#10b981]">◆</span> Cost-Effective
                   Operation: By reducing manual intervention and minimizing
-                  errors, the PLEXMAT 8 helps lower operational costs and
+                  errors, the PlexMAT 8 helps lower operational costs and
                   improve lab efficiency.
                 </p>
               </li>
@@ -3085,7 +3085,7 @@ const products = [
                   {" "}
                   <span className="text-[#10b981]">◆</span> Multi-Test
                   Capability: The ability to handle a variety of test profiles,
-                  from ANA to liver diagnostics, makes the PLEXMAT 8 a versatile
+                  from ANA to liver diagnostics, makes the PlexMAT 8 a versatile
                   addition to any lab.
                 </p>
               </li>
@@ -3098,7 +3098,7 @@ const products = [
           <div>
             <p className="text-base largeLaptop:text-2xl font-medium text-gray-800 mb-4">
               {" "}
-              Routine Calibration: Regular calibration ensures that the PLEXMAT
+              Routine Calibration: Regular calibration ensures that the PlexMAT
               8 maintains its accuracy and reliability over time.
             </p>
             <ul className="space-y-6 font-poppins ml-4">
@@ -3114,7 +3114,7 @@ const products = [
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Easy Access for
-                  Servicing: The PLEXMAT 8 is designed for easy access to
+                  Servicing: The PlexMAT 8 is designed for easy access to
                   internal components, making maintenance and repairs
                   straightforward and efficient.
                 </p>
@@ -3123,7 +3123,7 @@ const products = [
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Minimal Downtime:
-                  Built for durability, the PLEXMAT 8 ensures continuous
+                  Built for durability, the PlexMAT 8 ensures continuous
                   operation with minimal maintenance interruptions.
                 </p>
               </li>
@@ -3139,22 +3139,22 @@ const products = [
           </div>
         ),
         workServices: "Comprehensive technical support provided.",
-        productBrochure: "path/to/plexmat-8-brochure.pdf",
+        productBrochure: "path/to/PlexMAT-8-brochure.pdf",
         detailedSpecification: "Detailed specs available on request.",
         offerOrDiscounts: "Inquire about current offers with the distributor.",
       },
       {
         id: "1",
-        image: [Plexmat4],
-        coverImg: Plexmat4Grey,
-        title: "Plexmat 4",
+        image: [PlexMAT4],
+        coverImg: PlexMAT4Grey,
+        title: "PlexMAT 4",
         section: "immunoblot",
         tagline:
           "Compact multiplex Immunoblot processor in the diagnosis of ALLERGY, AUTOIMMUNE & INFECTION",
         description:
-          "The PLEXMAT 4 is an efficient and Compact multiplex Immunoblot processor designed for small to medium-sized laboratories. This automated western blot processor simplifies the immunoblotting process, offering reliable and consistent results for a variety of diagnostic tests, including ALLERGY, AUTOIMMUNE(ANA and liver profiles) & INFECTIONs. With its intuitive interface and space-saving design, the PLEXMAT 4 enhances lab productivity while maintaining high standards of accuracy with the throughput of 4 tests in a single run.",
+          "The PlexMAT 4 is an efficient and Compact multiplex Immunoblot processor designed for small to medium-sized laboratories. This automated western blot processor simplifies the immunoblotting process, offering reliable and consistent results for a variety of diagnostic tests, including ALLERGY, AUTOIMMUNE(ANA and liver profiles) & INFECTIONs. With its intuitive interface and space-saving design, the PlexMAT 4 enhances lab productivity while maintaining high standards of accuracy with the throughput of 4 tests in a single run.",
         shortdescription:
-          "The PLEXMAT 4 is an advanced western blot processor designed to bring automation and precision to immunoblotting processes in diagnostic laboratories. This compact system is ideal for laboratories handling a moderate volume of western blot tests. The PLEXMAT 4 automates each step of the blotting process, from sample preparation to final detection, minimizing manual intervention and reducing the risk of errors. Its versatility makes it suitable for processing various test profiles, including ALLERGY, AUTOIMMUNE(ANA and liver profiles) & INFECTIONs, making it a reliable asset in immunodiagnostics..",
+          "The PlexMAT 4 is an advanced western blot processor designed to bring automation and precision to immunoblotting processes in diagnostic laboratories. This compact system is ideal for laboratories handling a moderate volume of western blot tests. The PlexMAT 4 automates each step of the blotting process, from sample preparation to final detection, minimizing manual intervention and reducing the risk of errors. Its versatility makes it suitable for processing various test profiles, including ALLERGY, AUTOIMMUNE(ANA and liver profiles) & INFECTIONs, making it a reliable asset in immunodiagnostics..",
         workPrinciple: (
           <div>
             <table className="min-w-full table-auto">
@@ -3165,7 +3165,7 @@ const products = [
                       {" "}
                       Working Principle: How It Works? <br />
                     </strong>
-                    The PLEXMAT 4 operates by automating the western blot
+                    The PlexMAT 4 operates by automating the western blot
                     procedure, which involves separating proteins via gel
                     electrophoresis and transferring them to a membrane. This
                     membrane is then processed using automated steps, including
@@ -3182,7 +3182,7 @@ const products = [
                       {" "}
                       For Whom It Is Useful? <br />
                     </strong>
-                    The PLEXMAT 4 is particularly beneficial for clinical
+                    The PlexMAT 4 is particularly beneficial for clinical
                     diagnostic laboratories, research institutions, and
                     specialized testing centers that require reliable western
                     blot processing but may have space or volume constraints. It
@@ -3244,7 +3244,7 @@ const products = [
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Compact and
-                  Space-Saving: Ideal for labs with limited space, the PLEXMAT 4
+                  Space-Saving: Ideal for labs with limited space, the PlexMAT 4
                   offers full functionality without taking up too much room.
                 </p>
               </li>
@@ -3309,7 +3309,7 @@ const products = [
             <p className="text-base largeLaptop:text-2xl font-medium text-gray-800 mb-4">
               {" "}
               Increased Productivity: The automated workflow allows lab
-              technicians to focus on other tasks while the PLEXMAT 4 handles
+              technicians to focus on other tasks while the PlexMAT 4 handles
               western blot processing, enhancing overall efficiency.
             </p>
             <ul className="space-y-6 font-poppins ml-4">
@@ -3327,7 +3327,7 @@ const products = [
                   {" "}
                   <span className="text-[#10b981]">◆</span> Cost-Effective
                   Operation: By reducing manual intervention and minimizing
-                  errors, the PLEXMAT 4 helps lower operational costs and
+                  errors, the PlexMAT 4 helps lower operational costs and
                   improve lab efficiency.
                 </p>
               </li>
@@ -3345,7 +3345,7 @@ const products = [
                   {" "}
                   <span className="text-[#10b981]">◆</span> Multi-Test
                   Capability: The ability to handle a variety of test profiles,
-                  from ANA to liver diagnostics, makes the PLEXMAT 4 a versatile
+                  from ANA to liver diagnostics, makes the PlexMAT 4 a versatile
                   addition to any lab.
                 </p>
               </li>
@@ -3358,7 +3358,7 @@ const products = [
           <div>
             <p className="text-base largeLaptop:text-2xl font-medium text-gray-800 mb-4">
               {" "}
-              Routine Calibration: Regular calibration ensures that the PLEXMAT
+              Routine Calibration: Regular calibration ensures that the PlexMAT
               4 maintains its accuracy and reliability over time.
             </p>
             <ul className="space-y-6 font-poppins ml-4">
@@ -3374,7 +3374,7 @@ const products = [
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Easy Access for
-                  Servicing: The PLEXMAT 4 is designed for easy access to
+                  Servicing: The PlexMAT 4 is designed for easy access to
                   internal components, making maintenance and repairs
                   straightforward and efficient.
                 </p>
@@ -3383,7 +3383,7 @@ const products = [
                 <p className="text-base largeLaptop:text-2xl font-medium text-gray-800">
                   {" "}
                   <span className="text-[#10b981]">◆</span> Minimal Downtime:
-                  Built for durability, the PLEXMAT 4 ensures continuous
+                  Built for durability, the PlexMAT 4 ensures continuous
                   operation with minimal maintenance interruptions.
                 </p>
               </li>
@@ -3400,7 +3400,7 @@ const products = [
         ),
         workServices:
           "Technical support available for installation and troubleshooting.",
-        productBrochure: "path/to/plexmat-4-brochure.pdf",
+        productBrochure: "path/to/PlexMAT-4-brochure.pdf",
         detailedSpecification: "Specifications can be provided upon request.",
         offerOrDiscounts:
           "Check with distributor for current promotions and discounts.",
@@ -3644,7 +3644,7 @@ const products = [
       //     </div>
       //   ),
       //   workServices: "Comprehensive technical support provided.",
-      //   productBrochure: "path/to/plexmat-8-brochure.pdf",
+      //   productBrochure: "path/to/PlexMAT-8-brochure.pdf",
       //   detailedSpecification: "Detailed specs available on request.",
       //   offerOrDiscounts: "Inquire about current offers with the distributor.",
       // },
@@ -3652,7 +3652,7 @@ const products = [
         id: "7",
         coverImg: Iflash3000Grey,
         image: [Iflash30001, Iflash30002, Iflash30003, Iflash30004],
-        title: "IFlash 3000",
+        title: "iFlash 3000",
         section: "clia",
         shortdescription:
           "The iFlash 3000 is a state-of-the-art fully automated immunoassay analyzer designed to meet the demands of modern diagnostic laboratories. Leveraging chemiluminescence technology, this CLIA analyser delivers precise and timely results for various assays, making it an essential tool for clinical diagnostics. Its robust construction and advanced automation features ensure that labs can manage high volumes of tests without compromising on accuracy or speed.",
@@ -3883,7 +3883,7 @@ const products = [
           // Iflash18005,
         ],
         section: "clia",
-        title: "IFlash 1800",
+        title: "iFlash 1800",
         shortdescription:
           "The iFlash 1800 is a high-performance fully automated immunoassay analyzer that leverages chemiluminescence technology to provide accurate and reliable diagnostic results. This CLIA analyser is designed for laboratories seeking efficiency, precision, and high throughput.",
         description:
@@ -4124,7 +4124,7 @@ const products = [
           // Iflash12005,
         ],
         section: "clia",
-        title: "IFlash 1200",
+        title: "iFlash 1200",
         shortdescription:
           "The iFlash 1200 is a state-of-the-art Chemiluminescence Immunoassay (CLIA) analyzer that provides high sensitivity and specificity in immunoassay testing. This fully automated system simplifies complex diagnostic procedures, offering a user-friendly interface and robust performance to meet the demands of modern laboratories.",
         description:
@@ -4291,7 +4291,7 @@ const products = [
             <ul className="space-y-6 font-poppins">
               <li className="flex gap-3">
                 <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  font-normal ">
-                  The IFLASH 1200 is designed for ease of maintenance with
+                  The iFLASH 1200 is designed for ease of maintenance with
                   automated calibration and quality control features. Regular
                   cleaning and periodic calibration checks are recommended to
                   maintain optimal performance. The analyzer’s robust

@@ -6,7 +6,7 @@ import organisation1 from "../../images/organisation/1.png";
 import organisation2 from "../../images/organisation/2.png";
 import organisation3 from "../../images/organisation/3.png";
 import image1 from "../../images/organisation/jeev.jpg";
-import image2 from "../../images/organisation/sachika.jpg";
+import image2 from "../../images/organisation/sachika.jpeg";
 import sachika from "../../images/organisation/sachikaNew.png";
 import image3 from "../../images/organisation/cpcmed.jpg";
 import Heading from "./Heading";
@@ -167,16 +167,21 @@ function New() {
           />
         </div>
         <div className="flex flex-col items-start justify-center w-1/2">
-          <img src={sachika} className=" w-[100px] mb-4" alt="img" />
-          <p className="text-[9px] tablet:text-xl text-start flex items-center">
+          <img src={organisation2} className=" w-[100px] mb-2" alt="img" />
+          <p className="mb-2">
+            Sachika, a first-of-its-kind initiative of CPC Diagnostics Pvt. Ltd,
+            is a centre for learning life sciences. Sachika empowers clinicians
+            by upgrading their skills in modern techniques of biosciences.
+          </p>
+          <p className="text-[9px] tablet:text-sm text-start flex items-center">
             <VscDebugBreakpointData className="text-green-900" />
             Basic Level Immunofluorescence.
           </p>
-          <p className="text-[9px] tablet:text-xl text-start flex items-center">
+          <p className="text-[9px] tablet:text-sm text-start flex items-center">
             <VscDebugBreakpointData className="text-green-900" />
             Advanced Immunofluorescence & Immunology Training.{" "}
           </p>
-          <p className="text-[9px] tablet:text-xl text-start flex items-center">
+          <p className="text-[9px] tablet:text-sm text-start flex items-center">
             <VscDebugBreakpointData className="text-green-900" />
             Clinical Lab Practices & Automation.{" "}
           </p>
@@ -205,7 +210,7 @@ function New() {
           <div className="flex flex-col items-center justify-center">
             <div className=" flex items-center ">
               {" "}
-              <VscDebugBreakpointData className="text-green-900 " />
+              {/* <VscDebugBreakpointData className="text-green-900 " /> */}
               <p className="text-[9px] tablet:text-xl text-center ">
                 Basic Level Immunofluorescence.
               </p>
@@ -213,14 +218,14 @@ function New() {
 
             <div className=" flex items-center ">
               {" "}
-              <VscDebugBreakpointData className="text-green-900 " />
+              {/* <VscDebugBreakpointData className="text-green-900 " /> */}
               <p className="text-[9px] tablet:text-xl text-center ">
                 Advanced Immunofluorescence & Immunology Training.{" "}
               </p>
             </div>
             <div className=" flex items-center ">
               {" "}
-              <VscDebugBreakpointData className="text-green-900 " />
+              {/* <VscDebugBreakpointData className="text-green-900 " /> */}
               <p className="text-[9px] tablet:text-xl text-center ">
                 Clinical Lab Practices & Automation.{" "}
               </p>

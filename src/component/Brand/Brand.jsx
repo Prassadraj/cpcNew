@@ -12,7 +12,7 @@ import sachika3 from "../../../src/images/sachika-3.jpeg";
 import jeev1 from "../../../src/images/jeev-1.jpeg";
 import jeev2 from "../../../src/images/jeev-2.jpeg";
 import jeev3 from "../../../src/images/jeev-3.jpeg";
-import plexmat from "../AllDatas/ProductImages/Immunology/Plexmat4/Plexmat 4.webp";
+import plexmat from "../AllDatas/ProductImages/Immunology/Plexmat4/PlexMAT4.webp";
 import itrack1 from "../../../src/images/itrack1.jpg";
 import itracknew from "../../assets/i-track.png";
 import cpcmanufacturingunit from "../../../src/assets/image/cpcmanufacturingunit.jpeg";

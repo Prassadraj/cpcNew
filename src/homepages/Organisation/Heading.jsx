@@ -1,6 +1,7 @@
 import gsap from "gsap";
 import React, { useEffect } from "react";
 import AOS from "aos";
+import sachika from "../../images/organisation/sachikaNew.png";
 
 function Heading() {
   useEffect(() => {
@@ -13,9 +14,16 @@ function Heading() {
       className="flex flex-col justify-center items-center tablet:h-fit laptop:h-fit  tablet:mt-[100px]
     tablet:mb-[50px] largeLaptop:h-fit gap-4"
     >
-      <p className="text-lg tablet:text-3xl largeLaptop:text-4xl text-custom-green font-semibold title1 uppercase">
+      {/* <p className="text-lg tablet:text-3xl largeLaptop:text-4xl text-custom-green font-semibold title1 uppercase">
         Sachika
-      </p>
+      </p> */}
+      <div className="">
+        <img
+          src={sachika}
+          alt="img"
+          className="w-[120px] tablet:w-[180px] object-contain rounded-lg"
+        />
+      </div>
       {/* <p
         className="font-poppins text-sm tablet:text-xl max-w-xl text-center title2 largeLaptop:text-3xl
       largeLaptop:max-w-3xl"

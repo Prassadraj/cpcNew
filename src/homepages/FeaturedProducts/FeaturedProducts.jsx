@@ -46,7 +46,7 @@ const FeaturedProducts = () => {
   }, []);
 
   return (
-    <div className="laptop:mb-20 laptop:mt-[200px]">
+    <div className="laptop:!mb-10 laptop:mt-[100px]">
       <div className="mb-2 flex h-10 items-center tablet:pl-24 flex-col tablet:gap-4 heading p-2 text-center">
         <span className=" font-semibold text-xl tablet:text-4xl uppercase  font-poppins text-custom-green">
           Featured Products
@@ -167,22 +167,22 @@ const AllProductsCard = () => {
     <div className="group relative  h-[400px] w-[100px]  tablet:w-[200px] overflow-hidden flex items-center justify-center">
       <div className="absolute inset-0 z-0"></div>
       <div className="absolute inset-0 z-10 flex items-center justify-center">
-        <Magnetic>
-          <div className="mr-10 text-xs largeLaptop:text-2xl text-nowrap tablet:text-xl font-black text-custom-green p-2 rounded-xl cursor-pointer">
-            <Link
-              to="/product/Biochemistry/top"
-              onClick={() => {
-                setSelectSectionCategory("top");
-                setSelectedCategory("Biochemistry");
-              }}
-            >
-              <span className="hidden tablet:block">All Products</span>
-              <span>
-                <FontAwesomeIcon icon={faArrowRight} />
-              </span>
-            </Link>
-          </div>
-        </Magnetic>
+        {/* <Magnetic>  */}
+        <div className="mr-10 text-xs largeLaptop:text-2xl text-nowrap tablet:text-xl font-black text-custom-green p-2 rounded-xl cursor-pointer">
+          <Link
+            to="/product/Biochemistry/top"
+            onClick={() => {
+              setSelectSectionCategory("top");
+              setSelectedCategory("Biochemistry");
+            }}
+          >
+            <span className="hidden tablet:block">All Products</span>
+            <span>
+              <FontAwesomeIcon icon={faArrowRight} />
+            </span>
+          </Link>
+        </div>
+        {/* </Magnetic> */}
       </div>
     </div>
   );
@@ -193,7 +193,7 @@ export default FeaturedProducts;
 const featuredCards = [
   {
     url: image1,
-    title: "Dynacount 3D Plus",
+    title: "DYNACOUNT 3D PLUS",
     category: "Hematology",
     content:
       "Enhanced version of the 3D model, providing more detailed and faster blood cell analysis with advanced features.",
@@ -214,25 +214,25 @@ const featuredCards = [
     title: "iFlash 1200",
     category: "Immunology",
     content:
-      "The IFLASH 1200 is a state-of-the-art Chemiluminescence Immunoassay (CLIA) analyzer that provides high sensitivity and specificity in immunoassay testing. This fully automated system simplifies complex diagnostic procedures, offering a user-friendly interface and robust performance to meet the demands of modern laboratories.",
+      "The iFlash 1200 is a state-of-the-art Chemiluminescence Immunoassay (CLIA) analyzer that provides high sensitivity and specificity in immunoassay testing. This fully automated system simplifies complex diagnostic procedures, offering a user-friendly interface and robust performance to meet the demands of modern laboratories.",
     id: 4,
     animation: "3",
   },
   {
     url: image4,
-    title: "Plexmat 4",
+    title: "PlexMAT 4",
     category: "Immunology",
     content:
-      "The Plexmat 4 is an advanced immunoblot analyzer designed for high throughput and reliable results in various immunological assays.",
+      "The PlexMAT 4 is an advanced immunoblot analyzer designed for high throughput and reliable results in various immunological assays.",
     id: 1,
     animation: "4",
   },
   {
     url: image5,
-    title: "I chroma™ II",
+    title: "ichroma™ II",
     category: "Point%20of%20Care",
     content:
-      "The I chroma™ II is a versatile and reliable POCT hormone analyzer, designed to deliver fast and precise measurements of hormone levels, facilitating effective clinical decision-making..",
+      "The ichroma™ II is a versatile and reliable POCT hormone analyzer, designed to deliver fast and precise measurements of hormone levels, facilitating effective clinical decision-making..",
     id: 1,
     animation: "5",
   },

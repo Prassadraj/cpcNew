@@ -32,7 +32,10 @@ function Home() {
         <Loader />
       ) : (
         <>
-          <div className="font-poppins mobile-overflow-hidden container">
+          <div
+            className="font-poppins mobile-overflow-hidden container max-w-[450px] tablet:max-w-screen-tablet
+          laptop:max-w-screen-largeLaptop"
+          >
             <Section1 />
             <Section2 />
             <Section3 />
