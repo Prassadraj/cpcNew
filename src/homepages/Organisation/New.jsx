@@ -158,7 +158,7 @@ function New() {
           </div>
         </div>
       </div> */}
-      <div className="tablet:flex  items-center justify-center p-2 gap-4  hidden">
+      <div className="tablet:flex  items-center justify-center  gap-4  hidden">
         <div className="">
           <img
             src={image2}
