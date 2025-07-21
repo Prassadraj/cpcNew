@@ -167,7 +167,7 @@ function New() {
           />
         </div>
         <div className="flex flex-col items-start justify-center w-1/2">
-          <img src={organisation2} className=" w-[100px] mb-2" alt="img" />
+          {/* <img src={organisation2} className=" w-[100px] mb-2" alt="img" /> */}
           <p className="mb-2">
             Sachika, a first-of-its-kind initiative of CPC Diagnostics Pvt. Ltd,
             is a centre for learning life sciences. Sachika empowers clinicians
@@ -207,7 +207,14 @@ function New() {
         </div> */}
         <div className="flex flex-col items-center justify-center p-2 gap-4 mb-2">
           <img src={image2} alt="" />
+
           <div className="flex flex-col items-center justify-center">
+            <p className="mb-2 text-center text-xs">
+              Sachika, a first-of-its-kind initiative of CPC Diagnostics Pvt.
+              Ltd, is a centre for learning life sciences. Sachika empowers
+              clinicians by upgrading their skills in modern techniques of
+              biosciences.
+            </p>
             <div className=" flex items-center ">
               {" "}
               {/* <VscDebugBreakpointData className="text-green-900 " /> */}

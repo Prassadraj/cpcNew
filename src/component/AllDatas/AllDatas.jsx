@@ -2069,161 +2069,18 @@ const products = [
       // "Reagents",
     ],
     items: [
-      {
-        allover: "5 Part Differential Hematology Analyzer",
-        id: "3",
-        coverImg: DYNACOUNT5Dgrey,
-        image: [DYNACOUNT5D1],
-        title: "DYNACOUNT 5D",
-        section: "5parthematology",
-
-        shortdescription:
-          "The Dynacount 5D Hematology Analyzer or CBC machine utilizes state-of-the-art 5-part differential technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with minimal manual intervention.",
-        description:
-          "The Dynacount 5D Hematology Analyzer or CBC machine is a sophisticated diagnostic tool designed for precise and comprehensive hematological analysis. It features advanced 5-part differential technology for accurate blood cell counting and differentiation, making it ideal for high-throughput laboratories. With its user-friendly interface and reliable performance, this analyzer ensures efficient and accurate results.",
-        workPrinciple: (
-          <div>
-            {/* Working Principle Table */}
-            <table className="min-w-full table-auto">
-              <tbody className="flex flex-col gap-4">
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      <span className="font-semibold tablet:text-base largeLaptop:text-2xl  text-xs">
-                        Flow Cytometry (Laser Scattering)
-                      </span>
-                      :
-                    </strong>{" "}
-                    <br />A laser-based flow cytometry system is used to
-                    classify white blood cells into five subtypes (neutrophils,
-                    lymphocytes, monocytes, eosinophils, and basophils) based on
-                    cell size, granularity, and complexity.
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        ),
-
-        advantages: (
-          <div>
-            {/* Advantages List */}
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> High precision with
-                  5-part differential technology
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Fast processing for
-                  high throughput
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> User-friendly
-                  interface for easy operation
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
-
-        benefits: (
-          <div>
-            {/* Benefits List */}
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Enhanced accuracy
-                  and reliability in blood cell analysis
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Increased efficiency
-                  in laboratory workflows
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Reduced need for
-                  manual intervention, minimizing errors
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
-
-        testMenu: [""],
-        mainAndCare: (
-          <div>
-            {/* Maintenance and Care List */}
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Regular Calibration:
-                  Ensure periodic calibration to maintain accuracy.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Routine Cleaning:
-                  Regularly clean sample probes and internal components to
-                  ensure optimal performance.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Software Updates:
-                  Keep the software updated to benefit from the latest features
-                  and improvements.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Preventive
-                  Maintenance: Schedule regular maintenance checks by certified
-                  technicians to ensure long-term reliability.
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
-
-        workServices:
-          "Available technical support for installation, maintenance, and troubleshooting.",
-        productBrochure: "path/to/dynacount-5d-brochure.pdf",
-        detailedSpecification:
-          "Detailed technical specifications available on request.",
-        offerOrDiscounts:
-          "Check for current offers and discounts with the distributor.",
-      },
       // {
-      //   allover: "3 Part Differential Hematology Analyzer",
-      //   id: "1",
+      //   allover: "5 Part Differential Hematology Analyzer",
+      //   id: "3",
+      //   coverImg: DYNACOUNT5Dgrey,
+      //   image: [DYNACOUNT5D1],
+      //   title: "DYNACOUNT 5D",
+      //   section: "5parthematology",
 
-      //   section: "3parthematology",
-      //   coverImg: DYNACOUNT3DGrey,
-      //   image: [DYNACOUNT3D1],
-      //   title: "Dynacount 3D",
       //   shortdescription:
-      //     "The Dynacount 3D Hematology Analyzer utilizes state-of-the-art 3D imaging technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with ease.",
+      //     "The Dynacount 5D Hematology Analyzer or CBC machine utilizes state-of-the-art 5-part differential technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with minimal manual intervention.",
       //   description:
-      //     "The Dynacount 3D Hematology Analyzer is a cutting-edge device designed for precise and reliable hematological analysis. Leveraging advanced 3D imaging technology, it ensures accurate blood cell counting and differentiation. Ideal for laboratories and healthcare facilities, this analyzer enhances efficiency and offers user-friendly operation.",
+      //     "The Dynacount 5D Hematology Analyzer or CBC machine is a sophisticated diagnostic tool designed for precise and comprehensive hematological analysis. It features advanced 5-part differential technology for accurate blood cell counting and differentiation, making it ideal for high-throughput laboratories. With its user-friendly interface and reliable performance, this analyzer ensures efficient and accurate results.",
       //   workPrinciple: (
       //     <div>
       //       {/* Working Principle Table */}
@@ -2234,33 +2091,14 @@ const products = [
       //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
       //                 {" "}
       //                 <span className="font-semibold tablet:text-base largeLaptop:text-2xl  text-xs">
-      //                   How it Works
+      //                   Flow Cytometry (Laser Scattering)
       //                 </span>
       //                 :
       //               </strong>{" "}
-      //               Employs 3D imaging to capture detailed blood cell images,
-      //               facilitating accurate counting and differentiation.
-      //               Processes samples quickly for timely results.
-      //             </td>
-      //           </tr>
-      //           <tr>
-      //             <td className="  text-black">
-      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
-      //                 {" "}
-      //                 For Whom:
-      //               </strong>{" "}
-      //               Ideal for clinical laboratories, hospitals, and diagnostic
-      //               centers.
-      //             </td>
-      //           </tr>
-      //           <tr>
-      //             <td className="  text-black">
-      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
-      //                 {" "}
-      //                 Use Cases:
-      //               </strong>{" "}
-      //               Suitable for routine blood tests, diagnosing hematological
-      //               disorders, and monitoring patient health.
+      //               <br />A laser-based flow cytometry system is used to
+      //               classify white blood cells into five subtypes (neutrophils,
+      //               lymphocytes, monocytes, eosinophils, and basophils) based on
+      //               cell size, granularity, and complexity.
       //             </td>
       //           </tr>
       //         </tbody>
@@ -2271,12 +2109,12 @@ const products = [
       //   advantages: (
       //     <div>
       //       {/* Advantages List */}
-      //       <ul className="space-y-6 font-poppins list-disc list-inside">
+      //       <ul className="space-y-6 font-poppins">
       //         <li className="flex gap-3">
       //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
       //             {" "}
       //             <span className="text-[#10b981]">◆</span> High precision with
-      //             advanced 3D technology
+      //             5-part differential technology
       //           </p>
       //         </li>
       //         <li className="flex gap-3">
@@ -2289,8 +2127,8 @@ const products = [
       //         <li className="flex gap-3">
       //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
       //             {" "}
-      //             <span className="text-[#10b981]">◆</span> Easy-to-use
-      //             interface for streamlined operation
+      //             <span className="text-[#10b981]">◆</span> User-friendly
+      //             interface for easy operation
       //           </p>
       //         </li>
       //       </ul>
@@ -2305,14 +2143,14 @@ const products = [
       //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
       //             {" "}
       //             <span className="text-[#10b981]">◆</span> Enhanced accuracy
-      //             and reliability in blood analysis
+      //             and reliability in blood cell analysis
       //           </p>
       //         </li>
       //         <li className="flex gap-3">
       //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
       //             {" "}
       //             <span className="text-[#10b981]">◆</span> Increased efficiency
-      //             and workflow optimization
+      //             in laboratory workflows
       //           </p>
       //         </li>
       //         <li className="flex gap-3">
@@ -2335,29 +2173,31 @@ const products = [
       //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
       //             {" "}
       //             <span className="text-[#10b981]">◆</span> Regular Calibration:
-      //             Periodic calibration to maintain accuracy.
+      //             Ensure periodic calibration to maintain accuracy.
       //           </p>
       //         </li>
       //         <li className="flex gap-3">
       //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
       //             {" "}
       //             <span className="text-[#10b981]">◆</span> Routine Cleaning:
-      //             Regular cleaning of sample probes and internal components.
+      //             Regularly clean sample probes and internal components to
+      //             ensure optimal performance.
       //           </p>
       //         </li>
       //         <li className="flex gap-3">
       //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
       //             {" "}
       //             <span className="text-[#10b981]">◆</span> Software Updates:
-      //             Keep software updated for the latest features.
+      //             Keep the software updated to benefit from the latest features
+      //             and improvements.
       //           </p>
       //         </li>
       //         <li className="flex gap-3">
       //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
       //             {" "}
       //             <span className="text-[#10b981]">◆</span> Preventive
-      //             Maintenance: Schedule regular checks by certified technicians
-      //             for long-term reliability.
+      //             Maintenance: Schedule regular maintenance checks by certified
+      //             technicians to ensure long-term reliability.
       //           </p>
       //         </li>
       //       </ul>
@@ -2365,12 +2205,172 @@ const products = [
       //   ),
 
       //   workServices:
-      //     "Technical support and service options available for system maintenance and troubleshooting.",
-      //   productBrochure: "path/to/dynacount-3d-brochure.pdf",
-      //   detailedSpecification: "Specifications available upon request.",
+      //     "Available technical support for installation, maintenance, and troubleshooting.",
+      //   productBrochure: "path/to/dynacount-5d-brochure.pdf",
+      //   detailedSpecification:
+      //     "Detailed technical specifications available on request.",
       //   offerOrDiscounts:
-      //     "Check with distributor for current offers and discounts.",
+      //     "Check for current offers and discounts with the distributor.",
       // },
+      {
+        allover: "3 Part Differential Hematology Analyzer",
+        id: "1",
+
+        section: "3parthematology",
+        coverImg: DYNACOUNT3DGrey,
+        image: [DYNACOUNT3D1],
+        title: "DYNACOUNT 3D",
+        shortdescription:
+          "The Dynacount 3D Hematology Analyzer utilizes state-of-the-art 3D imaging technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with ease.",
+        description:
+          "The Dynacount 3D Hematology Analyzer is a cutting-edge device designed for precise and reliable hematological analysis. Leveraging advanced 3D imaging technology, it ensures accurate blood cell counting and differentiation. Ideal for laboratories and healthcare facilities, this analyzer enhances efficiency and offers user-friendly operation.",
+        workPrinciple: (
+          <div>
+            {/* Working Principle Table */}
+            <table className="min-w-full table-auto">
+              <tbody className="flex flex-col gap-4">
+                <tr>
+                  <td className="  text-black">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                      {" "}
+                      <span className="font-semibold tablet:text-base largeLaptop:text-2xl  text-xs">
+                        How it Works
+                      </span>
+                      :
+                    </strong>{" "}
+                    Employs 3D imaging to capture detailed blood cell images,
+                    facilitating accurate counting and differentiation.
+                    Processes samples quickly for timely results.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="  text-black">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                      {" "}
+                      For Whom:
+                    </strong>{" "}
+                    Ideal for clinical laboratories, hospitals, and diagnostic
+                    centers.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="  text-black">
+                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+                      {" "}
+                      Use Cases:
+                    </strong>{" "}
+                    Suitable for routine blood tests, diagnosing hematological
+                    disorders, and monitoring patient health.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        ),
+
+        advantages: (
+          <div>
+            {/* Advantages List */}
+            <ul className="space-y-6 font-poppins list-disc list-inside">
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> High precision with
+                  advanced 3D technology
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> Fast processing for
+                  high throughput
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> Easy-to-use
+                  interface for streamlined operation
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        benefits: (
+          <div>
+            {/* Benefits List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> Enhanced accuracy
+                  and reliability in blood analysis
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> Increased efficiency
+                  and workflow optimization
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> Reduced need for
+                  manual intervention, minimizing errors
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        testMenu: [""],
+        mainAndCare: (
+          <div>
+            {/* Maintenance and Care List */}
+            <ul className="space-y-6 font-poppins">
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> Regular Calibration:
+                  Periodic calibration to maintain accuracy.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> Routine Cleaning:
+                  Regular cleaning of sample probes and internal components.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> Software Updates:
+                  Keep software updated for the latest features.
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+                  {" "}
+                  <span className="text-[#10b981]">◆</span> Preventive
+                  Maintenance: Schedule regular checks by certified technicians
+                  for long-term reliability.
+                </p>
+              </li>
+            </ul>
+          </div>
+        ),
+
+        workServices:
+          "Technical support and service options available for system maintenance and troubleshooting.",
+        productBrochure: "path/to/dynacount-3d-brochure.pdf",
+        detailedSpecification: "Specifications available upon request.",
+        offerOrDiscounts:
+          "Check with distributor for current offers and discounts.",
+      },
       {
         allover: "3 Part Differential Hematology Analyzer",
         id: "2",
@@ -2380,18 +2380,12 @@ const products = [
         section: "3parthematology",
         shortdescription:
           "The Dynacount 3D Plus Hematology Analyzer leverages sophisticated 3D imaging to provide detailed and accurate blood cell analysis. This device is engineered to meet the demands of modern laboratories, offering reliable results with minimal manual intervention.",
-        description: (
-          <p>
-            The{" "}
-            <strong className="font-semibold">
-              Dynacount 3D Plus Hematology Analyzer
-            </strong>{" "}
+        description: `The Dynacount 3D Plus Hematology Analyzer
+     
             is an advanced technology to deliver precise and comprehensive blood
             cell analysis. Designed to meet the evolving needs of modern
             laboratories, the system ensures reliable results with minimal
-            manual intervention.
-          </p>
-        ),
+            manual intervention.`,
 
         workPrinciple: (
           <div>

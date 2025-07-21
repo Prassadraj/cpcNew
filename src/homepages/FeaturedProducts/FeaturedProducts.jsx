@@ -202,7 +202,7 @@ const featuredCards = [
   },
   {
     url: image2,
-    title: "Sedrate Pro",
+    title: "SEDRATE PRO",
     category: "Hematology",
     content:
       "An advanced ESR analyzer for accurate and rapid erythrocyte sedimentation rate (ESR) testing",

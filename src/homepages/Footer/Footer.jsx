@@ -439,7 +439,7 @@ function Footer({ open }) {
         {/* col 2 */}
         <div className="flex flex-row-reverse justify-around ">
           <div
-            className="flex  flex-col items-start mt-16 font-poppins gap-2 col2"
+            className="flex text-white  flex-col items-start mt-16 font-poppins gap-2 col2"
             ref={col2Ref}
           >
             <p className="text-xl text-nowrap tablet:text-2xl font-semibold  text-white font-poppins">
@@ -549,7 +549,7 @@ function Footer({ open }) {
 
         {/* col 3 */}
         <div
-          className="hidden tablet:flex flex-col items-start mt-16 font-poppins gap-2 col3"
+          className="hidden text-white tablet:flex flex-col items-start mt-16 font-poppins gap-2 col3"
           ref={col3Ref}
         >
           <p className="text-xl tablet:text-2xl text-white font-semibold font-poppins">
