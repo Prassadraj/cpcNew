@@ -3,19 +3,19 @@ import sachika from "../../assets/image/sachika-timeline.jpg";
 import frame from "../../assets/image/Frame-md.png";
 import jeev from "../../assets/image/jeev.jpg";
 
-import cpc from "../../assets/image/cpc-manufacturing.jpg";
+import cpc from "../../assets/image/cpc-manufacturing.jpeg";
 import itracklogo from "../../assets/image/i-track-logo.png";
 import itrack from "../../assets/image/i-track-parallex.png";
-import sachika1 from "../../../src/images/sachika-2.jpg";
-import sachika2 from "../../../src/images/sachika-3.jpg";
-import sachika3 from "../../../src/images/sachika-4.jpg";
-import jeev1 from "../../../src/images/jeev-1.jpg";
-import jeev2 from "../../../src/images/jeev-2.jpg";
-import jeev3 from "../../../src/images/jeev-3.jpg";
+import sachika1 from "../../../src/images/sachika-1.jpeg";
+import sachika2 from "../../../src/images/sachika-2.jpeg";
+import sachika3 from "../../../src/images/sachika-3.jpeg";
+import jeev1 from "../../../src/images/jeev-1.jpeg";
+import jeev2 from "../../../src/images/jeev-2.jpeg";
+import jeev3 from "../../../src/images/jeev-3.jpeg";
 import plexmat from "../AllDatas/ProductImages/Immunology/Plexmat4/Plexmat 4.webp";
 import itrack1 from "../../../src/images/itrack1.jpg";
 import itracknew from "../../assets/i-track.png";
-import cpcmanufacturingunit from "../../../src/assets/image/cpcmanufacturingunit.jpg";
+import cpcmanufacturingunit from "../../../src/assets/image/cpcmanufacturingunit.jpeg";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -207,7 +207,7 @@ function Brand() {
           >
             <u className="underline-offset-8">Sachika</u>
           </h3>
-          <div className="grid grid-cols-1 tablet:grid-cols-2 mt-10  p-10 gap-5">
+          <div className="grid grid-cols-1 tablet:grid-cols-2 mt-10  p-10 gap-5 max-w-[1300px] mx-auto">
             {/* content 1 */}
 
             <div
@@ -303,11 +303,11 @@ function Brand() {
             data-aos="zoom-in-up"
             data-aos-easing="ease-in-out"
           >
-            <u className="underline-offset-8 capitalize">
+            <u className="underline-offset-8 capitalize ">
               Reagent manufacturing facility
             </u>
           </h3>
-          <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5">
+          <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5 max-w-[1300px] mx-auto">
             {/* content 1 */}
             <div
               className="text-justify"
@@ -406,7 +406,7 @@ function Brand() {
                 Instruments manufacturing facility
               </u>
             </h3>
-            <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5  ">
+            <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5 max-w-[1300px] mx-auto ">
               {/* content 1 */}
               <div
                 className=""
@@ -505,7 +505,7 @@ function Brand() {
             >
               <img src={itracklogo} alt="" className="w-44 " />
             </div>
-            <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5 ">
+            <div className="grid grid-cols-1 tablet:grid-cols-2 p-10 gap-5 max-w-[1300px] mx-auto">
               {/* content 1 */}
               <div
                 className="text-justify"

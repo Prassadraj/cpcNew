@@ -255,7 +255,7 @@ function Blog() {
             </header>
           </div>
 
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 p-10 max-w-fit">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 p-10 max-w-fit max-w-[1300px] mx-auto">
             {blogs.map((blog) => (
               <Link
                 to={`/blog/${blog.id}`}
