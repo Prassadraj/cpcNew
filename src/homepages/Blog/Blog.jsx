@@ -44,7 +44,7 @@ function Blog() {
     },
   ];
   return (
-    <div className=" bg-white px-2 mb-2 !mt-10 laptop:mt-[8rem] largeLaptop:mt-0 ">
+    <div className=" px-2 mb-2 !mt-10 laptop:!mt-[5rem] largeLaptop:mt-0 ">
       <div className=" flex justify-between  tablet:px-10 tablet:mb-4">
         <p className="text-left laptop:mb-2 largeLaptop:mb-6 largeLaptop:text-4xl text-custom-green tablet:text-3xl text-lg font-poppins font-bold uppercase">
           Blog Snippets
