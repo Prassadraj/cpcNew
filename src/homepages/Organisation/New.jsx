@@ -173,15 +173,15 @@ function New() {
             is a centre for learning life sciences. Sachika empowers clinicians
             by upgrading their skills in modern techniques of biosciences.
           </p>
-          <p className="text-[9px] tablet:text-sm text-start flex items-center">
+          <p className="text-[9px] tablet:text-[16px] text-start flex items-center">
             <VscDebugBreakpointData className="text-green-900" />
             Basic Level Immunofluorescence.
           </p>
-          <p className="text-[9px] tablet:text-sm text-start flex items-center">
+          <p className="text-[9px] tablet:text-[16px] mt-2 text-start flex items-center">
             <VscDebugBreakpointData className="text-green-900" />
             Advanced Immunofluorescence & Immunology Training.{" "}
           </p>
-          <p className="text-[9px] tablet:text-sm text-start flex items-center">
+          <p className="text-[9px] tablet:text-[16px] mt-2 text-start flex items-center">
             <VscDebugBreakpointData className="text-green-900" />
             Clinical Lab Practices & Automation.{" "}
           </p>
