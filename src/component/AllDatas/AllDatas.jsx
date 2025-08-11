@@ -2376,7 +2376,7 @@ const products = [
         id: "2",
         coverImg: DYNACOUNT3DPlusGrey,
         image: [DYNACOUNT3DPlus],
-        title: "DYNACOUNT 3D PLUS",
+        title: "DYNACOUNT 3D Plus",
         section: "3parthematology",
         shortdescription:
           "The Dynacount 3D Plus Hematology Analyzer leverages sophisticated 3D imaging to provide detailed and accurate blood cell analysis. This device is engineered to meet the demands of modern laboratories, offering reliable results with minimal manual intervention.",
@@ -5576,7 +5576,7 @@ const products = [
         id: "15",
         image: [fluoroMat],
         coverImg: fluoroMatGrey,
-        title: "FLUOROMAT 50",
+        title: "FluoroMAT50",
         section: "ifa",
         shortdescription:
           "The Fluoromat 50 is a powerful IIFA processor designed to bring automation and efficiency to your laboratory. This automated IIFA processor delivers precise and reliable results, making it ideal for laboratories performing various diagnostics, including Rheumatology, Neurology, Nephrology, Gastrology etc. With a compact design and user-friendly interface, the Fluoromat 50 enhances lab productivity while maintaining accuracy.	",

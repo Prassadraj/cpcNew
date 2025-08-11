@@ -166,22 +166,22 @@ function New() {
             className="w-[500px]  object-contain rounded-lg"
           />
         </div>
-        <div className="flex flex-col items-start justify-center w-1/2">
+        <div className="flex flex-col items-start justify-start w-1/2">
           {/* <img src={organisation2} className=" w-[100px] mb-2" alt="img" /> */}
-          <p className="mb-2">
+          <p className="mb-2 text-xl leading-8">
             Sachika, a first-of-its-kind initiative of CPC Diagnostics Pvt. Ltd,
             is a centre for learning life sciences. Sachika empowers clinicians
             by upgrading their skills in modern techniques of biosciences.
           </p>
-          <p className="text-[9px] tablet:text-sm text-start flex items-center">
+          <p className="text-[9px] tablet:text-[20px] text-start flex items-center mt-3">
             <VscDebugBreakpointData className="text-green-900" />
             Basic Level Immunofluorescence.
           </p>
-          <p className="text-[9px] tablet:text-sm text-start flex items-center">
+          <p className="text-[9px] tablet:text-[20px] mt-2 text-start flex items-center">
             <VscDebugBreakpointData className="text-green-900" />
             Advanced Immunofluorescence & Immunology Training.{" "}
           </p>
-          <p className="text-[9px] tablet:text-sm text-start flex items-center">
+          <p className="text-[9px] tablet:text-[20px] mt-2 text-start flex items-center">
             <VscDebugBreakpointData className="text-green-900" />
             Clinical Lab Practices & Automation.{" "}
           </p>
