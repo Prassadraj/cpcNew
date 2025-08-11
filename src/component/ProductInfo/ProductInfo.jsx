@@ -361,7 +361,7 @@ function ProductInfo() {
                       Overview:
                     </p>
                     <p
-                      className={`text-lg largeLaptop:text-2xl ${
+                      className={`text-xs tablet:text-base largeLaptop:text-2xl ${
                         showLine ? "line-clamp-2" : "line-clamp-none"
                       }`}
                     >
@@ -627,7 +627,7 @@ function ProductInfo() {
                             alt=""
                             className="rounded-md z-10 h-40 object-cover w-full"
                           />
-                          <p className="text-center z-10 font-medium text-gray-700 capitalize mt-2 line-clamp-2 text-sm tablet:text-sm">
+                          <p className="text-center z-10 font-medium text-gray-700  mt-2 line-clamp-2 text-sm tablet:text-sm">
                             {related.title}
                           </p>
                         </div>
@@ -650,7 +650,7 @@ function ProductInfo() {
               ""
             )}
             {/* Frequently Asked Questions */}
-            <div className="py-6 border-1 bg-[#EEEEEE] mb-4 tablet:mt-32">
+            {/* <div className="py-6 border-1 bg-[#EEEEEE] mb-4 tablet:mt-32">
               <p className="text-center text-xl font-semibold mb-4">
                 Frequently Asked Questions
               </p>
@@ -681,7 +681,7 @@ function ProductInfo() {
                   ))}
                 </div>
               </div>
-            </div>
+            </div> */}
             <ContactUs />
           </div>
           <Footer />
