@@ -85,7 +85,7 @@ const About = () => {
             About us
           </h1>
           <div className="md:w-40 md:h-1  md:bg-white bg-white w-40 h-1  mt-2"></div>
-          <p className="mt-2 text-fontextra md:text-left text-left">
+          <p className="mt-2 text-fontforptag md:text-left text-left">
             We are a leading Medical Laboratory Equipment <br /> Manufacturer
             and Supplier.
           </p>
@@ -93,19 +93,19 @@ const About = () => {
         </header>
       </div>
 
-      <div className="grid md:grid-cols-12 sm:grid-cols-2 md:mt-10 sm:mt-28 animate-fade-up justify-center items-start max-w-[1300px] mx-auto">
+      <div className="flex md:flex-row flex-col md:mt-10 sm:mt-28 max-w-[1300px] mx-auto">
 
-        <div className="col-span-6 relative">
-  <div className="sticky top-0">
-    <img
-      src={aboutus}
-      alt="second section banner image"
-      className="w-full h-auto"
-    />
+       <div className="md:w-1/2 relative">
+    <div className="sticky top-10">
+      <img
+        src={aboutus}
+        alt="second section banner image"
+        className="w-full h-auto"
+      />
+    </div>
   </div>
-</div>
 
-        <div className="p-4 col-span-6 ">
+        <div className="md:w-1/2 p-4">
           <button className="bg-maincol text-white p-2 rounded-lg font-semibold shadow-custom-shadow mt-4">
             since-1987
           </button>
@@ -125,7 +125,7 @@ const About = () => {
             ))}
           </h2>
           <div className="md:pl-10 md:pr-10 mt-2 text-justify">
-            <p className="text-fontextra">
+            <p className="text-fontforptag">
               We are dedicated to revolutionizing the healthcare industry
               through advanced diagnostic solutions and unparalleled expertise.
               As a leading distributor and manufacturer of medical devices and
@@ -140,7 +140,7 @@ const About = () => {
                 Comprehensive Solutions for Clinical Diagnostics
               </h3>
             </div>
-            <p className="text-fontextra md:pl-12 mt-2 text-justify">
+            <p className="text-fontforptag md:pl-12 mt-2 text-justify">
               With a diverse portfolio spanning clinical chemistry, immunology,
               hematology, and molecular diagnostics, Everlife CPC delivers
               comprehensive solutions tailored to meet the unique needs of
@@ -154,7 +154,7 @@ const About = () => {
                 Regional Expertise and Global Reach
               </h3>
             </div>
-            <p className="text-fontextra md:pl-12 mt-2 text-justify">
+            <p className="text-fontforptag md:pl-12 mt-2 text-justify">
               Operating in 7 countries with over 1,000 employees, we serve more
               than 17,000 hospitals and labs, ensuring timely and efficient
               delivery of high-quality products and services across South Asia.
@@ -167,7 +167,7 @@ const About = () => {
                 Robust Partner Network
               </h3>
             </div>
-            <p className="text-fontextra md:pl-12 mt-2 text-justify">
+            <p className="text-fontforptag md:pl-12 mt-2 text-justify">
               Our extensive network of 470+ channel partners in India enables us
               to reach a broader audience and provide timely support, ensuring
               our innovative solutions are accessible to healthcare providers
@@ -181,7 +181,7 @@ const About = () => {
                 Commitment to Quality and Innovation
               </h3>
             </div>
-            <p className="text-fontextra md:pl-12 mt-2 text-justify">
+            <p className="text-fontforptag md:pl-12 mt-2 text-justify">
               Our advanced manufacturing facilities and dedicated R&D teams are
               committed to developing innovative products that drive better
               health outcomes, supported by our award-winning customer service
@@ -227,7 +227,7 @@ const About = () => {
             Our Belief System
           </h2>{" "}
           <br />
-          <p className="text-lg md:pl-40 md:pr-40 text-center">
+          <p className="text-fontforptag md:pl-40 md:pr-40 text-center">
             We are committed to delivering high-quality diagnostic solutions
             with an unwavering focus on innovation and affordability. By
             fostering strong customer connections and ensuring access to
@@ -244,7 +244,7 @@ const About = () => {
                 Our Vision
               </h3>
             </div>
-            <p className="text-fontextra">
+            <p className="text-fontforptag">
               To advance health and quality of life in Asia by improving access
               to innovative health technology and scientific advancements.
             </p>
@@ -258,7 +258,7 @@ const About = () => {
             <h3 className="font-bold text-lg text-left mt-2 text-maincol">
               Our Mission
             </h3>
-            <p className="text-fontextra">
+            <p className="text-fontforptag">
               To improve access to diagnostic and scientific technology that
               enhances health, quality, environmental, and safety outcomes.
             </p>
@@ -275,7 +275,7 @@ const About = () => {
             <h3 className="text-maincol font-semibold md:text-3xl text-2xl">
               Our Core Values
             </h3>
-            <p className="ml-2 mt-6 text-justify text-md text-fontextra">
+            <p className="ml-2 mt-6 text-justify text-md text-fontforptag">
               Our core values shape our identity and drive our actions every
               day. By embodying these principles, we strive to foster a culture
               that nurtures long-term relationships and delivers lasting value
@@ -300,7 +300,7 @@ const About = () => {
                 />
               </svg>
               &nbsp;&nbsp;&nbsp;&nbsp;
-              <p className="text-fontextra">
+              <p className="text-fontforptag">
                 Providing our customers with top-tier products and exceptional
                 services.
               </p>
@@ -324,7 +324,7 @@ const About = () => {
                 />
               </svg>
               &nbsp;&nbsp;&nbsp;&nbsp;
-              <p className="text-fontextra">
+              <p className="text-fontforptag">
                 Building a robust and sustainable business grounded in solid
                 principles.
               </p>
@@ -348,7 +348,7 @@ const About = () => {
                 />
               </svg>
               &nbsp;&nbsp;&nbsp;&nbsp;
-              <p className="text-fontextra">
+              <p className="text-fontforptag">
                 Cultivating a high-performing, motivated, and engaged workforce.
               </p>
             </div>
@@ -374,7 +374,7 @@ const About = () => {
                 &nbsp;&nbsp;&nbsp;&nbsp;
               </div>
               <div className="ml-3">
-                <p className="text-fontextra">
+                <p className="text-fontforptag">
                   {" "}
                   Adhering to strict compliance standards that ensure quality,
                   regulatory, environmental, and ethical business practices.
@@ -404,7 +404,7 @@ const About = () => {
               </div>
               <div className="ml-3">
                 {" "}
-                <p className="text-fontextra">
+                <p className="text-fontforptag">
                   Investing in projects and initiatives that benefit both the
                   company and the community.
                 </p>
@@ -440,7 +440,7 @@ const About = () => {
               <p className="text-maincol text-sm mt-1 font-semibold">
                 Chairman & Managing Director
               </p>
-              <p className="mt-2 text-fontextra">
+              <p className="mt-2 text-fontforptag">
                 Mr. R. Panchanath joined CPC after an eight-year stint in Indian
                 Bank as an officer......
               </p>
@@ -493,7 +493,7 @@ const About = () => {
               <p className="text-maincol text-sm mt-1 font-semibold">
                 Director
               </p>
-              <p className="mt-2 text-fontextra">
+              <p className="mt-2 text-fontforptag">
                 Raman will provide leadership in the overall performance of the
                 Everlife platform.......
               </p>
@@ -564,7 +564,7 @@ const About = () => {
               <p className="text-maincol text-sm mt-1 font-semibold">
                 Director
               </p>
-              <p className="mt-2 text-fontextra">
+              <p className="mt-2 text-fontforptag">
                 Chermayn has spent 14 years working in the healthcare industry
                 throughout the region....
               </p>
@@ -624,7 +624,7 @@ const About = () => {
               <p className="text-maincol text-sm mt-1 font-semibold">
                 Director
               </p>
-              <p className="mt-2 text-fontextra">
+              <p className="mt-2 text-fontforptag">
                 Ms. Bhuvana Panchanath joined CPC after many years of managing
                 bunches....
               </p>
@@ -677,7 +677,7 @@ const About = () => {
               <p className="text-maincol text-sm mt-1 font-semibold">
                 Director
               </p>
-              <p className="mt-2 text-fontextra">
+              <p className="mt-2 text-fontforptag">
                 Fabian has experience across private equity and M&A in Asia
                 Pacific......
               </p>
@@ -741,7 +741,7 @@ const About = () => {
               <p className="text-maincol text-sm mt-1 font-semibold">
                 Director
               </p>
-              <p className="mt-2 text-fontextra">
+              <p className="mt-2 text-fontforptag">
                 Dr. Pramod Kabra is a qualified internist (MD, Internal
                 Medicine) with management education.....
               </p>
@@ -810,7 +810,7 @@ const About = () => {
           <h2 className="text-maincol md:text-3xl text-2xl font-semibold mt-20 font-poppins">
             Awards
           </h2>
-          <p className="leading-8 mt-4 text-fontextra">
+          <p className="leading-8 mt-4 text-fontforptag">
           Our commitment to excellence and innovation has earned us numerous prestigious awards.
           These accolades honor our pioneering advancements in diagnostic technology, exceptional
           customer service, and rigorous quality standards. Our achievements highlight our commitment

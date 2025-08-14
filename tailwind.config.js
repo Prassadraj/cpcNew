@@ -29,6 +29,7 @@ export default {
       },
       fontSize: {
         fontextra: "1rem",
+        fontforptag: "0.9rem",
         fontptag: "0.9rem",
         fonthtwo: "1.5rem",
       },

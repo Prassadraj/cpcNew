@@ -460,61 +460,11 @@ function Contact() {
                       <p className="text-black   ml-2"> info@cpcmedsyz.in</p>
                     </a>
                   </div>
+                 <div className="flex mt-4">
+                <div className="flex flex-row justify-around items-center">
                 </div>
               </div>
             </div>
-
-            <div className="border-2 border-maincol p-8 rounded-lg w-full h-full leading-7 ">
-              <button className="p-2 bg-maincol  rounded-md font-semibold text-white w-72 h-20 text-center">
-                Kochi
-              </button>
-              <div className="flex mt-5">
-                <div className="flex flex-row justify-around items-start gap-2">
-                  <img src={locin} alt="call inner logo" className="w-7 h-7" />
-                  <div>
-                    <a
-                      href="#"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
-                    >
-                      <p className="text-black  ">
-                        C/O.M/S.SIVAKRIPA ASSOCIATES, 1. Floor, 61/3388, Kalpaka
-                        Building, Ravipuram Road, Ernakulam, Kerala, 682016 <br /> GST:
-                        32AAACC3142N2ZW
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex  mt-2">
-                <div className="flex flex-row justify-around items-start gap-2">
-                  <img src={callin} alt="call inner logo" className="w-4" />
-                  <div className="flex">
-                    <a
-                      href="tel:+91 0484 4873771"
-                      className="hover:opacity-80 hover:scale-105 transition-all underline underline-offset-2"
-                    >
-                      <p className="text-black   ml-2"> +91 0484 4873771</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex mt-4">
-                <div className="flex flex-row justify-around items-center">
-                  <img src={mailin} alt="call inner logo" className="w-5" />
-                  <div>
-                    <a
-                      href="mailto:cpckoc@cpcdiagnostics.in"
-                      className="hover:opacity-80 hover:scale-105 transition-all "
-                    >
-                      <p className="text-black   ml-3">
-                        {" "}
-                        cpckoc@cpcdiagnostics.in
-                      </p>
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
 
@@ -800,12 +750,11 @@ function Contact() {
             </div>
           </div>
 
-          <section className="font-poppins w-full">
+          {/* <section className="font-poppins w-full">
             <h2 className="text-maincol text-4xl mt-8 font-semibold font-poppins">
               Registered Office
             </h2>
             <div className="flex flex-col tablet:flex-row mobile:flex-row justify-around items-center mt-8 border-maincol border-2 pt-8 pb-8 rounded-3xl gap-4">
-              {/* Address Section */}
               <div className="flex flex-row tablet:flex-col justify-around items-start gap-2">
                 <div>
                   <a
@@ -826,7 +775,6 @@ function Contact() {
                 </div>
               </div>
 
-              {/* Phone Section */}
               <div className="flex flex-row tablet:flex-col justify-around items-center gap-2">
                 <IoCall size={28} color="#02a884" />
                 <div>
@@ -844,7 +792,6 @@ function Contact() {
                 </div>
               </div>
 
-              {/* Email Section */}
               <div className="flex flex-row tablet:flex-col justify-around items-center gap-2">
                 <IoMdMail size={28} color="#02a884" />
                 <div>
@@ -863,7 +810,7 @@ function Contact() {
               </div>
             </div>
 
-          </section>
+          </section> */}
 
           <div className="mt-20 mb-10 p-2 grid grid-cols-12 w-full shadow-2xl">
             <iframe

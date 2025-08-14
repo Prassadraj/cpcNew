@@ -65,3 +65,21 @@ h2 {
 .popup button {
   margin-top: 10px;
 }
+
+/* global.css */
+@keyframes crossfade {
+  0% { opacity: 0; }
+  5% { opacity: 1; }    /* quick fade in */
+  30% { opacity: 1; }   /* hold */
+  35% { opacity: 0; }   /* fade out */
+  100% { opacity: 0; }
+}
+
+.fade-slide {
+  animation: crossfade 6s infinite ease-in-out;
+  will-change: opacity;
+}
+
+.fade-delay-0 { animation-delay: 0s; }
+.fade-delay-2 { animation-delay: 2s; } /* 6s / 3 = 2s per image */
+.fade-delay-4 { animation-delay: 4s; }

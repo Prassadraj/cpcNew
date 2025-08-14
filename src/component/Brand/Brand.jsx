@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import sachika from "../../assets/image/sachika-timeline.jpg";
 import frame from "../../assets/image/Frame-md.png";
 import jeev from "../../assets/image/jeev.jpg";
-
+import fluoroMatGrey from "../../assets/Fluoromat50.png";
 import cpc from "../../assets/image/cpc-manufacturing.jpeg";
 import itracklogo from "../../assets/image/i-track-logo.png";
 import itrack from "../../assets/image/i-track-parallex.png";
@@ -23,6 +23,7 @@ import { SiTicktick } from "react-icons/si";
 
 import Footer from "../../homepages/Footer/Footer";
 import Loader from "../Loader/Loader";
+import '../../App.css'
 
 const content = {
   heading1: "Everlife CPC’s Groundbreaking Initiative",
@@ -108,19 +109,19 @@ const jeevcon = {
     </>
   ),
 
-  heading2: "Fully Automated Instruments",
-  content2: (
-    <>
-      Reagent manufacturing facility produces a wide range of{" "}
-      <b>IVD reagents </b>compatible with both <b>semi-automated</b> and{" "}
-      <b>fully automated instruments.</b> These reagents support advanced
-      systems like <b> Turbochem100, ChemWell,</b> and
-      <b> Biolis 50i.</b> With fully automated capabilities, Reagent
-      manufacturing facility ensures that laboratories can achieve
-      high-throughput, efficiency, and precision, seamlessly integrating into
-      diagnostic workflows for accurate, consistent results.
-    </>
-  ),
+  // heading2: "Fully Automated Instruments",
+  // content2: (
+  //   <>
+  //     Reagent manufacturing facility produces a wide range of{" "}
+  //     <b>IVD reagents </b>compatible with both <b>semi-automated</b> and{" "}
+  //     <b>fully automated instruments.</b> These reagents support advanced
+  //     systems like <b> Turbochem100, ChemWell,</b> and
+  //     <b> Biolis 50i.</b> With fully automated capabilities, Reagent
+  //     manufacturing facility ensures that laboratories can achieve
+  //     high-throughput, efficiency, and precision, seamlessly integrating into
+  //     diagnostic workflows for accurate, consistent results.
+  //   </>
+  // ),
 
   heading3: "Stringent Quality Control",
   content3: (
@@ -173,12 +174,13 @@ const cpccon = {
 const itrackcon = {
   heading1: "About i-track",
   content1:
-    "In yet another pioneering venture ECPC created i-track, our home grown design for remote maintenance of instruments. Using innovative technology i-track connects to users across India, Sri Lanka and Nepal offering online solutions to a host of customer needs in real time. Combining analytics with effective preventive and predictive maintenance, ECPC is rapidly decreasing maintenance requirements by increasing mean-time-between-failures (MTBF). Your instrument is at its most productive when you have i-track backing you!",
+    "In yet another pioneering venture Everlife CPC developed the i-track team, Our home grown design for remote support for instruments. Using innovative technology, i-track connects to users across India, Sri Lanka, Philippines, Africa and Nepal offering online solutions to our customer needs in real time. Combining analytics with effective preventive and predictive maintenance, Your instrument is at its most productive when you have i-track backing you!",
 
   heading2: "Power of Remote Connectivity",
-  content2: "Real time Fault Detection",
-  content3: "Online remote connectivity ensuring immediate service support",
-  content4: "Dedicated technical team supporting with 7 language",
+  content6 : "Real time Online Support",
+  content2: "Online remote connectivity ensuring immediate service and application support",
+  content3: "Dedicated technical team supporting multilingual ability. ",
+  content4: "Cutdown wastage of man hours and reduce down time.",
 };
 
 function Brand() {
@@ -238,7 +240,7 @@ function Brand() {
             </div>
 
             {/* content 2 */}
-            <div
+            {/* <div
               className="flex justify-center items-center mt-20"
               data-aos="flip-right"
               data-aos-easing="ease-in-out"
@@ -264,7 +266,7 @@ function Brand() {
                   {content.inner2}
                 </p>
               </div>
-            </div>
+            </div> */}
 
             {/* content 3 */}
             <div
@@ -337,7 +339,7 @@ function Brand() {
               />
             </div>
             {/* content 2 */}
-            <div
+            {/* <div
               className="flex justify-center mt-20 "
               data-aos="flip-right"
               data-aos-easing="ease-in-out"
@@ -363,7 +365,7 @@ function Brand() {
                   {jeevcon.content2}
                 </p>
               </div>
-            </div>
+            </div> */}
 
             {/* content 3 */}
 
@@ -488,11 +490,19 @@ function Brand() {
                 data-aos="flip-left"
                 data-aos-easing="ease-in-out"
               >
-                <img
-                  src={plexmat}
-                  alt=""
-                  className="w-full h-[350px] object-contain mt-10 rounded-lg bg-transparent"
-                />
+               <div className="relative w-full h-[350px] overflow-hidden rounded-lg mt-10">
+                    <img
+                      src={plexmat}
+                      alt=""
+                      className="absolute w-full h-full object-contain bg-transparent animate-fade1"
+                    />
+                    <img
+                      src={fluoroMatGrey}
+                      alt=""
+                      className="absolute w-full h-full object-contain bg-transparent animate-fade2"
+                    />
+              </div>
+
               </div> 
             </div>
           </div>
@@ -516,7 +526,7 @@ function Brand() {
                   {itrackcon.heading1}
                 </h4>
                 <div className="flex gap-4">
-                  <SiTicktick size={70} color="#02a884" className="" />{" "}
+                  <SiTicktick size={120} color="#02a884" className="" />{" "}
                   <p className="mt-4 leading-7 text-fontextra">
                     {itrackcon.content1}
                   </p>
@@ -551,8 +561,14 @@ function Brand() {
                 <h4 className="text-maincol text-2xl mt-28 font-semibold">
                   {itrackcon.heading2}
                 </h4>
-                <div className="flex gap-4">
+                 <div className="flex gap-4">
                   <SiTicktick size={20} color="#02a884" className="mt-6" />
+                  <p className="mt-4 leading-7 text-fontextra">
+                    {itrackcon.content6}
+                  </p>
+                </div>
+                <div className="flex gap-4">
+                  <SiTicktick size={24} color="#02a884" className="mt-6" />
                   <p className="mt-4 leading-7 text-fontextra">
                     {itrackcon.content2}
                   </p>
