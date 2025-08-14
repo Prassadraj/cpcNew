@@ -11,8 +11,8 @@ function Heading() {
 
   return (
     <div
-      className="flex flex-col justify-center items-center tablet:h-fit laptop:h-fit
-     largeLaptop:h-fit gap-4"
+      className="flex flex-col justify-center items-center mt-4 
+     gap-4"
     >
       {/* <p className="text-lg tablet:text-3xl largeLaptop:text-4xl text-custom-green font-semibold title1 uppercase">
         Sachika
@@ -21,7 +21,7 @@ function Heading() {
         <img
           src={sachika}
           alt="img"
-          className="w-[120px] tablet:w-[180px] object-contain rounded-lg"
+          className="w-[120px] tablet:w-[180px]  object-contain rounded-lg"
         />
       </div>
       {/* <p

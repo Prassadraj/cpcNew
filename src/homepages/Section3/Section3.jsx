@@ -52,7 +52,7 @@ function Section3() {
   };
 
   return (
-    <div className="font-poppins ">
+    <div className="font-poppins">
       {/* Section 3 */}
       <div
         className="tablet:flex  items-center tablet:gap-5 justify-around w-full

@@ -193,7 +193,7 @@ export default FeaturedProducts;
 const featuredCards = [
   {
     url: image1,
-    title: "DYNACOUNT 3D PLUS",
+    title: "DYNACOUNT 3D Plus",
     category: "Hematology",
     content:
       "Enhanced version of the 3D model, providing more detailed and faster blood cell analysis with advanced features.",
@@ -202,7 +202,7 @@ const featuredCards = [
   },
   {
     url: image2,
-    title: "Sedrate Pro",
+    title: "SEDRATE PRO",
     category: "Hematology",
     content:
       "An advanced ESR analyzer for accurate and rapid erythrocyte sedimentation rate (ESR) testing",

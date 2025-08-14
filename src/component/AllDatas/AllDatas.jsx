@@ -13,7 +13,7 @@ import neo3 from "../AllDatas/ProductImages/Biochemistry/NEO/product3.webp";
 import neo4 from "../AllDatas/ProductImages/Biochemistry/NEO/product4.webp";
 //
 import plusGrey from "../AllDatas/greyImages/Turbostat Plus.webp";
-import plus1 from "../AllDatas/ProductImages/Biochemistry/PLUS/Turbostat Plus.webp";
+import plus1 from "../AllDatas/ProductImages/Biochemistry/PLUS/plus1.jpeg";
 import plus2 from "../AllDatas/ProductImages/Biochemistry/PLUS/product2.webp";
 //turbochemprime
 import primGrey from "../AllDatas/greyImages/Turbochem Prime.webp";
@@ -168,145 +168,145 @@ const products = [
       { reagents: " content about reagents" },
     ],
     items: [
-      {
-        category: "Biochemistry",
-        section: "fullyautomatic",
-        allover: "This is for fully automatic",
-        id: "1",
-        coverImg: magnaGrey,
-        image: [magna1, magna2, magna3, magna4],
-        title: "TURBOCHEM MAGNA",
-        shortdescription:
-          "The Turbochem Magna is a fully automated biochemistry analyzer tailored for medium to large laboratories. With its advanced technology, it ensures high throughput and precision, making it ideal for comprehensive biochemical testing.",
-        description:
-          "The Turbochem Magna is a high-performance, fully automated biochemistry analyzer designed for medium to large laboratories. It offers advanced technology for precise and efficient diagnostic testing.",
-        workPrinciple: (
-          <div>
-            {/* Working Principle Table */}
-            <table className="min-w-full table-auto">
-              <tbody className="flex flex-col gap-4">
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
-                      How it Works:
-                    </strong>{" "}
-                    The analyzer employs photometric technology to measure the
-                    intensity of light absorbed by samples, providing accurate
-                    biochemical measurements.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
-                      For Whom:
-                    </strong>{" "}
-                    Designed for large hospitals and diagnostic centers
-                    requiring extensive test menus.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
-                      Use Cases:
-                    </strong>{" "}
-                    Performs a variety of tests including liver function, kidney
-                    function, lipid profiles, and more.
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        ),
+      // {
+      //   category: "Biochemistry",
+      //   section: "fullyautomatic",
+      //   allover: "This is for fully automatic",
+      //   id: "1",
+      //   coverImg: magnaGrey,
+      //   image: [magna1, magna2, magna3, magna4],
+      //   title: "TURBOCHEM MAGNA",
+      //   shortdescription:
+      //     "The Turbochem Magna is a fully automated biochemistry analyzer tailored for medium to large laboratories. With its advanced technology, it ensures high throughput and precision, making it ideal for comprehensive biochemical testing.",
+      //   description:
+      //     "The Turbochem Magna is a high-performance, fully automated biochemistry analyzer designed for medium to large laboratories. It offers advanced technology for precise and efficient diagnostic testing.",
+      //   workPrinciple: (
+      //     <div>
+      //       {/* Working Principle Table */}
+      //       <table className="min-w-full table-auto">
+      //         <tbody className="flex flex-col gap-4">
+      //           <tr>
+      //             <td className="  text-black">
+      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+      //                 How it Works:
+      //               </strong>{" "}
+      //               The analyzer employs photometric technology to measure the
+      //               intensity of light absorbed by samples, providing accurate
+      //               biochemical measurements.
+      //             </td>
+      //           </tr>
+      //           <tr>
+      //             <td className="  text-black">
+      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+      //                 For Whom:
+      //               </strong>{" "}
+      //               Designed for large hospitals and diagnostic centers
+      //               requiring extensive test menus.
+      //             </td>
+      //           </tr>
+      //           <tr>
+      //             <td className="  text-black">
+      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+      //                 Use Cases:
+      //               </strong>{" "}
+      //               Performs a variety of tests including liver function, kidney
+      //               function, lipid profiles, and more.
+      //             </td>
+      //           </tr>
+      //         </tbody>
+      //       </table>
+      //     </div>
+      //   ),
 
-        advantages: (
-          <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> High precision and
-                  reliability
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Extensive test menu
-                  for diverse diagnostics
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Capable of handling
-                  high sample volumes efficiently
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
-        benefits: (
-          <div>
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Reduces turnaround
-                  time for test results
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Enhances diagnostic
-                  efficiency and patient care
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Supports a wide
-                  range of biochemical assays
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
-        testMenu: [""],
-        mainAndCare: (
-          <div>
-            <ul className="space-y-6">
-              <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Regular calibration
-                  and quality control checks
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Routine cleaning of
-                  cuvettes and probes to ensure accurate readings
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Scheduled
-                  maintenance to prolong the lifespan of the analyzer
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
-        workServices: "Available technical support and service packages.",
-        productBrochure: "path/to/turbochem-magna-brochure.pdf",
-        detailedSpecification:
-          "Detailed technical specifications available upon request.",
-        offerOrDiscounts:
-          "Check with the distributor for current offers and discounts.",
-      },
+      //   advantages: (
+      //     <div>
+      //       <ul className="space-y-6 font-poppins">
+      //         <li className="flex gap-3">
+      //           <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> High precision and
+      //             reliability
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Extensive test menu
+      //             for diverse diagnostics
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Capable of handling
+      //             high sample volumes efficiently
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
+      //   benefits: (
+      //     <div>
+      //       <ul className="space-y-6 font-poppins">
+      //         <li className="flex gap-3">
+      //           <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Reduces turnaround
+      //             time for test results
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Enhances diagnostic
+      //             efficiency and patient care
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Supports a wide
+      //             range of biochemical assays
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
+      //   testMenu: [""],
+      //   mainAndCare: (
+      //     <div>
+      //       <ul className="space-y-6">
+      //         <li className="flex gap-3">
+      //           <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Regular calibration
+      //             and quality control checks
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Routine cleaning of
+      //             cuvettes and probes to ensure accurate readings
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" largeLaptop:text-2xl text-xs tablet:text-base text-black  text-wrap">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Scheduled
+      //             maintenance to prolong the lifespan of the analyzer
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
+      //   workServices: "Available technical support and service packages.",
+      //   productBrochure: "path/to/turbochem-magna-brochure.pdf",
+      //   detailedSpecification:
+      //     "Detailed technical specifications available upon request.",
+      //   offerOrDiscounts:
+      //     "Check with the distributor for current offers and discounts.",
+      // },
       {
         allover: "This is for fully automatic",
         id: "2",
@@ -468,7 +468,7 @@ const products = [
         allover: "This is for Semi automatic",
         id: "4",
         coverImg: plusGrey,
-        image: [plus1, plus2],
+        image: [plus1],
         title: "TURBOSTAT PLUS",
         section: "semiautomatic",
         shortdescription:
@@ -883,10 +883,10 @@ const products = [
         coverImg: ichemPrimeGrey,
         image: [ichemPrime],
         shortdescription:
-          "Identi Immuno Turbidimetry Reagents provide precise and sensitive results for detecting critical biomarkers in immunoassay testing.",
+          "identi Immuno Turbidimetry Reagents provide precise and sensitive results for detecting critical biomarkers in immunoassay testing.",
         title: "identi Immuno Turbidimetry Reagents",
         description:
-          "Identi Immuno Turbidimetry Reagents are premium solutions for immunoassay testing using turbidimetric methods. These reagents are designed to deliver precise and sensitive results, enabling the detection of critical biomarkers for effective diagnosis and treatment planning.",
+          "identi Immuno Turbidimetry Reagents are premium solutions for immunoassay testing using turbidimetric methods. These reagents are designed to deliver precise and sensitive results, enabling the detection of critical biomarkers for effective diagnosis and treatment planning.",
         workPrinciple: (
           <div>
             <table className="min-w-full table-auto">
@@ -897,7 +897,7 @@ const products = [
                       {" "}
                       How It Works? <br />
                     </strong>
-                    Identi Immuno Turbidimetry Reagents operate on turbidimetry,
+                    identi Immuno Turbidimetry Reagents operate on turbidimetry,
                     using antigen-antibody complexes to quantify proteins and
                     biomarkers accurately.
                   </td>
@@ -2069,149 +2069,149 @@ const products = [
       // "Reagents",
     ],
     items: [
-      {
-        allover: "5 Part Differential Hematology Analyzer",
-        id: "3",
-        coverImg: DYNACOUNT5Dgrey,
-        image: [DYNACOUNT5D1],
-        title: "DYNACOUNT 5D",
-        section: "5parthematology",
+      // {
+      //   allover: "5 Part Differential Hematology Analyzer",
+      //   id: "3",
+      //   coverImg: DYNACOUNT5Dgrey,
+      //   image: [DYNACOUNT5D1],
+      //   title: "DYNACOUNT 5D",
+      //   section: "5parthematology",
 
-        shortdescription:
-          "The Dynacount 5D Hematology Analyzer or CBC machine utilizes state-of-the-art 5-part differential technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with minimal manual intervention.",
-        description:
-          "The Dynacount 5D Hematology Analyzer or CBC machine is a sophisticated diagnostic tool designed for precise and comprehensive hematological analysis. It features advanced 5-part differential technology for accurate blood cell counting and differentiation, making it ideal for high-throughput laboratories. With its user-friendly interface and reliable performance, this analyzer ensures efficient and accurate results.",
-        workPrinciple: (
-          <div>
-            {/* Working Principle Table */}
-            <table className="min-w-full table-auto">
-              <tbody className="flex flex-col gap-4">
-                <tr>
-                  <td className="  text-black">
-                    <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
-                      {" "}
-                      <span className="font-semibold tablet:text-base largeLaptop:text-2xl  text-xs">
-                        Flow Cytometry (Laser Scattering)
-                      </span>
-                      :
-                    </strong>{" "}
-                    <br />A laser-based flow cytometry system is used to
-                    classify white blood cells into five subtypes (neutrophils,
-                    lymphocytes, monocytes, eosinophils, and basophils) based on
-                    cell size, granularity, and complexity.
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        ),
+      //   shortdescription:
+      //     "The Dynacount 5D Hematology Analyzer or CBC machine utilizes state-of-the-art 5-part differential technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with minimal manual intervention.",
+      //   description:
+      //     "The Dynacount 5D Hematology Analyzer or CBC machine is a sophisticated diagnostic tool designed for precise and comprehensive hematological analysis. It features advanced 5-part differential technology for accurate blood cell counting and differentiation, making it ideal for high-throughput laboratories. With its user-friendly interface and reliable performance, this analyzer ensures efficient and accurate results.",
+      //   workPrinciple: (
+      //     <div>
+      //       {/* Working Principle Table */}
+      //       <table className="min-w-full table-auto">
+      //         <tbody className="flex flex-col gap-4">
+      //           <tr>
+      //             <td className="  text-black">
+      //               <strong className="text-xs tablet:text-base font-semibold largeLaptop:text-2xl ">
+      //                 {" "}
+      //                 <span className="font-semibold tablet:text-base largeLaptop:text-2xl  text-xs">
+      //                   Flow Cytometry (Laser Scattering)
+      //                 </span>
+      //                 :
+      //               </strong>{" "}
+      //               <br />A laser-based flow cytometry system is used to
+      //               classify white blood cells into five subtypes (neutrophils,
+      //               lymphocytes, monocytes, eosinophils, and basophils) based on
+      //               cell size, granularity, and complexity.
+      //             </td>
+      //           </tr>
+      //         </tbody>
+      //       </table>
+      //     </div>
+      //   ),
 
-        advantages: (
-          <div>
-            {/* Advantages List */}
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> High precision with
-                  5-part differential technology
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Fast processing for
-                  high throughput
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> User-friendly
-                  interface for easy operation
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
+      //   advantages: (
+      //     <div>
+      //       {/* Advantages List */}
+      //       <ul className="space-y-6 font-poppins">
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> High precision with
+      //             5-part differential technology
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Fast processing for
+      //             high throughput
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> User-friendly
+      //             interface for easy operation
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
 
-        benefits: (
-          <div>
-            {/* Benefits List */}
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Enhanced accuracy
-                  and reliability in blood cell analysis
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Increased efficiency
-                  in laboratory workflows
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Reduced need for
-                  manual intervention, minimizing errors
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
+      //   benefits: (
+      //     <div>
+      //       {/* Benefits List */}
+      //       <ul className="space-y-6 font-poppins">
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Enhanced accuracy
+      //             and reliability in blood cell analysis
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Increased efficiency
+      //             in laboratory workflows
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Reduced need for
+      //             manual intervention, minimizing errors
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
 
-        testMenu: [""],
-        mainAndCare: (
-          <div>
-            {/* Maintenance and Care List */}
-            <ul className="space-y-6 font-poppins">
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Regular Calibration:
-                  Ensure periodic calibration to maintain accuracy.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Routine Cleaning:
-                  Regularly clean sample probes and internal components to
-                  ensure optimal performance.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Software Updates:
-                  Keep the software updated to benefit from the latest features
-                  and improvements.
-                </p>
-              </li>
-              <li className="flex gap-3">
-                <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
-                  {" "}
-                  <span className="text-[#10b981]">◆</span> Preventive
-                  Maintenance: Schedule regular maintenance checks by certified
-                  technicians to ensure long-term reliability.
-                </p>
-              </li>
-            </ul>
-          </div>
-        ),
+      //   testMenu: [""],
+      //   mainAndCare: (
+      //     <div>
+      //       {/* Maintenance and Care List */}
+      //       <ul className="space-y-6 font-poppins">
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Regular Calibration:
+      //             Ensure periodic calibration to maintain accuracy.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Routine Cleaning:
+      //             Regularly clean sample probes and internal components to
+      //             ensure optimal performance.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Software Updates:
+      //             Keep the software updated to benefit from the latest features
+      //             and improvements.
+      //           </p>
+      //         </li>
+      //         <li className="flex gap-3">
+      //           <p className=" text-xs largeLaptop:text-2xl tablet:text-base text-black font-normal text-wrap ">
+      //             {" "}
+      //             <span className="text-[#10b981]">◆</span> Preventive
+      //             Maintenance: Schedule regular maintenance checks by certified
+      //             technicians to ensure long-term reliability.
+      //           </p>
+      //         </li>
+      //       </ul>
+      //     </div>
+      //   ),
 
-        workServices:
-          "Available technical support for installation, maintenance, and troubleshooting.",
-        productBrochure: "path/to/dynacount-5d-brochure.pdf",
-        detailedSpecification:
-          "Detailed technical specifications available on request.",
-        offerOrDiscounts:
-          "Check for current offers and discounts with the distributor.",
-      },
+      //   workServices:
+      //     "Available technical support for installation, maintenance, and troubleshooting.",
+      //   productBrochure: "path/to/dynacount-5d-brochure.pdf",
+      //   detailedSpecification:
+      //     "Detailed technical specifications available on request.",
+      //   offerOrDiscounts:
+      //     "Check for current offers and discounts with the distributor.",
+      // },
       // {
       //   allover: "3 Part Differential Hematology Analyzer",
       //   id: "1",
@@ -2219,7 +2219,7 @@ const products = [
       //   section: "3parthematology",
       //   coverImg: DYNACOUNT3DGrey,
       //   image: [DYNACOUNT3D1],
-      //   title: "Dynacount 3D",
+      //   title: "DYNACOUNT 3D",
       //   shortdescription:
       //     "The Dynacount 3D Hematology Analyzer utilizes state-of-the-art 3D imaging technology to provide detailed and accurate blood cell analysis. It is designed to meet the rigorous demands of modern laboratories, ensuring reliable results with ease.",
       //   description:
@@ -2376,22 +2376,16 @@ const products = [
         id: "2",
         coverImg: DYNACOUNT3DPlusGrey,
         image: [DYNACOUNT3DPlus],
-        title: "DYNACOUNT 3D PLUS",
+        title: "DYNACOUNT 3D Plus",
         section: "3parthematology",
         shortdescription:
           "The Dynacount 3D Plus Hematology Analyzer leverages sophisticated 3D imaging to provide detailed and accurate blood cell analysis. This device is engineered to meet the demands of modern laboratories, offering reliable results with minimal manual intervention.",
-        description: (
-          <p>
-            The{" "}
-            <strong className="font-semibold">
-              Dynacount 3D Plus Hematology Analyzer
-            </strong>{" "}
+        description: `The Dynacount 3D Plus Hematology Analyzer
+     
             is an advanced technology to deliver precise and comprehensive blood
             cell analysis. Designed to meet the evolving needs of modern
             laboratories, the system ensures reliable results with minimal
-            manual intervention.
-          </p>
-        ),
+            manual intervention.`,
 
         workPrinciple: (
           <div>
@@ -5582,7 +5576,7 @@ const products = [
         id: "15",
         image: [fluoroMat],
         coverImg: fluoroMatGrey,
-        title: "FLUOROMAT 50",
+        title: "FluoroMAT50",
         section: "ifa",
         shortdescription:
           "The Fluoromat 50 is a powerful IIFA processor designed to bring automation and efficiency to your laboratory. This automated IIFA processor delivers precise and reliable results, making it ideal for laboratories performing various diagnostics, including Rheumatology, Neurology, Nephrology, Gastrology etc. With a compact design and user-friendly interface, the Fluoromat 50 enhances lab productivity while maintaining accuracy.	",

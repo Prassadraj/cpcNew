@@ -361,7 +361,7 @@ function ProductInfo() {
                       Overview:
                     </p>
                     <p
-                      className={`text-lg largeLaptop:text-2xl ${
+                      className={`text-xs tablet:text-base largeLaptop:text-2xl ${
                         showLine ? "line-clamp-2" : "line-clamp-none"
                       }`}
                     >

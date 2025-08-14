@@ -161,41 +161,30 @@ function New() {
           </div>
         </div>
       </div> */}
-      <div className="tablet:flex  items-center justify-center p-2 gap-4  hidden">
-        <div className="relative w-[500px] h-[300px] overflow-hidden rounded-lg mt-10 ">
-  <img
-    src={sachika1}
-    alt=""
-    className="absolute inset-0 w-full h-full object-cover rounded-lg fade-slide fade-delay-0"
-  />
-  <img
-    src={sachika2}
-    alt=""
-    className="absolute inset-0 w-full h-full object-cover rounded-lg fade-slide fade-delay-2"
-  />
-  <img
-    src={sachika3}
-    alt=""
-    className="absolute inset-0 w-full h-full object-cover rounded-lg fade-slide fade-delay-4"
-  />
-</div>
-
-        <div className="flex flex-col items-start justify-center w-1/2">
-          <img src={organisation2} className=" w-[100px] mb-2" alt="img" />
-          <p className="mb-2">
+      <div className="tablet:flex  items-center justify-center  gap-4  hidden">
+        <div className="">
+          <img
+            src={image2}
+            alt="img"
+            className="w-[500px]  object-contain rounded-lg"
+          />
+        </div>
+        <div className="flex flex-col items-start justify-start w-1/2">
+          {/* <img src={organisation2} className=" w-[100px] mb-2" alt="img" /> */}
+          <p className="mb-2 text-xl leading-8">
             Sachika, a first-of-its-kind initiative of CPC Diagnostics Pvt. Ltd,
             is a centre for learning life sciences. Sachika empowers clinicians
             by upgrading their skills in modern techniques of biosciences.
           </p>
-          <p className="text-[9px] tablet:text-[1rem] mt-2 text-start flex items-center">
+          <p className="text-[9px] tablet:text-[20px] text-start flex items-center mt-3">
             <VscDebugBreakpointData className="text-green-900" />
             Basic Level Immunofluorescence.
           </p>
-          <p className="text-[9px] tablet:text-[1rem] mt-2 text-start flex items-center">
+          <p className="text-[9px] tablet:text-[20px] mt-2 text-start flex items-center">
             <VscDebugBreakpointData className="text-green-900" />
             Advanced Immunofluorescence & Immunology Training.{" "}
           </p>
-          <p className="text-[9px] tablet:text-[1rem] mt-2 text-start flex items-center">
+          <p className="text-[9px] tablet:text-[20px] mt-2 text-start flex items-center">
             <VscDebugBreakpointData className="text-green-900" />
             Clinical Lab Practices & Automation.{" "}
           </p>
@@ -221,7 +210,14 @@ function New() {
         </div> */}
         <div className="flex flex-col items-center justify-center p-2 gap-4 mb-2">
           <img src={image2} alt="" />
+
           <div className="flex flex-col items-center justify-center">
+            <p className="mb-2 text-center text-xs">
+              Sachika, a first-of-its-kind initiative of CPC Diagnostics Pvt.
+              Ltd, is a centre for learning life sciences. Sachika empowers
+              clinicians by upgrading their skills in modern techniques of
+              biosciences.
+            </p>
             <div className=" flex items-center ">
               {" "}
               {/* <VscDebugBreakpointData className="text-green-900 " /> */}
