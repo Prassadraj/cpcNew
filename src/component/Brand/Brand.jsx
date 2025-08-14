@@ -17,7 +17,7 @@ import itrack1 from "../../../src/images/itrack1.jpg";
 import itracknew from "../../assets/i-track.png";
 import cpcmanufacturingunit from "../../../src/assets/image/cpcmanufacturingunit.jpeg";
 
-import Aos from "aos"; 
+import Aos from "aos";
 import "aos/dist/aos.css";
 import { SiTicktick } from "react-icons/si";
 
