@@ -503,7 +503,7 @@ function Brand() {
                     />
               </div>
 
-              </div> 
+              </div>  
             </div>
           </div>
 
