@@ -84,3 +84,21 @@ h2 {
 .fade-delay-2 { animation-delay: 2s; } /* 6s / 3 = 2s per image */
 .fade-delay-4 { animation-delay: 4s; }
  
+@keyframes fade1 {
+  0%, 45% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+@keyframes fade2 {
+  0%, 45% { opacity: 0; }
+  50%, 95% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.animate-fade1 {
+  animation: fade1 6s infinite;
+}
+
+.animate-fade2 {
+  animation: fade2 6s infinite;
+}

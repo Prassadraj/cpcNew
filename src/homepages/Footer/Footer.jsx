@@ -398,7 +398,8 @@ function Footer({ open }) {
             </div>{" "}
           </Link>
           <p className="text-white text-base tablet:text-base tablet:text-md max-w-xs text-centleftr font-poppins tablet:font-medium ">
-            Experience personalized medical care from the comfort of your home.
+            Enabling better outcomes.<br></br>
+            Precision. Reliability. Trust.
           </p>
           <p className="text-white font-semibold mt-3">Follow Us</p>
           <div className=" text-xl tablet:text-2xl mt-1 tablet:mt-2 text-white flex gap-3 tablet:gap-3 laptop:gap-5">

@@ -12,8 +12,8 @@ import neo2 from "../AllDatas/ProductImages/Biochemistry/NEO/product2.webp";
 import neo3 from "../AllDatas/ProductImages/Biochemistry/NEO/product3.webp";
 import neo4 from "../AllDatas/ProductImages/Biochemistry/NEO/product4.webp";
 //
-import plusGrey from "../AllDatas/greyImages/Turbostat Plus.webp";
-import plus1 from "../AllDatas/ProductImages/Biochemistry/PLUS/plus1.jpeg";
+import plusGrey from "../AllDatas/greyImages/plus1.png";
+import plus1 from "../AllDatas/ProductImages/Biochemistry/PLUS/plus1.png";
 import plus2 from "../AllDatas/ProductImages/Biochemistry/PLUS/product2.webp";
 //turbochemprime
 import primGrey from "../AllDatas/greyImages/Turbochem Prime.webp";

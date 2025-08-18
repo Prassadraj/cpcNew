@@ -72,7 +72,7 @@ function Section1() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
-            className="text-2xl mt-3 tablet:mt-0 tablet:max-w-xl tablet:text-3xl 
+            className="text-2xl mt-3 tablet:mt-0 tablet:max-w-xl tablet:text-4xl 
            w-full text-center tablet:!text-left largeLaptop:text-[35px] font-bold text-[#56575D] "
           >
             Medical Laboratory Equipment Supplier in India
@@ -82,9 +82,7 @@ function Section1() {
               className="subTitle  text-sm tablet:text-lg w-full max-w-lg tablet:w-[40vw] tablet:!text-start
              largeLaptop:text-[70px] text-center"
             >
-              Everlife CPC Diagnostics is your trusted partner for high-quality
-              In-vitro diagnostic Medical Laboratory Equipment Suppliers in
-              India.
+              Everlife CPC Diagnostics is your trusted partner for high-quality in-vitro diagnostic solutions, offering a comprehensive range of medical laboratory equipment across India.
             </p>
           </div>
           <div className="buttons flex gap-3 tablet:justify-start justify-center">
