@@ -64,7 +64,7 @@ import Jokoh3 from "../AllDatas/ProductImages/Electrolyte Analyzer/JokohEx-D/pro
 import DYNACOUNT3DPlus from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynacount 3D Plus.webp";
 import DYNACOUNT3DPlusGrey from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynacount 3D Plus.jpg";
 //
-import VisionGrey from "../AllDatas/greyImages/Vision Pro.webp";
+import VisionGrey from "../AllDatas/greyImages/vision-pro.jpg";
 import Vision1 from "../AllDatas/ProductImages/Hematology/VisionPro/vision.webp";
 import Vision2 from "../AllDatas/ProductImages/Hematology/VisionPro/vision.webp";
 //

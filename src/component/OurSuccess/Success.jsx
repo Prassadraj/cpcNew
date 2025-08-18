@@ -51,9 +51,9 @@ function Success() {
               icon={<HiMiniRocketLaunch />}
             >
               <h3 className=" text-2xl">
-                <strong>2025 </strong>
+                <strong>2024 </strong>
               </h3>
-              <p> Launched AFIAS, Dynacount 5D Pro & Dynacount 5D Elite</p>
+              <p> Started manufacturing ESR analysers with collabaration from YHLO</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -75,7 +75,52 @@ function Success() {
               <h3 className=" text-2xl">
                 <strong>2024</strong>
               </h3>
-              <p>Turbochem optima, SEDRATE PRO & EC 60</p>
+              <p>Started R&D for CLIA reagents</p>
+            </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{
+                background: "#10b981",
+                color: "white",
+                border: "",
+                borderRadius: "10px",
+                padding: "50px",
+              }}
+              iconStyle={{
+                background: "#D6FFF5",
+                color: "black",
+                border: "2px",
+              }}
+              contentArrowStyle={{ borderRight: "5px solid gray" }}
+              icon={<HiMiniRocketLaunch />}
+            >
+              <h3 className=" text-2xl">
+                <strong>2022 </strong>
+              </h3>
+              <p> Entered into POCT Segment incollbarartion with Boditech</p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              contentStyle={{
+                background: "#eeeeee",
+                color: "#10b981",
+                border: "",
+                borderRadius: "10px",
+                padding: "50px",
+              }}
+              iconStyle={{
+                background: "gray",
+                color: "white",
+                transform: "scaleX(-1)",
+              }}
+              contentArrowStyle={{ borderRight: "5px solid black" }}
+              icon={<HiMiniRocketLaunch />}
+            >
+              <h3 className=" text-2xl">
+                <strong>2021</strong>
+              </h3>
+              <p>In collaboration with Thermo Fisher, launched the One Lambda range of products</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -96,9 +141,9 @@ function Success() {
               icon={<HiMiniRocketLaunch />}
             >
               <h3 className=" text-2xl">
-                <strong>2023</strong>
+                <strong>2021</strong>
               </h3>
-              <p>Launched Dynacount 3D Plus</p>
+              <p>Started manufacturing IFA slide processors for Euroimmun</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -118,9 +163,9 @@ function Success() {
               icon={<HiMiniRocketLaunch />}
             >
               <h3 className=" text-2xl">
-                <strong>2022</strong>
+                <strong>2020</strong>
               </h3>
-              <p>Acquisition of POCT from Weldon (Boditech)</p>
+              <p>Indigenously developed identi – Viral Transport Medium (VTM)</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -140,10 +185,10 @@ function Success() {
               icon={<GiAchievement />}
             >
               <h3 className=" text-2xl">
-                <strong>2020</strong>
+                <strong>2017</strong>
               </h3>
               <p>
-                Indigenously Developed identi - VTM (Viral Transport Medium)
+                Started exporting biochemistry reagents (Awareness) to Saudi Arabia, Nigeria, Nepal, and other emerging markets
               </p>
             </VerticalTimelineElement>
 
@@ -160,9 +205,9 @@ function Success() {
               icon={<HiMiniRocketLaunch />}
             >
               <h3 className=" text-2xl">
-                <strong>2018</strong>
+                <strong>2016</strong>
               </h3>
-              <p>Launched i-Flash 1800 (Gold Standard Immunoassay Analyzer)</p>
+              <p>Designed and developed PlexMat 4, an automated line immunoassay processor</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -182,11 +227,10 @@ function Success() {
               icon={<GrAchievement />}
             >
               <h3 className=" text-2xl">
-                <strong>2018</strong>
+                <strong>2014</strong>
               </h3>
               <p>
-                Inked strategic investment partnership with private equity firm
-                Everstone
+                Started manufacturing LIA processors for Euroimmun
               </p>
             </VerticalTimelineElement>
 
@@ -203,9 +247,9 @@ function Success() {
               icon={<GiAchievement />}
             >
               <h3 className=" text-2xl">
-                <strong>2017</strong>
+                <strong>2011</strong>
               </h3>
-              <p>Entered into 5 Part Hematology Segment</p>
+              <p>Manufacturing and supply of biochemistry reagents across India with Awareness (open-system)</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -225,9 +269,9 @@ function Success() {
               icon={<GrAchievement />}
             >
               <h3 className=" text-2xl">
-                <strong>2015</strong>
+                <strong>2010</strong>
               </h3>
-              <p>Product Innovation ATL 60 Automated Tube Labeller</p>
+              <p>i-Track initiated: Strengthening remote support for faster, smarter service delivery.</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -243,9 +287,9 @@ function Success() {
               icon={<GrAchievement />}
             >
               <h3 className=" text-2xl">
-                <strong>2011</strong>
+                <strong>2009</strong>
               </h3>
-              <p>Manufacturing Reagents - JEEV Diagnostics</p>
+              <p>Inaugurated Sachika, CPC’s exclusive training centre</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -265,9 +309,9 @@ function Success() {
               icon={<GrAchievement />}
             >
               <h3 className=" text-2xl">
-                <strong>2008</strong>
+                <strong>2005</strong>
               </h3>
-              <p>First Indian Hematology Analyzer - Xcyte Plus</p>
+              <p>Designed and developed India’s first 3‑part haematology analyser</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -285,7 +329,7 @@ function Success() {
               <h3 className=" text-2xl">
                 <strong>2003</strong>
               </h3>
-              <p>Introduced BRAHMS Sepsis Markers in INDIA</p>
+              <p>Entered autoimmune diagnostics through EUROIMMUN</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -307,7 +351,7 @@ function Success() {
               <h3 className=" text-2xl">
                 <strong>2000</strong>
               </h3>
-              <p>Launched identi & Autoimmune Diagnosis from EUROIMMUN</p>
+              <p>Launched identi brand of biochemistry reagents</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -325,7 +369,7 @@ function Success() {
               <h3 className=" text-2xl">
                 <strong>1990</strong>
               </h3>
-              <p>Launch of Stat Fax Series</p>
+              <p>Launched Stat Fax series </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
           <Footer />
